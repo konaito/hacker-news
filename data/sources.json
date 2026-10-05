@@ -278,5 +278,47 @@
     "type": "reporting",
     "url": "https://www.hipaajournal.com/adapthealth-data-breach/",
     "title": "AdaptHealth Data Breach Affects 4.1 Million Individuals"
+  },
+  {
+    "id": "ozmall-2026-2",
+    "publisher": "スターツ出版",
+    "url": "https://starts-pub.jp/info20261001",
+    "title": "当社への不正アクセスによる個人情報流出の可能性に関するお知らせ（第２報）",
+    "type": "primary"
+  },
+  {
+    "id": "ikegami-2026-1",
+    "publisher": "池上通信機",
+    "url": "https://www.ikegami.co.jp/news/detail/573/",
+    "title": "当社に対するサイバー攻撃に関するお知らせ",
+    "type": "primary"
+  },
+  {
+    "id": "ikegami-2026-2",
+    "publisher": "池上通信機",
+    "url": "https://www.ikegami.co.jp/news/detail/574/",
+    "title": "当社に対するサイバー攻撃に関するお知らせ（第３報）",
+    "type": "primary"
+  },
+  {
+    "id": "baylor-genetics-2026-1",
+    "publisher": "Baylor Genetics",
+    "url": "https://www.baylorgenetics.com/securityupdate/",
+    "title": "Security Update",
+    "type": "primary"
+  },
+  {
+    "id": "baylor-genetics-2026-2",
+    "publisher": "TechRadar",
+    "url": "https://www.techradar.com/pro/security/2-8-million-people-affected-by-data-breach-at-baylor-genetics-testing-and-diagnostic-firm",
+    "title": "2.8 million people affected by data breach at Baylor Genetics testing and diagnostic firm",
+    "type": "reporting"
+  },
+  {
+    "id": "daiki-suisan-2026-1",
+    "publisher": "大起水産",
+    "url": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf",
+    "title": "不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ",
+    "type": "primary"
   }
 ]

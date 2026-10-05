@@ -383,24 +383,25 @@
     "status": "possible_leak",
     "display_label": "漏洩の可能性",
     "category": "メディア",
-    "title": "最大44万7,610人分のメールアドレスに漏洩の可能性",
-    "summary": "9月26日に海外からの大量の不正アクセスを検知。会員のメールアドレス最大44万7,610人分と、一部の氏名・都道府県までの住所が閲覧された可能性を公表しました。",
-    "note": "詳細な住所や電話番号が閲覧された形跡は未確認。原因を特定して遮断対策を実施し、サービスを再開。",
+    "title": "最大44万2,779人分の会員・退会者情報に漏洩の可能性",
+    "summary": "9月26日に海外からの大量の不正アクセスを検知。10月1日の第2報で、会員と一部退会者のメールアドレス、一部の氏名・都道府県までの住所が閲覧された可能性のある対象を最大44万2,779人分と更新しました。",
+    "note": "初報の最大44万7,610人から対象人数を更新。詳細な住所や電話番号が閲覧された形跡、二次被害は未確認。脆弱性対策を実施しサービスを再開。",
     "affected": [
       {
-        "count": 447610,
+        "count": 442779,
         "unit": "people",
-        "description": "最大44万7,610人分のメールアドレスに漏洩の可能性",
-        "source_id": "ozmall-2026-1"
+        "description": "最大44万2,779人分のメールアドレスに漏洩の可能性",
+        "source_id": "ozmall-2026-2"
       }
     ],
     "sources": [
-      "ozmall-2026-1"
+      "ozmall-2026-1",
+      "ozmall-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "一次発表の本文を開き、記載内容と突合。"
+    "verification_note": "初報と10月1日の第2報の公式本文を確認。続報を既存IDへ反映し、対象人数を更新。"
   },
   {
     "id": "metpo-2026",
@@ -643,5 +644,87 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "採用した全出典の本文を確認し主張と突合。"
+  },
+  {
+    "id": "ikegami-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "池上通信機",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造",
+    "title": "サーバーファイルが暗号化、自社保有とみられる情報が公開",
+    "summary": "一部サーバーで不正アクセスが疑われる痕跡とファイル暗号化を確認し、社内ネットワークを切断。10月2日には、自社が保有していたと思われる情報が攻撃者のリークサイトに公開されていることを確認したと発表しました。",
+    "note": "公開情報の内容・範囲は精査中。侵入開始日、被害件数、攻撃者の特定は未確認。",
+    "sources": [
+      "ikegami-2026-1",
+      "ikegami-2026-2"
+    ],
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "採用した全出典の本文を確認。一次発表の留保に合わせ分類し、発生日と公表日を区別。"
+  },
+  {
+    "id": "baylor-genetics-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": "2026-06-11",
+    "company": "Baylor Genetics",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "医療",
+    "title": "患者・従業員情報への不正アクセス、約281万人に影響",
+    "summary": "6月11日から17日にネットワークの一部と保存データへの不正アクセスがあったと説明しています。9月3日の報道で、米保健福祉省への届出人数は281万878人と伝えられました。",
+    "note": "患者の検査情報等や一部従業員の個人情報が対象になった可能性。項目は個人ごとに異なります。一次発表は持ち出しを断定しておらず、検査業務への影響や情報の不正利用も未確認。",
+    "sources": [
+      "baylor-genetics-2026-1",
+      "baylor-genetics-2026-2"
+    ],
+    "affected": [
+      {
+        "count": 2810878,
+        "unit": "people",
+        "description": "米保健福祉省への届出としてTechRadarが報じた影響人数",
+        "source_id": "baylor-genetics-2026-2"
+      }
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "採用した全出典の本文を確認。一次発表の留保に合わせ分類し、発生日と公表日を区別。"
+  },
+  {
+    "id": "daiki-suisan-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "大起水産",
+    "service": "大起水産公式アプリ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "飲食",
+    "title": "退会者を含む17万4,933人の個人情報に漏洩のおそれ",
+    "summary": "公式アプリのシステムが第三者から不正アクセスを受け、登録者17万4,933人の氏名・電話番号・メールアドレス等が漏洩した可能性を否定できないと公表しました。",
+    "note": "9月15日に事案を確認したが侵入開始日は不明。実際の外部漏洩と不正利用は未確認。住所・生年月日は任意登録、パスワードは対象外。アプリは通常利用可能。",
+    "sources": [
+      "daiki-suisan-2026-1"
+    ],
+    "affected": [
+      {
+        "count": 174933,
+        "unit": "people",
+        "description": "2024年11月1日～2026年9月15日のアプリ登録者（退会者を含む）",
+        "source_id": "daiki-suisan-2026-1"
+      }
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式PDFをダウンロードしPDFKitで全本文を抽出して確認。漏洩未確認と発見日・発生日を区別。"
   }
 ]
