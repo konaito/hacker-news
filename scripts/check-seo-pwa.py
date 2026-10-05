@@ -17,7 +17,7 @@ class Head(HTMLParser):
     def handle_endtag(self,t):
         if t=='script' and self.capture:self.ld.append(json.loads(self.buffer));self.capture=False
 records=json.loads((ROOT/'data/incidents.json').read_text())
-pages=[OUT/'index.html']+list((OUT/'news').glob('*/index.html'))+list((OUT/'archive').glob('*/index.html'))
+pages=[OUT/'index.html',OUT/'updates/index.html']+list((OUT/'news').glob('*/index.html'))+list((OUT/'archive').glob('*/index.html'))
 urls=set()
 for page in pages:
     p=Head();p.feed(page.read_text())

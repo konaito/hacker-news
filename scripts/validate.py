@@ -3,7 +3,10 @@ from pathlib import Path
 from datetime import date
 from urllib.parse import urlparse
 import argparse,urllib.request
+import sys
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from updates import load_history
 def validate():
     incidents=json.loads((ROOT/'data/incidents.json').read_text())
     sources=json.loads((ROOT/'data/sources.json').read_text())
@@ -30,6 +33,7 @@ def validate():
             assert isinstance(a['count'],int) and a['count']>=0
             assert a['source_id'] in r['sources']
     json.loads((ROOT/'data/monthly-digests.json').read_text())
+    load_history(ROOT)
     print(f'Validated {len(incidents)} incidents and {len(sources)} sources')
     return sources
 if __name__=='__main__':

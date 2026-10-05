@@ -1,0 +1,272 @@
+[
+  {
+    "id": "commit-ed200eee38e2",
+    "timestamp": "2026-10-06T03:40:23+09:00",
+    "summary": "記事追加 11件",
+    "changes": [
+      {
+        "id": "boston-scientific-2026",
+        "company": "Boston Scientific / 米国",
+        "title": "医療機器メーカーの製造・出荷に影響、9月に復旧",
+        "action": "added"
+      },
+      {
+        "id": "daiwa-2026",
+        "company": "大和証券",
+        "title": "外部委託先の侵害で最大約11万人の顧客情報に影響の可能性",
+        "action": "added"
+      },
+      {
+        "id": "eplus-2026",
+        "company": "イープラス / スマチケ",
+        "title": "払戻し管理システムから1,463件の個人情報が漏洩",
+        "action": "added"
+      },
+      {
+        "id": "gss-2026",
+        "company": "デジタル庁・GSS",
+        "title": "VPN経由の侵入で、職員・業務関係者の情報が対象に",
+        "action": "added"
+      },
+      {
+        "id": "gyazo-2026",
+        "company": "Gyazo / Helpfeel",
+        "title": "ユーザー関連データ約2,362万件と画像メタデータが流出",
+        "action": "added"
+      },
+      {
+        "id": "japanpost-2026",
+        "company": "日本郵便 / 郵便局アプリ",
+        "title": "19人分・69件の顧客情報を不正取得",
+        "action": "added"
+      },
+      {
+        "id": "keio-2026",
+        "company": "京王電鉄グループ",
+        "title": "ランサムウェアで一部の営業システムに障害",
+        "action": "added"
+      },
+      {
+        "id": "murauchi-2026",
+        "company": "ムラウチドットコム",
+        "title": "約771万件の顧客情報の持ち出しを確認",
+        "action": "added"
+      },
+      {
+        "id": "park24-2026",
+        "company": "タイムズカー / パーク24",
+        "title": "約660万アカウントが対象。本人確認書類も流出",
+        "action": "added"
+      },
+      {
+        "id": "sakura-2026",
+        "company": "さくらインターネット",
+        "title": "会員情報 約136万アカウントに影響の可能性",
+        "action": "added"
+      },
+      {
+        "id": "seicomart-2026",
+        "company": "セイコーマート",
+        "title": "アプリ会員57万2,022人分の情報の閲覧を確認",
+        "action": "added"
+      }
+    ]
+  },
+  {
+    "id": "commit-846eb63807c2",
+    "timestamp": "2026-10-06T03:44:29+09:00",
+    "summary": "記事追加 8件",
+    "changes": [
+      {
+        "id": "bigcommerce-2026",
+        "company": "BigCommerce関連店舗",
+        "title": "連携アプリの認証情報を奪われ、EC店舗へ侵入",
+        "action": "added"
+      },
+      {
+        "id": "denmark-cpr-2026",
+        "company": "デンマーク政府",
+        "title": "約880万人分の登録情報に不正アクセス",
+        "action": "added"
+      },
+      {
+        "id": "dmdc-2026",
+        "company": "米国防総省 / DMDC",
+        "title": "軍・文民の人事関連記録、約300万件が露出した可能性",
+        "action": "added"
+      },
+      {
+        "id": "fines-2026",
+        "company": "ファインズ",
+        "title": "予約者情報153万6,322件が影響対象、詳細調査中",
+        "action": "added"
+      },
+      {
+        "id": "metpo-2026",
+        "company": "東京メトロ",
+        "title": "約5万9,000件のメールアドレスが閲覧・取得された可能性",
+        "action": "added"
+      },
+      {
+        "id": "nikkei-2026",
+        "company": "日本経済新聞社",
+        "title": "社員アカウントの侵害から約9,000件のフィッシングメール",
+        "action": "added"
+      },
+      {
+        "id": "ozmall-2026",
+        "company": "スターツ出版",
+        "title": "最大44万7,610人分のメールアドレスに漏洩の可能性",
+        "action": "added"
+      },
+      {
+        "id": "yamato-2026",
+        "company": "ヤマト運輸",
+        "title": "後払いサービスの顧客・加盟店・社員情報に漏洩の可能性",
+        "action": "added"
+      }
+    ]
+  },
+  {
+    "id": "commit-e64b58ade593",
+    "timestamp": "2026-10-06T04:28:50+09:00",
+    "summary": "記事追加 6件",
+    "changes": [
+      {
+        "id": "adapthealth-2026",
+        "company": "AdaptHealth",
+        "title": "約411万人の個人・健康情報に影響",
+        "action": "added"
+      },
+      {
+        "id": "nichirei-2026",
+        "company": "ニチレイ",
+        "title": "配送先・取引先・従業員等の個人情報漏洩を確認",
+        "action": "added"
+      },
+      {
+        "id": "omu-2026",
+        "company": "大阪公立大学",
+        "title": "大規模システム障害、500台のサーバー停止",
+        "action": "added"
+      },
+      {
+        "id": "sagawa-2026",
+        "company": "佐川急便",
+        "title": "荷物追跡サービスに侵入。約100日分の配送データが対象に",
+        "action": "added"
+      },
+      {
+        "id": "whiteessence-2026",
+        "company": "ホワイトエッセンス",
+        "title": "約105万アカウントの個人情報持ち出しを確認",
+        "action": "added"
+      },
+      {
+        "id": "yakiniku-king-2026",
+        "company": "物語コーポレーション",
+        "title": "公式アプリの会員情報1,078万8,963件の漏洩を確認",
+        "action": "added"
+      }
+    ]
+  },
+  {
+    "id": "commit-ec4429ce80be",
+    "timestamp": "2026-10-06T05:32:12+09:00",
+    "summary": "記事追加 3件、内容更新 1件",
+    "changes": [
+      {
+        "id": "baylor-genetics-2026",
+        "company": "Baylor Genetics",
+        "title": "患者・従業員情報への不正アクセス、約281万人に影響",
+        "action": "added"
+      },
+      {
+        "id": "daiki-suisan-2026",
+        "company": "大起水産",
+        "title": "退会者を含む17万4,933人の個人情報に漏洩のおそれ",
+        "action": "added"
+      },
+      {
+        "id": "ikegami-2026",
+        "company": "池上通信機",
+        "title": "サーバーファイルが暗号化、自社保有とみられる情報が公開",
+        "action": "added"
+      },
+      {
+        "id": "ozmall-2026",
+        "company": "スターツ出版",
+        "title": "最大44万2,779人分の会員・退会者情報に漏洩の可能性",
+        "action": "updated"
+      }
+    ]
+  },
+  {
+    "id": "commit-501db4b8d5b5",
+    "timestamp": "2026-10-06T06:34:55+09:00",
+    "summary": "記事追加 1件",
+    "changes": [
+      {
+        "id": "rext-2026",
+        "company": "REXT Holdings / REXT",
+        "title": "ランサムウェア被害、流出の可能性がある情報のネット掲載を確認",
+        "action": "added"
+      }
+    ]
+  },
+  {
+    "id": "commit-80cef3328a46",
+    "timestamp": "2026-10-06T07:39:43+09:00",
+    "summary": "記事追加 7件",
+    "changes": [
+      {
+        "id": "ainokaze-2026",
+        "company": "あいの風とやま鉄道",
+        "title": "観光列車の予約システム侵害、1,409人の個人情報に漏洩のおそれ",
+        "action": "added"
+      },
+      {
+        "id": "applynow-2026",
+        "company": "ApplyNow / 吉野家・はなまる",
+        "title": "委託先の採用情報漏洩、応募者・採用担当者5,784アカウントが対象",
+        "action": "added"
+      },
+      {
+        "id": "atb-2026",
+        "company": "ATB（ウクライナ）",
+        "title": "Webサイトに恐喝メッセージ、企業は顧客情報流出を否定",
+        "action": "added"
+      },
+      {
+        "id": "dai-ichi-life-2026",
+        "company": "第一ライフグループ / 第一生命保険",
+        "title": "従業員・退職者約12万人の個人情報が流出した可能性",
+        "action": "added"
+      },
+      {
+        "id": "lean-body-2026",
+        "company": "LEAN BODY",
+        "title": "分析ツールの脆弱性から約44万アカウントの顧客情報を取得される",
+        "action": "added"
+      },
+      {
+        "id": "mitsui-fudosan-2026",
+        "company": "三井不動産グループ",
+        "title": "役職員等最大1万9,000件・社外関係者最大3万6,000件に漏洩の可能性",
+        "action": "added"
+      },
+      {
+        "id": "vl-prosperity-2026",
+        "company": "VL Prosperity関連タンカー",
+        "title": "タンカーの船内ネットワーク侵害、米沿岸警備隊とFBIが調査",
+        "action": "added"
+      }
+    ]
+  },
+  {
+    "id": "site-update-history",
+    "timestamp": "2026-10-05T23:31:18+00:00",
+    "summary": "トップページと専用ページに更新履歴を追加。以後の毎時更新で記事の変更を自動記録。",
+    "changes": []
+  }
+]

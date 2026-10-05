@@ -10,6 +10,7 @@ Cover important hacking, information leaks, ransomware, and system compromises i
 - `data/incidents.json`: incident records with stable IDs, dates, status, affected counts, source references, and publication status.
 - `data/sources.json`: source registry with stable IDs, titles, URLs, types, and publishers.
 - `data/monthly-digests.json`: monthly editorial titles and summaries.
+- `data/updates.json`: public update history restored from committed changes and appended by the audit runner. `updates.py` compares public incident/source content; verification-only and pending-only edits do not create public history. `public/updates/index.html` is generated and included in audit commits.
 - `data/featured-reading.json`: user-selected external article cards; keep them separate from incident evidence and counts. Preserve the supplied destination URLs. Do not invent article titles or claims when the page cannot be read.
 - `ai-content.html`: detailed AI report fragments; AI report metadata is currently in `build.py`.
 - `build.py` and `seo.py`: standard-library generators for the dashboard, crawlable `public/news/` articles, `public/archive/` pages, sitemap, RSS and versioned service worker.
