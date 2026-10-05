@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hackernews.allalarm.app/sitemap.xml

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sakura-1",
+    "title": "さくらインターネット｜第三報",
+    "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+    "type": "primary",
+    "publisher": "www.sakura.ad.jp"
+  },
+  {
+    "id": "gss-1",
+    "title": "デジタル庁｜公式発表",
+    "url": "https://www.digital.go.jp/news/2026-0911-01",
+    "type": "primary",
+    "publisher": "www.digital.go.jp"
+  },
+  {
+    "id": "murauchi-1",
+    "title": "ムラウチドットコム｜調査報告",
+    "url": "https://murauchi.com/static-pages/privacy/pressrelease.html",
+    "type": "primary",
+    "publisher": "murauchi.com"
+  },
+  {
+    "id": "murauchi-2",
+    "title": "件数・侵入経路の報道",
+    "url": "https://gate02.ne.jp/lab/security-article/incident-news-summary-202609-extra-edition/",
+    "type": "reporting",
+    "publisher": "gate02.ne.jp"
+  },
+  {
+    "id": "gyazo-1",
+    "title": "Helpfeel｜第二報",
+    "url": "https://corp.helpfeel.com/news/news-20260925-01",
+    "type": "primary",
+    "publisher": "corp.helpfeel.com"
+  },
+  {
+    "id": "park24-1",
+    "title": "パーク24｜第二報",
+    "url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+    "type": "primary",
+    "publisher": "www.park24.co.jp"
+  },
+  {
+    "id": "park24-2",
+    "title": "パーク24｜第三報",
+    "url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
+    "type": "primary",
+    "publisher": "www.park24.co.jp"
+  },
+  {
+    "id": "keio-1",
+    "title": "京王電鉄｜公式発表",
+    "url": "https://www.keio.co.jp/news/update/announce/nr260926v13404/",
+    "type": "primary",
+    "publisher": "www.keio.co.jp"
+  },
+  {
+    "id": "eplus-1",
+    "title": "イープラス｜公式発表",
+    "url": "https://support-qa.eplus.jp/hc/ja/articles/62711500727961",
+    "type": "primary",
+    "publisher": "support-qa.eplus.jp"
+  },
+  {
+    "id": "japanpost-1",
+    "title": "日本郵便｜公式発表（PDF）",
+    "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/18239b871f714763aa7eb15c25e7b30b/20260929_01.pdf",
+    "type": "primary",
+    "publisher": "files.japanpost.jp"
+  },
+  {
+    "id": "seicomart-1",
+    "title": "セイコーマート｜第三報",
+    "url": "https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=121",
+    "type": "primary",
+    "publisher": "online.seicomart.co.jp"
+  },
+  {
+    "id": "sagawa-1",
+    "title": "ITmedia NEWS｜10月1日報道",
+    "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001933/",
+    "type": "reporting",
+    "publisher": "www.itmedia.co.jp"
+  },
+  {
+    "id": "nikkei-1",
+    "title": "The Record｜10月5日報道",
+    "url": "https://therecord.media/nikkei-cyberattack-japan-data",
+    "type": "reporting",
+    "publisher": "therecord.media"
+  },
+  {
+    "id": "daiwa-1",
+    "title": "大和証券｜公式発表（PDF）",
+    "url": "https://ssl4.eir-parts.net/doc/8601/tdnet/2891437/00.pdf",
+    "type": "primary",
+    "publisher": "ssl4.eir-parts.net"
+  },
+  {
+    "id": "boston-scientific-1",
+    "title": "Boston Scientific｜調査結果",
+    "url": "https://news.bostonscientific.com/update-on-recent-cybersecurity-incident?cid=sm10022366",
+    "type": "primary",
+    "publisher": "news.bostonscientific.com"
+  },
+  {
+    "id": "boston-scientific-2",
+    "title": "Boston Scientific｜業務復旧",
+    "url": "https://news.bostonscientific.com/update-on-recent-cybersecurity-incident?_sp=1c315d87-4305-4a19-b236-ade91391fb4e.1787938681800",
+    "type": "primary",
+    "publisher": "news.bostonscientific.com"
+  },
+  {
+    "id": "bigcommerce-1",
+    "title": "TechRadar｜9月22日報道",
+    "url": "https://www.techradar.com/pro/security/bigcommerce-warns-customers-of-potential-data-leaks-following-cyber-incident",
+    "type": "reporting",
+    "publisher": "www.techradar.com"
+  },
+  {
+    "id": "dmdc-1",
+    "title": "Tom’s Hardware｜9月30日報道",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/pentagon-gets-pwned-as-breach-exposes-sensitive-data-on-nearly-three-million-military-and-civilian-personnel-stolen-info-includes-social-security-numbers-and-job-related-records",
+    "type": "reporting",
+    "publisher": "www.tomshardware.com"
+  }
+]

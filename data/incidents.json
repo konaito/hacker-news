@@ -1,0 +1,348 @@
+[
+  {
+    "id": "sakura-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "さくらインターネット",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "会員情報 約136万アカウントに影響の可能性",
+    "summary": "レンタルサーバーの一部環境と販売管理システムに不正アクセス。136万563アカウントに関する保存情報が、第三者に閲覧・取得された可能性があると発表しました。一部サービスの初期パスワードも対象に含まれます。",
+    "note": "8月に公表した事案の調査結果。対象アカウントについて、保存情報がすべて実際に取得されたと確認したものではありません。",
+    "affected": [],
+    "sources": [
+      "sakura-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "gss-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": null,
+    "company": "デジタル庁・GSS",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "VPN経由の侵入で、職員・業務関係者の情報が対象に",
+    "summary": "政府の共通業務基盤「ガバメントソリューションサービス」で、氏名・メールアドレス・電話番号・住所など約24.6万件が漏洩した可能性。VPNの脆弱性を利用した侵入を確認しました。",
+    "note": "6月25日に大量のファイルアクセスを検知。一般の方の個人情報やマイナンバー、金融機関口座情報は含まれないと説明しています。",
+    "affected": [],
+    "sources": [
+      "gss-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "murauchi-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": null,
+    "company": "ムラウチドットコム",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "EC・小売",
+    "title": "約771万件の顧客情報の持ち出しを確認",
+    "summary": "7月に公表した不正アクセスの調査が完了し、771万6,811件の個人情報漏洩が明らかになりました。氏名・住所・電話番号などが対象です。",
+    "note": "Webシステムの脆弱性を起点に複数システムへ侵入。クレジットカード情報、ログインID・パスワードは対象外と説明しています。",
+    "affected": [],
+    "sources": [
+      "murauchi-1",
+      "murauchi-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "gyazo-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "Gyazo / Helpfeel",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "流出確認",
+    "category": "IT・クラウド",
+    "title": "ユーザー関連データ約2,362万件と画像メタデータが流出",
+    "summary": "画像共有サービス「Gyazo」からユーザーに関するデータ約2,362万件が流出。メールアドレスを登録したユーザーのデータは約562万件で、残りの約1,801万件は匿名ユーザーのデータです。",
+    "note": "画像メタデータ約4.9億件などに加え、削除済み画像のメタデータ約1.74億件の流出も確認。これらは画像ファイルそのものの流出件数ではありません。9月27日にサービスを再開しました。",
+    "affected": [],
+    "sources": [
+      "gyazo-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "park24-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "タイムズカー / パーク24",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "交通・物流",
+    "title": "約660万アカウントが対象。本人確認書類も流出",
+    "summary": "タイムズカーのWebシステムから、現会員・退会済み会員の約660万アカウントの情報を第三者が取得。約160万アカウントで、運転免許証画像などの本人確認書類の漏洩を確認しました。",
+    "note": "本人確認書類には、現住所確認書類、学生プランの学生証、家族プランの家族確認書類も含まれます。アカウントによって流出した情報は異なります。",
+    "affected": [
+      {
+        "count": 6600000,
+        "unit": "accounts",
+        "description": "流出した会員アカウント",
+        "source_id": "park24-1"
+      },
+      {
+        "count": 1600000,
+        "unit": "accounts",
+        "description": "本人確認書類の流出対象アカウント",
+        "source_id": "park24-2"
+      }
+    ],
+    "sources": [
+      "park24-1",
+      "park24-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "keio-2026",
+    "published_at": "2026-09-26",
+    "occurred_at": null,
+    "company": "京王電鉄グループ",
+    "service": null,
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "業務障害・調査中",
+    "category": "交通・物流",
+    "title": "ランサムウェアで一部の営業システムに障害",
+    "summary": "グループのサーバーにランサムウェア攻撃を確認。一部グループ会社の営業システムに支障が生じ、ネットワーク遮断などの対応を実施しました。",
+    "note": "9月26日の発表時点では情報漏洩の事実は確認されておらず、影響範囲を調査中。鉄道の運行に支障はないとしています。",
+    "affected": [],
+    "sources": [
+      "keio-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "eplus-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "イープラス / スマチケ",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "エンタメ",
+    "title": "払戻し管理システムから1,463件の個人情報が漏洩",
+    "summary": "電子チケット「スマチケ」の払戻し情報を管理するシステムが不正アクセスを受けました。1,463件にメールアドレス、カタカナ氏名、対象公演の情報が含まれます。",
+    "note": "うち751件には振込先口座情報、68件には郵便番号・住所・氏名も含まれます。不正アクセスは9月11日夜から12日未明に発生しました。",
+    "affected": [],
+    "sources": [
+      "eplus-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "japanpost-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "日本郵便 / 郵便局アプリ",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "不正取得確認",
+    "category": "交通・物流",
+    "title": "19人分・69件の顧客情報を不正取得",
+    "summary": "郵便局アプリが外部から不正アクセスを受け、ゆうIDおよびアプリに関連する顧客情報69件、19人分が不正に取得されたと発表しました。",
+    "note": "9月25日夜に緊急メンテナンスを実施し、26日にサービスを再開しました。",
+    "affected": [],
+    "sources": [
+      "japanpost-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "seicomart-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "セイコーマート",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "不正閲覧確認",
+    "category": "EC・小売",
+    "title": "アプリ会員57万2,022人分の情報の閲覧を確認",
+    "summary": "アプリのサーバーを経由して会員情報を保有するサーバーに不正アクセス。57万2,022人分の情報が閲覧されたことを第三報で確認しました。",
+    "note": "対象はアプリに登録したことがある会員の約49%。アプリに登録していない会員は対象外です。「閲覧確認」と、外部への持ち出しの確認は区別が必要です。",
+    "affected": [],
+    "sources": [
+      "seicomart-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "sagawa-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": null,
+    "company": "佐川急便",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "交通・物流",
+    "title": "荷物追跡サービスに侵入。約100日分の配送データが対象に",
+    "summary": "「お荷物問い合わせサービス」への不正アクセスを確認。送り主・届け先の氏名、住所、電話番号など、約100日分の荷物データが外部に流出した可能性があると報じられています。",
+    "note": "対象件数・範囲は調査中。サービスの一部機能を制限しています。",
+    "affected": [],
+    "sources": [
+      "sagawa-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "nikkei-2026",
+    "published_at": "2026-10-04",
+    "occurred_at": null,
+    "company": "日本経済新聞社",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "侵害確認・漏洩の可能性",
+    "category": "メディア",
+    "title": "社員アカウントの侵害から約9,000件のフィッシングメール",
+    "summary": "社員のMicrosoft 365アカウントが侵害され、9月30日に約9,000件のフィッシングメールを送信。氏名・メールアドレス・一部のメール内容が漏洩した可能性があります。",
+    "note": "別件のGoogle Workspaceへの不正ログインも公表。こちらは社員・取引先など1,646人分が漏洩した可能性。二つの事案の関連は明らかにされていません。",
+    "affected": [],
+    "sources": [
+      "nikkei-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "daiwa-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "大和証券",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "金融",
+    "title": "外部委託先の侵害で最大約11万人の顧客情報に影響の可能性",
+    "summary": "外部委託先が管理するサーバーへの不正アクセスにより、最大約11万人の顧客情報が漏洩した可能性があると公表しました。",
+    "note": "大和証券自身のシステムへの侵入は確認されておらず、対象情報のみで口座へのログインや取引はできないと説明しています。",
+    "affected": [],
+    "sources": [
+      "daiwa-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "boston-scientific-2026",
+    "published_at": "2026-09-22",
+    "occurred_at": null,
+    "company": "Boston Scientific / 米国",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "侵入確認・業務復旧",
+    "category": "医療・製造",
+    "title": "医療機器メーカーの製造・出荷に影響、9月に復旧",
+    "summary": "8月25日に検知したサイバー攻撃で製造・出荷などに影響し、9月9日に業務復旧を発表。調査では、外部向けネットワーク機器から社内IT環境の一部への侵入を確認しました。",
+    "note": "9月22日の調査結果では、調査対象の顧客・患者データを含むシステムからの持ち出しの証拠は見つからなかったとしています。",
+    "affected": [],
+    "sources": [
+      "boston-scientific-1",
+      "boston-scientific-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "bigcommerce-2026",
+    "published_at": "2026-09-22",
+    "occurred_at": null,
+    "company": "BigCommerce関連店舗",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "顧客情報へのアクセス確認",
+    "category": "EC・小売",
+    "title": "連携アプリの認証情報を奪われ、EC店舗へ侵入",
+    "summary": "外部アプリ「Ribon」の認証情報が侵害され、連携先のEC店舗へ侵入。Master of Maltでは、顧客の氏名・メールアドレス・電話番号・住所へのアクセスを確認しました。",
+    "note": "攻撃期間は9月13〜17日。利用店舗全体の被害人数は不明です。店舗自身ではなく、連携アプリの認証情報が入口となった事案です。",
+    "affected": [],
+    "sources": [
+      "bigcommerce-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  },
+  {
+    "id": "dmdc-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "米国防総省 / DMDC",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "不正アクセス確認",
+    "category": "行政・公共",
+    "title": "軍・文民の人事関連記録、約300万件が露出した可能性",
+    "summary": "2025年10月〜2026年7月に人事関連システムへ不正アクセス。存命者に関する約276万件と故人に関する約29.4万件の記録が、閲覧・持ち出しの対象となった可能性が報じられました。",
+    "note": "社会保障番号や職務情報を含みます。政府側は不正アクセスを認め、脆弱性を修正したと説明。発表時点で情報の悪用は未確認です。",
+    "affected": [],
+    "sources": [
+      "dmdc-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+  }
+]

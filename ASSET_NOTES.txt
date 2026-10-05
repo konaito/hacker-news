@@ -1,0 +1,10 @@
+Asset: public/assets/cybersecurity-news.png
+Tool: built-in image_gen.imagegen
+Original: /Users/konaito/.codex/generated_images/01a10d2d-9297-7ca3-bcfd-b10b7396cb3b/exec-e3d97d22-8dea-43bd-99fe-03c8d9816f89.png
+Prompt:
+Use case: photorealistic-natural. Asset type: wide editorial header photo for a Japanese cybersecurity news dashboard. A folded high-quality newspaper on a clean white desk, angled diagonally, with the readable English headline 'Cybersecurity' and smaller 'News & Analysis', restrained tiny black editorial columns underneath; softly defocused modern city skyline visible through a window behind it. Calm daylight, clean white and icy pale blue palette, refined serious financial newspaper photography, not dramatic hacker stock imagery. Landscape composition: most objects clustered on the right half, left half is very bright uncluttered white negative space for HTML headline overlay. No people, no logos, no watermark, no interface chrome. The image is illustrative, not evidence of a specific cyber incident.
+
+Font: LINE Seed JP, Regular and Bold, downloaded from https://seed.line.me/src/images/fonts/LINE_Seed_JP.zip
+Font license: public/fonts/OFL.txt
+Icon set: Lucide Static 1.52.0 (17 icons), downloaded from the official npm package lucide-static.
+Icon license: public/icons/LICENSE.txt
