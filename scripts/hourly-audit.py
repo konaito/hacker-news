@@ -20,7 +20,7 @@ json.loads(checkpoint.read_text())
 changed=subprocess.check_output(['git','diff','--name-only'],text=True).splitlines()
 if any(not p.startswith('data/') and p not in ('public/index.html','public/sitemap.xml') for p in changed): raise SystemExit('Unexpected changes; publication halted.')
 if changed:
-    run(['python3','scripts/validate.py']); run(['python3','build.py']); run(['node','--check','public/app.js'])
+    run(['python3','scripts/validate.py']); run(['python3','build.py']); run(['python3','scripts/check-page.py']); run(['node','--check','public/app.js'])
     run(['git','add','data','public/index.html','public/sitemap.xml'])
     run(['git','commit','-m','Update verified cybersecurity news'])
 # Resume deployment after previous publish failure, including runs with no new content.
