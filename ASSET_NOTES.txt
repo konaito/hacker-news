@@ -8,3 +8,5 @@ Font: LINE Seed JP, Regular and Bold, downloaded from https://seed.line.me/src/i
 Font license: public/fonts/OFL.txt
 Icon set: Lucide Static 1.52.0 (17 icons), downloaded from the official npm package lucide-static.
 Icon license: public/icons/LICENSE.txt
+
+App icon (2026-10-06): built-in image_gen. Original: public/icons/app/app-icon-original.png. Prompt: Premium square ALLALARM Cyber Journal cybersecurity news app icon; midnight navy background, centered white/electric-blue A-shaped shield and cyan signal slash, high contrast, symbol only, no words, border or rounded outer corners. Exported with sips to favicon, Apple touch and 192/512 icons. Maskable version uses padded safe area. Social card: 1200x630 PNG composed using native AppKit typography and the generated icon; no incident photograph.

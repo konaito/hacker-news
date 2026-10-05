@@ -1,0 +1,46 @@
+name: Validate and deploy Cloudflare Pages
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cloudflare-pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate records and build
+        run: |
+          python3 scripts/validate.py
+          python3 build.py
+          python3 scripts/check-page.py
+          python3 scripts/check-seo-pwa.py
+          node --check public/app.js
+          node --check public/pwa.js
+          node --check public/sw.js
+          node scripts/test-service-worker.cjs
+      - name: Verify committed output is reproducible
+        run: git diff --exit-code -- public
+      - name: Deploy production
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN"
+          test -n "$CLOUDFLARE_ACCOUNT_ID"
+          npm exec --yes --package=wrangler@4.147.0 -- wrangler pages deploy public --project-name allalarm-hackernews --branch main

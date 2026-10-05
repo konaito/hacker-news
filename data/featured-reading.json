@@ -1,0 +1,22 @@
+[
+  {
+    "platform": "Qiita",
+    "author": "konaito",
+    "url": "https://qiita.com/konaito/items/6f7b698ceabf740c850f",
+    "title": "konaitoの技術記事",
+    "hook": "ニュースを読んだら、技術の視点にも。",
+    "summary": "このサイトの作者がQiitaで公開している記事です。気になったテーマを、もう少し掘り下げたいときに。",
+    "cta": "Qiitaで記事を読む",
+    "theme": "qiita"
+  },
+  {
+    "platform": "note",
+    "author": "konaito",
+    "url": "https://note.com/konaito/n/n7afe40a9a1e8",
+    "title": "生成AIとAIエージェントの違い",
+    "hook": "答えるAIから、動き続けるAIへ。",
+    "summary": "記憶・状態・継続的な行動。OpenClawやmoltbookを入口に、AIエージェントの自律性を考える作者の考察です。",
+    "cta": "noteで考察を読む",
+    "theme": "note"
+  }
+]

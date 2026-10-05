@@ -81,6 +81,10 @@ page = page.replace('対象期間：9月1日〜10月6日',f'対象期間：2026�
 page = page.replace('2026年9月〜10月のサイバーセキュリティ','2026年9月からのサイバーセキュリティ')
 page = page.replace('この1か月に、','公開情報から、')
 page = page.replace('<span>2026</span></td>', '<span>2026</span></td>')
-OUT.joinpath('index.html').write_text(page)
-OUT.joinpath('sitemap.xml').write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://hackernews.allalarm.app/</loc><lastmod>{cutoff}</lastmod></url></urlset>')
+featured = json.loads((ROOT/'data/featured-reading.json').read_text())
+reading_cards = ''.join(f'<a class="reading-card {e(r["theme"],quote=True)}" href="{e(r["url"],quote=True)}" target="_blank" rel="noopener noreferrer"><div class="reading-meta"><span>{e(r["platform"])}</span><span>{e(r["author"])} · 作者の記事</span></div><p class="reading-hook">{e(r["hook"])}</p><h3>{e(r["title"])}</h3><p class="reading-summary">{e(r["summary"])}</p><span class="reading-cta">{e(r["cta"])}{icon("external-link")}</span></a>' for r in featured)
+reading_section = '<section class="featured-reading" aria-labelledby="reading-heading"><div class="section-head"><h2 id="reading-heading">ニュースの、その先へ</h2></div><p class="section-description">技術とAIを、作者の視点からもう少し深く。</p><div class="reading-grid">'+reading_cards+'</div></section>'
+page = page.replace('<section id="incidents"',reading_section+'<section id="incidents"')
+from seo import enhance
+enhance(ROOT,page,records,cutoff)
 print(f'Built dashboard: {len(records)} news items, {len(published)} published incidents.')

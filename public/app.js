@@ -49,7 +49,7 @@
     if (heading) heading.id='dialog-heading';
     dialog.showModal(); dialog.scrollTop=0;
   }
-  document.querySelectorAll('[data-detail]').forEach(button => button.addEventListener('click', () => show(document.getElementById(`detail-${button.dataset.detail}`))));
+  document.querySelectorAll('[data-detail]').forEach(button => button.addEventListener('click', event => { if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return; event.preventDefault(); show(document.getElementById(`detail-${button.dataset.detail}`)); }));
   document.querySelectorAll('[data-about]').forEach(button => button.addEventListener('click', () => show(document.querySelector('#about-content'))));
   document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if(event.target!==dialog)return; const r=dialog.getBoundingClientRect(); if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close(); });
