@@ -726,5 +726,71 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "公式PDFをダウンロードしPDFKitで全本文を抽出して確認。漏洩未確認と発見日・発生日を区別。"
+  },
+  {
+    "id": "rext-2026",
+    "published_at": "2026-09-11",
+    "company": "REXT Holdings / REXT",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "ランサムウェア被害、流出の可能性がある情報のネット掲載を確認",
+    "summary": "一部社内ネットワークシステムへのランサムウェアによる不正アクセス被害について、第4報で、流出した可能性のある情報の一部がインターネット上に掲載されていることを確認したと発表しました。",
+    "note": "掲載情報の内容と影響範囲は調査中。被害件数と侵入開始日は不明。9月11日の発表時点で情報悪用による二次被害は未確認。",
+    "publication_status": "published",
+    "verification_note": "公式第4報PDFの全本文を確認。情報帰属・影響範囲の留保を保持し、漏洩確認と断定しない。",
+    "occurred_at": null,
+    "service": null,
+    "affected": [],
+    "sources": [
+      "rext-2026-1"
+    ],
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06"
+  },
+  {
+    "id": "ftapi-2026",
+    "published_at": "2026-09-28",
+    "company": "FTAPI",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "検証待ち",
+    "category": "IT・クラウド",
+    "title": "安全なデータ交換サービス企業への侵害報道を検証中",
+    "summary": "Borns IT- und Windows-Blogが、匿名の読者からFTAPIでのサイバー事案の通知を受けたとの情報と、ランサムウェアグループによる被害者掲載を報じました。",
+    "note": "一次情報と独立した2媒体の本文確認が未完了。読者コメントに転載された顧客通知は公式発表として扱わず、内部サーバーやメールの被害を断定しない。",
+    "publication_status": "pending",
+    "verification_note": "Bornsの本文を確認。Heiseは取得エラー、Cybernewsは再試行でもタイムアウト。出典のアクセス成功やまとめ記事だけで公開条件を満たしたと判断せずpending。",
+    "occurred_at": null,
+    "service": null,
+    "affected": [],
+    "sources": [
+      "ftapi-2026-1"
+    ],
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06"
+  },
+  {
+    "id": "vl-prosperity-2026",
+    "published_at": "2026-09-16",
+    "company": "米国向けタンカー / VL Prosperity関連",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "検証待ち",
+    "category": "物流・交通",
+    "title": "タンカーの船内ネットワーク侵害、米当局の調査報道を検証中",
+    "summary": "The Recordは米沿岸警備隊への取材に基づき、船内ネットワークが侵害された兆候を受け、8月21日に米沿岸警備隊とFBIの専門チームがタンカーに乗船し調査したと報じました。",
+    "note": "当局は船名を公表せず、VL Prosperityという特定は他媒体の報道に依存。侵入開始日は不明。推進装置の操作・物理的被害・攻撃者の帰属は断定しない。",
+    "publication_status": "pending",
+    "verification_note": "The Recordの本文と当局への直接取材を確認。推進装置の侵害を報じるBloomberg転載のInsurance Journalは取得エラー、Transport TopicsはHTTP403。独立した2媒体または一次情報の本文確認まで非公開。",
+    "occurred_at": null,
+    "service": null,
+    "affected": [],
+    "sources": [
+      "vl-prosperity-2026-1"
+    ],
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06"
   }
 ]
