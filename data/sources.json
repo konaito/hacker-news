@@ -124,5 +124,96 @@
     "url": "https://www.tomshardware.com/tech-industry/cyber-security/pentagon-gets-pwned-as-breach-exposes-sensitive-data-on-nearly-three-million-military-and-civilian-personnel-stolen-info-includes-social-security-numbers-and-job-related-records",
     "type": "reporting",
     "publisher": "www.tomshardware.com"
+  },
+  {
+    "id": "nikkei-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/05/2000001991/",
+    "title": "ITmedia NEWS｜Microsoft 365アカウントへの不正ログイン"
+  },
+  {
+    "id": "nikkei-3",
+    "publisher": "ASCII.jp",
+    "type": "reporting",
+    "url": "https://ascii.jp/elem/000/004/439/4439859/?focus=1",
+    "title": "ASCII.jp｜日経の二つの不正ログイン事案"
+  },
+  {
+    "id": "bigcommerce-2",
+    "publisher": "Master of Malt",
+    "type": "primary",
+    "url": "https://www.masterofmalt.com/sorry/technical/",
+    "title": "Master of Malt｜Ribon経由のデータ侵害の技術説明"
+  },
+  {
+    "id": "dmdc-2",
+    "publisher": "Military Times",
+    "type": "reporting",
+    "url": "https://www.militarytimes.com/news/pentagon-congress/2026/09/24/military-personnel-data-exposed-in-breach-agency-warns/?trk=article-ssr-frontend-pulse_little-text-block",
+    "title": "Military Times｜通知書と国防当局者への確認"
+  },
+  {
+    "id": "dmdc-3",
+    "publisher": "Federal News Network",
+    "type": "reporting",
+    "url": "https://federalnewsnetwork.com/defense-main/2026/09/more-than-3-million-people-affected-by-military-data-breach/",
+    "title": "Federal News Network｜国防当局者への取材"
+  },
+  {
+    "id": "yamato-2026-1",
+    "publisher": "ヤマトホールディングス",
+    "type": "primary",
+    "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+    "title": "ヤマト運輸｜2026-10-02発表・報道"
+  },
+  {
+    "id": "ozmall-2026-1",
+    "publisher": "スターツ出版",
+    "type": "primary",
+    "url": "https://starts-pub.jp/info20260927",
+    "title": "スターツ出版｜2026-09-27発表・報道"
+  },
+  {
+    "id": "metpo-2026-1",
+    "publisher": "東京地下鉄",
+    "type": "primary",
+    "url": "https://www.tokyometro.jp/info/files/9172e2efa7222d15f8d4f601b6385457.pdf",
+    "title": "東京メトロ｜2026-09-27発表・報道"
+  },
+  {
+    "id": "fines-2026-1",
+    "publisher": "ファインズ",
+    "type": "primary",
+    "url": "https://e-tenki.co.jp/news/弊社システムへの不正アクセスによる情報漏えい/",
+    "title": "ファインズ｜2026-09-25発表・報道"
+  },
+  {
+    "id": "denmark-cpr-2026-1",
+    "publisher": "デンマーク研究・教育・デジタル化省",
+    "type": "primary",
+    "url": "https://via.ritzau.dk/pressemeddelelse/15205753/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger?lang=da&publisherId=2869389",
+    "title": "デンマーク政府｜2026-10-05発表・報道"
+  },
+  {
+    "id": "yakiniku-king-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/05/2000002011/",
+    "title": "物語コーポレーション｜2026-10-05発表・報道"
+  },
+  {
+    "id": "omu-2026-1",
+    "publisher": "産経新聞",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/05/2000002018/",
+    "title": "大阪公立大学｜2026-10-05発表・報道"
+  },
+  {
+    "id": "whiteessence-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/05/2000002016/",
+    "title": "ホワイトエッセンス｜2026-10-05発表・報道"
   }
 ]
