@@ -224,15 +224,17 @@
     "category": "交通・物流",
     "title": "荷物追跡サービスに侵入。約100日分の配送データが対象に",
     "summary": "「お荷物問い合わせサービス」への不正アクセスを確認。送り主・届け先の氏名、住所、電話番号など、約100日分の荷物データが外部に流出した可能性があると報じられています。",
-    "note": "対象件数・範囲は調査中。サービスの一部機能を制限しています。",
+    "note": "対象件数・範囲は調査中。一部Webサービスを停止しましたが、集荷・配達は継続。9月30日は侵害の確認日で、侵入開始日は不明です。",
     "affected": [],
     "sources": [
-      "sagawa-1"
+      "sagawa-1",
+      "sagawa-2",
+      "sagawa-3"
     ],
-    "publication_status": "pending",
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+    "verification_note": "ITmedia、Security NEXT、フジテレビの本文を確認。公式FAQはJavaScript画面のみで本文未確認のため採用せず、独立した報道で公開基準を満たす。"
   },
   {
     "id": "nikkei-2026",
@@ -497,24 +499,25 @@
     "status": "confirmed_leak",
     "display_label": "漏洩確認",
     "category": "飲食",
-    "title": "公式アプリの会員情報1,078万8,963件が漏洩と報道",
-    "summary": "会員管理システムへの不正アクセスにより、会員番号・登録名・メールアドレス・電話番号1,078万8,963件が漏洩したとITmedia NEWSが報じました。",
-    "note": "10月2日に不正アクセスを確認し、3日に漏洩が判明したとの報道。パスワードや決済情報は対象外。一次発表本文と独立した追加報道の確認待ち。",
+    "title": "公式アプリの会員情報1,078万8,963件の漏洩を確認",
+    "summary": "会員管理システムへの不正アクセスにより、会員番号・登録名・メールアドレス・電話番号1,078万8,963件が漏洩したと公表しました。",
+    "note": "10月2日に不正アクセスを確認、3日に漏洩が判明。侵入開始日は不明。パスワード等は漏洩対象外、決済情報は保持していません。",
     "affected": [
       {
         "count": 10788963,
         "unit": "records",
-        "description": "公式アプリの会員情報1,078万8,963件が漏洩と報道",
-        "source_id": "yakiniku-king-2026-1"
+        "description": "公式アプリの会員情報1,078万8,963件の漏洩を確認",
+        "source_id": "yakiniku-king-2026-2"
       }
     ],
     "sources": [
-      "yakiniku-king-2026-1"
+      "yakiniku-king-2026-1",
+      "yakiniku-king-2026-2"
     ],
-    "publication_status": "pending",
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "報道1媒体の本文を確認。一次発表未確認のためpending。"
+    "verification_note": "公式発表とITmedia本文を確認。登録件数と漏洩件数を区別し人数への換算は行っていない。"
   },
   {
     "id": "omu-2026",
@@ -526,17 +529,18 @@
     "status": "disruption",
     "display_label": "業務障害・調査中",
     "category": "教育・研究",
-    "title": "大規模システム障害、ランサムウェア攻撃の可能性と報道",
+    "title": "大規模システム障害、500台のサーバー停止",
     "summary": "10月2日未明に情報システム障害が発生し、関連サーバー500台が停止。ランサムウェア攻撃の可能性が高く、学生・卒業生ら13万人以上の個人情報が流出した恐れがあると産経新聞が報じました。",
-    "note": "流出の有無は調査中。ITmedia掲載記事は産経新聞の配信であり、独立した2媒体として数えていません。",
+    "note": "流出の有無は調査中。産経新聞と共同通信の独立した報道を確認。10月5日時点で復旧の見通しはなく、対面授業は9日から再開予定。",
     "affected": [],
     "sources": [
-      "omu-2026-1"
+      "omu-2026-1",
+      "omu-2026-2"
     ],
-    "publication_status": "pending",
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "産経新聞配信記事の本文を確認。一次発表で攻撃・情報流出の主張を確認できておらずpending。"
+    "verification_note": "ITmedia掲載の産経新聞記事とライブドア掲載の共同通信記事の本文を取得して確認。ランサムウェアと情報流出の確定は避けた。"
   },
   {
     "id": "whiteessence-2026",
@@ -548,16 +552,96 @@
     "status": "confirmed_leak",
     "display_label": "漏洩確認",
     "category": "医療",
-    "title": "約105万アカウントの個人情報漏洩と報道",
-    "summary": "8月に公表された不正アクセスの調査で、利用者・加盟院関係者・本部社員など約105万アカウント分の情報が外部に持ち出されていたとITmedia NEWSが報じました。",
-    "note": "登録内容により対象項目は異なるとの報道。公式発表ページの本文は画像で、画像本文の確認が済んでいないため公開を保留しています。",
-    "affected": [],
-    "sources": [
-      "whiteessence-2026-1"
+    "title": "約105万アカウントの個人情報持ち出しを確認",
+    "summary": "予約サイトと基幹システムへの不正アクセスの調査で、利用者・加盟院関係者・本部社員など約105万アカウント分の情報が外部に持ち出されていたと公表しました。",
+    "note": "8月5日時点の登録情報の全部または一部が対象で、項目は登録内容によって異なります。口座情報は保持しておらず、利用者画像の漏洩も未確認。侵入開始日は不明。",
+    "affected": [
+      {
+        "count": 1050000,
+        "unit": "accounts",
+        "description": "約105万アカウント（利用者・加盟院関係者・本部社員等の全体数）",
+        "source_id": "whiteessence-2026-2"
+      }
     ],
-    "publication_status": "pending",
+    "sources": [
+      "whiteessence-2026-1",
+      "whiteessence-2026-2"
+    ],
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "ITmedia NEWS本文を確認。公式ページは開けたが画像本文を確認できていないためpending。"
+    "verification_note": "公式発表の画像本文2ページをダウンロードして目視確認し、ITmedia本文と突合。"
+  },
+  {
+    "id": "nichirei-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": null,
+    "company": "ニチレイ",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "食品・製造",
+    "title": "配送先・取引先・従業員等の個人情報漏洩を確認",
+    "summary": "7月に公表したサイバー攻撃の調査で、配送先顧客3,308件、取引先役職員6,849件、従業員・家族・求職者43,709件の個人情報漏洩を確認しました。",
+    "note": "対象ごとに含まれる情報は異なり、カード情報は対象外。7月13日は障害発生日で侵入開始日は不明。入出庫・冷凍食品出荷は7月24日に全拠点で通常稼働へ移行。",
+    "affected": [
+      {
+        "count": 3308,
+        "unit": "records",
+        "description": "受託配送業務の配送先顧客情報",
+        "source_id": "nichirei-2026-1"
+      },
+      {
+        "count": 6849,
+        "unit": "records",
+        "description": "取引先役職員情報",
+        "source_id": "nichirei-2026-1"
+      },
+      {
+        "count": 43709,
+        "unit": "records",
+        "description": "従業員・退職者・家族・求職者情報",
+        "source_id": "nichirei-2026-1"
+      }
+    ],
+    "sources": [
+      "nichirei-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "採用した全出典の本文を確認し主張と突合。"
+  },
+  {
+    "id": "adapthealth-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": "2026-06-05",
+    "company": "AdaptHealth",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "医療",
+    "title": "約411万人の個人・健康情報に影響",
+    "summary": "在宅医療サービス企業のシステムが6月5日に不正アクセスを受け、患者情報の持ち出しが確認されました。9月の報道で、米保健福祉省への届出における影響人数が411万5,802人と判明しました。",
+    "note": "対象情報は氏名、連絡先、属性、健康保険・健康情報。社会保障番号、金融情報、カード・銀行口座情報は対象外。発生日と人数が判明した9月の報道日を区別しています。",
+    "affected": [
+      {
+        "count": 4115802,
+        "unit": "people",
+        "description": "米保健福祉省への届出として報じられた影響人数",
+        "source_id": "adapthealth-2026-2"
+      }
+    ],
+    "sources": [
+      "adapthealth-2026-1",
+      "adapthealth-2026-2",
+      "adapthealth-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "採用した全出典の本文を確認し主張と突合。"
   }
 ]

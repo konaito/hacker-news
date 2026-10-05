@@ -215,5 +215,68 @@
     "type": "reporting",
     "url": "https://www.itmedia.co.jp/news/article/2610/05/2000002016/",
     "title": "ホワイトエッセンス｜2026-10-05発表・報道"
+  },
+  {
+    "id": "sagawa-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190952",
+    "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便"
+  },
+  {
+    "id": "sagawa-3",
+    "publisher": "フジテレビ",
+    "type": "reporting",
+    "url": "https://www.fnn.jp/articles/-/1125535",
+    "title": "佐川急便の顧客情報が流出か 不正アクセスを確認"
+  },
+  {
+    "id": "yakiniku-king-2026-2",
+    "publisher": "物語コーポレーション",
+    "type": "primary",
+    "url": "https://www.monogatari.co.jp/news/261005_news/",
+    "title": "焼肉きんぐ公式アプリの個人情報漏えいに関するお詫び"
+  },
+  {
+    "id": "omu-2026-2",
+    "publisher": "共同通信",
+    "type": "reporting",
+    "url": "https://news.livedoor.com/article/detail/32493377/",
+    "title": "大阪公立大学のシステム障害・サーバー攻撃に関する報道"
+  },
+  {
+    "id": "whiteessence-2026-2",
+    "publisher": "ホワイトエッセンス",
+    "type": "primary",
+    "url": "https://www.whiteessence.com/news/news/20261005/",
+    "title": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "nichirei-2026-1",
+    "publisher": "ニチレイ",
+    "type": "primary",
+    "url": "https://www.nichirei.co.jp/news/2026/524.html",
+    "title": "当社グループでのシステム障害発生について（第7報）"
+  },
+  {
+    "id": "adapthealth-2026-1",
+    "publisher": "AdaptHealth",
+    "type": "primary",
+    "url": "https://adapthealth.com/blogs/notices/adapthealth-notice-of-cybersecurity-incident-1",
+    "title": "AdaptHealth Notice of Cybersecurity Incident"
+  },
+  {
+    "id": "adapthealth-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack"
+  },
+  {
+    "id": "adapthealth-2026-3",
+    "publisher": "The HIPAA Journal",
+    "type": "reporting",
+    "url": "https://www.hipaajournal.com/adapthealth-data-breach/",
+    "title": "AdaptHealth Data Breach Affects 4.1 Million Individuals"
   }
 ]
