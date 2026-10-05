@@ -759,14 +759,15 @@
     "category": "IT・クラウド",
     "title": "安全なデータ交換サービス企業への侵害報道を検証中",
     "summary": "Borns IT- und Windows-Blogが、匿名の読者からFTAPIでのサイバー事案の通知を受けたとの情報と、ランサムウェアグループによる被害者掲載を報じました。",
-    "note": "一次情報と独立した2媒体の本文確認が未完了。読者コメントに転載された顧客通知は公式発表として扱わず、内部サーバーやメールの被害を断定しない。",
+    "note": "CybernewsはHeiseへの企業説明を引用し、内部サーバーへの侵入とランサムウェア被害、顧客システム・交換データは対象外と報道。一次情報と当該説明の独立した裏付けを確認できず、詳細は検証待ち。",
     "publication_status": "pending",
-    "verification_note": "Bornsの本文を確認。Heiseは取得エラー、Cybernewsは再試行でもタイムアウト。出典のアクセス成功やまとめ記事だけで公開条件を満たしたと判断せずpending。",
+    "verification_note": "BornsとCybernewsの本文を再確認。Cybernewsの企業説明はHeiseに依存し、Heise原文は取得エラー。Bornsの匿名読者情報・コメント転載を一次発表と扱わず、独立した被害確認が揃うまでpendingを維持。",
     "occurred_at": null,
     "service": null,
     "affected": [],
     "sources": [
-      "ftapi-2026-1"
+      "ftapi-2026-1",
+      "ftapi-2026-2"
     ],
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06"
@@ -774,23 +775,232 @@
   {
     "id": "vl-prosperity-2026",
     "published_at": "2026-09-16",
-    "company": "米国向けタンカー / VL Prosperity関連",
+    "company": "VL Prosperity関連タンカー",
     "region": "GLOBAL",
     "status": "confirmed_access",
-    "display_label": "検証待ち",
+    "display_label": "不正アクセス確認",
     "category": "物流・交通",
-    "title": "タンカーの船内ネットワーク侵害、米当局の調査報道を検証中",
-    "summary": "The Recordは米沿岸警備隊への取材に基づき、船内ネットワークが侵害された兆候を受け、8月21日に米沿岸警備隊とFBIの専門チームがタンカーに乗船し調査したと報じました。",
-    "note": "当局は船名を公表せず、VL Prosperityという特定は他媒体の報道に依存。侵入開始日は不明。推進装置の操作・物理的被害・攻撃者の帰属は断定しない。",
-    "publication_status": "pending",
-    "verification_note": "The Recordの本文と当局への直接取材を確認。推進装置の侵害を報じるBloomberg転載のInsurance Journalは取得エラー、Transport TopicsはHTTP403。独立した2媒体または一次情報の本文確認まで非公開。",
+    "title": "タンカーの船内ネットワーク侵害、米沿岸警備隊とFBIが調査",
+    "summary": "米沿岸警備隊は船内ネットワーク侵害の兆候を受け、8月21日にFBIと専門チームを派遣したとThe Recordに説明。CBS Newsも独自取材で悪意あるサイバー活動の発見を報じ、対象船をVL Prosperityと伝えました。",
+    "note": "侵入開始日は不明。米当局は攻撃者の帰属を公表していません。乗船時に航行の安全性を損なう証拠は見つからなかったと説明。推進装置操作や物理的被害は断定しません。",
+    "publication_status": "published",
+    "verification_note": "The Recordの沿岸警備隊への直接取材とCBS Newsの独自インタビュー本文を確認。独立した2媒体で船内ネットワーク侵害と調査を突合。船名はCBSの報道として帰属させ、推進装置操作・帰属の未確認主張は採用しない。",
     "occurred_at": null,
     "service": null,
     "affected": [],
     "sources": [
-      "vl-prosperity-2026-1"
+      "vl-prosperity-2026-1",
+      "vl-prosperity-2026-2"
     ],
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06"
+  },
+  {
+    "id": "mitsui-fudosan-2026",
+    "published_at": "2026-09-28",
+    "occurred_at": null,
+    "company": "三井不動産グループ",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "不動産",
+    "title": "役職員等最大1万9,000件・社外関係者最大3万6,000件に漏洩の可能性",
+    "summary": "一部システムの資格情報が不正に利用され、役職員等の氏名・メールアドレス・部署・役職と、社外関係者のメールアドレス・表示名が閲覧された可能性を公表しました。",
+    "note": "8月28日は不正アクセスを確認した日で、侵入開始日は不明。9月28日の第2報時点で実際の外部流出、業務情報やパスワードの漏洩、二次被害は未確認。件数は最大値で人数ではありません。",
+    "affected": [
+      {
+        "count": 19000,
+        "unit": "records",
+        "description": "漏洩の可能性がある役職員等の情報（最大値）",
+        "source_id": "mitsui-fudosan-2026-1"
+      },
+      {
+        "count": 36000,
+        "unit": "records",
+        "description": "漏洩の可能性がある社外関係者の情報（最大値）",
+        "source_id": "mitsui-fudosan-2026-1"
+      }
+    ],
+    "sources": [
+      "mitsui-fudosan-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、採用した主張と突合。発生日・発見日と公表日、件数の単位を区別。"
+  },
+  {
+    "id": "dai-ichi-life-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "第一ライフグループ / 第一生命保険",
+    "service": "従業員向け人事システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "金融・保険",
+    "title": "従業員・退職者約12万人の個人情報が流出した可能性",
+    "summary": "人事システムに保存された従業員約5万人、退職者約7万人の情報が第三者に閲覧され、外部へ流出した可能性を公表しました。氏名・住所・電話番号・所属・職位等が対象です。",
+    "note": "9月24日に不正アクセスを検知。侵入開始日は不明。発表時点で顧客情報への不正アクセスと退職者に関する二次被害は未確認。対象には一部の出向者も含まれます。",
+    "affected": [
+      {
+        "count": 120000,
+        "unit": "people",
+        "description": "従業員と退職者の対象者合計（約12万名）",
+        "source_id": "dai-ichi-life-2026-1"
+      }
+    ],
+    "sources": [
+      "dai-ichi-life-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、採用した主張と突合。発生日・発見日と公表日、件数の単位を区別。"
+  },
+  {
+    "id": "ainokaze-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": "2026-09-02",
+    "company": "あいの風とやま鉄道",
+    "service": "一万三千尺物語・座席管理システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "交通・物流",
+    "title": "観光列車の予約システム侵害、1,409人の個人情報に漏洩のおそれ",
+    "summary": "9月2日から8日まで複数回の不正アクセスを確認。予約の不正キャンセル等が発生し、利用者・予約者1,409人の氏名・住所・電話番号・メールアドレスが漏洩したおそれを公表しました。",
+    "note": "クレジットカード情報は別システムで管理され対象外。二次被害は未確認。9月28日の追記では意図しない予約キャンセルへの対応完了を説明しています。",
+    "affected": [
+      {
+        "count": 1409,
+        "unit": "people",
+        "description": "乗車済みまたは今後の予約がある対象利用者",
+        "source_id": "ainokaze-2026-1"
+      }
+    ],
+    "sources": [
+      "ainokaze-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、採用した主張と突合。発生日・発見日と公表日、件数の単位を区別。"
+  },
+  {
+    "id": "applynow-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-08-09",
+    "company": "ApplyNow / 吉野家・はなまる",
+    "service": "採用管理プラットフォーム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "IT・クラウド",
+    "title": "委託先の採用情報漏洩、応募者・採用担当者5,784アカウントが対象",
+    "summary": "ApplyNowのデータ分析ツールの脆弱性を悪用した不正アクセスで、吉野家・はなまるの応募者情報と採用担当者の情報が漏洩。応募者は吉野家4,998件、はなまる368件、従業員は418件と公表しました。",
+    "note": "不正アクセス期間は8月9日～9月7日で、9月7日に不正なデータ出力を確認。件数は重複のあるアカウント数で人数と一致しません。ApplyNow全体の被害件数ではありません。吉野家側のシステムや面接録画への侵害は未確認。",
+    "affected": [
+      {
+        "count": 4998,
+        "unit": "accounts",
+        "description": "吉野家応募者の対象アカウント（重複あり）",
+        "source_id": "applynow-2026-1"
+      },
+      {
+        "count": 368,
+        "unit": "accounts",
+        "description": "はなまる応募者の対象アカウント（重複あり）",
+        "source_id": "applynow-2026-1"
+      },
+      {
+        "count": 418,
+        "unit": "accounts",
+        "description": "グループ採用担当者の対象アカウント（重複あり）",
+        "source_id": "applynow-2026-1"
+      }
+    ],
+    "sources": [
+      "applynow-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、採用した主張と突合。発生日・発見日と公表日、件数の単位を区別。"
+  },
+  {
+    "id": "lean-body-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": "2026-08-11",
+    "company": "LEAN BODY",
+    "service": "オンラインフィットネス",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "生活・サービス",
+    "title": "分析ツールの脆弱性から約44万アカウントの顧客情報を取得される",
+    "summary": "社内分析ツールMetabaseの脆弱性を悪用した不正アクセスで、顧客情報の取得を確認しました。退会者を含む約44万アカウントが対象で、メールアドレスやサービスに登録した情報等が含まれます。",
+    "note": "8月11日に最初の不正アクセス、9月9日に遮断・更新。複数アカウントがあるため人数は44万人とは一致しません。パスワードは暗号化された情報、カード情報は下4桁が対象で、カード番号全体・セキュリティコードは対象外。具体的なCVE番号とAI関与は断定しません。",
+    "affected": [
+      {
+        "count": 440000,
+        "unit": "accounts",
+        "description": "退会者を含む対象アカウント（約44万件・人数とは不一致）",
+        "source_id": "lean-body-2026-1"
+      }
+    ],
+    "sources": [
+      "lean-body-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "Webツールは本文0行。公式HTMLの埋め込みCMSデータから告知本文全体と公表日時を抽出し確認。アカウント数と人数を区別。"
+  },
+  {
+    "id": "atb-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "ATB（ウクライナ）",
+    "service": "企業Webサイト・オンラインサービス",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "EC・小売",
+    "title": "Webサイトに恐喝メッセージ、企業は顧客情報流出を否定",
+    "summary": "Webサイトに恐喝メッセージが掲載された後、一部オンラインサービスが一時停止。ATBはサイバー攻撃について説明し、UNNへの取材回答で個人情報の流出を否定しました。",
+    "note": "侵入開始日は不明。攻撃者が主張する顧客情報の取得や被害規模は独立検証できていません。情報漏洩の確定やランサムウェアによる暗号化とは分類しません。",
+    "affected": [],
+    "sources": [
+      "atb-2026-1",
+      "atb-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "The RecordとUNNの本文を確認。UNNは広報担当者に直接取材。停止・企業説明を突合し、攻撃者が主張する件数は不採用。"
+  },
+  {
+    "id": "uic-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "イリノイ大学シカゴ校",
+    "service": "医学部サーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "検証待ち",
+    "category": "教育・研究",
+    "title": "医学部のランサムウェア被害と情報窃取の取材報道を検証中",
+    "summary": "The Recordは大学広報への取材に基づき、医学部の一部システムがランサムウェアで一時利用不能となり、サーバーから情報が盗まれたと報じました。",
+    "note": "大学は復旧済みで本学ネットワークとUI Healthの診療に影響はなかったと説明。個人・研究・学術情報の影響を調査中。侵入開始日と被害件数は不明。攻撃者のデータ量主張は不採用。",
+    "affected": [],
+    "sources": [
+      "uic-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "The Recordの全記事本文を確認。大学公式告知は見つからず、SC MediaとDysruptionHubは同記事に依存するため独立した2媒体と数えずpending。"
   }
 ]

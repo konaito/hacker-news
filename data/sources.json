@@ -341,5 +341,75 @@
     "type": "reporting",
     "url": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi",
     "title": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’"
+  },
+  {
+    "id": "vl-prosperity-2026-2",
+    "publisher": "CBS News",
+    "type": "reporting",
+    "url": "https://www.cbsnews.com/news/coast-guard-fbi-boarded-energy-tankers-cyberattacks-amy-grable-iran/",
+    "title": "Coast Guard and FBI boarded 2 energy tankers due to cyberattacks. How big is the risk?"
+  },
+  {
+    "id": "ftapi-2026-2",
+    "publisher": "Cybernews",
+    "type": "reporting",
+    "url": "https://cybernews.com/security/ftapi-eu-data-transfer-platform-data-breach/",
+    "title": "Hackers hit EU data transfer platform as tech sovereignty push grows"
+  },
+  {
+    "id": "mitsui-fudosan-2026-1",
+    "publisher": "三井不動産",
+    "type": "primary",
+    "url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+    "title": "不正アクセスによる情報漏えいの可能性について（第二報）"
+  },
+  {
+    "id": "dai-ichi-life-2026-1",
+    "publisher": "第一ライフグループ・第一生命保険",
+    "type": "primary",
+    "url": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf",
+    "title": "退職された皆さまへのお知らせ：当社の従業員向け人事システムへの不正アクセスについて"
+  },
+  {
+    "id": "ainokaze-2026-1",
+    "publisher": "あいの風とやま鉄道",
+    "type": "primary",
+    "url": "https://ainokaze.co.jp/24166",
+    "title": "弊社観光列車の座席管理システムに対する不正アクセスによりお客様の個人情報が漏えいしたおそれがある事象について"
+  },
+  {
+    "id": "applynow-2026-1",
+    "publisher": "吉野家ホールディングス・吉野家・はなまる",
+    "type": "primary",
+    "url": "https://www.yoshinoya.com/wp-content/uploads/2026/09/30185541/news_2026093004.pdf",
+    "title": "ApplyNow採用管理プラットフォームへの不正アクセスによる個人情報漏えいに関するお知らせとお詫び"
+  },
+  {
+    "id": "lean-body-2026-1",
+    "publisher": "LEAN BODY",
+    "type": "primary",
+    "url": "https://lean-body.co.jp/news/JlBWMCs7",
+    "title": "弊社が利用する分析ツールへの不正アクセスによるお客様情報の取得について（お詫び）"
+  },
+  {
+    "id": "atb-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
+    "title": "Ukraine grocery chain ATB confirms cyberattack as hackers threaten to leak data"
+  },
+  {
+    "id": "atb-2026-2",
+    "publisher": "UNN",
+    "type": "reporting",
+    "url": "https://unn.ua/en/news/no-personal-data-is-stored-on-the-resources-atb-commented-on-the-hacker-attack-on-the-website",
+    "title": "ATB commented on the hacker attack on its website — should customers be concerned about a data leak"
+  },
+  {
+    "id": "uic-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/ransomware-university-illinois-chicago",
+    "title": "University of Illinois Chicago affected by ransomware attack on medical school"
   }
 ]
