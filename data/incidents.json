@@ -271,24 +271,33 @@
   {
     "id": "daiwa-2026",
     "published_at": "2026-10-05",
-    "occurred_at": null,
-    "company": "大和証券",
-    "service": null,
+    "occurred_at": "2026-10-02",
+    "company": "スカラコミュニケーションズ（大和証券・シチズン時計ほか）",
+    "service": "FAQシステム「i-ask」の問い合わせ管理環境",
     "region": "JP",
     "status": "possible_leak",
     "display_label": "漏洩の可能性",
-    "category": "金融",
-    "title": "外部委託先の侵害で最大約11万人の顧客情報に影響の可能性",
-    "summary": "外部委託先が管理するサーバーへの不正アクセスにより、最大約11万人の顧客情報が漏洩した可能性があると公表しました。",
-    "note": "大和証券自身のシステムへの侵入は確認されておらず、対象情報のみで口座へのログインや取引はできないと説明しています。",
-    "affected": [],
+    "category": "IT・クラウド",
+    "title": "委託先の侵害で最大5社・71万3,126件の問い合わせ情報に漏洩の可能性",
+    "summary": "スカラコミュニケーションズは10月6日、10月2日夜から3日朝の管理サイトへの不正ログインと不正プログラム設置により、最大5社の問い合わせ情報が取得された可能性を公表しました。大和証券の約11万人、シチズン時計の約10万人に関する問い合わせ情報も対象です。",
+    "note": "71万3,126件は問い合わせの延べ件数で、実人数は調査中です。各社の人数や問い合わせ件数を合算しません。大和証券・シチズン時計自身のシステムへの侵入は確認されておらず、情報流出の可能性と確認済みの侵害を区別します。",
+    "affected": [
+      {
+        "count": 713126,
+        "unit": "records",
+        "description": "最大5社の問い合わせ情報の延べ件数。重複を除く実人数ではなく、漏洩の可能性がある範囲。",
+        "source_id": "scala-i-ask-2026-1"
+      }
+    ],
     "sources": [
-      "daiwa-1"
+      "daiwa-1",
+      "scala-i-ask-2026-1",
+      "citizen-i-ask-2026-1"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "既存記事から移行。報道のみの事案は追加検証まで非公開。"
+    "verification_note": "委託先・シチズン時計の公式本文と大和証券の公式PDF全2ページを確認。同じ委託先・時間帯の攻撃なので既存IDを維持して続報を統合。PDFへの初回取得失敗後、四国銀行の公式案内リンクから本文取得に成功。公表日は初報の10月5日を維持。"
   },
   {
     "id": "boston-scientific-2026",
@@ -2929,17 +2938,26 @@
     "status": "possible_leak",
     "display_label": "漏洩の可能性",
     "category": "医療",
-    "title": "内部システムへの侵入で個人・医療情報が取得された可能性",
+    "title": "内部システムへの侵入、HHS台帳に12万6,196人の影響を報告",
     "summary": "7月18日頃に内部システムへの不正アクセスが発生。氏名や社会保障番号などの個人情報に加え、診断、健康状態、処方、保険等の医療情報がアクセス・取得された可能性があると、州政府掲載の企業通知文に記載されています。",
-    "note": "通知本文で確認できる対象項目に限定し、影響人数は未公表として扱っています。発生時期は「7月18日頃」とされ、正確な侵入開始日時は不明です。",
-    "affected": [],
+    "note": "HHS OCR台帳では9月16日付で12万6,196人の影響が報告されています。発生時期は「7月18日頃」で、正確な侵入開始日時は不明です。会社通知はアクセス・取得の可能性という表現を維持しています。",
+    "affected": [
+      {
+        "count": 126196,
+        "unit": "people",
+        "description": "HHS OCR台帳で9月16日付の事案に報告された影響人数。",
+        "source_id": "hhs-ocr-20261006"
+      }
+    ],
     "sources": [
-      "angmar-management-2026-1"
+      "angmar-management-2026-1",
+      "hhs-ocr-20261006",
+      "healthcare-breaches-20261005"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "州政府公開の企業通知PDFを取得済みファイルからPDFKitで読んで確認。Webの403を確認済みの根拠にはしません。 公開された様式にはDraft表記があり、記載内容以上に実際の通知範囲を推定していません。"
+    "verification_note": "州政府公開の企業通知PDFを取得済みファイルからPDFKitで読んで確認。Webの403を確認済みの根拠にはしません。 公開された様式にはDraft表記があり、記載内容以上に実際の通知範囲を推定していません。 10月5日の続報によりHHS台帳本文の当該行と影響人数を確認し追記。元の通知PDFも取得済みファイルをPDFKitで再読。"
   },
   {
     "id": "revolut-impersonation-2026",
@@ -3653,5 +3671,190 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "企業・行政の一次本文と報道本文を確認。"
+  },
+  {
+    "id": "studysapuri-2026",
+    "published_at": "2026-10-03",
+    "occurred_at": null,
+    "company": "リクルート",
+    "service": "スタディサプリ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "登録有無の特定可能性",
+    "category": "教育・研究",
+    "title": "3,687件のメールアドレスでサービスへの登録有無を特定された可能性",
+    "summary": "システムの仕様不備を突く不適切な操作により、3,687件のメールアドレスがスタディサプリに登録されていると第三者に特定された可能性があると公表しました。9月30日に判明し、同日に不備を修正しています。",
+    "note": "メールアドレス一覧を持ち出されたという発表ではありません。氏名・パスワード・決済情報などの漏洩、利用者アカウントへの不正ログイン、二次被害は確認されていません。操作の開始日は不明です。",
+    "affected": [
+      {
+        "count": 3687,
+        "unit": "records",
+        "description": "サービスへの登録有無が第三者に特定された可能性のあるメールアドレス件数。",
+        "source_id": "studysapuri-2026-1"
+      }
+    ],
+    "sources": [
+      "studysapuri-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式発表本文を開き、記載した事実・日付・単位を照合。"
+  },
+  {
+    "id": "lawson-mail-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": "2026-09-25",
+    "company": "ローソン",
+    "service": "メールサーバー",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正利用確認",
+    "category": "小売",
+    "title": "メールサーバーを不正利用され約70万件の不審メールを送信",
+    "summary": "9月25日15時頃から27日17時15分頃まで、ローソンのメールサーバーが第三者に不正利用され、主に海外、一部国内へ約70万件の英語の不審メールが送信されました。27日にメール設定変更とネットワーク制限を実施しています。",
+    "note": "個人情報の流出、データセンター内への侵入、改ざん、マルウェアは確認されていません。送信メール数を被害人数やアカウント数として集計しません。",
+    "affected": [],
+    "sources": [
+      "lawson-mail-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式発表本文を開き、記載した事実・日付・単位を照合。"
+  },
+  {
+    "id": "nihon-kotsu-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": "2026-07-11",
+    "company": "日本交通",
+    "service": "社内システム・電話配車・陣痛タクシー登録",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "ファイル流出確認",
+    "category": "交通・物流",
+    "title": "社内侵害とファイル流出、電話配車などの再開予定を公表",
+    "summary": "7月11日の社内システムへの不正アクセスで一部サービスが停止し、8月19日の第4報で一部社内ファイルの外部流出を確認しました。10月5日、電話配車と対象地域の陣痛タクシーWeb登録を10月6日11時に再開する予定と発表しました。",
+    "note": "復旧日時は公式発表の予定で、実際の再開完了は未確認です。流出ファイルの具体的な内容・件数や個人情報への影響は確認できず、影響人数を推定しません。",
+    "affected": [],
+    "sources": [
+      "nihon-kotsu-2026-1",
+      "nihon-kotsu-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式発表本文を開き、記載した事実・日付・単位を照合。"
+  },
+  {
+    "id": "kodansha-beck-email-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "講談社BECK",
+    "service": "旧ドメインの業務用メールアカウント",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "メディア",
+    "title": "旧メールアカウント1件への侵入、過去メールの取得形跡を確認",
+    "summary": "従業員1人の旧ドメインの業務用メールアカウントが侵害され、9月14日10時47分頃に約50件の不正メールが送信されました。ログ調査で継続的なアクセスと過去メールデータの取得形跡があり、個人情報が漏洩した可能性を公表しました。",
+    "note": "発生日を9月14日の送信検知日と同一視せず、侵入開始日は不明とします。現行ドメインのアカウントは影響を受けておらず、二次被害は確認されていません。",
+    "affected": [
+      {
+        "count": 1,
+        "unit": "accounts",
+        "description": "侵害された従業員の旧ドメイン業務用メールアカウント。",
+        "source_id": "kodansha-beck-email-2026-1"
+      }
+    ],
+    "sources": [
+      "kodansha-beck-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式発表本文を開き、記載した事実・日付・単位を照合。"
+  },
+  {
+    "id": "new-jersey-insider-extortion-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "社名非公表の工業企業（米国ニュージャージー州）",
+    "service": "社内ネットワーク",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム停止確認",
+    "category": "製造・工業",
+    "title": "元技術者のアカウント破壊・サーバー停止事件で実刑判決",
+    "summary": "米司法省は10月5日、2023年11月に勤務先のネットワークへ不正にアクセスし、管理者アカウント削除、パスワード変更、サーバー停止などを行って復旧と引き換えに金銭を要求した元技術者に、禁錮32か月の判決が出たと公表しました。",
+    "note": "判決は2026年9月28日です。攻撃は2023年11月、恐喝メールは同月25日とされますが、侵入開始日は不明です。暗号化型ランサムウェアと断定せず、内部者によるシステム破壊・恐喝として扱います。",
+    "affected": [],
+    "sources": [
+      "new-jersey-insider-extortion-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式発表本文を開き、記載した事実・日付・単位を照合。"
+  },
+  {
+    "id": "clover-health-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "Clover Health Investments",
+    "service": "医療保険業務アカウント・情報システム",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療",
+    "title": "医療保険業務アカウントへの侵入、HHS台帳に13万8,677人の影響を報告",
+    "summary": "7月4日に異常なログインを検知し、ソーシャルエンジニアリングにより従業員3人のアカウントが侵害されたとSEC提出文書で公表しました。10月5日の続報を受けてHHS台帳を確認し、9月14日付で13万8,677人の影響が報告されていることを確認しました。",
+    "note": "7月4日は検知日で、侵入開始日は不明です。個人・医療情報へのアクセスと取得の範囲は調査中とされ、全員分のデータ持ち出しを確認済みとは扱いません。企業財務・保険請求システムへのアクセス権はありませんでした。",
+    "affected": [
+      {
+        "count": 138677,
+        "unit": "people",
+        "description": "HHS OCR台帳で9月14日付の事案に報告された影響人数。",
+        "source_id": "hhs-ocr-20261006"
+      }
+    ],
+    "sources": [
+      "clover-health-2026-1",
+      "hhs-ocr-20261006",
+      "healthcare-breaches-20261005"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "SEC提出の会社説明とHHSの台帳行を本文で照合。10月5日のSecurityWeek続報を発見元として確認。AngMarは別事件なので合計人数で1件にしません。 公表日は本文を確認した10月5日の続報日とし、HHSへの9月14日の報告日を公表日と取り違えません。"
+  },
+  {
+    "id": "dtu-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "デンマーク工科大学（DTU）",
+    "service": "ID・アクセス管理システム DTUBasen",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "データ取得確認",
+    "category": "教育・研究",
+    "title": "ID管理システムから大量データを取得され、最大約20万人に影響の可能性",
+    "summary": "利用者プロファイルを侵害した第三者がID・アクセス管理システムに侵入し、大量のデータをダウンロードしたと大学が公表しました。現利用者約4万人と元利用者約16万人に関する情報が保存されており、2003年以降の学生・職員・外部関係者などに影響する可能性があります。",
+    "note": "取得された具体的な情報と実際の影響人数は特定できていません。最大約20万人は保存情報の範囲で、全員分の流出確認を意味しません。デンマークの国民登録簿の侵害とは別事件で、侵入開始日は不明です。",
+    "affected": [
+      {
+        "count": 200000,
+        "unit": "people",
+        "description": "保存情報の対象となる現・元利用者の概数上限。実際の流出人数は不明。",
+        "source_id": "dtu-2026-1"
+      }
+    ],
+    "sources": [
+      "dtu-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "直近72時間内のBleepingComputer続報から大学の10月2日公式本文をたどり、データ取得の事実と人数上限・不確定範囲を照合。"
   }
 ]

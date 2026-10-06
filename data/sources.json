@@ -1419,5 +1419,89 @@
     "title": "実際の注文情報を使ったフィッシングメール、情報流出の可能性を調査",
     "url": "https://www.security-next.com/189260",
     "type": "reporting"
+  },
+  {
+    "id": "scala-i-ask-2026-1",
+    "publisher": "スカラコミュニケーションズ",
+    "title": "スカラコミュニケーションズ｜FAQシステム「i-ask」への不正アクセスのお知らせ",
+    "url": "https://scala-com.jp/news/2026/10-1/",
+    "type": "primary"
+  },
+  {
+    "id": "citizen-i-ask-2026-1",
+    "publisher": "シチズン時計",
+    "title": "シチズン時計｜外部委託先への不正アクセスによる個人情報漏えいの可能性",
+    "url": "https://www.citizen.jp/news/2026/20261006.html",
+    "type": "primary"
+  },
+  {
+    "id": "studysapuri-2026-1",
+    "publisher": "リクルート",
+    "title": "スタディサプリ｜不正アクセスに関するお詫びとご報告（2026年10月3日）",
+    "url": "https://studysapuri.jp/info/important/",
+    "type": "primary"
+  },
+  {
+    "id": "lawson-mail-2026-1",
+    "publisher": "ローソン",
+    "title": "ローソン｜当社メールサーバーの不正利用に関するお知らせ",
+    "url": "https://mldata.lawson.co.jp/contents/cont07/1532969_3310.html",
+    "type": "primary"
+  },
+  {
+    "id": "nihon-kotsu-2026-1",
+    "publisher": "日本交通",
+    "title": "日本交通｜一部サービスの復旧について（10月5日）",
+    "url": "https://www.nihon-kotsu.co.jp/news/20261005-3432/",
+    "type": "primary"
+  },
+  {
+    "id": "nihon-kotsu-2026-2",
+    "publisher": "日本交通",
+    "title": "日本交通｜弊社システムへの不正アクセスによるシステム停止について（第4報）",
+    "url": "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
+    "type": "primary"
+  },
+  {
+    "id": "kodansha-beck-email-2026-1",
+    "publisher": "講談社BECK",
+    "title": "講談社BECK｜不正アクセスに関するお詫びとご報告",
+    "url": "https://kodansha-beck.co.jp/news/unauthorizedaccess20261002",
+    "type": "primary"
+  },
+  {
+    "id": "new-jersey-insider-extortion-2026-1",
+    "publisher": "米司法省",
+    "title": "米司法省｜工業企業の元従業員にコンピューター攻撃・恐喝で禁錮32か月",
+    "url": "https://www.justice.gov/usao-nj/pr/former-employee-industrial-company-sentenced-32-months-prison-computer-attack-and",
+    "type": "primary"
+  },
+  {
+    "id": "hhs-ocr-20261006",
+    "publisher": "米保健福祉省（HHS）",
+    "title": "HHS OCR｜調査中の医療情報侵害台帳（Clover Health・AngMar）",
+    "url": "https://ocrportal.hhs.gov/ocr/breach/breach_report_hip.jsf",
+    "type": "primary"
+  },
+  {
+    "id": "clover-health-2026-1",
+    "publisher": "Clover Health Investments",
+    "title": "Clover Health｜不正アクセスを報告したForm 8-K（7月17日）",
+    "url": "https://www.sec.gov/Archives/edgar/data/1801170/000180117026000181/clov-20260704.htm",
+    "type": "primary"
+  },
+  {
+    "id": "healthcare-breaches-20261005",
+    "publisher": "SecurityWeek",
+    "title": "SecurityWeek｜Clover HealthとAngMarの侵害に計25万人超が影響",
+    "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
+    "type": "reporting"
+  },
+  {
+    "id": "dtu-2026-1",
+    "publisher": "デンマーク工科大学（DTU）",
+    "title": "DTU｜Cyberattack on DTU: Notification of a personal data breach（10月2日）",
+    "url": "https://www.dtu.dk/english/news/all-news/cyberattack-on-dtu-notification-of-a-personal-data-breach?id=769a9249-9c16-4b82-9573-563575853174",
+    "type": "primary"
   }
 ]
