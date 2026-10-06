@@ -9,6 +9,11 @@ LABELS = {'added': '記事追加', 'updated': '内容更新', 'withdrawn': '掲�
 PRIVATE_FIELDS = {'first_seen_at', 'last_verified_at', 'verification_note'}
 
 
+def parse_timestamp(value):
+    # Python 3.9 is used by the macOS LaunchAgent and does not accept UTC Z.
+    return datetime.fromisoformat(value.replace('Z', '+00:00'))
+
+
 def public_changes(before, after, old_sources, new_sources):
     old = {r['id']: r for r in before if r['publication_status'] == 'published'}
     new = {r['id']: r for r in after if r['publication_status'] == 'published'}
@@ -43,17 +48,17 @@ def load_history(root):
     for entry in entries:
         assert entry['id'] not in seen, 'Duplicate update ID'
         seen.add(entry['id'])
-        assert datetime.fromisoformat(entry['timestamp']).tzinfo is not None
+        assert parse_timestamp(entry['timestamp']).tzinfo is not None
         assert isinstance(entry['summary'], str) and entry['summary']
         for change in entry['changes']:
             assert re.fullmatch(r'[a-z0-9-]+', change['id'])
             assert change['action'] in LABELS
             assert isinstance(change['title'], str) and isinstance(change['company'], str)
-    return sorted(entries, key=lambda entry: datetime.fromisoformat(entry['timestamp']), reverse=True)
+    return sorted(entries, key=lambda entry: parse_timestamp(entry['timestamp']), reverse=True)
 
 
 def timestamp_html(value):
-    label = datetime.fromisoformat(value).astimezone(JST).strftime('%Y年%m月%d日 %H:%M')
+    label = parse_timestamp(value).astimezone(JST).strftime('%Y年%m月%d日 %H:%M')
     return f'<time datetime="{escape(value, quote=True)}">{label}（日本時間）</time>'
 
 

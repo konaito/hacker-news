@@ -4,10 +4,14 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from updates import public_changes, render_entry, timestamp_html
+from updates import public_changes, render_entry, timestamp_html, parse_timestamp
 
 
 class HistoryTests(unittest.TestCase):
+    def test_utc_z_on_launchagent_python(self):
+        self.assertEqual(parse_timestamp('2026-10-05T23:41:44Z'), parse_timestamp('2026-10-05T23:41:44+00:00'))
+        self.assertIn('2026年10月06日 08:41', timestamp_html('2026-10-05T23:41:44Z'))
+
     def setUp(self):
         self.record = {'id': 'example-2026', 'publication_status': 'published', 'company': 'Example', 'title': 'Title', 'summary': 'Summary', 'sources': ['s1'], 'last_verified_at': '2026-10-06'}
         self.sources = [{'id': 's1', 'title': 'Announcement', 'url': 'https://example.com/'}]

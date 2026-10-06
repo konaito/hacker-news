@@ -1002,5 +1002,50 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "The Recordの全記事本文を確認。大学公式告知は見つからず、SC MediaとDysruptionHubは同記事に依存するため独立した2媒体と数えずpending。"
+  },
+  {
+    "id": "rohto-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": null,
+    "company": "ロート製薬",
+    "service": "通信販売・顧客管理システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療・ヘルスケア",
+    "title": "通販の通話音声データ・顧客管理情報が不正取得された可能性",
+    "summary": "通信販売のお客様対応システムに保存された通話音声データと付随情報、および顧客管理システムの情報が、第三者に不正取得された可能性があると発表しました。影響範囲と件数を調査しています。",
+    "note": "9月10日は事象の確認日であり侵入開始日ではありません。9月11日の初報に続く9月15日の調査状況を反映。主要業務への影響は当該発表時点で確認されていません。情報流出や被害件数は確定していません。",
+    "affected": [],
+    "sources": [
+      "rohto-2026-1",
+      "rohto-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式の9月11日初報と9月15日調査状況の本文を確認。通話音声・付随情報・顧客管理情報の不正取得の可能性として記録し、攻撃者のデータ量主張は採用しない。"
+  },
+  {
+    "id": "saga-university-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "佐賀大学",
+    "service": "事務情報システムのNAS",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "教育・研究",
+    "title": "事務部門のNASでファイル暗号化、ランサムウェア被害を公表",
+    "summary": "事務情報システムのNAS内でファイルの暗号化を確認し、ランサムウェア被害を公表しました。NASをネットワークから隔離し、事務用端末の利用停止を周知。感染経路と影響範囲を調査しています。",
+    "note": "9月24日午前8時42分は暗号化の連絡を受けた時刻であり、侵入開始日は不明。9月25日の公式告知では教育・研究・診療関連システムへの影響は確認されていません。情報窃取や漏洩、被害人数は本告知から確認できません。",
+    "affected": [],
+    "sources": [
+      "saga-university-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "佐賀大学広報室の9月25日公式告知本文を確認。二次記事の日付ではなく原文の公表日を採用。暗号化・隔離・端末停止を記録し、漏洩や攻撃者を断定しない。"
   }
 ]
