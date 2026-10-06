@@ -747,5 +747,677 @@
     "type": "primary",
     "url": "https://voising-official.com/news/931",
     "title": "当社が利用するBIツールへの不正アクセスおよび個人情報漏えいに関するお詫びとお知らせ並びに不審な連絡等への注意のお願い"
+  },
+  {
+    "id": "mrmax-2026-1",
+    "publisher": "ミスターマックス",
+    "title": "ミスターマックス｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.mrmax.co.jp/info/incident_20261006/",
+    "type": "primary"
+  },
+  {
+    "id": "gmo-infoq-2026-1",
+    "publisher": "GMOリサーチ&AI",
+    "title": "GMOリサーチ&AI｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://gmo-research.ai/pressroom/notice/notice-20261005",
+    "type": "primary"
+  },
+  {
+    "id": "rakuten-drive-2026-1",
+    "publisher": "楽天ドライブ",
+    "title": "楽天ドライブ｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://support.rakuten-drive.com/hc/ja/articles/62934949147929--%E9%87%8D%E8%A6%81-%E6%A5%BD%E5%A4%A9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+    "type": "primary"
+  },
+  {
+    "id": "nimoca-2026-1",
+    "publisher": "ニモカ",
+    "title": "ニモカ｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.nimoca.jp/storage/files/information/107/20261006.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "offerbox-2026-1",
+    "publisher": "i-plug",
+    "title": "i-plug｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://i-plug.co.jp/news/11334/",
+    "type": "primary"
+  },
+  {
+    "id": "unirita-2026-1",
+    "publisher": "ユニリタ",
+    "title": "ユニリタ｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.unirita.co.jp/news/2026/media_20260929.html",
+    "type": "primary"
+  },
+  {
+    "id": "japan-times-2026-1",
+    "publisher": "ジャパンタイムズ",
+    "title": "ジャパンタイムズ｜グループ会社サーバーの侵害に関する発表",
+    "url": "https://www.atpress.ne.jp/news/9550075",
+    "type": "primary"
+  },
+  {
+    "id": "benefit-one-2026-1",
+    "publisher": "ベネフィット・ワン",
+    "title": "ベネフィット・ワン｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "shinmai-2026-1",
+    "publisher": "信濃毎日新聞",
+    "title": "信濃毎日新聞｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://nano.shinmai.co.jp/info/media/93016/",
+    "type": "primary"
+  },
+  {
+    "id": "pcdepot-2026-1",
+    "publisher": "ピーシーデポコーポレーション",
+    "title": "ピーシーデポコーポレーション｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.pcdepot.co.jp/info/information_260911.html",
+    "type": "primary"
+  },
+  {
+    "id": "kumamoto-onestop-2026-1",
+    "publisher": "熊本県",
+    "title": "熊本県｜サイト改ざんに関するお知らせ",
+    "url": "https://kumamoto.onestop-job.jp/2026/09/post-59.html",
+    "type": "primary"
+  },
+  {
+    "id": "dozle-store-2026-1",
+    "publisher": "ドズル",
+    "title": "ドズル｜ドズル社ストアの不正アクセスと調査状況",
+    "url": "https://www.dozle.jp/news/260912/",
+    "type": "primary"
+  },
+  {
+    "id": "gpoint-2026-1",
+    "publisher": "ジー・プラン",
+    "title": "ジー・プラン｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.g-plan.net/news/details/20260930.html",
+    "type": "primary"
+  },
+  {
+    "id": "fivefoxes-2026-1",
+    "publisher": "ファイブフォックス",
+    "title": "ファイブフォックス｜社内サーバーへの不正アクセス（続報）",
+    "url": "https://www.fivefoxes.co.jp/2026/09/post-23.html",
+    "type": "primary"
+  },
+  {
+    "id": "science-tokyo-2026-1",
+    "publisher": "東京科学大学",
+    "title": "東京科学大学｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx",
+    "type": "primary"
+  },
+  {
+    "id": "ieej-2026-1",
+    "publisher": "日本エネルギー経済研究所",
+    "title": "日本エネルギー経済研究所｜9月11日発表",
+    "url": "https://eneken.ieej.or.jp/press/press260911.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "ieej-2026-2",
+    "publisher": "日本エネルギー経済研究所",
+    "title": "日本エネルギー経済研究所｜10月2日続報",
+    "url": "https://eneken.ieej.or.jp/press/press261002.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "estore-shopserve-2026-1",
+    "publisher": "Eストアー",
+    "title": "Eストアー｜ショップサーブの侵害に関する発表",
+    "url": "https://estore.jp/press/20260802/",
+    "type": "primary"
+  },
+  {
+    "id": "estore-shopserve-2026-2",
+    "publisher": "PFU",
+    "title": "PFU｜ダイレクトショップの購入者情報流出",
+    "url": "https://www.pfu.ricoh.com/news/2026/news260918-2.html",
+    "type": "primary"
+  },
+  {
+    "id": "estore-shopserve-2026-3",
+    "publisher": "マンズワイン",
+    "title": "マンズワイン｜9月30日の購入者向け告知",
+    "url": "https://mannswine-shop.com/shop/t/t1018/",
+    "type": "primary"
+  },
+  {
+    "id": "quocard-2026-1",
+    "publisher": "クオカード",
+    "title": "クオカード｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.quocard.com/newsroom/important/20260929/",
+    "type": "primary"
+  },
+  {
+    "id": "cosme-2026-1",
+    "publisher": "アイスタイル",
+    "title": "アイスタイル｜個人情報漏えいの可能性と9月24日の追加報告",
+    "url": "https://s.cosme.net/announcement/17102",
+    "type": "primary"
+  },
+  {
+    "id": "cinra-job-2026-1",
+    "publisher": "CINRA",
+    "title": "CINRA｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.cinra.co.jp/news/20260827",
+    "type": "primary"
+  },
+  {
+    "id": "cinra-job-2026-2",
+    "publisher": "Security NEXT",
+    "title": "Security NEXT｜CINRA JOBの侵害を9月16日に報道",
+    "url": "https://www.security-next.com/189866",
+    "type": "reporting"
+  },
+  {
+    "id": "central-consultant-2026-1",
+    "publisher": "セントラルコンサルタント",
+    "title": "セントラルコンサルタント｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://central-con.co.jp/news/%E5%BD%93%E7%A4%BE%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99/",
+    "type": "primary"
+  },
+  {
+    "id": "halmek-up-2026-1",
+    "publisher": "ハルメクホールディングス",
+    "title": "ハルメクホールディングス｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://halmek.co.jp/topics/c/notice/17311",
+    "type": "primary"
+  },
+  {
+    "id": "bitget-2026-1",
+    "publisher": "Mandiant",
+    "title": "Mandiant｜Bitget事案の初期調査報告",
+    "url": "https://img.bgstatic.com/multiLang/events/MFR26-1029_Status_Update_Bitget_0930.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "bitget-2026-2",
+    "publisher": "BleepingComputer",
+    "title": "BleepingComputer｜9月30日のBitget侵害報道",
+    "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+    "type": "reporting"
+  },
+  {
+    "id": "idscan-2026-1",
+    "publisher": "IDScan.net",
+    "title": "IDScan.net｜VeriScanのセキュリティ事案通知（9月29日更新）",
+    "url": "https://idscan.net/notification-data-security-incident/",
+    "type": "primary"
+  },
+  {
+    "id": "surfshark-2026-1",
+    "publisher": "Surfshark",
+    "title": "Surfshark｜9月のセキュリティ事案報告",
+    "url": "https://surfshark.com/blog/security-update-september-2026-incident-report",
+    "type": "primary"
+  },
+  {
+    "id": "dfi-retail-2026-1",
+    "publisher": "DFI Retail Group",
+    "title": "DFI Retail Group｜9月28日のサイバー事案発表",
+    "url": "https://www.dfiretailgroup.com/media/ygpljpq4/p260928.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "veradigm-vendor-2026-1",
+    "publisher": "Veradigm",
+    "title": "Veradigm｜SEC提出のForm 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1124804/000119312526385249/mdrx-20260908.htm",
+    "type": "primary"
+  },
+  {
+    "id": "mini-shai-hulud-actions-2026-1",
+    "publisher": "Socket",
+    "title": "Socket｜GitHub Actionsの再有効化と不正コード実行の調査",
+    "url": "https://socket.dev/blog/mini-shai-hulud-actions",
+    "type": "primary"
+  },
+  {
+    "id": "miljodata-2026-1",
+    "publisher": "スウェーデン個人情報保護当局（IMY）",
+    "title": "スウェーデン個人情報保護当局（IMY）｜Miljödataに対する9月22日の処分発表",
+    "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-miljodata-for-bristande-sakerhet/",
+    "type": "primary"
+  },
+  {
+    "id": "fresenius-medical-care-2026-1",
+    "publisher": "Fresenius Medical Care",
+    "title": "Fresenius Medical Care｜9月22日のセキュリティ事案声明",
+    "url": "https://freseniusmedicalcare.com/en/media/newsroom/statement-regarding-cybersecurity-incident/",
+    "type": "primary"
+  },
+  {
+    "id": "canva-vendor-2026-1",
+    "publisher": "トルコ個人情報保護委員会（KVKK）",
+    "title": "トルコ個人情報保護委員会（KVKK）｜Canva Pty Ltdのデータ侵害通知",
+    "url": "https://www.kvkk.gov.tr/Icerik/8961/kamuoyu-duyurusu-veri-ihlali-bildirimi-canva-pty-ltd",
+    "type": "primary"
+  },
+  {
+    "id": "trezor-shipmonk-2026-1",
+    "publisher": "Trezor",
+    "title": "Trezor｜配送委託先の侵害（9月4日更新）",
+    "url": "https://trezor.io/blog/news/recent-customer-data-exposed-in-shipping-provider-incident",
+    "type": "primary"
+  },
+  {
+    "id": "korea-fsc-20261002",
+    "publisher": "韓国金融委員会",
+    "title": "韓国金融委員会｜新韓銀行・KB国民銀行の個人情報流出",
+    "url": "https://fsc.go.kr/no010101/87869",
+    "type": "primary"
+  },
+  {
+    "id": "korea-banks-20261006",
+    "publisher": "Aju Press",
+    "title": "Aju Press｜銀行侵害の10月6日続報",
+    "url": "https://www.ajupress.com/view/20261006163546567",
+    "type": "reporting"
+  },
+  {
+    "id": "korea-banks-20261002",
+    "publisher": "Aju Press",
+    "title": "Aju Press｜銀行各行への取材に基づく10月2日報道",
+    "url": "https://www.ajupress.com/view/20261002193270925",
+    "type": "reporting"
+  },
+  {
+    "id": "korea-banks-sbs-20261002",
+    "publisher": "SBS",
+    "title": "SBS｜韓国語原文による銀行各行の流出報道",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781276",
+    "type": "reporting"
+  },
+  {
+    "id": "atns-2026-1",
+    "publisher": "Air Traffic and Navigation Services",
+    "title": "ATNS｜フォレンジック調査の公式調達文書",
+    "url": "https://www.atns.com/Docs/Re_%20Advert%20Bid%20Document.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "atns-2026-2",
+    "publisher": "Dark Reading",
+    "title": "Dark Reading｜ATNSの公式調達文書に基づく9月30日報道",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
+    "type": "reporting"
+  },
+  {
+    "id": "angmar-management-2026-1",
+    "publisher": "AngMar Management Services",
+    "title": "AngMar Management Services｜州政府に掲載された9月22日の被害通知",
+    "url": "https://www.mass.gov/doc/2026-1611-angmar-management-services/download",
+    "type": "primary"
+  },
+  {
+    "id": "revolut-impersonation-2026-1",
+    "publisher": "The Block",
+    "title": "The Block｜Revolutへの独自取材による9月12日報道",
+    "url": "https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516",
+    "type": "reporting"
+  },
+  {
+    "id": "revolut-impersonation-2026-2",
+    "publisher": "TechCrunch",
+    "title": "TechCrunch｜Revolutへの独自取材による確認",
+    "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "type": "reporting"
+  },
+  {
+    "id": "nikkei-google-workspace-2026-1",
+    "publisher": "日本経済新聞社",
+    "title": "日本経済新聞社｜Google Workspaceへの不正ログイン",
+    "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1547.html",
+    "type": "primary"
+  },
+  {
+    "id": "nikkei-bp-email-2026-1",
+    "publisher": "日経BP",
+    "title": "日経BP｜メール不正アクセスによる個人情報の漏えい",
+    "url": "https://www.nikkeibp.co.jp/atcl/newsrelease/corp/100200417/",
+    "type": "primary"
+  },
+  {
+    "id": "zeroone-bank-2026-1",
+    "publisher": "01銀行",
+    "title": "01銀行｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://01bank.co.jp/news/pdf/2026/0827.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "zeroone-bank-2026-2",
+    "publisher": "Security NEXT",
+    "title": "Security NEXT｜01銀行の侵害を9月2日に報道",
+    "url": "https://www.security-next.com/189728",
+    "type": "reporting"
+  },
+  {
+    "id": "corona-cloud-2026-1",
+    "publisher": "コロナ",
+    "title": "コロナ｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.corona.co.jp/news/other/post-439.html",
+    "type": "primary"
+  },
+  {
+    "id": "corona-cloud-2026-2",
+    "publisher": "Security NEXT",
+    "title": "Security NEXT｜コロナの外部クラウド侵害を9月2日に報道",
+    "url": "https://www.security-next.com/189593",
+    "type": "reporting"
+  },
+  {
+    "id": "mandarake-2026-1",
+    "publisher": "まんだらけ",
+    "title": "まんだらけ｜不正アクセスの中間報告とサービス再開",
+    "url": "https://www.mandarake.co.jp/maintenance.html",
+    "type": "primary"
+  },
+  {
+    "id": "thinca-kaiwa-site-2026-1",
+    "publisher": "シンカ",
+    "title": "シンカ｜サービス紹介サイトへの侵害に関する調査結果",
+    "url": "https://www.thinca.co.jp/news/202609017_news/",
+    "type": "primary"
+  },
+  {
+    "id": "ambition-dx-2026-1",
+    "publisher": "アンビションDXホールディングス",
+    "title": "アンビションDX｜第3報（適時開示原文）",
+    "url": "https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20260828527812/140120260828527812.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "ambition-dx-2026-2",
+    "publisher": "Security NEXT",
+    "title": "Security NEXT｜社内ファイルサーバーの侵害を9月7日に報道",
+    "url": "https://www.security-next.com/188534",
+    "type": "reporting"
+  },
+  {
+    "id": "toka-ransomware-2026-1",
+    "publisher": "T&K TOKA",
+    "title": "T&K TOKA｜不正アクセス・情報漏えいに関する発表",
+    "url": "https://www.toka-global.com/news/detail/post_210.html",
+    "type": "primary"
+  },
+  {
+    "id": "toka-ransomware-2026-2",
+    "publisher": "Security NEXT",
+    "title": "Security NEXT｜T&K TOKAのランサムウェア被害を9月10日に報道",
+    "url": "https://www.security-next.com/189674",
+    "type": "reporting"
+  },
+  {
+    "id": "drivewealth-2026-1",
+    "publisher": "DriveWealth",
+    "type": "primary",
+    "title": "DriveWealth｜公式のセキュリティ事案通知",
+    "url": "https://legal.drivewealth.com/cyber-response-us"
+  },
+  {
+    "id": "drivewealth-2026-2",
+    "publisher": "The Irish Times",
+    "type": "reporting",
+    "title": "The Irish Times｜Revolutへの独自取材による9月24日報道",
+    "url": "https://www.irishtimes.com/business/2026/09/24/irish-revolut-customers-affected-by-third-party-data-breach/"
+  },
+  {
+    "id": "seicomart-2",
+    "publisher": "セイコーマート",
+    "title": "セイコーマート｜個人情報の閲覧に関する第四報",
+    "url": "https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=122",
+    "type": "primary"
+  },
+  {
+    "id": "nikkei-4",
+    "publisher": "日本経済新聞社",
+    "title": "日本経済新聞社｜Microsoft 365の不正ログインと不審メール",
+    "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html",
+    "type": "primary"
+  },
+  {
+    "id": "ftapi-2026-3",
+    "publisher": "Heise",
+    "title": "Heise｜FTAPIへの独自取材による内部サーバーの侵害確認",
+    "url": "https://www.heise.de/en/news/Cyber-attack-on-data-exchange-service-FTAPI-11469688.html",
+    "type": "reporting"
+  },
+  {
+    "id": "trunk-email-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/189987",
+    "title": "Security NEXT｜従業員メール侵害となりすまし送信の報道を検証中"
+  },
+  {
+    "id": "msc-site-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/189792",
+    "title": "Security NEXT｜サイト改ざんとフォーム情報への影響の報道を検証中"
+  },
+  {
+    "id": "japanpost-inquiry-2026-1",
+    "publisher": "日本郵便",
+    "title": "調査請求Web受付サービスへの不正アクセス等の発生について",
+    "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html",
+    "type": "primary"
+  },
+  {
+    "id": "japanpost-inquiry-2026-2",
+    "publisher": "Security NEXT",
+    "title": "不正アクセスの疑いで国際郵便の調査請求Web受付を停止",
+    "url": "https://www.security-next.com/190734",
+    "type": "reporting"
+  },
+  {
+    "id": "kawasaki-kbic-2026-1",
+    "publisher": "川崎市",
+    "title": "KBICのWebサイトへの不正アクセス被害について（最終報）",
+    "url": "https://www.city.kawasaki.jp/templates/prs/280/0000190598.html",
+    "type": "primary"
+  },
+  {
+    "id": "kawasaki-kbic-2026-2",
+    "publisher": "Security NEXT",
+    "title": "KBICサイトへの不正アクセス、最終調査で改ざん・情報流出を否定",
+    "url": "https://www.security-next.com/190242",
+    "type": "reporting"
+  },
+  {
+    "id": "nexco-gaikan-site-2026-1",
+    "publisher": "NEXCO東日本",
+    "title": "東京外環プロジェクトホームページの一時公開停止について（第2報）",
+    "url": "https://www.e-nexco.co.jp/amp/news/important_info/2026/0911/00016602.html",
+    "type": "primary"
+  },
+  {
+    "id": "nexco-gaikan-site-2026-2",
+    "publisher": "Security NEXT",
+    "title": "東京外環サイト侵害の疑い、約700件のメールアドレス閲覧の可能性",
+    "url": "https://www.security-next.com/190203",
+    "type": "reporting"
+  },
+  {
+    "id": "mogily-ultramart-2026-1",
+    "publisher": "mogily",
+    "title": "デジタル整理券システムへの不正アクセスおよびデータ改ざんの報告",
+    "url": "https://corp.mogily.me/news/5097564298805248/",
+    "type": "primary"
+  },
+  {
+    "id": "mogily-ultramart-2026-2",
+    "publisher": "Security NEXT",
+    "title": "購入抽選133人の当落結果を改ざん、個人情報の漏えいは否定",
+    "url": "https://www.security-next.com/190315",
+    "type": "reporting"
+  },
+  {
+    "id": "mogily-ultramart-2026-3",
+    "publisher": "円谷プロダクション",
+    "title": "ULTRA MART抽選システムへの不正アクセスと今後の対応",
+    "url": "https://ultra-mart.m-78.jp/news/20260911/",
+    "type": "primary"
+  },
+  {
+    "id": "rikkyo-accounts-2026-1",
+    "publisher": "立教大学",
+    "title": "不正アクセスによる迷惑メール送信に関するお詫びと報告",
+    "url": "https://www.rikkyo.ac.jp/news/2026/09/mknpps000005brzy.html",
+    "type": "primary"
+  },
+  {
+    "id": "rikkyo-accounts-2026-2",
+    "publisher": "Security NEXT",
+    "title": "学生・卒業生の6アカウントに不正アクセス、迷惑メール送信に悪用",
+    "url": "https://www.security-next.com/190050",
+    "type": "reporting"
+  },
+  {
+    "id": "weblife-oem-2026-1",
+    "publisher": "ウェブライフ",
+    "title": "情報漏えいの可能性に関する調査結果（8月28日更新）",
+    "url": "https://web-life.co.jp/news/6551/",
+    "type": "primary"
+  },
+  {
+    "id": "weblife-oem-2026-2",
+    "publisher": "Security NEXT",
+    "title": "OEMサービス侵害、最大7,425人のメールアドレス等に流出の可能性",
+    "url": "https://www.security-next.com/189127",
+    "type": "reporting"
+  },
+  {
+    "id": "jcv-helpdesk-2026-1",
+    "publisher": "上越ケーブルビジョン",
+    "title": "お客様情報の閲覧に関するお詫びとお知らせ（第3報）",
+    "url": "https://www.jcv.co.jp/260484/",
+    "type": "primary"
+  },
+  {
+    "id": "jcv-helpdesk-2026-2",
+    "publisher": "Security NEXT",
+    "title": "ヘルプデスクメール侵害、保存メール4通の閲覧を確認",
+    "url": "https://www.security-next.com/189860",
+    "type": "reporting"
+  },
+  {
+    "id": "fancrew-2026-1",
+    "publisher": "ファンくる",
+    "title": "不正ログインに関するご報告（最終報）",
+    "url": "https://www.fancrew.co.jp/news/news-press-release/2609_final-report-unauthorized-account-access.html",
+    "type": "primary"
+  },
+  {
+    "id": "fancrew-2026-2",
+    "publisher": "Security NEXT",
+    "title": "5万9,389人の会員に不正ログイン、2アカウントでポイント不正交換",
+    "url": "https://www.security-next.com/189477",
+    "type": "reporting"
+  },
+  {
+    "id": "miyazaki-saito-dorm-2026-1",
+    "publisher": "宮崎県",
+    "title": "西都地区生徒寮個人情報漏えいの可能性がある事案の発生について",
+    "url": "https://www.pref.miyazaki.lg.jp/kokokyoiku/press/2026/09/20260905133926.html",
+    "type": "primary"
+  },
+  {
+    "id": "miyazaki-saito-dorm-2026-2",
+    "publisher": "Security NEXT",
+    "title": "生徒寮でサポート詐欺、入寮者76人・職員10人の情報に流出の可能性",
+    "url": "https://www.security-next.com/189985",
+    "type": "reporting"
+  },
+  {
+    "id": "nagoya-mizuho-form-2026-1",
+    "publisher": "名古屋市",
+    "title": "瑞穂文化小劇場における個人情報の漏えいについて",
+    "url": "https://www.city.nagoya.jp/houdou/3003942/3003947/3005575.html",
+    "type": "primary"
+  },
+  {
+    "id": "nagoya-mizuho-form-2026-2",
+    "publisher": "Security NEXT",
+    "title": "申込フォームの設定ミスで33人分の情報が閲覧可能に",
+    "url": "https://www.security-next.com/190646",
+    "type": "reporting"
+  },
+  {
+    "id": "omachi-digimachi-2026-2",
+    "publisher": "Security NEXT",
+    "title": "デジタルアーカイブを改ざん、外部のカジノサイトへ誘導",
+    "url": "https://www.security-next.com/190193",
+    "type": "reporting"
+  },
+  {
+    "id": "omachi-digimachi-2026-3",
+    "publisher": "ScanNetSecurity",
+    "title": "大町市デジタルアーカイブサイトに不正アクセス",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56342.html",
+    "type": "reporting"
+  },
+  {
+    "id": "satsuki-hoikuen-site-2026-1",
+    "publisher": "北区さつき会",
+    "title": "さつき保育園ウェブサイトの改ざんと再開のお知らせ",
+    "url": "https://corp.satukihoikuen.net/important/20260825-157/",
+    "type": "primary"
+  },
+  {
+    "id": "satsuki-hoikuen-site-2026-2",
+    "publisher": "Security NEXT",
+    "title": "保育園サイトを改ざん、個人情報への影響は否定",
+    "url": "https://www.security-next.com/189794",
+    "type": "reporting"
+  },
+  {
+    "id": "chiba-biodiversity-2026-1",
+    "publisher": "千葉県",
+    "title": "生物多様性センターホームページへの不正アクセスについて",
+    "url": "https://www.pref.chiba.lg.jp/shizen/press/2026/260901hompageerror.html",
+    "type": "primary"
+  },
+  {
+    "id": "chiba-biodiversity-2026-2",
+    "publisher": "Security NEXT",
+    "title": "生物多様性センターのサイトに不正ページ、団員情報への影響を調査",
+    "url": "https://www.security-next.com/189725",
+    "type": "reporting"
+  },
+  {
+    "id": "ota-plaza-support-scam-2026-1",
+    "publisher": "大田区",
+    "title": "大田区民プラザにおける情報漏えいの可能性のある事故について",
+    "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR08/2026090402.html",
+    "type": "primary"
+  },
+  {
+    "id": "ota-plaza-support-scam-2026-2",
+    "publisher": "Security NEXT",
+    "title": "施設職員がサポート詐欺被害、556人分の保存情報に流出の可能性",
+    "url": "https://www.security-next.com/189902",
+    "type": "reporting"
+  },
+  {
+    "id": "imadeya-orders-2026-1",
+    "publisher": "いまでや",
+    "title": "お客様情報の外部流出の可能性に関するお詫びとお知らせ（第1報）",
+    "url": "https://prtimes.jp/main/html/rd/p/000000061.000065209.html",
+    "type": "primary"
+  },
+  {
+    "id": "imadeya-orders-2026-2",
+    "publisher": "Security NEXT",
+    "title": "実際の注文情報を使ったフィッシングメール、情報流出の可能性を調査",
+    "url": "https://www.security-next.com/189260",
+    "type": "reporting"
   }
 ]
