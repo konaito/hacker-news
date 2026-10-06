@@ -4300,5 +4300,147 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "大阪府の10月5日報道発表本文をWebおよび通常HTTPSで確認。非表示シートの再表示可能性、期間、48件の単位を突合。"
+  },
+  {
+    "id": "advantest-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "アドバンテスト（Advantest Corporation・子会社）",
+    "service": "社内システム・サーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "製造",
+    "title": "サーバーから個人情報が持ち出され、10月に対象者へ通知",
+    "summary": "アドバンテストの10月6日付通知は、2月に認識したサイバー事件で第三者がシステムへ不正アクセスし、サーバーから一部データを持ち出したと説明しています。持ち出されたデータには通知対象者の個人情報が含まれていました。",
+    "note": "対象人数は通知本文に記載されていません。公開された通知様式の情報項目は個別差し込み用で、社会保障番号・医療情報などが全員分流出したとは扱いません。2月は認識時期で、侵入開始日は不明です。会社は個人情報の公開や悪用を示す情報はないとしています。",
+    "affected": [],
+    "sources": [
+      "advantest-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "州司法長官が公開した企業の10月6日通知PDF本文で、データ持ち出しと対象者の個人情報の包含を確認。過去の侵害に対する新しい通知を対象とする。"
+  },
+  {
+    "id": "okayama-disaster-plan-pdf-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": "2022-04-27",
+    "company": "岡山県",
+    "service": "地区防災計画の公開PDF",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "公開PDFの白文字に24人の個人情報が残り、コピーや検索で閲覧可能に",
+    "summary": "岡山県が2022年4月27日から公開した地区防災計画のPDFに、関係者24人の氏名・住所・電話番号などが残っていました。文字を白くする処理で見えなくしていましたが、テキストのコピーや氏名検索で参照でき、2026年8月21日の自治体からの報告で判明しました。",
+    "note": "県は対象ページを非公開にし関係者へ説明・謝罪しています。閲覧可能な状態を確認した事案で、第三者による取得・再配布や二次被害の範囲は未確認です。初報は8月26日ですが、10月6日の新たな報道を対象とし、公表日欄はこの続報日です。",
+    "affected": [
+      {
+        "count": 24,
+        "unit": "people",
+        "description": "公開PDFに個人情報が掲載されていた関係者。実際に第三者が取得した人数ではない。",
+        "source_id": "okayama-disaster-plan-pdf-2026-1"
+      }
+    ],
+    "sources": [
+      "okayama-disaster-plan-pdf-2026-1",
+      "okayama-disaster-plan-pdf-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次告知を取得できなかったため、独立したSecurity NEXTと岡山放送の本文で公開状態と24人を照合。8月初報と10月続報を区別。"
+  },
+  {
+    "id": "yegaram-savings-bank-2026",
+    "published_at": "2026-10-03",
+    "occurred_at": "2026-09-30",
+    "company": "イェガラム貯蓄銀行（Yegaram Savings Bank）",
+    "service": "顧客情報サーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "金融",
+    "title": "顧客情報サーバーへの侵入で約4万人の情報流出と報道",
+    "summary": "韓国のイェガラム貯蓄銀行で9月30日に顧客情報サーバーへの不正アクセスと情報持ち出しの形跡が確認されました。10月3日の独立した2媒体の報道によると、銀行は2日に謝罪告知を出し、氏名・生年月日・連絡先など約4万人分の流出を推計しています。",
+    "note": "約4万人は推計で、正確な被害範囲を確認中です。関連サービス停止と外部IP遮断を実施したと報じられています。同時期の他行侵害と別事件で数え、AIの使用や攻撃者の帰属は確定していません。",
+    "affected": [
+      {
+        "count": 40000,
+        "unit": "people",
+        "description": "報道で推計されている顧客数（約4万人）。確定した実人数ではない。",
+        "source_id": "yegaram-savings-bank-2026-2"
+      }
+    ],
+    "sources": [
+      "yegaram-savings-bank-2026-1",
+      "yegaram-savings-bank-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "銀行公式の告知一覧は本文にエラーページを表示。独立したSeoul Economic DailyとSBSの記者記事本文を確認。英語版の翻訳表記を記録し、共通の事件事実と推計だけを採用。"
+  },
+  {
+    "id": "hyundai-capital-2026",
+    "published_at": "2026-10-03",
+    "occurred_at": null,
+    "company": "現代キャピタル（Hyundai Capital）",
+    "service": "住宅ローン募集人の照会ページ",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "金融",
+    "title": "住宅ローン募集人の照会ページが侵害され、146人の個人情報流出と報道",
+    "summary": "韓国の現代キャピタルの住宅ローン募集人照会ページが侵害され、募集人の氏名・携帯電話番号・住民登録番号が流出したと、Seoul Economic DailyとSBSが報じています。SBSは会社の説明として対象を146人と伝えています。",
+    "note": "146人は募集人で、借入顧客ではありません。会社は個人顧客情報の流出や内部システムへの侵入はないと説明しています。侵入日はSBSの9月27日という説明とSeoul Economic Dailyの10月2日という記述が食い違うため未確定とし、AI使用も確定した手法として分類しません。",
+    "affected": [
+      {
+        "count": 146,
+        "unit": "people",
+        "description": "SBSが会社発表として伝えた住宅ローン募集人。借入顧客数ではない。",
+        "source_id": "hyundai-capital-2026-2"
+      }
+    ],
+    "sources": [
+      "hyundai-capital-2026-1",
+      "hyundai-capital-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次告知を検索で取得できず、独立したSeoul Economic DailyとSBSの記者記事本文で情報流出を確認。日時の不一致を未確定として残す。"
+  },
+  {
+    "id": "welcome-savings-bank-2026",
+    "published_at": "2026-10-04",
+    "occurred_at": null,
+    "company": "ウェルカム貯蓄銀行（Welcome Savings Bank）",
+    "service": "法人顧客関連システム",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "金融",
+    "title": "法人顧客関連システムへの攻撃で最大2,200件の情報流出を調査",
+    "summary": "韓国のウェルカム貯蓄銀行は10月3日の自主点検で法人顧客関連システムへのハッキング攻撃を確認し、金融当局へ報告したと、亜洲日報とChosunBizが報じています。法人名・担当者名・メールアドレス・電話番号など最大2,200件の流出が推定されています。",
+    "note": "2,200件は推定される情報件数で、2,200人とは扱いません。正確な流出経緯と規模は調査中です。10月3日は確認日で侵入開始日は未確定。AI使用は確定した攻撃手法として記録しません。",
+    "affected": [
+      {
+        "count": 2200,
+        "unit": "records",
+        "description": "報道で流出が推定される法人顧客関連情報の最大件数。確定人数ではない。",
+        "source_id": "welcome-savings-bank-2026-1"
+      }
+    ],
+    "sources": [
+      "welcome-savings-bank-2026-1",
+      "welcome-savings-bank-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "独立した亜洲日報とChosunBizの署名記事本文を照合。日本語版はAI翻訳であることを確認し、流出範囲の推定と調査中の表現を維持。公式ドメイン検索では通知本文を取得できなかった。"
   }
 ]

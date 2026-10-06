@@ -1699,5 +1699,68 @@
     "type": "primary",
     "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o100070/prs_51261.html",
     "title": "個人情報の流出について"
+  },
+  {
+    "id": "advantest-2026-1",
+    "publisher": "アドバンテスト",
+    "type": "primary",
+    "url": "https://oag.ca.gov/system/files/Advantest%20Corporation%20-%20Notice%20of%20Data%20Breach%20-%20Individual%20Letter.pdf",
+    "title": "Notice of Data Breach — October 6, 2026"
+  },
+  {
+    "id": "okayama-disaster-plan-pdf-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190450",
+    "title": "同県サイトで公開した地区防災計画のPDFに個人情報 - 岡山県"
+  },
+  {
+    "id": "okayama-disaster-plan-pdf-2026-2",
+    "publisher": "岡山放送",
+    "type": "reporting",
+    "url": "https://www.fnn.jp/articles/-/1101931",
+    "title": "岡山県HPで公開の地区防災計画資料に関係者24人の個人情報が漏えい"
+  },
+  {
+    "id": "yegaram-savings-bank-2026-1",
+    "publisher": "Seoul Economic Daily",
+    "type": "reporting",
+    "url": "https://en.sedaily.ai/finance/2026/10/03/hyundai-capital-yegaram-savings-bank-hit-by-data-breaches",
+    "title": "Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches"
+  },
+  {
+    "id": "yegaram-savings-bank-2026-2",
+    "publisher": "SBS",
+    "type": "reporting",
+    "url": "https://news.sbs.co.kr/english/article.do?cooper=SBSNEWSEND&news_id=N1008782026&oaid=N1008782076&plink=TOP",
+    "title": "Yegaram Savings Bank Suffers Leak of 40,000 Customers’ Info"
+  },
+  {
+    "id": "hyundai-capital-2026-1",
+    "publisher": "Seoul Economic Daily",
+    "type": "reporting",
+    "url": "https://en.sedaily.ai/finance/2026/10/03/hyundai-capital-yegaram-savings-bank-hit-by-data-breaches",
+    "title": "Hyundai Capital, Yegaram Savings Bank Hit by Data Breaches"
+  },
+  {
+    "id": "hyundai-capital-2026-2",
+    "publisher": "SBS",
+    "type": "reporting",
+    "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008782324",
+    "title": "Savings Banks and Capital Firms Hit Too... Hacking Damage Spreads Across Entire Financial Sector"
+  },
+  {
+    "id": "welcome-savings-bank-2026-1",
+    "publisher": "亜洲日報",
+    "type": "reporting",
+    "url": "https://japan.ajunews.com/view/20261004145270969",
+    "title": "ウェルカム貯蓄銀行における情報漏洩の確認"
+  },
+  {
+    "id": "welcome-savings-bank-2026-2",
+    "publisher": "ChosunBiz",
+    "type": "reporting",
+    "url": "https://biz.chosun.com/jp/jp-finance/2026/10/04/P5P7ZU6GOBAVHH44HQYALZSKNI/",
+    "title": "ウェルカム貯蓄銀行で法人情報流出拡大"
   }
 ]
