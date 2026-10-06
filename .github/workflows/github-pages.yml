@@ -1,0 +1,66 @@
+name: Validate and deploy GitHub Pages
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate records and build from this commit
+        run: |
+          python3 scripts/validate.py
+          python3 build.py
+          python3 scripts/check-page.py
+          python3 scripts/check-seo-pwa.py
+          python3 scripts/test-updates.py
+          python3 scripts/test-audit-report.py
+          node --check public/app.js
+          node --check public/pwa.js
+          node --check public/sw.js
+          node scripts/test-service-worker.cjs
+      - name: Verify build is reproducible for this commit
+        run: |
+          cp -a public "$RUNNER_TEMP/site-first-build"
+          python3 build.py
+          diff -qr "$RUNNER_TEMP/site-first-build" public
+      - name: Configure Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy production
+        id: deployment
+        uses: actions/deploy-pages@v4

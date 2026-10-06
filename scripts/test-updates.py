@@ -1,13 +1,42 @@
 """Check public changes, candidate exclusion, withdrawals and history escaping."""
 import sys
 import unittest
+import subprocess
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from updates import public_changes, render_entry, timestamp_html, parse_timestamp
+from updates import public_changes, render_entry, timestamp_html, parse_timestamp, load_history
 
 
 class HistoryTests(unittest.TestCase):
+    def test_history_tracks_real_commits_and_ignores_working_tree(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            def git(*args):
+                return subprocess.check_output(['git', '-C', directory, *args], text=True).strip()
+            git('init', '-b', 'main')
+            git('config', 'user.name', 'Test')
+            git('config', 'user.email', 'test@example.com')
+            (root / 'data').mkdir()
+            (root / 'data/updates.json').write_text('invalid legacy history')
+            git('add', '.')
+            git('commit', '-m', 'Initial site')
+            first = git('rev-parse', 'HEAD')
+            git('commit', '--allow-empty', '-m', 'Site maintenance <script>')
+            latest = git('rev-parse', 'HEAD')
+            (root / 'data/updates.json').write_text('uncommitted changes')
+            entries = load_history(root)
+            self.assertEqual([entry['id'] for entry in entries], [latest, first])
+            self.assertEqual(entries[0]['timestamp'], git('show', '-s', '--format=%cI', 'HEAD'))
+            html = render_entry(entries[0], set(), details=False)
+            self.assertIn('/commit/' + latest, html)
+            self.assertIn('Site maintenance &lt;script&gt;', html)
+            self.assertEqual(entries, load_history(root))
+            shallow = root / 'shallow'
+            subprocess.run(['git', 'clone', '--depth', '1', root.as_uri(), str(shallow)], check=True, capture_output=True)
+            with self.assertRaisesRegex(ValueError, 'full Git checkout'):
+                load_history(shallow)
     def test_utc_z_on_launchagent_python(self):
         self.assertEqual(parse_timestamp('2026-10-05T23:41:44Z'), parse_timestamp('2026-10-05T23:41:44+00:00'))
         self.assertIn('2026年10月06日 08:41', timestamp_html('2026-10-05T23:41:44Z'))

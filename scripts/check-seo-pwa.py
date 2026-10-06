@@ -8,7 +8,7 @@ class Head(HTMLParser):
     def __init__(self):super().__init__();self.meta={};self.links={};self.ld=[];self.capture=False;self.buffer='';self.headings=0
     def handle_starttag(self,t,attrs):
         a=dict(attrs)
-        if t=='meta':self.meta[a.get('name',a.get('property'))]=a.get('content')
+        if t=='meta':self.meta[a.get('name',a.get('property',a.get('http-equiv')))]=a.get('content')
         if t=='link':self.links.setdefault(a.get('rel'),[]).append(a.get('href'))
         if t=='h1':self.headings+=1
         if t=='script' and a.get('type')=='application/ld+json':self.capture=True;self.buffer=''
@@ -22,12 +22,14 @@ urls=set()
 for page in pages:
     p=Head();p.feed(page.read_text())
     assert len(p.links['canonical'])==1;url=p.links['canonical'][0];assert url not in urls;urls.add(url)
-    assert url.startswith('https://hackernews.allalarm.app/')
+    assert url.startswith('https://cyber.allalarm.app/')
     assert p.headings==1, f'H1 count: {page}'
     assert p.meta['description'] and p.meta['twitter:card']=='summary_large_image'
     assert p.meta['og:url']==url and p.meta['og:image']==p.meta['twitter:image']
     assert p.links['manifest']==['/manifest.webmanifest'] and p.ld
     assert 'noindex' not in p.meta['robots']
+    assert "worker-src 'self'" in p.meta['Content-Security-Policy']
+    assert "manifest-src 'self'" in p.meta['Content-Security-Policy']
 for r in records:assert (OUT/'news'/r['id']/'index.html').exists()==(r['publication_status']=='published')
 sitemap=ET.parse(OUT/'sitemap.xml');locs={n.text for n in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')};assert urls==locs
 ET.parse(OUT/'feed.xml')

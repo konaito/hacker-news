@@ -1,42 +1,29 @@
 # ALLALARM Cyber Journal
 
-出典に基づく日本語のサイバー事件ニュースサイト。公開先: https://hackernews.allalarm.app/
+出典に基づく日本語のサイバー事件ニュースサイト。公開先: https://cyber.allalarm.app/
 
-## GitHub Actionsへの移行
+## GitHub Pagesで公開
 
-意図するprivateリポジトリ: `konaito/hacker-news`。現在の設定が完了したかはremoteとGitHubで確認してください。
+公開リポジトリ: [konaito/hacker-news](https://github.com/konaito/hacker-news)。公開先: https://cyber.allalarm.app/ 。旧 `hackernews.allalarm.app` はCloudflare Pagesの転送専用サイトで、新ドメインの同じパスへ301転送します。
 
-通常のMac Terminal（ghでkonaitoにログイン済み）から、一度だけ実行:
+`main`へのpush（PRのマージを含む）→ `.github/workflows/github-pages.yml` → データ検証 → build → ページ・SEO/PWA・Service Worker検証 → 同じコミットでの再ビルド一致確認 → GitHub Pagesへ公開。
 
-```sh
-cd ~/hacker-news && python3 scripts/setup-github.py
-```
+PRでは検証だけを実行します。公開対象は `public/` のみ。デプロイ用のCloudflare SecretsやOpenAI APIキーは不要です。GitHub Pagesの公開元はGitHub Actions、カスタムドメインは `cyber.allalarm.app`。Cloudflare DNSの `cyber` CNAMEは `konaito.github.io` を指し、プロキシをOFFにします。DNSはCloudflareで管理し、ニュースサイトはGitHub Pagesで配信します。
 
-アカウント・origin・検証結果を確認し、privateリポジトリを作成、既存ローカルCloudflare認証をActions Secretsへ登録、レビュー済み変更をコミットしmainへpushします。認証値は引数やログに出しません。異なるoriginや既存のpublic/未接続の内容入りリポジトリには接続しません。失敗時は原因を解消して再実行できます。force pushは行いません。
-
-## 公開パイプライン
-
-`main`へのpush（PRのマージを含む）→ `.github/workflows/cloudflare-pages.yml` → データ検証 → build → ページ・SEO/PWA・Service Worker検証 → 生成物の再現性確認 → Cloudflare Pagesへ公開。
-
-PRでは検証だけを実行し、デプロイ用Secretsは使いません。公開対象は `public/` のみ。Cloudflare Pages project `allalarm-hackernews`、production branch `main`、既存ドメインを継続使用します。デプロイ用Secretsは `CLOUDFLARE_API_TOKEN` と `CLOUDFLARE_ACCOUNT_ID`。OpenAI APIキーはデプロイに不要です。
-
-Actionsを確認:
+GitHub Pagesは `_headers` に対応しないため、CSPとreferrer policyはHTMLのmetaで設定しています。独自のHTTPセキュリティヘッダーやworkerのno-cacheヘッダーは設定できません。Service Workerは `updateViaCache: 'none'` とnetwork-firstを維持します。
 
 ```sh
-gh run list --repo konaito/hacker-news --workflow cloudflare-pages.yml
-```
-
-デプロイ失敗後の手動再実行:
-
-```sh
+gh run list --repo konaito/hacker-news --workflow github-pages.yml
 python3 scripts/deploy.py
 ```
 
-このコマンドはActionsを起動します。ローカルからCloudflareへ直接公開しません。push完了とデプロイ成功は別の状態なので、Actionsの結果を確認してください。
+`deploy.py` はmainのActionsを起動します。push完了と公開成功は別なので、Actionsの結果を確認してください。`setup-github.py` は公開リポジトリとPagesを設定する補助スクリプトです。既存のprivateリポジトリを自動公開せず、コミット・pushやDNS変更も行いません。
 
 ## 更新履歴
 
-トップページの「更新履歴」と `/updates/` で、記事の追加・内容更新・掲載取り下げを日本時間で確認できます。過去分は保存されたコミット差分から復元し、今後は毎時監査の調査完了時に公開記事・出典の実際の差分から `data/updates.json` に記録します。日時は事件の公表日やデプロイ完了時刻ではありません。未掲載候補だけの変更、確認日だけの変更、変更のない調査は公開履歴を増やしません。手動で公開記事やサイトを変更するときも、このファイルに日時・要約・変更記事を追記してください。生成HTMLを直接編集する必要はありません。
+トップページの「更新履歴」と `/updates/` は、公開版のGitコミット履歴から直接生成します。mainの履歴を新しいコミットから順に表示し、コミットメッセージ・日本時間のコミット日時・GitHubの差分リンクを掲載します。サイト保守や未掲載候補の調査のコミットも含みます。変更のない監査はコミットを作らないため履歴も増えません。`data/updates.json` への手動追記は不要です。
+
+Actionsは全履歴を取得し（`fetch-depth: 0`）、デプロイ対象のコミットを含めて生成します。浅いcloneでのbuildは履歴欠落を防ぐため失敗します。ローカルでコミット前に生成したHTMLは直前のHEADの履歴で、Actionsが最新コミットから再生成したものを配信します。履歴表示のためのブラウザ側GitHub API呼び出しはありません。
 
 ## 新着・広域の2つの監査ループ
 

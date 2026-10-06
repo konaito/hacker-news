@@ -1,10 +1,11 @@
-"""Track public editorial changes and render a reproducible update history."""
-import json
+"""Render the site's update history directly from committed Git history."""
 import re
+import subprocess
 from datetime import datetime, timedelta, timezone
 from html import escape
 
 JST = timezone(timedelta(hours=9))
+REPOSITORY_URL = 'https://github.com/konaito/hacker-news'
 LABELS = {'added': '記事追加', 'updated': '内容更新', 'withdrawn': '掲載取り下げ'}
 PRIVATE_FIELDS = {'first_seen_at', 'last_verified_at', 'verification_note'}
 
@@ -43,18 +44,20 @@ def change_summary(changes):
 
 
 def load_history(root):
-    entries = json.loads((root / 'data/updates.json').read_text())
-    seen = set()
-    for entry in entries:
-        assert entry['id'] not in seen, 'Duplicate update ID'
-        seen.add(entry['id'])
-        assert parse_timestamp(entry['timestamp']).tzinfo is not None
-        assert isinstance(entry['summary'], str) and entry['summary']
-        for change in entry['changes']:
-            assert re.fullmatch(r'[a-z0-9-]+', change['id'])
-            assert change['action'] in LABELS
-            assert isinstance(change['title'], str) and isinstance(change['company'], str)
-    return sorted(entries, key=lambda entry: parse_timestamp(entry['timestamp']), reverse=True)
+    def git(*args):
+        return subprocess.check_output(['git', '-C', str(root), *args], text=True).strip()
+
+    if git('rev-parse', '--is-shallow-repository') == 'true':
+        raise ValueError('Update history requires a full Git checkout (fetch-depth: 0).')
+    fields = git('log', '--first-parent', '-z', '--format=%H%x00%cI%x00%s', 'HEAD').rstrip('\0').split('\0')
+    entries = []
+    for offset in range(0, len(fields), 3):
+        sha, timestamp, subject = fields[offset:offset + 3]
+        assert re.fullmatch(r'[0-9a-f]{40}', sha)
+        assert parse_timestamp(timestamp).tzinfo is not None
+        entries.append({'id': sha, 'timestamp': timestamp, 'summary': subject, 'changes': []})
+    # Git's order follows main's ancestry, including commits with unusual clocks.
+    return entries
 
 
 def timestamp_html(value):
@@ -64,6 +67,9 @@ def timestamp_html(value):
 
 def render_entry(entry, published_ids, details=True):
     body = timestamp_html(entry['timestamp']) + f'<p>{escape(entry["summary"])}</p>'
+    if re.fullmatch(r'[0-9a-f]{40}', entry.get('id', '')):
+        sha = entry['id']
+        body += f'<a class="history-label" href="{REPOSITORY_URL}/commit/{sha}">コミット {sha[:7]} を見る</a>'
     if details and entry['changes']:
         items = []
         for change in entry['changes']:

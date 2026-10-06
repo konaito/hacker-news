@@ -49,7 +49,7 @@ if git('status', '--porcelain'):
 if git('branch', '--show-current') != 'main':
     raise SystemExit('Audit requires the main branch.')
 if 'origin' not in git('remote').splitlines():
-    raise SystemExit('Configure the private GitHub origin with scripts/setup-github.py first.')
+    raise SystemExit('Configure the GitHub origin with scripts/setup-github.py first.')
 # Incorporate merges made on GitHub without overwriting local work or creating merge commits.
 run(['git', 'fetch', 'origin', 'main'])
 run(['git', 'merge', '--ff-only', 'origin/main'])
@@ -78,19 +78,16 @@ if any(not p.startswith(('data/', 'public/news/', 'public/archive/')) and p not 
 if changed:
     changes = public_changes(before_incidents, json.loads((ROOT / 'data/incidents.json').read_text()), before_sources, json.loads((ROOT / 'data/sources.json').read_text()))
     if changes:
-        history_path = ROOT / 'data/updates.json'
-        history = json.loads(history_path.read_text())
-        entry_id = 'audit-' + completion['completed_at']
-        if not any(entry['id'] == entry_id for entry in history):
-            history.append({'id': entry_id, 'timestamp': completion['completed_at'], 'summary': change_summary(changes), 'changes': changes})
-            history_path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + '\n')
+        subject = 'Update verified cybersecurity news: ' + change_summary(changes)
+    else:
+        subject = 'Update cybersecurity research data'
     for script in ('scripts/validate.py', 'build.py', 'scripts/check-page.py', 'scripts/check-seo-pwa.py'):
         run(['python3', script])
     for script in ('public/app.js', 'public/pwa.js', 'public/sw.js'):
         run(['node', '--check', script])
     run(['node', 'scripts/test-service-worker.cjs'])
     run(['git', 'add', 'data', *sorted(allowed_files), 'public/news', 'public/archive'])
-    run(['git', 'commit', '-m', 'Update verified cybersecurity news'])
+    run(['git', 'commit', '-m', subject])
 # Retry a previously failed push even when the latest audit has no content changes.
 head = git('rev-parse', 'HEAD')
 if head != git('rev-parse', 'origin/main'):
