@@ -2175,5 +2175,19 @@
     "type": "primary",
     "url": "https://www.docomo.ne.jp/info/notice/page/261004_00.html",
     "title": "【お詫び】RCS利用における重要事項説明および第三者提供同意取得未実施に関するお知らせ"
+  },
+  {
+    "id": "odawara-engineering-email-2026-1",
+    "publisher": "小田原エンジニアリング",
+    "type": "primary",
+    "url": "https://odawara-eng.co.jp/wp-content/uploads/2026/09/20260915.pdf",
+    "title": "不正アクセスによる情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "qdk-most-ransomware-2026-1",
+    "publisher": "九州電子",
+    "type": "primary",
+    "url": "https://www.qdk.co.jp/information/most%E7%A4%BE%EF%BC%88%E5%BC%8A%E7%A4%BE%E5%8F%B0%E6%B9%BE%E5%AD%90%E4%BC%9A%E7%A4%BE%EF%BC%89%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A4%E3%83%B3/",
+    "title": "MOST社（弊社台湾子会社）の情報セキュリティインシデントに関するご報告（最終報）"
   }
 ]
