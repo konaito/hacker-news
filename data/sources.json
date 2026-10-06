@@ -2126,5 +2126,40 @@
     "title": "サンコーテクノのベトナム子会社にランサムウェア攻撃",
     "url": "https://scan.netsecurity.ne.jp/article/2026/09/01/56095.html",
     "type": "reporting"
+  },
+  {
+    "id": "iqvia-italy-disclosure-2026-1",
+    "publisher": "Garante per la protezione dei dati personali",
+    "type": "primary",
+    "url": "https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10302141",
+    "title": "COMUNICATO STAMPA - Dati sanitari: 7 milioni di euro di sanzione"
+  },
+  {
+    "id": "iqvia-italy-disclosure-2026-2",
+    "publisher": "Garante per la protezione dei dati personali",
+    "type": "primary",
+    "url": "https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/10302112",
+    "title": "Provvedimento del 23 settembre 2026 [10302112]"
+  },
+  {
+    "id": "shudo-gakuen-2026-1",
+    "publisher": "学校法人修道学園",
+    "type": "primary",
+    "url": "https://www.shudo-u.ac.jp/gakuen/information/b53fil000000008q.html",
+    "title": "不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び"
+  },
+  {
+    "id": "tottori-care-provider-email-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190687",
+    "title": "介護事業者向けの報告書依頼メールで誤送信 - 鳥取県"
+  },
+  {
+    "id": "fake-ai-ads-phishing-2026-1",
+    "publisher": "Island",
+    "type": "primary",
+    "url": "https://www.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign",
+    "title": "Behind the Connect Button: The Fake AI Ads Campaign"
   }
 ]

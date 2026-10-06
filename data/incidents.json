@@ -5281,5 +5281,108 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "公式PDF全1ページと9月1日の報道本文を確認。確認日を発生日へ転記せず、漏洩を断定しない。"
+  },
+  {
+    "id": "iqvia-italy-disclosure-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "IQVIA Solutions Italy",
+    "service": "LPD医療データベース",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "医療・ヘルスケア",
+    "title": "匿名化処理の不備で患者約3,370人の識別情報を第三者へ送信",
+    "summary": "イタリアの個人情報保護当局は、医師のシステムから抽出した自由記述欄の識別情報が除去されず、IQVIAに取り込まれたうえでSIMGへ送信されたと認定しました。患者約3,370人が対象で、このうち3,080人は健康情報も含まれていました。",
+    "note": "当局は9月23日の決定を10月2日に公表。発生期間は原文で伏せられているため不明とします。約100万人のデータ処理に関する匿名化・適法性の問題と、約3,370人の識別情報の誤った送信を区別します。3,080人は内数で合算しません。SIMGは会社の要請を受け識別情報を削除したと説明されています。700万ユーロの制裁は複数の違反に対するもので、この送信だけの制裁額ではありません。",
+    "affected": [
+      {
+        "count": 3370,
+        "unit": "people",
+        "description": "識別情報がSIMGにも送信された患者の概数。うち3,080人は健康情報を含む。",
+        "source_id": "iqvia-italy-disclosure-2026-2"
+      }
+    ],
+    "sources": [
+      "iqvia-italy-disclosure-2026-1",
+      "iqvia-italy-disclosure-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "当局の10月2日発表と9月23日決定原文の第3節・第6.7節を本文で確認。一般的な匿名化違反だけでなく、直接識別情報の第三者送信が認定された事案を掲載。外部攻撃による窃取とは扱いません。"
+  },
+  {
+    "id": "shudo-gakuen-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "学校法人修道学園",
+    "service": "学園管理サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "学園サーバーに不正アクセス、学生・教職員や取引先情報に漏洩のおそれ",
+    "summary": "修道学園は管理サーバーへの不正アクセスを確認し、広島修道大学と傘下の中学・高校の取引先口座情報、教職員、一部学生、外部講師の氏名・住所・電話番号や口座情報などが漏洩したおそれがあると公表しました。外部専門機関と原因・影響範囲を調査しています。",
+    "note": "9月26日は不正アクセスの確認日で、侵入開始日は不明。9月30日の発表時点で情報の不特定多数への公開、不正利用、二次被害の報告は確認されていません。対象人数は未公表。ランサムウェアや情報の持ち出しを確定する発表ではありません。",
+    "affected": [],
+    "sources": [
+      "shudo-gakuen-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式横断検索で発見し、大学のお知らせから学園公式発表本文へたどって確認。確認日と侵入開始日、漏洩のおそれと実際の流出を区別しました。"
+  },
+  {
+    "id": "tottori-care-provider-email-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": "2026-08-28",
+    "company": "鳥取県",
+    "service": "介護事業者への実績報告書提出依頼メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "検証待ち",
+    "category": "官公庁・自治体",
+    "title": "介護事業者宛メールの誤送信、メールアドレス163件の報道を検証中",
+    "summary": "Security NEXTは、鳥取県が介護事業者へ実績報告書の提出を依頼した8月28日のメールで、宛先設定を誤りメールアドレス163件が受信者間で閲覧可能になったと報じました。一次発表または独立した別媒体の確認を待っています。",
+    "note": "10月6日の報道本文を確認しましたが、県の個別発表本文は取得できていません。非公開の検証待ちを維持します。163件はメールアドレス数で、人数へ換算しません。",
+    "affected": [
+      {
+        "count": 163,
+        "unit": "records",
+        "description": "報道に記載されたメールアドレス件数。一次情報未確認。",
+        "source_id": "tottori-care-provider-email-2026-1"
+      }
+    ],
+    "sources": [
+      "tottori-care-provider-email-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "Security NEXTの記事全本文を確認。鳥取県公式ドメインで件数・実績報告・誤送信を検索したが当該個別発表を取得できず、単独報道のためpending。"
+  },
+  {
+    "id": "fake-ai-ads-phishing-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "広告運用者等（被害組織名は非公表）",
+    "service": "偽AI広告ツール群のフィッシング基盤",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "認証情報の収集を確認",
+    "category": "IT・クラウド",
+    "title": "偽AI広告サイト群が認証情報を収集、MFAの入力も誘導",
+    "summary": "Islandは、ChatGPT・Gemini・Claudeなどの広告ツールを装う共通のフィッシング基盤を調査し、数百の被害者の入力を観測したと報告しました。偽のログイン画面でパスワード等を収集し、人間の操作者が追加のパスワードや多要素認証の入力を要求する仕組みです。",
+    "note": "同じコード・API・操作機構を使うサイト群を、一つの観測キャンペーンとして記録します。Google・Meta・OktaやAIサービス本体が侵害されたという報告ではありません。入力の観測数は被害人数・アカウント数・乗っ取り成功数とは一致しないため集計しません。初期侵入日や個別組織の被害範囲は不明です。AI製品の名前を装うことは、AIによる攻撃実行の証拠ではありません。",
+    "affected": [],
+    "sources": [
+      "fake-ai-ads-phishing-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "10月6日のIsland一次調査全文を通常HTTPSで取得し、実際の被害者入力の観測、共通基盤、認証情報・MFAを収集する仕組みを確認。BC記事のAMP本文も照合しました。脅威の能力だけではなく入力収集の観測を根拠とし、個別のアカウント乗っ取り成功は断定しません。"
   }
 ]
