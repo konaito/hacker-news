@@ -352,12 +352,12 @@
     "company": "米国防総省 / DMDC",
     "service": null,
     "region": "GLOBAL",
-    "status": "possible_leak",
+    "status": "confirmed_access",
     "display_label": "不正アクセス確認",
     "category": "行政・公共",
-    "title": "軍・文民の人事関連記録、約300万件が露出した可能性",
-    "summary": "2025年10月〜2026年7月に人事関連システムへ不正アクセス。存命者に関する約276万件と故人に関する約29.4万件の記録が、閲覧・持ち出しの対象となった可能性が報じられました。",
-    "note": "社会保障番号や職務情報を含みます。政府側は不正アクセスを認め、脆弱性を修正したと説明。発表時点で情報の悪用は未確認です。",
+    "title": "軍・文民の約300万人の人事情報に不正アクセス",
+    "summary": "人事関連システムへの不正アクセスで、存命者約280万人と故人約29万4,000人の個人情報が閲覧可能になったと国防当局者が説明しました。影響期間は2025年10月〜2026年7月です。",
+    "note": "社会保障番号や職務情報などを含み、対象者によって情報の種類は異なります。Federal News Networkの当局者取材に基づき人数として記載。情報の持ち出しや悪用を全件で確定したものではなく、政府側は脆弱性を修正し悪用の兆候は未確認と説明しています。",
     "affected": [],
     "sources": [
       "dmdc-1",
@@ -366,8 +366,8 @@
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "全3出典の本文を確認。Military Timesは通知書の真正性を当局者2人に確認し、Federal News Networkも当局者を独自取材。約276万件・約29.4万件はTom’s Hardwareが記録件数として報じた単位を維持。開始日は月までしか判明しないためoccurred_atは未設定。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "全3出典の本文を再確認。Federal News Networkの独自取材で人数単位を確認し、従来の記録件数表現を修正。Military Timesが真正性を確認した通知書に基づきconfirmed_accessへ分類し、confirmed_leakとはしない。"
   },
   {
     "id": "yamato-2026",
@@ -1062,16 +1062,17 @@
     "display_label": "システム障害",
     "category": "教育・研究",
     "title": "事務部門のNASでファイル暗号化、ランサムウェア被害を公表",
-    "summary": "事務情報システムのNAS内でファイルの暗号化を確認し、ランサムウェア被害を公表しました。NASをネットワークから隔離し、事務用端末の利用停止を周知。感染経路と影響範囲を調査しています。",
-    "note": "9月24日午前8時42分は暗号化の連絡を受けた時刻であり、侵入開始日は不明。9月25日の公式告知では教育・研究・診療関連システムへの影響は確認されていません。情報窃取や漏洩、被害人数は本告知から確認できません。",
+    "summary": "事務情報システムのNAS内でファイルの暗号化を確認し、ランサムウェア被害を公表しました。隔離と事務用端末の停止後、9月27日に利用停止を解除し、9月28日から通常業務を再開しました。",
+    "note": "9月24日午前8時42分は暗号化の連絡を受けた時刻であり、侵入開始日は不明。教育・研究・診療関連システムへの影響は確認されていません。感染経路・影響範囲の調査は継続中で、情報窃取や被害人数は確定していません。",
     "affected": [],
     "sources": [
-      "saga-university-2026-1"
+      "saga-university-2026-1",
+      "saga-university-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "佐賀大学広報室の9月25日公式告知本文を確認。二次記事の日付ではなく原文の公表日を採用。暗号化・隔離・端末停止を記録し、漏洩や攻撃者を断定しない。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "佐賀大学の9月25日・28日の一次発表本文を読み、停止解除と通常業務再開を続報として反映。"
   },
   {
     "id": "shueisha-happy-plus-2026",
@@ -1150,7 +1151,7 @@
     "category": "IT・クラウド",
     "title": "SSOのアクセス範囲不備で138アカウントに侵入、43から連絡先を持ち出し",
     "summary": "SAML SSOの組織間アクセス制御の不備により、攻撃者が138のBrevo顧客アカウントへアクセスしました。43アカウントで連絡先のエクスポート、6アカウントでフィッシングメール送信を確認しています。",
-    "note": "9月10日06:30 UTCは問題の検知時刻。侵入開始日は公式本文で特定されていません。同日08:30 UTCに侵入経路を閉鎖し全セッションを終了。アカウント数はメール受信者や流出した連絡先の人数ではなく、43と6を合算しません。",
+    "note": "9月10日06:30 UTCは問題の検知時刻。侵入開始日は公式本文で特定されていません。同日08:30 UTCに侵入経路を閉鎖し全セッションを終了。アカウント数はメール受信者や流出した連絡先の人数ではなく、43と6を合算しません。 影響先Trezorは9月17日の続報でニュースレター連絡先347,149件のAPIエクスポートを確認。ウォレットやTrezor自社システムの侵害とは区別します。",
     "affected": [
       {
         "count": 138,
@@ -1163,15 +1164,22 @@
         "unit": "accounts",
         "description": "連絡先がエクスポートされた顧客アカウント",
         "source_id": "brevo-sso-2026-1"
+      },
+      {
+        "count": 347149,
+        "unit": "records",
+        "description": "Trezorが9月17日続報で確認した、API経由で持ち出されたニュースレターのメール連絡先。Brevo顧客アカウント数とは別単位で、合算しない。",
+        "source_id": "brevo-sso-2026-2"
       }
     ],
     "sources": [
-      "brevo-sso-2026-1"
+      "brevo-sso-2026-1",
+      "brevo-sso-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "Brevo公式事後報告とリンク先の9月10日インシデント履歴本文を確認。人数を推計せずアカウント単位を維持。9月14日のCloudflare侵害とは別ID。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "Brevo公式事後報告とTrezor公式の9月17日更新本文を突合。Trezorの連絡先件数を追加し、別件のShipMonk侵害と区別。"
   },
   {
     "id": "brevo-clickfix-2026",
@@ -5026,5 +5034,252 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "独立したSecurityWeekとMobileSyrupの本文を確認。MobileSyrupが掲載する会社広報の取材回答も照合。"
+  },
+  {
+    "id": "divd-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "DIVD（オランダ脆弱性開示研究所）",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "脆弱性開示団体が侵入被害を公表、環境を隔離して調査",
+    "summary": "DIVDは自団体への侵入を認め、影響環境を隔離して外部専門家による調査を開始しました。関係者と規制当局、NCSC、警察に通知しています。",
+    "note": "団体は攻撃手法からエージェント型AIの関与を推測していますが、調査は継続中。侵入日時、情報持ち出しの範囲・人数は未確定で、AI利用を確定した分類にはしません。",
+    "affected": [],
+    "sources": [
+      "divd-2026-1",
+      "divd-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "utokyo-sph-site-2026",
+    "published_at": "2026-09-12",
+    "occurred_at": null,
+    "company": "東京大学大学院医学系研究科公共健康医学専攻",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "専攻サイトに不正プログラム、偽の更新・エラー画面へ誘導",
+    "summary": "専攻のサイトへの不正アクセスで、訪問者に偽のエラーや更新を表示する不正プログラムが設置されました。9月10日にサイトを停止し、再構築後の9月12日に再開しています。",
+    "note": "不正プログラムの稼働期間は8月30日〜9月10日で、侵入開始日とは区別。訪問先での指示によりファイル取得やコマンド実行が誘導された可能性があります。サイトには個人情報入力・登録機能はなく、利用者の感染数は未公表。",
+    "affected": [],
+    "sources": [
+      "utokyo-sph-site-2026-1",
+      "utokyo-sph-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "kindal-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": null,
+    "company": "カインドオル（トレジャー・ファクトリー子会社）",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "流出確認",
+    "category": "小売・EC",
+    "title": "フィッシングでEC管理環境に侵入、顧客情報を一括エクスポート",
+    "summary": "EC基盤を装うフィッシングにより認証情報を取得され、8月23日に顧客情報が一括エクスポートされました。13万6,464名の氏名、連絡先、生年月日、注文関連情報などに漏えいの可能性があります。",
+    "note": "8月24日は被害確認日で、侵入開始日は不明。8月28日の一次発表を9月18日の新たな報道で確認。エクスポートは確認済みですが、対象者全員の全項目が漏えいしたと確定したものではありません。カード情報・パスワードは対象外。",
+    "affected": [
+      {
+        "count": 136464,
+        "unit": "people",
+        "description": "個人情報が漏えいした可能性がある顧客。全員の流出確定人数ではない。",
+        "source_id": "kindal-2026-1"
+      }
+    ],
+    "sources": [
+      "kindal-2026-1",
+      "kindal-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "logicvein-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": null,
+    "company": "ロジックベイン",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "流出確認",
+    "category": "IT・クラウド",
+    "title": "過去のランサムウェア被害、1万7,559人分のネット流出を確認",
+    "summary": "ランサムウェア被害の追加調査で、氏名・所属・連絡先など1万7,559人分の情報がダークウェブに流出したことを確認しました。漏えいまたはその可能性がある対象は9万7,338人です。",
+    "note": "感染の確認は2025年12月8日。8月17日の一次続報を9月7日の新たな報道で確認。確認済み1万7,559人は可能性を含む9万7,338人の内数であり、合算しません。侵入開始日は未設定。",
+    "affected": [
+      {
+        "count": 17559,
+        "unit": "people",
+        "description": "ダークウェブで流出を確認した対象者。可能性を含む97338名の内数。",
+        "source_id": "logicvein-2026-1"
+      },
+      {
+        "count": 97338,
+        "unit": "people",
+        "description": "漏えいまたはその可能性がある対象者。流出確認17559名を含む。",
+        "source_id": "logicvein-2026-1"
+      }
+    ],
+    "sources": [
+      "logicvein-2026-1",
+      "logicvein-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "kyoikusw-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": null,
+    "company": "教育ソフトウェア",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "休眠サーバーの暗号化と侵入痕跡、旧サービス情報に漏洩の可能性",
+    "summary": "休眠中のレンタルサーバーでファイル暗号化と不正アクセスの痕跡を確認しました。旧自己採点サービスなどに残っていた氏名・学籍番号等4,627件に漏えいの可能性があります。",
+    "note": "侵害時期は4月30日〜5月1日頃と推定され、正確な開始日は不明。8月17日の一次発表を9月8日の新たな報道で確認。情報の外部流出・二次被害は確認されず、サーバーを廃止。通常業務は再開しており、日常業務への影響は限定的としています。",
+    "affected": [
+      {
+        "count": 4627,
+        "unit": "records",
+        "description": "旧サービスに残る情報の対象件数。実際の持ち出し確認件数ではない。",
+        "source_id": "kyoikusw-2026-1"
+      }
+    ],
+    "sources": [
+      "kyoikusw-2026-1",
+      "kyoikusw-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "gex-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": null,
+    "company": "ジェックス",
+    "service": null,
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造・メーカー",
+    "title": "ランサムウェア侵害で保存個人情報が一時閲覧可能に",
+    "summary": "ランサムウェアによるサーバー侵害で、保存していた個人情報が一時的に侵入者から閲覧可能になったと公表しました。氏名・連絡先等7万7,619件と氏名のみ1,360件が対象です。",
+    "note": "侵害を確認したのは2月。8月19日の一次発表を9月9日の新たな報道で確認。実際の閲覧・持ち出しを確定した件数ではなく、外部流出・不正利用の痕跡は確認されていません。対象件数を人数へ変換・合算しません。",
+    "affected": [
+      {
+        "count": 77619,
+        "unit": "records",
+        "description": "氏名・連絡先等が閲覧可能となった対象件数。実際の閲覧・窃取確認数ではない。",
+        "source_id": "gex-2026-1"
+      },
+      {
+        "count": 1360,
+        "unit": "records",
+        "description": "氏名のみが閲覧可能となった対象件数。別区分として維持。",
+        "source_id": "gex-2026-1"
+      }
+    ],
+    "sources": [
+      "gex-2026-1",
+      "gex-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "akatake-2026",
+    "published_at": "2026-09-02",
+    "occurred_at": null,
+    "company": "赤武エンジニアリング",
+    "service": null,
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "製造・メーカー",
+    "title": "ランサムウェア感染でシステム障害、影響範囲を調査",
+    "summary": "ランサムウェア感染によるシステム障害を公表しました。外部専門家や警察と連携し、個人情報・顧客情報の外部流出の可能性を含む影響範囲を調査しています。",
+    "note": "一次発表は8月13日、9月2日の新たな報道で確認。情報流出の確定や影響人数は確認できず、発生日は未設定。",
+    "affected": [],
+    "sources": [
+      "akatake-2026-1",
+      "akatake-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "yamanashi-rental-site-2026",
+    "published_at": "2026-09-17",
+    "occurred_at": null,
+    "company": "山梨大学",
+    "service": null,
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "レンタルサーバーのサイト群を改ざん、WebShell設置を確認",
+    "summary": "大学が契約するレンタルサーバーで、WebShellの設置とWebサイト改ざんを確認しました。サイトを停止し、脆弱性対策と安全性確認を進めています。",
+    "note": "大学の8月27日発表では6月上旬からの侵害が疑われていますが、正確な侵入開始日は不明。9月17日に新たに報道。対象環境は個人情報を扱わず、その流出は確認していないと説明しています。",
+    "affected": [],
+    "sources": [
+      "yamanashi-rental-site-2026-1",
+      "yamanashi-rental-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表と報道の本文を確認。一次発表が9月以前の事案は、2026年9月以降の新たな報道日をpublished_atに採用。発生日不明の場合は未設定。"
+  },
+  {
+    "id": "sanko-vietnam-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "SANKO FASTEM (VIETNAM)（サンコーテクノ子会社）",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "製造・メーカー",
+    "title": "ベトナム子会社でサーバー・PCの暗号化、通信を遮断",
+    "summary": "サンコーテクノのベトナム子会社でランサムウェアによるファイル暗号化を確認しました。外部通信の遮断と侵害の疑いがある機器の停止を行い、外部専門家と影響調査・復旧を進めています。",
+    "note": "8月25日は暗号化の確認日で、侵入開始日は不明。一次発表は8月28日、9月1日の新たな報道で確認。子会社以外のグループ各社への影響は確認されておらず、情報流出や対象人数は未確定。",
+    "affected": [],
+    "sources": [
+      "sanko-vietnam-2026-1",
+      "sanko-vietnam-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式PDF全1ページと9月1日の報道本文を確認。確認日を発生日へ転記せず、漏洩を断定しない。"
   }
 ]
