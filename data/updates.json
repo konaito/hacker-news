@@ -318,5 +318,11 @@
         "action": "added"
       }
     ]
+  },
+  {
+    "id": "site-qiita-ranking-card",
+    "timestamp": "2026-10-06T02:11:30+00:00",
+    "summary": "Qiitaの紹介カードを「日本企業『ハッキングされないでくれ』ランキング」に変更し、記事内容に沿った紹介文を掲載。",
+    "changes": []
   }
 ]

@@ -27,7 +27,7 @@ const BASE = 'https://hackernews.allalarm.app';
     assert.equal(await page.locator('meta[name="twitter:card"]').getAttribute('content'),'summary_large_image');
     assert.equal(await page.locator('meta[property="og:image"]').getAttribute('content'),BASE+'/assets/social-card.png');
     assert.equal(await page.locator('.reading-card').count(),2);
-    for (const url of ['https://qiita.com/konaito/items/6f7b698ceabf740c850f','https://note.com/konaito/n/n7afe40a9a1e8'])
+    for (const url of ['https://qiita.com/konaito/items/16a6d2c5da7d144efe95','https://note.com/konaito/n/n7afe40a9a1e8'])
       assert.equal(await page.locator(`.reading-card[href="${url}"]`).count(),1);
     const checked = await page.evaluate(async base => {
       const get = async url => { const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url+' HTTP '+r.status);return r; };

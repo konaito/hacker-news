@@ -2,11 +2,11 @@
   {
     "platform": "Qiita",
     "author": "konaito",
-    "url": "https://qiita.com/konaito/items/6f7b698ceabf740c850f",
-    "title": "konaitoの技術記事",
-    "hook": "ニュースを読んだら、技術の視点にも。",
-    "summary": "このサイトの作者がQiitaで公開している記事です。気になったテーマを、もう少し掘り下げたいときに。",
-    "cta": "Qiitaで記事を読む",
+    "url": "https://qiita.com/konaito/items/16a6d2c5da7d144efe95",
+    "title": "日本企業「ハッキングされないでくれ」ランキング",
+    "hook": "病歴、顔画像、家族の情報。漏れたら何を失う？",
+    "summary": "医療・本人確認・金融など20分野を、情報漏洩の被害の深刻さと取り返しのつかなさから比較。サービス停止の影響も別に考える、作者独自のランキングです。",
+    "cta": "Qiitaでランキングを読む",
     "theme": "qiita"
   },
   {
