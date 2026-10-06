@@ -1366,5 +1366,138 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "nippon-rentacar-2026",
+    "published_at": "2026-09-26",
+    "occurred_at": null,
+    "company": "ニッポンレンタカーサービス",
+    "service": "ニッポンレンタカーアプリ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "交通・物流",
+    "title": "アプリへの不正アクセス、会員41人の情報に閲覧のおそれ",
+    "summary": "アプリのシステムに第三者による不正アクセスが発生し、会員41人の氏名・電話番号・メールアドレス・ログインID・利用履歴・予約情報が閲覧されたおそれがあります。",
+    "note": "登録者については免許証番号・住所・生年月日、カード番号下4桁・名義人名も対象。対象者へ個別連絡しパスワード再設定を依頼。発生日は非公表。10月1日公表の55人対象事案は、公式が別手法による別の不正アクセスと説明しているため別IDで記録。",
+    "affected": [
+      {
+        "count": 41,
+        "unit": "people",
+        "description": "会員情報が不正に閲覧されたおそれのある対象人数",
+        "source_id": "nippon-rentacar-2026-1"
+      }
+    ],
+    "sources": [
+      "nippon-rentacar-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と公表・確認日を区別。"
+  },
+  {
+    "id": "nippon-rentacar-second-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": "2026-09-19",
+    "company": "ニッポンレンタカーサービス",
+    "service": "ニッポンレンタカーアプリ（別手法による侵害）",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "交通・物流",
+    "title": "別手法によるアプリ侵害、会員55人の情報に閲覧のおそれ",
+    "summary": "9月19日から21日にかけてアプリへ外部から攻撃があり、55人の会員情報ページへの不正アクセスを確認。氏名・連絡先・ログインID・利用履歴・予約情報が閲覧された可能性があります。",
+    "note": "9月29日に調査で判明し10月1日に公表。登録者の免許証情報、カード番号下4桁・名義人名も対象となる可能性。情報の不正利用等の二次被害は確認されていません。9月26日公表の事案とは別の不正アクセスであり、人数の重複有無は不明のため合算しません。",
+    "affected": [
+      {
+        "count": 55,
+        "unit": "people",
+        "description": "会員情報が不正に閲覧されたおそれのある対象人数",
+        "source_id": "nippon-rentacar-2026-2"
+      }
+    ],
+    "sources": [
+      "nippon-rentacar-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と公表・確認日を区別。"
+  },
+  {
+    "id": "montbell-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": "2026-08-09",
+    "company": "モンベル",
+    "service": "モンベル・グローバルサイト",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "小売・EC",
+    "title": "海外向けサイト侵害、最大15人の個人情報に流出の可能性",
+    "summary": "海外向けサイトの登録ユーザー情報が8月9日から10日に第三者に取得された可能性があります。対象は最大15人で、1人の氏名・住所・電話番号、14人の氏名・電話番号が含まれます。",
+    "note": "9月11日に侵害を検知、9月12日の調査で判明し9月18日に公表と報道。対象者の特定は困難。脆弱性は修正済みで、日本国内向けサイトでは同様の漏洩は確認されていません。",
+    "affected": [
+      {
+        "count": 15,
+        "unit": "people",
+        "description": "情報が閲覧・取得された可能性のある対象人数（最大値）",
+        "source_id": "montbell-2026-1"
+      }
+    ],
+    "sources": [
+      "montbell-2026-1",
+      "montbell-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "Security NEXTとUSEN ICT Solutionsの独立した2媒体の本文を確認し共通の主張を採用。公式ページは日付のみ抽出され本文未確認につき一次検証とは扱わず、出典登録もしない。"
+  },
+  {
+    "id": "astrana-health-2026",
+    "published_at": "2026-09-23",
+    "occurred_at": null,
+    "company": "Astrana Health",
+    "service": "Astrana Health Managementのシステム",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療・ヘルスケア",
+    "title": "電話番号偽装による侵害、機密情報へのアクセス・取得の可能性",
+    "summary": "社員になりすまし会社の代表電話番号を偽装する攻撃があり、システム内の不正な活動を検知。サーバー上の非公開・機密情報が無許可でアクセスまたは取得されたと同社は考えているとSECに報告しました。",
+    "note": "SEC提出文書の署名日は9月23日、重大性の判断日は9月22日。攻撃の発生日は不明。患者・従業員等の情報の影響範囲を調査中で件数非公表。認証情報リセットやクリーンバックアップからの復元を実施。ランサムウェア被害や確定した持ち出しとは断定しません。",
+    "affected": [],
+    "sources": [
+      "astrana-health-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と公表・確認日を区別。"
+  },
+  {
+    "id": "manchester-airports-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": null,
+    "company": "Manchester Airports Group",
+    "service": "空港の駐車場・ラウンジ・Fast Track予約、Wi-Fi登録",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩を確認",
+    "category": "交通・物流",
+    "title": "英3空港の顧客情報取得、9月続報でネット公開を報道",
+    "summary": "8月の侵害でマンチェスター・スタンステッド・イーストミッドランズ空港の予約・Wi-Fi登録に関する顧客データが取得されました。メールアドレス・電話番号・車両登録情報・郵便番号が対象で、9月3日の続報はネット公開を報じています。",
+    "note": "初回公表は8月27日で、登録の公表日は対象期間内の9月3日続報。公式FAQも通知対象者のデータが公開されたと説明しています。銀行・決済情報は保有していないと説明。空港運用・航空保安に影響なし。発生日は8月中としか一次情報で確認できずnull。人数は一次告知にないため数値登録しません。",
+    "affected": [],
+    "sources": [
+      "manchester-airports-2026-1",
+      "manchester-airports-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と公表・確認日を区別。"
   }
 ]

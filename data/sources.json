@@ -530,5 +530,54 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
     "title": "Aesto Health says data breach affects over 9.5 million patients"
+  },
+  {
+    "id": "nippon-rentacar-2026-1",
+    "publisher": "ニッポンレンタカーサービス",
+    "type": "primary",
+    "url": "https://www.nipponrentacar.co.jp/info/202609.html",
+    "title": "NRアプリへの不正アクセスによる会員情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "nippon-rentacar-2026-2",
+    "publisher": "ニッポンレンタカーサービス",
+    "type": "primary",
+    "url": "https://www.nipponrentacar.co.jp/info/202610_2.html",
+    "title": "NRアプリへの不正アクセスによる会員情報漏えいに関するお詫びとお知らせ※9月29日判明分"
+  },
+  {
+    "id": "montbell-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190798",
+    "title": "モンベルのグローバルサイトに不正アクセス - 個人情報流出の可能性"
+  },
+  {
+    "id": "montbell-2026-2",
+    "publisher": "USEN ICT Solutions サイバーセキュリティラボ",
+    "type": "reporting",
+    "url": "https://www.gate02.ne.jp/lab/incident-news/mont-bell-20260928/",
+    "title": "モンベルグループが不正アクセス被害、海外向けサイトで最大15名分の個人情報が漏えいした可能性"
+  },
+  {
+    "id": "astrana-health-2026-1",
+    "publisher": "Astrana Health（SEC提出文書）",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083446/000110465926109813/asth-20260922x8k.htm",
+    "title": "Astrana Health Form 8-K｜Material Cybersecurity Incident"
+  },
+  {
+    "id": "manchester-airports-2026-1",
+    "publisher": "Manchester Airports Group",
+    "type": "primary",
+    "url": "https://www.manchesterairport.co.uk/help/data-security-incident/",
+    "title": "Data Security Incident - 27.08.26｜Statement and FAQs"
+  },
+  {
+    "id": "manchester-airports-2026-2",
+    "publisher": "IT Pro",
+    "type": "reporting",
+    "url": "https://www.itpro.com/security/data-breaches/manchester-airports-group-attack-millions-of-holidaymakers-urged-to-look-out-for-scams-as-hackers-publish-stolen-data-online",
+    "title": "Manchester Airports Group attack: Millions of holidaymakers urged to look out for scams as hackers publish stolen data online"
   }
 ]
