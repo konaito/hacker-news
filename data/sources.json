@@ -432,5 +432,40 @@
     "type": "primary",
     "url": "https://www.saga-u.ac.jp/koho/press/2026092541515",
     "title": "事務情報システムにおけるランサムウェア被害の発生について"
+  },
+  {
+    "id": "shueisha-happy-plus-2026-1",
+    "publisher": "集英社",
+    "type": "primary",
+    "url": "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf",
+    "title": "「HAPPY PLUS COMMUNITY」への不正アクセスによる個人情報漏洩のお詫びとお知らせ"
+  },
+  {
+    "id": "up-education-2026-1",
+    "publisher": "アップ",
+    "type": "primary",
+    "url": "https://up-edu.com/sorry/pdf/notification0904.pdf",
+    "title": "弊社運営サイトへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ"
+  },
+  {
+    "id": "up-education-2026-2",
+    "publisher": "アップ・進学館",
+    "type": "primary",
+    "url": "https://www.shingakukan.com/event/recovered/",
+    "title": "【進学館】Webサイト復旧のお知らせ"
+  },
+  {
+    "id": "brevo-sso-2026-1",
+    "publisher": "Brevo",
+    "type": "primary",
+    "url": "https://status.brevo.com/incidents/01M266V1CZKJQNGZRNEGFD5CQE/write-up",
+    "title": "Attacker gained access to client accounts"
+  },
+  {
+    "id": "brevo-clickfix-2026-1",
+    "publisher": "Brevo",
+    "type": "primary",
+    "url": "https://status.brevo.com/incidents/01M2QBC4EZ24ZACW6SWQYVW8N3/write-up",
+    "title": "Security Incident - ClickFix"
   }
 ]

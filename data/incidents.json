@@ -1047,5 +1047,127 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "佐賀大学広報室の9月25日公式告知本文を確認。二次記事の日付ではなく原文の公表日を採用。暗号化・隔離・端末停止を記録し、漏洩や攻撃者を断定しない。"
+  },
+  {
+    "id": "shueisha-happy-plus-2026",
+    "published_at": "2026-09-28",
+    "occurred_at": "2026-09-09",
+    "company": "集英社",
+    "service": "HAPPY PLUS COMMUNITY（ハピコミュ）",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "メディア",
+    "title": "ブロガー管理システムから2,835人の個人情報などが漏洩",
+    "summary": "ファッション誌のブロガー管理・連絡用システムが不正アクセスを受け、登録者2,835人の個人情報などの漏洩を公表しました。氏名、連絡先、プロフィールやSNS関連情報などが含まれ、対象項目は個人によって異なります。",
+    "note": "公式発表はCMS設定不備に起因するAPI認証情報への攻撃と、不正な特権アカウント作成を原因として説明。案件630件、送信メール情報11,237件、取引先一覧10,780件も対象ですが、人の数と合算しません。9月25日に対象ブロガーへ通知しました。",
+    "affected": [
+      {
+        "count": 2835,
+        "unit": "people",
+        "description": "公式告知冒頭で示された個人情報漏洩対象の登録ブロガー",
+        "source_id": "shueisha-happy-plus-2026-1"
+      }
+    ],
+    "sources": [
+      "shueisha-happy-plus-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "集英社の公式PDF全2ページを本文確認。9月28日の公表と9月9日の不正アクセスを区別。冒頭の2,835名と情報表の件数を照合し、異種データを合算しない。"
+  },
+  {
+    "id": "up-education-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": null,
+    "company": "アップ",
+    "service": "洛西進学教室・進学館のプロモーションサイト",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "閲覧の可能性",
+    "category": "教育・研究",
+    "title": "教育サイトへの侵入で採用応募者・管理者の情報に閲覧のおそれ",
+    "summary": "プラグインの脆弱性を悪用した不正アクセスで、サーバー内に不正プログラムが設置されました。講師採用応募者10人とサイト管理者の従業員3人の個人情報が、第三者に閲覧された可能性があります。",
+    "note": "8月24日は不正アクセスの判明日で、侵入開始日は不明。9月4日の告知時点で情報の外部持ち出しや二次被害の痕跡は未確認。隔離・不正プログラム除去・脆弱性修正を実施し、進学館は9月15日にサイト復旧を告知しました。",
+    "affected": [
+      {
+        "count": 10,
+        "unit": "people",
+        "description": "閲覧のおそれがある講師採用応募者",
+        "source_id": "up-education-2026-1"
+      },
+      {
+        "count": 3,
+        "unit": "people",
+        "description": "閲覧のおそれがあるサイト管理者の従業員",
+        "source_id": "up-education-2026-1"
+      }
+    ],
+    "sources": [
+      "up-education-2026-1",
+      "up-education-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "アップの公式PDF全2ページと進学館の復旧告知本文を確認。閲覧のおそれを確定漏洩とせず、判明日を発生日にしない。"
+  },
+  {
+    "id": "brevo-sso-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "Brevo",
+    "service": "SAML SSO・顧客アカウント",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "連絡先の持ち出し確認",
+    "category": "IT・クラウド",
+    "title": "SSOのアクセス範囲不備で138アカウントに侵入、43から連絡先を持ち出し",
+    "summary": "SAML SSOの組織間アクセス制御の不備により、攻撃者が138のBrevo顧客アカウントへアクセスしました。43アカウントで連絡先のエクスポート、6アカウントでフィッシングメール送信を確認しています。",
+    "note": "9月10日06:30 UTCは問題の検知時刻。侵入開始日は公式本文で特定されていません。同日08:30 UTCに侵入経路を閉鎖し全セッションを終了。アカウント数はメール受信者や流出した連絡先の人数ではなく、43と6を合算しません。",
+    "affected": [
+      {
+        "count": 138,
+        "unit": "accounts",
+        "description": "不正アクセスされたBrevo顧客アカウント",
+        "source_id": "brevo-sso-2026-1"
+      },
+      {
+        "count": 43,
+        "unit": "accounts",
+        "description": "連絡先がエクスポートされた顧客アカウント",
+        "source_id": "brevo-sso-2026-1"
+      }
+    ],
+    "sources": [
+      "brevo-sso-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "Brevo公式事後報告とリンク先の9月10日インシデント履歴本文を確認。人数を推計せずアカウント単位を維持。9月14日のCloudflare侵害とは別ID。"
+  },
+  {
+    "id": "brevo-clickfix-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": "2026-09-14",
+    "company": "Brevo",
+    "service": "Cloudflare Worker・埋め込みJavaScript",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "CDN設定の不正変更確認",
+    "category": "IT・クラウド",
+    "title": "盗まれたAPIキーでCDNを操作、埋め込みスクリプトにClickFixを注入",
+    "summary": "侵害されたCloudflare APIキーでWorkerを設置され、Brevoのサイトや顧客サイトに埋め込む3種類のJavaScriptに悪性スクリプトが注入されました。偽の認証画面を表示し、訪問者にコマンド実行を促すClickFix攻撃です。",
+    "note": "9月14日15:01〜20:30 UTCの5時間29分が公式の影響期間。顧客向けコンテンツへの注入は9月14日以前には確認されていませんが、キーの悪用は8月下旬からと説明。Brevo内の顧客アカウントデータは本事案の影響対象外。感染した訪問者や影響サイトの総数は公式本文から確定できません。",
+    "affected": [],
+    "sources": [
+      "brevo-clickfix-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "Brevo公式事後報告全本文と9月14日のインシデント履歴を確認。発生日はコンテンツ注入の日付でありAPIキー窃取日ではない。報道の10万サイトという数値は公式で裏付けられず不採用。SSO侵害との関連を断定しない。"
   }
 ]

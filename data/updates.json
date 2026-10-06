@@ -287,5 +287,36 @@
         "action": "added"
       }
     ]
+  },
+  {
+    "id": "audit-2026-10-06T02:07:55Z",
+    "timestamp": "2026-10-06T02:07:55Z",
+    "summary": "記事追加 4件",
+    "changes": [
+      {
+        "id": "brevo-clickfix-2026",
+        "company": "Brevo",
+        "title": "盗まれたAPIキーでCDNを操作、埋め込みスクリプトにClickFixを注入",
+        "action": "added"
+      },
+      {
+        "id": "brevo-sso-2026",
+        "company": "Brevo",
+        "title": "SSOのアクセス範囲不備で138アカウントに侵入、43から連絡先を持ち出し",
+        "action": "added"
+      },
+      {
+        "id": "shueisha-happy-plus-2026",
+        "company": "集英社",
+        "title": "ブロガー管理システムから2,835人の個人情報などが漏洩",
+        "action": "added"
+      },
+      {
+        "id": "up-education-2026",
+        "company": "アップ",
+        "title": "教育サイトへの侵入で採用応募者・管理者の情報に閲覧のおそれ",
+        "action": "added"
+      }
+    ]
   }
 ]
