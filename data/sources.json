@@ -1524,5 +1524,68 @@
     "title": "楽天会員1億件超のデータ販売との投稿　楽天「情報漏えいの事実は確認されず」",
     "url": "https://ascii.jp/elem/000/004/440/4440532/",
     "type": "reporting"
+  },
+  {
+    "id": "temairazu-2026-1",
+    "publisher": "手間いらず",
+    "type": "primary",
+    "url": "https://www.temairazu.co.jp/pdf/1206/news-update",
+    "title": "不審なメッセージおよび当社システムへの不正アクセスに関するお詫びとお知らせ"
+  },
+  {
+    "id": "temairazu-2026-2",
+    "publisher": "きりしま悠久の宿 一心",
+    "type": "primary",
+    "url": "https://www.isshin-kirishima.jp/2026/10/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9/",
+    "title": "【重要】サイトコントローラーへの不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "yamaguchi-university-email-2026-1",
+    "publisher": "山口大学",
+    "type": "primary",
+    "url": "https://www.yamaguchi-u.ac.jp/news/52728/index.html",
+    "title": "本学教職員になりすました不審メール発信に関するお詫びとご報告について"
+  },
+  {
+    "id": "fbi-jobs-2026-1",
+    "publisher": "BBC News",
+    "type": "reporting",
+    "url": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o",
+    "title": "Special agents' blood and urine test results stolen in FBI hack"
+  },
+  {
+    "id": "fbi-jobs-2026-2",
+    "publisher": "Reuters",
+    "type": "reporting",
+    "url": "https://kfgo.com/2026/10/05/exclusive-accenture-contractor-removed-from-fbi-following-damaging-data-breach-sources-say/",
+    "title": "Exclusive-Accenture contractor removed from FBI following damaging data breach, sources say"
+  },
+  {
+    "id": "azuma-site-2026-1",
+    "publisher": "東産業",
+    "type": "primary",
+    "url": "https://www.azuma-mie.co.jp/info/important/unauthorized-access-20260908/",
+    "title": "公式サイトへの不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "beer-engawa-2026-1",
+    "publisher": "原田産業",
+    "type": "primary",
+    "url": "https://www.haradacorp.co.jp/news/detail.php?id=371",
+    "title": "【重要】「ビールの縁側」における個人情報流出の可能性に関するお詫びとご報告（続報）"
+  },
+  {
+    "id": "asos-notification-claim-2026-1",
+    "publisher": "Reuters",
+    "type": "reporting",
+    "url": "https://kfgo.com/2026/10/06/uk-online-retailer-asos-shares-drop-on-hack-reports/",
+    "title": "UK online retailer ASOS shares drop on reports of cybersecurity breach"
+  },
+  {
+    "id": "asos-notification-claim-2026-2",
+    "publisher": "Sky News",
+    "type": "reporting",
+    "url": "https://news.sky.com/story/asos-latest-customers-told-retailer-has-been-hacked-13591381?embed=true",
+    "title": "ASOS latest: Customers told retailer has been hacked"
   }
 ]

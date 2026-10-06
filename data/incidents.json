@@ -3921,5 +3921,154 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "セキュリティ対策LabとASCII日本語記事の本文を通常HTTPSで確認。Web取得失敗は裏付けとせず、確認できた報道も侵害や販売データの真正性を裏付けていないため非公開・集計対象外を維持。"
+  },
+  {
+    "id": "temairazu-2026",
+    "published_at": "2026-09-28",
+    "occurred_at": "2026-09-21",
+    "company": "手間いらず",
+    "service": "宿泊予約管理サービス「TEMAIRAZUシリーズ」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "予約管理サービスへの不正アクセス、宿泊者情報に閲覧・取得のおそれ",
+    "summary": "手間いらずはシステムへの不正アクセスを確認し、宿泊者情報の一部が閲覧・取得された可能性を公表しました。予約内容を把握したような不審メッセージも確認され、両者の関係と影響範囲を調査しています。",
+    "note": "10月5日の利用施設の告知では、9月21日の不正アクセスと9月26日の修正を説明。影響人数は未公表。機能は再開しています。同社はカード情報を取り扱い・保有していないと説明しますが、偽サイトへの入力とは区別します。",
+    "affected": [],
+    "sources": [
+      "temairazu-2026-1",
+      "temairazu-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "提供会社の公式PDF全3ページと利用施設の新しい公式告知を確認。同じサービスの事案として施設ごとに重複計上せず、情報取得の可能性を確定流出としません。"
+  },
+  {
+    "id": "yamaguchi-university-email-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "山口大学",
+    "service": "教職員のメールアカウント",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "教育・研究",
+    "title": "教職員メールを乗っ取り、連絡先967件を取得",
+    "summary": "教職員1名がフィッシング被害に遭い、メールアカウントを不正利用されました。大学は連絡先967件の取得と、8月26日の463件の宛先への不審メール送信を公表しています。",
+    "note": "967件は連絡先の件数で、実人数ではありません。氏名・メールアドレス631件とメールアドレスのみ336件を含みます。463件は不審メールの宛先数です。侵入開始日は不明。端末のウイルス感染や他の不審な操作は確認されていないと説明しています。",
+    "affected": [
+      {
+        "count": 967,
+        "unit": "records",
+        "description": "取得されたメールボックスの連絡先967件。実人数ではない。",
+        "source_id": "yamaguchi-university-email-2026-1"
+      }
+    ],
+    "sources": [
+      "yamaguchi-university-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式本文で認証情報の窃取・連絡先取得・送信先数を確認。誤送信を示すページタイトルより本文の事実を採用し、送信日を侵入開始日に置き換えません。"
+  },
+  {
+    "id": "fbi-jobs-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "米連邦捜査局（FBI）",
+    "service": "FBIJobs関連の第三者管理プラットフォーム",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "採用サイト関連の侵害、職員の個人・医療情報流出を報道",
+    "summary": "BBCは職員の個人・医療情報のサンプルを確認したと報道。10月5日のReuters続報では、FBIのサイバー責任者が第三者管理プラットフォームの委託担当者によるパッチ未適用を説明し、担当者を任務から外したとしています。",
+    "note": "侵害の説明と報道のサンプル確認を裏付けましたが、全データの真正性・影響人数・範囲は未確定です。攻撃者の人数・データ量の主張は集計しません。Accenture・PeopleSoftの特定はReutersの情報源による報道で、FBIの公式な製品名の確認とは区別します。",
+    "affected": [],
+    "sources": [
+      "fbi-jobs-2026-1",
+      "fbi-jobs-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "BBCの独自サンプル確認とReutersのFBI責任者への取材を独立2媒体の本文で突合。取得できない公式Xや逮捕報道を漏洩の検証に代用せず、全体範囲が未確定なのでpossible_leakで掲載。"
+  },
+  {
+    "id": "azuma-site-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": null,
+    "company": "東産業",
+    "service": "公式サイト・問い合わせフォーム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "生活・サービス",
+    "title": "公式サイトの脆弱性を悪用され侵入、影響範囲を調査",
+    "summary": "東産業は公式サイトの脆弱性を悪用した第三者の不正アクセスを確認し、対策を実施したと公表しました。問い合わせフォームで取得した顧客情報が対象となり、発生時期と影響範囲を調査しています。",
+    "note": "10月5日の新しい報道を契機に公式発表を確認。流出人数・件数は未公表で、対外的な影響も未確認。確認済みの不正アクセスと未確認の情報流出を区別します。",
+    "affected": [],
+    "sources": [
+      "azuma-site-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "9月14日の公式本文で侵害・対象・調査状況を確認。URL中の日付を発生日に流用せず、報道のみの詳細な脆弱性名は追加しません。"
+  },
+  {
+    "id": "beer-engawa-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": "2026-08-11",
+    "company": "原田産業",
+    "service": "ECサイト「ビールの縁側」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "ECサイト侵害、9人のカード情報などに流出の可能性",
+    "summary": "原田産業は9月14日の続報で、サイトの脆弱性を悪用した管理者権限の不正取得と不正プログラムの稼働可能性を公表しました。8月11日から14日に注文確認画面へ入力した9人の個人・カード情報に流出のおそれがあるとしています。",
+    "note": "9人には決済完了者4人と未完了者5人が含まれます。8月11日は公表された不正プログラム稼働期間の始点で、初期侵入開始を確定するものではありません。流出は可能性で、その他の範囲は調査中。10月5日の報道を契機に確認しました。",
+    "affected": [
+      {
+        "count": 9,
+        "unit": "people",
+        "description": "注文確認画面への入力情報が流出した可能性がある顧客。決済完了4人・未完了5人。",
+        "source_id": "beer-engawa-2026-1"
+      }
+    ],
+    "sources": [
+      "beer-engawa-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式続報本文で9人・対象情報・プログラム稼働期間・継続調査を確認。8月の事件でも9月以降の公式続報と新しい報道があるため対象。"
+  },
+  {
+    "id": "asos-notification-claim-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "ASOS",
+    "service": "モバイルアプリの通知（侵害主張・未確認）",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "公式アプリの恐喝通知、データ侵害の主張は未確認",
+    "summary": "10月6日にASOSアプリから、データ基盤を侵害したと主張し流出を予告する通知が届いたと報道されました。顧客対応担当は不正な通知として調査中と説明しましたが、データ侵害や漏洩は確認されていません。",
+    "note": "Reuters自身も報告を独立検証できていないと記載しています。独立2媒体の報道があっても攻撃者の侵害主張を確認済みとはしません。利用者総数や通知の受信人数を漏洩人数に換算せず、非公開・集計対象外で追跡します。",
+    "affected": [],
+    "sources": [
+      "asos-notification-claim-2026-1",
+      "asos-notification-claim-2026-2"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "ReutersとSky News本文、ASOSの公開ニュース一覧を確認。通知の存在とデータ侵害の真正性を区別し、公式な侵害確認または独立した裏付けが得られるまでpending。"
   }
 ]
