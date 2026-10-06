@@ -4053,22 +4053,123 @@
     "published_at": "2026-10-06",
     "occurred_at": null,
     "company": "ASOS",
-    "service": "モバイルアプリの通知（侵害主張・未確認）",
+    "service": "顧客通知に利用する第三者プラットフォーム",
     "region": "GLOBAL",
     "status": "possible_leak",
     "display_label": "漏洩の可能性",
     "category": "EC・小売",
-    "title": "公式アプリの恐喝通知、データ侵害の主張は未確認",
-    "summary": "10月6日にASOSアプリから、データ基盤を侵害したと主張し流出を予告する通知が届いたと報道されました。顧客対応担当は不正な通知として調査中と説明しましたが、データ侵害や漏洩は確認されていません。",
-    "note": "Reuters自身も報告を独立検証できていないと記載しています。独立2媒体の報道があっても攻撃者の侵害主張を確認済みとはしません。利用者総数や通知の受信人数を漏洩人数に換算せず、非公開・集計対象外で追跡します。",
+    "title": "不正な顧客通知を確認、氏名・連絡先にアクセスされた可能性",
+    "summary": "ASOSは10月6日のRNS発表で、同日午前10時ごろに不正な顧客通知が送信されたと確認しました。顧客との連絡に利用する第三者プラットフォームでの不正な活動を調査し、氏名・連絡先などの基本的な個人情報にアクセスされた可能性があるとしています。",
+    "note": "通知基盤へのアクセスを制限し、専門家と関係当局と対応中。会社は決済カード情報・アカウントのパスワードへの影響はないと考えており、サイトとアプリは通常稼働しています。実際の情報窃取・漏洩人数・侵入開始日や、通知に書かれたSnowflake侵害の主張は未確認です。利用者総数を被害人数に換算しません。",
     "affected": [],
     "sources": [
       "asos-notification-claim-2026-1",
-      "asos-notification-claim-2026-2"
+      "asos-notification-claim-2026-2",
+      "asos-notification-claim-2026-3"
     ],
-    "publication_status": "pending",
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "ReutersとSky News本文、ASOSの公開ニュース一覧を確認。通知の存在とデータ侵害の真正性を区別し、公式な侵害確認または独立した裏付けが得られるまでpending。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "ASOSが発行した10月6日RNS番号8604Xの全文をDigital Look配信ページで確認。既存Reuters本文とSky Newsのライブ本文も再読し、発表前の攻撃者主張と会社が確認した不正通知・情報アクセスの可能性を区別。既存IDを維持してpendingから公開へ更新。"
+  },
+  {
+    "id": "aflac-yorisou-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": "2026-06-10",
+    "company": "アフラック生命保険",
+    "service": "アフラック よりそうネットなどのシステム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "金融・保険",
+    "title": "約440万人の個人情報が漏洩、契約者サイトは一部を除き再開",
+    "summary": "アフラックは10月1日更新の公式案内で、契約者向けサイトなどへの不正アクセスによる個人情報漏洩と、一部を除くサービス再開を説明しました。公式FAQによる漏洩対象は約440万人で、そのうち約22万人は保険料振替口座情報も対象です。",
+    "note": "6月に発覚し7月31日に調査結果を公表した事件の続報です。公式FAQが確認した最初の不正アクセスは6月10日、発見は6月25日。氏名・契約情報等の範囲は対象者により異なります。約22万人は約440万人の内数で合算しません。よりそうネットのID・パスワード、クレジットカード情報等は漏洩対象外と会社が説明しています。",
+    "affected": [
+      {
+        "count": 4400000,
+        "unit": "people",
+        "description": "個人情報が漏洩した顧客の概数。7月31日公表の調査結果を10月1日更新FAQで再確認。",
+        "source_id": "aflac-yorisou-2026-2"
+      },
+      {
+        "count": 220000,
+        "unit": "people",
+        "description": "上記約440万人のうち保険料振替口座情報も漏洩した顧客の概数（内数）。",
+        "source_id": "aflac-yorisou-2026-2"
+      }
+    ],
+    "sources": [
+      "aflac-yorisou-2026-1",
+      "aflac-yorisou-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "10月6日の国内記事を入口に、10月1日更新の公式案内とFAQの本文をWebおよび通常HTTPSで確認。9月以降のサービス再開・残存制限を伴う続報として掲載し、過去の被害人数を新規被害と表現しない。"
+  },
+  {
+    "id": "charm-2026",
+    "published_at": "2026-09-02",
+    "occurred_at": null,
+    "company": "チャーム",
+    "service": "チャーム本店1号店・2号店",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "EC・小売",
+    "title": "約37万件の個人情報漏洩を確認、別に約2万件は漏洩のおそれ",
+    "summary": "チャームは9月2日更新の第3報で、サイトへの不正アクセスにより約37万件の個人情報漏洩を確認し、別に約2万件は漏洩のおそれがあると説明しました。第三者による不正ログインが確認された顧客は239人です。",
+    "note": "対象データの重複精査により確認済み件数を約39万件から約37万件、可能性のある件数を約4万件から約2万件へ修正。9月2日の修正は新たな漏洩発見を意味しません。記録が限られる約2万件の漏洩有無、退会済み顧客の対象範囲、ログインに使われた認証情報の入手経路は未確定。件数と239人は合算しません。",
+    "affected": [
+      {
+        "count": 370000,
+        "unit": "records",
+        "description": "漏洩を確認した個人情報の概数。顧客の実人数ではない。",
+        "source_id": "charm-2026-1"
+      },
+      {
+        "count": 20000,
+        "unit": "records",
+        "description": "漏洩のおそれがある個人情報の概数。漏洩確認済みではない。",
+        "source_id": "charm-2026-1"
+      },
+      {
+        "count": 239,
+        "unit": "people",
+        "description": "第三者による不正ログインを確認した顧客。情報件数とは合算しない。",
+        "source_id": "charm-2026-1"
+      }
+    ],
+    "sources": [
+      "charm-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "10月6日の国内報道で発見し、公式第3報全文をWeb・通常HTTPSで確認。9月2日の件数修正と漏洩確認・可能性、不正ログイン人数を分離。初報が8月でも9月以降の追加公表を対象とするルールで掲載。"
+  },
+  {
+    "id": "russian-healthcare-network-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "ロシアの医療機関（組織名非公表）",
+    "service": "医療機関の内部ネットワーク",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "医療",
+    "title": "医療機関への約2年間の侵入を調査会社が報告",
+    "summary": "インシデント調査を担当したSolar 4RAYSは10月2日、ロシアの医療機関で確認したネットワーク侵害を公表しました。2025年12月に調査へ参加し、最も古い侵害の痕跡は2024年初めにさかのぼると説明しています。",
+    "note": "公表は実際の調査事例で、実験的な攻撃能力評価ではありません。被害組織名・影響人数・実際の侵入開始日・情報持ち出し量は非公表または不明。調査会社はPartisan Zmiyの関与を分析していますが、攻撃者の帰属は同社の判断として扱います。ネットワーク破壊や運用停止は確認していないとしています。",
+    "affected": [],
+    "sources": [
+      "russian-healthcare-network-2026-1",
+      "russian-healthcare-network-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "調査を担当したSolar 4RAYSの10月2日ロシア語報告本文（概要・調査経緯・検出痕跡）とThe Recordの10月5日記事本文を確認。匿名組織への実侵入であることを確認し、漏洩確定や人数への推計はしない。"
   }
 ]

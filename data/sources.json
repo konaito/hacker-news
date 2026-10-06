@@ -1587,5 +1587,47 @@
     "type": "reporting",
     "url": "https://news.sky.com/story/asos-latest-customers-told-retailer-has-been-hacked-13591381?embed=true",
     "title": "ASOS latest: Customers told retailer has been hacked"
+  },
+  {
+    "id": "asos-notification-claim-2026-3",
+    "publisher": "ASOS（London Stock Exchange RNS）",
+    "type": "primary",
+    "url": "https://companyresearch2.digitallook.com/news/36261312/Update_regarding_cyber_incident.html?ac=&username=",
+    "title": "Update regarding cyber incident（RNS 8604X）"
+  },
+  {
+    "id": "aflac-yorisou-2026-1",
+    "publisher": "アフラック生命保険",
+    "type": "primary",
+    "url": "https://www.aflac.co.jp/info/yorisou_maintenance.html",
+    "title": "当社システムに対する不正アクセスの発生および情報漏えいに関するお詫び"
+  },
+  {
+    "id": "aflac-yorisou-2026-2",
+    "publisher": "アフラック生命保険",
+    "type": "primary",
+    "url": "https://www.aflac.co.jp/info/yorisou_faq.html",
+    "title": "当社システムに対する不正アクセスの発生および情報漏えいに関するFAQ"
+  },
+  {
+    "id": "charm-2026-1",
+    "publisher": "チャーム",
+    "type": "primary",
+    "url": "https://www.charm.co.jp/honten/info/notice/20260901.html",
+    "title": "不正アクセスによるシステム障害発生に関するお知らせとお詫び（第3報・9月2日更新）"
+  },
+  {
+    "id": "russian-healthcare-network-2026-1",
+    "publisher": "Solar 4RAYS",
+    "type": "primary",
+    "url": "https://rt-solar.ru/solar-4rays/blog/7027/",
+    "title": "Partisan Zmiy: атаковала медицинскую организацию"
+  },
+  {
+    "id": "russian-healthcare-network-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
+    "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say"
   }
 ]
