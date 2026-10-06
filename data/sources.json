@@ -712,5 +712,40 @@
     "type": "primary",
     "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html",
     "title": "調査請求Web受付サービスへの不正アクセス等の発生について"
+  },
+  {
+    "id": "okamoto-thyroid-2026-1",
+    "publisher": "医療法人オカモト会",
+    "type": "primary",
+    "url": "https://www.thyroid.jp/news/4646/",
+    "title": "■重要■ ホームページへの不正アクセスとサービス停止のお詫びとご報告"
+  },
+  {
+    "id": "stadtwerke-landsberg-2026-1",
+    "publisher": "Stadtwerke Landsberg KU",
+    "type": "primary",
+    "url": "https://www.stadtwerke-landsberg.de/aktuelles/warnungen-hinweise/stadtwerke-landsberg-ku-information-ueber-it-vorfall",
+    "title": "Stadtwerke Landsberg KU: Information über IT-Vorfall"
+  },
+  {
+    "id": "kuins-2026-1",
+    "publisher": "関西国際大学",
+    "type": "primary",
+    "url": "https://www.kuins.ac.jp/news/2026/09/post_1448.html",
+    "title": "学内システムへの不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "voising-2026-1",
+    "publisher": "VOISING",
+    "type": "primary",
+    "url": "https://voising-official.com/news/1015",
+    "title": "【第四報】当社が利用するBIツールへの不正アクセスおよび個人情報漏えいに関する調査結果と再発防止策について"
+  },
+  {
+    "id": "voising-2026-2",
+    "publisher": "VOISING",
+    "type": "primary",
+    "url": "https://voising-official.com/news/931",
+    "title": "当社が利用するBIツールへの不正アクセスおよび個人情報漏えいに関するお詫びとお知らせ並びに不審な連絡等への注意のお願い"
   }
 ]

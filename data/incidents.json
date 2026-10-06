@@ -1833,5 +1833,101 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "日本郵便の9月25日公式発表本文を確認。発覚日と発生日を区別し、不正アクセスの可能性と確認済みの受付停止のみ記録。"
+  },
+  {
+    "id": "okamoto-thyroid-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": "2026-09-23",
+    "company": "医療法人オカモト会",
+    "service": "ホームページ・WEB予約システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "医療・健康",
+    "title": "サイト改ざんで外部サイトへ転送、Web予約も一時停止",
+    "summary": "岡本甲状腺クリニック・天満橋甲状腺クリニックのホームページに不正プログラムが設置され、9月28日に無関係な外部サイトへ転送される改ざんが発生しました。大量アクセスへの防御措置でホームページとWeb予約が停止し、9月29日夕方に復旧しました。",
+    "note": "予約データベースへのアクセスの形跡は確認されず、患者の個人情報漏えいも確認されていません。引き続き調査すると説明しています。",
+    "affected": [],
+    "sources": [
+      "okamoto-thyroid-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "9月29日の公式発表本文をWebで確認。侵入日・改ざん・停止と復旧、漏えい未確認を突合。"
+  },
+  {
+    "id": "stadtwerke-landsberg-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": "2026-09-01",
+    "company": "Stadtwerke Landsberg KU",
+    "service": null,
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "中央ITシステムが暗号化、顧客情報への影響を調査",
+    "summary": "ドイツの自治体公益企業がサイバー攻撃を受け、中央ITシステムが暗号化されました。電話・メールの連絡に制約が生じ、顧客の氏名、住所、電話番号、メールアドレス、銀行口座情報へのアクセスや流出を否定できないと説明しています。",
+    "note": "電力・水道・下水・地域暖房などの運用は影響を受けていません。個人情報の流出と対象件数は未確定。攻撃グループや身代金要求は断定しません。",
+    "affected": [],
+    "sources": [
+      "stadtwerke-landsberg-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "Web取得はエラーだったが通常HTTPSで公式発表の本文を取得・確認。本文の9月7日公表、9月1日侵入、暗号化、非影響サービス、流出不確定を突合。The RecordとKreisbote本文も照合。"
+  },
+  {
+    "id": "kuins-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "関西国際大学",
+    "service": "学内システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "学内システムへの侵入を確認、接続停止で一部サービス利用不能",
+    "summary": "学内システムの一部への第三者による不正アクセスを確認し、被害拡大防止の緊急措置としてインターネット接続を停止しました。一部の学内システムにアクセスできない状況を公表しています。",
+    "note": "侵入経路、発生時期、影響範囲、情報漏えいの有無は調査中。ランサムウェア被害や情報流出は断定しません。",
+    "affected": [],
+    "sources": [
+      "kuins-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "9月30日の大学公式本文を開いて確認。第三者の侵入、接続停止、調査中の項目を突合。"
+  },
+  {
+    "id": "voising-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-08-10",
+    "company": "VOISING",
+    "service": "社内BIツール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "エンタメ・配信",
+    "title": "BIツールへの侵入で約17万件の個人情報漏洩を確認",
+    "summary": "9月30日の最終調査報告で、BIツールの脆弱性を悪用した侵入による約17万件の個人情報漏洩を確認しました。氏名・住所・連絡先などの基本情報に加え、購買履歴、サービス加入状況、応援対象タレントの選択情報が対象です。",
+    "note": "8月に公表した事案の9月続報。件数は人数ではありません。クレジットカード番号等とログインパスワードに相当する情報は保持しておらず対象外。二次被害の報告・連絡は届いていないと説明しています。",
+    "affected": [
+      {
+        "count": 170000,
+        "unit": "records",
+        "description": "最終調査で漏えい確認された個人情報の対象件数（約17万件）。人数ではない。",
+        "source_id": "voising-2026-1"
+      }
+    ],
+    "sources": [
+      "voising-2026-1",
+      "voising-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "9月30日第四報全文と8月18日第一報本文を確認。約17万件の単位、漏洩項目、対象外、BI脆弱性を突合。発生開始日は第一報の8月10日。"
   }
 ]

@@ -529,5 +529,36 @@
         "action": "added"
       }
     ]
+  },
+  {
+    "id": "audit-2026-10-06T10:30:54Z",
+    "timestamp": "2026-10-06T10:30:54Z",
+    "summary": "記事追加 4件",
+    "changes": [
+      {
+        "id": "kuins-2026",
+        "company": "関西国際大学",
+        "title": "学内システムへの侵入を確認、接続停止で一部サービス利用不能",
+        "action": "added"
+      },
+      {
+        "id": "okamoto-thyroid-2026",
+        "company": "医療法人オカモト会",
+        "title": "サイト改ざんで外部サイトへ転送、Web予約も一時停止",
+        "action": "added"
+      },
+      {
+        "id": "stadtwerke-landsberg-2026",
+        "company": "Stadtwerke Landsberg KU",
+        "title": "中央ITシステムが暗号化、顧客情報への影響を調査",
+        "action": "added"
+      },
+      {
+        "id": "voising-2026",
+        "company": "VOISING",
+        "title": "BIツールへの侵入で約17万件の個人情報漏洩を確認",
+        "action": "added"
+      }
+    ]
   }
 ]
