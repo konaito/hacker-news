@@ -1629,5 +1629,75 @@
     "type": "reporting",
     "url": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
     "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say"
+  },
+  {
+    "id": "frontline-education-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+    "title": "Frontline Education data breach impacts school district employees"
+  },
+  {
+    "id": "frontline-education-2026-2",
+    "publisher": "FOX Carolina",
+    "type": "reporting",
+    "url": "https://www.foxcarolina.com/2026/10/05/officials-student-info-possibly-compromised-anderson-district-two-cyber-incident/",
+    "title": "Officials: Student info possibly compromised in cyber incident involving 2 Upstate school districts"
+  },
+  {
+    "id": "frontline-education-2026-3",
+    "publisher": "WSPA 7NEWS",
+    "type": "reporting",
+    "url": "https://www.aol.com/articles/upstate-student-data-breached-third-214525000.html",
+    "title": "Upstate student data breached at third-party software provider, districts say"
+  },
+  {
+    "id": "warlock-infrastructure-2026-1",
+    "publisher": "Symantec・Carbon Black Threat Hunter Team",
+    "type": "primary",
+    "url": "https://www.security.com/threat-intelligence/warlock-ransomware-critical-infrastructure",
+    "title": "Warlock Ransomware Attackers Hit Water and Telecom Operators"
+  },
+  {
+    "id": "warlock-infrastructure-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+    "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks"
+  },
+  {
+    "id": "ukraine-lunex-sites-2026-1",
+    "publisher": "CERT-UA",
+    "type": "primary",
+    "url": "https://cert.gov.ua/article/6319983",
+    "title": "UAC-0277: ClickFix на скомпрометованих вебсайтах для поширення LUNEXSTEALER"
+  },
+  {
+    "id": "ukraine-lunex-sites-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/clickfix-campaign-ukraine-lunex-stealer",
+    "title": "ClickFix campaign in Ukraine compromises over 100 websites to spread Lunex malware"
+  },
+  {
+    "id": "lashinbang-2026-1",
+    "publisher": "らしんばん",
+    "type": "primary",
+    "url": "https://www.lashinbang.com/info/26357/",
+    "title": "【重要】不正アクセスによる個人情報漏えい可能性に関するお知らせとお詫び"
+  },
+  {
+    "id": "lashinbang-2026-2",
+    "publisher": "らしんばん",
+    "type": "primary",
+    "url": "https://www.lashinbang.com/info/26363/",
+    "title": "不正アクセスおよび個人情報漏えいの可能性に関するQ&A"
+  },
+  {
+    "id": "osaka-dental-lab-excel-2026-1",
+    "publisher": "大阪府",
+    "type": "primary",
+    "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o100070/prs_51261.html",
+    "title": "個人情報の流出について"
   }
 ]

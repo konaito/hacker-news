@@ -4171,5 +4171,134 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "調査を担当したSolar 4RAYSの10月2日ロシア語報告本文（概要・調査経緯・検出痕跡）とThe Recordの10月5日記事本文を確認。匿名組織への実侵入であることを確認し、漏洩確定や人数への推計はしない。"
+  },
+  {
+    "id": "frontline-education-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "Frontline Education",
+    "service": "学区向け教育・業務管理ソフトウェア",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "教育ソフトへの不正アクセス、学区職員・生徒情報に影響の可能性",
+    "summary": "BleepingComputerが確認した通知によると、第三者ソフトウェアの脆弱性を経由した不正アクセスを8月14日に検知し、10月1日から学区や職員への通知を開始しました。10月5日・6日の地元報道では、サウスカロライナ州の複数学区が生徒情報への影響の可能性を発表しています。",
+    "note": "Greenwood School District 50の現・元生徒約1万6,678人分は影響の可能性がある範囲であり、Frontline全体の人数ではありません。職員の社会保障番号・メールアドレス・住所、生徒のMedicaid識別番号などへの影響が報道されています。侵入開始日、全体の対象人数、全員分の情報持ち出しは不明。学区自身のネットワーク侵害と委託先の侵害を区別します。",
+    "affected": [
+      {
+        "count": 16678,
+        "unit": "people",
+        "description": "Greenwood School District 50の現・元生徒で、情報が影響を受けた可能性がある人数の概数。他学区・職員を含む総数ではない。",
+        "source_id": "frontline-education-2026-2"
+      }
+    ],
+    "sources": [
+      "frontline-education-2026-1",
+      "frontline-education-2026-2",
+      "frontline-education-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "通知を入手したBleepingComputer、学区に取材したFOX Carolina、州教育局の回答を掲載したWSPAの本文を確認。Greenwoodの公式通知URLはWeb・HTTPS・Chromiumとも取得できず、確認済み一次資料とは扱わない。独立した取材報道を突合し、possible_leakで掲載。"
+  },
+  {
+    "id": "warlock-infrastructure-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": null,
+    "company": "重要インフラ事業者（組織名非公表）",
+    "service": "SharePointサーバー・内部ネットワーク",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "エネルギー・インフラ",
+    "title": "重要インフラへの侵入後、33台以上にWarlockを展開",
+    "summary": "Symantecの調査チームは、重要インフラ事業者で確認した侵入の経過を10月1日に公表しました。SharePointサーバー上で7月22日にWebシェル設置を観測し、7月31日には40台以上へセキュリティソフト停止用ツール、33台以上へWarlockランサムウェアが展開されたとしています。",
+    "note": "これは匿名の1事業者に対する具体的な調査事例です。報告全体に登場する水道・通信・行政・大学の4組織を、この1事件の被害組織として合算しません。初期侵入はSharePointの脆弱性悪用と推定されていますが、具体的なCVEと侵入開始日は未確定。ホスト台数を人数や情報件数へ換算せず、情報持ち出し・サービス停止の範囲も不明です。",
+    "affected": [],
+    "sources": [
+      "warlock-infrastructure-2026-1",
+      "warlock-infrastructure-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "調査担当チームの一次報告の具体的な侵入経過とBleepingComputer本文を照合。複数組織のキャンペーン概要と単一の詳述事例を分離し、実侵入として掲載。"
+  },
+  {
+    "id": "ukraine-lunex-sites-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "ウクライナの複数のWebサイト運営者（組織名非公表）",
+    "service": "100超の改ざんされたWebサイト",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "100超のWebサイトを改ざんし、偽の認証画面でマルウェアを配布",
+    "summary": "CERT-UAは9月30日、9月中に100超の侵害されたWebサイトで悪意あるJavaScriptを確認したと公表しました。偽のCloudflare認証画面を表示して利用者にコマンド実行を促し、LUNEXSTEALERなどのマルウェアを配布するClickFix攻撃です。",
+    "note": "本文で確認されたサイト改ざんキャンペーンを1件として記録します。個別サイトの運営組織・正確な改ざん開始日・感染端末数・被害人数は不明。情報窃取機能があることを、利用者情報の持ち出し確認とは扱いません。Webサイト数を人数・アカウント・情報件数に換算しません。",
+    "affected": [],
+    "sources": [
+      "ukraine-lunex-sites-2026-1",
+      "ukraine-lunex-sites-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "通常HTTPSではアプリの外枠しか取得できなかったため、ChromiumでJavaScript描画後のCERT-UA原文を読み、The Record本文を通常HTTPSで確認。実際のサイト改ざんとマルウェア配布を裏付け、感染や窃取の件数は推定しない。"
+  },
+  {
+    "id": "lashinbang-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": "2026-09-14",
+    "company": "らしんばん",
+    "service": "顧客・配送先・買取関連情報を扱うサービス",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "不正アクセスで本人確認書類の番号・銀行口座情報などに漏洩の可能性",
+    "summary": "らしんばんは10月1日、9月14日から16日に第三者から不正アクセスを受け、顧客・配送先情報の一部が漏洩した可能性を公表しました。氏名・住所などに加え、本人確認書類の種別・番号、買取申込時の銀行口座情報、買取同意書画像などが対象になり得るとしています。",
+    "note": "対象項目は利用したサービス・利用状況により異なり、対象人数は公表されていません。会社はカード情報・パスワードの漏洩はなく、マイナンバーは取得していないと説明。漏洩の可能性がある顧客へ順次案内中です。",
+    "affected": [],
+    "sources": [
+      "lashinbang-2026-1",
+      "lashinbang-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "期間を広げた公式検索から発見。公式の10月1日告知とQ&Aの全本文をWebで確認し、漏洩可能性を確定漏洩に変えない。"
+  },
+  {
+    "id": "osaka-dental-lab-excel-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": "2026-04-17",
+    "company": "大阪府",
+    "service": "歯科技工所一覧の公開Excelファイル",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "公開Excelの非表示シートで歯科技工所の個人情報48件が閲覧可能に",
+    "summary": "大阪府は10月5日、歯科技工所一覧のExcelファイルに、電話番号・開設者名・届出状況の確認内容など48件分の情報を含む非表示シートが残り、再表示して閲覧可能な状態だったと公表しました。4月17日から公開され、8月10日の連絡を受けてページを非公開にしました。",
+    "note": "48件は歯科技工所に関する情報件数で、48人と同義ではありません。8月12日に個人情報を削除したファイルへ差し替えています。公開状態は確認されていますが、第三者による取得・再配布の範囲は記載されていません。発生は9月以前でも10月5日の新たな公表を対象とします。",
+    "affected": [
+      {
+        "count": 48,
+        "unit": "records",
+        "description": "公開ファイルの非表示シートに掲載されていた歯科技工所の個人情報件数。開設者の実人数ではない。",
+        "source_id": "osaka-dental-lab-excel-2026-1"
+      }
+    ],
+    "sources": [
+      "osaka-dental-lab-excel-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "大阪府の10月5日報道発表本文をWebおよび通常HTTPSで確認。非表示シートの再表示可能性、期間、48件の単位を突合。"
   }
 ]
