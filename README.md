@@ -6,6 +6,8 @@
 
 公開リポジトリ: [konaito/hacker-news](https://github.com/konaito/hacker-news)。公開先: https://cyber.allalarm.app/ 。旧 `hackernews.allalarm.app` はCloudflare Pagesの転送専用サイトで、新ドメインの同じパスへ301転送します。
 
+旧ドメインの転送元は `legacy-redirect/`。転送変更時だけこのディレクトリをCloudflare Pages project `allalarm-hackernews` に公開し、通常のニュース更新はGitHub Pagesにだけ配信します。
+
 `main`へのpush（PRのマージを含む）→ `.github/workflows/github-pages.yml` → データ検証 → build → ページ・SEO/PWA・Service Worker検証 → 同じコミットでの再ビルド一致確認 → GitHub Pagesへ公開。
 
 PRでは検証だけを実行します。公開対象は `public/` のみ。デプロイ用のCloudflare SecretsやOpenAI APIキーは不要です。GitHub Pagesの公開元はGitHub Actions、カスタムドメインは `cyber.allalarm.app`。Cloudflare DNSの `cyber` CNAMEは `konaito.github.io` を指し、プロキシをOFFにします。DNSはCloudflareで管理し、ニュースサイトはGitHub Pagesで配信します。

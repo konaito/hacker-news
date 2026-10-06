@@ -25,6 +25,7 @@ Cover important hacking, information leaks, ransomware, and system compromises i
 - `scripts/validate.py`: record, evidence-reference, date, unit, and duplicate checks; optional HTTP link checks.
 - `scripts/check-page.py`: generated table, detail-template, filter, and pending-exclusion checks.
 - `.github/workflows/github-pages.yml`: PR validation and production deployment on main push/merge.
+- `legacy-redirect/`: redirect-only source for the old Cloudflare Pages project `allalarm-hackernews`. This directory is separate from GitHub Pages' `public/` output.
 - `scripts/setup-github.py`: public repository and GitHub Pages setup from an unrestricted local terminal.
 - `.audit/`: ignored local checkpoints, logs, lock, and last pushed commit.
 - `scripts/audit-report.py`: validates coverage and candidate decisions before accepting an audit; `scripts/test-audit-report.py` checks rejection of incomplete and stale reports.
