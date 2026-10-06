@@ -656,5 +656,33 @@
     "type": "reporting",
     "url": "https://www.consumeraffairs.com/news/mckesson-confirms-cyberattack-as-hackers-claim-theft-of-patient-data-090126.html",
     "title": "McKesson confirms cyberattack as hackers claim theft of patient data"
+  },
+  {
+    "id": "seibu-52seki-2026-1",
+    "publisher": "西武鉄道",
+    "type": "primary",
+    "url": "https://www.seiburailway.jp/newsroom/news/file/20260902_owabi.pdf",
+    "title": "西武 旅するレストラン「52席の至福」における予約関連情報の一部漏えいについて"
+  },
+  {
+    "id": "fusodentsu-2026-1",
+    "publisher": "扶桑電通",
+    "type": "primary",
+    "url": "https://www.fusodentsu.co.jp/news/news_cp_20260910/",
+    "title": "当社が利用するクラウドストレージへの不正アクセスについて（第2報）"
+  },
+  {
+    "id": "tottori-radiation-2026-1",
+    "publisher": "鳥取県",
+    "type": "primary",
+    "url": "https://db.pref.tottori.jp/pressrelease.nsf/5725f7416e09e6da492573cb001f7512/1E29F3226152B1B649258E66001DE2E2?OpenDocument",
+    "title": "鳥取県環境放射線モニタリングシステムへのサイバー攻撃"
+  },
+  {
+    "id": "mckesson-2026-2",
+    "publisher": "McKesson",
+    "type": "primary",
+    "url": "https://www.mckesson.com/utility/cybersecurity/customer-cybersecurity-information-center/",
+    "title": "McKesson Cybersecurity Incident Investigation and Response Update｜September 21, 2026"
   }
 ]

@@ -1672,18 +1672,99 @@
     "service": "外部アプリケーション",
     "region": "GLOBAL",
     "status": "confirmed_leak",
-    "display_label": "検証待ち",
+    "display_label": "漏洩確認",
     "category": "医療・ヘルスケア",
-    "title": "外部アプリケーションからの情報持ち出し報道を検証中",
-    "summary": "ConsumerAffairsは9月1日、McKessonが外部アプリケーションへの不正アクセスとデータの持ち出しを確認したと報道。Oncology & MultispecialtyおよびMedical-Surgical部門の一部顧客に関連する情報が対象としています。",
-    "note": "8月25日は発見日で、侵入開始日は不明。9月1日は対象期間内の報道日。情報の種類と対象人数は未確定。攻撃者によるデータ量・件数・侵入手口の主張は採用しません。",
+    "title": "外部アプリケーションへの不正アクセスとデータ持ち出しを確認",
+    "summary": "McKessonは9月21日の続報で、外部アプリケーションへの不正アクセスと情報の持ち出しを確認。Oncology & Multispecialty部門の一部顧客と、Medical-Surgical部門の主に業務連絡先・注文データが対象と説明しました。",
+    "note": "8月25日は発見日で、侵入開始日は不明。9月1日の対象期間内報道に、9月21日の公式続報を反映。対象人数は未公表。公式は調査時点で他部門の情報への影響を示す兆候はないと説明。攻撃者による件数・データ量・手口の主張は不採用。",
     "affected": [],
     "sources": [
-      "mckesson-2026-1"
+      "mckesson-2026-1",
+      "mckesson-2026-2"
     ],
-    "publication_status": "pending",
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
-    "verification_note": "ConsumerAffairs本文確認。記事はMalwarebytes等を引用しており、独立した追加取材は未確認。8月28日BleepingComputer本文も背景資料として確認したが、ConsumerAffairsの記事の根拠との独立性を確立できず2媒体確認とはしない。公式cybersecurityページはWebツール403で本文取得できず、一次確認済みとせずpending。"
+    "verification_note": "既存ConsumerAffairs本文を再確認し、9月21日の公式続報本文を通常のHTTP取得で確認。Webツールでは403だったが公式HTMLの本文を取得・突合できたためpublishedに変更。対象人数は追加しない。"
+  },
+  {
+    "id": "seibu-52seki-2026",
+    "published_at": "2026-09-02",
+    "occurred_at": "2025-01-09",
+    "company": "西武鉄道",
+    "service": "52席の至福 予約サイト",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "交通・物流",
+    "title": "予約関連情報約500名分が誤設定で外部閲覧可能に",
+    "summary": "スタッフ間の情報共有機能の誤設定により、個人情報を含む符号化された予約関連情報が外部から閲覧できる状態に。西武鉄道は約500名分の情報漏えいを公表しました。",
+    "note": "公開状態は2025年1月9日から2026年8月27日まで。同日に問い合わせで判明し対処。氏名・住所・電話番号・メールアドレス・会員番号等が対象で、うち約30名にアレルギー等の配慮事項を含みます。第三者による持ち出しや二次被害の確認を意味しません。",
+    "affected": [
+      {
+        "count": 500,
+        "unit": "people",
+        "description": "漏えいした予約関連情報の対象者（約500名）",
+        "source_id": "seibu-52seki-2026-1"
+      }
+    ],
+    "sources": [
+      "seibu-52seki-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、既存事件との重複がないことを照合。"
+  },
+  {
+    "id": "fusodentsu-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "扶桑電通",
+    "service": "クラウドストレージの共有フォルダ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "認証情報の不正利用で個人情報26,489件に漏えいの可能性",
+    "summary": "第三者による認証情報の不正利用で共有フォルダが侵害され、取引先の顧客・担当者に関する氏名、住所、電話番号26,489件が漏えいした可能性があると発表しました。",
+    "note": "7月22日公表事案の調査結果。認証情報の不正利用経路は特定されていません。銀行口座番号やクレジットカード情報等は対象外で、発表時点で二次被害は確認されていません。件数を人数として扱いません。",
+    "affected": [
+      {
+        "count": 26489,
+        "unit": "records",
+        "description": "漏えいの可能性がある取引先顧客・担当者の個人情報",
+        "source_id": "fusodentsu-2026-1"
+      }
+    ],
+    "sources": [
+      "fusodentsu-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、既存事件との重複がないことを照合。"
+  },
+  {
+    "id": "tottori-radiation-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": null,
+    "company": "鳥取県",
+    "service": "環境放射線モニタリングシステム",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "行政・公共",
+    "title": "ランサムウェアで主監視局の電子ファイルが暗号化",
+    "summary": "環境放射線モニタリングシステムの主サーバーがランサムウェア攻撃を受け、電子ファイルの暗号化とシステム停止が発生。通信経路を遮断し、原因を調査すると発表しました。",
+    "note": "副サーバーは被害を受けず放射線監視は継続し、放射線モニタリングへの影響はありません。県庁の総合行政ネットワークとは別で、他の県庁システムに影響なし。公開データ用システムで機密情報や個人情報はないと説明。侵入開始日は不明。",
+    "affected": [],
+    "sources": [
+      "tottori-radiation-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "一次発表の本文を確認し、既存事件との重複がないことを照合。"
   }
 ]

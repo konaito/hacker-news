@@ -473,5 +473,36 @@
         "action": "added"
       }
     ]
+  },
+  {
+    "id": "audit-2026-10-06T08:25:08.465497Z",
+    "timestamp": "2026-10-06T08:25:08.465497Z",
+    "summary": "記事追加 4件",
+    "changes": [
+      {
+        "id": "fusodentsu-2026",
+        "company": "扶桑電通",
+        "title": "認証情報の不正利用で個人情報26,489件に漏えいの可能性",
+        "action": "added"
+      },
+      {
+        "id": "mckesson-2026",
+        "company": "McKesson",
+        "title": "外部アプリケーションへの不正アクセスとデータ持ち出しを確認",
+        "action": "added"
+      },
+      {
+        "id": "seibu-52seki-2026",
+        "company": "西武鉄道",
+        "title": "予約関連情報約500名分が誤設定で外部閲覧可能に",
+        "action": "added"
+      },
+      {
+        "id": "tottori-radiation-2026",
+        "company": "鳥取県",
+        "title": "ランサムウェアで主監視局の電子ファイルが暗号化",
+        "action": "added"
+      }
+    ]
   }
 ]
