@@ -3220,20 +3220,28 @@
     "company": "TRUNK",
     "service": "従業員メールアカウント",
     "region": "JP",
-    "status": "possible_leak",
-    "display_label": "検証待ち",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
     "category": "旅行・交通",
-    "title": "従業員メール侵害となりすまし送信の報道を検証中",
-    "summary": "Security NEXTは、従業員のメールアカウントへの不正アクセスと、不審メールの送信、保有する個人情報が流出した可能性を報じています。",
-    "note": "報道では424人分とされていますが、原発表の項目・件数の単位を追加検証します。ワシントンホテルの別事案とは異なる企業です。公開一次発表または独立した信頼できる2媒体の確認が不足するためpending。",
-    "affected": [],
-    "sources": [
-      "trunk-email-2026-1"
+    "title": "従業員メール侵害で保有情報の一部流出、424件の個人情報に影響の可能性",
+    "summary": "TRUNKは従業員メールへの不正アクセスと、保有情報の一部が外部へ流出した事実を確認しました。原発表は個人情報が漏えいした可能性のある対象を424件としています。",
+    "note": "公式の「件数（人数）424件」という表記を情報件数として記録し、424人とは断定しません。一部情報の流出確認と全対象の漏洩可能性を区別します。",
+    "affected": [
+      {
+        "count": 424,
+        "unit": "records",
+        "description": "公式原表記「件数（人数）424件」。影響の可能性がある対象件数で実人数を断定しない。",
+        "source_id": "trunk-email-2026-2"
+      }
     ],
-    "publication_status": "pending",
+    "sources": [
+      "trunk-email-2026-1",
+      "trunk-email-2026-2"
+    ],
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "Security NEXTの本文を確認。原発表または独立した2媒体の確認が不足するため非公開。一般的な業種の見出しだけで既存の他企業の事案と同一視しない。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式9月1日告知と既存報道の本文を確認し、pendingから掲載対象へ変更。原発表の流出確認・対象の可能性・件数表記を区別。"
   },
   {
     "id": "msc-site-2026",
@@ -3243,19 +3251,27 @@
     "service": "コーポレートサイト",
     "region": "JP",
     "status": "possible_leak",
-    "display_label": "検証待ち",
+    "display_label": "漏洩の可能性",
     "category": "生活・サービス",
-    "title": "サイト改ざんとフォーム情報への影響の報道を検証中",
-    "summary": "Security NEXTは、7月のウェブサイト侵害と改ざんの調査で、フォームから送信された297人分の個人情報に第三者がアクセスできる状態が確認されたと報じています。",
-    "note": "確認できたのはSecurity NEXTの本文1媒体。公式発表の本文が未確認でpendingを維持します。セントラルコンサルタントの事案とは別の会社・サイトです。",
-    "affected": [],
-    "sources": [
-      "msc-site-2026-1"
+    "title": "サイト改ざんの調査でフォーム297人分の個人情報に漏洩の可能性",
+    "summary": "7月のウェブサイト侵害・改ざんの調査で、フォームから送られた297人分の氏名・会社名・連絡先などが第三者からアクセス可能な状態だったと判明しました。",
+    "note": "実際の持ち出しは確認されていません。7月内の侵入開始日は不明。対象へ通知し安全対策を実施したと2媒体が報じています。",
+    "affected": [
+      {
+        "count": 297,
+        "unit": "people",
+        "description": "フォーム情報に漏洩可能性がある対象者。実際に取得された人数ではない。",
+        "source_id": "msc-site-2026-1"
+      }
     ],
-    "publication_status": "pending",
+    "sources": [
+      "msc-site-2026-1",
+      "msc-site-2026-2"
+    ],
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "Security NEXTの本文を確認。原発表または独立した2媒体の確認が不足するため非公開。一般的な業種の見出しだけで既存の他企業の事案と同一視しない。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式告知2URLは404。独立したSecurity NEXTとScanNetSecurityのページ本文を確認し、2媒体の証拠で掲載対象へ変更。ScanNetSecurity後半はWebの全文抽出で確認。"
   },
   {
     "id": "japanpost-inquiry-2026",
@@ -4442,5 +4458,573 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "独立した亜洲日報とChosunBizの署名記事本文を照合。日本語版はAI翻訳であることを確認し、流出範囲の推定と調査中の表現を維持。公式ドメイン検索では通知本文を取得できなかった。"
+  },
+  {
+    "id": "ski-management-support-scam-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-08-07",
+    "company": "エスケーアイマネージメント（サカイホールディングス子会社）",
+    "service": "従業員の業務パソコン",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "生活・サービス",
+    "title": "サポート詐欺の遠隔操作で約4,000ファイル削除、調査完了を報道",
+    "summary": "従業員が偽の警告と電話に誘導され、業務PCへの遠隔操作を許しました。約4,000ファイルの削除を確認し、9月の続報は会社の調査完了を伝えています。",
+    "note": "Security NEXTによると会社は外部送信の痕跡がなく情報流出はないと結論。ファイル数を被害人数に換算しません。AIツールを検索中だったことはAIを使った攻撃の証拠ではありません。",
+    "affected": [],
+    "sources": [
+      "ski-management-support-scam-2026-1",
+      "ski-management-support-scam-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "独立したSecurity NEXTとITmediaの本文を確認。公式ページを取得できず、調査完了の結論はSecurity NEXTが伝える会社説明として記載。"
+  },
+  {
+    "id": "niigata-startup-course-email-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": "2026-08-10",
+    "company": "新潟県・にいがた産業創造機構の再委託先",
+    "service": "起業講座の受講案内メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "講座案内の宛先設定ミスでメールアドレス18件を漏えい",
+    "summary": "再委託先が起業講座の受講案内をToで送信し、受信者同士に18件のメールアドレスが見える状態になりました。県は削除依頼と委託先への指導を説明しています。",
+    "note": "18件はメールアドレス数です。8月の発生・県公表に対する9月の新たな報道を対象とします。",
+    "affected": [
+      {
+        "count": 18,
+        "unit": "records",
+        "description": "誤送信で表示されたメールアドレス件数。実人数に換算しない。",
+        "source_id": "niigata-startup-course-email-2026-1"
+      }
+    ],
+    "sources": [
+      "niigata-startup-course-email-2026-1",
+      "niigata-startup-course-email-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "revisio-malware-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": null,
+    "company": "REVISIO",
+    "service": "従業員の業務パソコン",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "情報・通信",
+    "title": "業務PCのマルウェア感染で名刺情報などに流出の可能性",
+    "summary": "REVISIOは業務PC1台の感染を検知し、端末隔離とアカウント停止を実施。端末に保存された名刺情報などが外部へ流出した可能性を公表しました。",
+    "note": "3月20日は検知日で侵入開始日は不明。サーバーへの侵入や遠隔ログインの痕跡、二次被害は確認していないと説明。対象人数は未公表です。",
+    "affected": [],
+    "sources": [
+      "revisio-malware-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "meo-ddos-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": "2026-09-14",
+    "company": "MEO",
+    "service": "国際通信ネットワーク",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "情報・通信",
+    "title": "国際ネットワークへのDDoSで通信混雑、顧客データ侵入を否定",
+    "summary": "ポルトガルのMEOは9月14日から15日にかけて国際ネットワークがDDoS攻撃を受け、通信の混雑が生じたと説明しました。対策後に通信は復旧しています。",
+    "note": "公式管理者による声明を確認。会社は顧客データへの侵入を否定しており、障害を情報漏洩として数えません。",
+    "affected": [],
+    "sources": [
+      "meo-ddos-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "arizona-courts-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "アリゾナ州最高裁判所",
+    "service": "裁判所のバックアップサーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "フィッシング侵入でバックアップをコピー、里親関連レポートにも影響",
+    "summary": "州裁判所への攻撃後、裁判所広報はバックアップ情報がコピーされたとKJZZに説明しました。対象には2010年以降の里親養育関連レポート15万件超が含まれます。",
+    "note": "レポート数を児童人数に換算しません。圧縮された情報を攻撃者が読めるかは不明で、実際の閲覧範囲は確定していません。",
+    "affected": [],
+    "sources": [
+      "arizona-courts-2026-1",
+      "arizona-courts-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "moonstar-online-store-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "ムーンスター",
+    "service": "公式オンラインストア",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "オンラインストアの顧客情報流出の可能性、なりすまし連絡に注意",
+    "summary": "ムーンスターはオンラインストアへの不正アクセスで顧客情報が流出した可能性について10月2日に続報を掲載しました。氏名・住所・連絡先・購入履歴が対象となり得ます。",
+    "note": "初報は3月26日。今回の新しい注意喚起を対象とします。カード情報・パスワードは対象外で、人数と侵入開始日は未公表です。",
+    "affected": [],
+    "sources": [
+      "moonstar-online-store-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "ticketplus-cache-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": "2026-09-28",
+    "company": "チケットプラス",
+    "service": "チケプラの顧客情報表示ページ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "生活・サービス",
+    "title": "キャッシュ設定不備で最大107人の個人情報を他の利用者に誤表示",
+    "summary": "9月28日から29日にかけてキャッシュ設定の不備で、同時アクセス時に別の利用者の情報が表示される可能性が生じました。会社は最大107人を情報が表示された可能性のある対象としています。",
+    "note": "閲覧した可能性のある最大322人と対象者107人は合算しません。サービス停止後に修正し9月30日に再開。データベースへの不正アクセスとは説明されていません。",
+    "affected": [
+      {
+        "count": 107,
+        "unit": "people",
+        "description": "個人情報が他の利用者へ表示された可能性のある最大人数。",
+        "source_id": "ticketplus-cache-2026-1"
+      }
+    ],
+    "sources": [
+      "ticketplus-cache-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "osaka-ikiiki-a-support-scam-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-05-23",
+    "company": "大阪市・いきいき活動室Aの受託事業者",
+    "service": "活動室Aの業務パソコン",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "いきいき活動室Aでサポート詐欺、児童などの情報流出の可能性",
+    "summary": "活動室Aの業務PCで偽の警告からサポート詐欺に誘導され、第三者による遠隔操作が行われました。保存された児童・保護者・職員情報が流出した可能性を市が公表しています。",
+    "note": "同時公表された3拠点では別の日に侵害が発生。対象人数は拠点別に示されておらず、3拠点全体の人数を各事件に重複計上しません。実際の持ち出しは未確認です。",
+    "affected": [],
+    "sources": [
+      "osaka-ikiiki-support-scam-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "osaka-ikiiki-b-support-scam-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-01-31",
+    "company": "大阪市・いきいき活動室Bの受託事業者",
+    "service": "活動室Bの業務パソコン",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "いきいき活動室Bでサポート詐欺、児童などの情報流出の可能性",
+    "summary": "活動室Bの業務PCで偽の警告からサポート詐欺に誘導され、第三者による遠隔操作が行われました。保存された児童・保護者・職員情報が流出した可能性を市が公表しています。",
+    "note": "同時公表された3拠点では別の日に侵害が発生。対象人数は拠点別に示されておらず、3拠点全体の人数を各事件に重複計上しません。実際の持ち出しは未確認です。",
+    "affected": [],
+    "sources": [
+      "osaka-ikiiki-support-scam-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "osaka-ikiiki-c-support-scam-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-06-05",
+    "company": "大阪市・いきいき活動室Cの受託事業者",
+    "service": "活動室Cの業務パソコン",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "いきいき活動室Cでサポート詐欺、児童などの情報流出の可能性",
+    "summary": "活動室Cの業務PCで偽の警告からサポート詐欺に誘導され、第三者による遠隔操作が行われました。保存された児童・保護者・職員情報が流出した可能性を市が公表しています。",
+    "note": "同時公表された3拠点では別の日に侵害が発生。対象人数は拠点別に示されておらず、3拠点全体の人数を各事件に重複計上しません。実際の持ち出しは未確認です。",
+    "affected": [],
+    "sources": [
+      "osaka-ikiiki-support-scam-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "gmo-trustlogin-2026",
+    "published_at": "2026-09-16",
+    "occurred_at": null,
+    "company": "GMOグローバルサイン",
+    "service": "GMOトラスト・ログインの外部ストレージ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "情報・通信",
+    "title": "ストレージ公開設定不備で顧客情報をダウンロード、暫定37,747人が対象",
+    "summary": "ストレージの設定・設計不備により顧客関連ファイルが外部から取得でき、第三者のダウンロードを確認しました。会社は暫定対象を2,007社・37,747人と説明しています。",
+    "note": "人数は暫定で企業数とは合算しません。主にメールアドレスや契約・請求関連情報で、パスワード・多要素認証・決済情報は対象外。9月14日は発覚日です。",
+    "affected": [
+      {
+        "count": 37747,
+        "unit": "people",
+        "description": "会社が暫定値として公表した対象人数。",
+        "source_id": "gmo-trustlogin-2026-1"
+      }
+    ],
+    "sources": [
+      "gmo-trustlogin-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "nippon-trex-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-09-08",
+    "company": "日本トレクス",
+    "service": "発注・受注・メールを含む社内システム",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "製造",
+    "title": "不正アクセスで発注・受注・メール停止、9月30日に復旧を公表",
+    "summary": "日本トレクスは9月8日の不正アクセスによるシステム障害で発注・受注業務とメールを停止しました。外部専門機関の安全確認後、9月30日に復旧を案内しています。",
+    "note": "会社は個人情報・取引先情報の流出を確認していないと説明。停止を情報漏洩として数えません。",
+    "affected": [],
+    "sources": [
+      "nippon-trex-2026-1",
+      "nippon-trex-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "microsoft-x-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": "2026-10-01",
+    "company": "Microsoft",
+    "service": "公式Xアカウント",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "情報・通信",
+    "title": "公式Xアカウントが侵害され暗号資産の宣伝投稿に悪用",
+    "summary": "Microsoftの公式Xアカウントが不正アクセスを受け、暗号資産を宣伝する投稿に悪用されました。会社広報は投稿削除とアカウントの安全確保を説明しています。",
+    "note": "フォロワー数を被害人数に換算しません。宣伝を見た人の損失や個人情報流出は確認されていません。",
+    "affected": [],
+    "sources": [
+      "microsoft-x-2026-1",
+      "microsoft-x-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "独立したBleepingComputerとThe Vergeの本文を確認。広報の説明を含む実際のアカウント侵害を採用。"
+  },
+  {
+    "id": "coder-registry-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": "2026-08-31",
+    "company": "Coder",
+    "service": "Terraformモジュールのレジストリ",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "情報・通信",
+    "title": "Terraformレジストリが侵害され資格情報を狙う不正コードを配信",
+    "summary": "CoderはTerraformモジュールの配信基盤が侵害され、8月31日の一定時間に資格情報を取得する不正コードが配信されたと公表しました。配信基盤の切り替えと対策を案内しています。",
+    "note": "不正コードの機能と実際の利用者情報の持ち出しを区別します。被害利用者数は未公表で、顧客管理データの侵害を示す情報はないと説明しています。",
+    "affected": [],
+    "sources": [
+      "coder-registry-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "yellowhat-reservation-2026",
+    "published_at": "2026-09-02",
+    "occurred_at": null,
+    "company": "イエローハット",
+    "service": "予約専用サイト",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "予約専用サイトへの侵入で最大1,801,499人の情報流出の可能性",
+    "summary": "予約サイトへの不正アクセスにより、氏名・電話番号・メールアドレス・会員IDなど最大1,801,499人の個人情報が流出した可能性があると会社が開示しました。",
+    "note": "8月18日は検知日。8月公表への9月の新たな報道を対象とします。カード情報・パスワード・車両情報は保有していないと説明し、実際の流出人数は未確定です。",
+    "affected": [
+      {
+        "count": 1801499,
+        "unit": "people",
+        "description": "会社開示の流出可能性がある最大人数。実際の取得人数ではない。",
+        "source_id": "yellowhat-reservation-2026-1"
+      }
+    ],
+    "sources": [
+      "yellowhat-reservation-2026-1",
+      "yellowhat-reservation-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "coop-yamaguchi-miniapp-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": "2026-08-27",
+    "company": "生活協同組合コープやまぐち",
+    "service": "LINEミニアプリ用の独自データベース",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "ミニアプリ用データベースが不正削除、組合員情報に流出の可能性",
+    "summary": "コープやまぐちは独自データベースへの不正アクセスとデータ削除を確認し、バックアップから復旧しました。保存された組合員情報などが流出した可能性を公表しています。",
+    "note": "対象情報はここカード未保有区分69,586件、保有区分143,126件、非組合員365件、Webフォーム4,218件。区分間の重複や追加項目の内数は合算しません。ここカード番号・PIN番号を含みますが、会社はこれらだけでは決済できないと説明。LINEヤフーのデータベースへの侵入ではありません。",
+    "affected": [
+      {
+        "count": 69586,
+        "unit": "records",
+        "description": "ここカード未保有区分の組合員情報件数。",
+        "source_id": "coop-yamaguchi-miniapp-2026-1"
+      },
+      {
+        "count": 143126,
+        "unit": "records",
+        "description": "ここカード保有区分の組合員情報件数。追加項目の内数を加算しない。",
+        "source_id": "coop-yamaguchi-miniapp-2026-1"
+      },
+      {
+        "count": 365,
+        "unit": "records",
+        "description": "組合員以外の宛先情報などの件数。実人数とは断定しない。",
+        "source_id": "coop-yamaguchi-miniapp-2026-1"
+      },
+      {
+        "count": 4218,
+        "unit": "records",
+        "description": "Webフォーム回答・登録情報の件数。他区分との重複を含み得るため合算しない。",
+        "source_id": "coop-yamaguchi-miniapp-2026-1"
+      }
+    ],
+    "sources": [
+      "coop-yamaguchi-miniapp-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "scat-cloud-abuse-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": "2026-08-24",
+    "company": "SCAT",
+    "service": "有償クラウドサービス",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "情報・通信",
+    "title": "有償クラウドサービスが不正利用され、アカウント停止などで対処",
+    "summary": "SCATは8月24日から25日にかけて有償クラウドサービスへの不正アクセス・不正利用を確認したと公表しました。アカウント停止などを実施し警察へ届け出ています。",
+    "note": "不正利用料金について提供元と協議。会社は保有情報の外部流出を確認しておらず、漏洩確認とは扱いません。",
+    "affected": [],
+    "sources": [
+      "scat-cloud-abuse-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "weverse-payment-api-2026",
+    "published_at": "2026-09-06",
+    "occurred_at": null,
+    "company": "Weverse Company",
+    "service": "Weverse Shopの決済API",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "EC・小売",
+    "title": "決済APIの欠陥で422,584アカウントの識別子・取引情報が流出",
+    "summary": "Weverseは決済APIの欠陥による422,584アカウント分の情報流出を公表しました。対象は内部アカウント識別子と支払方法・通貨・金額・日時などで、API改善と識別子削除を実施しています。",
+    "note": "アカウント数を実人数に換算しません。氏名・連絡先などの直接識別情報とは区別します。9月3日は指摘・確認の時期で、流出開始日は不明です。",
+    "affected": [
+      {
+        "count": 422584,
+        "unit": "accounts",
+        "description": "公式告知に記載された情報流出対象のアカウント数。",
+        "source_id": "weverse-payment-api-2026-1"
+      }
+    ],
+    "sources": [
+      "weverse-payment-api-2026-1",
+      "weverse-payment-api-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "dc-dhcf-reports-2026",
+    "published_at": "2026-09-28",
+    "occurred_at": null,
+    "company": "ワシントンDC保健医療財政局（DHCF）",
+    "service": "Medicaid・Alliance統計レポート",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "公開レポートの内部データが閲覧可能に、対象399,086人と報道",
+    "summary": "DHCFの2つの公開レポートで内部の個人情報が権限のない利用者に取得され得る状態でした。SecurityWeekはHHSへの届け出対象を399,086人と報じています。",
+    "note": "2023年から2026年7月の公開状態が対象で、不正閲覧・利用は確認されていません。氏名・社会保障番号・金融口座情報は対象外。実際の取得人数ではありません。",
+    "affected": [
+      {
+        "count": 399086,
+        "unit": "people",
+        "description": "SecurityWeekがHHS届け出として伝えた対象人数。実際の閲覧人数ではない。",
+        "source_id": "dc-dhcf-reports-2026-2"
+      }
+    ],
+    "sources": [
+      "dc-dhcf-reports-2026-1",
+      "dc-dhcf-reports-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "crowdsec-source-code-2026",
+    "published_at": "2026-09-17",
+    "occurred_at": null,
+    "company": "CrowdSec",
+    "service": "GitHubの非公開ソースコード",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "情報・通信",
+    "title": "非公開ソースコードの流出を確認、TanStack経由の侵害を調査",
+    "summary": "CrowdSecは5月に発生した非公開ソースコードの流出を9月に確認しました。SaaSコンソールなどのコードが対象で、必要なトークン・資格情報を更新しています。",
+    "note": "5月内の発生日は不明。約300リポジトリには130超の元々公開されたものも含まれ、人・アカウント数には換算しません。会社は顧客データの流出を否定し、TanStack経由を有力な侵入経路としています。",
+    "affected": [],
+    "sources": [
+      "crowdsec-source-code-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "premier-medical-hv-2026",
+    "published_at": "2026-09-16",
+    "occurred_at": "2026-06-14",
+    "company": "Premier Medical Group of the Hudson Valley",
+    "service": "患者情報を含むITシステム",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療",
+    "title": "患者情報を含むファイルへ不正アクセス、対象282,075人と報道",
+    "summary": "医療グループは6月14日に第三者が一部ファイルへ不正アクセスしたと説明しました。ファイルには患者の連絡先・診療情報・保険情報などが含まれ得ます。報道によるHHS届け出対象は282,075人です。",
+    "note": "公式本文はファイルへのアクセスを確認する表現で、持ち出し確認へ強めません。通知開始年の2021表記は侵害年2026と不整合のため採用せず、9月16日の新たな報道を対象とします。",
+    "affected": [
+      {
+        "count": 282075,
+        "unit": "people",
+        "description": "SecurityWeekがHHSへの報告として伝えた対象人数。",
+        "source_id": "premier-medical-hv-2026-2"
+      }
+    ],
+    "sources": [
+      "premier-medical-hv-2026-1",
+      "premier-medical-hv-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+  },
+  {
+    "id": "telus-consumer-accounts-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": null,
+    "company": "TELUS",
+    "service": "通信サービスの顧客アカウント",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "情報・通信",
+    "title": "顧客アカウントへの不正アクセスで個人情報・請求情報を閲覧",
+    "summary": "TELUSは通信サービスの一部顧客アカウントへの不正アクセスを確認しました。顧客通知では氏名・連絡先・請求情報・カード末尾4桁などにアクセスされたと説明しています。",
+    "note": "対象アカウント数は未公表。侵害期間は2025年2月から2026年6月とされ、開始日は不明。TELUS Digitalの別の侵害と混同しません。",
+    "affected": [],
+    "sources": [
+      "telus-consumer-accounts-2026-1",
+      "telus-consumer-accounts-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "独立したSecurityWeekとMobileSyrupの本文を確認。MobileSyrupが掲載する会社広報の取材回答も照合。"
   }
 ]

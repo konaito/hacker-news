@@ -1762,5 +1762,229 @@
     "type": "reporting",
     "url": "https://biz.chosun.com/jp/jp-finance/2026/10/04/P5P7ZU6GOBAVHH44HQYALZSKNI/",
     "title": "ウェルカム貯蓄銀行で法人情報流出拡大"
+  },
+  {
+    "id": "ski-management-support-scam-2026-1",
+    "title": "Security NEXT｜サポート詐欺と調査完了の続報",
+    "url": "https://www.security-next.com/188880",
+    "type": "reporting",
+    "publisher": "Security NEXT"
+  },
+  {
+    "id": "ski-management-support-scam-2026-2",
+    "title": "ITmedia AI+｜エスケーアイマネージメントの遠隔操作被害",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2608/13/2000000513/",
+    "type": "reporting",
+    "publisher": "ITmedia"
+  },
+  {
+    "id": "niigata-startup-course-email-2026-1",
+    "title": "新潟県｜起業講座受講者メールアドレスの漏えい",
+    "url": "https://www.pref.niigata.lg.jp/sec/sogyosuishin/mailaddress-roei.html",
+    "type": "primary",
+    "publisher": "新潟県"
+  },
+  {
+    "id": "niigata-startup-course-email-2026-2",
+    "title": "Security NEXT｜起業講座のメール誤送信",
+    "url": "https://www.security-next.com/189535",
+    "type": "reporting",
+    "publisher": "Security NEXT"
+  },
+  {
+    "id": "revisio-malware-2026-1",
+    "title": "REVISIO｜マルウェア感染に関するお詫びとご報告",
+    "url": "https://revisio.co.jp/news/qlqXjTs7",
+    "type": "primary",
+    "publisher": "REVISIO"
+  },
+  {
+    "id": "meo-ddos-2026-1",
+    "title": "MEO公式コミュニティ｜国際ネットワークへのDDoS攻撃",
+    "url": "https://forum.meo.pt/internet-fixa-e-movel-11/comunicado-meo-esclarece-ataque-ddos-a-sua-rede-internacional-167882",
+    "type": "primary",
+    "publisher": "MEO"
+  },
+  {
+    "id": "arizona-courts-2026-1",
+    "title": "Arizona Judicial Branch｜サイバー攻撃の公式発表",
+    "url": "https://www.azcourts.gov/Portals/0/201/Press%20Releases/2026/NewsReleaseArizonaCourtsExperienceCyberAttack.pdf",
+    "type": "primary",
+    "publisher": "Arizona Judicial Branch"
+  },
+  {
+    "id": "arizona-courts-2026-2",
+    "title": "KJZZ｜裁判所バックアップと里親関連レポートへの被害",
+    "url": "https://www.kjzz.org/text/politics/2026-09-29/arizona-supreme-court-data-breach-exposed-reports-on-children-in-foster-care",
+    "type": "reporting",
+    "publisher": "KJZZ"
+  },
+  {
+    "id": "moonstar-online-store-2026-1",
+    "title": "ムーンスター｜オンラインストア不正アクセスの続報",
+    "url": "https://www.moonstar.co.jp/information/2026/10/post-4.html",
+    "type": "primary",
+    "publisher": "ムーンスター"
+  },
+  {
+    "id": "ticketplus-cache-2026-1",
+    "title": "チケプラ｜個人情報の誤表示に関するお詫びとご報告",
+    "url": "https://ticketplus.co.jp/news/detail/1025",
+    "type": "primary",
+    "publisher": "チケットプラス"
+  },
+  {
+    "id": "osaka-ikiiki-support-scam-2026-1",
+    "title": "大阪市｜3つのいきいき活動室のサポート詐欺",
+    "url": "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000688056.html",
+    "type": "primary",
+    "publisher": "大阪市"
+  },
+  {
+    "id": "gmo-trustlogin-2026-1",
+    "title": "GMOトラスト・ログイン｜データ漏洩に関するお詫びとご報告",
+    "url": "https://news.trustlogin.com/20260916",
+    "type": "primary",
+    "publisher": "GMOグローバルサイン"
+  },
+  {
+    "id": "nippon-trex-2026-1",
+    "title": "日本トレクス｜不正アクセスによるシステム障害",
+    "url": "https://www.trex.co.jp/news/news20260911-12711/",
+    "type": "primary",
+    "publisher": "日本トレクス"
+  },
+  {
+    "id": "nippon-trex-2026-2",
+    "title": "日本トレクス｜システム障害復旧",
+    "url": "https://www.trex.co.jp/news/news20260930/",
+    "type": "primary",
+    "publisher": "日本トレクス"
+  },
+  {
+    "id": "microsoft-x-2026-1",
+    "title": "BleepingComputer｜MicrosoftのXアカウント侵害",
+    "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+    "type": "reporting",
+    "publisher": "BleepingComputer"
+  },
+  {
+    "id": "microsoft-x-2026-2",
+    "title": "The Verge｜Microsoft広報がXアカウント侵害を確認",
+    "url": "https://www.theverge.com/news/1003892/microsoft-x-twitter-account-clippy",
+    "type": "reporting",
+    "publisher": "The Verge"
+  },
+  {
+    "id": "coder-registry-2026-1",
+    "title": "Coder｜Terraform Registry侵害のセキュリティ告知",
+    "url": "https://github.com/coder/coder/security/advisories/GHSA-vx42-ghc9-gw65",
+    "type": "primary",
+    "publisher": "Coder"
+  },
+  {
+    "id": "yellowhat-reservation-2026-1",
+    "title": "イエローハット｜予約専用サイト不正アクセスの会社開示",
+    "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260828/20260828527904.pdf",
+    "type": "primary",
+    "publisher": "イエローハット"
+  },
+  {
+    "id": "yellowhat-reservation-2026-2",
+    "title": "ScanNetSecurity｜イエローハット予約サイト侵害の9月報道",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/02/56108.html",
+    "type": "reporting",
+    "publisher": "ScanNetSecurity"
+  },
+  {
+    "id": "coop-yamaguchi-miniapp-2026-1",
+    "title": "コープやまぐち｜LINEミニアプリのデータベース侵害・第二報",
+    "url": "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/",
+    "type": "primary",
+    "publisher": "生活協同組合コープやまぐち"
+  },
+  {
+    "id": "scat-cloud-abuse-2026-1",
+    "title": "SCAT｜有償クラウドサービスへの不正アクセス",
+    "url": "https://www.scat.inc/news/2026/09/04/537",
+    "type": "primary",
+    "publisher": "SCAT"
+  },
+  {
+    "id": "weverse-payment-api-2026-1",
+    "title": "Weverse Shop｜個人情報流出に関するお詫び",
+    "url": "https://shop.weverse.io/ja/shop/JPY/artists/0/notices/14265",
+    "type": "primary",
+    "publisher": "Weverse Company"
+  },
+  {
+    "id": "weverse-payment-api-2026-2",
+    "title": "ScanNetSecurity｜Weverseの9月6日公表",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56219.html",
+    "type": "reporting",
+    "publisher": "ScanNetSecurity"
+  },
+  {
+    "id": "dc-dhcf-reports-2026-1",
+    "title": "DC DHCF｜公開レポートのデータ事案",
+    "url": "https://dhcf.dc.gov/page/dhcf-data-incident",
+    "type": "primary",
+    "publisher": "District of Columbia DHCF"
+  },
+  {
+    "id": "dc-dhcf-reports-2026-2",
+    "title": "SecurityWeek｜DC保健当局の公開レポートに約40万人の情報",
+    "url": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+    "type": "reporting",
+    "publisher": "SecurityWeek"
+  },
+  {
+    "id": "crowdsec-source-code-2026-1",
+    "title": "CrowdSec｜5月のソースコード流出について",
+    "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+    "type": "primary",
+    "publisher": "CrowdSec"
+  },
+  {
+    "id": "premier-medical-hv-2026-1",
+    "title": "Premier Medical Group｜データセキュリティ事案",
+    "url": "https://www.premiermedicalhv.com/notice-of-data-security-incident/",
+    "type": "primary",
+    "publisher": "Premier Medical Group"
+  },
+  {
+    "id": "premier-medical-hv-2026-2",
+    "title": "SecurityWeek｜Premier Medical Groupの対象282075人",
+    "url": "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/",
+    "type": "reporting",
+    "publisher": "SecurityWeek"
+  },
+  {
+    "id": "telus-consumer-accounts-2026-1",
+    "title": "SecurityWeek｜TELUSの顧客アカウント侵害",
+    "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
+    "type": "reporting",
+    "publisher": "SecurityWeek"
+  },
+  {
+    "id": "telus-consumer-accounts-2026-2",
+    "title": "MobileSyrup｜TELUS広報の説明と顧客通知",
+    "url": "https://mobilesyrup.com/2026/09/11/telus-customer-information-exposed-data-breach/",
+    "type": "reporting",
+    "publisher": "MobileSyrup"
+  },
+  {
+    "id": "trunk-email-2026-2",
+    "title": "TRUNK｜従業員メールアカウントへの不正アクセス",
+    "url": "https://www.trunk-base.com/company/news/20260901/",
+    "type": "primary",
+    "publisher": "TRUNK"
+  },
+  {
+    "id": "msc-site-2026-2",
+    "title": "ScanNetSecurity｜MSCのサイト改ざんとフォーム情報",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56274.html",
+    "type": "reporting",
+    "publisher": "ScanNetSecurity"
   }
 ]
