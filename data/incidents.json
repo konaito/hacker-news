@@ -1169,5 +1169,202 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "Brevo公式事後報告全本文と9月14日のインシデント履歴を確認。発生日はコンテンツ注入の日付でありAPIキー窃取日ではない。報道の10万サイトという数値は公式で裏付けられず不採用。SSO侵害との関連を断定しない。"
+  },
+  {
+    "id": "jaea-jrr3-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": null,
+    "company": "日本原子力研究開発機構",
+    "service": "JRR-3施設研究支援サイト",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "研究用原子炉の利用者175人分の個人情報が漏洩",
+    "summary": "研究支援サイトから2,419ファイルが不正にダウンロードされ、うち367件に175人分の個人情報が含まれていたと公表しました。身分証明書画像や特殊健康診断結果などが対象です。",
+    "note": "9月25日に侵害とダウンロードを確認、9月29日に個人情報の含有を確認。侵入開始日は不明。6人はマイナンバーも対象。アカウント情報は漏洩していないと説明し、機構内業務ネットワークから独立したサイトとしています。",
+    "affected": [
+      {
+        "count": 175,
+        "unit": "people",
+        "description": "個人情報が漏洩した施設利用者（重複を除く）",
+        "source_id": "jaea-jrr3-2026-1"
+      },
+      {
+        "count": 367,
+        "unit": "documents",
+        "description": "個人情報を含む登録ファイル。人数とは合算しない",
+        "source_id": "jaea-jrr3-2026-1"
+      }
+    ],
+    "sources": [
+      "jaea-jrr3-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "photogoods-2026",
+    "published_at": "2026-09-16",
+    "occurred_at": "2026-08-06",
+    "company": "大興印刷",
+    "service": "PhotoGoods",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "決済画面への不正プログラム設置でカード情報流出の可能性",
+    "summary": "脆弱性とファイルアップロード機能を悪用した不正アクセスを確認。氏名・連絡先・変換保存されたパスワード関連情報と、決済画面へ入力されたカード番号・有効期限・セキュリティコードが漏洩した可能性を公表しました。",
+    "note": "不正プログラムは8月6日から9月11日の除去まで設置。購入未完了でもカード入力者が対象となる可能性があります。影響人数と実際の流出範囲は調査中で、サービス再開時期は未定。",
+    "affected": [],
+    "sources": [
+      "photogoods-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "nihon-university-email-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": "2026-08-07",
+    "company": "日本大学",
+    "service": "教員メールアカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "教員5人のメールアカウントを侵害、1,333件の不審メール送信",
+    "summary": "第三者が教員5人のアカウントへ不正アクセスし、1,333件の不審メールを送信。一部アカウントで内部データへのアクセス痕跡を確認しました。",
+    "note": "8月7日発生、8月29日検知。フィッシング等による認証情報窃取が原因とみています。大規模な抽出・持ち出しは確認されておらず、漏洩確認とは扱いません。",
+    "affected": [
+      {
+        "count": 5,
+        "unit": "accounts",
+        "description": "不正アクセスを受けた教員のメールアカウント",
+        "source_id": "nihon-university-email-2026-1"
+      }
+    ],
+    "sources": [
+      "nihon-university-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "mogily-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-09-09",
+    "company": "mogily",
+    "service": "デジタル整理券システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "不正アクセスで133人の抽選結果を改ざん",
+    "summary": "9月9日から10日に管理システムが不正アクセスを受け、1社の顧客133人の当落ステータスが当選から落選に書き換えられました。対象者のステータスは復旧済みと説明しています。",
+    "note": "会社は調査で氏名・連絡先等の個人情報漏洩が発生していないことを確認したと説明。133人は改ざんの影響人数で、漏洩人数ではありません。",
+    "affected": [
+      {
+        "count": 133,
+        "unit": "people",
+        "description": "当落ステータスが改ざんされた顧客。個人情報漏洩人数ではない",
+        "source_id": "mogily-2026-1"
+      }
+    ],
+    "sources": [
+      "mogily-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "anatc-egift-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": "2026-08-11",
+    "company": "全日空商事",
+    "service": "選べるe-GIFT",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "生活・サービス",
+    "title": "ギフトの不正交換がシステム侵害に起因、対策後にサービス再開",
+    "summary": "8月11日から12日の不正アクセスで契約企業担当者の情報が閲覧された可能性があり、ギフトの不正交換も発生。9月4日の第2報で不正交換が同じ侵害に起因すると確認し、原因特定・修正後にサービスを再開しました。",
+    "note": "8月24日の第1報に続く調査結果。対象は担当者名、企業名・ID、ログインID、一部を伏せたメールアドレス等。一般のギフト受取人の個人情報は取得・保持していないと説明。人数・不正交換件数・金額は公表本文にありません。",
+    "affected": [],
+    "sources": [
+      "anatc-egift-2026-1",
+      "anatc-egift-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "mathspace-2026",
+    "published_at": "2026-09-05",
+    "occurred_at": "2026-08-10",
+    "company": "Mathspace",
+    "service": "内部レポート用Metabase",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "教育・研究",
+    "title": "豪州・NZの学生・保護者・職員107万9,819人の情報を取得",
+    "summary": "内部レポート用Metabaseの脆弱性を悪用され、豪州とニュージーランドの学生・保護者・学校職員等107万9,819人の情報がダウンロードされました。氏名、メールアドレス、ユーザーIDやアカウント関連情報が対象です。",
+    "note": "9月5日公開・9月8日更新の公式説明。8月10日から不正アクセスがあり、8月27日にダウンロード、9月3日に侵害を確認。成績・学習記録・パスワード・SSOトークン等は対象外と説明。流出データの公開・販売・悪用の証拠は確認していないとしています。",
+    "affected": [
+      {
+        "count": 1079819,
+        "unit": "people",
+        "description": "豪州・ニュージーランドの学生、職員、保護者等の合計影響人数",
+        "source_id": "mathspace-2026-1"
+      }
+    ],
+    "sources": [
+      "mathspace-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
+  },
+  {
+    "id": "aesto-health-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": "2025-12-02",
+    "company": "Aesto Health",
+    "service": "医療データ移行・保管サービス",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療・ヘルスケア",
+    "title": "患者954万683人の情報に影響した可能性を9月報道で確認",
+    "summary": "AWS基盤の一部が2025年12月2日から18日に侵害され、患者の氏名・生年月日・医療情報等が閲覧または取得された可能性があります。9月1日の報道で、米保健福祉省への届出の影響人数が954万683人と伝えられました。",
+    "note": "事件の公式告知は6月24日で、9月1日は影響人数を伝えた報道日です。5月26日に調査で情報への影響を確認。対象情報は個人により異なり、社会保障番号等も一部対象。公式本文は取得の可能性を示しており、全人数分の持ち出しを断定しません。",
+    "affected": [
+      {
+        "count": 9540683,
+        "unit": "people",
+        "description": "BleepingComputerがHHSへの届出人数として報道した影響人数",
+        "source_id": "aesto-health-2026-2"
+      }
+    ],
+    "sources": [
+      "aesto-health-2026-1",
+      "aesto-health-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と確認・公表日を区別し、異なる単位は合算しない。"
   }
 ]

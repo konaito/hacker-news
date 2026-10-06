@@ -324,5 +324,54 @@
     "timestamp": "2026-10-06T02:11:30+00:00",
     "summary": "Qiitaの紹介カードを「日本企業『ハッキングされないでくれ』ランキング」に変更し、記事内容に沿った紹介文を掲載。",
     "changes": []
+  },
+  {
+    "id": "audit-2026-10-06T03:10:50Z",
+    "timestamp": "2026-10-06T03:10:50Z",
+    "summary": "記事追加 7件",
+    "changes": [
+      {
+        "id": "aesto-health-2026",
+        "company": "Aesto Health",
+        "title": "患者954万683人の情報に影響した可能性を9月報道で確認",
+        "action": "added"
+      },
+      {
+        "id": "anatc-egift-2026",
+        "company": "全日空商事",
+        "title": "ギフトの不正交換がシステム侵害に起因、対策後にサービス再開",
+        "action": "added"
+      },
+      {
+        "id": "jaea-jrr3-2026",
+        "company": "日本原子力研究開発機構",
+        "title": "研究用原子炉の利用者175人分の個人情報が漏洩",
+        "action": "added"
+      },
+      {
+        "id": "mathspace-2026",
+        "company": "Mathspace",
+        "title": "豪州・NZの学生・保護者・職員107万9,819人の情報を取得",
+        "action": "added"
+      },
+      {
+        "id": "mogily-2026",
+        "company": "mogily",
+        "title": "不正アクセスで133人の抽選結果を改ざん",
+        "action": "added"
+      },
+      {
+        "id": "nihon-university-email-2026",
+        "company": "日本大学",
+        "title": "教員5人のメールアカウントを侵害、1,333件の不審メール送信",
+        "action": "added"
+      },
+      {
+        "id": "photogoods-2026",
+        "company": "大興印刷",
+        "title": "決済画面への不正プログラム設置でカード情報流出の可能性",
+        "action": "added"
+      }
+    ]
   }
 ]

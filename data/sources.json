@@ -467,5 +467,68 @@
     "type": "primary",
     "url": "https://status.brevo.com/incidents/01M2QBC4EZ24ZACW6SWQYVW8N3/write-up",
     "title": "Security Incident - ClickFix"
+  },
+  {
+    "id": "jaea-jrr3-2026-1",
+    "publisher": "日本原子力研究開発機構",
+    "type": "primary",
+    "url": "https://www.jaea.go.jp/02/press2026/p26100105/",
+    "title": "不正アクセスによる情報漏えいについて"
+  },
+  {
+    "id": "photogoods-2026-1",
+    "publisher": "大興印刷",
+    "type": "primary",
+    "url": "https://www.daiko-printing.co.jp/information/2037/",
+    "title": "「PhotoGoods」への不正アクセスによる個人情報等の漏えい可能性に関するお詫びとお知らせ"
+  },
+  {
+    "id": "nihon-university-email-2026-1",
+    "publisher": "日本大学",
+    "type": "primary",
+    "url": "https://www.nihon-u.ac.jp/hojin_news/others/20260914-282.html",
+    "title": "不正アクセスによる迷惑メール発信に関するおわびと御報告"
+  },
+  {
+    "id": "mogily-2026-1",
+    "publisher": "mogily",
+    "type": "primary",
+    "url": "https://corp.mogily.me/news/5097564298805248/",
+    "title": "弊社デジタル整理券システム「mogily」への不正アクセスおよびデータ改ざんに関するお詫びとご報告"
+  },
+  {
+    "id": "anatc-egift-2026-1",
+    "publisher": "全日空商事",
+    "type": "primary",
+    "url": "https://www.anatc.com/pressroom/20260824_01/",
+    "title": "「選べるe-GIFT」に対する不正アクセスについて（第1報）"
+  },
+  {
+    "id": "anatc-egift-2026-2",
+    "publisher": "全日空商事",
+    "type": "primary",
+    "url": "https://www.anatc.com/pressroom/20260904_01/",
+    "title": "「選べるe-GIFT」に対する不正アクセスについて（第2報）"
+  },
+  {
+    "id": "mathspace-2026-1",
+    "publisher": "Mathspace",
+    "type": "primary",
+    "url": "https://blog.mathspace.co/mathspace-data-breach-what-happened-and-what-affected-users-should-know/",
+    "title": "Mathspace data breach: what happened and what affected users should know"
+  },
+  {
+    "id": "aesto-health-2026-1",
+    "publisher": "Aesto Health",
+    "type": "primary",
+    "url": "https://www.aestohealth.com/notice-of-data-security-incident-12-18-25/",
+    "title": "Notice of Data Security Incident"
+  },
+  {
+    "id": "aesto-health-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+    "title": "Aesto Health says data breach affects over 9.5 million patients"
   }
 ]
