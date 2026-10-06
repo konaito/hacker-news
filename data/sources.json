@@ -684,5 +684,33 @@
     "type": "primary",
     "url": "https://www.mckesson.com/utility/cybersecurity/customer-cybersecurity-information-center/",
     "title": "McKesson Cybersecurity Incident Investigation and Response Update｜September 21, 2026"
+  },
+  {
+    "id": "luminis-health-2026-1",
+    "publisher": "Luminis Health",
+    "type": "primary",
+    "url": "https://www.luminishealth.org/en/cybersecurity-incident-update",
+    "title": "Luminis Health Cybersecurity Incident Update"
+  },
+  {
+    "id": "medyc-2026-1",
+    "publisher": "Qbusoft / Medyc",
+    "type": "primary",
+    "url": "https://medyc.pl/komunikaty/",
+    "title": "Informacja dotycząca naruszenia bezpieczeństwa danych"
+  },
+  {
+    "id": "medyc-2026-2",
+    "publisher": "UODO（ポーランド個人情報保護庁）",
+    "type": "primary",
+    "url": "https://www.uodo.gov.pl/pl/138/4585",
+    "title": "Miliony Polaków poszkodowane. Po nowym wycieku danych medycznych PUODO zapowiada kontrolę"
+  },
+  {
+    "id": "japanpost-web-inquiry-2026-1",
+    "publisher": "日本郵便",
+    "type": "primary",
+    "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/6267689171.html",
+    "title": "調査請求Web受付サービスへの不正アクセス等の発生について"
   }
 ]

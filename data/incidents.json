@@ -1766,5 +1766,72 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "一次発表の本文を確認し、既存事件との重複がないことを照合。"
+  },
+  {
+    "id": "luminis-health-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "Luminis Health",
+    "service": "医療システム・MyChart",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "医療・ヘルスケア",
+    "title": "サイバー事案で一部システムが停止、患者ポータルは利用再開",
+    "summary": "米国の医療組織が、サイバー事案による一部システムの利用不能と復旧対応を公表。9月29日の更新では電話とMyChartの利用再開を案内し、停止中に使った紙の診療記録をシステムへ取り込んでいると説明しています。",
+    "note": "患者記録を保存するシステムは影響を受けていないとの説明。侵入開始日、攻撃手法、情報漏洩の有無・人数は未確定で、調査は継続中。告知本文の更新日を公表日として記録。",
+    "affected": [],
+    "sources": [
+      "luminis-health-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式更新とFAQ本文を確認。復旧中のサービス停止を記録し、ランサムウェアや情報窃取とは断定しない。"
+  },
+  {
+    "id": "medyc-2026",
+    "published_at": "2026-09-28",
+    "occurred_at": null,
+    "company": "Qbusoft / Medyc",
+    "service": "医療機関向けソフトウェア",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報窃取確認",
+    "category": "医療・ヘルスケア",
+    "title": "医療ソフトウェア基盤への攻撃で個人情報の窃取を確認",
+    "summary": "ポーランドのQbusoftはMedyc基盤へのサイバー攻撃により、氏名、PESEL番号、住所、電話番号、メールアドレスへの不正アクセスと窃取が発生したと公表しました。",
+    "note": "診療記録の窃取は確認されていません。被害人数は公式告知に記載がなく、報道上の500万人という規模は採用しません。9月9日は攻撃を認識した日で、侵入開始日は不明。公式告知の更新日を公表日として記録。",
+    "affected": [],
+    "sources": [
+      "medyc-2026-1",
+      "medyc-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "Qbusoft公式告知全文とUODOの9月25日発表を確認。個人情報窃取と未確認の診療記録を区別し、報道由来の人数を採用しない。"
+  },
+  {
+    "id": "japanpost-web-inquiry-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "日本郵便",
+    "service": "国際郵便物の調査請求Web受付サービス",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "受付停止",
+    "category": "交通・物流",
+    "title": "国際郵便の調査請求Web受付、不正アクセスの可能性で停止",
+    "summary": "日本郵便は9月25日15時ごろ、国際郵便物の調査請求Web受付サービスのサーバーに外部から不正アクセスされた可能性が発覚したと公表し、受付を一時停止しました。",
+    "note": "原因と影響範囲は発表時点で調査中。情報窃取や漏洩、侵入開始日は未確認。郵便局アプリとは対象サービスが異なり、同一攻撃との根拠がないため別IDで記録。",
+    "affected": [],
+    "sources": [
+      "japanpost-web-inquiry-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "日本郵便の9月25日公式発表本文を確認。発覚日と発生日を区別し、不正アクセスの可能性と確認済みの受付停止のみ記録。"
   }
 ]
