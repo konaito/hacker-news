@@ -1499,5 +1499,78 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "登録した全出典の本文を確認し、一次発表と主張を突合。発生日と公表・確認日を区別。"
+  },
+  {
+    "id": "abahouse-2026",
+    "published_at": "2026-10-03",
+    "occurred_at": null,
+    "company": "アバハウスインターナショナル",
+    "service": "会員情報・EC受注情報データベース",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "会員・注文情報への不正アクセス、返金を装うメールも確認",
+    "summary": "会員情報とEC受注情報を保管するデータベースへの不正アクセスの痕跡を確認。氏名・連絡先・生年月日・注文情報などが漏えいした可能性を公表しました。実際の注文内容と一致する不審な返金案内メールも確認されています。",
+    "note": "不正アクセスは9月27日深夜から28日にかけてと推定。開始日を確定できないため発生日は未登録。取得された情報の範囲と被害件数は未確定。カード番号・セキュリティコードは自社システムに保存しておらず、漏えいは確認されていません。",
+    "affected": [],
+    "sources": [
+      "abahouse-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式一次資料の本文をWebツールで確認。発生・検知・公表の日付、確定事項と可能性、件数の単位を区別。"
+  },
+  {
+    "id": "centerpoint-energy-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": null,
+    "company": "CenterPoint Energy",
+    "service": "外部公開システム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "エネルギー・インフラ",
+    "title": "外部公開システム経由で一部顧客の個人情報を取得される",
+    "summary": "SEC提出書類で、権限のない第三者が外部公開システムの一つを通じて一部顧客の個人情報を取得したと公表しました。外部専門家と対象顧客・情報の範囲を調査しています。",
+    "note": "侵入日は不明。電力・ガスの供給は影響を受けていません。攻撃者のデータ件数主張は会社が確認した被害人数や件数と扱わず、影響数は未登録。ランサムウェアとは断定しません。",
+    "affected": [],
+    "sources": [
+      "centerpoint-energy-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式一次資料の本文をWebツールで確認。発生・検知・公表の日付、確定事項と可能性、件数の単位を区別。"
+  },
+  {
+    "id": "lmu-munich-2026",
+    "published_at": "2026-09-19",
+    "occurred_at": null,
+    "company": "LMUミュンヘン",
+    "service": "入学・在籍管理システム",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "約60万件の在籍データが不正アクセスの対象に",
+    "summary": "入学・在籍管理システムへの不正アクセスを確認し、データが取得された可能性を公表。9月28日の調査更新では、現役・元学生の約50年分、約60万件のデータが対象と説明しました。",
+    "note": "9月16日に検知しましたが、侵入の開始時期と継続期間は不明。約60万件はデータ件数であり人数とは扱いません。情報の種類は時期・個人で異なり、銀行情報は2005年以降の一部に限られます。公式FAQは公開・さらなる不正利用の証拠はないと説明しています。",
+    "affected": [
+      {
+        "count": 600000,
+        "unit": "records",
+        "description": "不正アクセスの対象となった現役・元学生の在籍データ（概数）",
+        "source_id": "lmu-munich-2026-1"
+      }
+    ],
+    "sources": [
+      "lmu-munich-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式一次資料の本文をWebツールで確認。発生・検知・公表の日付、確定事項と可能性、件数の単位を区別。"
   }
 ]

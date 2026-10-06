@@ -579,5 +579,26 @@
     "type": "reporting",
     "url": "https://www.itpro.com/security/data-breaches/manchester-airports-group-attack-millions-of-holidaymakers-urged-to-look-out-for-scams-as-hackers-publish-stolen-data-online",
     "title": "Manchester Airports Group attack: Millions of holidaymakers urged to look out for scams as hackers publish stolen data online"
+  },
+  {
+    "id": "abahouse-2026-1",
+    "publisher": "アバハウスインターナショナル",
+    "type": "primary",
+    "url": "https://abahouse.co.jp/news/2005/",
+    "title": "不正アクセスによる個人情報漏えいに関するお詫びとご報告"
+  },
+  {
+    "id": "centerpoint-energy-2026-1",
+    "publisher": "CenterPoint Energy",
+    "type": "primary",
+    "url": "https://investors.centerpointenergy.com/static-files/d9fb7141-1e03-43c3-bb91-2aa9a49fd405",
+    "title": "Form 8-K｜September 14, 2026"
+  },
+  {
+    "id": "lmu-munich-2026-1",
+    "publisher": "LMUミュンヘン",
+    "type": "primary",
+    "url": "https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/presse-und-kommunikation-puk/press-room/pressemitteilung/fragen-zum-datenschutzvorfall-b4a040bd.html",
+    "title": "Fragen zum Datenschutzvorfall"
   }
 ]
