@@ -27,6 +27,7 @@ Cover important hacking, information leaks, ransomware, and system compromises i
 - `.github/workflows/cloudflare-pages.yml`: PR validation and production deployment on main push/merge.
 - `scripts/setup-github.py`: private repository and Actions Secrets setup from an unrestricted local terminal.
 - `.audit/`: ignored local checkpoints, logs, lock, and last pushed commit.
+- `scripts/audit-report.py`: validates coverage and candidate decisions before accepting an audit; `scripts/test-audit-report.py` checks rejection of incomplete and stale reports.
 
 Edit source data and templates, then rebuild. Never maintain news by directly editing generated HTML. Incident counts, category choices, and month filters derive from published records; preserve that behavior as the dataset grows.
 
@@ -49,16 +50,20 @@ Read source bodies, not just search snippets. Prefer company, government, or oth
 
 The Mac LaunchAgent `app.allalarm.cyber-news-audit` runs on load and every 3600 seconds. This is local LaunchAgent plus Codex CLI execution, not a native same-thread heartbeat. It is not fixed to minute 00. The Mac must be awake and the user session available; do not claim continuous operation while the machine is asleep or powered off.
 
-Each completed audit must do both:
+Two independent schedules share a checkout lock:
 
-1. New coverage since `.audit/last-success.json` (or the full covered period when no checkpoint exists).
-2. Historical reconciliation from 2026-09-01, including omissions, existing follow-ups, and pending candidates.
+1. `fresh`: hourly new coverage with a 72-hour overlap; prioritize major news and recent follow-ups.
+2. `historical`: every six hours, reconcile omissions since 2026-09-01, existing follow-ups, all pending records, and deferred candidates.
 
-During automated audits, normally edit only `data/`; do not redesign the UI or change automation scripts. Write the completion checkpoint only after successful research, with actual search terms, changed IDs, pending IDs, completion time, and summary. Failure is not a completed audit.
+Common instructions are in `.codex/news-audit.md`; mode instructions are in `.codex/news-audit-fresh.md` and `.codex/news-audit-historical.md`. Each mode keeps its own reports and success checkpoint under `.audit/<mode>/`.
+
+During automated audits, normally edit only `data/`; do not redesign the UI or change automation scripts. Write the mode-specific current report only after successful research; the runner owns the success checkpoint, with with actual search terms, changed IDs, pending IDs, completion time, and summary. Failure is not a completed audit.
 
 The runner prevents overlapping runs and defers when the checkout has uncommitted work. It validates, builds, checks page integrity and JavaScript syntax, then commits changed data and generated output. It requires a GitHub origin and main branch, fetches and fast-forwards GitHub merges before research, and pushes validated changes to main. A failed push is retried on a subsequent run. GitHub Actions handles Cloudflare deployment; deployment failures must be inspected and retried in Actions. Do not perform commit, push, or deployment inside the audit prompt itself. The runner owns commit/push; it must never read Cloudflare credentials or call Wrangler.
 
 A successful no-change audit updates only ignored audit state. The runner may still retry an outstanding push. GitHub is required for publishing. Intended private origin is `konaito/hacker-news`; inspect actual remotes and repository visibility before claiming setup is complete.
+
+Fresh discovery must cover domestic media, international media, official announcements, and social leads. Historical discovery must cover domestic media, international media, official announcements, and historical/pending reconciliation. Overlap the latest 72 hours to account for indexing delays. Social posts are leads, not verification. Prioritize major new incidents before historical small cases and record each candidate's inclusion/exclusion/deferred reason. The agent writes the schema-v2 `.audit/<mode>/current-report.json`; the runner checks its freshness and coverage, archives accepted reports under `.audit/<mode>/reports/`, and advances `.audit/<mode>/last-success.json` only after validation and successful GitHub synchronization. Report validation checks structure, not whether research claims are true. Do not write the success checkpoint inside the audit prompt.
 
 ## Commands and Verification
 
@@ -108,3 +113,5 @@ Rebuild updates `public/sw.js`'s content-derived cache version. Keep the network
 After changing SEO/PWA behavior, run `python3 scripts/check-seo-pwa.py` as well as existing checks. Test service-worker registration, offline navigation, upgrade behavior, mobile layouts, and install guidance in a browser when environment permissions allow. Record any browser/deployment restriction honestly. Generated news/archive pages, RSS, sitemap and worker must be included in recurring audit commits and deployment. Production push/merge must pass the workflow validation before deployment; PRs run validation without deployment credentials.
 
 Deployment helper: `python3 scripts/deploy.py` requests a manual main-branch GitHub Actions deployment; it does not deploy locally. Set up the private repository and Secrets with `python3 scripts/setup-github.py`. Production browser checks: `node scripts/verify-live.cjs`. Service worker unit checks: `node scripts/test-service-worker.cjs`. Production browser checks require network access and permission to launch Chromium.
+
+The historical LaunchAgent is `app.allalarm.cyber-news-backfill`, interval 21600 seconds. Fresh timeout is 1500 seconds; historical timeout is 3000 seconds. Historical runs wait up to 1800 seconds for the shared lock; fresh runs defer if busy. Both require an awake Mac and logged-in user.

@@ -38,19 +38,19 @@ python3 scripts/deploy.py
 
 トップページの「更新履歴」と `/updates/` で、記事の追加・内容更新・掲載取り下げを日本時間で確認できます。過去分は保存されたコミット差分から復元し、今後は毎時監査の調査完了時に公開記事・出典の実際の差分から `data/updates.json` に記録します。日時は事件の公表日やデプロイ完了時刻ではありません。未掲載候補だけの変更、確認日だけの変更、変更のない調査は公開履歴を増やしません。手動で公開記事やサイトを変更するときも、このファイルに日時・要約・変更記事を追記してください。生成HTMLを直接編集する必要はありません。
 
-## 毎時監査
+## 新着・広域の2つの監査ループ
 
 このMacのLaunchAgent `app.allalarm.cyber-news-audit` はload時と3600秒ごとに `scripts/hourly-audit.py` を実行します。Macのスリープ・電源OFF中は停止します。
 
-既存Codexログインを使い、`.codex/news-audit.md` に沿って新着と2026-09-01以降の過去漏れ・続報・pending候補を調査します。一次情報または独立した信頼できる2媒体の本文確認を掲載条件とし、単一報道はpending。毎回origin/mainを取得してfast-forwardで同期し、変更を検証・コミット・pushします。調査担当はCloudflare認証を読み取らず、公開はGitHub Actionsに任せます。
+新着ループは `--mode fresh` で直近72時間の重要ニュースと続報を優先します。広域ループ `app.allalarm.cyber-news-backfill` はload時と21600秒（6時間）ごとに `--mode historical` で2026-09-01以降の取りこぼし・全pending・持ち越し候補を調査します。既存Codexログインを使い、共通指示 `.codex/news-audit.md` とモード別指示に従います。一次情報または独立した信頼できる2媒体の本文確認を掲載条件とし、単一報道はpending。毎回origin/mainを取得してfast-forwardで同期し、変更を検証・コミット・pushします。調査担当はCloudflare認証を読み取らず、公開はGitHub Actionsに任せます。
 
-main以外・origin未設定・未コミット作業・履歴の分岐がある場合は止めてユーザーの作業を守ります。重複起動はロックで防止。push失敗は次回に再試行。監査状態はGit除外の `.audit/` に保存します。
+main以外・origin未設定・未コミット作業・履歴の分岐がある場合は止めてユーザーの作業を守ります。重複起動はロックで防止。push失敗は次回に再試行。監査状態はGit除外の `.audit/fresh/` と `.audit/historical/` に分けて保存します。候補ごとの判断と探索経路を記録し、検証・GitHub同期完了後だけ成功時刻を更新します。共有ロックで同時編集を防ぎ、広域ループは新着の完了を最大30分待ちます。調査上限は新着25分・広域50分です。新着実行時に広域が動いていれば新着は次回へ延期します。
 
 ```sh
 launchctl print gui/$(id -u)/app.allalarm.cyber-news-audit
 ```
 
-設定ファイル: `~/Library/LaunchAgents/app.allalarm.cyber-news-audit.plist`。
+設定ファイル: `~/Library/LaunchAgents/app.allalarm.cyber-news-audit.plist` と `~/Library/LaunchAgents/app.allalarm.cyber-news-backfill.plist`。
 
 ## 編集・検証
 
