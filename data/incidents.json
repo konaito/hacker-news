@@ -1640,5 +1640,50 @@
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06"
+  },
+  {
+    "id": "washington-hotel-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": null,
+    "company": "ワシントンホテル",
+    "service": "社内管理サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "旅行・交通",
+    "title": "ランサムウェアで社内サーバー暗号化、従業員情報の漏洩を否定できず",
+    "summary": "9月7日の最終報で、外部接続機器経由の不正アクセスによる一部サーバーの暗号化を確認。情報窃取の明確な痕跡は確認されていませんが、従業員情報が保存されていたサーバーが対象となりました。",
+    "note": "2月公表事案の9月の調査結果・退職者通知。侵入開始日は不明。9月25日時点でも流出の可能性を完全には否定できず、退職者への通知を実施。顧客情報の保管環境への不正アクセスは確認されず、業務は復旧済み。被害人数は未公表。",
+    "affected": [],
+    "sources": [
+      "washington-hotel-2026-1",
+      "washington-hotel-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "公式9月7日最終報・9月25日退職者通知の本文を確認。窃取・外部公開は未確認でありconfirmed_leakとしない。9月7日は対象期間内の調査結果公表日で、攻撃発生日ではない。"
+  },
+  {
+    "id": "mckesson-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "McKesson",
+    "service": "外部アプリケーション",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "検証待ち",
+    "category": "医療・ヘルスケア",
+    "title": "外部アプリケーションからの情報持ち出し報道を検証中",
+    "summary": "ConsumerAffairsは9月1日、McKessonが外部アプリケーションへの不正アクセスとデータの持ち出しを確認したと報道。Oncology & MultispecialtyおよびMedical-Surgical部門の一部顧客に関連する情報が対象としています。",
+    "note": "8月25日は発見日で、侵入開始日は不明。9月1日は対象期間内の報道日。情報の種類と対象人数は未確定。攻撃者によるデータ量・件数・侵入手口の主張は採用しません。",
+    "affected": [],
+    "sources": [
+      "mckesson-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06",
+    "verification_note": "ConsumerAffairs本文確認。記事はMalwarebytes等を引用しており、独立した追加取材は未確認。8月28日BleepingComputer本文も背景資料として確認したが、ConsumerAffairsの記事の根拠との独立性を確立できず2媒体確認とはしない。公式cybersecurityページはWebツール403で本文取得できず、一次確認済みとせずpending。"
   }
 ]

@@ -635,5 +635,26 @@
     "type": "reporting",
     "url": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
     "title": "Mississippi mayor says ransomware incident led city to shut down systems"
+  },
+  {
+    "id": "washington-hotel-2026-1",
+    "publisher": "ワシントンホテル",
+    "type": "primary",
+    "url": "https://www.washingtonhotel.co.jp/corporation/news/229/",
+    "title": "ランサムウェア感染被害に関する調査結果および対応状況のお知らせ（最終報）"
+  },
+  {
+    "id": "washington-hotel-2026-2",
+    "publisher": "ワシントンホテル",
+    "type": "primary",
+    "url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
+    "title": "ランサムウェア感染被害に伴う退職者の皆様の個人情報に関するお知らせ"
+  },
+  {
+    "id": "mckesson-2026-1",
+    "publisher": "ConsumerAffairs",
+    "type": "reporting",
+    "url": "https://www.consumeraffairs.com/news/mckesson-confirms-cyberattack-as-hackers-claim-theft-of-patient-data-090126.html",
+    "title": "McKesson confirms cyberattack as hackers claim theft of patient data"
   }
 ]
