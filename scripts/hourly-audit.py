@@ -57,10 +57,29 @@ before_incidents = json.loads((ROOT / 'data/incidents.json').read_text())
 before_sources = json.loads((ROOT / 'data/sources.json').read_text())
 checkpoint = MODE_STATE / 'last-success.json'
 report_path = MODE_STATE / 'current-report.json'
-report_path.unlink(missing_ok=True)
 started_at = datetime.now(timezone.utc)
+prior_reports = []
+for mode in ('fresh', 'historical'):
+    directory = STATE / mode
+    paths = list((directory / 'reports').glob('*.json'))
+    paths.extend(directory / name for name in ('last-success.json', 'carryover-input.json'))
+    # Preserve the initial manual reconciliation until accepted reports exist.
+    if not (directory / 'last-success.json').exists():
+        paths.append(directory / 'current-report.json')
+    for path in paths:
+        if path.exists():
+            prior_reports.append(json.loads(path.read_text()))
+carryover = audit_report.collect_carryover(prior_reports, before_incidents, args.mode, started_at)
+carryover_path = MODE_STATE / 'carryover-input.json'
+carryover_path.write_text(json.dumps({
+    'completed_at': started_at.isoformat(), 'candidates': carryover,
+}, ensure_ascii=False, indent=2) + '\n')
+report_path.unlink(missing_ok=True)
 prompt = (ROOT / '.codex/news-audit.md').read_text()
 prompt += '\n' + (ROOT / ('.codex/news-audit-' + args.mode + '.md')).read_text()
+prompt += '\n今回の必須再調査候補（runnerが過去報告とpendingから抽出）:\n'
+prompt += json.dumps(carryover, ensure_ascii=False, indent=2)
+prompt += '\n各候補を実際に再調査し、元urlまたはincident_idを維持してcandidatesへ判断を記録する。未検証の情報を事実として掲載しない。\n'
 run(['codex', 'exec', '-C', str(ROOT), '-s', 'danger-full-access',
          '-c', 'approval_policy="never"', '-c', 'web_search="live"',
          '-o', str(MODE_STATE / 'last-response.txt'), '-'], input=prompt, text=True,
@@ -68,8 +87,13 @@ run(['codex', 'exec', '-C', str(ROOT), '-s', 'danger-full-access',
 if not report_path.exists():
     raise SystemExit('Audit did not produce a discovery report.')
 completion = json.loads(report_path.read_text())
-incident_ids = {record['id'] for record in json.loads((ROOT / 'data/incidents.json').read_text())}
-audit_report.validate_report(completion, started_at, incident_ids, args.mode)
+after_incidents = json.loads((ROOT / 'data/incidents.json').read_text())
+after_sources = json.loads((ROOT / 'data/sources.json').read_text())
+incident_ids = {record['id'] for record in after_incidents}
+changed_ids = audit_report.changed_incident_ids(before_incidents, after_incidents, before_sources, after_sources)
+audit_report.validate_report(completion, started_at, incident_ids, args.mode,
+                             incidents=after_incidents, sources=after_sources,
+                             changed_ids=changed_ids, carryover=carryover)
 changed = set(git('diff', '--name-only').splitlines())
 changed.update(git('ls-files', '--others', '--exclude-standard').splitlines())
 allowed_files = {'public/index.html', 'public/sitemap.xml', 'public/feed.xml', 'public/sw.js', 'public/updates/index.html'}

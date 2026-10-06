@@ -28,7 +28,7 @@ Cover important hacking, information leaks, ransomware, and system compromises i
 - `legacy-redirect/`: redirect-only source for the old Cloudflare Pages project `allalarm-hackernews`. This directory is separate from GitHub Pages' `public/` output.
 - `scripts/setup-github.py`: public repository and GitHub Pages setup from an unrestricted local terminal.
 - `.audit/`: ignored local checkpoints, logs, lock, and last pushed commit.
-- `scripts/audit-report.py`: validates coverage and candidate decisions before accepting an audit; `scripts/test-audit-report.py` checks rejection of incomplete and stale reports.
+- `scripts/audit-report.py`: validates media-listing reviews, source-body checks, actual changes and unresolved-candidate reconciliation before accepting an audit; `scripts/test-audit-report.py` and `scripts/test-audit-quality.py` cover rejection and carryover behavior.
 
 Edit source data and templates, then rebuild. Never maintain news by directly editing generated HTML. Incident counts, category choices, and month filters derive from published records; preserve that behavior as the dataset grows.
 
@@ -65,6 +65,8 @@ The runner prevents overlapping runs and defers when the checkout has uncommitte
 A successful no-change audit updates only ignored audit state. The runner may still retry an outstanding push. GitHub is required for publishing. Public origin is `konaito/hacker-news`; inspect actual remotes and repository visibility before claiming setup is complete.
 
 Fresh discovery must cover domestic media, international media, official announcements, and social leads. Historical discovery must cover domestic media, international media, official announcements, and historical/pending reconciliation. Overlap the latest 72 hours to account for indexing delays. Social posts are leads, not verification. Prioritize major new incidents before historical small cases and record each candidate's inclusion/exclusion/deferred reason. The agent writes the schema-v2 `.audit/<mode>/current-report.json`; the runner checks its freshness and coverage, archives accepted reports under `.audit/<mode>/reports/`, and advances `.audit/<mode>/last-success.json` only after validation and successful GitHub synchronization. Report validation checks structure, not whether research claims are true. Do not write the success checkpoint inside the audit prompt.
+
+Schema-v2 reports also require `quality_version: 1`, domestic/international `listing_checks` with at least two available media domains per route, and `source_checks` stating the body-supported claims for every source of a changed published record. Actual record/source differences must match `changed_ids` and candidate decisions. The runner folds past reports and preserves unresolved leads in ignored `.audit/<mode>/carryover-input.json`; absence from a later report never resolves a candidate. Fresh rechecks high-priority deferred leads and recent pending records; historical rechecks all deferred leads and pending records. These checks improve accountability but cannot prove research completeness or truth.
 
 ## Commands and Verification
 

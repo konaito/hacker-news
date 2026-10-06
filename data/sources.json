@@ -242,7 +242,7 @@
     "publisher": "共同通信",
     "type": "reporting",
     "url": "https://news.livedoor.com/article/detail/32493377/",
-    "title": "大阪公立大学のシステム障害・サーバー攻撃に関する報道"
+    "title": "大阪公立大にランサム攻撃　個人情報、13万人流出恐れ"
   },
   {
     "id": "whiteessence-2026-2",
@@ -1503,5 +1503,26 @@
     "title": "DTU｜Cyberattack on DTU: Notification of a personal data breach（10月2日）",
     "url": "https://www.dtu.dk/english/news/all-news/cyberattack-on-dtu-notification-of-a-personal-data-breach?id=769a9249-9c16-4b82-9573-563575853174",
     "type": "primary"
+  },
+  {
+    "id": "jogmec-2026-1",
+    "publisher": "JOGMEC",
+    "title": "不正アクセスによる個人情報の漏えいの可能性に関するお詫びとご報告",
+    "url": "https://www.jogmec.go.jp/news/information/information_00706.html",
+    "type": "primary"
+  },
+  {
+    "id": "rakuten-data-sale-claim-2026-1",
+    "publisher": "セキュリティ対策Lab",
+    "title": "ハッカーが楽天会員1億100万件の個人情報 販売を主張―氏名・住所・ポイント情報のサンプル掲載、漏洩元・真正性は未確認",
+    "url": "https://rocket-boys.co.jp/security-measures-lab/rakuten-101m-data-sale-unverified-20261004/",
+    "type": "reporting"
+  },
+  {
+    "id": "rakuten-data-sale-claim-2026-2",
+    "publisher": "ASCII",
+    "title": "楽天会員1億件超のデータ販売との投稿　楽天「情報漏えいの事実は確認されず」",
+    "url": "https://ascii.jp/elem/000/004/440/4440532/",
+    "type": "reporting"
   }
 ]

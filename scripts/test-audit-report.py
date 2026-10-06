@@ -14,12 +14,20 @@ class AuditReportTests(unittest.TestCase):
     def setUp(self):
         self.started = datetime.now(timezone.utc) - timedelta(seconds=2)
         self.report = {
-            'schema_version': 2, 'mode': 'fresh', 'completed_at': datetime.now(timezone.utc).isoformat(),
+            'schema_version': 2, 'quality_version': 1, 'source_checks': {}, 'mode': 'fresh', 'completed_at': datetime.now(timezone.utc).isoformat(),
             'searches': ['breach'], 'changed_ids': [], 'pending_ids': [],
             'summary': 'No verified new incidents', 'candidates': [],
             'coverage': {key: {'searches': ['breach'], 'checked_urls': ['https://example.com/news'],
                                'limitations': []} for key in module.CHANNELS},
         }
+
+        for channel in ('domestic_media', 'international_media'):
+            coverage = self.report['coverage'][channel]
+            coverage['checked_urls'] = ['https://first.example/news', 'https://second.example/news']
+            coverage['listing_checks'] = [
+                {'url': url, 'result': 'reviewed', 'candidate_urls': [],
+                 'reason': 'Latest articles reconciled; no incident leads'}
+                for url in coverage['checked_urls']]
 
     def test_complete_no_change_audit_is_valid(self):
         module.validate_report(self.report, self.started, {'existing'})
@@ -53,6 +61,14 @@ class AuditReportTests(unittest.TestCase):
             'priority': 'high', 'decision': 'published', 'incident_id': None, 'reason': 'Confirmed'}]
         with self.assertRaises(ValueError):
             module.validate_report(self.report, self.started, set())
+
+
+def load_tests(loader, tests, pattern):
+    quality_spec = spec_from_file_location('audit_quality_tests', Path(__file__).with_name('test-audit-quality.py'))
+    quality_tests = module_from_spec(quality_spec)
+    quality_spec.loader.exec_module(quality_tests)
+    tests.addTests(loader.loadTestsFromModule(quality_tests))
+    return tests
 
 
 if __name__ == '__main__':
