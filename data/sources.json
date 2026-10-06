@@ -2161,5 +2161,19 @@
     "type": "primary",
     "url": "https://www.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign",
     "title": "Behind the Connect Button: The Fake AI Ads Campaign"
+  },
+  {
+    "id": "applynow-nakabayashi-2026-1",
+    "publisher": "ナカバヤシ",
+    "type": "primary",
+    "url": "https://www.nakabayashi.co.jp/news/2026/info/1384",
+    "title": "採用管理プラットフォーム「ApplyNow」への不正アクセスに伴う個人情報漏えいに関するお知らせとお詫び"
+  },
+  {
+    "id": "docomo-rcs-consent-2026-1",
+    "publisher": "NTTドコモ",
+    "type": "primary",
+    "url": "https://www.docomo.ne.jp/info/notice/page/261004_00.html",
+    "title": "【お詫び】RCS利用における重要事項説明および第三者提供同意取得未実施に関するお知らせ"
   }
 ]
