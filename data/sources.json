@@ -600,5 +600,40 @@
     "type": "primary",
     "url": "https://www.lmu.de/de/die-lmu/struktur/zentrale-universitaetsverwaltung/presse-und-kommunikation-puk/press-room/pressemitteilung/fragen-zum-datenschutzvorfall-b4a040bd.html",
     "title": "Fragen zum Datenschutzvorfall"
+  },
+  {
+    "id": "kbic-2026-1",
+    "publisher": "川崎市",
+    "type": "primary",
+    "url": "https://www.city.kawasaki.jp/templates/prs/280/0000190099.html",
+    "title": "かわさき新産業創造センター（KBIC）のWebサイトへの不正アクセス被害について（第一報）"
+  },
+  {
+    "id": "kbic-2026-2",
+    "publisher": "川崎市",
+    "type": "primary",
+    "url": "https://www.city.kawasaki.jp/templates/prs/cmsfiles/contents/0000190/190598/houdou_kbic_2.pdf",
+    "title": "かわさき新産業創造センター（KBIC）のWebサイトへの不正アクセス被害について（最終報）"
+  },
+  {
+    "id": "dyfed-powys-police-2026-1",
+    "publisher": "Dyfed-Powys Police",
+    "type": "primary",
+    "url": "https://www.dyfed-powys.police.uk/news/dyfed-powys/news/2026/september-2026/statement/",
+    "title": "Statement from Dyfed-Powys Police regarding the 14th September 2026 cyber incident."
+  },
+  {
+    "id": "vicksburg-2026-1",
+    "publisher": "Vicksburg Daily News",
+    "type": "reporting",
+    "url": "https://vicksburgnews.com/city-issues-release-on-cyberattack/",
+    "title": "City issues release on cyberattack"
+  },
+  {
+    "id": "vicksburg-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/vicksburg-mississippi-government-ransomware-attack",
+    "title": "Mississippi mayor says ransomware incident led city to shut down systems"
   }
 ]

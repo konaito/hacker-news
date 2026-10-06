@@ -435,5 +435,30 @@
         "action": "added"
       }
     ]
+  },
+  {
+    "id": "audit-2026-10-06T06:17:52.091683Z",
+    "timestamp": "2026-10-06T06:17:52.091683Z",
+    "summary": "記事追加 3件",
+    "changes": [
+      {
+        "id": "dyfed-powys-police-2026",
+        "company": "Dyfed-Powys Police（英国）",
+        "title": "警察の非緊急系システムが障害、職員情報への影響を調査",
+        "action": "added"
+      },
+      {
+        "id": "kbic-2026",
+        "company": "川崎市 / かわさき新産業創造センター",
+        "title": "施設サイトへの侵入、最終調査で情報流出・改ざんなしを確認",
+        "action": "added"
+      },
+      {
+        "id": "vicksburg-2026",
+        "company": "Vicksburg市（米国ミシシッピ州）",
+        "title": "ランサムウェアで市のシステムを停止、公共料金の窓口支払いに影響",
+        "action": "added"
+      }
+    ]
   }
 ]

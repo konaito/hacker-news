@@ -1572,5 +1572,73 @@
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-06",
     "verification_note": "公式一次資料の本文をWebツールで確認。発生・検知・公表の日付、確定事項と可能性、件数の単位を区別。"
+  },
+  {
+    "id": "kbic-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-07-20",
+    "company": "川崎市 / かわさき新産業創造センター",
+    "service": "KBIC Webサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "行政・公共",
+    "title": "施設サイトへの侵入、最終調査で情報流出・改ざんなしを確認",
+    "summary": "指定管理者が運用するWebサイトへの不正アクセスを9月4日に発見し、一時閉鎖しました。10月6日の最終報で、詳細調査によりサイト改ざんと個人情報等の流出はなかったと発表しました。",
+    "note": "最終報で不正アクセス日は7月20日と確認。9月11日は初公表日で、発見日とは異なります。当初懸念されたフォーム入力27件・22人分についても流出なしと確認されており、漏洩被害数には計上しません。",
+    "sources": [
+      "kbic-2026-1",
+      "kbic-2026-2"
+    ],
+    "verification_note": "川崎市の第一報HTMLと最終報PDFの本文を確認。最終報の確定した発生日と調査結果を優先し、漏洩可能性を継続する旧報道は採用しない。",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06"
+  },
+  {
+    "id": "dyfed-powys-police-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "Dyfed-Powys Police（英国）",
+    "service": "非緊急系システム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "行政・公共",
+    "title": "警察の非緊急系システムが障害、職員情報への影響を調査",
+    "summary": "サイバー事案により一部の非緊急系システムが停止し、オンライン・メールでの連絡が一時利用できなくなりました。9月25日の公式発表では連絡機能は復旧済みで、緊急対応と電話サービスに影響はありません。",
+    "note": "9月14日は検知日で侵入開始日は不明。市民の個人情報へのアクセス・侵害の証拠は見つかっておらず、職員情報への影響は調査中。ランサムウェアや情報窃取、被害人数は断定しません。",
+    "sources": [
+      "dyfed-powys-police-2026-1"
+    ],
+    "verification_note": "警察の9月25日公式声明本文を確認。障害の確認と職員情報への影響の調査を区別し、地域人口・職員数を被害数として採用しない。",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06"
+  },
+  {
+    "id": "vicksburg-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": null,
+    "company": "Vicksburg市（米国ミシシッピ州）",
+    "service": "市のコンピューターシステム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "ランサムウェア被害",
+    "category": "行政・公共",
+    "title": "ランサムウェアで市のシステムを停止、公共料金の窓口支払いに影響",
+    "summary": "市はランサムウェアによる事案の調査とコンピューターシステムの一時停止を公表しました。公共料金の対面支払いに遅れが生じる可能性がある一方、緊急通報・警察・消防・公共サービスは継続しています。",
+    "note": "10月1日は声明の公表日で、侵入開始日は不明。個人・機密情報への不正アクセスや取得の有無は調査中で、情報漏洩と被害人数は未確定。停止中は支払い遅延の罰則やサービス打ち切りを行わないと説明しています。",
+    "sources": [
+      "vicksburg-2026-1",
+      "vicksburg-2026-2"
+    ],
+    "verification_note": "Vicksburg Daily Newsが掲載した市長署名の10月1日声明全文とThe Recordの10月2日本文を確認。VDNはThe Recordの転載ではなく、市の声明を直接掲載する別出版社。市公式サイトでの原本確認とは区別し、2媒体確認に基づき公開。",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-06",
+    "last_verified_at": "2026-10-06"
   }
 ]
