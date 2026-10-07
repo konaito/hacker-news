@@ -1930,22 +1930,23 @@
     "published_at": "2026-09-30",
     "occurred_at": null,
     "company": "関西国際大学",
-    "service": "学内システム",
+    "service": "eポートフォリオ・学内ネットワーク",
     "region": "JP",
-    "status": "confirmed_access",
-    "display_label": "不正アクセス確認",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
     "category": "教育・研究",
-    "title": "学内システムへの侵入を確認、接続停止で一部サービス利用不能",
-    "summary": "学内システムの一部への第三者による不正アクセスを確認し、被害拡大防止の緊急措置としてインターネット接続を停止しました。一部の学内システムにアクセスできない状況を公表しています。",
-    "note": "侵入経路、発生時期、影響範囲、情報漏えいの有無は調査中。ランサムウェア被害や情報流出は断定しません。",
+    "title": "eポートフォリオの文字情報が流出、学内ネットワーク停止が長期化",
+    "summary": "10月6日の第二報で、eポートフォリオに保存された複数ファイルが繰り返し外部に取得されたと公表しました。2023年3月までに在籍した学生の経験・振り返り等の文字情報が流出したと判断しています。学内Wi-Fiを含むネットワークを停止して調査しています。",
+    "note": "文字情報の流出確認と、氏名・学籍番号等の含有や個人との紐付きが調査中であることを区別します。在学生・その他の情報への影響、対象範囲と件数、侵入開始日は不明。10月中旬以降の一部システム再開を目指しますが、安全確認によって変更される目標です。",
     "affected": [],
     "sources": [
-      "kuins-2026-1"
+      "kuins-2026-1",
+      "kuins-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "9月30日の大学公式本文を開いて確認。第三者の侵入、接続停止、調査中の項目を突合。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "大学公式9月30日の初報と10月6日の第二報の全本文を確認。流出した文字情報と個人特定性・人数の未確定事項を分離して更新。"
   },
   {
     "id": "voising-2026",
@@ -5572,5 +5573,1143 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "10月2日のニチイ学館公式PDF全2ページの本文をWebで確認。URL推測の難しさを非公開の根拠にせず、ログの確認期間と露出期間を分けました。"
+  },
+  {
+    "id": "humboldt-ransomware-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "Instituto Humboldt（コロンビア）",
+    "service": "データセンター・ERP・ファイルサーバー",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "ランサムウェア被害",
+    "category": "教育・研究",
+    "title": "研究機関のERPとファイルサーバーが暗号化、一部サービスを停止",
+    "summary": "9月20日にデータセンターへのランサムウェア攻撃を検知。ERPと関連ファイルサーバーの情報が暗号化され、身代金を要求されました。機器を隔離し接続を遮断したため、一部サービスが利用できないと公表しています。",
+    "note": "氏名、識別番号、携帯電話番号、メールアドレス等の個人情報への影響の可能性も調査。検知日を侵入開始日とせず、情報持ち出しや人数は未確定。",
+    "affected": [],
+    "sources": [
+      "humboldt-ransomware-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "smaregi-ec-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "スマレジ",
+    "service": "スマレジEC・リピート／スマレジEC・B2B",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "管理画面の脆弱性を悪用、利用4社の個人データに影響の可能性",
+    "summary": "顧客管理画面のログイン機能の脆弱性が悪用され、一部の顧客環境への不正アクセスを確認しました。影響の可能性がある利用企業は4社で、顧客・受注情報や管理者情報等が閲覧または取得された可能性があります。",
+    "note": "9月18日に脆弱性を修正。管理者等の暗号化済みパスワードも対象。カード情報は保有していません。4社を人数・漏洩件数に換算せず、侵入開始日と総件数は不明。",
+    "affected": [],
+    "sources": [
+      "smaregi-ec-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "kwansei-hyocom-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "関西学院大学",
+    "service": "授業に利用した外部SNS「hyocom」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "外部SNSの公開設定不備で学生1,448人の情報が閲覧可能に",
+    "summary": "非常勤講師が授業に利用した外部SNSで、学生の氏名、学生番号、成績、プロフィールや提出資料等が閲覧可能な状態だったと公表しました。対象は1,448人で、科目・年度・設定により一般公開とSNS会員への公開の範囲が異なります。",
+    "note": "2026年7月の情報提供で発覚。対象期間は科目ごとに異なり、単一の開始日を置きません。全情報が全員について一般公開されたとは扱わず、持ち出し・二次被害は未確認。",
+    "affected": [
+      {
+        "count": 1448,
+        "unit": "people",
+        "description": "外部SNS上の公開設定により情報が閲覧可能だった対象学生・卒業生の人数。",
+        "source_id": "kwansei-hyocom-2026-1"
+      }
+    ],
+    "sources": [
+      "kwansei-hyocom-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "fukuoka-care-certification-form-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": "2026-08-21",
+    "company": "福岡県・麻生教育サービス",
+    "service": "働きやすい介護職場認証制度の申請ファイル",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "申請ファイルの設定不備で24法人の役員183人の情報が閲覧可能",
+    "summary": "委託先が公開した申請ファイルをオンラインで編集・保存できる設定にしたため、法人役員183人分の氏名、生年月日、性別、役職が第三者から閲覧可能な状態でした。対象は申請予定を含む24法人です。",
+    "note": "8月21日から9月17日までの公開設定の問題。発覚後に削除し全24法人へ連絡。閲覧数は不明で、183人全員の情報が実際に持ち出されたとは確認していません。",
+    "affected": [
+      {
+        "count": 183,
+        "unit": "people",
+        "description": "設定不備で個人情報が閲覧可能だった24法人の役員。",
+        "source_id": "fukuoka-care-certification-form-2026-1"
+      }
+    ],
+    "sources": [
+      "fukuoka-care-certification-form-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "osaka-labor-association-email-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-07-13",
+    "company": "大阪労働協会",
+    "service": "代表メールアカウント",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "メールアカウント侵害による自動転送で88人の個人情報が流出",
+    "summary": "7月13・14日に代表メールアカウントへの不正アクセスがあり、第三者のメールアドレスへの自動転送が設定されました。転送された271通のうち175通に、会議室利用者等88人の氏名・連絡先などが含まれていたと公表しました。",
+    "note": "個人情報を含む175通と88人を別単位として扱います。侵入経路は調査中。9月29日時点で個人情報の不正利用等の相談はないと説明しています。",
+    "affected": [
+      {
+        "count": 88,
+        "unit": "people",
+        "description": "自動転送された個人情報を含む175通のメールに記載されていた人。",
+        "source_id": "osaka-labor-association-email-2026-1"
+      }
+    ],
+    "sources": [
+      "osaka-labor-association-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "kanagawa-employment-contact-file-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": "2026-09-01",
+    "company": "神奈川県",
+    "service": "障がい者雇用事業の参加企業一覧",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "参加企業一覧に担当者32人の氏名・連絡先を誤掲載",
+    "summary": "9月1日に公開した参加企業一覧で、個人情報を削除していないファイルを誤って掲載しました。参加企業担当者32人の氏名、電話番号やメールアドレスが対象です。翌日に判明し、ファイルを差し替えました。",
+    "note": "外部からの不正アクセスではなく、公開前の内容確認不足による誤掲載です。実際の第三者による取得は確認していません。",
+    "affected": [
+      {
+        "count": 32,
+        "unit": "people",
+        "description": "誤掲載した参加企業一覧に個人情報が含まれていた担当者。",
+        "source_id": "kanagawa-employment-contact-file-2026-1"
+      }
+    ],
+    "sources": [
+      "kanagawa-employment-contact-file-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "ichini-email-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": "2026-09-06",
+    "company": "イチニ",
+    "service": "選挙ドットコム関連の案内メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "メディア",
+    "title": "案内メールを宛先欄で送信、メールアドレス339件が流出",
+    "summary": "「個別お打合せのご提案」と題するメールをBCC等でなく宛先欄で送信し、受信者に他の顧客のメールアドレスが表示されました。漏洩した情報はメールアドレス339件と公表しています。",
+    "note": "氏名、住所、電話番号やアンケート回答の漏洩は確認されていません。339件はアドレス数で、人数として扱いません。当日の削除依頼で事象を正確に説明できなかったことも認めています。",
+    "affected": [
+      {
+        "count": 339,
+        "unit": "records",
+        "description": "誤送信で他の受信者に表示されたメールアドレスの件数。",
+        "source_id": "ichini-email-2026-1"
+      }
+    ],
+    "sources": [
+      "ichini-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "saitama-disclosure-mask-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": "2025-12-19",
+    "company": "埼玉県",
+    "service": "情報公開請求に基づき提供した電子ファイル",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "不完全なマスキングで学生の非開示情報が読み取れる電子文書を提供",
+    "summary": "情報公開請求に基づいて提供した電子ファイルのマスキングが不完全で、操作すると学生の氏名・学科・授業料減免等の非開示情報が読み取れる状態でした。対象は専門学校2校の延べ536人分です。",
+    "note": "8月27日に受領者から指摘され、9月10日に削除を確認して公表。延べ人数であり重複を除いた人数は不明のため集計欄に登録しません。第三者への再提供はなかったと確認しています。",
+    "affected": [],
+    "sources": [
+      "saitama-disclosure-mask-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "aichi-aikon-file-2026",
+    "published_at": "2026-09-22",
+    "occurred_at": null,
+    "company": "愛知県",
+    "service": "出会いサポートポータル「あいこんナビ」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "イベント情報に非公開ファイルを誤掲載、599人の個人情報が閲覧可能",
+    "summary": "イベント主催団体が2018年に保有した599人の氏名、年齢、学歴、職業等の非公開情報が申込用ファイルとして誤掲載されていました。9月20日の第三者の連絡で判明し、同日削除しました。",
+    "note": "2018年の掲載申請時に添付され、県が気付かず承認したと考えられています。正確な公開開始日は不明。サイバー攻撃や確認済み持ち出しとは断定しません。",
+    "affected": [
+      {
+        "count": 599,
+        "unit": "people",
+        "description": "誤掲載された2018年の主催団体保有ファイルに記載された人。",
+        "source_id": "aichi-aikon-file-2026-1"
+      }
+    ],
+    "sources": [
+      "aichi-aikon-file-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "paperlogic-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "ペーパーロジック",
+    "service": "paperlogicが利用するクラウドサーバー",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "クラウドサーバーへの不正アクセスを確認、顧客情報の閲覧痕跡はなし",
+    "summary": "8月27日にクラウドサーバーへの不正アクセスと異常な動作を検知し、アクセス遮断、認証情報無効化、システム停止等の措置を講じました。顧客の個人情報や契約書等の閲覧・持ち出しの痕跡は見つかっていないと説明しています。",
+    "note": "検知日を侵入開始日とは扱いません。漏洩確認とは分類せず、調査・監視を継続する侵害として記録します。",
+    "affected": [],
+    "sources": [
+      "paperlogic-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "mamamoo-fanclub-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": null,
+    "company": "RBW JAPAN",
+    "service": "MOOMOO JAPANの管理委託サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "エンタメ",
+    "title": "ファンクラブ管理委託先で不正アクセス、有料会員の認証情報流出の可能性",
+    "summary": "システム管理委託会社のサーバーで外部からの不正アクセスの形跡を9月1日に確認しました。有料会員のメールアドレスとパスワードが漏洩した可能性があり、再設定を案内しています。",
+    "note": "決済情報は対象外。侵入開始日と対象人数は不明。委託会社名や他の事案との関係は公表されておらず、同一事件と推測して統合しません。",
+    "affected": [],
+    "sources": [
+      "mamamoo-fanclub-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "sunmesse-purchase-system-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": null,
+    "company": "サンメッセ",
+    "service": "委託運用のWEB発注システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造",
+    "title": "購買発注システムにサイバー攻撃、利用者情報流出の可能性",
+    "summary": "運用委託先の報告で発注システムのサーバーへのサイバー攻撃が判明し、利用を停止しました。一部ユーザー情報が漏洩した可能性を調査しています。9月9日の第二報でシステムの再開を公表しました。",
+    "note": "影響は発注システムのサーバーに限られると説明しています。侵入時期・件数は不明。委託会社名が公表されておらず、他の利用者事案との重複関係は未確定。",
+    "affected": [],
+    "sources": [
+      "sunmesse-purchase-system-2026-1",
+      "sunmesse-purchase-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "tokyo-plumbing-site-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "東京都管工事工業協同組合",
+    "service": "公式ウェブサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "行政・公共",
+    "title": "CMSの脆弱性を悪用し改ざん、スマートフォンを偽警告へ誘導",
+    "summary": "古いCMSの脆弱性を利用した不正アクセスを受け、サーバー内の不正プログラムでJavaScriptファイルが改ざんされました。スマートフォンで閲覧すると不審広告や偽の感染警告へ誘導される状態を確認し、削除・復旧しました。",
+    "note": "発生開始日と影響人数は不明。個人情報・機密情報の流出は確認されていません。",
+    "affected": [],
+    "sources": [
+      "tokyo-plumbing-site-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "spoon-site-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": "2026-07-29",
+    "company": "スプーン",
+    "service": "SPOON SPORTS公式サイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "製造",
+    "title": "管理画面への不正ログインとサイト改ざん、閲覧者の不正コマンド実行も確認",
+    "summary": "7月29日と8月12日にWordPress管理画面への不正ログインを確認しました。8月12日にファイルが改ざんされ、一部の閲覧者へ偽のセキュリティ確認画面を表示。指示通り操作して不正処理が実行された事例も確認したと第二報で説明しています。",
+    "note": "改ざんの影響可能期間は8月12日17時59分ごろ～8月19日18時32分ごろ。認証情報の取得経路と個人情報への影響は調査中。画面表示だけで感染したとは扱いません。",
+    "affected": [],
+    "sources": [
+      "spoon-site-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "hamagin-tt-accounts-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": null,
+    "company": "浜銀TT証券",
+    "service": "顧客のインターネット取引口座",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "フィッシングによる顧客口座への不正アクセス・投資信託売買を確認",
+    "summary": "フィッシングで口座番号やパスワード等が盗まれた事案と、その後の顧客口座での投資信託の不正売買を確認したと公表しました。パスキー認証への切替えと不審なリンクへの注意を呼びかけています。",
+    "note": "会社システム自体の侵入や顧客情報の一括流出と混同しません。被害人数・金額・発生日は非公表。",
+    "affected": [],
+    "sources": [
+      "hamagin-tt-accounts-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "ja-enshu-yumesaki-site-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": "2026-08-24",
+    "company": "遠州夢咲農業協同組合",
+    "service": "公式ホームページ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "行政・公共",
+    "title": "不正アクセスでサイトを改ざん、調査で個人情報流出は確認されず",
+    "summary": "8月24日の不正アクセスでプログラムが改ざんされ、ホームページを更新できなくなり一時閉鎖しました。10月7日の調査報告では、専門機関の調査で個人情報の流出・不正利用は確認されなかったと公表しています。",
+    "note": "調査報告時点でも復旧作業中と説明。閲覧者の感染やデータ持ち出し、対象人数は確認していません。",
+    "affected": [],
+    "sources": [
+      "ja-enshu-yumesaki-site-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の本文を確認し、確定事項と可能性、発生日と公表日、件数の単位を区別して記録。"
+  },
+  {
+    "id": "ando-hazama-business-cards-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": "2026-08-17",
+    "company": "安藤ハザマ",
+    "service": "名刺管理システムから出力したデータ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "製造・工業",
+    "title": "警察官を装った相手へ名刺情報約5,000件をメールで送付",
+    "summary": "社員が偽の捜査依頼を信じ、名刺管理システムの情報をダウンロードして電子メールで提出しました。会社名、氏名、役職、住所や連絡先など約5,000件が流出したと公表しています。",
+    "note": "8月31日の一次発表を9月18日の報道で確認。警察のシステム侵害とは扱いません。約5,000件は名刺情報の件数で、重複を除いた人数ではありません。",
+    "affected": [
+      {
+        "count": 5000,
+        "unit": "records",
+        "description": "警察官を装った相手に送付した名刺情報の概数。",
+        "source_id": "ando-hazama-business-cards-2026-1"
+      }
+    ],
+    "sources": [
+      "ando-hazama-business-cards-2026-1",
+      "ando-hazama-business-cards-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "osaka-high-court-teams-2026",
+    "published_at": "2026-09-16",
+    "occurred_at": "2026-08-27",
+    "company": "大阪高等裁判所",
+    "service": "事件に関するMicrosoft Teamsチーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "Teamsのメンバー登録誤りで外部・職員アカウント情報が閲覧可能に",
+    "summary": "事件用チームへ本来のメンバー以外を誤登録し、ユーザー名とメールアドレスを相互に閲覧できる状態にしました。対象は外部ユーザー約3,500アカウントと職員約2,500アカウントです。",
+    "note": "9月16日の報道を収録。8月27日10時40分ごろに誤登録し、12時20分ごろに把握・削除。事件記録自体にアクセスできる状態ではありませんでした。アカウント数を人数や持ち出し数には置き換えません。",
+    "affected": [],
+    "sources": [
+      "osaka-high-court-teams-2026-1",
+      "osaka-high-court-teams-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "zurich-zdash-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "チューリッヒ保険",
+    "service": "ドライブレコーダー送信システムZ-Dash",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "金融・保険",
+    "title": "Z-Dashへの不正アクセス、最大1,668人の個人情報に影響の可能性",
+    "summary": "8月18日の調査で脆弱性を確認し、過去の記録から4月1日と6日の不正アクセスが判明しました。データをアップロードした最大1,668人の事案管理番号、氏名、メールアドレスが漏洩した可能性があります。",
+    "note": "8月27日の一次発表を9月1日の報道で確認。映像、カード・口座情報は対象外。各情報項目の組み合わせは調査中。確認した複数のアクセス日を単一の侵入開始日には置き換えません。",
+    "affected": [
+      {
+        "count": 1668,
+        "unit": "people",
+        "description": "Z-Dashにデータをアップロードした顧客のうち影響を受けた可能性がある最大人数。",
+        "source_id": "zurich-zdash-2026-1"
+      }
+    ],
+    "sources": [
+      "zurich-zdash-2026-1",
+      "zurich-zdash-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "ne-chemcat-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": null,
+    "company": "エヌ・イー ケムキャット",
+    "service": "社内システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造",
+    "title": "社員アカウントを悪用した侵入、従業員等の個人情報に漏洩のおそれ",
+    "summary": "5月28日に不審挙動を検知し、社員アカウントを悪用した社内システムへの不正アクセスを確認しました。外部調査で従業員・派遣社員・委託先・グループ会社社員等の情報の漏洩またはそのおそれが判明しました。",
+    "note": "8月20日の一次発表を9月9日の報道で確認。端末でのマルウェア実行が原因と考えられています。漏洩確定の範囲・人数は明示されていないため、possible_leakとし件数を登録しません。",
+    "affected": [],
+    "sources": [
+      "ne-chemcat-2026-1",
+      "ne-chemcat-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "nihon-data-processing-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": null,
+    "company": "日本ビジネスデータープロセシングセンター",
+    "service": "社内システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "システムへの不正アクセスを確認、ネットワークを遮断し調査",
+    "summary": "8月20日11時53分にシステムへの不正アクセスを確認しました。社内ネットワークを遮断するなど被害拡大防止措置を講じ、外部専門業者と原因・影響範囲を調査しています。",
+    "note": "8月24日の一次発表を9月11日の報道で確認。確認時刻を侵入開始時刻と扱わず、情報流出やランサムウェア、人数は未確定です。",
+    "affected": [],
+    "sources": [
+      "nihon-data-processing-2026-1",
+      "nihon-data-processing-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "daiko-next-link-email-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": null,
+    "company": "DAIKO NEXT LINK",
+    "service": "旧大興ビジネスのメールアカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "メールアカウントへの不正アクセスでパスワードが詐取される",
+    "summary": "一部の旧大興ビジネスのメールアカウントで第三者による不正アクセスとパスワードの詐取が判明しました。二次被害と不正送信の拡大防止のため、8月17日夕方から18日夕方までメールシステムを停止しました。",
+    "note": "8月19日の一次発表を9月9日の報道で確認。メール本文・顧客情報の持ち出しや対象人数は公表されていません。",
+    "affected": [],
+    "sources": [
+      "daiko-next-link-email-2026-1",
+      "daiko-next-link-email-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "unko-museum-site-2026",
+    "published_at": "2026-09-02",
+    "occurred_at": null,
+    "company": "うんこミュージアム",
+    "service": "公式サイトのお問い合わせフォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "エンタメ",
+    "title": "サイト改ざんでフォーム送信者4人の情報が傍受されたおそれ",
+    "summary": "第三者製ソフトウェアの脆弱性が悪用され、サイトの一部が改ざんされました。8月10日17時4分～11日11時24分にフォームを送信した4人の氏名・メールアドレス・電話番号・本文等が傍受・取得された可能性を公表しています。",
+    "note": "8月14日の一次発表を9月2日の報道で確認。送信内容をDBに保存する仕様ではないため、送信時の傍受可能性を説明しています。改ざんを除去し8月11日までに修正。閲覧やチケット購入だけの被害とは扱いません。",
+    "affected": [
+      {
+        "count": 4,
+        "unit": "people",
+        "description": "改ざんの影響可能期間にお問い合わせフォームを送信した人。",
+        "source_id": "unko-museum-site-2026-1"
+      }
+    ],
+    "sources": [
+      "unko-museum-site-2026-1",
+      "unko-museum-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "meruhaikun-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": null,
+    "company": "ディライトフル",
+    "service": "メール配信システム「める配くん」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "IT・クラウド",
+    "title": "一部サーバーへの不正アクセスで配信先情報の外部取得を確認",
+    "summary": "外部専門機関の調査で、サーバー内の顧客の配信先メールアドレス等の一部が外部に取得されていたことを確認しました。影響が確認された契約者に個別通知し、配信先への連絡も連携して進めています。",
+    "note": "8月14日の最終調査発表を9月4日の報道で確認。6月17日までに通信を遮断し、通常提供を再開。全契約者の情報が漏洩したとは説明しておらず、総件数は非公表です。",
+    "affected": [],
+    "sources": [
+      "meruhaikun-2026-1",
+      "meruhaikun-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "yonex-online-login-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": "2026-08-05",
+    "company": "ヨネックス",
+    "service": "公式オンラインショップの会員アカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "EC・小売",
+    "title": "リスト型攻撃で3件の不正ログイン、個人情報に影響のおそれは1件",
+    "summary": "8月5日に外部で取得された認証情報を使うリスト型攻撃を確認しました。不正ログインは3件で、そのうち1件について氏名・住所・購入履歴等が閲覧された可能性があります。対象アカウントを無効化しました。",
+    "note": "8月12日の一次発表を9月1日の報道で確認。個人情報を入力せず登録できるため、不正ログイン3件と個人情報の影響可能性1件を区別します。",
+    "affected": [
+      {
+        "count": 3,
+        "unit": "accounts",
+        "description": "不正ログインが確認されたオンラインショップのアカウント数。",
+        "source_id": "yonex-online-login-2026-1"
+      }
+    ],
+    "sources": [
+      "yonex-online-login-2026-1",
+      "yonex-online-login-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "isabou-net-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "五大開発",
+    "service": "いさぼうネットの会員情報サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "サーバーへの侵入で会員情報が閲覧・取得された可能性",
+    "summary": "1月26日にサーバーへの不正アクセスと攻撃を確認し、専門調査で会員の氏名、メールアドレス、ログインパスワード、会社名、住所、電話番号が閲覧または取得された可能性が判明しました。",
+    "note": "8月10日の一次発表を9月1日の報道で確認。漏洩可能性の判明日は7月27日。確認日を侵入開始日には置き換えません。件数は非公表で、会員のパスワード変更を案内しています。",
+    "affected": [],
+    "sources": [
+      "isabou-net-2026-1",
+      "isabou-net-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "nissan-foundation-site-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "日産財団",
+    "service": "公式Webサイトの申込・問い合わせフォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "サイト改ざんでフォーム情報が閲覧され得る状態に",
+    "summary": "6月16日にサイトへの不正アクセスと改ざんを確認し、停止して調査しました。一定期間、外部から情報を閲覧できる状態だったため、6月16日以前に各種フォームを利用した人の氏名・メールアドレス等に漏洩のおそれがあると説明しています。",
+    "note": "8月10日の一次発表を9月1日の報道で確認。情報持ち出しの形跡や二次被害は未確認。新環境でサイトを再構築・再開しました。侵入開始日と対象人数は不明。",
+    "affected": [],
+    "sources": [
+      "nissan-foundation-site-2026-1",
+      "nissan-foundation-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "hololive-cardgame-site-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": null,
+    "company": "hololive OFFICIAL CARD GAME",
+    "service": "公式サイトのCMS・問い合わせフォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "エンタメ",
+    "title": "CMSへの不正アクセスの痕跡、問い合わせ情報に取得のおそれ",
+    "summary": "CMSの脆弱性公表を受けて調査し、不正アクセスの痕跡を確認しました。7月4～19日に問い合わせフォームを利用した人の氏名・連絡先・本文が一時保存されており、外部取得のおそれを否定できないと公表しています。",
+    "note": "8月25日の一次発表を9月11日の報道で確認。単品カード交換窓口は対象外。掲載内容の改ざんや実際の持ち出しは未確認。7月17日は調査の契機で侵入開始日ではありません。",
+    "affected": [],
+    "sources": [
+      "hololive-cardgame-site-2026-1",
+      "hololive-cardgame-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "okawa-hidden-excel-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "大川市",
+    "service": "民生委員・児童委員の公開Excel名簿",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "行政・公共",
+    "title": "非表示シートと残存ファイルで過去の委員188人の連絡先が閲覧可能",
+    "summary": "公開Excelに非表示の過去名簿が残り、再表示すると188人の氏名・電話番号を閲覧できる状態でした。8月6日の問い合わせで判明しPDFへ変更。その後も拡張子を変更すると元のExcelを取得できたため、元ファイルも削除しました。",
+    "note": "8月20日の一次発表を9月10日の報道で確認。記載は過去の委員の連絡先で、当時市報等に掲載された内容です。2025年12月公開の名簿に残存したもので、侵害や持ち出しとは区別します。",
+    "affected": [
+      {
+        "count": 188,
+        "unit": "people",
+        "description": "非表示の過去名簿シートに氏名と電話番号が記載されていた人。",
+        "source_id": "okawa-hidden-excel-2026-1"
+      }
+    ],
+    "sources": [
+      "okawa-hidden-excel-2026-1",
+      "okawa-hidden-excel-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "toho-communications-hosting-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": "2026-07-31",
+    "company": "東邦通信システムズ",
+    "service": "外部ホスティング環境のメールアカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "サーバー管理アカウントへの侵入で顧客メール設定を書き換え",
+    "summary": "7月31日ごろから8月4日ごろまで、不審な接続元がサーバー管理アカウントへ不正アクセスし、一部の顧客メールアカウントの設定を書き換えました。ホスティング事業者とアクセス遮断・調査を進めています。",
+    "note": "8月19日の一次発表を9月9日の報道で確認。発生日はごろという概日。大規模なデータ流出やメール不正送信等の二次被害は確認されていないと説明。件数は不明。",
+    "affected": [],
+    "sources": [
+      "toho-communications-hosting-2026-1",
+      "toho-communications-hosting-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "nagano-whatsapp-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-08-11",
+    "company": "長野県多文化共生相談センター",
+    "service": "相談用WhatsAppアカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "行政・公共",
+    "title": "相談員のSNSアカウントを不正利用、なりすましで詐欺被害も発生",
+    "summary": "相談員がWhatsAppを装った更新メッセージに従って端末を操作した後、第三者が相談用アカウントを不正利用しました。登録者2人の氏名が閲覧され、相談員を装うメッセージが送信され、1人に金銭被害が発生しました。",
+    "note": "8月20日の一次発表を9月11日の報道で確認。利用登録者55人全体の氏名・電話番号・やり取りは閲覧されたおそれがある範囲です。55人全員の窃取確認とは扱わず集計欄へ加算しません。",
+    "affected": [],
+    "sources": [
+      "nagano-whatsapp-2026-1",
+      "nagano-whatsapp-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道とリンク先の公式本文を確認。一次公表が8月以前の事案は9月の報道日を掲載日とし、元の公表日と発生・検知日を本文で区別。"
+  },
+  {
+    "id": "elitz-cloud-file-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "エリッツ",
+    "service": "入居申込者のメール文書を保管するクラウド",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "不動産",
+    "title": "クラウドのアクセス制限不備、入居申込者の個人情報に流出のおそれ",
+    "summary": "8月17日、外部調査会社の指摘で、入居申込者とのメール文書を保管するクラウドのアクセス制限に不備があると判明し、同日改善しました。実際の外部流出の有無や対象件数は調査中です。",
+    "note": "8月20日の一次発表を9月10日の報道で確認。2021年4月3日以降の文書が対象。別会社のAMBITION DX事件と区別し、侵入・窃取を確定させません。",
+    "affected": [],
+    "sources": [
+      "elitz-cloud-file-2026-1",
+      "elitz-cloud-file-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "sankei-respection-form-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-08-24",
+    "company": "産経新聞社・RESPECTion!推進委員会",
+    "service": "シンポジウム参加申込フォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "メディア",
+    "title": "申込フォームの設定不備で149人の氏名・メールアドレス等が閲覧可能に",
+    "summary": "回答概要の表示機能が有効だったため、申込後に他の申込者の氏名、メールアドレス、質問内容を閲覧できました。8月24日13時30分から9月10日18時47分の修正までに申し込んだ149人が対象です。",
+    "note": "項目別の独立したテキスト一覧で、氏名とメールアドレスを同一行に結び付けた名簿ではありません。性別等は全体集計グラフ。決済情報・パスワードは収集していません。持ち出し件数は不明。",
+    "affected": [
+      {
+        "count": 149,
+        "unit": "people",
+        "description": "設定不備の期間に申し込んだ対象人数。",
+        "source_id": "sankei-respection-form-2026-1"
+      }
+    ],
+    "sources": [
+      "sankei-respection-form-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "isit-quotation-email-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": "2026-09-03",
+    "company": "九州先端科学技術研究所",
+    "service": "自治体向けBODIKサービスの見積書メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "教育・研究",
+    "title": "見積書を誤って339行政機関のメーリングリストへ送信",
+    "summary": "9月3日、特定の自治体に送る見積書と見積り内容を、誤って利用自治体全体のメーリングリストへ送りました。339行政機関、342宛先へ送信され、メールと添付ファイルの削除を依頼しました。",
+    "note": "宛先アドレスは相互に確認できない設定です。342宛先を漏洩した個人情報の件数や人数として加算しません。9月11日更新の公式本文を確認。",
+    "affected": [],
+    "sources": [
+      "isit-quotation-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "shizugin-tm-accounts-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": null,
+    "company": "静銀ティーエム証券",
+    "service": "顧客のオンライン証券口座",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "顧客口座への不正アクセス・不正取引を確認",
+    "summary": "顧客口座に対する不正アクセスと不正取引を確認したと公表しました。第三者が顧客資産を使って有価証券等を売買する被害について、個別事情を精査して一定の補償を行う方針です。",
+    "note": "8月28日の一次発表を9月18日の報道で確認。フィッシング等が疑われる顧客口座の被害で、会社内部システムへの侵入とは混同しません。発生日・件数は非公表。",
+    "affected": [],
+    "sources": [
+      "shizugin-tm-accounts-2026-1",
+      "shizugin-tm-accounts-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "nskre-cloud-2026",
+    "published_at": "2026-09-16",
+    "occurred_at": null,
+    "company": "日鉄興和不動産",
+    "service": "マンション販売業務等のクラウドサービス",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "不動産",
+    "title": "顧客情報を保管する外部クラウドへの不正アクセスを確認",
+    "summary": "8月25日、利用するクラウドサービスの一部への第三者による不正アクセスを確認し、接続を停止しました。マンション販売業務等の顧客情報が保存されていますが、個人情報の漏洩や不正利用の事実は確認されていないと説明しています。",
+    "note": "8月26日の一次発表を9月16日の報道で確認。8月25日は確認日で、侵入開始日は不明。サービス運営会社は特定されておらず、他社の委託先事件と統合しません。",
+    "affected": [],
+    "sources": [
+      "nskre-cloud-2026-1",
+      "nskre-cloud-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "jbfa-sites-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-08-12",
+    "company": "日本ブラインドサッカー協会",
+    "service": "公式サイト・20周年記念サイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "エンタメ",
+    "title": "ウェブサイトを改ざん、偽のセキュリティ認証画面を表示",
+    "summary": "管理画面のアカウント情報を不正取得してログインし、記事データが書き換えられたとみられています。8月12日午前に偽の認証画面などを確認しサイトを停止、復旧と対策を行い再公開しました。",
+    "note": "8月20日の一次発表を9月11日の報道で確認。改ざんは8月12日午前3〜7時ごろと推定。個人情報流出は確認されていません。Cloudflareを装った画面で、同社の侵害ではありません。",
+    "affected": [],
+    "sources": [
+      "jbfa-sites-2026-1",
+      "jbfa-sites-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "geniee-cloud-resource-2026",
+    "published_at": "2026-09-02",
+    "occurred_at": null,
+    "company": "ジーニー",
+    "service": "GENIEE MAのクラウド計算資源",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "クラウド計算資源を第三者が不正利用、関連損失を計上",
+    "summary": "GENIEE MAで第三者によるクラウド計算資源の不正利用が発生しました。8月14日、合理的な見積りに基づく関連損失1億8,100万円を四半期決算に計上したと発表しています。",
+    "note": "8月14日の一次発表を9月2日の報道で確認。5月21日初報の損失続報。損失は最終確定ではなく、別の貸倒引当金1億9,800万円をサイバー被害に合算しません。",
+    "affected": [],
+    "sources": [
+      "geniee-cloud-resource-2026-1",
+      "geniee-cloud-resource-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "osaka-tax-system-insider-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": null,
+    "company": "大阪市・あべの市税事務所",
+    "service": "税務事務システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "行政・公共",
+    "title": "職員が入力権限を悪用して課税台帳を改ざん、同僚の税情報も不正閲覧",
+    "summary": "職員が自身の税情報を不正に入力・取り消して課税台帳を改ざんし、不正な還付を得ました。業務上必要がないのに複数の職員の税情報を少なくとも16回閲覧したことも公表されています。",
+    "note": "8月27日の一次発表を9月14日の報道で確認。不正入力等は2023年から2026年の複数時点にわたり、単一の発生日を置きません。内部権限の悪用で、16回の閲覧を被害人数に換算しません。",
+    "affected": [],
+    "sources": [
+      "osaka-tax-system-insider-2026-1",
+      "osaka-tax-system-insider-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "sakata-japan-server-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": null,
+    "company": "サカタのタネ",
+    "service": "日本側サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造・工業",
+    "title": "侵入の最終調査を公表、顧客・応募者・従業員等の情報に漏洩のおそれ",
+    "summary": "2025年11月に確認したサーバー侵入について最終調査を公表しました。顧客・取引先情報約4万4,000件、企画応募者約2,500件、採用関係約5,000件、従業員等約5,000件などに漏洩の可能性があると説明しています。",
+    "note": "8月19日の一次発表を9月8日の報道で確認。侵入開始日は不明。区分間の重複や実際の持ち出し件数が不明なため合計人数を作りません。米国子会社の事件は侵入経路が異なる別事件です。",
+    "affected": [],
+    "sources": [
+      "sakata-japan-server-2026-1",
+      "sakata-japan-server-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "sakata-america-server-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": null,
+    "company": "Sakata America Holding Company",
+    "service": "米国子会社のサーバー",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造・工業",
+    "title": "米国子会社への侵入、情報流出の可能性と影響範囲の限定を公表",
+    "summary": "1月21日に検知した米国子会社のサーバー侵入について調査結果を公表しました。リモートアクセスの認証情報を起点に社内ネットワークへ侵入された可能性があり、一部情報に漏洩のおそれがあると判断しています。",
+    "note": "8月19日の一次発表を9月8日の報道で確認。日本側の事件とは直接関係がないと会社が明記。影響は米国子会社の一部システムに限定され、重大な事業影響や二次被害は確認されていません。人数は不明。",
+    "affected": [],
+    "sources": [
+      "sakata-america-server-2026-1",
+      "sakata-america-server-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "対象期間の報道と一次発表の本文を突合。元の公表日・検知日・発生日を区別し、未確定の情報を断定しない。"
+  },
+  {
+    "id": "kyoto-sanga-email-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": "2026-09-02",
+    "company": "京都パープルサンガ",
+    "service": "ファンクラブ会員情報ファイル",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "エンタメ",
+    "title": "会員1万5,612人分の情報をメールに誤添付して社外へ送信",
+    "summary": "9月2日、取引先へのメールにファンクラブ会員情報のファイルを誤って添付しました。1万5,612人分の氏名・住所・連絡先・会員関連情報が含まれ、受信者11人のうち2人が開封したことを確認しています。",
+    "note": "当日中に受信先で完全削除したことを確認。決済情報は含まれず二次流出は未確認。公式の単位は人であり、媒体タイトルの件とは区別します。",
+    "affected": [
+      {
+        "count": 15612,
+        "unit": "people",
+        "description": "誤添付ファイルに含まれていた会員の人数。",
+        "source_id": "kyoto-sanga-email-2026-1"
+      }
+    ],
+    "sources": [
+      "kyoto-sanga-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表の本文を読み、確定事項と可能性・報道日と発生日・件数の単位を区別して記録。"
+  },
+  {
+    "id": "fukujo-email-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": "2026-08-21",
+    "company": "福岡女学院大学・短期大学部",
+    "service": "オープンキャンパスの案内メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "教育・研究",
+    "title": "オープンキャンパスの案内メールを誤送信、受信者間でアドレスが閲覧可能に",
+    "summary": "8月21日18時、交通費補助申込者向け41件とバス利用者向け117件への案内で、宛先をBCCへ設定せずメールアドレスが受信者間で見える状態になりました。対象者へ謝罪し、メールの削除を依頼しました。",
+    "note": "8月24日の一次発表を9月25日の報道で確認。一次発表は件と記載し、重複を除いた人数ではありません。両グループの数値は合算しません。",
+    "affected": [],
+    "sources": [
+      "fukujo-email-2026-1",
+      "fukujo-email-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表の本文を読み、確定事項と可能性・報道日と発生日・件数の単位を区別して記録。"
+  },
+  {
+    "id": "okinawa-agriculture-email-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": "2026-07-10",
+    "company": "沖縄県",
+    "service": "農業研修等の調査依頼メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "個人情報200人分を含む調査ファイルを40市町村へ誤送信",
+    "summary": "7月10日、国の調査依頼メールを県内40市町村へ転送する際、対象者200人分の情報を含む添付ファイルを誤って一括送信しました。氏名・年齢・研修施設や交付予定額などが含まれていました。",
+    "note": "8月6日の一次発表を9月14日の報道で確認。前年と同じ未記入様式だと思い込んで転送。宛先へ削除依頼し、対象者に謝罪しています。",
+    "affected": [
+      {
+        "count": 200,
+        "unit": "people",
+        "description": "市町村へ誤送信した添付ファイルに含まれた対象者人数。",
+        "source_id": "okinawa-agriculture-email-2026-1"
+      }
+    ],
+    "sources": [
+      "okinawa-agriculture-email-2026-1",
+      "okinawa-agriculture-email-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表の本文を読み、確定事項と可能性・報道日と発生日・件数の単位を区別して記録。"
+  },
+  {
+    "id": "nutex-health-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "Nutex Health（米国）",
+    "service": "企業ネットワーク・患者等の情報",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療",
+    "title": "患者・従業員等の情報窃取を調査、攻撃者が公開したデータを解析",
+    "summary": "会社は8月31日のSEC提出で、患者・従業員・医療提供者や業務・財務情報が不正に取得されたと考えていると説明しました。9月10日には、事件に関連して取得したとされるデータが第三者のサイトへ掲載され、内容・範囲・真正性を解析中と公表しました。",
+    "note": "情報の対象件数と侵入開始日は不明。公開データの真正性を確定せず、会社が報告した調査段階を維持します。重大な業務・財務報告システムへの影響は確認されていません。攻撃者名やランサムウェア実行を確定しません。",
+    "affected": [],
+    "sources": [
+      "nutex-health-2026-1",
+      "nutex-health-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次発表の本文を読み、確定事項と可能性・報道日と発生日・件数の単位を区別して記録。"
+  },
+  {
+    "id": "incan-radiotherapy-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "INCAN・Liga Nacional Contra el Cáncer（グアテマラ）",
+    "service": "放射線治療の計画・シミュレーション・治療システム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "医療",
+    "title": "サイバー事件で放射線治療に支障、9月11日にシステム復旧",
+    "summary": "放射線治療部門のシステムがサイバー事件の影響を受け、サービスが一時停止しました。施設側の説明を報じた続報では、9月11日に計画・シミュレーション・治療の全機器を復旧し、患者への治療再開の連絡を進めています。",
+    "note": "La Horaの9月1日報道とDiario de Centro Américaの9月18日報道を本文で確認。攻撃の開始日・情報窃取・被害人数は未確定。ランサムウェアや特定集団による攻撃とは断定しません。",
+    "affected": [],
+    "sources": [
+      "incan-radiotherapy-2026-1",
+      "incan-radiotherapy-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "独立した2媒体の本文で施設側の説明と復旧を確認。未確認の情報漏洩・攻撃手法・人数を断定しない。"
   }
 ]

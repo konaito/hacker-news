@@ -2217,5 +2217,530 @@
     "type": "primary",
     "url": "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf",
     "title": "当社介護サイトにおける個人情報漏えいのおそれに関するお詫びとお知らせ"
+  },
+  {
+    "id": "humboldt-ransomware-2026-1",
+    "publisher": "Instituto Humboldt（コロンビア）",
+    "type": "primary",
+    "url": "https://www.humboldt.org.co/noticias/comunicado-oficial-sobre-incidente-de-infraestructura-tecnologica",
+    "title": "Comunicado oficial sobre incidente de infraestructura tecnológica"
+  },
+  {
+    "id": "smaregi-ec-2026-1",
+    "publisher": "スマレジ",
+    "type": "primary",
+    "url": "https://ec.smaregi.jp/b2b/news/2026925-2/",
+    "title": "スマレジECにおける不正アクセスについて | EC受発注ならスマレジEC・B2B"
+  },
+  {
+    "id": "kwansei-hyocom-2026-1",
+    "publisher": "関西学院大学",
+    "type": "primary",
+    "url": "https://www.kwansei.ac.jp/news/06656.html",
+    "title": "学生の個人情報が閲覧可能な状態にあったことに関するお詫びとお知らせ｜関西学院大学"
+  },
+  {
+    "id": "fukuoka-care-certification-form-2026-1",
+    "publisher": "福岡県・麻生教育サービス",
+    "type": "primary",
+    "url": "https://www.pref.fukuoka.lg.jp/press-release/nkojinjyouhou.html",
+    "title": "申請ファイルの設定不備で24法人の役員183人の情報が閲覧可能"
+  },
+  {
+    "id": "osaka-labor-association-email-2026-1",
+    "publisher": "大阪労働協会",
+    "type": "primary",
+    "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o110090/prs_51152.html",
+    "title": "メールアカウント侵害による自動転送で88人の個人情報が流出"
+  },
+  {
+    "id": "kanagawa-employment-contact-file-2026-1",
+    "publisher": "神奈川県",
+    "type": "primary",
+    "url": "https://www.pref.kanagawa.jp/docs/sj6/prs/r3606409.html",
+    "title": "参加企業一覧に担当者32人の氏名・連絡先を誤掲載"
+  },
+  {
+    "id": "ichini-email-2026-1",
+    "publisher": "イチニ",
+    "type": "primary",
+    "url": "https://ichi-ni.jp/info/2026091002/",
+    "title": "【重要・お詫び】電子メール誤送信によるメールアドレス漏えいについて - イチニ株式会社のコーポレートサイト。日本をよくする人を前へ。"
+  },
+  {
+    "id": "saitama-disclosure-mask-2026-1",
+    "publisher": "埼玉県",
+    "type": "primary",
+    "url": "https://www.pref.saitama.lg.jp/a0204/news/page/news2026091001.html",
+    "title": "不開示情報のマスキングが不完全な文書の情報開示による個人情報を含む不開示情報の漏えいについて - 埼玉県"
+  },
+  {
+    "id": "aichi-aikon-file-2026-1",
+    "publisher": "愛知県",
+    "type": "primary",
+    "url": "https://www.pref.aichi.jp/press-release/aiconnavikisya202609.html",
+    "title": "イベント情報に非公開ファイルを誤掲載、599人の個人情報が閲覧可能"
+  },
+  {
+    "id": "paperlogic-2026-1",
+    "publisher": "ペーパーロジック",
+    "type": "primary",
+    "url": "https://paperlogic.co.jp/post_17046/",
+    "title": "当社サービスへの不正アクセスに関するお知らせ – paperlogic – paperlogic"
+  },
+  {
+    "id": "mamamoo-fanclub-2026-1",
+    "publisher": "RBW JAPAN",
+    "type": "primary",
+    "url": "https://mamamoo.jp/news/detail.php?nid=rUrvuyEgEAc=",
+    "title": "ニュース ｜ MAMAMOO JAPAN OFFICIAL FANCLUB「MOOMOO JAPAN」"
+  },
+  {
+    "id": "sunmesse-purchase-system-2026-1",
+    "publisher": "サンメッセ",
+    "type": "primary",
+    "url": "https://www.sunmesse.co.jp/news/file/20260908171625.pdf",
+    "title": "購買発注システムにサイバー攻撃、利用者情報流出の可能性"
+  },
+  {
+    "id": "tokyo-plumbing-site-2026-1",
+    "publisher": "東京都管工事工業協同組合",
+    "type": "primary",
+    "url": "https://tokan.or.jp/topics/association/260901.html",
+    "title": "弊組ウェブサイト改ざんに関するお詫びとご報告｜東京都管工事工業協同組合"
+  },
+  {
+    "id": "spoon-site-2026-1",
+    "publisher": "スプーン",
+    "type": "primary",
+    "url": "https://www.spoonsports.jp/blog/?p=8274",
+    "title": "当社ウェブサイトの不正改ざんに関するお詫びと注意喚起【第２報】 | SPOONSPORTS INFORMATIONSPOONSPORTS INFORMATION"
+  },
+  {
+    "id": "hamagin-tt-accounts-2026-1",
+    "publisher": "浜銀TT証券",
+    "type": "primary",
+    "url": "https://www.hamagintt.co.jp/information/pdf/20260903_internet.pdf",
+    "title": "フィッシングによる顧客口座への不正アクセス・投資信託売買を確認"
+  },
+  {
+    "id": "ja-enshu-yumesaki-site-2026-1",
+    "publisher": "遠州夢咲農業協同組合",
+    "type": "primary",
+    "url": "https://jayumesaki.ja-shizuoka.or.jp/",
+    "title": "ホームページへの不正アクセスに関する調査結果のご報告｜遠州夢咲農業協同組合"
+  },
+  {
+    "id": "sunmesse-purchase-system-2026-2",
+    "publisher": "サンメッセ",
+    "type": "primary",
+    "url": "https://www.sunmesse.co.jp/news/file/20260909152149.pdf",
+    "title": "購買発注システム『WEB発注システム』におけるサイバー攻撃被害の発生について（第二報／再開のお知らせ）"
+  },
+  {
+    "id": "ando-hazama-business-cards-2026-1",
+    "publisher": "安藤ハザマ",
+    "type": "primary",
+    "url": "https://www.ad-hzm.co.jp/info/2026/20260831_03.php",
+    "title": "個人情報（名刺情報）の外部流出に係るお詫びとご報告 | 新着情報｜Be a ChangeBuilder.　安藤ハザマ"
+  },
+  {
+    "id": "ando-hazama-business-cards-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56269.html",
+    "title": "警察官を名乗る者から「捜査に必要と求められ」～ 安藤ハザマの名刺情報 5,000件が流出"
+  },
+  {
+    "id": "osaka-high-court-teams-2026-1",
+    "publisher": "大阪高等裁判所",
+    "type": "primary",
+    "url": "https://www.courts.go.jp/osaka-h/about/osirase/owabi/index.html",
+    "title": "大阪高等裁判所における特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて（お詫び） | 大阪高等裁判所"
+  },
+  {
+    "id": "osaka-high-court-teams-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56245.html",
+    "title": "大阪高等裁判所で特定の事件に係る Microsoft Teams のチーム作成誤り、招待メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に"
+  },
+  {
+    "id": "zurich-zdash-2026-1",
+    "publisher": "チューリッヒ保険",
+    "type": "primary",
+    "url": "https://www.zurich.co.jp/aboutus/news/news/2026/0827/",
+    "title": "当社システムに対する不正アクセスおよび個人情報漏えいの可能性について"
+  },
+  {
+    "id": "zurich-zdash-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/01/56094.html",
+    "title": "チューリッヒ保険に不正アクセス、ドライブレコーダーのデータをアップロードした最大1,668名の顧客の個人情報が漏えいした可能性"
+  },
+  {
+    "id": "ne-chemcat-2026-1",
+    "publisher": "エヌ・イー ケムキャット",
+    "type": "primary",
+    "url": "https://www.ne-chemcat.co.jp/new_info/info/2026/0820158.html",
+    "title": "当社社内システムへの不正アクセスに関するお知らせとお詫び | 新着情報 | エヌ・イー ケムキャット"
+  },
+  {
+    "id": "ne-chemcat-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56172.html",
+    "title": "エヌ・イー ケムキャットの社内システムに不正アクセス、端末でマルウェアが実行されたことが原因"
+  },
+  {
+    "id": "nihon-data-processing-2026-1",
+    "publisher": "日本ビジネスデータープロセシングセンター",
+    "type": "primary",
+    "url": "https://ssl.nihon-data.jp/new/news-13905/",
+    "title": "不正アクセスに関するお知らせ | 日本データー｜株式会社日本ビジネスデータープロセシングセンター"
+  },
+  {
+    "id": "nihon-data-processing-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56207.html",
+    "title": "日本ビジネスデータープロセシングセンターに不正アクセス"
+  },
+  {
+    "id": "daiko-next-link-email-2026-1",
+    "publisher": "DAIKO NEXT LINK",
+    "type": "primary",
+    "url": "https://www.daiko-xtech.co.jp/group/dnl/news/p/852",
+    "title": "弊社メールシステムへの不正アクセスに関するご報告とお詫び | お知らせ | DAIKO NEXT LINK株式会社"
+  },
+  {
+    "id": "daiko-next-link-email-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56170.html",
+    "title": "DAIKO NEXT LINK のメールアカウントに不正アクセス、二次被害と不正送信の拡大防止のためメールシステムを一時的に停止"
+  },
+  {
+    "id": "unko-museum-site-2026-1",
+    "publisher": "うんこミュージアム",
+    "type": "primary",
+    "url": "https://unkomuseum.com/news/5244/",
+    "title": "【お知らせとお詫び】当サイトへの不正アクセスによる個人情報漏えいのおそれについて ｜うんこミュージアム【公式】"
+  },
+  {
+    "id": "unko-museum-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/02/56107.html",
+    "title": "「うんこミュージアム公式サイト」に不正アクセス、サイトの一部が改ざんされる被害"
+  },
+  {
+    "id": "meruhaikun-2026-1",
+    "publisher": "ディライトフル",
+    "type": "primary",
+    "url": "https://www.meruhaikun.com/blog/?page_id=3227",
+    "title": "不正アクセスに関する調査結果および関係機関への報告について - メール配信システムめる配くんBlog"
+  },
+  {
+    "id": "meruhaikun-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/04/56129.html",
+    "title": "メール配信システム「める配くん」の一部サーバに不正アクセス、配信先情報の一部が外部に取得されていた事実を確認"
+  },
+  {
+    "id": "yonex-online-login-2026-1",
+    "publisher": "ヨネックス",
+    "type": "primary",
+    "url": "https://www.yonex.co.jp/news/2026/4022.html",
+    "title": "弊社オンラインショップへの不正ログインの発生とパスワード変更のお願いについて | ヨネックス(YONEX)"
+  },
+  {
+    "id": "yonex-online-login-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/01/56091.html",
+    "title": "「ヨネックス公式オンラインショップ」にリスト型攻撃、3 件の不正ログイン確認"
+  },
+  {
+    "id": "isabou-net-2026-1",
+    "publisher": "五大開発",
+    "type": "primary",
+    "url": "https://isabou.net/oshirase/index_20260810.asp",
+    "title": "不正アクセス発生に関するお詫びとパスワード変更のお願い | いさぼうネット　お知らせ"
+  },
+  {
+    "id": "isabou-net-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/01/56089.html",
+    "title": "いさぼうネットに不正アクセス、個人情報が外部から閲覧 取得された可能性"
+  },
+  {
+    "id": "nissan-foundation-site-2026-1",
+    "publisher": "日産財団",
+    "type": "primary",
+    "url": "https://www.nissan-zaidan.or.jp/wp-content/uploads/2026/08/20260810owabi.pdf",
+    "title": "サイト改ざんでフォーム情報が閲覧され得る状態に"
+  },
+  {
+    "id": "nissan-foundation-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/01/56090.html",
+    "title": "公益財団法人日産財団Webサイトに不正アクセス、情報が外部から閲覧され得る状態にあったことが判明"
+  },
+  {
+    "id": "hololive-cardgame-site-2026-1",
+    "publisher": "hololive OFFICIAL CARD GAME",
+    "type": "primary",
+    "url": "https://hololive-official-cardgame.com/news_detail/news_260825/",
+    "title": "「hololive OFFICIAL CARD GAME」公式サイトヘの不正アクセスのおそれに関するお知らせ | hololive OFFICIAL CARD GAME｜ホロライブプロダクション"
+  },
+  {
+    "id": "hololive-cardgame-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56208.html",
+    "title": "「hololive OFFICIAL CARD GAME」公式サイトに不正アクセス、CMSで脆弱性が公表されたことを受け調査し発覚"
+  },
+  {
+    "id": "okawa-hidden-excel-2026-1",
+    "publisher": "大川市",
+    "type": "primary",
+    "url": "https://www.city.okawa.lg.jp/s026/020/20260818163728.html",
+    "title": "大川市ホームページ個人情報漏えいのおそれがある事案について - 大川市"
+  },
+  {
+    "id": "okawa-hidden-excel-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56188.html",
+    "title": "非表示のシートが含まれていることに気づかないまま掲載 ～ 大川市ホームページで公開した名簿データ"
+  },
+  {
+    "id": "toho-communications-hosting-2026-1",
+    "publisher": "東邦通信システムズ",
+    "type": "primary",
+    "url": "https://www.new-tts.co.jp/news",
+    "title": "株式会社東邦通信システムズ - お知らせ"
+  },
+  {
+    "id": "toho-communications-hosting-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56173.html",
+    "title": "東邦通信システムズが利用する外部ホスティングサーバに不正アクセス、一部メールアカウントで設定情報の書き換え"
+  },
+  {
+    "id": "nagano-whatsapp-2026-1",
+    "publisher": "長野県多文化共生相談センター",
+    "type": "primary",
+    "url": "https://www.pref.nagano.lg.jp/seibun/20260820press.html",
+    "title": "長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について（県民文化部県民政策課）／長野県"
+  },
+  {
+    "id": "nagano-whatsapp-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56205.html",
+    "title": "詐欺被害も発生 ～ 長野県多文化共生相談センターの WhatsApp のアカウントが不正利用"
+  },
+  {
+    "id": "kuins-2026-2",
+    "publisher": "関西国際大学",
+    "type": "primary",
+    "url": "https://www.kuins.ac.jp/news/2026/10/post_1450.html",
+    "title": "不正アクセスによる情報の外部流出と情報システムの停止について（第二報）"
+  },
+  {
+    "id": "elitz-cloud-file-2026-1",
+    "publisher": "エリッツ",
+    "type": "primary",
+    "url": "https://www.elitz.co.jp/information/information.pdf",
+    "title": "クラウドのアクセス制限不備、入居申込者の個人情報に流出のおそれ（公式発表）"
+  },
+  {
+    "id": "elitz-cloud-file-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56185.html",
+    "title": "クラウド環境の不正アクセス制限に脆弱性、入居申込者情報が流出した可能性"
+  },
+  {
+    "id": "sankei-respection-form-2026-1",
+    "publisher": "産経新聞社・RESPECTion!推進委員会",
+    "type": "primary",
+    "url": "https://www.sankei.jp/wp-content/uploads/2026/09/%E3%80%90RESPECTion%E3%80%91%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E9%96%B2%E8%A6%A7%E5%8F%AF%E8%83%BD%E7%8A%B6%E6%85%8B%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%94%E5%A0%B1%E5%91%8A.pdf",
+    "title": "申込フォームの設定不備で149人の氏名・メールアドレス等が閲覧可能に（公式発表）"
+  },
+  {
+    "id": "isit-quotation-email-2026-1",
+    "publisher": "九州先端科学技術研究所",
+    "type": "primary",
+    "url": "https://www.isit.or.jp/news/isit/21872/",
+    "title": "メールの誤送信について | 公益財団法人 九州先端科学技術研究所(ISIT)"
+  },
+  {
+    "id": "shizugin-tm-accounts-2026-1",
+    "publisher": "静銀ティーエム証券",
+    "type": "primary",
+    "url": "https://www.shizugintm.co.jp/topics/01u79ob5df140to9t.html",
+    "title": "トピックス | 静銀ティーエム証券"
+  },
+  {
+    "id": "shizugin-tm-accounts-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56273.html",
+    "title": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券"
+  },
+  {
+    "id": "nskre-cloud-2026-1",
+    "publisher": "日鉄興和不動産",
+    "type": "primary",
+    "url": "https://www.nskre.co.jp/company/news/2026/20260826.html",
+    "title": "当社が利用するクラウドサービスへの不正アクセスに関するお知らせ | 日鉄興和不動産 コーポレートサイト"
+  },
+  {
+    "id": "nskre-cloud-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56246.html",
+    "title": "日鉄興和不動産が利用するクラウドサービスに不正アクセス、マンション販売業務等に関する顧客情報を保存"
+  },
+  {
+    "id": "jbfa-sites-2026-1",
+    "publisher": "日本ブラインドサッカー協会",
+    "type": "primary",
+    "url": "https://www.b-soccer.jp/news/34285-0820",
+    "title": "当協会ウェブサイトの改ざんと復旧に関するお知らせ | 日本ブラインドサッカー協会｜Blind soccer"
+  },
+  {
+    "id": "jbfa-sites-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56204.html",
+    "title": "通常とは異なるセキュリティ認証を求める画面が表示される事象を確認 ～ 日本ブラインドサッカー協会ウェブサイトが改ざん被害"
+  },
+  {
+    "id": "geniee-cloud-resource-2026-1",
+    "publisher": "ジーニー",
+    "type": "primary",
+    "url": "https://geniee.co.jp/wp/wp-content/uploads/2026/08/fuseiakusesu.pdf",
+    "title": "クラウド計算資源を第三者が不正利用、関連損失を計上（公式発表）"
+  },
+  {
+    "id": "geniee-cloud-resource-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/02/56106.html",
+    "title": "不正アクセス関連損失として 1 億 8,100 万円を「その他の費用」に計上"
+  },
+  {
+    "id": "osaka-tax-system-insider-2026-1",
+    "publisher": "大阪市・あべの市税事務所",
+    "type": "primary",
+    "url": "https://www.city.osaka.lg.jp/hodoshiryo/somu/0000684161.html",
+    "title": "大阪市：報道発表資料　職員の懲戒処分について"
+  },
+  {
+    "id": "osaka-tax-system-insider-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56221.html",
+    "title": "税務事務システムへの入力権限を悪用し不正に還付金 ～ 市税事務所職員 懲戒免職"
+  },
+  {
+    "id": "sakata-japan-server-2026-1",
+    "publisher": "サカタのタネ",
+    "type": "primary",
+    "url": "https://corporate.sakataseed.co.jp/news/2026/20260819.html",
+    "title": "当社および米国連結子会社への不正アクセス に関するご報告（最終報） | ニュース | サカタのタネ コーポレート ウェブサイト"
+  },
+  {
+    "id": "sakata-japan-server-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56155.html",
+    "title": "サカタのタネへの不正アクセス、調査結果を公表"
+  },
+  {
+    "id": "sakata-america-server-2026-1",
+    "publisher": "Sakata America Holding Company",
+    "type": "primary",
+    "url": "https://corporate.sakataseed.co.jp/news/2026/20260819.html",
+    "title": "当社および米国連結子会社への不正アクセス に関するご報告（最終報） | ニュース | サカタのタネ コーポレート ウェブサイト"
+  },
+  {
+    "id": "sakata-america-server-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56155.html",
+    "title": "サカタのタネへの不正アクセス、調査結果を公表"
+  },
+  {
+    "id": "kyoto-sanga-email-2026-1",
+    "publisher": "京都パープルサンガ",
+    "type": "primary",
+    "url": "https://www.sanga-fc.jp/news/detail/21401",
+    "title": "ファンクラブ会員情報誤送信による個人情報の漏えいについて"
+  },
+  {
+    "id": "fukujo-email-2026-1",
+    "publisher": "福岡女学院大学・短期大学部",
+    "type": "primary",
+    "url": "https://www.fukujo.ac.jp/university/news/archives/1708",
+    "title": "メール送信設定の誤りによるメールアドレス漏洩事故とお詫び"
+  },
+  {
+    "id": "fukujo-email-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190445",
+    "title": "オープンキャンパスの関連案内でメール誤送信 - 福岡女学院大"
+  },
+  {
+    "id": "okinawa-agriculture-email-2026-1",
+    "publisher": "沖縄県",
+    "type": "primary",
+    "url": "https://www.pref.okinawa.jp/shigoto/nogyo/1010390/1040983.html",
+    "title": "個人情報を含むファイルの誤送信による個人情報漏えい事案の発生について （お詫びとご報告）"
+  },
+  {
+    "id": "okinawa-agriculture-email-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/189735",
+    "title": "個人情報含むファイルを誤送信、前年同様と勘違い - 沖縄県"
+  },
+  {
+    "id": "nutex-health-2026-1",
+    "publisher": "Nutex Health / SEC",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026059602/nutx-20260831.htm",
+    "title": "Nutex Health Form 8-K（2026年8月31日）"
+  },
+  {
+    "id": "nutex-health-2026-2",
+    "publisher": "Nutex Health / SEC",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026061432/materiality_assessmentxupd.htm",
+    "title": "Nutex Health Provides Update Regarding Cybersecurity Event（2026年9月10日）"
+  },
+  {
+    "id": "incan-radiotherapy-2026-1",
+    "publisher": "La Hora",
+    "type": "reporting",
+    "url": "https://lahora.gt/nacionales/dguzman/2026/09/01/extraoficial-reportan-ataque-en-sistema-informatico-del-incan-que-afecta-a-pacientes-now/",
+    "title": "Incan confirma incidente de ciberseguridad que afecta a pacientes de Radioterapia"
+  },
+  {
+    "id": "incan-radiotherapy-2026-2",
+    "publisher": "Diario de Centro América",
+    "type": "reporting",
+    "url": "https://dca.gob.gt/noticias-guatemala-diario-centro-america/incan-restablecio-atencion-oncologica/",
+    "title": "Incán restableció atención oncológica"
   }
 ]
