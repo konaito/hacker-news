@@ -2798,5 +2798,33 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
     "title": "SecurityWeek｜既知脆弱性を悪用するLinuxバックドアClingSTUN"
+  },
+  {
+    "id": "idcf-cloud-2026-1",
+    "publisher": "IDCフロンティア",
+    "type": "primary",
+    "url": "https://www.idcf.jp/news/topics/20261007001",
+    "title": "当社サービスの一部システムに対する不正アクセスについて"
+  },
+  {
+    "id": "his-thailand-server-2026-1",
+    "publisher": "エイチ・アイ・エス",
+    "type": "primary",
+    "url": "https://www.his.co.jp/assets/20261007.pdf",
+    "title": "子会社ファイルサーバへの不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ"
+  },
+  {
+    "id": "osaka-environment-disclosure-mask-2026-1",
+    "publisher": "大阪府",
+    "type": "primary",
+    "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o120080/prs_50867.html",
+    "title": "個人情報の漏えいについて（環境管理室事業所指導課）"
+  },
+  {
+    "id": "rakuten-data-sale-claim-2026-3",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002083/",
+    "title": "1億件超えの「楽天会員」情報が闇フォーラムで販売？　楽天「漏えいは確認されていない」"
   }
 ]

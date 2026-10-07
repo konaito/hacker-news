@@ -3981,17 +3981,18 @@
     "display_label": "販売主張・未確認",
     "category": "IT・クラウド",
     "title": "約1億100万件の楽天会員データ販売との主張、真正性・漏洩元は未確認",
-    "summary": "セキュリティ対策Labは、10月4日に楽天会員データと称する販売投稿が犯罪フォーラムに出たと報じました。10月6日のASCIIの取材に楽天は、情報漏洩の事実やサンプルに該当するアカウントは確認されていないと回答しています。",
+    "summary": "セキュリティ対策Labは、10月4日に楽天会員データと称する販売投稿が犯罪フォーラムに出たと報じました。10月6日のASCIIと10月7日のITmediaの取材に楽天は、情報漏洩の事実やサンプルに該当するアカウントは確認されていないと回答しています。",
     "note": "約1億100万件は販売者の主張で、実在データの件数や被害人数ではありません。投稿・報道の存在と侵害の確認を区別し、真正性・漏洩元が未確認のためpendingで追跡します。楽天ドライブ事案との関連も未確認です。",
     "affected": [],
     "sources": [
       "rakuten-data-sale-claim-2026-1",
-      "rakuten-data-sale-claim-2026-2"
+      "rakuten-data-sale-claim-2026-2",
+      "rakuten-data-sale-claim-2026-3"
     ],
     "publication_status": "pending",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "セキュリティ対策LabとASCII日本語記事の本文を通常HTTPSで確認。Web取得失敗は裏付けとせず、確認できた報道も侵害や販売データの真正性を裏付けていないため非公開・集計対象外を維持。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "既存のセキュリティ対策Lab・ASCIIと、新たな10月7日のITmedia記事の全本文を通常HTTPSで確認。会社回答の続報を追加したが、販売データの真正性や漏洩元、侵害の事実を独立して裏付ける記事ではないため非公開・集計対象外を維持。主張件数はaffectedへ入れない。"
   },
   {
     "id": "temairazu-2026",
@@ -6790,5 +6791,85 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "FortiGuard Labsの10月5日一次分析全文とSecurityWeekの本文を確認。一次分析のIncidents節に記載された脆弱性悪用と配布活動を掲載根拠とし、コードの能力分析と実際の被害規模を区別。既存レコードに同じキャンペーンはなく、被害組織名や台数が不明でも公開可能な観測事実に限定して掲載。"
+  },
+  {
+    "id": "idcf-cloud-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": "2026-10-07",
+    "company": "IDCフロンティア",
+    "service": "IDCFクラウド（東日本第1リージョン）",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "IT・クラウド",
+    "title": "クラウドへの不正アクセスで東日本第1リージョンの一部サービスに障害",
+    "summary": "IDCフロンティアは10月7日、同日午前3時40分頃から第三者の不正アクセスにより、IDCFクラウドの一部サービスに障害が発生したと公表しました。影響範囲は東日本第1リージョンで、対象顧客へ個別に連絡しています。",
+    "note": "障害解消に向けて調査し、障害のない他の領域も安全性を確認しています。情報漏洩、ランサムウェア、対象顧客数は公表されていません。同時刻の他組織のサイト停止は、この事件との関係が明示されない限り統合しません。",
+    "affected": [],
+    "sources": [
+      "idcf-cloud-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式発表の全本文を通常HTTPSで確認。Webツールでの取得失敗を検証とせず、取得した本文で発生時刻・地域・原因を突合。漏洩や攻撃手法を推定していません。"
+  },
+  {
+    "id": "his-thailand-server-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": null,
+    "company": "エイチ・アイ・エス（タイ法人 H.I.S. TOURS CO., LTD.）",
+    "service": "タイ法人のファイルサーバ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "旅行・交通",
+    "title": "タイ法人のサーバ侵害で最大627人のパスポート情報などに流出の可能性",
+    "summary": "エイチ・アイ・エスは10月7日、タイ法人のネットワークへの不正アクセスを受け、ファイルサーバの一部データが不正に引き出された可能性を公表しました。最大627人のパスポート情報とアレルギー情報が対象で、連絡先が判明した顧客へ順次通知しています。",
+    "note": "2025年12月11日に検知し隔離、同月29日に日本で取得した個人情報の存在を確認して関係当局へ報告。2026年2月24日に最大627人のパスポート情報を確認しました。侵入開始日は非公表で、検知日を発生日に置き換えません。対象は2017年、2019～2020年、2024～2025年のタイ渡航利用者。電話番号・住所・メールアドレス・カード情報は含まれません。",
+    "affected": [
+      {
+        "count": 627,
+        "unit": "people",
+        "description": "流出した可能性のあるパスポート情報の最大対象人数。確定流出人数ではない。",
+        "source_id": "his-thailand-server-2026-1"
+      }
+    ],
+    "sources": [
+      "his-thailand-server-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "公式PDF全2ページを確認。検知・調査・公表日を区別し、最大対象人数と流出確定人数を区別。2025年の侵害について10月7日の新たな公表を対象に記録。"
+  },
+  {
+    "id": "osaka-environment-disclosure-mask-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": "2026-06-08",
+    "company": "大阪府・環境管理室事業所指導課",
+    "service": "情報公開請求の部分公開ファイル",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "行政・公共",
+    "title": "電子開示ファイルの黒塗り漏れで2人の名字を誤って開示",
+    "summary": "大阪府は10月5日、情報公開請求に対して開示した文書で、2人の名字が黒塗りされないまま開示されていたと公表しました。部分公開ファイルを大容量ファイル送受信システムへ6月8日にアップロードし、請求者が6月9日にダウンロードしています。",
+    "note": "8月6日に黒塗り漏れを発見し、対象者に説明・謝罪。8月10日に請求者へファイル削除と訂正後の情報送信を説明しました。一般向けのインターネット公開や侵入ではなく、電子文書の不適切な開示です。同日公表の歯科技工所Excel事案とは別の事件として記録。",
+    "affected": [
+      {
+        "count": 2,
+        "unit": "people",
+        "description": "部分公開文書で名字が誤って開示された人。",
+        "source_id": "osaka-environment-disclosure-mask-2026-1"
+      }
+    ],
+    "sources": [
+      "osaka-environment-disclosure-mask-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "大阪府の公式本文を確認し、対象2人、電子送信とダウンロードの経緯、発生日と公表日を突合。"
   }
 ]
