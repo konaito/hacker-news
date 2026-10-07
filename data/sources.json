@@ -2189,5 +2189,33 @@
     "type": "primary",
     "url": "https://www.qdk.co.jp/information/most%E7%A4%BE%EF%BC%88%E5%BC%8A%E7%A4%BE%E5%8F%B0%E6%B9%BE%E5%AD%90%E4%BC%9A%E7%A4%BE%EF%BC%89%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A4%E3%83%B3/",
     "title": "MOST社（弊社台湾子会社）の情報セキュリティインシデントに関するご報告（最終報）"
+  },
+  {
+    "id": "asahi-kasei-pharma-digital-2026-1",
+    "publisher": "旭化成セラピューティクス",
+    "type": "primary",
+    "url": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html",
+    "title": "医療従事者向け情報提供ウェブサイト「Pharma DIGITAL」への不正アクセスおよび個人情報漏えいの可能性について"
+  },
+  {
+    "id": "cinra-job-2026-3",
+    "publisher": "CINRA",
+    "type": "primary",
+    "url": "https://www.cinra.co.jp/news/20261006",
+    "title": "求人サービス「CINRA JOB」への不正アクセスによる個人情報漏えいのおそれに関する調査結果のご報告（最終報告）"
+  },
+  {
+    "id": "saltydog-google-ads-2026-1",
+    "publisher": "ソルティドッグ",
+    "type": "primary",
+    "url": "https://saltydog.jp/post-389/",
+    "title": "Google広告アカウントへの不正アクセスに関するお詫びと今後の対応について"
+  },
+  {
+    "id": "nichii-kaigo-backup-2026-1",
+    "publisher": "ニチイ学館",
+    "type": "primary",
+    "url": "https://www.nichiigakkan.co.jp/topics/assets/2ba7ca6c5a8a249293493f6eb40ad90b9be2ce78.pdf",
+    "title": "当社介護サイトにおける個人情報漏えいのおそれに関するお詫びとお知らせ"
   }
 ]
