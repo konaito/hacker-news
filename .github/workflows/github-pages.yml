@@ -32,6 +32,7 @@ jobs:
           python3 scripts/check-seo-pwa.py
           python3 scripts/test-updates.py
           python3 scripts/test-audit-report.py
+          python3 scripts/test-audit-recovery.py
           node --check public/app.js
           node --check public/pwa.js
           node --check public/sw.js
