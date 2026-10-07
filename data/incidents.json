@@ -1,5 +1,29 @@
 [
   {
+    "id": "fortimail-exploitation-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": null,
+    "company": "FortiMailの利用組織（組織名非公表）",
+    "service": "メールセキュリティ製品FortiMail",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "FortiMailのゼロデイ悪用を公表、侵害の痕跡と修正版を案内",
+    "summary": "Fortinetは10月1日、FortiMailのCVE-2026-104286が実際の攻撃で悪用されたと公表しました。未認証の任意ファイル書き込みにつながる脆弱性で、侵害を調べるためのログ等も公開。10月5日に修正版の提供を案内しました。",
+    "note": "一次発表が確認した実悪用を一つの攻撃活動として記録します。被害組織名・侵害台数・侵入開始日は非公表です。ログ例に外部のアーカイブ先設定が含まれますが、メール情報の実際の窃取やその範囲を確定したものとは扱いません。修正版の公開は同じ活動の続報で、別事件にしません。",
+    "affected": [],
+    "sources": [
+      "fortimail-exploitation-2026-1",
+      "fortimail-exploitation-2026-2",
+      "fortimail-exploitation-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "持ち越し候補の一次アドバイザリをWebツールでは取得できなかったため、通常HTTPSで全文を取得し、実悪用の明記、Known Exploited欄、侵害ログ例、初版・更新日、修正版の表を確認。BleepingComputerとSecurity NEXTの本文も突合。個別被害の名称や件数を補わず、公表された実悪用活動に範囲を限定して掲載。"
+  },
+  {
     "id": "sakura-2026",
     "published_at": "2026-09-10",
     "occurred_at": null,

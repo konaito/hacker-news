@@ -1,5 +1,26 @@
 [
   {
+    "id": "fortimail-exploitation-2026-1",
+    "publisher": "Fortinet PSIRT",
+    "type": "primary",
+    "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+    "title": "Fortinet PSIRT｜FortiMailの実悪用とCVE-2026-104286への対策（FG-IR-26-175）"
+  },
+  {
+    "id": "fortimail-exploitation-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks"
+  },
+  {
+    "id": "fortimail-exploitation-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191061",
+    "title": "「FortiMail」のアップデートが提供開始 - ゼロデイ脆弱性を修正"
+  },
+  {
     "id": "sakura-1",
     "title": "さくらインターネット｜第三報",
     "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
