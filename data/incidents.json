@@ -813,20 +813,21 @@
     "status": "confirmed_access",
     "display_label": "検証待ち",
     "category": "IT・クラウド",
-    "title": "内部サーバーのランサムウェア侵害報道を追加検証",
-    "summary": "HeiseはFTAPIへの独自取材に基づき、9月14日に内部サーバー1台への不正アクセスとランサムウェア被害を検知したと報じています。",
-    "note": "同社は顧客向けプラットフォーム・顧客システム・交換データへの影響と業務停止を否定。確認できた企業回答はHeiseへの取材1件で、独立した裏付けが不足するため非公開のpendingを維持します。",
+    "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
+    "summary": "HeiseはFTAPIへの独自取材に基づき、9月14日に内部サーバー1台のランサムウェア被害を検知したと報じています。取引先enthusは10月2日の説明で、FTAPIの顧客向け通知に基づき内部ファイルサーバーからのデータ流出と過去の取引文書への影響を伝えました。",
+    "note": "enthusは主に2018〜2020年の請求書・見積書・注文書に顧客マスター、連絡先、契約情報が含まれたと説明していますが、復旧・解析は継続中。暗号化メールアーカイブも対象で、鍵の侵害を示す情報はないとする一方、メタデータへの影響は未確認。顧客向けプラットフォームへの侵害と停止は否定されています。被害企業の通知本文を直接確保できず、enthusはHeiseやBornsも参照するため独立した第二の取材報道とは数えず非公開を維持します。",
     "publication_status": "pending",
-    "verification_note": "従来取得できなかったHeiseの全文を取得し、企業への直接取材の内容を確認。Bornsの匿名情報・コメント転載は一次発表ではなく、他の引用報道も独立確認に数えずpendingを維持。",
+    "verification_note": "Heise・Bornsの本文を再読し、enthusの10月2日付説明全文と照合。取引先が引用した被害企業の通知は一次本文の確認には代えず、公開条件が未成立のためpendingを維持。",
     "occurred_at": null,
     "service": "社内のローカルサーバー",
     "affected": [],
     "sources": [
       "ftapi-2026-3",
-      "ftapi-2026-1"
+      "ftapi-2026-1",
+      "ftapi-2026-4"
     ],
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06"
+    "last_verified_at": "2026-10-07"
   },
   {
     "id": "vl-prosperity-2026",
@@ -6871,5 +6872,285 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "大阪府の公式本文を確認し、対象2人、電子送信とダウンロードの経緯、発生日と公表日を突合。"
+  },
+  {
+    "id": "hokkaido-information-university-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": null,
+    "company": "北海道情報大学",
+    "service": "通信教育部ホームページ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正閲覧確認",
+    "category": "教育・研究",
+    "title": "通信教育部サイトの改ざんとフォーム入力情報の不正閲覧を確認",
+    "summary": "ホームページの一部が改ざんされ、資料請求・説明会申込み・問い合わせフォームから入力された個人情報への不正アクセスと閲覧を確認しました。データとしてダウンロードされた形跡は確認されていません。",
+    "note": "7月25日に代表メールアドレスを送信元とする約20宛先への不正メールを確認したことが発覚の端緒。20はメール宛先数であり、個人情報の影響人数とはしません。侵入開始日は不明。出願・入学手続きの情報は対象外と説明。",
+    "affected": [],
+    "sources": [
+      "hokkaido-information-university-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "kyorin-support-scam-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "杏林大学",
+    "service": "教員の自宅業務用PC",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "遠隔アクセス確認",
+    "category": "教育・研究",
+    "title": "サポート詐欺による遠隔アクセス、調査で個人情報の流出を否定",
+    "summary": "6月下旬に教員が詐欺サイトを開き、PCへの外部リモートアクセスを許しました。9月25日の調査結果では、マルウェア感染や学外へのデータ持ち出し・ファイル転送の可能性はなく、個人情報の流出はなかったと説明しています。",
+    "note": "PCに保存されていた2,610人分は漏洩人数ではありません。遠隔アクセス中に開いていた3ファイルは閲覧された可能性を否定できませんが、個人情報は含まれていなかったと説明。6月下旬の正確な侵害日は不明。",
+    "affected": [],
+    "sources": [
+      "kyorin-support-scam-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "mie-university-student-email-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": "2026-08-06",
+    "company": "三重大学",
+    "service": "教務システムからのアンケート依頼メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "教育・研究",
+    "title": "学生11人の学籍番号を記した教員向けメールを学生へ誤送信",
+    "summary": "修学上の配慮を要する学生11人の授業担当教員へ送るアンケート依頼を、設定ミスで学生約1,400人へ送信しました。件名の学籍番号から配慮の必要性を推知できる状態になりました。",
+    "note": "修学上の具体的内容などの要配慮個人情報そのものは含まれていません。11人は漏洩対象、約1,400人は受信者で、合算しません。公式公表は8月7日、対象期間内の報道は9月8日。",
+    "affected": [
+      {
+        "count": 11,
+        "unit": "people",
+        "description": "件名に学籍番号が記載され、修学上の配慮の必要性を推知されることになった学生",
+        "source_id": "mie-university-student-email-2026-1"
+      }
+    ],
+    "sources": [
+      "mie-university-student-email-2026-1",
+      "mie-university-student-email-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "sapporo-toyohira-map-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": "2025-11-18",
+    "company": "札幌市豊平区",
+    "service": "冬期間の通行禁止のお知らせページ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "誤掲載確認",
+    "category": "行政・公共",
+    "title": "庁内用住宅地図を誤掲載、個人宅の氏名・名字が延べ259件公開",
+    "summary": "冬期間の通行禁止を案内する位置図を更新する際、庁内使用に限定された住宅地図を誤って使用し、4地区の個人宅の氏名・名字が公開されました。2026年5月28日に発覚し、公開を停止しました。",
+    "note": "対象は2016年版住宅地図に記載された延べ259件で、重複を除いた人数ではありません。公開期間は2025年11月18日〜2026年5月28日。公式ページの更新日は8月7日、対象期間内の報道日は9月3日。",
+    "affected": [
+      {
+        "count": 259,
+        "unit": "records",
+        "description": "住宅地図に含まれた個人宅の氏名・名字の延べ件数。人数には換算しない。",
+        "source_id": "sapporo-toyohira-map-2026-1"
+      }
+    ],
+    "sources": [
+      "sapporo-toyohira-map-2026-1",
+      "sapporo-toyohira-map-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "topia-audio-access-2026",
+    "published_at": "2026-09-24",
+    "occurred_at": "2026-08-17",
+    "company": "アンビリアル",
+    "service": "topiaの配信音声サーバ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "音声への侵入確認",
+    "category": "IT・クラウド",
+    "title": "音声サーバへの不正アクセスで配信中の音声に侵入",
+    "summary": "プライベート配信で音声サーバへの不正アクセスを確認しました。公式の対応報告は8月17日〜24日の調査対象期間について配信音声への侵入を説明し、登録メールアドレスや口座情報等へのアクセス・流出は発生していないとしています。",
+    "note": "音声サーバへの侵入と個人情報の窃取は区別します。公式投稿では対策・アップデート完了と、制限したプライベート配信機能の再開予定を説明。影響利用者数は不明。8月31日の公表を9月24日の報道で確認。",
+    "affected": [],
+    "sources": [
+      "topia-audio-access-2026-1",
+      "topia-audio-access-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "machicon-japan-display-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": "2026-08-04",
+    "company": "リンクバル",
+    "service": "machicon JAPAN",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報の誤表示確認",
+    "category": "EC・サービス",
+    "title": "改修不備で約50人の情報を別利用者に表示、決済・退会操作も発生",
+    "summary": "システム改修の不備により同時処理する利用者の情報やログイン情報を取り違え、別利用者の氏名等を表示しました。他利用者の決済手段による決済や、意図しない退会も確認しています。",
+    "note": "外部からの攻撃・不正アクセスによるものではないと説明。影響期間は8月4日15時25分頃〜8月8日21時頃。対象項目は氏名・電話番号・メールアドレス・年齢・利用履歴・メッセージ履歴で、カード情報は自社保管していません。公式公表は8月14日、対象期間内の報道は9月4日。",
+    "affected": [
+      {
+        "count": 50,
+        "unit": "people",
+        "description": "会社が個人情報の漏洩対象として説明した利用者（約数）",
+        "source_id": "machicon-japan-display-2026-1"
+      }
+    ],
+    "sources": [
+      "machicon-japan-display-2026-1",
+      "machicon-japan-display-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "ploutus-atm-jackpotting-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "米国の金融機関（被害先の個別名称は非公表）",
+    "service": "ATM・Ploutusマルウェア",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "ATM侵害確認",
+    "category": "金融",
+    "title": "PloutusによるATM不正出金の広域捜査、開発者とされる被告が初出廷",
+    "summary": "米司法省は、ATMにマルウェアを導入して口座引落しを伴わずに現金を払い出させる広域の共謀について捜査を公表。10月2日にはPloutusの開発者・中心人物とされる被告が初出廷し、無罪を主張しました。",
+    "note": "事件の単位は司法省が説明するATMジャックポッティング共謀で、各報道の攻撃回数・損失額を合算しません。47州・DC等は標的または攻撃対象の範囲で、すべての場所で成功したと断定しません。120人の起訴は被害人数ではなく、開発者帰属は嫌疑です。正確な各侵害日は不明。",
+    "affected": [],
+    "sources": [
+      "ploutus-atm-jackpotting-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "採用した全出典の本文を確認し、既存事件との重複、確認状況、日付と数量の単位を突合。"
+  },
+  {
+    "id": "hcuch-imaging-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "チリ大学附属病院（HCUCH）",
+    "service": "画像診断部門のRIS PACS",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "検証待ち",
+    "category": "医療",
+    "title": "画像診断システム侵害と患者情報公開の報道を検証中",
+    "summary": "T13は、チリ大学附属病院の告訴内容として、画像診断システムへの侵入と患者情報のネット公開を報じました。病院・当局の一次本文または独立した別媒体の本文による確認を継続します。",
+    "note": "単独報道のため非公開。9月20日は当局からの通知日として報じられたもので、侵入発生日ではありません。掲示板名の120GBを被害数量として採用せず、影響人数は不明。",
+    "affected": [],
+    "sources": [
+      "hcuch-imaging-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "報道本文を確認したが、一次発表または独立した信頼できる別媒体の本文を確保できず、非公開で追加検証を継続。"
+  },
+  {
+    "id": "kenya-brs-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": null,
+    "company": "ケニアBusiness Registration Service（BRS）",
+    "service": "企業登記情報",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "検証待ち",
+    "category": "行政・公共",
+    "title": "登記情報の外部アクセス疑惑と調査報道を検証中",
+    "summary": "ITWeb Africaは、外部企業B2BHintによるケニアの企業登記情報へのアクセスを巡り、政府が複数機関による調査を進めていると報じました。BRSの一次発表または独立した別媒体による確認を待っています。",
+    "note": "単独報道のため非公開。約200万社は漏洩人数・確認件数として採用しません。同じ媒体の2025年2月4日の記事にもB2BHintと同じBRS責任者の説明があり、9月7日の記事が新たな侵害・続報を示すかは未確認。発生日を2026年と推測せず、一次発表と報道の新規性を追加照合します。",
+    "affected": [],
+    "sources": [
+      "kenya-brs-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "報道本文を確認したが、一次発表または独立した信頼できる別媒体の本文を確保できず、非公開で追加検証を継続。"
+  },
+  {
+    "id": "novocure-patient-access-2026",
+    "published_at": "2026-09-01",
+    "occurred_at": null,
+    "company": "NovoCure",
+    "service": "子会社の情報システム",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "医療・ヘルスケア",
+    "title": "患者の内部IDと一部の識別情報への不正アクセスを公表",
+    "summary": "9月1日のSEC提出書類で、8月中旬に子会社の情報システムへの不正アクセスを認知したと公表しました。米国患者の1,400件超の内部ID、別の50人未満の患者の識別情報、医療従事者や従業員の連絡先が対象になりました。",
+    "note": "1,400件超の内部IDに氏名などの識別情報は含まれず、別の50人未満の患者群と区別します。従業員の人数・正確な侵入開始日は不明。医療機器へのアクセスはなく、業務・システムは通常稼働。攻撃者が主張する33GBや帰属は確認された影響として採用しません。",
+    "affected": [],
+    "sources": [
+      "novocure-patient-access-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次資料の本文で不正アクセスの事実と影響範囲を確認。年月だけの発生日はnullとし、報告日と区別。攻撃者の主張件数は採用しない。"
+  },
+  {
+    "id": "hopital-prive-loire-2026",
+    "published_at": "2026-09-03",
+    "occurred_at": null,
+    "company": "Hôpital privé de la Loire",
+    "service": "電子患者記録システム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報窃取確認",
+    "category": "医療・ヘルスケア",
+    "title": "患者52万4,867人と連絡先関係者の情報窃取、仏当局が制裁を公表",
+    "summary": "フランスの個人情報保護当局CNILは、2025年夏に病院の電子患者記録が侵害された事案について9月3日に制裁を公表しました。患者52万4,867人と、患者が信頼できる連絡先として指定した20万2,246人の情報が対象でした。",
+    "note": "患者と指定連絡先の区分を保持し、重複のない総人数とは断定しません。一部患者は健康情報も対象。当局は、1アカウントから全患者の情報へアクセス可能で、数日間に大量データが取得されたと認定。発生は2025年夏で正確な日は不明。50万ユーロの制裁公表を新たな攻撃発生とは扱いません。",
+    "affected": [
+      {
+        "count": 524867,
+        "unit": "people",
+        "description": "情報窃取の対象となった患者。指定連絡先との重複除外は未確認。",
+        "source_id": "hopital-prive-loire-2026-1"
+      },
+      {
+        "count": 202246,
+        "unit": "people",
+        "description": "患者が指定した信頼できる連絡先の関係者。患者数と合算しない。",
+        "source_id": "hopital-prive-loire-2026-1"
+      }
+    ],
+    "sources": [
+      "hopital-prive-loire-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次資料の本文で不正アクセスの事実と影響範囲を確認。年月だけの発生日はnullとし、報告日と区別。攻撃者の主張件数は採用しない。"
   }
 ]

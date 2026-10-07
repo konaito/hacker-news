@@ -2826,5 +2826,117 @@
     "type": "reporting",
     "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002083/",
     "title": "1億件超えの「楽天会員」情報が闇フォーラムで販売？　楽天「漏えいは確認されていない」"
+  },
+  {
+    "id": "hokkaido-information-university-2026-1",
+    "publisher": "北海道情報大学",
+    "type": "primary",
+    "url": "https://tsushin.do-johodai.ac.jp/topics/2026/09/10420/",
+    "title": "本学通信教育部ホームページへの不正アクセスに関するお詫びとご報告"
+  },
+  {
+    "id": "kyorin-support-scam-2026-1",
+    "publisher": "杏林大学",
+    "type": "primary",
+    "url": "https://www.kyorin-u.ac.jp/univ/news/4593/",
+    "title": "「サポート詐欺による情報漏えいのおそれがある事案」の調査結果について"
+  },
+  {
+    "id": "mie-university-student-email-2026-1",
+    "publisher": "三重大学",
+    "type": "primary",
+    "url": "https://www.mie-u.ac.jp/news/topics/2026/08/post-4225.html",
+    "title": "保有個人情報の漏えいについて（お詫び）"
+  },
+  {
+    "id": "mie-university-student-email-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/189737",
+    "title": "教員向けのメールを学生約1400人に誤送信 - 三重大"
+  },
+  {
+    "id": "sapporo-toyohira-map-2026-1",
+    "publisher": "札幌市",
+    "type": "primary",
+    "url": "https://www.city.sapporo.jp/toyohira/public_works_center/r8-7oshirase.html",
+    "title": "個人情報漏えいに関するお詫び"
+  },
+  {
+    "id": "sapporo-toyohira-map-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/189803",
+    "title": "通行禁止の告知ページに個人情報含む住民地図を誤掲載 - 札幌市"
+  },
+  {
+    "id": "topia-audio-access-2026-1",
+    "publisher": "topia運営チーム（アンビリアル）",
+    "type": "primary",
+    "url": "https://x.com/topia_pr/status/2094319281408458896",
+    "title": "配信音声への不正アクセスに関する対応状況のご報告"
+  },
+  {
+    "id": "topia-audio-access-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56286.html",
+    "title": "バーチャル音楽ライブ配信アプリ「topia」の音声サーバに不正アクセス"
+  },
+  {
+    "id": "machicon-japan-display-2026-1",
+    "publisher": "リンクバル",
+    "type": "primary",
+    "url": "https://ssl4.eir-parts.net/doc/6046/tdnet/2874138/00.pdf",
+    "title": "システムの不具合による個人情報の表示に関するお詫びとお知らせ"
+  },
+  {
+    "id": "machicon-japan-display-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/04/56131.html",
+    "title": "イベントECサイト「machicon JAPAN」でシステム不具合による個人情報表示"
+  },
+  {
+    "id": "ploutus-atm-jackpotting-2026-1",
+    "publisher": "米国司法省",
+    "type": "primary",
+    "url": "https://www.justice.gov/opa/pr/apprehended-venezuelan-tren-de-aragua-leader-fbis-top-10-most-wanted-list-appears-nebraska",
+    "title": "Apprehended Venezuelan Tren de Aragua Leader on FBI’s Top 10 Most Wanted List Appears in Nebraska"
+  },
+  {
+    "id": "hcuch-imaging-2026-1",
+    "publisher": "T13",
+    "type": "reporting",
+    "url": "https://www.t13.cl/noticia/nacional/hospital-clinico-chile-querella-tras-ciberataque-filtracion-informacion-confidencial-30-9-2026",
+    "title": "Hospital Clínico de la U. de Chile se querella tras sufrir ciberataque y filtración de información médica confidencial"
+  },
+  {
+    "id": "kenya-brs-2026-1",
+    "publisher": "ITWeb Africa",
+    "type": "reporting",
+    "url": "https://itweb.africa/article/kenya-probes-business-registration-service-breach/8OKdWMDXLjPMbznQ",
+    "title": "Kenya probes Business Registration Service breach"
+  },
+  {
+    "id": "ftapi-2026-4",
+    "publisher": "enthus",
+    "type": "reporting",
+    "url": "https://enthus.de/blog/sicherheitsvorfall-bei-ftapi-was-bekannt-ist-und-was-sie-jetzt-tun-sollten",
+    "title": "Sicherheitsvorfall bei FTAPI: Stand und Empfehlungen"
+  },
+  {
+    "id": "novocure-patient-access-2026-1",
+    "publisher": "NovoCure",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/1645113/000164511326000065/nvcr-20260901.htm",
+    "title": "NovoCure｜September 1, 2026 Form 8-K"
+  },
+  {
+    "id": "hopital-prive-loire-2026-1",
+    "publisher": "CNIL",
+    "type": "primary",
+    "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
+    "title": "Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE"
   }
 ]
