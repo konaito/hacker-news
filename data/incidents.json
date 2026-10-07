@@ -4597,18 +4597,26 @@
     "status": "confirmed_leak",
     "display_label": "漏洩確認",
     "category": "行政・公共",
-    "title": "フィッシング侵入でバックアップをコピー、里親関連レポートにも影響",
-    "summary": "州裁判所への攻撃後、裁判所広報はバックアップ情報がコピーされたとKJZZに説明しました。対象には2010年以降の里親養育関連レポート15万件超が含まれます。",
-    "note": "レポート数を児童人数に換算しません。圧縮された情報を攻撃者が読めるかは不明で、実際の閲覧範囲は確定していません。",
-    "affected": [],
+    "title": "裁判所バックアップを不正コピー、債権回収対象約130万人に影響",
+    "summary": "州裁判所の公式FAQは、コピーされたバックアップに罰金・費用・賠償金回収制度（FARE）の対象約130万人の氏名、社会保障番号、事件番号などが含まれると説明しています。里親養育関連レポート15万件超も対象です。",
+    "note": "約130万人は過去30年のFARE対象者の概数で、里親関連レポート件数とは合算しません。裁判所は、圧縮されたデータが読める状態でアクセスされた、または共有された証拠はないと説明。裁判記録の削除・改変は確認されていません。",
+    "affected": [
+      {
+        "count": 1300000,
+        "unit": "people",
+        "description": "コピーされたバックアップに含まれるFARE債権回収制度の対象者概数。過去30年分で、他のデータ群とは合算しない。",
+        "source_id": "arizona-courts-2026-3"
+      }
+    ],
     "sources": [
       "arizona-courts-2026-1",
-      "arizona-courts-2026-2"
+      "arizona-courts-2026-2",
+      "arizona-courts-2026-3"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
-    "verification_note": "登録した全出典の本文を確認。一次発表を優先し、実際の流出と閲覧・流出の可能性を区別。"
+    "verification_note": "10月6日の続報を契機に、裁判所の公式FAQ・9月25日一次発表とKJZZ本文を再確認。バックアップの不正コピーと、圧縮情報の実際の閲覧・共有が未確認であることを区別。"
   },
   {
     "id": "moonstar-online-store-2026",
@@ -6711,5 +6719,28 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "独立した2媒体の本文で施設側の説明と復旧を確認。未確認の情報漏洩・攻撃手法・人数を断定しない。"
+  },
+  {
+    "id": "solar-russian-medical-network-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "ロシアの医療組織（名称非公表）",
+    "service": "医療組織の内部ネットワーク",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "侵害確認",
+    "category": "医療",
+    "title": "医療組織のネットワークに約2年間の侵入痕跡、バックドアを確認",
+    "summary": "調査を担当したSolar 4RAYSは10月2日、2025年12月に調査を開始した医療組織のネットワークで、2024年初頭まで遡る侵害痕跡と複数のバックドアを確認したと公表しました。WindowsサービスやVMware関連ファイルを装った永続化が使われていました。",
+    "note": "組織名・影響人数は非公表。調査対象は名称非公表の一つの医療組織で、信頼関係を持つ他組織への侵入まで確認したものではありません。破壊行為は観測されておらず、情報窃取の確定や被害人数は記録しません。Partisan Zmiyへの帰属は調査会社の分析です。",
+    "affected": [],
+    "sources": [
+      "solar-russian-medical-network-2026-1",
+      "solar-russian-medical-network-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "Solar 4RAYSの一次分析本文とThe Recordの10月5日報道本文を確認。同一の匿名医療組織における継続侵入として登録し、初期侵入の具体日・他組織への侵害・窃取人数は推定しません。"
   }
 ]

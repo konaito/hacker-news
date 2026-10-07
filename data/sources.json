@@ -2742,5 +2742,26 @@
     "type": "reporting",
     "url": "https://dca.gob.gt/noticias-guatemala-diario-centro-america/incan-restablecio-atencion-oncologica/",
     "title": "Incán restableció atención oncológica"
+  },
+  {
+    "id": "arizona-courts-2026-3",
+    "publisher": "Arizona Judicial Branch",
+    "type": "primary",
+    "url": "https://www.azcourts.gov/cybersecurityalert",
+    "title": "Cybersecurity Alert｜FARE・里親関連データへの影響とFAQ"
+  },
+  {
+    "id": "solar-russian-medical-network-2026-1",
+    "publisher": "Solar 4RAYS",
+    "type": "primary",
+    "url": "https://rt-solar.ru/solar-4rays/blog/7027/",
+    "title": "Partisan Zmiy: снова на радаре｜医療組織の継続侵入調査"
+  },
+  {
+    "id": "solar-russian-medical-network-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
+    "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say"
   }
 ]
