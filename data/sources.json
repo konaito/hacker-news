@@ -2938,5 +2938,33 @@
     "type": "primary",
     "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
     "title": "Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE"
+  },
+  {
+    "id": "indiana-area-school-district-2026-1",
+    "publisher": "Indiana Area School District",
+    "type": "primary",
+    "url": "https://www.iasd.cc/live-feed",
+    "title": "IASD Community: cybersecurity incident affecting a local district server"
+  },
+  {
+    "id": "stevens-point-2026-1",
+    "publisher": "WSAU",
+    "type": "reporting",
+    "url": "https://wsau.com/2026/09/29/stevens-point-hit-with-targeted-ransomware-attempt/",
+    "title": "Stevens Point Hit With ‘Targeted Ransomware Attempt’"
+  },
+  {
+    "id": "stevens-point-2026-2",
+    "publisher": "WSAW",
+    "type": "reporting",
+    "url": "https://www.wsaw.com/2026/09/29/stevens-point-city-staff-suspect-attempted-ransomware-attack/?outputType=amp",
+    "title": "Stevens Point city staff suspect attempted ransomware attack"
+  },
+  {
+    "id": "sompo-i-ask-2026-1",
+    "publisher": "損害保険ジャパン",
+    "type": "primary",
+    "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf?la=ja-JP",
+    "title": "当社事業者向けサービスで使用する外部委託先システムへの不正アクセスによるお客さま情報漏えいの可能性について"
   }
 ]
