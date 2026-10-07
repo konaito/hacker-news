@@ -2763,5 +2763,19 @@
     "type": "reporting",
     "url": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
     "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say"
+  },
+  {
+    "id": "clingstun-campaign-2026-1",
+    "publisher": "FortiGuard Labs",
+    "type": "primary",
+    "url": "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+    "title": "FortiGuard Labs｜ClingSTUNのIoT機器侵害活動と公開STUN基盤の悪用"
+  },
+  {
+    "id": "clingstun-campaign-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+    "title": "SecurityWeek｜既知脆弱性を悪用するLinuxバックドアClingSTUN"
   }
 ]

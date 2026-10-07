@@ -4207,8 +4207,8 @@
     "display_label": "不正アクセス確認",
     "category": "医療",
     "title": "医療機関への約2年間の侵入を調査会社が報告",
-    "summary": "インシデント調査を担当したSolar 4RAYSは10月2日、ロシアの医療機関で確認したネットワーク侵害を公表しました。2025年12月に調査へ参加し、最も古い侵害の痕跡は2024年初めにさかのぼると説明しています。",
-    "note": "公表は実際の調査事例で、実験的な攻撃能力評価ではありません。被害組織名・影響人数・実際の侵入開始日・情報持ち出し量は非公表または不明。調査会社はPartisan Zmiyの関与を分析していますが、攻撃者の帰属は同社の判断として扱います。ネットワーク破壊や運用停止は確認していないとしています。",
+    "summary": "インシデント調査を担当したSolar 4RAYSは10月2日、ロシアの医療組織のネットワークで確認した継続侵入とバックドアを公表しました。2025年12月に調査へ参加し、最も古い侵害痕跡は2024年初めにさかのぼると説明しています。",
+    "note": "被害組織名・影響人数・実際の侵入開始日・情報持ち出し量は非公表または不明です。医療データへのアクセスとバックドアを調査会社が確認していますが、情報窃取や他の医療組織への侵害まで確定したものではありません。破壊行為や運用停止は観測していないと説明しています。Partisan Zmiyへの帰属は調査会社の分析です。",
     "affected": [],
     "sources": [
       "russian-healthcare-network-2026-1",
@@ -4217,7 +4217,7 @@
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
-    "verification_note": "調査を担当したSolar 4RAYSの10月2日ロシア語報告本文（概要・調査経緯・検出痕跡）とThe Recordの10月5日記事本文を確認。匿名組織への実侵入であることを確認し、漏洩確定や人数への推計はしない。"
+    "verification_note": "Solar 4RAYSの10月2日一次分析本文とThe Recordの10月5日報道本文を今回再確認。同じ一次・報道URLを参照するsolar-russian-medical-network-2026は同一の匿名医療組織の事件と判定し、この先行IDへ内容を統合。後のIDを非公開で保持し二重計上を解消。実侵入の観測を能力研究と区別し、情報窃取や他組織への侵害は推定しない。"
   },
   {
     "id": "frontline-education-2026",
@@ -6728,19 +6728,43 @@
     "service": "医療組織の内部ネットワーク",
     "region": "GLOBAL",
     "status": "confirmed_access",
-    "display_label": "侵害確認",
+    "display_label": "重複統合済み（非公開）",
     "category": "医療",
     "title": "医療組織のネットワークに約2年間の侵入痕跡、バックドアを確認",
     "summary": "調査を担当したSolar 4RAYSは10月2日、2025年12月に調査を開始した医療組織のネットワークで、2024年初頭まで遡る侵害痕跡と複数のバックドアを確認したと公表しました。WindowsサービスやVMware関連ファイルを装った永続化が使われていました。",
-    "note": "組織名・影響人数は非公表。調査対象は名称非公表の一つの医療組織で、信頼関係を持つ他組織への侵入まで確認したものではありません。破壊行為は観測されておらず、情報窃取の確定や被害人数は記録しません。Partisan Zmiyへの帰属は調査会社の分析です。",
+    "note": "同一事件の重複レコードのため非公開。掲載先は russian-healthcare-network-2026。新たな事件として再公開しない。 組織名・影響人数は非公表。調査対象は名称非公表の一つの医療組織で、信頼関係を持つ他組織への侵入まで確認したものではありません。破壊行為は観測されておらず、情報窃取の確定や被害人数は記録しません。Partisan Zmiyへの帰属は調査会社の分析です。",
     "affected": [],
     "sources": [
       "solar-russian-medical-network-2026-1",
       "solar-russian-medical-network-2026-2"
     ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "一次分析と報道の本文を再確認。参照先URLが先行レコードと同一で、同じ匿名医療組織への継続侵入と判定。安定IDを保持しつつ、重複分の公開と集計を停止し、russian-healthcare-network-2026へ統合した。",
+    "duplicate_of": "russian-healthcare-network-2026"
+  },
+  {
+    "id": "clingstun-campaign-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": null,
+    "company": "IoT機器の利用組織（組織名非公表）",
+    "service": "インターネットに公開されたLinux・IoT機器",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "ClingSTUNの配布活動を観測、IoT機器の既知脆弱性を悪用",
+    "summary": "FortiGuard Labsは10月5日、ルーターなどの既知の脆弱性を悪用してLinuxバックドア「ClingSTUN」を配布する活動を公表しました。同研究所は配布元が異なる3期間の活動を追跡し、感染機器を遠隔操作可能なプロキシにする仕組みを分析しています。",
+    "note": "同研究所が追跡する一連のClingSTUN配布活動を一つの観測キャンペーンとして記録します。個別の被害組織、侵害台数、侵入開始日は非公表で、脆弱性や対応機種の数を被害件数に換算しません。悪用される公開STUNサーバーには正規の第三者サービスが含まれ、攻撃者が所有する基盤とは断定できません。",
+    "affected": [],
+    "sources": [
+      "clingstun-campaign-2026-1",
+      "clingstun-campaign-2026-2"
+    ],
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
-    "verification_note": "Solar 4RAYSの一次分析本文とThe Recordの10月5日報道本文を確認。同一の匿名医療組織における継続侵入として登録し、初期侵入の具体日・他組織への侵害・窃取人数は推定しません。"
+    "verification_note": "FortiGuard Labsの10月5日一次分析全文とSecurityWeekの本文を確認。一次分析のIncidents節に記載された脆弱性悪用と配布活動を掲載根拠とし、コードの能力分析と実際の被害規模を区別。既存レコードに同じキャンペーンはなく、被害組織名や台数が不明でも公開可能な観測事実に限定して掲載。"
   }
 ]
