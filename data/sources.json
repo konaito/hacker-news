@@ -2966,5 +2966,33 @@
     "type": "primary",
     "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf?la=ja-JP",
     "title": "当社事業者向けサービスで使用する外部委託先システムへの不正アクセスによるお客さま情報漏えいの可能性について"
+  },
+  {
+    "id": "cisco-sdwan-exploitation-2026-1",
+    "publisher": "Cisco PSIRT",
+    "type": "primary",
+    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU",
+    "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability"
+  },
+  {
+    "id": "ncentral-september-compromise-2026-1",
+    "publisher": "N-able",
+    "type": "primary",
+    "url": "https://www.n-able.com/blog/n-central-security-hotfix-september-5-2026",
+    "title": "N-central Security Update – Take Action to Apply 2026.3 HF4"
+  },
+  {
+    "id": "ncentral-september-compromise-2026-2",
+    "publisher": "Huntress",
+    "type": "primary",
+    "url": "https://www.huntress.com/blog/n-able-vulnerability-exploitation",
+    "title": "Rapid Response: Critical N-able N-central Vulnerability and Active Exploitation"
+  },
+  {
+    "id": "denmark-cpr-2026-2",
+    "publisher": "Datatilsynet",
+    "type": "primary",
+    "url": "https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2026/okt/datatilsynet-er-opmaerksom-paa-sag-om-opslag-i-cpr",
+    "title": "Datatilsynet er opmærksom på sag om opslag i CPR"
   }
 ]

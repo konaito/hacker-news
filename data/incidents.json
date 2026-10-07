@@ -523,7 +523,7 @@
     "category": "行政・公共",
     "title": "約880万人分の登録情報に不正アクセス",
     "summary": "民間企業に認められたCPR照会権限が悪用され、約880万人分の氏名・住所・CPR番号などに第三者が不正アクセス。企業のアクセス権限を停止し、当局と調査を進めています。",
-    "note": "9月中の異常な動作を10月2日夜に認識。対象人数は存命者、国外転出者、故人等を含み、現在の国内人口とは異なります。氏名・住所の保護登録者の氏名・住所は対象外と説明しています。",
+    "note": "9月中の異常な動作を10月2日夜に認識。対象人数は存命者、国外転出者、故人等を含み、現在の国内人口とは異なります。氏名・住所の保護登録者の氏名・住所は対象外と説明しています。 データ保護当局は10月5日、10月4日に届出を受け、有効なCPR番号を特定する目的で大量の自動照会が行われたとの届出内容を調査中と説明しました。具体的な責任や全容についての結論は示していません。",
     "affected": [
       {
         "count": 8800000,
@@ -533,12 +533,13 @@
       }
     ],
     "sources": [
-      "denmark-cpr-2026-1"
+      "denmark-cpr-2026-1",
+      "denmark-cpr-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "一次発表の本文を開き、記載内容と突合。"
+    "last_verified_at": "2026-10-07",
+    "verification_note": "政府の10月5日一次発表全文とDatatilsynetの同日発表全文を再確認。約880万人の登録情報への不正アクセスと大量自動照会についての届出・調査を区別して続報を補記。件数・単位・confirmed_accessの区分は一次発表の範囲を維持。"
   },
   {
     "id": "yakiniku-king-2026",
@@ -7198,5 +7199,50 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "WSAWの9月28日取材本文とWSAUの9月29日取材本文を照合。WSAUのWeb取得403後、通常HTTPSで記事全文を取得して確認。WSAWのページURLの日付と異なる公表日時は本文の9月28日CDTを採用。"
+  },
+  {
+    "id": "cisco-sdwan-exploitation-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": null,
+    "company": "Cisco Catalyst SD-WAN Managerの利用組織（組織名非公表）",
+    "service": "SD-WAN管理システムのAPI",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "SD-WAN Managerの認証回避が実攻撃で悪用、侵害確認を案内",
+    "summary": "Ciscoは9月30日、Catalyst SD-WAN Managerの認証回避脆弱性CVE-2026-76504が実際に悪用されたと公表しました。9月に悪用を認識し、修正版と侵害調査の手掛かりを公開。10月2日には一時的な部分保護機能の提供を追記しています。",
+    "note": "一次発表が確認した実悪用を一つの攻撃活動として記録します。被害組織名・台数・侵入開始日・情報窃取の有無は非公表です。脆弱性は管理者権限でのAPIアクセスを可能にしますが、個別組織で行われた操作は断定しません。提示されたログ例は通常運用でも生じ得るため、例への一致だけで侵害とは扱いません。",
+    "affected": [],
+    "sources": [
+      "cisco-sdwan-exploitation-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "持ち越しのSecurity NEXT候補を再調査し、Cisco一次アドバイザリ全文をWebツールで確認。実悪用の明記、TACサポート案件での発見、公表・更新日、IOCの注意点を突合。製品導入数や脆弱性件数を被害数に換算せず、公表された実悪用活動に範囲を限定。"
+  },
+  {
+    "id": "ncentral-september-compromise-2026",
+    "published_at": "2026-09-05",
+    "occurred_at": null,
+    "company": "N-centralの利用組織（組織名非公表）",
+    "service": "リモート監視・管理システムN-central",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "N-central顧客環境の侵害を確認、個別事例の悪用脆弱性は未特定",
+    "summary": "Huntressは9月5日の更新で、修正済みの顧客N-central環境が侵害され、9月4日に調査を開始したと説明しました。N-ableも9月9日、顧客環境で少数の悪用成功を確認したと公表し、修正版への更新と侵害調査を呼びかけています。",
+    "note": "9月の侵害活動を一件として記録し、同じ一次記事が扱う8月の活動とは区別します。Huntressの事例はログが既にローテーションされており、CVE-2026-86206・86207・86218などのどの脆弱性が使われたかは断定できません。初期の修正版告知の未確認記載と、9月9日の顧客での悪用確認は確認時点が異なります。組織名・侵害総数・端末数・情報窃取範囲は非公表です。",
+    "affected": [],
+    "sources": [
+      "ncentral-september-compromise-2026-1",
+      "ncentral-september-compromise-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "持ち越し候補の一次ホットフィクス告知に加え、N-ableの9月9日13:49 UTC更新全文とHuntressの9月5日・6日更新本文を確認。実際の顧客侵害と特定CVEへの帰属が未確定である点を分け、旧告知との時点差を解消。"
   }
 ]
