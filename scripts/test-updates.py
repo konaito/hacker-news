@@ -3,10 +3,13 @@ import sys
 import unittest
 import subprocess
 import tempfile
+import json
+import os
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from updates import public_changes, render_entry, timestamp_html, parse_timestamp, load_history
+from growth import load_growth, render_growth
 
 
 class HistoryTests(unittest.TestCase):
@@ -76,6 +79,53 @@ class HistoryTests(unittest.TestCase):
         self.assertNotIn('/news/', hidden)
         self.assertNotIn('&lt;script&gt;', hidden)
         self.assertIn('2026年10月06日 08:00', timestamp_html(entry['timestamp']))
+
+
+class GrowthTests(unittest.TestCase):
+    def test_update_snapshots_include_promotions_and_withdrawals(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            def git(*args, timestamp='2026-10-07T01:00:00+09:00'):
+                env = dict(os.environ, GIT_AUTHOR_DATE=timestamp, GIT_COMMITTER_DATE=timestamp)
+                return subprocess.check_output(['git', '-C', directory, *args], text=True, env=env).strip()
+            git('init', '-b', 'main')
+            git('config', 'user.name', 'Test')
+            git('config', 'user.email', 'test@example.com')
+            (root / 'data').mkdir()
+            path = root / 'data/incidents.json'
+            first = {'id': 'first', 'publication_status': 'published'}
+            second = {'id': 'second', 'publication_status': 'pending'}
+            def commit(records, timestamp):
+                path.write_text(json.dumps(records))
+                git('add', '.')
+                git('commit', '-m', 'Update incidents', timestamp=timestamp)
+            commit([first, second], '2026-10-07T01:00:00+09:00')
+            second['publication_status'] = 'published'
+            commit([first, second], '2026-10-07T01:30:00+09:00')
+            first['publication_status'] = 'pending'
+            commit([first, second], '2026-10-07T02:00:00+09:00')
+            git('commit', '--allow-empty', '-m', 'Maintenance', timestamp='2026-10-07T02:30:00+09:00')
+            path.write_text('uncommitted draft')
+            points = load_growth(root)
+            self.assertEqual([p['count'] for p in points], [1, 2, 1, 1])
+            self.assertEqual([p['delta'] for p in points], [None, 1, -1, 0])
+            self.assertEqual([p['label'][11:] for p in points], ['01:00:00', '01:30:00', '02:00:00', '02:30:00'])
+            self.assertEqual(points[-1]['commit'], git('rev-parse', 'HEAD'))
+            html = render_growth(points, 2)
+            self.assertIn('前回から -1件', html)
+            self.assertIn('履歴には +1件の差分', html)
+            self.assertIn('max="3"', html)
+            self.assertIn('H 333.33 V 120.00', html)
+            self.assertNotIn('first', html)
+
+    def test_empty_and_single_snapshot_rendering(self):
+        self.assertEqual(render_growth([], 0), '')
+        point = {'count': 0, 'position': 1, 'label': '2026/10/07 01:00:00',
+                 'delta': None, 'commit': 'a' * 40}
+        html = render_growth([point], 0)
+        self.assertIn('初回の記録', html)
+        self.assertNotIn('growth-draft-note', html)
+        self.assertIn('max="0"', html)
 
 
 if __name__ == '__main__':

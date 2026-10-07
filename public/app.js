@@ -53,5 +53,43 @@
   document.querySelectorAll('[data-about]').forEach(button => button.addEventListener('click', () => show(document.querySelector('#about-content'))));
   document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if(event.target!==dialog)return; const r=dialog.getBoundingClientRect(); if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close(); });
+  const growthChart = document.querySelector('#growth-chart');
+  if (growthChart) {
+    const points = [...growthChart.querySelectorAll('.growth-point')];
+    const slider = document.querySelector('#growth-step');
+    const guide = document.querySelector('#growth-guide');
+    const selected = document.querySelector('#growth-selected');
+    const readout = document.querySelector('#growth-readout');
+    const commit = document.querySelector('#growth-commit');
+    function selectUpdate(index) {
+      const point = points[index];
+      const x = point.getAttribute('cx');
+      guide.setAttribute('x1', x);
+      guide.setAttribute('x2', x);
+      selected.setAttribute('cx', x);
+      selected.setAttribute('cy', point.getAttribute('cy'));
+      slider.value = index;
+      const label = `${point.dataset.label}（日本時間）・${point.dataset.count}件・${point.dataset.delta}`;
+      readout.replaceChildren(...[`${point.dataset.label}（日本時間）`, `${point.dataset.count}件`, point.dataset.delta].flatMap((text, index) => {
+        const span = document.createElement('span');
+        span.textContent = text;
+        return index ? [document.createTextNode(' · '), span] : [span];
+      }));
+      slider.setAttribute('aria-valuetext', label);
+      commit.href = `https://github.com/konaito/hacker-news/commit/${point.dataset.commit}`;
+    }
+    slider.addEventListener('input', () => selectUpdate(Number(slider.value)));
+    growthChart.addEventListener('pointermove', event => {
+      if (event.pointerType !== 'mouse') return;
+      const bounds = growthChart.getBoundingClientRect();
+      const x = (event.clientX - bounds.left) / bounds.width * 1000;
+      let nearest = 0;
+      points.forEach((point, index) => {
+        if (Math.abs(Number(point.getAttribute('cx')) - x) <= Math.abs(Number(points[nearest].getAttribute('cx')) - x)) nearest = index;
+      });
+      selectUpdate(nearest);
+    });
+    document.querySelector('#growth-controls').hidden = false;
+  }
   render();
 })();

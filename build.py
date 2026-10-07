@@ -86,5 +86,8 @@ reading_cards = ''.join(f'<a class="reading-card {e(r["theme"],quote=True)}" hre
 reading_section = '<section class="featured-reading" aria-labelledby="reading-heading"><div class="section-head"><h2 id="reading-heading">ニュースの、その先へ</h2></div><p class="section-description">技術とAIを、作者の視点からもう少し深く。</p><div class="reading-grid">'+reading_cards+'</div></section>'
 page = page.replace('<section id="incidents"',reading_section+'<section id="incidents"')
 from seo import enhance
+from growth import load_growth, render_growth
+page = page.replace('<div class="dashboard-layout">',
+                    render_growth(load_growth(ROOT), incident_count) + '<div class="dashboard-layout">')
 enhance(ROOT,page,records,cutoff)
 print(f'Built dashboard: {len(records)} news items, {len(published)} published incidents.')
