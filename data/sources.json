@@ -3337,5 +3337,33 @@
     "type": "reporting",
     "url": "https://7news.com.au/news/patients-notified-after-personal-data-stolen-in-cyberattack-on-st-andrews-hospital-in-adelaide-c-22986855",
     "title": "Patients notified after personal data stolen in cyberattack on St Andrew’s Hospital in Adelaide"
+  },
+  {
+    "id": "idcf-cloud-2026-4",
+    "publisher": "シックス・アパート",
+    "type": "primary",
+    "url": "https://www.sixapart.jp/movabletype/news/2026/10/09-0900.html",
+    "title": "[第3報] Movable Type クラウド版におけるIDCFクラウド障害の影響と対応について"
+  },
+  {
+    "id": "chibagin-shoten-site-2026-2",
+    "publisher": "千葉銀行",
+    "type": "primary",
+    "url": "https://www.chibabank.co.jp/news/news20260917_01",
+    "title": "子会社ちばぎん商店のコーポレートサイトへの不正アクセス事案の発生について"
+  },
+  {
+    "id": "matchboil-ukraine-2026-1",
+    "publisher": "ESET Research",
+    "type": "primary",
+    "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+    "title": "MATCHBOIL: New tricks, same old evil intentions"
+  },
+  {
+    "id": "matchboil-ukraine-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/russia-ukraine-malware-transportation",
+    "title": "Russian-aligned spies upgrade malware used in attacks on Ukrainian transport, energy firms"
   }
 ]
