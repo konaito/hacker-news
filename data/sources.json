@@ -3421,5 +3421,33 @@
     "type": "primary",
     "url": "https://skyticket.jp/news/maintenance/67603",
     "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ"
+  },
+  {
+    "id": "commune-2026-1",
+    "publisher": "コミューン株式会社",
+    "type": "primary",
+    "url": "https://communeinc.com/ja/news/2026oct09",
+    "title": "当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "pointincome-2026-1",
+    "publisher": "株式会社セレス",
+    "type": "primary",
+    "url": "https://next.ceres-inc.jp/news/detail/20261007-2/",
+    "title": "ポイントインカムへの不正アクセス検知に伴う緊急メンテナンスおよびセキュリティ強化のお知らせ"
+  },
+  {
+    "id": "idcf-cloud-2026-5",
+    "publisher": "東日本旅客鉄道株式会社",
+    "type": "primary",
+    "url": "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf",
+    "title": "IDCフロンティア社で発生した不正アクセスに伴うメール配信用外部サービスからのメールアドレス等の漏えい可能性について"
+  },
+  {
+    "id": "idcf-cloud-2026-6",
+    "publisher": "株式会社IDCフロンティア",
+    "type": "primary",
+    "url": "https://www.idcf.jp/news/topics/20261009001",
+    "title": "第4報：不正アクセスによる障害への対応体制について"
   }
 ]
