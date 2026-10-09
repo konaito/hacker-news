@@ -8251,5 +8251,92 @@
     "first_seen_at": "2026-10-09",
     "last_verified_at": "2026-10-09",
     "verification_note": "Andover News10月8日本文の町広報担当者の書面回答、ネットワーク停止と復旧の説明を確認。自治体公式サイトと別報道を検索したが一次本文または独立した2媒体による突合条件を満たさずpendingで記録。"
+  },
+  {
+    "published_at": "2026-10-09",
+    "company": "アドベンチャー（skyticket）",
+    "region": "JP",
+    "category": "旅行・交通",
+    "sources": [
+      "skyticket-disclosure-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "10月9日の公式発表全文をHTTPSで取得し、異なる3経路の区別、発生・発覚日、情報項目、件数と確認範囲を照合。人数への換算やAI関与の推定は行っていません。",
+    "id": "skyticket-server-2026",
+    "occurred_at": "2026-10-02",
+    "service": "skyticketの管理機能・サーバー・クラウド保管データ",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "title": "サーバーへの不正アクセスで約1,464万件の顧客情報が流出",
+    "summary": "管理機能を不正に操作され、別のサーバーやクラウド上のデータにもアクセスされたと公表しました。氏名・生年月日・連絡先・住所・振込依頼人名義などが流出し、約413万件にはハッシュ化したログインパスワードも含まれます。",
+    "note": "発生期間は10月2～4日、発覚は10月5日。約413万件は約1,464万件の内数です。件数は人数ではなく、同時公表された業務管理システム・バス予約の件数とも合算しません。パスポート番号の流出は否定。保存済みカードによる支払い等は10月7日に予防的に停止しました。",
+    "affected": [
+      {
+        "count": 14640000,
+        "unit": "records",
+        "description": "公式発表による対象顧客情報の概数。うち約413万件がハッシュ化パスワードを含む。実人数は非公表。",
+        "source_id": "skyticket-disclosure-2026-1"
+      }
+    ]
+  },
+  {
+    "published_at": "2026-10-09",
+    "company": "アドベンチャー（skyticket）",
+    "region": "JP",
+    "category": "旅行・交通",
+    "sources": [
+      "skyticket-disclosure-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "10月9日の公式発表全文をHTTPSで取得し、異なる3経路の区別、発生・発覚日、情報項目、件数と確認範囲を照合。人数への換算やAI関与の推定は行っていません。",
+    "id": "skyticket-management-2026",
+    "occurred_at": "2026-09-20",
+    "service": "skyticketの業務管理システム",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "title": "業務管理システムの脆弱性を悪用、顧客情報1万7,780件に流出のおそれ",
+    "summary": "業務管理システムの脆弱性を悪用された不正アクセスが9月28日に発覚しました。氏名・電話番号・返金先口座情報などが流出した、または流出したおそれがあると公表しています。",
+    "note": "1万7,780件は重複を含み、ほかにも件数を調査中の情報があります。メールアドレス・生年月日を含む68件、住所を含む18件は部分集合として説明されており加算しません。パスポート番号の流出は現時点で未確認、調査継続。同時公表のサーバー侵害とは異なる経路です。9月9日の会員1名への不正ログインも記載されていますが、関連や範囲は推定しません。",
+    "affected": [
+      {
+        "count": 17780,
+        "unit": "records",
+        "description": "流出した、または流出したおそれのある顧客情報の確認済み対象件数。重複を含み、追加の件数は調査中。",
+        "source_id": "skyticket-disclosure-2026-1"
+      }
+    ]
+  },
+  {
+    "published_at": "2026-10-09",
+    "company": "アドベンチャー（skyticket）",
+    "region": "JP",
+    "category": "旅行・交通",
+    "sources": [
+      "skyticket-disclosure-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "10月9日の公式発表全文をHTTPSで取得し、異なる3経路の区別、発生・発覚日、情報項目、件数と確認範囲を照合。人数への換算やAI関与の推定は行っていません。",
+    "id": "skyticket-bus-reservations-2026",
+    "occurred_at": "2026-08-03",
+    "service": "skyticketバス予約の予約完了ページ",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "title": "ログイン不要の予約完了ページを第三者が機械的に閲覧、約1万2,000予約が対象",
+    "summary": "バスの予約完了ページがログインなしで表示でき、第三者に機械的に閲覧されていたと公表しました。予約者・同行者の氏名や属性、連絡先、会員ID、支払い・乗車便の情報などが閲覧された、または閲覧されたおそれがあります。",
+    "note": "発生期間は8月3日～10月1日。10月1日に発覚し同日に修正しました。約1万2,000件は予約数で、同行者を含む人数は不明です。第三者の閲覧は確認されていますが、全対象情報の持ち出しは断定しません。同時公表の2件とは異なる経路で、件数を合算しません。",
+    "affected": [
+      {
+        "count": 12000,
+        "unit": "records",
+        "description": "第三者閲覧またはそのおそれの対象となるバス予約の概数。同行者を含む人数とは異なる。",
+        "source_id": "skyticket-disclosure-2026-1"
+      }
+    ]
   }
 ]

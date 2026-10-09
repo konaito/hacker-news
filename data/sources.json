@@ -3414,5 +3414,12 @@
     "type": "reporting",
     "url": "https://andovermanews.com/andover-confirms-unauthorized-access-to-systems-during-cyberattack/",
     "title": "Andover Confirms Unauthorized Access To Systems During Cyberattack"
+  },
+  {
+    "id": "skyticket-disclosure-2026-1",
+    "publisher": "株式会社アドベンチャー",
+    "type": "primary",
+    "url": "https://skyticket.jp/news/maintenance/67603",
+    "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ"
   }
 ]
