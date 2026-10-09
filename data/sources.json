@@ -3050,5 +3050,131 @@
     "type": "reporting",
     "url": "https://ascii.jp/elem/000/004/436/4436399/?topnew=1",
     "title": "職員採用試験システムへの不正アクセス、全国で相次ぐ　受験者の情報漏えいか"
+  },
+  {
+    "id": "bookoff-members-2026-1",
+    "publisher": "ブックオフグループホールディングス",
+    "type": "primary",
+    "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2893077/00.pdf",
+    "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "lawson-id-app-2026-1",
+    "publisher": "ローソン",
+    "type": "primary",
+    "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+    "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "newspicks-admin-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002153/",
+    "title": "NewsPicksユーザーの個人情報漏えいか 勤務先やカード番号下4桁も……管理ツールに不正アクセス"
+  },
+  {
+    "id": "newspicks-admin-2026-2",
+    "publisher": "JX通信社／NewsDigest",
+    "type": "reporting",
+    "url": "https://www.newsdigest.jp/news/25600a8e-e7de-4bc6-b540-6f981c4970cf",
+    "title": "NewsPicksに不正アクセス 個人情報の一部が漏えいの可能性"
+  },
+  {
+    "id": "toda-construction-2026-1",
+    "publisher": "戸田建設",
+    "type": "primary",
+    "url": "https://www.toda.co.jp/news/2026/20261007_006350.html",
+    "title": "不正アクセスによる情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "nissui-logistics-2026-1",
+    "publisher": "ニッスイ",
+    "type": "primary",
+    "url": "https://www.nissui.co.jp/news/2026100702.html",
+    "title": "日水物流株式会社におけるシステム障害について（第1報）"
+  },
+  {
+    "id": "jgc-digital-metabase-2026-1",
+    "publisher": "JGC Digital",
+    "type": "primary",
+    "url": "https://jgc-digital.com/topics/topics-3049/",
+    "title": "不正アクセスによる個人情報流出に関するお知らせとお詫び"
+  },
+  {
+    "id": "taikisha-malaysia-email-2026-1",
+    "publisher": "大気社",
+    "type": "primary",
+    "url": "https://www.taikisha.co.jp/common/mtimg/20260918.pdf",
+    "title": "マレーシアグループ会社におけるメールアカウントへの不正アクセス等について"
+  },
+  {
+    "id": "landhousing-reservation-account-2026-1",
+    "publisher": "ランドハウジング",
+    "type": "primary",
+    "url": "https://www.landhousing.co.jp/news/49",
+    "title": "不正アクセス事案についてのご報告"
+  },
+  {
+    "id": "chibagin-shoten-site-2026-1",
+    "publisher": "ちばぎん商店",
+    "type": "primary",
+    "url": "https://shop.c-value.jp/view/news/20260917153001",
+    "title": "当社コーポレートサイトへの不正アクセス事案の発生について"
+  },
+  {
+    "id": "nerima-digital-skills-chat-2026-1",
+    "publisher": "練馬区",
+    "type": "primary",
+    "url": "https://www.city.nerima.tokyo.jp/kurashi/jinken/oshirase/dx-kojinjyoho.html",
+    "title": "講座受講者の個人情報の漏えいについて"
+  },
+  {
+    "id": "midnight-mimosa-android-2026-1",
+    "publisher": "Bitdefender Labs",
+    "type": "primary",
+    "url": "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware",
+    "title": "The phone was compromised before the user turned it on: the rise of Midnight Mimosa"
+  },
+  {
+    "id": "poellm-cryptomining-2026-1",
+    "publisher": "Lumen Black Lotus Labs",
+    "type": "primary",
+    "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+    "title": "Canto incognito: tracking the PoeLLM malware"
+  },
+  {
+    "id": "cctld-registry-hijacks-2026-1",
+    "publisher": "Google Security",
+    "type": "primary",
+    "url": "https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/",
+    "title": "Chrome’s response to recent ccTLD registry hijacks"
+  },
+  {
+    "id": "idcf-cloud-2026-3",
+    "publisher": "IDCフロンティア",
+    "type": "primary",
+    "url": "https://www.idcf.jp/news/topics/20261008001",
+    "title": "【第3報】当社サービスの一部システムへの不正アクセスによる障害について"
+  },
+  {
+    "id": "asos-notification-claim-2026-4",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+    "title": "ASOS links data breach to social engineering attack, credential theft"
+  },
+  {
+    "id": "asos-notification-claim-2026-5",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
+    "title": "ASOS says hackers tricked employee to get access to customer data, push notification system"
+  },
+  {
+    "id": "shudo-gakuen-2026-2",
+    "publisher": "学校法人修道学園",
+    "type": "primary",
+    "url": "https://www.shudo-u.ac.jp/gakuen/information/mh85jl0000000021.html",
+    "title": "不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び（第２報）"
   }
 ]

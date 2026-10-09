@@ -4145,22 +4145,24 @@
     "company": "ASOS",
     "service": "顧客通知に利用する第三者プラットフォーム",
     "region": "GLOBAL",
-    "status": "possible_leak",
-    "display_label": "漏洩の可能性",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
     "category": "EC・小売",
-    "title": "不正な顧客通知を確認、氏名・連絡先にアクセスされた可能性",
-    "summary": "ASOSは10月6日のRNS発表で、同日午前10時ごろに不正な顧客通知が送信されたと確認しました。顧客との連絡に利用する第三者プラットフォームでの不正な活動を調査し、氏名・連絡先などの基本的な個人情報にアクセスされた可能性があるとしています。",
-    "note": "通知基盤へのアクセスを制限し、専門家と関係当局と対応中。会社は決済カード情報・アカウントのパスワードへの影響はないと考えており、サイトとアプリは通常稼働しています。実際の情報窃取・漏洩人数・侵入開始日や、通知に書かれたSnowflake侵害の主張は未確認です。利用者総数を被害人数に換算しません。",
+    "title": "従業員の認証情報を窃取され、顧客の氏名・連絡先へのアクセスを確認",
+    "summary": "10月6日の不正なアプリ通知に続き、10月8日にASOSは、信頼できる相手を装った人物が従業員の認証情報を盗み、第三者のプラットフォームへアクセスしたと説明しました。顧客の氏名・連絡先と一部の非機密アカウント情報へのアクセスを確認しています。",
+    "note": "対象人数・情報のコピーや外部持ち出しの範囲・侵入開始日は不明です。ASOSは支払い情報とパスワードは対象外、サイトとアプリは安全と説明。攻撃者によるSnowflake基盤侵害の主張は確認済みの事実にしません。",
     "affected": [],
     "sources": [
       "asos-notification-claim-2026-1",
       "asos-notification-claim-2026-2",
-      "asos-notification-claim-2026-3"
+      "asos-notification-claim-2026-3",
+      "asos-notification-claim-2026-4",
+      "asos-notification-claim-2026-5"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-07",
-    "verification_note": "ASOSが発行した10月6日RNS番号8604Xの全文をDigital Look配信ページで確認。既存Reuters本文とSky Newsのライブ本文も再読し、発表前の攻撃者主張と会社が確認した不正通知・情報アクセスの可能性を区別。既存IDを維持してpendingから公開へ更新。"
+    "last_verified_at": "2026-10-09",
+    "verification_note": "従来のReuters、Sky News、10月6日RNS本文を再確認。10月8日のASOS説明を伝える独立したBleepingComputerとThe Recordの全文を突合し、不正アクセス確認へ更新。情報窃取の確定範囲や被害人数は追加しない。"
   },
   {
     "id": "aflac-yorisou-2026",
@@ -5396,17 +5398,18 @@
     "status": "possible_leak",
     "display_label": "漏洩の可能性",
     "category": "教育・研究",
-    "title": "学園サーバーに不正アクセス、学生・教職員や取引先情報に漏洩のおそれ",
-    "summary": "修道学園は管理サーバーへの不正アクセスを確認し、広島修道大学と傘下の中学・高校の取引先口座情報、教職員、一部学生、外部講師の氏名・住所・電話番号や口座情報などが漏洩したおそれがあると公表しました。外部専門機関と原因・影響範囲を調査しています。",
-    "note": "9月26日は不正アクセスの確認日で、侵入開始日は不明。9月30日の発表時点で情報の不特定多数への公開、不正利用、二次被害の報告は確認されていません。対象人数は未公表。ランサムウェアや情報の持ち出しを確定する発表ではありません。",
+    "title": "学園サーバーに不正アクセス、教職員・取引先情報に漏洩のおそれ",
+    "summary": "管理サーバーへの不正アクセスにより取引先の口座情報や教職員・外部講師の氏名・連絡先等が漏えいしたおそれを公表しました。10月8日の第2報では、現在の調査段階で学生に関する情報は含まれていないと確認しています。",
+    "note": "9月26日は確認日で侵入開始日は不明。初報で対象となる可能性があった学生情報は、第2報で対象外と確認されました。人数・持ち出しの確定範囲は非公表で、原因と影響範囲の調査は継続。",
     "affected": [],
     "sources": [
-      "shudo-gakuen-2026-1"
+      "shudo-gakuen-2026-1",
+      "shudo-gakuen-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
-    "last_verified_at": "2026-10-07",
-    "verification_note": "公式横断検索で発見し、大学のお知らせから学園公式発表本文へたどって確認。確認日と侵入開始日、漏洩のおそれと実際の流出を区別しました。"
+    "last_verified_at": "2026-10-09",
+    "verification_note": "初報と10月8日第2報の一次本文を読んで突合し、学生情報が含まれないとの調査結果を反映。"
   },
   {
     "id": "tottori-care-provider-email-2026",
@@ -6820,18 +6823,19 @@
     "status": "disruption",
     "display_label": "ランサム被害",
     "category": "IT・クラウド",
-    "title": "ランサムウェアでクラウド障害、495の企業・自治体に影響",
-    "summary": "IDCフロンティアは10月7日の第2報で、午前3時40分頃から続くIDCFクラウドの障害が第三者のランサムウェア攻撃によるものと確認しました。東日本リージョン1をネットワークから遮断してシステムを停止し、契約する495の企業・自治体への影響を公表しています。",
-    "note": "495は企業・自治体の数であり、人数やアカウント数には換算しません。情報漏洩の事実・侵入経路・復旧時刻は未確定です。他リージョンの外部からアクセス可能な管理コンソールも安全確認のため停止していますが、それらでの侵害を確認したとは扱いません。",
+    "title": "ランサムウェアで495の企業・自治体に影響、一部データの取り出し・復元が困難",
+    "summary": "10月7日に公表したランサムウェア攻撃について、10月8日の第3報で東日本第1リージョンの4ゾーンの仮想マシン停止・起動不能と、データの取り出し・復元が困難との見解を説明しました。495の企業・自治体に影響し、代替環境での再構築を案内しています。",
+    "note": "対象ゾーンはtesla・henry・pascal・joule。事業者は顧客自身のバックアップ等からの復旧のみ可能と説明しています。情報漏えいの有無、侵入経路、復旧時期は未確定です。他リージョン等は不正アクセス未確認ですが、安全確認のため管理コンソールを停止。495は組織数で、人数へ換算しません。",
     "affected": [],
     "sources": [
       "idcf-cloud-2026-1",
-      "idcf-cloud-2026-2"
+      "idcf-cloud-2026-2",
+      "idcf-cloud-2026-3"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
-    "last_verified_at": "2026-10-07",
-    "verification_note": "初報と第2報の公式本文を通常HTTPSで再読。ランサムウェアと495企業・自治体への影響を続報として追加し、情報窃取を推定しない。"
+    "last_verified_at": "2026-10-09",
+    "verification_note": "第1・第2報を通常HTTPSで全文再確認し、第3報をWebツールで本文確認。攻撃の確定範囲、4ゾーン、495組織、復元困難と顧客バックアップの案内を突合。"
   },
   {
     "id": "his-thailand-server-2026",
@@ -7348,5 +7352,358 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "登録した全出典の本文を確認し、アクセスの確認と情報持ち出しの確認、発生日と公表日、影響件数の単位を区別。"
+  },
+  {
+    "id": "bookoff-members-2026",
+    "published_at": "2026-10-09",
+    "occurred_at": null,
+    "company": "ブックオフグループホールディングス",
+    "service": "子会社の会員管理システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "小売・EC",
+    "title": "会員情報の外部取得を確認、最大約643万件の会員番号が対象",
+    "summary": "10月9日、子会社の会員管理システムへの不正アクセスと会員情報の流出を公表しました。氏名・連絡先・生年月日・パスワードのハッシュ値等が対象となる可能性があり、最大約643万件の会員番号について精査しています。",
+    "note": "10月6日は不正アクセスの確認日で、侵入開始日は非公表です。約643万件は人数ではありません。決済情報は対象システムで保有しておらず、情報の公開・悪用・書き換えは公表時点で未確認です。",
+    "affected": [
+      {
+        "count": 6430000,
+        "unit": "records",
+        "description": "漏えいした可能性のある会員番号の最大概数。実際の人数ではなく、範囲は精査中。",
+        "source_id": "bookoff-members-2026-1"
+      }
+    ],
+    "sources": [
+      "bookoff-members-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "lawson-id-app-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": "2026-09-12",
+    "company": "ローソン",
+    "service": "ローソンID・ローソンアプリ予約",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "小売・EC",
+    "title": "ローソンIDの215万5345件とアプリ予約26件の情報漏えいを確認",
+    "summary": "10月8日、共通アカウント「ローソンID」と「ローソンアプリ予約」への不正アクセスによる情報漏えいを公表しました。ID側は氏名・メールアドレス等、予約側は氏名・電話番号・クレジットカード番号の一部が対象です。",
+    "note": "ID側のアクセスは9月12～14日、予約側は9月17日で、10月7日に判明しました。発生日欄は公表された期間の開始日です。公式は「対象人数」欄を件数で示すため、件数として保持し、両サービス間の重複も不明なため合算しません。既存のメールサーバー不正利用とは別事件です。",
+    "affected": [
+      {
+        "count": 2155345,
+        "unit": "records",
+        "description": "ローソンID側で漏えいを確認した情報件数。公式の対象人数欄は件で表記。",
+        "source_id": "lawson-id-app-2026-1"
+      },
+      {
+        "count": 26,
+        "unit": "records",
+        "description": "ローソンアプリ予約側の漏えい情報件数。ID側との重複は不明。",
+        "source_id": "lawson-id-app-2026-1"
+      }
+    ],
+    "sources": [
+      "lawson-id-app-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "newspicks-admin-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "ユーザベース",
+    "service": "NewsPicksの業務用管理ツール",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "メディア",
+    "title": "業務用管理ツールに不正アクセス、利用者の連絡先等が漏えいした可能性",
+    "summary": "10月8日、NewsPicksの業務用管理ツールが第三者の不正アクセスを受け、一部利用者の氏名・勤務先・連絡先・クレジットカード名義や番号末尾の一部等が漏えいした可能性を公表しました。対象人数は非公表です。",
+    "note": "10月8日は検知日で侵入開始日は不明です。カード番号全体の流出は確認された内容ではありません。一次ページは本文を取得できなかったため、独立したITmedia NEWSとJX通信社の本文を突合して掲載。",
+    "affected": [],
+    "sources": [
+      "newspicks-admin-2026-1",
+      "newspicks-admin-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "toda-construction-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": "2026-10-01",
+    "company": "戸田建設",
+    "service": "取引先情報等を管理するシステム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "建設・不動産",
+    "title": "取引先情報と従業員4778人の情報が流出",
+    "summary": "10月7日、システムへの不正アクセスにより取引先登録情報などと一部従業員の個人情報が外部に流出したと公表しました。対象には最大7200件のメールアドレス、最大6000件の取引情報、従業員4778人の氏名・住所・電話番号等が含まれます。",
+    "note": "10月5日に発見し、漏えい痕跡は10月1～5日です。発生日欄はこの期間の開始日。メールアドレスと取引情報の件数は人数と合算しません。公開や不正利用は確認されていません。",
+    "affected": [
+      {
+        "count": 7200,
+        "unit": "records",
+        "description": "取引先等のメールアドレスの最大件数。",
+        "source_id": "toda-construction-2026-1"
+      },
+      {
+        "count": 6000,
+        "unit": "records",
+        "description": "取引情報の最大件数。",
+        "source_id": "toda-construction-2026-1"
+      },
+      {
+        "count": 4778,
+        "unit": "people",
+        "description": "流出を確認した一部従業員の人数。",
+        "source_id": "toda-construction-2026-1"
+      }
+    ],
+    "sources": [
+      "toda-construction-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "nissui-logistics-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": "2026-10-07",
+    "company": "日水物流（ニッスイグループ）",
+    "service": "物流システム",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "物流・交通",
+    "title": "物流システム障害で商品の入出荷を停止",
+    "summary": "10月7日、日水物流のシステムに障害が生じ、商品の入出荷ができない状況をニッスイが公表しました。委託先データセンターへの第三者の不正アクセスが原因と考えられると説明し、復旧対応を進めています。",
+    "note": "一次発表では委託先の名称は非公表で、IDCFへの攻撃と同一と確定しません。個人・顧客情報の漏えいの有無は調査中、復旧時期や対象件数は不明です。",
+    "affected": [],
+    "sources": [
+      "nissui-logistics-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "jgc-digital-metabase-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": null,
+    "company": "JGC Digital",
+    "service": "Metabase／アザス・するーぷ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "IT・クラウド",
+    "title": "Metabaseの脆弱性を悪用され、約6万アカウントの顧客情報が流出",
+    "summary": "9月18日、分析ツールMetabaseの脆弱性を悪用した不正アクセスと一部顧客情報の取得を公表しました。建設現場向け「アザス」の約4万アカウントと衣類回収「するーぷ」の約2万アカウントが対象です。",
+    "note": "9月16日は検知・確認日で、侵入開始日は不明です。同一人物の複数登録があり、約6万アカウントを人数へ換算しません。パスワードは両システムで管理していません。新着の10月9日報道から確認した一次発表です。",
+    "affected": [
+      {
+        "count": 40000,
+        "unit": "accounts",
+        "description": "アザスの対象アカウントの概数。",
+        "source_id": "jgc-digital-metabase-2026-1"
+      },
+      {
+        "count": 20000,
+        "unit": "accounts",
+        "description": "するーぷの対象アカウントの概数。",
+        "source_id": "jgc-digital-metabase-2026-1"
+      }
+    ],
+    "sources": [
+      "jgc-digital-metabase-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "taikisha-malaysia-email-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": null,
+    "company": "大気社／Taikisha Engineering (M) Sdn. Bhd.",
+    "service": "マレーシア子会社の従業員メールアカウント",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "建設・不動産",
+    "title": "従業員メールアカウント1件に不正アクセス、不審メールを送信",
+    "summary": "9月18日、大気社はマレーシア子会社の従業員1人のメールアカウントへの不正アクセスを公表しました。9月17日に侵入と不審メールの送信を確認し、調査・対策を進めています。",
+    "note": "侵入の開始日時や漏えい情報の範囲は不明です。具体的な二次被害は公表時点で未確認。過去の別のランサムウェア事件とは統合しません。",
+    "affected": [
+      {
+        "count": 1,
+        "unit": "accounts",
+        "description": "不正アクセスを確認した従業員のメールアカウント。",
+        "source_id": "taikisha-malaysia-email-2026-1"
+      }
+    ],
+    "sources": [
+      "taikisha-malaysia-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "landhousing-reservation-account-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": "2026-07-16",
+    "company": "ランドハウジング",
+    "service": "他社の内見予約システム上の自社アカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "建設・不動産",
+    "title": "内見予約アカウントを不正利用、物件の鍵情報が流出した可能性",
+    "summary": "9月18日、他社の内見予約システムに登録した自社アカウントが7月16日に不正利用され、不正な内見予約が複数行われたと公表しました。警視庁に被害を申告し、アカウント情報の変更などを実施しています。",
+    "note": "一部物件の鍵情報が流出した可能性があり、対象物件の鍵交換等は完了しています。侵入手法・対象物件数・流出の確定範囲は非公表です。発生日は一次発表が示した事案発生日です。",
+    "affected": [],
+    "sources": [
+      "landhousing-reservation-account-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "chibagin-shoten-site-2026",
+    "published_at": "2026-09-17",
+    "occurred_at": null,
+    "company": "ちばぎん商店",
+    "service": "コーポレートサイトのサーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "金融",
+    "title": "企業サイトを改ざん、問い合わせ・応募情報等が漏えいした可能性",
+    "summary": "9月17日、コーポレートサイトのサーバーへの不正アクセスと顧客情報の漏えいのおそれを公表しました。9月3日にオンラインカジノのコンテンツ表示を確認し、サイト公開を停止しました。",
+    "note": "対象は個人約192先、法人約722先、メールアドレスのみ約7670先で、人数へ換算せず合算しません。口座情報はキャンペーン応募約31先のみ。外部送信の証跡は未確認です。別サーバーのC-VALUEサービスでは不正アクセスは確認されていません。",
+    "affected": [],
+    "sources": [
+      "chibagin-shoten-site-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "nerima-digital-skills-chat-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": "2026-07-14",
+    "company": "練馬区",
+    "service": "女性デジタルスキルプログラムのチャット",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "官公庁・自治体",
+    "title": "講座チャットの設定不備で受講者71人の氏名・メールアドレスが閲覧可能",
+    "summary": "9月9日、委託講座のチャット設定不備により、受講者71人の氏名・メールアドレスが他の受講者と講師から閲覧できる状態だったと公表しました。設定は7月27日に修正されています。",
+    "note": "閲覧可能期間は7月14～27日で、区への報告は8月31日でした。閲覧可能な範囲が確認された事案で、第三者による情報の窃取や実際の閲覧件数は推定しません。10月8日の新着報道から一次発表を確認しました。",
+    "affected": [
+      {
+        "count": 71,
+        "unit": "people",
+        "description": "氏名・メールアドレスが他の受講者と講師から閲覧可能だった受講者。",
+        "source_id": "nerima-digital-skills-chat-2026-1"
+      }
+    ],
+    "sources": [
+      "nerima-digital-skills-chat-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "midnight-mimosa-android-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "低価格Android端末の利用者（Bitdefenderの観測）",
+    "service": "Androidファームウェア／Midnight Mimosa",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "低価格Android端末のファームウェアに悪性機能、150カ国で感染を観測",
+    "summary": "Bitdefenderは10月8日、低価格Android端末のファームウェアに組み込まれたMidnight Mimosaを報告しました。システム権限を利用してアプリを無断導入し、広告・クリック不正等を行う活動を、約2年間に150カ国の数千の固有端末で観測しています。",
+    "note": "正確な感染台数や利用者人数は不明です。製造・流通の組み込み箇所や関与者を断定しません。端末が示すモデル名は偽装の可能性があり、メーカーへの帰属に用いません。プロキシ機能の存在と実際の転送悪用を区別します。",
+    "affected": [],
+    "sources": [
+      "midnight-mimosa-android-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "poellm-cryptomining-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": null,
+    "company": "公開AI・開発用サーバーの運用者（組織名非公表）",
+    "service": "LiteLLM・Ollama等／PoeLLM",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "公開サーバーへの侵入で暗号資産を採掘、3400超のサーバーを観測",
+    "summary": "Lumen Black Lotus Labsは、公開されたAI・開発用サーバーを侵害し、リモートシェルと暗号資産採掘機能を導入するPoeLLMの活動を報告しました。少なくとも4月から活動し、3400超の被害サーバーを観測しています。",
+    "note": "数量はサーバー数で、人数やアカウント数ではありません。被害組織名・侵入開始日は非公表。AIサーバーが標的であることを、攻撃者のAI利用の証拠とは扱いません。報告は10月7日の新着報道と突合しました。",
+    "affected": [],
+    "sources": [
+      "poellm-cryptomining-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "cctld-registry-hijacks-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "国別ドメインの第三者運営基盤（.gh・.sl・.as）",
+    "service": "ccTLDのDNS・ドメイン管理",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "国別ドメインの運営基盤を侵害、Google等のDNS変更と無許可証明書発行",
+    "summary": "Googleは10月6日、.gh・.sl・.asの第三者運営基盤が侵害され、一部のGoogleおよび他組織のドメインでDNSレコードの変更と無許可の証明書発行が行われたと説明しました。証明書失効とChrome側のブロック対応を実施しています。",
+    "note": "前週に確認された活動ですが正確な侵入開始日は不明です。Googleの内部システムの侵害や認証局の不正としません。被害利用者数・窃取情報の範囲は非公表です。",
+    "affected": [],
+    "sources": [
+      "cctld-registry-hijacks-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
   }
 ]
