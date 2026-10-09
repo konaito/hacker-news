@@ -3176,5 +3176,89 @@
     "type": "primary",
     "url": "https://www.shudo-u.ac.jp/gakuen/information/mh85jl0000000021.html",
     "title": "不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び（第２報）"
+  },
+  {
+    "id": "mie-medical-report-exposure-2026-1",
+    "publisher": "三重県",
+    "type": "primary",
+    "title": "県ホームページでの個人情報の流出について",
+    "url": "https://www.pref.mie.lg.jp/TOPICS/m0015300059.htm"
+  },
+  {
+    "id": "kitakyushu-high-school-form-2026-1",
+    "publisher": "福岡県",
+    "type": "primary",
+    "title": "県立高校における個人情報の漏えい事案について",
+    "url": "https://www.pref.fukuoka.lg.jp/press-release/kojinjyouhou.html"
+  },
+  {
+    "id": "kitakyushu-high-school-form-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "title": "県立高体験入学申込サイトで個人情報が閲覧可能に - 福岡県",
+    "url": "https://www.security-next.com/189480"
+  },
+  {
+    "id": "tsng-site-2026-1",
+    "publisher": "株式会社繋",
+    "type": "primary",
+    "title": "当社システムに対する不正アクセスの発生および情報漏えいの可能性に関する調査結果と現時点で判明している事実に基づく対策について",
+    "url": "https://tsng.co.jp/archives/1116"
+  },
+  {
+    "id": "tsng-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "title": "サーバ上にバックドア等の不正プログラムを設置 ～ 繋が運営するコーポレートサイトに不正アクセス",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56271.html"
+  },
+  {
+    "id": "score-japan-site-2026-1",
+    "publisher": "スコア・ジャパン",
+    "type": "primary",
+    "title": "ウェブサイトへの不正アクセスに関するお詫びとご報告",
+    "url": "https://www.scorejp.com/PDF/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E5%85%AC%E9%96%8B%E7%94%A8%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E3%81%8A%E8%A9%AB%E3%81%B3_20260916.pdf"
+  },
+  {
+    "id": "hi-ho-mypage-2026-1",
+    "publisher": "ハイホー",
+    "type": "primary",
+    "title": "お客様情報への第三者によるアクセスが確認された事案に関するご報告",
+    "url": "https://hi-ho.co.jp/%E3%80%90%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%91%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E3%81%B8%E3%81%AE%E7%AC%AC%E4%B8%89%E8%80%85%E3%81%AB%E3%82%88%E3%82%8B"
+  },
+  {
+    "id": "bankmobile-disbursements-2026-1",
+    "publisher": "Foothill-De Anza Community College District",
+    "type": "primary",
+    "title": "October 02, 2026 — BankMobile security issue and financial aid disbursements",
+    "url": "https://fhda.edu/_chancellor/_chancellors-messages-current/_10.02.2026.html"
+  },
+  {
+    "id": "bankmobile-disbursements-2026-2",
+    "publisher": "Butte College",
+    "type": "primary",
+    "title": "Financial Aid — Important Financial Aid Disbursement Update, October 2026",
+    "url": "https://www.butte.edu/apply-and-pay/financial_aid/"
+  },
+  {
+    "id": "nam-theun2-cyber-2026-1",
+    "publisher": "Nam Theun 2 Power Company",
+    "type": "primary",
+    "title": "Nam Theun 2 Responded to Cybersecurity Event",
+    "url": "https://www.namtheun2.com/lao/nam-theun-2-responded-to-cybersecurity-event/"
+  },
+  {
+    "id": "fortibleed-lockouts-2026-1",
+    "publisher": "FBI / United States Secret Service",
+    "type": "primary",
+    "title": "FortiBleed Operations Continue Targeting Exposed Systems Leading to Reports of Lockouts",
+    "url": "https://www.ic3.gov/CSA/2026/261006.pdf"
+  },
+  {
+    "id": "uranium-finance-verdict-2026-1",
+    "publisher": "米司法省・ニューヨーク南部地区連邦検察",
+    "type": "primary",
+    "title": "Jonathan Spalletta Convicted For Defrauding Crypto Exchange Of Over $50 Million In Hacks",
+    "url": "https://www.justice.gov/usao-sdny/pr/jonathan-spalletta-convicted-defrauding-crypto-exchange-over-50-million-hacks-0"
   }
 ]

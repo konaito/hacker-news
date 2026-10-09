@@ -5552,14 +5552,20 @@
     "status": "possible_leak",
     "display_label": "漏洩の可能性",
     "category": "医療・ヘルスケア",
-    "title": "医療従事者向けサイトに不正アクセス、最大約51万4,000人と従業員約700人の情報漏洩の可能性",
+    "title": "医療従事者・従業員の情報に漏洩の可能性、対象人数を項目別に公表",
     "summary": "委託先が管理する会員データベースへの不正アクセスを受け、医療従事者の氏名・所属施設・職種等と従業員情報が閲覧または取得された可能性を公表。サイトを停止し、侵入経路への是正措置と原因・影響範囲の調査を進めています。",
-    "note": "人数は漏洩の可能性がある対象の最大概数で、窃取が確認された人数ではありません。メールアドレス等も対象となる約4万4,000人は医療従事者約51万4,000人の内数として扱い、加算しません。クレジットカード情報・要配慮個人情報は保管せず、不正利用や再侵入は現時点で確認されていません。10月2日は委託先から報告を受けた日で、攻撃発生日は不明です。",
+    "note": "公式の人数表は、氏名・所属施設等の医療従事者約51万4,000人、メールアドレス等も含む医療従事者約4万4,000人、従業員約700人を別行で示しています。最大概数であり、窃取が確認された人数ではありません。医療従事者の2行の重複関係は明記されていないため、内数や合計人数を断定せず項目別に記録します。クレジットカード情報・要配慮個人情報は保管せず、不正利用や再侵入は現時点で確認されていません。10月2日は委託先から報告を受けた日で、攻撃発生日は不明です。",
     "affected": [
       {
         "count": 514000,
         "unit": "people",
-        "description": "漏洩した可能性がある医療従事者（最大約数）",
+        "description": "氏名・所属施設名・施設住所・職種・診療科等が対象の医療従事者。公式人数表の最大概数。メールアドレスも対象の群との重複関係は明記されていない。",
+        "source_id": "asahi-kasei-pharma-digital-2026-1"
+      },
+      {
+        "count": 44000,
+        "unit": "people",
+        "description": "上記の情報に加えてメールアドレス等も対象となる医療従事者。公式表の別行で示された最大概数。他の群との重複を推定せず合算しない。",
         "source_id": "asahi-kasei-pharma-digital-2026-1"
       },
       {
@@ -5574,8 +5580,8 @@
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
-    "last_verified_at": "2026-10-07",
-    "verification_note": "10月6日公式発表をHTTPS取得し、本文と人数表を確認。10月7日のITmedia報道も読み、可能性・最大数・内数を区別しました。"
+    "last_verified_at": "2026-10-09",
+    "verification_note": "10月9日historical監査で公式本文とHTMLの人数表を再確認。51万4,000人と4万4,000人の内数との断定を除去し、一次表の3行を情報項目別に記録。重複関係が明記されないため合計人数を断定せず、可能性と最大概数を維持。"
   },
   {
     "id": "saltydog-google-ads-2026",
@@ -7705,5 +7711,256 @@
     "first_seen_at": "2026-10-09",
     "last_verified_at": "2026-10-09",
     "verification_note": "出典本文の公表日・侵害の確認範囲・情報項目・数量の単位を照合。未確認の手法、被害人数、AI関与を補わず掲載。"
+  },
+  {
+    "id": "mie-medical-report-exposure-2026",
+    "published_at": "2026-09-05",
+    "occurred_at": "2026-06-17",
+    "company": "三重県",
+    "service": "社会医療法人の事業報告書を掲載した県ホームページ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "官公庁・自治体",
+    "title": "診療日誌をマスキングせず公開、患者71人の氏名や診察情報が流出",
+    "summary": "三重県は9月5日、社会医療法人の報告書に添付された診療日誌を個人情報が含まれたまま県サイトに掲載したと公表しました。6月17日から7月2日まで公開され、患者71人の氏名、診察日、診察券番号、請求金額などが含まれていました。",
+    "note": "特記事項には一部の患者の疾病等も記載。7月2日に外部からの指摘を受けて個人情報を削除し、8月に対象者へ謝罪しました。確認された誤公開であり、攻撃者による窃取や二次利用を確認したものではありません。",
+    "affected": [
+      {
+        "count": 71,
+        "unit": "people",
+        "description": "県ホームページで公開された診療日誌に個人情報が含まれた患者71人。",
+        "source_id": "mie-medical-report-exposure-2026-1"
+      }
+    ],
+    "sources": [
+      "mie-medical-report-exposure-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "kitakyushu-high-school-form-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": "2026-07-03",
+    "company": "福岡県立北九州高校",
+    "service": "体験入学参加者の申込フォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "教育・研究",
+    "title": "体験入学フォームの表示設定に不備、申込者293人の情報が閲覧可能に",
+    "summary": "福岡県立北九州高校の体験入学申込サイトで、7月3日から24日まで、入力確認用のボタンから他の申込者の情報を閲覧できる状態でした。293人分の氏名・ふりがな・質問や相談事項が対象で、県は表示設定の確認不足が原因と説明しています。",
+    "note": "県の一次発表は8月3日で、9月7日の新しい報道を対象として記録。7月24日に中学校からの指摘を受けて設定を修正しました。実際の閲覧数は不明で、293人を窃取された人数とは扱いません。9月公表の介護研修フォーム183人の事案とは別です。",
+    "affected": [
+      {
+        "count": 293,
+        "unit": "people",
+        "description": "他の申込者に閲覧可能だった氏名・質問等の対象293人。実際の閲覧数は不明。",
+        "source_id": "kitakyushu-high-school-form-2026-1"
+      }
+    ],
+    "sources": [
+      "kitakyushu-high-school-form-2026-1",
+      "kitakyushu-high-school-form-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "tsng-site-2026",
+    "published_at": "2026-09-18",
+    "occurred_at": null,
+    "company": "株式会社繋（つなぐ）",
+    "service": "コーポレートサイトと問い合わせフォームのデータベース",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "サービス",
+    "title": "企業サイトに不正な管理者とバックドア、フォーム投稿157件が漏えいした可能性",
+    "summary": "繋は6月29日に企業サイトの異常を検知し、調査で第三者による管理者アカウント作成とバックドア等の設置を確認しました。問い合わせフォーム投稿157件に含まれる氏名、メールアドレス、住所、電話番号等が閲覧・取得可能な状態だったと説明しています。",
+    "note": "8月27日の一次発表を9月18日の新しい報道で確認。157件は投稿件数で人数ではありません。外部持ち出しの直接証跡はないものの、ログの制約から漏えいを否定できないとしています。侵入開始日と経路は不明。通常業務環境への影響は未確認で、サイトは新環境へ移設して再開しました。",
+    "affected": [
+      {
+        "count": 157,
+        "unit": "records",
+        "description": "漏えいの可能性がある問い合わせフォーム投稿157件。人数ではなく、流出の直接証跡は未確認。",
+        "source_id": "tsng-site-2026-1"
+      }
+    ],
+    "sources": [
+      "tsng-site-2026-1",
+      "tsng-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "score-japan-site-2026",
+    "published_at": "2026-09-16",
+    "occurred_at": "2026-09-14",
+    "company": "スコア・ジャパン",
+    "service": "公式ウェブサイトのトップページ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "交通・物流",
+    "title": "企業サイトを改ざん、検索からの閲覧者を無関係なサイトへ誘導",
+    "summary": "スコア・ジャパンは9月16日、公式サイトへの不正アクセスでトップページが改ざんされたと公表しました。9月14日9時14分頃から、検索サイト等を経由した閲覧者が同社と無関係なサイトへ誘導される状態となっていました。",
+    "note": "同社は不正プログラムを除去し、9月14日18時に完全復旧したと説明しています。調査結果では顧客の個人情報等の外部漏えいはないとしています。侵入経路、影響した閲覧者数は非公表です。",
+    "affected": [],
+    "sources": [
+      "score-japan-site-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "hi-ho-mypage-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "ハイホー",
+    "service": "BiZiMo光・光ギガ・CLOUD LINE・Toppa!等の顧客マイページ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "通信",
+    "title": "3万8509契約で不正ログイン、電話勧誘等で得た顧客情報を悪用",
+    "summary": "ハイホーは10月8日、第三者が電話勧誘等で取得した情報を悪用し、顧客になりすましてマイページへログインしたと公表しました。不正ログインは契約単位で3万8509件。氏名、住所、連絡先、契約・請求情報等が閲覧された、または閲覧された可能性があります。",
+    "note": "3万8509件は契約ごとの集計で、顧客人数やアクセス回数へ換算しません。疑わしい通信元を遮断し、電話番号・郵便番号・生年月日を用いるログイン方式を廃止。カード・口座情報はマイページで扱っておらず、基盤への侵入や脆弱性悪用、二次被害は確認されていないと説明しています。報道の契約解除約2500件とは異なる数量です。",
+    "affected": [
+      {
+        "count": 38509,
+        "unit": "records",
+        "description": "不正ログインの契約単位の集計。複数契約を持つ顧客は契約ごとに数え、人数・アクセス回数には換算しない。",
+        "source_id": "hi-ho-mypage-2026-1"
+      }
+    ],
+    "sources": [
+      "hi-ho-mypage-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "bankmobile-disbursements-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "BankMobile / Foothill-De Anza大学区・Butte College",
+    "service": "学生支援金の電子支払い",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "金融",
+    "title": "BankMobileのセキュリティ事件、大学が学生支援金の電子払いを一時停止",
+    "summary": "Foothill-De Anza大学区は10月2日、BankMobileのセキュリティ侵害により電子学生支援金の支払いを予防的に一時停止したと発表しました。Butte Collegeも10月8日分の支援金を紙小切手へ変更し、受け取り・郵送方法を案内しました。",
+    "note": "被影響大学の一次説明が確認する支払いへの影響に限定します。大学区は10月1日の侵害と説明していますが、侵入開始日は未確定。BankMobile側の侵害手法・アカウント数・情報流出・資金損失の範囲は確認できていません。支援金の決定取り消しや恒久的な支払方法変更とは扱いません。",
+    "affected": [],
+    "sources": [
+      "bankmobile-disbursements-2026-1",
+      "bankmobile-disbursements-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "nam-theun2-cyber-2026",
+    "published_at": "2026-09-23",
+    "occurred_at": null,
+    "company": "Nam Theun 2 Power Company（ラオス）",
+    "service": "文書処理・管理業務のシステム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム障害",
+    "category": "エネルギー",
+    "title": "ラオスの水力発電会社でサイバー事件、管理業務に影響も発電は継続",
+    "summary": "Nam Theun 2 Power Companyは9月23日、サイバーセキュリティ事件で文書処理と管理業務の一部が影響を受けたと公表しました。対応・復旧計画を実行し、公表時点ですべてのシステムを復旧したと説明しています。",
+    "note": "発電と水力設備の重要な運用制御システムは影響を受けていないと説明。ラオス当局へ刑事調査のため届け出ています。攻撃の開始日・手法・情報漏えい・数量は非公表で、ランサムウェアや発電停止と推定しません。",
+    "affected": [],
+    "sources": [
+      "nam-theun2-cyber-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "fortibleed-lockouts-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "FortiGate・SSL VPNの利用組織（名称非公表）",
+    "service": "公開されたファイアウォール・VPNの管理アクセス",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "FortiBleed侵害が継続、管理者アカウントの削除・変更で利用組織を締め出し",
+    "summary": "FBIとUSSSは10月6日、公開されたFortinet機器を狙うFortiBleedの実侵害が続いていると警告しました。窃取済みの認証情報等で侵入し、管理者アカウントの追加、既存アカウントの削除やパスワード変更により利用組織を締め出す事例を説明しています。",
+    "note": "一つの認証情報悪用キャンペーンとして記録し、個別被害組織の件数へ分割しません。ネットワーク内の探索や侵入アクセス販売、ランサムウェア関係者の初期侵入経路としての観測があります。資料が引用する8万6644台・194か国はSOCRadar由来の集計で、今回その基礎資料を突合していないためaffectedへ採用しません。個別組織の暗号化・窃取範囲は不明です。",
+    "affected": [],
+    "sources": [
+      "fortibleed-lockouts-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "uranium-finance-april8-2021",
+    "published_at": "2026-10-07",
+    "occurred_at": "2021-04-08",
+    "company": "Uranium Finance",
+    "service": "暗号資産交換基盤の報酬用スマートコントラクト",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "2021年の不正報酬引き出しで有罪評決、約140万ドルを取得した第1の攻撃",
+    "summary": "米司法省は10月7日の有罪評決発表で、2021年4月8日にUranium Financeのスマートコントラクトを悪用し、認められた額を超える報酬を繰り返し引き出して約140万ドルの暗号資産を取得した攻撃を説明しました。",
+    "note": "発生日は2021年で、対象期間内の新しい裁判結果を記録します。返還の条件として約38万6000ドルを保持したと司法省が説明。4月28日の別の脆弱性による攻撃とは分けます。金額を被害人数・レコード数へ換算せず、個人情報漏えいは確認しません。",
+    "affected": [],
+    "sources": [
+      "uranium-finance-verdict-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "uranium-finance-april28-2021",
+    "published_at": "2026-10-07",
+    "occurred_at": "2021-04-28",
+    "company": "Uranium Finance",
+    "service": "暗号資産交換基盤の流動性プール用スマートコントラクト",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "2021年の暗号資産約5330万ドル窃取で有罪評決、資金不足により取引基盤が閉鎖",
+    "summary": "米司法省は10月7日の有罪評決発表で、2021年4月28日にUranium Financeの引き出し額を制御するスマートコントラクトの誤りを悪用し、複数の流動性プールから約5330万ドルの暗号資産を取得した攻撃を説明しました。資金不足により同基盤は閉鎖しました。",
+    "note": "発生日は2021年で、対象期間内の新しい裁判結果を記録します。4月8日の不正報酬引き出しとは異なる攻撃です。司法省は窃取資金の洗浄と2025年の一部資産押収も説明していますが、金額を被害人数へ換算しません。個人情報の窃取を示すものではありません。",
+    "affected": [],
+    "sources": [
+      "uranium-finance-verdict-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
   }
 ]
