@@ -35,7 +35,10 @@ def run(command, **kwargs):
                 real_run(['git', 'add', 'public/style.css'], check=True)
         report = action['report']
         report['completed_at'] = datetime.now(timezone.utc).isoformat()
-        (root / '.audit/fresh/current-report.json').write_text(json.dumps(report))
+        if not action.get('missing_report'):
+            (root / '.audit/fresh/current-report.json').write_text(json.dumps(report))
+        if action.get('timeout'):
+            raise subprocess.TimeoutExpired(command, kwargs['timeout'])
         return subprocess.CompletedProcess(command, 0)
     if command[0] in {'python3', 'node'}:
         return subprocess.CompletedProcess(command, 0)
@@ -187,6 +190,56 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(self.git('rev-parse', 'HEAD'), committed)
         self.assertEqual(self.git('rev-parse', 'origin/main'), committed)
         self.assertEqual((self.root / '.audit/research-calls').read_text(), '1')
+
+    def test_timeout_after_valid_report_publishes_verified_changes(self):
+        action = self.prepare(unrelated=False)
+        action['timeout'] = True
+        self.write('.audit/action.json', json.dumps(action))
+        result = self.audit()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertNotEqual(self.git('rev-parse', 'HEAD'), self.base)
+        self.assertEqual(self.git('rev-parse', 'HEAD'), self.git('rev-parse', 'origin/main'))
+        self.assertEqual(self.git('status', '--porcelain'), '')
+        self.assertTrue((self.state / 'last-success.json').exists())
+        self.assertFalse((self.state / 'publication-retry.json').exists())
+
+    def test_timeout_with_unrelated_edits_saves_verified_audit_for_retry(self):
+        action = self.prepare(staged=True)
+        action['timeout'] = True
+        self.write('.audit/action.json', json.dumps(action))
+        self.assertNotEqual(self.audit().returncode, 0)
+        self.assert_saved()
+        self.assertEqual(self.git('diff', '--cached', '--name-only'), 'public/style.css')
+        self.git('commit', '-m', 'Finish user interface edit')
+        result = self.audit()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual((self.root / '.audit/research-calls').read_text(), '1')
+
+    def test_timeout_without_report_preserves_data_without_publishing(self):
+        action = self.prepare(unrelated=False)
+        action.update(timeout=True, missing_report=True)
+        self.write('.audit/action.json', json.dumps(action))
+        # A previous report must not make an incomplete new audit publishable.
+        old_report = dict(action['report'], completed_at='2026-10-07T00:00:00+00:00')
+        self.write('.audit/fresh/current-report.json', json.dumps(old_report))
+        result = self.audit()
+        self.assertIn('timed out without a discovery report', result.stderr)
+        self.assertEqual(self.git('rev-parse', 'HEAD'), self.base)
+        self.assertEqual(self.git('rev-parse', 'origin/main'), self.base)
+        self.assertIn('Verified follow-up', (self.root / 'data/incidents.json').read_text())
+        self.assertFalse((self.state / 'last-success.json').exists())
+        self.assertFalse((self.state / 'publication-retry.json').exists())
+
+    def test_timeout_with_invalid_report_does_not_publish(self):
+        action = self.prepare(unrelated=False)
+        action['timeout'] = True
+        action['report']['source_checks'] = {}
+        self.write('.audit/action.json', json.dumps(action))
+        result = self.audit()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertEqual(self.git('rev-parse', 'HEAD'), self.base)
+        self.assertFalse((self.state / 'last-success.json').exists())
+        self.assertFalse((self.state / 'publication-retry.json').exists())
 
     def test_newer_remote_commit_is_not_overwritten(self):
         self.prepare()

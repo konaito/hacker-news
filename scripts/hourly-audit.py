@@ -117,10 +117,15 @@ if not recovery and not args.resume_from:
     prompt += '\n今回の必須再調査候補（runnerが過去報告とpendingから抽出）:\n'
     prompt += json.dumps(carryover, ensure_ascii=False, indent=2)
     prompt += '\n各候補を実際に再調査し、元urlまたはincident_idを維持してcandidatesへ判断を記録する。未検証の情報を事実として掲載しない。\n'
-    run(['codex', 'exec', '-C', str(ROOT), '-s', 'danger-full-access',
-         '-c', 'approval_policy="never"', '-c', 'web_search="live"',
-         '-o', str(MODE_STATE / 'last-response.txt'), '-'], input=prompt, text=True,
-        timeout=1500 if args.mode == 'fresh' else 3000)
+    try:
+        run(['codex', 'exec', '-C', str(ROOT), '-s', 'danger-full-access',
+             '-c', 'approval_policy="never"', '-c', 'web_search="live"',
+             '-o', str(MODE_STATE / 'last-response.txt'), '-'], input=prompt, text=True,
+            timeout=1500 if args.mode == 'fresh' else 3000)
+    except subprocess.TimeoutExpired:
+        if not report_path.exists():
+            raise SystemExit('Audit timed out without a discovery report; preserve edits for manual reconciliation.')
+        print('Audit process timed out; checking its report before publication.', flush=True)
 if not report_path.exists():
     raise SystemExit('Audit did not produce a discovery report.')
 completion = json.loads(report_path.read_text())

@@ -70,6 +70,8 @@ Fresh discovery must cover domestic media, international media, official announc
 
 Schema-v2 reports also require `quality_version: 1`, domestic/international `listing_checks` with at least two available media domains per route, and `source_checks` stating the body-supported claims for every source of a changed published record. Actual record/source differences must match `changed_ids` and candidate decisions. The runner folds past reports and preserves unresolved leads in ignored `.audit/<mode>/carryover-input.json`; absence from a later report never resolves a candidate. Fresh rechecks high-priority deferred leads and recent pending records; historical rechecks all deferred leads and pending records. These checks improve accountability but cannot prove research completeness or truth.
 
+If the research process times out after writing its report, the runner still validates that report against the original start time, actual data changes, source checks, and required candidates before publication. A timeout without a report, or with an invalid report, remains a failure and preserves edits without advancing success checkpoints.
+
 ## Commands and Verification
 
 Run from the repository root:
