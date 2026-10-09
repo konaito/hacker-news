@@ -3449,5 +3449,75 @@
     "type": "primary",
     "url": "https://www.idcf.jp/news/topics/20261009001",
     "title": "第4報：不正アクセスによる障害への対応体制について"
+  },
+  {
+    "id": "coconala-skillmarket-2026-1",
+    "publisher": "ココナラ",
+    "type": "primary",
+    "url": "https://coconala.co.jp/news-20261009/",
+    "title": "「ココナラスキルマーケット」への不正アクセスによる個人情報漏洩に関するお詫びとお知らせ"
+  },
+  {
+    "id": "enecom-network-2026-1",
+    "publisher": "エネコム",
+    "type": "primary",
+    "url": "https://www.enecom.co.jp/information/3920/",
+    "title": "当社の社内ネットワークへの不正アクセスについて"
+  },
+  {
+    "id": "baitoru-email-2026-1",
+    "publisher": "ディップ",
+    "type": "primary",
+    "url": "https://www.dip-net.co.jp/news/2192",
+    "title": "「バイトル」「バイトルNEXT」不正アクセスによる一部メールアドレス漏えいに関するお知らせとお詫び"
+  },
+  {
+    "id": "ahsaycbs-exploitation-2026-1",
+    "publisher": "Huntress",
+    "type": "primary",
+    "url": "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+    "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer"
+  },
+  {
+    "id": "irhythm-business-apps-2026-1",
+    "publisher": "iRhythm（カリフォルニア州司法長官公開の通知書）",
+    "type": "primary",
+    "url": "https://oag.ca.gov/system/files/iRhythm_NoticeLetter_2026%20Incident.pdf",
+    "title": "iRhythm Notice Letter — October 2, 2026"
+  },
+  {
+    "id": "paperlogic-2026-2",
+    "publisher": "ペーパーロジック",
+    "type": "primary",
+    "url": "https://paperlogic.co.jp/post_17055/",
+    "title": "9月1日付「当社サービスへの不正アクセスに関するお知らせ」の続報"
+  },
+  {
+    "id": "newspicks-admin-2026-3",
+    "publisher": "ユーザベース／NewsPicks",
+    "type": "primary",
+    "url": "https://newspicks.zendesk.com/hc/ja/articles/63037211092633--%E7%AC%AC%E4%BA%8C%E5%A0%B1-NewsPicks%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+    "title": "【第二報】NewsPicksのお客様の個人情報漏洩の可能性に関するお詫びとお知らせ"
+  },
+  {
+    "id": "newspicks-admin-2026-4",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002175/",
+    "title": "NewsPicks、メアド32.3万件やクレカ情報の一部36.2万件漏えいか【訂正あり】"
+  },
+  {
+    "id": "fbi-jobs-2026-3",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
+    "title": "FBI touts another ShinyHunters arrest in response to data breach"
+  },
+  {
+    "id": "fbi-jobs-2026-4",
+    "publisher": "Associated Press（ABC News配信）",
+    "type": "reporting",
+    "url": "https://abcnews.com/US/wireStory/fbi-arrests-suspect-shinyhunters-hack-bureaus-jobs-portal-137133935",
+    "title": "FBI arrests suspect in ShinyHunters hack of the bureau’s jobs portal"
   }
 ]
