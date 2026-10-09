@@ -7962,5 +7962,178 @@
     "first_seen_at": "2026-10-09",
     "last_verified_at": "2026-10-09",
     "verification_note": "今回のhistorical監査で出典本文を確認。一次資料が裏付ける範囲に限定し、確認された事実と未確認事項、発生日と公表日、数量の単位を区別。既存レコードと照合して新規事件として整理。"
+  },
+  {
+    "id": "daiichikosho-vendor-malware-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "第一興商（委託先：日本コロムビアグループ）",
+    "service": "店舗会員・予約情報等の委託業務",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "エンタメ",
+    "title": "委託先PCの感染で約872万4,000件の顧客・従業員情報に漏洩のおそれ",
+    "summary": "第一興商は10月8日、個人情報の取扱いを委託する日本コロムビアグループの従業員PC1台がマルウェアに感染したと公表しました。端末に一時保管された顧客・従業員情報について、氏名、性別、生年月日、メールアドレス、電話番号などが漏洩した可能性を否定できないとしています。",
+    "note": "実際の外部漏洩や不正利用、第一興商のシステムへの影響は確認されていません。約872万4,000件は公式の重複調整後の情報件数で、人数や確定流出件数には換算しません。10月1～2日は感染の判明時期で、侵入開始日は不明です。対象にパスワードは含まれません。",
+    "affected": [
+      {
+        "count": 8724000,
+        "unit": "records",
+        "description": "公式の重複調整後の顧客・従業員情報の合計約数。漏洩可能性の対象で、人数・確定流出数ではない。",
+        "source_id": "daiichikosho-vendor-malware-2026-1"
+      }
+    ],
+    "sources": [
+      "daiichikosho-vendor-malware-2026-1",
+      "daiichikosho-vendor-malware-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
+  },
+  {
+    "id": "fakegit-account-takeovers-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "GitHub開発者アカウント（Apiiroの分析）",
+    "service": "FakeGitによるアカウント乗っ取りと悪性ZIP配布",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "FakeGitが開発者アカウントを乗っ取り、悪性ダウンロード先へ再誘導",
+    "summary": "Apiiroは10月6日、FakeGitの悪性リポジトリ群を分析し、第三者の過去の活動記録で確認できる実在開発者アカウント219件の乗っ取りを特定したと公表しました。10月4～6日には既存リポジトリのREADMEを集中的に変更し、SmartLoaderを含むZIPへ誘導する活動を観測しています。",
+    "note": "219件は研究者が証拠を突合したアカウント数で、感染端末数や被害人数ではありません。約700アカウントは推定であり採用しません。悪性リポジトリ1万7610件も実感染数へ換算しません。乗っ取りの開始日は特定せず、一連の継続活動として記録します。",
+    "affected": [
+      {
+        "count": 219,
+        "unit": "accounts",
+        "description": "Apiiroが第三者の過去の活動記録と不正変更を突合して特定した実在開発者の乗っ取りアカウント。感染端末数ではない。",
+        "source_id": "fakegit-account-takeovers-2026-1"
+      }
+    ],
+    "sources": [
+      "fakegit-account-takeovers-2026-1",
+      "fakegit-account-takeovers-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
+  },
+  {
+    "id": "fishhub-flax-typhoon-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "台湾の大学等（米司法省が公表した被害組織）",
+    "service": "FishHubによるスピアフィッシング後の侵害活動",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "FishHubによる大学等への実侵害を公表、米当局が攻撃基盤を押収",
+    "summary": "米司法省とFBIは10月8日、Flax Typhoonに関連する攻撃ツール基盤の押収を公表しました。FishHubを用いた活動では、スピアフィッシング後の追加マルウェアによって不正な遠隔アクセスやファイルの外部送信が行われ、台湾の大学への実被害が確認されたとしています。",
+    "note": "FishHubの実侵害活動に範囲を限定します。Microscanによる日本・ポーランドの空港などへの脆弱性スキャンを、空港侵害や運航障害の確認には代えません。被害件数を集計せず、2024年に摘発されたMiraiボットネットの20万台を今回の件数には含めません。",
+    "affected": [],
+    "sources": [
+      "fishhub-flax-typhoon-2026-1",
+      "fishhub-flax-typhoon-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
+  },
+  {
+    "id": "netscaler-saml-dos-2026",
+    "published_at": "2026-10-04",
+    "occurred_at": null,
+    "company": "NetScaler ADC・Gatewayの利用組織（名称非公表）",
+    "service": "SAML構成へのCVE-2026-88779悪用",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "IT・クラウド",
+    "title": "NetScalerのSAML構成を狙うDoS攻撃、Citrixが実悪用と対策を説明",
+    "summary": "CitrixはNetScaler ADCとGatewayのSAML構成にあるCVE-2026-88779について、標的型攻撃を観測したと説明しています。この攻撃はサービス不能を引き起こすもので、同社は修正版と設定による軽減策を案内しました。",
+    "note": "公表されたDoS攻撃活動を一件として記録します。被害組織名・停止台数・停止期間は非公表です。別のCVE-2026-88771・88772やRCEの攻撃とは統合せず、情報窃取を推定しません。Citrixはデータ完全性への影響を確認していないと説明しています。",
+    "affected": [],
+    "sources": [
+      "netscaler-saml-dos-2026-1",
+      "netscaler-saml-dos-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
+  },
+  {
+    "id": "south-korea-church-a-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "韓国の大規模宗教団体A（一次分析では匿名）",
+    "service": "ERP・データベース・NAS",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "その他",
+    "title": "韓国の宗教団体AでERPから侵入、会員・給与・会計データを持ち出し",
+    "summary": "Oasis Securityは10月6日、韓国の宗教団体Aへの侵害を分析し、ERPのWebShellからデータベース管理者権限を取得され、会員・給与・会計等のデータが外部へ持ち出されたと報告しました。攻撃者側サーバーのファイルと転送ログなどを突合した分析です。",
+    "note": "一次分析の被害組織Aに限定します。報道された教会名や会員85万人との対応を推定せず、約96万レコード等を人数へ換算しません。被害組織Bは侵入経路も異なる別事件として記録します。AIを使った攻撃との分類は行いません。",
+    "affected": [],
+    "sources": [
+      "south-korea-church-intrusions-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
+  },
+  {
+    "id": "south-korea-church-b-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "韓国の大規模宗教団体B（一次分析では匿名）",
+    "service": "グループウェア・SIMS・SAP",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "その他",
+    "title": "韓国の宗教団体Bで認証情報とIDORを悪用、会員・職員情報を持ち出し",
+    "summary": "Oasis Securityは10月6日、韓国の宗教団体Bへの侵害を分析し、既に流出していた認証情報とIDORを悪用してグループウェアやSIMSへアクセスされたと報告しました。SSO経由でSAPにも到達し、会員・職員の個人情報などが攻撃者側の収集データから確認されています。",
+    "note": "一次分析の被害組織Bに限定し、匿名の組織を報道の教会名へ推定対応しません。複数システムのデータに重複の可能性があるため人数やレコード数は集計しません。AI関与の分類は行いません。",
+    "affected": [],
+    "sources": [
+      "south-korea-church-intrusions-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
+  },
+  {
+    "id": "st-andrews-adelaide-breach-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "St Andrew’s Hospital（豪アデレード）",
+    "service": "病院のサーバー内の個人情報",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "医療・福祉",
+    "title": "病院サーバーの個人情報を持ち出し、影響を受けた対象者へ通知",
+    "summary": "豪アデレードのSt Andrew’s Hospitalでサーバー内データが外部へダウンロードされ、個人情報侵害の対象者への通知が行われると報じられました。ABCと7NEWSの独立した記事本文で病院の説明を確認しました。病院は専門家による調査と、個人情報保護・サイバーセキュリティ当局への報告を説明しています。",
+    "note": "被害人数と侵入開始日は非公表のため補いません。データ項目の詳細は媒体ごとの記述が異なるため列挙しません。救急部門の閉鎖は経営上の判断として報じられており、今回のサイバー事件による停止とは扱いません。",
+    "affected": [],
+    "sources": [
+      "st-andrews-adelaide-breach-2026-1",
+      "st-andrews-adelaide-breach-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "参照する全出典の本文を確認し、既存事件と照合。一次分析または独立した報道2媒体で実被害の記述を確認。公表日と発生日、観測規模と被害人数を区別して掲載。"
   }
 ]

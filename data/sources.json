@@ -3260,5 +3260,82 @@
     "type": "primary",
     "title": "Jonathan Spalletta Convicted For Defrauding Crypto Exchange Of Over $50 Million In Hacks",
     "url": "https://www.justice.gov/usao-sdny/pr/jonathan-spalletta-convicted-defrauding-crypto-exchange-over-50-million-hacks-0"
+  },
+  {
+    "id": "daiichikosho-vendor-malware-2026-1",
+    "publisher": "第一興商",
+    "type": "primary",
+    "url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+    "title": "委託先における個人情報漏えいのおそれについて"
+  },
+  {
+    "id": "daiichikosho-vendor-malware-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002154/",
+    "title": "ビッグエコー会員ら872万件の個人情報漏えいか　第一興商、委託先PCがマルウェア感染"
+  },
+  {
+    "id": "fakegit-account-takeovers-2026-1",
+    "publisher": "Apiiro",
+    "type": "primary",
+    "url": "https://apiiro.com/blog/never-deleted-only-re-pointed",
+    "title": "Never Deleted, Only Re-Pointed: Inside the 17,600-Repo FakeGit Fleet That Re-Arms Overnight"
+  },
+  {
+    "id": "fakegit-account-takeovers-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+    "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos"
+  },
+  {
+    "id": "fishhub-flax-typhoon-2026-1",
+    "publisher": "米司法省",
+    "type": "primary",
+    "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated",
+    "title": "Justice Department and FBI Seize Vulnerability Scanning and Spear Phishing Tools Operated and Used by China-State Sponsored Hackers"
+  },
+  {
+    "id": "fishhub-flax-typhoon-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+    "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure"
+  },
+  {
+    "id": "netscaler-saml-dos-2026-1",
+    "publisher": "Citrix",
+    "type": "primary",
+    "url": "https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway/",
+    "title": "Understanding and Addressing CVE-2026-88779 in Citrix NetScaler ADC and Citrix NetScaler Gateway"
+  },
+  {
+    "id": "netscaler-saml-dos-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+    "title": "Citrix patches NetScaler SAML zero-day exploited in attacks"
+  },
+  {
+    "id": "south-korea-church-intrusions-2026-1",
+    "publisher": "Oasis Security",
+    "type": "primary",
+    "url": "https://oasis-security.io/blog/Analysis-of-Cyber-Intrusions-Targeting-Major-Religious-Organizations-in-South-Korea",
+    "title": "Analysis of Cyber Intrusions Targeting Major Religious Organizations in South Korea"
+  },
+  {
+    "id": "st-andrews-adelaide-breach-2026-1",
+    "publisher": "ABC News",
+    "type": "reporting",
+    "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+    "title": "St Andrew’s Hospital: Group of individuals impacted by data breach at SA hospital"
+  },
+  {
+    "id": "st-andrews-adelaide-breach-2026-2",
+    "publisher": "7NEWS",
+    "type": "reporting",
+    "url": "https://7news.com.au/news/patients-notified-after-personal-data-stolen-in-cyberattack-on-st-andrews-hospital-in-adelaide-c-22986855",
+    "title": "Patients notified after personal data stolen in cyberattack on St Andrew’s Hospital in Adelaide"
   }
 ]
