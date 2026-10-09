@@ -3365,5 +3365,54 @@
     "type": "reporting",
     "url": "https://therecord.media/russia-ukraine-malware-transportation",
     "title": "Russian-aligned spies upgrade malware used in attacks on Ukrainian transport, energy firms"
+  },
+  {
+    "id": "andersen-client-files-2026-1",
+    "publisher": "Andersen Group",
+    "type": "primary",
+    "url": "https://investor.andersen.com/news-events/investor-press-releases/detail/261/andersen-group-inc-announces-resolution-of-limited-security-incident",
+    "title": "Andersen Group Inc. Announces Resolution of Limited Security Incident"
+  },
+  {
+    "id": "japan-swagelok-fst-2026-1",
+    "publisher": "日本スウェージロックFST（スウェージロック・ジャパン）",
+    "type": "primary",
+    "url": "https://www.japan.swagelok.com/whatsnew/system.outage.notification3",
+    "title": "重要なお知らせ: 社内ネットワークシステム不具合に伴う業務停止について（続報）"
+  },
+  {
+    "id": "japan-swagelok-fst-2026-2",
+    "publisher": "日本スウェージロックFST（スウェージロック・ジャパン）",
+    "type": "primary",
+    "url": "https://www.japan.swagelok.com/whatsnew/system.outage.notification4",
+    "title": "重要なお知らせ: 社内ネットワークシステム不具合に伴う業務停止からの一部業務再開について（3月18日訂正）"
+  },
+  {
+    "id": "japan-swagelok-fst-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+    "title": "日本スウェージロックFST にランサムウェア攻撃"
+  },
+  {
+    "id": "oracle-health-cerner-2025-1",
+    "publisher": "Cerner利用医療機関（通知書をカリフォルニア州司法長官事務所が公開）",
+    "type": "primary",
+    "url": "https://oag.ca.gov/system/files/EXP_SampleIndividual%20Letter_1_Redacted.pdf",
+    "title": "Cerner Corporationの届出に添付された患者宛Notice of Data Breach（2025年7月25日付）"
+  },
+  {
+    "id": "oracle-health-cerner-2025-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
+    "title": "Oracle Health Data Breach Tally Climbs to Nearly 20 Million"
+  },
+  {
+    "id": "andover-town-schools-2026-1",
+    "publisher": "Andover News",
+    "type": "reporting",
+    "url": "https://andovermanews.com/andover-confirms-unauthorized-access-to-systems-during-cyberattack/",
+    "title": "Andover Confirms Unauthorized Access To Systems During Cyberattack"
   }
 ]

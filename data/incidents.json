@@ -8160,5 +8160,96 @@
     "first_seen_at": "2026-10-09",
     "last_verified_at": "2026-10-09",
     "verification_note": "ESETの10月8日一次分析本文とThe Record同日記事本文をWebツールで確認。テレメトリによる実感染観測を研究上の能力説明と区別し、観測時期・業種・機能を突合。複数の匿名被害先を人数や組織数へ換算せずキャンペーン単位で掲載。"
+  },
+  {
+    "id": "andersen-client-files-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "Andersen Group",
+    "service": "一部顧客情報を含む会社ファイル",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融・保険",
+    "title": "従業員へのソーシャルエンジニアリングで一部顧客ファイルに不正アクセス",
+    "summary": "10月6日、従業員1人を狙ったソーシャルエンジニアリングにより、限られた顧客の情報を含む会社ファイルへ不正アクセスがあったと公表しました。フォレンジック調査を完了し、対象顧客への通知を行っています。",
+    "note": "より広範なシステムへの不正アクセスや業務への影響は確認されていないと説明しています。顧客数、情報項目、外部持ち出しの有無・範囲、侵入開始日は非公表です。従業員1人という侵入口の数を被害顧客数に置き換えません。",
+    "affected": [],
+    "sources": [
+      "andersen-client-files-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "10月6日の会社IR発表全文をWebツールで確認。不正アクセスの対象、限定された範囲、調査完了、顧客通知を突合し、窃取確認や被害人数を補わず掲載。"
+  },
+  {
+    "id": "japan-swagelok-fst-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": "2026-03-10",
+    "company": "日本スウェージロックFST",
+    "service": "社内ネットワーク・受注・出荷業務",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "ランサム被害",
+    "category": "製造・メーカー",
+    "title": "サーバーへのランサムウェア攻撃で受注・出荷を停止、出荷業務を順次再開",
+    "summary": "9月11日の報道で再確認した3月10日のランサムウェア事件。会社の3月12日発表は、サーバーへの攻撃と電話・電子メール・FAXの不通、受注・出荷を含む全業務の停止を説明しています。3月17日には出荷業務の順次再開を案内しました。",
+    "note": "3月17日の続報は3月18日訂正を含みます。一部業務の再開を完全復旧とは扱いません。9月の報道が参照する8月26日の詳細発表は取得できず、個人情報漏えいの有無や対象件数を確定しません。対象期間内の報道と取得できた会社発表で、障害の事実に範囲を限定して記録します。",
+    "affected": [],
+    "sources": [
+      "japan-swagelok-fst-2026-1",
+      "japan-swagelok-fst-2026-2",
+      "japan-swagelok-fst-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "必須持ち越し候補を再調査。ScanNetSecurity9月11日本文と、代替取得できた会社公式の3月12日・3月17日（18日訂正）発表全文を確認。元の8月26日発表URLは404で、そこに依拠する漏えいの主張は採用せず、ランサムウェア障害と業務再開に限定。"
+  },
+  {
+    "id": "oracle-health-cerner-2025",
+    "published_at": "2026-10-08",
+    "occurred_at": "2025-01-22",
+    "company": "Oracle Health / Cerner",
+    "service": "旧Cernerの電子カルテシステム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "医療・ヘルスケア",
+    "title": "旧Cernerの電子カルテから情報取得を確認、2025年事件の影響について続報",
+    "summary": "10月8日に影響範囲の拡大が報道された2025年の事件。カリフォルニア州当局が公開する患者通知書は、第三者が旧Cernerシステムへ不正アクセスし、データを取得したことを説明しています。氏名・社会保障番号・診療記録等が対象となる可能性があります。",
+    "note": "発生日欄は通知書がアクセス時期として示す2025年1月22日です。「少なくとも同日から」とされ、実際の侵入開始日は確定していません。通知書は2025年7月25日付で、2026年10月の報道は続報です。報道の「約2,000万人」は別媒体の集計に依拠し、医療機関・州通知の重複を突合できないため影響人数に採用しません。通知書の情報項目は人によって異なり、全対象者の全項目流出を確認したものではありません。",
+    "affected": [],
+    "sources": [
+      "oracle-health-cerner-2025-1",
+      "oracle-health-cerner-2025-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "SecurityWeek10月8日本文と、カリフォルニア州司法長官事務所がCerner Corporationの届出に掲載した2025年7月25日付患者通知PDFの本文を確認。州の届出一覧も通常HTTPSで取得し、会社名・2025年1月22日の発生日・7月25日の届出日を照合。窃取確認と各個人への影響可能性を区別し、未突合の集計人数は記録しない。"
+  },
+  {
+    "id": "andover-town-schools-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": "2026-08-13",
+    "company": "Andover町・公立学校（米マサチューセッツ州）",
+    "service": "自治体・学校ネットワーク",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "検証待ち",
+    "category": "行政・公共",
+    "title": "自治体が一部システムへの不正アクセスを認めたとの続報を検証中",
+    "summary": "Andover Newsは10月8日、8月のサイバー攻撃について町の担当者から書面回答を得て、一部システムへの不正アクセスを確認したと報じました。取得された情報の範囲や機密性は調査中としています。",
+    "note": "自治体の回答を掲載した1媒体の本文のみ確認。直接読める自治体発表または独立した別媒体の本文による確認まで非公開とします。他の記事による同媒体の引用を独立確認として数えません。攻撃者の窃取・販売主張や人数は採用せず、affectedは空欄に維持。発生日は同媒体が報じる8月13日で、一次資料未確認です。",
+    "affected": [],
+    "sources": [
+      "andover-town-schools-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-09",
+    "last_verified_at": "2026-10-09",
+    "verification_note": "Andover News10月8日本文の町広報担当者の書面回答、ネットワーク停止と復旧の説明を確認。自治体公式サイトと別報道を検索したが一次本文または独立した2媒体による突合条件を満たさずpendingで記録。"
   }
 ]
