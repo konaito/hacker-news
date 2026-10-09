@@ -2994,5 +2994,61 @@
     "type": "primary",
     "url": "https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2026/okt/datatilsynet-er-opmaerksom-paa-sag-om-opslag-i-cpr",
     "title": "Datatilsynet er opmærksom på sag om opslag i CPR"
+  },
+  {
+    "id": "idcf-cloud-2026-2",
+    "publisher": "IDCフロンティア",
+    "type": "primary",
+    "url": "https://www.idcf.jp/news/topics/20261007002",
+    "title": "【第2報】当社サービスの一部システムに対する不正アクセスについて"
+  },
+  {
+    "id": "southern-company-portal-2026-1",
+    "publisher": "Southern Company",
+    "type": "primary",
+    "url": "https://www.southerncompany.com/miscellaneous-pages/georgia-power-information-regarding-recent-incident-involving-customer-information.html",
+    "title": "Georgia Power - Information Regarding a Recent Incident Involving Customer Information"
+  },
+  {
+    "id": "southern-company-portal-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/",
+    "title": "Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts"
+  },
+  {
+    "id": "toyama-prefectural-student-account-2026-1",
+    "publisher": "富山県立大学",
+    "type": "primary",
+    "url": "https://www.pu-toyama.ac.jp/tpu/wp-content/uploads/2026/10/cc49cf00e6743e12275fab538f8fed79.pdf",
+    "title": "学生のクラウドサービスアカウントに対する不正アクセスについて"
+  },
+  {
+    "id": "saitama-shibusawa-mix-2026-1",
+    "publisher": "埼玉県",
+    "type": "primary",
+    "url": "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html",
+    "title": "渋沢MIXの管理システムへの不正アクセスについて"
+  },
+  {
+    "id": "applynow-osaka-2026-1",
+    "publisher": "大阪市",
+    "type": "primary",
+    "url": "https://www.city.osaka.lg.jp/hodoshiryo/gyouseiiinkai/0000688062.html",
+    "title": "採用試験録画面接システム事業者における個人情報の漏えいについて"
+  },
+  {
+    "id": "applynow-miyoshi-2026-1",
+    "publisher": "みよし市",
+    "type": "primary",
+    "url": "https://www.city.aichi-miyoshi.lg.jp/soshiki/somu/jinji/3/2/11928.html",
+    "title": "職員採用試験の応募者に係る個人情報漏えいの可能性について（お知らせとお詫び）"
+  },
+  {
+    "id": "applynow-municipal-report-2026-1",
+    "publisher": "ASCII.jp",
+    "type": "reporting",
+    "url": "https://ascii.jp/elem/000/004/436/4436399/?topnew=1",
+    "title": "職員採用試験システムへの不正アクセス、全国で相次ぐ　受験者の情報漏えいか"
   }
 ]

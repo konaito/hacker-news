@@ -951,15 +951,15 @@
     "id": "applynow-2026",
     "published_at": "2026-09-30",
     "occurred_at": "2026-08-09",
-    "company": "ApplyNow / 吉野家・はなまる・ナカバヤシ",
+    "company": "ApplyNow / 吉野家・はなまる・ナカバヤシ・大阪市・みよし市",
     "service": "採用管理プラットフォーム",
     "region": "JP",
     "status": "confirmed_leak",
     "display_label": "漏洩確認",
     "category": "IT・クラウド",
-    "title": "採用管理基盤の侵害、吉野家グループとナカバヤシが応募者情報への影響を公表",
-    "summary": "ApplyNowのデータ分析ツールの脆弱性を悪用した不正アクセスで、吉野家・はなまるの応募者と採用担当者の情報が漏洩しました。両社は計5,784アカウントを公表。10月6日にはナカバヤシも、2020～2023年の新卒採用応募者の個人情報1,826件への影響を公表しました。",
-    "note": "吉野家側の発表では不正アクセス期間は8月9日～9月7日で、9月7日に不正なデータ出力を確認。5,784件は重複のあるアカウント数で人数と一致しません。ナカバヤシは発生日を9月6日、対象を1,826件と記載し、事象説明では漏洩の可能性としています。単位・確度の異なる両社の数値を合算せず、ApplyNow全体の被害件数とも扱いません。両社とも面接動画は対象外と説明しています。",
+    "title": "採用管理基盤の侵害、企業の応募者情報に加え自治体の採用試験にも影響",
+    "summary": "ApplyNowのデータ分析ツールの脆弱性を悪用した不正アクセスで、吉野家・はなまるの応募者と採用担当者の情報が漏洩しました。両社は計5,784アカウントを公表。ナカバヤシは1,826件への影響を公表し、大阪市は採用試験応募者106人の漏洩を確定。みよし市も登録者1,035件に漏洩の可能性があると発表しています。",
+    "note": "吉野家側の不正アクセス期間は8月9日～9月7日で、5,784は重複のあるアカウント数です。ナカバヤシは発生日を9月6日と記載し、事象欄では漏洩の可能性と説明。大阪市は9月24日の調査報告で106人の漏洩を確定し10月1日に公表。みよし市は10月2日公表で1,035件への漏洩の可能性としています。人数・アカウント・件数、確定と可能性を合算せず、ApplyNow全体の総数とも扱いません。面接動画は対象外と説明されています。大阪市の公式発表は事業者名を明記しておらず、ApplyNowとの対応は同じ期間・原因とASCIIの自治体利用に関する報道で照合しています。",
     "affected": [
       {
         "count": 4998,
@@ -984,16 +984,31 @@
         "unit": "records",
         "description": "ナカバヤシの新卒採用応募者の個人情報の対象件数。事象説明では漏洩の可能性と記載。",
         "source_id": "applynow-nakabayashi-2026-1"
+      },
+      {
+        "count": 106,
+        "unit": "people",
+        "description": "大阪市の採用試験応募者で個人情報漏洩が確定した106名。",
+        "source_id": "applynow-osaka-2026-1"
+      },
+      {
+        "count": 1035,
+        "unit": "records",
+        "description": "みよし市の録画面接システム登録者情報1,035件。漏洩の可能性。",
+        "source_id": "applynow-miyoshi-2026-1"
       }
     ],
     "sources": [
       "applynow-2026-1",
-      "applynow-nakabayashi-2026-1"
+      "applynow-nakabayashi-2026-1",
+      "applynow-osaka-2026-1",
+      "applynow-miyoshi-2026-1",
+      "applynow-municipal-report-2026-1"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-06",
     "last_verified_at": "2026-10-07",
-    "verification_note": "吉野家グループの9月30日発表PDF全3ページとナカバヤシの10月6日公式発表本文を確認。同じApplyNow分析ツールへの侵害として続報を追加し、アカウント数と応募者情報の件数、漏洩確認と可能性の記載を区別。"
+    "verification_note": "既存の吉野家公式PDF全3ページとナカバヤシ公式本文を再読し、大阪市・みよし市の公式本文を照合。同じ期間・分析ツール・ApplyNow基盤の事件として既存IDに続報を追加し、単位と確度を区別。大阪市の事業者名は公式本文で未記載のため、ASCIIの本文による対応づけと公式の漏洩確定を区別。"
   },
   {
     "id": "lean-body-2026",
@@ -6803,19 +6818,20 @@
     "service": "IDCFクラウド（東日本第1リージョン）",
     "region": "JP",
     "status": "disruption",
-    "display_label": "サービス障害",
+    "display_label": "ランサム被害",
     "category": "IT・クラウド",
-    "title": "クラウドへの不正アクセスで東日本第1リージョンの一部サービスに障害",
-    "summary": "IDCフロンティアは10月7日、同日午前3時40分頃から第三者の不正アクセスにより、IDCFクラウドの一部サービスに障害が発生したと公表しました。影響範囲は東日本第1リージョンで、対象顧客へ個別に連絡しています。",
-    "note": "障害解消に向けて調査し、障害のない他の領域も安全性を確認しています。情報漏洩、ランサムウェア、対象顧客数は公表されていません。同時刻の他組織のサイト停止は、この事件との関係が明示されない限り統合しません。",
+    "title": "ランサムウェアでクラウド障害、495の企業・自治体に影響",
+    "summary": "IDCフロンティアは10月7日の第2報で、午前3時40分頃から続くIDCFクラウドの障害が第三者のランサムウェア攻撃によるものと確認しました。東日本リージョン1をネットワークから遮断してシステムを停止し、契約する495の企業・自治体への影響を公表しています。",
+    "note": "495は企業・自治体の数であり、人数やアカウント数には換算しません。情報漏洩の事実・侵入経路・復旧時刻は未確定です。他リージョンの外部からアクセス可能な管理コンソールも安全確認のため停止していますが、それらでの侵害を確認したとは扱いません。",
     "affected": [],
     "sources": [
-      "idcf-cloud-2026-1"
+      "idcf-cloud-2026-1",
+      "idcf-cloud-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
-    "verification_note": "公式発表の全本文を通常HTTPSで確認。Webツールでの取得失敗を検証とせず、取得した本文で発生時刻・地域・原因を突合。漏洩や攻撃手法を推定していません。"
+    "verification_note": "初報と第2報の公式本文を通常HTTPSで再読。ランサムウェアと495企業・自治体への影響を続報として追加し、情報窃取を推定しない。"
   },
   {
     "id": "his-thailand-server-2026",
@@ -7244,5 +7260,93 @@
     "first_seen_at": "2026-10-07",
     "last_verified_at": "2026-10-07",
     "verification_note": "持ち越し候補の一次ホットフィクス告知に加え、N-ableの9月9日13:49 UTC更新全文とHuntressの9月5日・6日更新本文を確認。実際の顧客侵害と特定CVEへの帰属が未確定である点を分け、旧告知との時点差を解消。"
+  },
+  {
+    "id": "southern-company-portal-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": null,
+    "company": "Southern Company（Georgia Power・Alabama Power・Mississippi Power）",
+    "service": "オンライン顧客ポータル",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "重要インフラ",
+    "title": "電力会社の顧客ポータルへ不正アクセス、約40万アカウントに影響",
+    "summary": "Southern Companyは、オンライン顧客ポータルを通じて第三者が一部顧客の情報に不正アクセスしたと公表しました。SecurityWeekへの会社回答によると約40万顧客のアカウント情報が対象で、氏名・住所・連絡先・社会保障番号の末尾4桁などが含まれます。",
+    "note": "Georgia Powerは約30万、Alabama Powerは約10万アカウントと報道。Mississippi Powerも対象ですが件数は非公表です。銀行口座番号・決済カード番号・運転免許番号へのアクセスは否定。侵入開始日・手法・実際の持ち出し範囲は非公表で、アカウント数を人数に換算しません。",
+    "affected": [
+      {
+        "count": 400000,
+        "unit": "accounts",
+        "description": "会社の取材回答に基づく約40万顧客の対象アカウント。概数であり、人数には換算しない。",
+        "source_id": "southern-company-portal-2026-2"
+      }
+    ],
+    "sources": [
+      "southern-company-portal-2026-1",
+      "southern-company-portal-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認し、アクセスの確認と情報持ち出しの確認、発生日と公表日、影響件数の単位を区別。"
+  },
+  {
+    "id": "toyama-prefectural-student-account-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": null,
+    "company": "富山県立大学",
+    "service": "学生のMicrosoft 365アカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "学生アカウントへの不正アクセス、1,092件の迷惑メールを送信",
+    "summary": "富山県立大学は10月7日、学生1人のMicrosoft 365アカウントへの不正アクセスを公表しました。8月23～27日に計1,092件の迷惑メールが送信され、判明後に当該アカウントを緊急停止しています。",
+    "note": "8月23日は確認されたメール送信の開始日で、侵入開始日は不明です。1,092は送信メール数であり、被害人数ではありません。PC感染と認証情報窃取は可能性として説明されています。メール送信以外の不正操作や機密情報漏洩、受信者の具体的被害は未確認。5～6月の別のアカウント被害とは区別します。",
+    "affected": [
+      {
+        "count": 1,
+        "unit": "accounts",
+        "description": "不正アクセスの形跡が確認された学生のMicrosoft 365アカウント数。",
+        "source_id": "toyama-prefectural-student-account-2026-1"
+      }
+    ],
+    "sources": [
+      "toyama-prefectural-student-account-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認し、アクセスの確認と情報持ち出しの確認、発生日と公表日、影響件数の単位を区別。"
+  },
+  {
+    "id": "saitama-shibusawa-mix-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": "2026-10-06",
+    "company": "埼玉県",
+    "service": "渋沢MIXの会員・施設予約管理システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "官公庁・自治体",
+    "title": "渋沢MIX管理システムを侵害、約2,200人の情報を不正閲覧",
+    "summary": "埼玉県は10月7日、渋沢MIXの管理システムへの不正アクセスを公表しました。約2,200人の会員申請者等の氏名・メールアドレスなどの一覧が不正に閲覧され、うち3人は詳細な情報も閲覧されました。登録情報の一部改ざんと不正なメール送信も確認しています。",
+    "note": "10月6日18時30分頃に不正なメール送信が発生。当日中に管理システムを遮断し、新規会員登録申請と施設予約を停止しました。脆弱性への攻撃が疑われますが詳細は調査中。データ窃取・不正利用・二次被害は未確認です。詳細を閲覧された3人は約2,200人の内数で、加算しません。",
+    "affected": [
+      {
+        "count": 2200,
+        "unit": "people",
+        "description": "氏名・メールアドレス等の一覧を不正閲覧された会員申請者等、約2,200名。詳細情報を閲覧された3名を含む。",
+        "source_id": "saitama-shibusawa-mix-2026-1"
+      }
+    ],
+    "sources": [
+      "saitama-shibusawa-mix-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-07",
+    "last_verified_at": "2026-10-07",
+    "verification_note": "登録した全出典の本文を確認し、アクセスの確認と情報持ち出しの確認、発生日と公表日、影響件数の単位を区別。"
   }
 ]
