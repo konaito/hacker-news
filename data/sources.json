@@ -3687,5 +3687,47 @@
     "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001388658/e214bced-c3b7-4616-9e7e-6cb5d45c690f.pdf",
     "type": "primary",
     "publisher": "iRhythm Holdings（SEC提出書類）"
+  },
+  {
+    "id": "commune-lineyahoo-2026-1",
+    "publisher": "LINEヤフー",
+    "type": "primary",
+    "url": "https://www.lycorp.co.jp/ja/privacy-security/announcement/020892/",
+    "title": "委託先システムへの不正アクセスに伴う情報漏えいに関するお知らせとお詫び"
+  },
+  {
+    "id": "commune-studist-2026-1",
+    "publisher": "スタディスト",
+    "type": "primary",
+    "url": "https://studist.jp/news/news_20261009",
+    "title": "コミューン株式会社が提供する「Commune」への不正アクセスおよび「Teachme Compass」の一時停止について"
+  },
+  {
+    "id": "sagawa-2026-4",
+    "publisher": "佐川急便",
+    "type": "primary",
+    "url": "https://www2.sagawa-exp.co.jp/information/detail/426/",
+    "title": "「お荷物問い合わせサービス」への不正アクセスによる個人情報流出の可能性について（第4報）2026年10月9日"
+  },
+  {
+    "id": "port-tanjung-pelepas-2026-1",
+    "publisher": "The Loadstar",
+    "type": "reporting",
+    "url": "https://theloadstar.com/cyber-attack-halts-operations-at-malaysias-tanjung-pelepas-port/",
+    "title": "Cyber attack halts operations at Malaysia’s Tanjung Pelepas port"
+  },
+  {
+    "id": "port-tanjung-pelepas-2026-2",
+    "publisher": "New Straits Times（KLSE Screener配信）",
+    "type": "reporting",
+    "url": "https://www.klsescreener.com/v2/news/view/1791665/Johor_039_s_Tanjung_Pelepas_Port_under_cyberattack_launches_system_clean_up",
+    "title": "Johor's Tanjung Pelepas Port under cyberattack, launches system clean-up"
+  },
+  {
+    "id": "port-tanjung-pelepas-2026-3",
+    "publisher": "Johor Freight Forwarders Association（PTP告知掲載）",
+    "type": "primary",
+    "url": "https://joffa.net/bulletin",
+    "title": "PTP announcements: manual gate processing and full restoration of systems and services"
   }
 ]
