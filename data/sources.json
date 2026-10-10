@@ -3729,5 +3729,33 @@
     "type": "primary",
     "url": "https://joffa.net/bulletin",
     "title": "PTP announcements: manual gate processing and full restoration of systems and services"
+  },
+  {
+    "id": "commune-suzuki-2026-1",
+    "publisher": "スズキ株式会社",
+    "type": "primary",
+    "url": "https://www.suzuki.co.jp/release/d/2026/1009/",
+    "title": "当社コミュニティサイト「スズキヴィレッジ」への不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "metamask-staking-infrastructure-2026-1",
+    "publisher": "MetaMask",
+    "type": "primary",
+    "url": "https://metamask.io/news/user-update",
+    "title": "User update"
+  },
+  {
+    "id": "metamask-staking-infrastructure-2026-2",
+    "publisher": "Lido",
+    "type": "primary",
+    "url": "https://research.lido.fi/t/security-disclosure-metamask-staking-precautionary-out-of-order-exits/11961",
+    "title": "[Security Disclosure] MetaMask Staking Precautionary Out of Order Exits"
+  },
+  {
+    "id": "commune-yamaha-2026-1",
+    "publisher": "ヤマハ株式会社",
+    "type": "primary",
+    "url": "https://www.yamaha.com/ja/news_release/files/news/26100901/pdf/2610090101.pdf",
+    "title": "外部委託先への不正アクセスによるお客様情報漏えいについて"
   }
 ]
