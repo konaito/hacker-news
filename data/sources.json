@@ -3575,5 +3575,68 @@
     "type": "reporting",
     "url": "https://houmatimes.com/news/terrebonne-parish-government-systems-remain-offline-following-cyber-security-incident/",
     "title": "Terrebonne Parish Government systems remain offline following cyber security incident"
+  },
+  {
+    "id": "idcf-jrkyushu-2026-1",
+    "publisher": "九州旅客鉄道",
+    "type": "primary",
+    "url": "https://www.jrkyushu.co.jp/news/__icsFiles/afieldfile/2026/10/09/202691009_mail_address_access_1.pdf",
+    "title": "IDCフロンティア社で発生した不正アクセスに伴うメールアドレス等漏えいの可能性について"
+  },
+  {
+    "id": "idcf-viewcard-2026-1",
+    "publisher": "ビューカード",
+    "type": "primary",
+    "url": "https://www.jreast.co.jp/card/news/pdf/20261009.pdf",
+    "title": "VIEW’s NETのメール配信サービスの障害およびメールアドレスの漏えいの可能性について"
+  },
+  {
+    "id": "idcf-takashimaya-2026-1",
+    "publisher": "高島屋",
+    "type": "primary",
+    "url": "https://www.takashimaya.co.jp/aboutinfo/excuse/top/info_detail.html?id=5921",
+    "title": "当社業務委託先が利用するクラウド基盤（IDCFクラウド）のシステム障害に伴うメールマガジン配信停止のお詫びとお知らせ"
+  },
+  {
+    "id": "ghostaction-gitguardian-2026-1",
+    "publisher": "GitGuardian",
+    "type": "primary",
+    "url": "https://blog.gitguardian.com/ghostaction-github-actions-supply-chain-attack-returns/",
+    "title": "GhostAction GitHub Actions supply chain attack returns（2026年10月9日更新）"
+  },
+  {
+    "id": "ryukyu-industry-site-2026-1",
+    "publisher": "琉球大学",
+    "type": "primary",
+    "url": "https://www.u-ryukyu.ac.jp/news/97745/",
+    "title": "本学産学官連携Webサイトの改ざんについて"
+  },
+  {
+    "id": "green-clinic-ransomware-2026-1",
+    "publisher": "Green Clinic（Lincoln Parish Journal掲載の声明）",
+    "type": "primary",
+    "url": "https://lincolnparishjournal.com/2026/10/08/update-green-clinic-responds-to-cybersecurity-incident/",
+    "title": "Update: Green Clinic responds to cybersecurity incident（Green Clinic声明全文）"
+  },
+  {
+    "id": "everett-city-cyber-2026-1",
+    "publisher": "City of Everett, Massachusetts",
+    "type": "primary",
+    "url": "https://cityofeverett.com/city-hall-to-close-tuesday-sept-8-due-to-cybersecurity-incident/",
+    "title": "City Hall to close due to cybersecurity incident（2026年9月7日、17日更新）"
+  },
+  {
+    "id": "everett-city-cyber-2026-2",
+    "publisher": "City of Everett, Massachusetts",
+    "type": "primary",
+    "url": "https://cityofeverett.com/city-hall-remains-closed-wednesday-thursday-cybersecurity/",
+    "title": "Everett City Hall to Reopen Monday, September 21"
+  },
+  {
+    "id": "adception-retailer-2026-1",
+    "publisher": "Push Security",
+    "type": "primary",
+    "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+    "title": "Adception: malvertising another search engine’s search results to redirect to a malicious page"
   }
 ]
