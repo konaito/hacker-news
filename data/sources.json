@@ -3519,5 +3519,61 @@
     "type": "reporting",
     "url": "https://abcnews.com/US/wireStory/fbi-arrests-suspect-shinyhunters-hack-bureaus-jobs-portal-137133935",
     "title": "FBI arrests suspect in ShinyHunters hack of the bureau’s jobs portal"
+  },
+  {
+    "id": "commune-sansan-2026-1",
+    "publisher": "Sansan",
+    "type": "primary",
+    "url": "https://jp.corp-sansan.com/news/2026/1009.html",
+    "title": "Sansan User Forumにおける会員情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "kamogawa-furusato-survey-2026-1",
+    "publisher": "鴨川市",
+    "type": "primary",
+    "url": "https://www.city.kamogawa.lg.jp/site/furusatotax/45030.html",
+    "title": "ふるさと納税業務における個人情報の漏洩について（9月9日続報を含む）"
+  },
+  {
+    "id": "toppan-insurance-misdelivery-2026-1",
+    "publisher": "TOPPAN",
+    "type": "primary",
+    "url": "https://www.holdings.toppan.com/ja/info/toppan_info20260929.pdf",
+    "title": "保険料控除証明書発行サービス運用業務におけるデータ誤送付について"
+  },
+  {
+    "id": "tensorlake-npm-compromise-2026-1",
+    "publisher": "Socket Research Team",
+    "type": "primary",
+    "url": "https://socket.dev/blog/tensorlake-compromise",
+    "title": "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack"
+  },
+  {
+    "id": "tensorlake-npm-compromise-2026-2",
+    "publisher": "Sonatype",
+    "type": "primary",
+    "url": "https://www.sonatype.com/blog/hijacked-tensorlake-npm-turned-install-into-credential-risk",
+    "title": "Hijacked Tensorlake npm Package Turned a Routine Install into Credential Risk"
+  },
+  {
+    "id": "ghostaction-github-wave-2026-1",
+    "publisher": "Socket Research Team",
+    "type": "primary",
+    "url": "https://socket.dev/blog/ghostaction-cloud-credentials",
+    "title": "New GhostAction Wave Hits Hundreds of Repos, Expanding Beyond CI/CD Secrets to Cloud Credentials"
+  },
+  {
+    "id": "terrebonne-parish-cyber-2026-1",
+    "publisher": "DysruptionHub",
+    "type": "reporting",
+    "url": "https://dysruptionhub.com/terrebonne-parish-government-cyberattack/",
+    "title": "Cyberattack prompts Terrebonne Parish Government in Louisiana to take systems offline"
+  },
+  {
+    "id": "terrebonne-parish-cyber-2026-2",
+    "publisher": "The Times of Houma/Thibodaux",
+    "type": "reporting",
+    "url": "https://houmatimes.com/news/terrebonne-parish-government-systems-remain-offline-following-cyber-security-incident/",
+    "title": "Terrebonne Parish Government systems remain offline following cyber security incident"
   }
 ]
