@@ -3638,5 +3638,40 @@
     "type": "primary",
     "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
     "title": "Adception: malvertising another search engine’s search results to redirect to a malicious page"
+  },
+  {
+    "id": "uic-2026-2",
+    "publisher": "University of Illinois Chicago",
+    "type": "primary",
+    "url": "https://today.uic.edu/college-of-medicine-systems-compromised/",
+    "title": "College of Medicine systems compromised"
+  },
+  {
+    "id": "gutcert-2026-1",
+    "publisher": "GUTcert",
+    "type": "primary",
+    "url": "https://www.gut-cert.de/de/service/sicherheitsvorfall",
+    "title": "Aktuelle Informationen zum Hackerangriff auf die GUTcert am 05.09.2026"
+  },
+  {
+    "id": "otemae-hospital-email-2026-1",
+    "publisher": "国家公務員共済組合連合会・大手前病院",
+    "type": "primary",
+    "url": "https://www.kkr.or.jp/news/2026/10/post-187.html",
+    "title": "メールアカウントに対する不正アクセス被害について【大手前病院】"
+  },
+  {
+    "id": "takarazuka-xray-sharing-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190055",
+    "title": "医療機器メーカー関係者が患者X線画像を持ち出し - 宝塚市立病院"
+  },
+  {
+    "id": "takarazuka-xray-sharing-2026-2",
+    "publisher": "サンテレビ",
+    "type": "reporting",
+    "url": "https://www.sun-tv.co.jp/suntvnews/news/2026/08/17/96243/",
+    "title": "レントゲン画像を医療機器メーカー社員が院外に持ち出し 手術室で撮影 宝塚市立病院"
   }
 ]

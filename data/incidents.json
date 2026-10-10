@@ -1064,25 +1064,26 @@
   },
   {
     "id": "uic-2026",
-    "published_at": "2026-10-05",
+    "published_at": "2026-10-02",
     "occurred_at": null,
     "company": "イリノイ大学シカゴ校",
     "service": "医学部サーバー",
     "region": "GLOBAL",
     "status": "confirmed_leak",
-    "display_label": "検証待ち",
+    "display_label": "漏えい確認",
     "category": "教育・研究",
-    "title": "医学部のランサムウェア被害と情報窃取の取材報道を検証中",
-    "summary": "The Recordは大学広報への取材に基づき、医学部の一部システムがランサムウェアで一時利用不能となり、サーバーから情報が盗まれたと報じました。",
-    "note": "大学は復旧済みで本学ネットワークとUI Healthの診療に影響はなかったと説明。個人・研究・学術情報の影響を調査中。侵入開始日と被害件数は不明。攻撃者のデータ量主張は不採用。",
+    "title": "医学部でランサムウェア被害とデータ窃取、システムは復旧",
+    "summary": "UICは10月2日の公式発表で、医学部ネットワークの一部に不正な活動があり、ランサムウェアで一部システムが一時利用不能となったと説明しました。影響したシステムは復旧済みで、攻撃者によるサーバー上のデータ取得も確認しています。",
+    "note": "本学の主要ネットワークとUI Healthの診療提供への影響は否定。取得されたデータに個人・研究・学術情報が含まれるかを調査中で、対象人数・侵入開始日は不明です。攻撃者の名称やデータ量の主張は採用しません。公式記事は10月5日更新。",
     "affected": [],
     "sources": [
+      "uic-2026-2",
       "uic-2026-1"
     ],
-    "publication_status": "pending",
+    "publication_status": "published",
     "first_seen_at": "2026-10-06",
-    "last_verified_at": "2026-10-06",
-    "verification_note": "The Recordの全記事本文を確認。大学公式告知は見つからず、SC MediaとDysruptionHubは同記事に依存するため独立した2媒体と数えずpending。"
+    "last_verified_at": "2026-10-10",
+    "verification_note": "UICの10月2日公式発表（10月5日更新）と既存The Record10月5日記事の全本文を確認。一次情報でランサムウェアとデータ取得を確認できたためpendingを解除。個人情報の具体的範囲・数量は未確定のまま。"
   },
   {
     "id": "rohto-2026",
@@ -8766,5 +8767,79 @@
     "first_seen_at": "2026-10-10",
     "last_verified_at": "2026-10-10",
     "verification_note": "発見元BC本文と、リンク先Push Security一次分析の全文を確認。実際の小売ページ改変・HTTP転送・偽画面・コピーコマンドの差替えという観測に限定し、未確認の実感染を補わず掲載。"
+  },
+  {
+    "id": "gutcert-2026",
+    "published_at": "2026-09-17",
+    "occurred_at": "2026-09-05",
+    "company": "GUTcert（ドイツの認証機関）",
+    "service": "社内ITシステム・プロジェクト資料",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "サービス",
+    "title": "認証機関の内部資料を窃取、顧客に恐喝メールが続く",
+    "summary": "GUTcertは、9月5日にITシステムの一部へ不正アクセスがあり、6～9日に約640GBのデータが持ち出されたと公表しました。10月9日更新の説明では、顧客や担当者への恐喝メールが10月7日にも続いていたとしています。",
+    "note": "9月17日に事件説明ページを公開。9月10日に当初確認した侵入経路を遮断し、15日に残っていた不正なメールセッションを終了しました。監査報告書やネットワーク構成図等が含まれる可能性があり、個別企業・資料への影響は調査中。640GBはデータ量で、人数や件数へ換算しません。公開の有無については公式FAQも確定していません。業務遂行能力は維持されているとの説明です。",
+    "affected": [],
+    "sources": [
+      "gutcert-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-10",
+    "last_verified_at": "2026-10-10",
+    "verification_note": "公式発表本文を読み、侵害・漏えいの確認範囲、公表日と発生日、既存事件との重複を照合。"
+  },
+  {
+    "id": "otemae-hospital-email-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "国家公務員共済組合連合会・大手前病院",
+    "service": "病院のメールアカウント",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "医療・福祉",
+    "title": "病院のメールアカウントへ不正アクセス、職員情報に漏えいの可能性",
+    "summary": "大手前病院は10月8日、使用するメールアカウントへの第三者による不正アクセスを確認し、職員等の個人情報が漏えいした可能性があると公表しました。",
+    "note": "調査の結果、漏えいの可能性があるデータに患者情報は含まれていないと説明しています。情報の悪用や二次被害は現時点で確認されていません。発生日・対象人数・具体的な情報項目は非公表。",
+    "affected": [],
+    "sources": [
+      "otemae-hospital-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-10",
+    "last_verified_at": "2026-10-10",
+    "verification_note": "公式発表本文を読み、侵害・漏えいの確認範囲、公表日と発生日、既存事件との重複を照合。"
+  },
+  {
+    "id": "takarazuka-xray-sharing-2026",
+    "published_at": "2026-09-25",
+    "occurred_at": null,
+    "company": "宝塚市立病院",
+    "service": "患者のX線画像・医療機器メーカー内のグループチャット",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "医療・福祉",
+    "title": "患者4人のX線画像を院外に持ち出し、社内チャットで共有",
+    "summary": "9月25日に新たに報道された事案。医療機器メーカーの従業員が宝塚市立病院の手術室で患者4人のX線画像を撮影し、院外へ持ち出して社内のグループチャットへ投稿していたことが明らかになりました。",
+    "note": "撮影は2025年9～10月で、個別の発生日は不明。執刀医は個人情報に配慮した撮影を許可していましたが、患者個別の同意は得ていなかったとサンテレビが報道。院外共有や年齢・性別の追記は病院が想定していなかったとSecurity NEXTが説明しています。14枚という画像数と4人という患者数を合算しません。システム侵入とは分類しません。",
+    "affected": [
+      {
+        "count": 4,
+        "unit": "people",
+        "description": "院外へ画像を持ち出され、メーカー内のグループチャットで共有された患者4人。",
+        "source_id": "takarazuka-xray-sharing-2026-1"
+      }
+    ],
+    "sources": [
+      "takarazuka-xray-sharing-2026-1",
+      "takarazuka-xray-sharing-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-10",
+    "last_verified_at": "2026-10-10",
+    "verification_note": "Security NEXT9月25日とサンテレビ8月17日の記事本文を独立に確認。病院の画像取扱い、院外共有、患者数を照合し、独立した2媒体で公開条件を満たす。発表時期と撮影時期を区別。"
   }
 ]
