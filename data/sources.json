@@ -3785,5 +3785,19 @@
     "type": "primary",
     "url": "https://www.justice.gov/usao-nj/pr/former-employee-industrial-company-sentenced-32-months-prison-computer-attack-and",
     "title": "Former Employee of Industrial Company Sentenced to 32 Months in Prison for Computer Attack and Extortion — October 5, 2026"
+  },
+  {
+    "id": "commune-panasonic-2026-1",
+    "publisher": "パナソニック株式会社",
+    "type": "primary",
+    "url": "https://www.panasonic.com/jp/about/news/20261009.html",
+    "title": "外部委託先への不正アクセスによる当社コミュニティ会員情報の漏えいについて"
+  },
+  {
+    "id": "commune-lixil-2026-1",
+    "publisher": "株式会社LIXIL",
+    "type": "primary",
+    "url": "https://www.lixil.co.jp/announce/notice-info-leak.htm",
+    "title": "LIXILが運営するコミュニティサービスにおける委託先サーバーへの不正アクセスに伴う個人情報漏えいについてのお詫びとご報告"
   }
 ]
