@@ -3677,7 +3677,7 @@
   {
     "id": "irhythm-south-carolina-2026-1",
     "title": "Security Breach Notices — iRhythm / Date Reported 10/6/2026 / Affected SC Residents 69,526",
-    "url": "https://consumer.sc.gov/index.php/identity-theft-unit/security-breach-notices",
+    "url": "https://www.consumer.sc.gov/identity-theft-unit/security-breach-notices",
     "type": "primary",
     "publisher": "South Carolina Department of Consumer Affairs"
   },
@@ -3757,5 +3757,33 @@
     "type": "primary",
     "url": "https://www.yamaha.com/ja/news_release/files/news/26100901/pdf/2610090101.pdf",
     "title": "外部委託先への不正アクセスによるお客様情報漏えいについて"
+  },
+  {
+    "id": "irhythm-texas-2026-1",
+    "publisher": "Texas Attorney General",
+    "type": "primary",
+    "url": "https://oag.my.site.com/datasecuritybreachreport/apex/DataSecurityReportsPage",
+    "title": "Data Security Breach Reports — iRhythm Technologies Inc., 298647 Texans, published October 6, 2026"
+  },
+  {
+    "id": "canadian-mennonite-university-2026-1",
+    "publisher": "Canadian Mennonite University",
+    "type": "primary",
+    "url": "https://media.cmu.ca/incident-notice",
+    "title": "Public notice regarding cyber incident — October 2, 2026（T4A対象期間訂正を含む）"
+  },
+  {
+    "id": "canadian-mennonite-university-2026-2",
+    "publisher": "Canadian Mennonite University",
+    "type": "primary",
+    "url": "https://www.cmu.ca/about/incident-faq",
+    "title": "Cyber Incident FAQ — Canadian Mennonite University"
+  },
+  {
+    "id": "rhyne-industrial-company-2023-1",
+    "publisher": "U.S. Department of Justice, District of New Jersey",
+    "type": "primary",
+    "url": "https://www.justice.gov/usao-nj/pr/former-employee-industrial-company-sentenced-32-months-prison-computer-attack-and",
+    "title": "Former Employee of Industrial Company Sentenced to 32 Months in Prison for Computer Attack and Extortion — October 5, 2026"
   }
 ]
