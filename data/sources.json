@@ -3904,5 +3904,40 @@
     "type": "primary",
     "url": "https://motoyama-e.com/nishicho/news/2026/09/30/42064/",
     "title": "本学Webサイトの改ざんに関するお詫びと復旧のご報告"
+  },
+  {
+    "id": "dexcom-vishing-2026-1",
+    "publisher": "Dexcom",
+    "type": "primary",
+    "url": "https://www.dexcom.com/en-us/cyberupdate",
+    "title": "Dexcom Cybersecurity update"
+  },
+  {
+    "id": "easthampton-schools-2026-1",
+    "publisher": "Western Mass News（WGGB/WSHM）",
+    "type": "reporting",
+    "url": "https://www.westernmassnews.com/2026/10/07/easthampton-school-network-down-after-cybersecurity-incident/",
+    "title": "Easthampton school network down after cybersecurity incident"
+  },
+  {
+    "id": "easthampton-schools-2026-2",
+    "publisher": "The Reminder（Reminder Publishing）",
+    "type": "reporting",
+    "url": "https://thereminder.com/local-news/easthampton-public-schools-suffers-cyberattack/",
+    "title": "Easthampton Public Schools suffers cyberattack"
+  },
+  {
+    "id": "jefferson-county-mo-2026-1",
+    "publisher": "First Alert 4（KMOV）",
+    "type": "reporting",
+    "url": "https://www.firstalert4.com/2026/10/06/jefferson-county-phone-system-online-network-taken-down-after-possible-cyber-attack/",
+    "title": "Jefferson County phone system, online network taken down after possible cyber attack"
+  },
+  {
+    "id": "jefferson-county-mo-2026-2",
+    "publisher": "Leader Publications",
+    "type": "reporting",
+    "url": "https://www.myleaderpaper.com/news/county-business-halts-as-staff-experience-tech-issues/article_b51f41dd-2250-4365-a6db-832d391102f1.html",
+    "title": "UPDATED: County identifies network security threat"
   }
 ]

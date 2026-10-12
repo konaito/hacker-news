@@ -9158,5 +9158,73 @@
     "publication_status": "published",
     "first_seen_at": "2026-10-12",
     "last_verified_at": "2026-10-12"
+  },
+  {
+    "id": "dexcom-vishing-2026",
+    "published_at": "2026-10-10",
+    "occurred_at": null,
+    "company": "Dexcom",
+    "service": "社内文書に含まれる情報",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "医療・福祉",
+    "title": "標的型の電話詐欺に続く社内文書情報への不正アクセスを確認",
+    "summary": "Dexcomは10月10日、標的型の電話詐欺（vishing）に続いて、一部の社内文書の限定的な情報に不正アクセスがあったと公表しました。外部の専門企業による調査と封じ込めを実施し、調査に基づき製品・業務・顧客やパートナーへの提供能力への影響はないと説明しています。",
+    "note": "侵入開始日、対象人数、情報項目の詳細、外部への持ち出しの有無は公表されていません。攻撃者のRedact名義の主張やデータ量を会社確認と結びつけず、ランサムウェアの使用や製品の侵害も断定しません。会社は必要に応じて影響を受けた対象者へ通知するとしています。",
+    "affected": [],
+    "sources": [
+      "dexcom-vishing-2026-1"
+    ],
+    "verification_note": "公開索引でのDexCom主張を起点に独立して会社公式発表を検索し、10月10日付本文をWebツールで確認。米国向けURLから地域パラメーター付き公式ページへの転送も確認。既存346件に同社の事件がなく、不正アクセス確認と未確認の窃取・攻撃者主張を区別して追加。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
+  },
+  {
+    "id": "easthampton-schools-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": null,
+    "company": "Easthampton公立学校（米マサチューセッツ州）",
+    "service": "学校ネットワーク・オンラインシステム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "調査に伴う停止",
+    "category": "教育・研究",
+    "title": "不審なネットワーク活動の調査でシステムを予防停止、授業は継続",
+    "summary": "Easthampton公立学校は不審なネットワーク活動を受け、オンラインシステムを予防的に停止し、外部の専門家と調査を進めています。Western Mass NewsとThe Reminderの地元取材によると、出欠や記録管理を紙で行い、代替の通信機器を使いながら授業を続けています。",
+    "note": "セキュリティ事案の調査に伴う実際のサービス停止として記録します。侵入成功、情報漏えい、ランサムウェア使用、対象人数は未確認です。The Reminderの教育長取材は10月5日の不審活動を説明する一方、初報は6日夜の発見と通知を伝えるため、発生日を確定せず不明とします。在籍人数や代替機器の数を被害人数に換算しません。10月8日時点でネットワークは停止中ですが、授業や全連絡手段が停止したとは扱いません。",
+    "affected": [],
+    "sources": [
+      "easthampton-schools-2026-1",
+      "easthampton-schools-2026-2"
+    ],
+    "verification_note": "必須deferred候補の元記事を再読後、Gray系Western Mass Newsの10月7日取材と独立したReminder Publishingの10月8日教育長への取材本文をWebで照合。確認できるネットワーク停止をdisruptionとして掲載。既存事件と重複なし。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
+  },
+  {
+    "id": "jefferson-county-mo-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": null,
+    "company": "Jefferson郡（米ミズーリ州）",
+    "service": "郡のネットワーク・電話・行政取引",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "脅威調査で停止",
+    "category": "行政・公共",
+    "title": "ネットワーク内の脅威を調査するため電話・オンライン機能を予防停止",
+    "summary": "ミズーリ州Jefferson郡では、ネットワーク内のセキュリティ脅威を受け、影響を調査するためネットワークと電話システムを予防的に停止しました。First Alert 4とLeader Publicationsは当局の説明を伝え、行政取引への支障や会議の中止を報道しています。保安官事務所の法執行業務への影響はないと説明されています。",
+    "note": "実際の行政サービス停止を記録し、サイバー攻撃の確定や侵入成功、情報窃取、ランサムウェア使用とは区別します。当局は公表時点で情報漏えいの兆候はないと説明していますが、最終調査で全面否定したとは扱いません。侵入開始日・人数・全サービスの復旧日は未確定です。郡公式アラートの元URLは今回404で、独立した地元報道2媒体の本文を掲載根拠とします。",
+    "affected": [],
+    "sources": [
+      "jefferson-county-mo-2026-1",
+      "jefferson-county-mo-2026-2"
+    ],
+    "verification_note": "必須deferred候補のDysruptionHub本文から原取材先へ進み、First Alert 4の10月6日記事と独立したLeader Publicationsの10月7日更新本文をWebで確認。両記事の当局説明と停止範囲を突合し、侵入・漏えい未確認のままdisruptionとして追加。同名自治体と混同しない。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
   }
 ]
