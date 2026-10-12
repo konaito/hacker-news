@@ -3799,5 +3799,40 @@
     "type": "primary",
     "url": "https://www.lixil.co.jp/announce/notice-info-leak.htm",
     "title": "LIXILが運営するコミュニティサービスにおける委託先サーバーへの不正アクセスに伴う個人情報漏えいについてのお詫びとご報告"
+  },
+  {
+    "id": "north-platte-lincoln-county-2026-1",
+    "publisher": "Nebraska Emergency Management Agency",
+    "type": "primary",
+    "url": "https://nema.nebraska.gov/articles.php?nid=419",
+    "title": "Gov. Pillen Signs Emergency Proclamation Following Cyber Security Incident"
+  },
+  {
+    "id": "north-platte-lincoln-county-2026-2",
+    "publisher": "KNOP News 2",
+    "type": "reporting",
+    "url": "https://www.knopnews2.com/2026/10/09/national-guard-cyber-team-deployed-after-north-platte-lincoln-county-internet-outage/",
+    "title": "Nebraska National Guard cyber team deployed after internet outage impacts North Platte, Lincoln County"
+  },
+  {
+    "id": "usnext-mississippi-websites-2026-1",
+    "publisher": "WLBT（Gray Media）",
+    "type": "reporting",
+    "url": "https://www.wlbt.com/2026/10/09/madison-co-website-down-following-cyber-attack-host-company/",
+    "title": "Madison Co. restores some online services hours after website shut down"
+  },
+  {
+    "id": "usnext-mississippi-websites-2026-2",
+    "publisher": "WAPT（Hearst Television）",
+    "type": "reporting",
+    "url": "https://www.wapt.com/article/cyberattack-disrupts-madison-county-website-and-almost-70-others-in-mississippi/74100614",
+    "title": "Cyberattack disrupts Madison County website and almost 70 others in Mississippi"
+  },
+  {
+    "id": "commune-fds-2026-1",
+    "publisher": "一般社団法人渋谷未来デザイン",
+    "type": "primary",
+    "url": "https://fds.or.jp/news/1091/",
+    "title": "弊社コミュニティサイトへの不正アクセスに関するお知らせ"
   }
 ]
