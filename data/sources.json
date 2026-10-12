@@ -3834,5 +3834,33 @@
     "type": "primary",
     "url": "https://fds.or.jp/news/1091/",
     "title": "弊社コミュニティサイトへの不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "pathao-cybersecurity-2026-1",
+    "publisher": "Pathao",
+    "type": "primary",
+    "url": "https://pathao.com/blog/pathao-cybersecurity-incident-faqs-and-safety-guidance/",
+    "title": "Pathao Cybersecurity Incident: FAQs & Safety Guidance"
+  },
+  {
+    "id": "pathao-cybersecurity-2026-2",
+    "publisher": "The Business Standard",
+    "type": "reporting",
+    "url": "https://www.tbsnews.net/bangladesh/crime/users-names-emails-and-phone-numbers-obtained-cyberattack-says-pathao-1566971",
+    "title": "Cyberattack exposed users' names, emails and phone numbers, says Pathao"
+  },
+  {
+    "id": "temairazu-ota-2026-1",
+    "publisher": "大田区",
+    "type": "primary",
+    "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR08/2026100901.html",
+    "title": "【プレスリリース】大田区立伊豆高原学園における情報漏えいの可能性のある事故について"
+  },
+  {
+    "id": "temairazu-izukogen-2026-1",
+    "publisher": "伊豆高原学園PFI株式会社／大田区立伊豆高原学園",
+    "type": "primary",
+    "url": "https://www.izukougengakuen.jp/news/14827/",
+    "title": "【重要】予約管理システム（サイトコントローラー）への 不正アクセスに関するお詫びとお知らせ"
   }
 ]
