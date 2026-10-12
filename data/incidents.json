@@ -9035,5 +9035,128 @@
     "first_seen_at": "2026-10-12",
     "last_verified_at": "2026-10-12",
     "verification_note": "Pathao公式の英語声明・FAQ本文をWebで開き、ベンガル語公式声明とThe Business Standardの10月9日本文を照合。個人情報取得の会社確認と予防停止・再開を確認し、既存341件に同じ事件がないことを照合。被害数や攻撃者の主張は補わず掲載。"
+  },
+  {
+    "id": "hayashima-lecture-form-2026",
+    "published_at": "2026-09-09",
+    "occurred_at": "2026-08-10",
+    "company": "早島町／早島町観光協会",
+    "service": "磯田道史氏歴史講演会の申込フォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "閲覧可能",
+    "category": "官公庁・自治体",
+    "title": "講演会フォームの設定不備で最大196人の氏名などが閲覧可能に",
+    "summary": "早島町の観光協会が主催する講演会の申込フォームで、8月10日10時の受付開始後、申込者の個人情報が他の申込者から閲覧可能になっていました。氏名は最大196人分、代表者の電話番号・メールアドレスなどは最大100人分が対象と報じられています。",
+    "note": "9月9日のSecurity NEXT報道を対象期間内の掲載根拠とし、8月11日のKCTの独立した取材本文と照合しました。町の直接発表本文は確保できていません。196人と代表者100人は異なる対象範囲で合算せず、実際に第三者が閲覧した人数や情報持ち出しの確認件数とは扱いません。町は申込者の連絡で問題を把握し、受付を停止して修正後に再開しました。",
+    "affected": [
+      {
+        "count": 196,
+        "unit": "people",
+        "description": "氏名が閲覧可能だった申込者の最大数。実際の閲覧被害人数ではない。",
+        "source_id": "hayashima-lecture-form-2026-1"
+      },
+      {
+        "count": 100,
+        "unit": "people",
+        "description": "電話番号・メールアドレス等が閲覧可能だった申込代表者の最大数。申込者の最大196人と合算しない。",
+        "source_id": "hayashima-lecture-form-2026-1"
+      }
+    ],
+    "sources": [
+      "hayashima-lecture-form-2026-1",
+      "hayashima-lecture-form-2026-2"
+    ],
+    "verification_note": "指定deferred候補のSecurity NEXT本文を再確認し、日付なし検索で発見した倉敷ケーブルテレビの記者名・放送日付き本文を通常HTTPSで確認。独立した2報道媒体で設定不備、日時、最大196人の氏名等の閲覧可能状態を突合し、既存342件に重複がないことを確認。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
+  },
+  {
+    "id": "london-sim-swap-2021",
+    "published_at": "2026-10-08",
+    "occurred_at": null,
+    "company": "BTの電話利用者と暗号資産口座の利用者（英国）",
+    "service": "電話番号のSIM移転と暗号資産口座",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "口座侵害確認",
+    "category": "金融",
+    "title": "SIMスワップで暗号資産口座を侵害、4人の窃取被害を警察が説明",
+    "summary": "City of London Policeは10月8日の判決公表で、2021年11月初めにBTのシステムで不正な電話番号移転が確認され、攻撃者がSMSの認証コードを受け取って暗号資産口座へアクセスしたと説明しました。一次発表は4人の暗号資産窃取被害と、犯行に関与した被告への禁錮2年半の判決を記載しています。",
+    "note": "被害は2021年11月初めで、2026年10月に新たな攻撃が起きたことを意味しません。個別被害日の記述はありますが、システム侵害の開始日を確定できないため発生日は不明とします。4人は一次発表が被害内容を説明した人で、事件全体の被害者総数とは断定しません。被告の使用端末4台を被害口座数や人数に置き換えません。警察は窃取額を20万ポンド近くと説明しています。",
+    "affected": [
+      {
+        "count": 4,
+        "unit": "people",
+        "description": "一次発表が暗号資産窃取の被害内容を個別に説明した4人。事件全体の被害者総数ではない。",
+        "source_id": "london-sim-swap-2021-1"
+      }
+    ],
+    "sources": [
+      "london-sim-swap-2021-1",
+      "london-sim-swap-2021-2"
+    ],
+    "verification_note": "元The Record全文を通常HTTPSで再読。被告名と警察名による検索から警察の10月8日一次発表を発見し、通常HTTPS403をWebツールopen/findによる全文確認で補完。BTでの不正な番号移転、OTP受信、4人の窃取被害と発生年を突合した。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
+  },
+  {
+    "id": "evergreen-marketing-email-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": "2026-06-26",
+    "company": "エバーグリーン・マーケティング",
+    "service": "従業員のメールアカウント",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "エネルギー",
+    "title": "メール侵害の続報、取引先237件・法人顧客763件に閲覧のおそれ",
+    "summary": "エバーグリーン・マーケティングは10月6日、6月26日の従業員メールアカウント不正利用について、追加調査で判明した個人情報への影響を公表しました。代理店等の取引先関係者237件の会社名・メールアドレスと、電力需給契約の法人顧客763件の住所、個人名を含む口座情報、請求情報などが第三者に閲覧された可能性があります。",
+    "note": "7月31日の初報後に判明した追加範囲であり、別の攻撃として加算しません。237件と763件は公式の対象件数で、人数へ換算せず、初報分を含む事件全体の確定総数とも扱いません。外部への持ち出しの有無は公表されておらず、不正利用等の二次被害は現時点で確認されていません。会社は個人情報保護委員会・警察への報告と対象者への通知を進めています。",
+    "affected": [
+      {
+        "count": 237,
+        "unit": "records",
+        "description": "追加公表された代理店等取引先関係者に関する対象件数。人数・確定窃取数ではない。",
+        "source_id": "evergreen-marketing-email-2026-1"
+      },
+      {
+        "count": 763,
+        "unit": "records",
+        "description": "追加公表された電力需給契約を締結する法人顧客の対象件数。人数へ換算せず、初報分を含む総数ではない。",
+        "source_id": "evergreen-marketing-email-2026-1"
+      }
+    ],
+    "sources": [
+      "evergreen-marketing-email-2026-1"
+    ],
+    "verification_note": "公式発表の横断検索で発見し、会社の10月6日発表全文をWebおよび通常HTTPSで確認。侵害日、閲覧可能性、237件・763件の対象と単位を突合し、既存事件に同社の同一事案がないことを確認。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
+  },
+  {
+    "id": "nishicho-site-defacement-2026",
+    "published_at": "2026-09-30",
+    "occurred_at": "2026-09-28",
+    "company": "学校法人本山学園／西日本調理製菓専門学校",
+    "service": "学校の公式Webサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "サイト改ざん確認",
+    "category": "教育・研究",
+    "title": "学校サイトを改ざんされ不審な画面が表示、9月30日に再開",
+    "summary": "西日本調理製菓専門学校は、9月28日に第三者の不正アクセスで公式サイトが改ざんされ、通常とは異なる画面が表示されたと公表しました。公開を停止してファイルの修復・削除、システム更新、認証情報変更などを行い、9月30日にサイトを再開しています。",
+    "note": "学校が示す影響が考えられる期間は9月28日3時40分ごろから22時ごろです。調査では個人情報等の外部流出は確認されていません。学校は期間中のPOPUPに従って操作した利用者にウイルスチェックを案内していますが、利用者端末の感染や窃取の成功は確認されたとは扱いません。侵入経路や他の教育機関の事件との関連は推定しません。",
+    "affected": [],
+    "sources": [
+      "nishicho-site-defacement-2026-1"
+    ],
+    "verification_note": "教育機関の横断検索で発見した報道から公式原典へ進み、Webツールの取得制約を通常HTTPSで補完して学校発表全文を確認。改ざん、公開停止、9月30日の再開、個人情報流出未確認を突合した。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-12",
+    "last_verified_at": "2026-10-12"
   }
 ]

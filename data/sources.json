@@ -3862,5 +3862,47 @@
     "type": "primary",
     "url": "https://www.izukougengakuen.jp/news/14827/",
     "title": "【重要】予約管理システム（サイトコントローラー）への 不正アクセスに関するお詫びとお知らせ"
+  },
+  {
+    "id": "hayashima-lecture-form-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/189868",
+    "title": "講演会の申込フォームで個人情報が閲覧可能に - 早島町"
+  },
+  {
+    "id": "hayashima-lecture-form-2026-2",
+    "publisher": "倉敷ケーブルテレビ（KCTニュース）",
+    "type": "reporting",
+    "url": "https://tv.kct.jp/program/detail.php?id=40277",
+    "title": "早島町の無料講演会申込１９６人分 応募フォーム不備で個人情報漏洩"
+  },
+  {
+    "id": "london-sim-swap-2021-1",
+    "publisher": "City of London Police",
+    "type": "primary",
+    "url": "https://www.cityoflondon.police.uk/news/city-of-london/news/2026/october/sim-swap-fraudster-who-spent-stolen-crypto-cash-on-gold-grills-and-luxury-holidays-jailed/",
+    "title": "SIM-swap fraudster who spent stolen crypto cash on gold grills and luxury holidays jailed"
+  },
+  {
+    "id": "london-sim-swap-2021-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/cryptocurrency-sim-swap-london",
+    "title": "Crypto thief who splurged on gold grills sentenced in London"
+  },
+  {
+    "id": "evergreen-marketing-email-2026-1",
+    "publisher": "エバーグリーン・マーケティング",
+    "type": "primary",
+    "url": "https://www.egmkt.co.jp/newsroom/news/2026/10982/",
+    "title": "【重要】当社メールアカウントの不正利用に関するお知らせ（漏えいの可能性がある個人情報の追加公表について）"
+  },
+  {
+    "id": "nishicho-site-defacement-2026-1",
+    "publisher": "学校法人本山学園／西日本調理製菓専門学校",
+    "type": "primary",
+    "url": "https://motoyama-e.com/nishicho/news/2026/09/30/42064/",
+    "title": "本学Webサイトの改ざんに関するお詫びと復旧のご報告"
   }
 ]
