@@ -3939,5 +3939,75 @@
     "type": "reporting",
     "url": "https://www.myleaderpaper.com/news/county-business-halts-as-staff-experience-tech-issues/article_b51f41dd-2250-4365-a6db-832d391102f1.html",
     "title": "UPDATED: County identifies network security threat"
+  },
+  {
+    "id": "hotel-shiragiku-reservation-2026-1",
+    "publisher": "ホテル白菊",
+    "type": "primary",
+    "url": "https://www.shiragiku.co.jp/news/%E3%80%90%E6%9C%80%E7%B5%82%E5%A0%B1%E5%91%8A%E3%80%91-%E5%AE%BF%E6%B3%8A%E4%BA%88%E7%B4%84%E3%83%BB%E8%B2%A9%E5%A3%B2%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D/",
+    "title": "【最終報告】宿泊予約・販売管理システムへの不正アクセスに関する調査結果とお詫び"
+  },
+  {
+    "id": "hotel-shiragiku-reservation-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56247.html",
+    "title": "ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認"
+  },
+  {
+    "id": "netscaler-webshell-campaign-2026-1",
+    "publisher": "Google Threat Intelligence Group・Mandiant",
+    "type": "primary",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances",
+    "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances"
+  },
+  {
+    "id": "netscaler-webshell-campaign-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells"
+  },
+  {
+    "id": "netscaler-webshell-campaign-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190973",
+    "title": "国内の「NetScaler」狙う攻撃も - 最新IoCで侵害確認を"
+  },
+  {
+    "id": "burnaby-schools-2026-1",
+    "publisher": "Burnaby School District",
+    "type": "primary",
+    "url": "https://burnabyschools.ca/incident-impacting-operations/",
+    "title": "Incident Impacting Operations"
+  },
+  {
+    "id": "latitude-breach-2023-1",
+    "publisher": "Office of the Australian Information Commissioner（OAIC）",
+    "type": "primary",
+    "url": "https://www.oaic.gov.au/news/media-centre/oaics-action-in-relation-to-the-2023-latitude-data-breach-and-information-to-update-and-assist-individuals",
+    "title": "OAIC’s action in relation to the 2023 Latitude Data Breach and information to update and assist individuals"
+  },
+  {
+    "id": "asos-notification-claim-2026-6",
+    "publisher": "ASOS",
+    "type": "primary",
+    "url": "https://www.asos.com/customer-care/engagement/unauthorised-asos-notification",
+    "title": "Latest information about the unauthorised ASOS notification"
+  },
+  {
+    "id": "asos-notification-claim-2026-7",
+    "publisher": "BBC News",
+    "type": "reporting",
+    "url": "https://www.bbc.com/news/articles/c3zxjdw5ywgpo",
+    "title": "Asos hackers took more personal details than first revealed, BBC finds"
+  },
+  {
+    "id": "asos-notification-claim-2026-8",
+    "publisher": "Malwarebytes",
+    "type": "reporting",
+    "url": "https://www.malwarebytes.com/blog/data-breaches/2026/10/asos-breach-update-hackers-stole-customer-details-and-shopping-searches",
+    "title": "ASOS breach update: Hackers stole customer details and shopping searches"
   }
 ]
