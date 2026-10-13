@@ -63,12 +63,73 @@ const BASE = process.env.ALLALARM_VERIFY_BASE || 'https://cyber.allalarm.app';
       if(!await(await get('/robots.txt')).text().then(t=>t.includes('Sitemap: '+base+'/sitemap.xml')))throw Error('Robots sitemap');
       return urls.length;
     }, canonicalBase);
+    async function checkTableOrder(direction) {
+      const rows = await page.locator('#news-rows tr').evaluateAll(rows => rows.map(row => ({
+        date: row.dataset.date,
+        datetime: row.querySelector('time').getAttribute('datetime'),
+        display: row.querySelector('time').textContent,
+        visible: !row.hidden
+      })));
+      for (const row of rows) {
+        assert.equal(row.datetime, row.date);
+        assert.equal(row.display, row.date.slice(5).replace('-', '.'));
+      }
+      const dates = rows.map(row => row.date);
+      const expected = [...dates].sort();
+      if (direction === 'desc') expected.reverse();
+      assert.deepEqual(dates, expected);
+      const visible = rows.filter(row => row.visible).map(row => row.date);
+      assert.deepEqual(visible, expected.slice(0, visible.length));
+    }
+    await checkTableOrder('desc');
+    assert.equal(await page.locator('#news-rows tr:visible').count(),10);
+    await page.locator('#load-more').click();
+    assert.equal(await page.locator('#news-rows tr:visible').count(),20);
+    await checkTableOrder('desc');
+    await page.locator('#sort').selectOption('asc');
+    assert.equal(await page.locator('#news-rows tr:visible').count(),10);
+    await checkTableOrder('asc');
+    await page.locator('#load-more').click();
+    await checkTableOrder('asc');
+    await page.locator('#sort').selectOption('desc');
+    await checkTableOrder('desc');
+    const sample = await page.locator('#news-rows tr[data-region="国内"]').first().evaluate(row => ({
+      month: row.dataset.date.slice(0,7), category: row.dataset.category
+    }));
+    await page.locator('#month-filter').selectOption(sample.month);
+    await page.locator('#category-filter').selectOption(sample.category);
+    await page.locator('#region-filter').selectOption('国内');
+    const matching = await page.locator('#news-rows tr').evaluateAll((rows,sample) => rows.filter(row =>
+      row.dataset.date.startsWith(sample.month) && row.dataset.category === sample.category && row.dataset.region === '国内'
+    ).map(row => row.dataset.id),sample);
+    assert.deepEqual(await page.locator('#news-rows tr:visible').evaluateAll(rows => rows.map(row => row.dataset.id)),matching.slice(0,10));
+    await page.locator('#search').fill('no-matching-incident-xyz');
+    assert.equal(await page.locator('#news-rows tr:visible').count(),0);
+    assert(await page.locator('#empty-state').isVisible());
+    assert(await page.locator('#load-more').isHidden());
+    await page.locator('#reset-filters').click();
+    await checkTableOrder('desc');
+    await page.locator('.filter-tab[data-filter="ai"]').click();
+    assert.equal(await page.locator('#news-rows tr:visible').count(),2);
+    await page.locator('.filter-tab[data-filter="all"]').click();
     await page.locator('#search').fill('Gyazo');
     assert.equal(await page.locator('#news-rows tr:visible').count(),1);
     await page.locator('.org-button:visible').click();assert(await page.locator('#detail-dialog').isVisible());
-    await page.keyboard.press('Escape');await page.locator('#search').fill('');
+    await page.keyboard.press('Escape');
+    assert(await page.locator('#detail-dialog').isHidden());
+    assert(await page.locator('.org-button:visible').evaluate(node => node === document.activeElement));
+    await page.locator('#search').fill('');
     await page.setViewportSize({width:390,height:844});
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+    await page.locator('#sort').selectOption('asc');
+    await checkTableOrder('asc');
+    await page.locator('#sort').selectOption('desc');
+    await checkTableOrder('desc');
+    await page.locator('.org-button:visible').first().focus();
+    await page.keyboard.press('Enter');
+    assert(await page.locator('#detail-dialog').isVisible());
+    await page.locator('.dialog-close').click();
+    assert(await page.locator('#detail-dialog').isHidden());
     await page.evaluate(async()=>{await Promise.race([navigator.serviceWorker.ready,new Promise((_,reject)=>setTimeout(()=>reject(Error("Service worker activation timed out")),60000))]);});
     await page.reload({waitUntil:'networkidle'});
     assert(await page.evaluate(()=>!!navigator.serviceWorker.controller));
@@ -78,6 +139,6 @@ const BASE = process.env.ALLALARM_VERIFY_BASE || 'https://cyber.allalarm.app';
     await page.goto(BASE+'/unvisited-offline-check/',{waitUntil:'domcontentloaded'});
     assert.equal(await page.locator('h1').textContent(),'接続できません');
     assert.deepEqual(errors,[]);
-    console.log(`PASS production: ${checked} pages; SEO, cards, icons, RSS, CSP, search/dialog, mobile, service worker and offline fallback`);
+    console.log(`PASS browser: ${checked} pages; SEO, cards, icons, RSS, CSP, table sorting/pagination/filters, search/dialog/keyboard, mobile, service worker and offline fallback`);
   } finally { await browser.close(); }
 })().catch(e=>{console.error(e);process.exitCode=1;});

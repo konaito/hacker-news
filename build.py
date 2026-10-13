@@ -73,7 +73,10 @@ month_options = '<option value="all">すべての公表月</option>' + ''.join(f
 page = re.sub(r'(<select id="month-filter">).*?(</select>)',lambda m:m[1]+month_options+m[2],page)
 archive = ''.join(f'<button data-month="{m}"><span>{m[:4]}年{int(m[5:])}月</span><strong>{n}件</strong></button>' for m,n in sorted(months.items(),reverse=True))
 page = re.sub(r'<button data-month="2026-10">.*?<p>AI関連2報告',archive+'<p>AI関連2報告',page,flags=re.S)
-page = page.replace('2026-10-06',cutoff).replace('2026年10月6日',f'{cutoff[:4]}年{int(cutoff[5:7])}月{int(cutoff[8:])}日')
+cutoff_label = f'{cutoff[:4]}年{int(cutoff[5:7])}月{int(cutoff[8:])}日'
+page = page.replace('<time datetime="2026-10-06">2026年10月6日</time>',
+                    f'<time datetime="{cutoff}">{cutoff_label}</time>')
+page = page.replace('情報基準日は2026年10月6日です。', f'情報基準日は{cutoff_label}です。')
 digests = json.loads((ROOT/'data/monthly-digests.json').read_text())
 digest_html = '<section class="side-panel"><div class="side-title"><h2>月別ダイジェスト</h2></div>' + ''.join(f'<article><h3>{e(d["title"])}</h3><p>{e(d["summary"])}</p><button class="text-button" data-month="{e(d["month"],quote=True)}">この月の事件を見る</button></article>' for d in sorted(digests,key=lambda d:d['month'],reverse=True)) + '</section>'
 page = page.replace('<section class="side-panel analysis"',digest_html+'<section class="side-panel analysis"')
