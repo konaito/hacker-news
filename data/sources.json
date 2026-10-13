@@ -4009,5 +4009,96 @@
     "type": "reporting",
     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/10/asos-breach-update-hackers-stole-customer-details-and-shopping-searches",
     "title": "ASOS breach update: Hackers stole customer details and shopping searches"
+  },
+  {
+    "id": "epark-peakmanager-2026-1",
+    "publisher": "EPARKリラク＆エステ",
+    "type": "primary",
+    "url": "https://www.epark-relax.co.jp/news/231",
+    "title": "不正アクセスと個人情報漏えいに関するお知らせ（第二報）"
+  },
+  {
+    "id": "kufu-zaim-2026-1",
+    "publisher": "くふうカンパニー",
+    "type": "primary",
+    "url": "https://kufu.co.jp/2026/09/22/zaim-announce/",
+    "title": "家計簿アプリ「くふう Zaim」への不正アクセスによる一部ユーザーの登録情報書き換えに関するお知らせとお詫び"
+  },
+  {
+    "id": "ksg-email-2026-1",
+    "publisher": "教育産業",
+    "type": "primary",
+    "url": "https://ksg.co.jp/topics/entry-62.html",
+    "title": "当社メールアカウントへの不正アクセスのお知らせ（最終報）"
+  },
+  {
+    "id": "canonical-ddos-october-2026-1",
+    "publisher": "Canonical",
+    "type": "primary",
+    "url": "https://discourse.ubuntu.com/t/ddos-on-canonical-and-ubuntu-websites/89064",
+    "title": "DDoS on Canonical and Ubuntu websites"
+  },
+  {
+    "id": "ahold-delhaize-october-2026-1",
+    "publisher": "Ahold Delhaize",
+    "type": "primary",
+    "url": "https://newsroom.aholddelhaize.com/ahold-delhaize-takes-precautionary-measures-following-cybersecurity-incident/",
+    "title": "Ahold Delhaize takes precautionary measures following cybersecurity incident"
+  },
+  {
+    "id": "french-supermarket-refrigeration-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+    "title": "Cyberattack disrupts refrigeration at hundreds of French supermarkets"
+  },
+  {
+    "id": "french-supermarket-refrigeration-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "title": "Cyberattack shuts down refrigerators at French supermarkets"
+  },
+  {
+    "id": "ledger-cryptobilis-hardware-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "title": "Ledger confirms spy chip implant behind wallet crypto thefts"
+  },
+  {
+    "id": "ledger-cryptobilis-hardware-2026-2",
+    "publisher": "Cointelegraph",
+    "type": "reporting",
+    "url": "https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m",
+    "title": "Ledger confirms unauthorized hardware implant, says losses may exceed $86M"
+  },
+  {
+    "id": "nipigon-hospital-2026-1",
+    "publisher": "Nipigon District Memorial Hospital",
+    "type": "primary",
+    "url": "https://www.ndmh.ca/upload/documents/cyber-incident-public-notification-includes-faq.docx",
+    "title": "Important Notice Regarding Cybersecurity Incident / NDMH CYBERSECURITY INCIDENT FAQ"
+  },
+  {
+    "id": "nipigon-hospital-2026-2",
+    "publisher": "SNnewswatch.com / Local Journalism Initiative（FIPA掲載）",
+    "type": "reporting",
+    "url": "https://fipa.bc.ca/nm/nipigon-hospital-hit-by-ransomware-attack",
+    "title": "Nipigon hospital hit by ransomware attack"
+  },
+  {
+    "id": "idcf-forcenet-2026-1",
+    "publisher": "フォースネット",
+    "type": "primary",
+    "url": "https://forcenet.jp/news/index-idcf-outage-recovery.html",
+    "title": "クラウド基盤障害に伴うサービス停止と完全復旧について"
+  },
+  {
+    "id": "nissui-logistics-2026-2",
+    "publisher": "ニッスイ",
+    "type": "primary",
+    "url": "https://www.nissui.co.jp/news/20261009.html",
+    "title": "日水物流株式会社におけるシステム障害について（第2報）"
   }
 ]
