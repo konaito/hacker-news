@@ -4100,5 +4100,12 @@
     "type": "primary",
     "url": "https://www.nissui.co.jp/news/20261009.html",
     "title": "日水物流株式会社におけるシステム障害について（第2報）"
+  },
+  {
+    "id": "coldcard-x-phishing-2026-1",
+    "publisher": "Cointelegraph",
+    "type": "reporting",
+    "url": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account",
+    "title": "Coldcard says it’s investigating how phishing link appeared on its X account"
   }
 ]

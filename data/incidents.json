@@ -9523,5 +9523,27 @@
     "first_seen_at": "2026-10-12",
     "last_verified_at": "2026-10-13",
     "verification_note": "参照する全出典の本文を確認し、既存の事件IDと照合。発生日と公表日、侵害・漏えいの確認範囲、数量の単位を区別して掲載。"
+  },
+  {
+    "id": "coldcard-x-phishing-2026",
+    "published_at": "2026-10-11",
+    "occurred_at": null,
+    "company": "Coinkite（COLDCARD）",
+    "service": "COLDCARDの公式Xアカウント",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "検証待ち",
+    "category": "IT・クラウド",
+    "title": "公式Xの不正なフィッシング投稿を報道、投稿経路の確認を継続",
+    "summary": "Cointelegraphは10月11日、COLDCARDが公式Xアカウントから不正なフィッシングリンクが投稿され、削除後に投稿経路を調べていると説明したことを報じました。会社はリンクにアクセスしないよう呼び掛け、Xへ連絡してアカウントへのアクセスを調査しているとしています。",
+    "note": "会社の元X投稿は直接取得できていません。別媒体の本文も確認しましたが同じ会社投稿の紹介が中心で、独立した取材による裏付けを補えず非公開を維持します。不正ログイン、認証情報の窃取、X側の管理操作、利用者の被害はいずれも断定しません。過去の端末問題やLedger販売店事案とは別の候補で、過去記事の損失額・ウォレット数を今回のaffectedへ転用しません。",
+    "affected": [],
+    "sources": [
+      "coldcard-x-phishing-2026-1"
+    ],
+    "publication_status": "pending",
+    "first_seen_at": "2026-10-13",
+    "last_verified_at": "2026-10-13",
+    "verification_note": "Cointelegraphの記事本文をWebツールと通常HTTPSで確認。The Crypto Timesの記事本文も読んだが会社投稿の引用が中心。記事がリンクする公式X投稿はWebツールで取得不可のため、一次本文または独立した追加取材による確認を待つ。statusは検証待ち候補の仮分類で、確認済み事件として公開・集計しない。"
   }
 ]
