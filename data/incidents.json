@@ -10499,5 +10499,67 @@
     "first_seen_at": "2026-10-15",
     "last_verified_at": "2026-10-15",
     "verification_note": "独立した報道2媒体（ScanNetSecurity、Security NEXT）の本文を確認。紛失と調査中の範囲に限定し、漏えい・不正利用は確認済みとしていません。"
+  },
+  {
+    "id": "arcadia-speecan-raiden-2026",
+    "published_at": "2026-10-13",
+    "occurred_at": null,
+    "company": "アルカディア",
+    "service": "SpeeCAN RAIDEN（防災・防犯情報配信）ほか",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "公共・自治体",
+    "title": "自治体など利用の一斉配信サービスに不正アクセス、連絡先の漏えいの可能性と配信停止",
+    "summary": "アルカディアは、防災・防犯情報の配信サービス「SpeeCAN RAIDEN」などへの第三者による不正アクセスで、登録者の連絡先などが漏えいした可能性があると公表しました。10月13日に一部環境を緊急停止し、同社は15日15時頃に復旧したとしています。",
+    "note": "10月11日16時30分に不審な挙動を検知し、12日3時頃に侵入経路を遮断。14日にはNET119・119RAIDENにも不正アクセスの形跡があったと公表しています。漏えいの有無と範囲は調査中で、件数はいずれも同社の推定最大値です（メールアドレス約313万6000件、電話番号約10万5000件、FAX番号約1万5000件。NET119・119RAIDENは約1万3000件）。メールアドレス・電話番号・FAX番号は別単位で、人数に換算できません。利用自治体への影響は個別の発表を要し、本記録は自治体ごとの被害を確認していません。",
+    "affected": [
+      {
+        "count": 3136000,
+        "unit": "records",
+        "description": "SpeeCAN RAIDENで漏えいした可能性のあるメールアドレスの推定最大件数（電話番号約10万5000件、FAX番号約1万5000件は別単位）。確定した件数・人数ではない。",
+        "source_id": "arcadia-speecan-2026-1"
+      }
+    ],
+    "sources": [
+      "arcadia-speecan-2026-1",
+      "arcadia-speecan-2026-2",
+      "arcadia-speecan-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "同社の一次発表（第9報）と企業公式ページ、Security NEXT記事の本文を確認。漏えいは可能性にとどまり、件数は推定最大値として記録。"
+  },
+  {
+    "id": "ozmall-starts-2026",
+    "published_at": "2026-09-27",
+    "occurred_at": "2026-09-26",
+    "company": "スターツ出版",
+    "service": "オズモール",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "EC・小売",
+    "title": "「オズモール」に海外から大量アクセス、会員のメールアドレスなど最大約44万人分が閲覧された可能性",
+    "summary": "スターツ出版は、9月26日にオズモールへの海外からの大量の不正アクセスを検知し、該当ページを停止しました。原因を特定して遮断し、サービスを再開しています。",
+    "note": "9月26日検知、9月27日公表。一次発表は最大447,610件、Security NEXTは10月7日付で最大442,779件（退会者を含む）と報じており、後者は第2報とみられますが、第2報の原文は今回確認できていません。対象はメールアドレスと一部の氏名・都道府県で、電話番号や詳細住所の閲覧形跡はなく、カード情報は対象外とされます。二次被害は未確認です。",
+    "affected": [
+      {
+        "count": 442779,
+        "unit": "records",
+        "description": "閲覧された可能性のある会員（一部退会者を含む）のメールアドレス最大件数。当初発表は447,610件。人数ではない。",
+        "source_id": "ozmall-starts-2026-2"
+      }
+    ],
+    "sources": [
+      "ozmall-starts-2026-1",
+      "ozmall-starts-2026-2",
+      "ozmall-starts-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "同社の一次発表と報道2媒体の本文を確認。件数は発表間で異なるため差異を注記し、閲覧の可能性として記録。"
   }
 ]

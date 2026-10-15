@@ -4590,5 +4590,47 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191197",
     "title": "データ移行に用いた記憶媒体を紛失、内容を調査 - 商船三井クルーズ"
+  },
+  {
+    "id": "arcadia-speecan-2026-1",
+    "publisher": "アルカディア（SpeeCAN RAIDEN）",
+    "type": "primary",
+    "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+    "title": "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（第9報）"
+  },
+  {
+    "id": "arcadia-speecan-2026-2",
+    "publisher": "アルカディア",
+    "type": "primary",
+    "url": "https://www.arcadia.co.jp/info/4076",
+    "title": "SpeeCAN RAIDENへの不正アクセスによる個人情報漏えいの可能性について"
+  },
+  {
+    "id": "arcadia-speecan-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191371",
+    "title": "自治体など利用する一斉同報サービスに不正侵入 - 影響を調査"
+  },
+  {
+    "id": "ozmall-starts-2026-1",
+    "publisher": "スターツ出版",
+    "type": "primary",
+    "url": "https://starts-pub.jp/info20260927",
+    "title": "当社への不正アクセスによる個人情報流出の可能性に関するお知らせ"
+  },
+  {
+    "id": "ozmall-starts-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190796",
+    "title": "「オズモール」に不正アクセス - 会員の個人情報流出の可能性"
+  },
+  {
+    "id": "ozmall-starts-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56359.html",
+    "title": "スターツ出版「オズモール」に不正アクセス、会員のメールアドレス 最大447,610名分が漏えいした可能性"
   }
 ]
