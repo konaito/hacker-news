@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-15T18:20:15.397507+00:00",
+  "completed_at": "2026-10-15T21:28:59.944402+00:00",
   "candidates": [
     {
       "title": "Prato市のサイバー攻撃告知",
@@ -105,78 +105,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "RIA月報本文は9月11日の検知と顧客データ取得の可能性、サイト停止を記載。大学・図書館ドメインを含め検索したが日付付きの事件告知を補えず、月報の正確な公表日も不明。人数・発生日・公表日を推測せず継続。"
-    },
-    {
-      "title": "エストニアTARAへの9月11日のDDoS",
-      "url": "https://www.ria.ee/olukord-kuberruumis-september-2026",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "RIAの月報本文は9月11日のDDoSと一時的遅延を記載。事件自体の一次記述は読めたが、ページには正確な公表日の表示がなく、検索でも別の有日付告知を補えなかった。検知・発生日を公表日へ転用せず、発表日を整理して次回掲載を検討する。"
-    },
-    {
-      "title": "ドコモのAmazonへの同意未取得の情報提供報道",
-      "url": "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "9月の設定不備検索で発見しLab本文を通常HTTPSで読んだ。ドコモ公式ドメインで個別告知を探したが一般の同意事項等しか補えず、引用通知の原文は未確認。約34万人・延べ回線という報道上の単位や削除日を確定せず、会社の侵害と推定せず継続。"
-    },
-    {
-      "title": "NVIDIA DCGM ExporterのGPU監視情報露出",
-      "url": "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元LAVA本文をWebで再読しNVIDIA/DCGM/CVE-2026-47483を再検索。3〜5月の4回の走査で約2100ホストの監視情報露出を観測した一方、DoSは研究環境のみで実施。公開メトリクスの意図・個別被害組織と事件単位を確定できず、実攻撃と同一視せず継続。"
-    },
-    {
-      "title": "J:COMのDNS障害と広範な通信影響",
-      "url": "https://newsreleases.jcom.co.jp/news/20260924_22551.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元JCOM公式本文を再読しDNS・大量アクセス・攻撃原因の続報を検索。9月23日20時の正常提供確認とDNS高負荷は確認したが、悪意ある攻撃の確認は補えず継続。408万は最大対象の加入世帯で、実被害人数へ換算しない。"
-    },
-    {
-      "title": "テラスモバイル2・パチマガスロマガのIDCF影響続報",
-      "url": "https://pachinkopachisro.com/archives/4369/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元ページの本文をWebと通常HTTPSで再読しテラスモバイル2・パチマガの復旧を再検索。新しい10月14日夜の報告引用を読み、公式代替ページから機種・コラムの臨時復旧は一次確認しIDCFへ追記。公式Xの直接本文は403。テラスモバイル2の全体復旧および会員機能の全復旧は確認できず、この複合候補は未解決として維持。"
-    },
-    {
-      "title": "S-QUE eラーニングのパートナー侵害と予防的な基盤移行",
-      "url": "https://s-que.net/news/20261008/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元URLをWebと通常HTTPSで再取得し404。公式一覧と通常メンテナンス終了ページは10月10日13時開始・16時30分終了と確認。特定行為研修側URLはWeb不可を通常HTTPSで補完し15時30分終了と確認したが、供給者侵害・予防的移行との因果関係は両本文にないため継続。2通知の終了時刻を混同しない。"
-    },
-    {
-      "title": "KKR京都くに荘のメールサーバへの不正アクセスの調査結果",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元Scan本文とリンク先KKR9月16日一次本文を通常HTTPSでも再読。メールボックスへのアクセス・閲覧の記録と個人情報漏えいの事実は確認されなかった。8月初報のサーバー侵害範囲を検索で補えず、漏えいなしの調査結果を侵入全体の否定にも確定侵害にも変換せず継続。"
-    },
-    {
-      "title": "BLACK XによるBayer・enTouch・lopayの未確認主張",
-      "url": "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元Security Arsenal本文とBLACK X関連検索を再確認。2クローラーの一致は主張の存在のみで、会社同定・侵害の独立確認ではない。Bayer・lopayの公式域検索とenTouch公式トップも確認したが当該侵害確認は補えず、数量をaffectedへ入れず継続。"
-    },
-    {
-      "title": "EC-CUBE公式AmazonPayプラグインの実悪用",
-      "url": "https://www.security-next.com/191457",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "新着一覧と記事本文で実悪用の注意喚起を再発見。被害対象・成功した侵害の範囲と、前回持越しの未解決事項を今回の限られた新着調査では確定できず継続。脆弱性の存在だけで被害件数にしない。"
     },
     {
       "title": "Microsoft Windows Shell CVE-2026-96951の実悪用",
@@ -483,6 +411,70 @@
       "reason": "今回の再取得はsocket hang upで失敗し本文を再確認できず。病院公式の9月告知も未確認。次回優先。"
     },
     {
+      "title": "ドコモのAmazonへの同意未取得の情報提供報道",
+      "url": "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Lab本文を再読。電話番号と料金プラン名がAmazon Japanへ提供、約34万人分（関連リンクは34万回線）と報じられ、9月12日までに削除、ドコモ9月15日公表とされる。ドコモ公式通知の原文リンクがなく単位も不統一なため確定できず継続。会社の侵害とは扱わない。"
+    },
+    {
+      "title": "エストニアTARAへの9月11日のDDoS",
+      "url": "https://www.ria.ee/olukord-kuberruumis-september-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "RIA本文を再読。9月11日11:12〜12:15のDDoS、11:57まで短時間の障害・遅延、8,600万超のリクエストの90%超を遮断と記載。ページ全体の最終更新5日(2026-10-05)のみで当該項目の公表日が不明、公表日を確定できず継続。"
+    },
+    {
+      "title": "NVIDIA DCGM ExporterのGPU監視情報露出",
+      "url": "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "LAVA本文(10月8日付)を再読。3〜5月の4走査で約2,000〜2,100ホスト・約300組織の露出を観測。実被害・実攻撃の報告はなくDoSは試験環境のみ。研究・露出調査であり事件として確定できず継続。"
+    },
+    {
+      "title": "J:COMのDNS障害と広範な通信影響",
+      "url": "https://newsreleases.jcom.co.jp/news/20260924_22551.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "JCOM公式本文を再読。9月23日8:55開始、外部からの大量アクセスでDNS高負荷、20:00に正常確認。攻撃・悪意とは明記されず調査中の暫定記述。最大約408万世帯は影響対象上限で人数ではない。攻撃確認なしのため継続。"
+    },
+    {
+      "title": "テラスモバイル2・パチマガスロマガのIDCF影響続報",
+      "url": "https://pachinkopachisro.com/archives/4369/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "元ページを再読。10月11日時点でテラモバ一部ホールで復旧開始、12〜13日の復旧見込み、パチマガは表示テスト段階。全体復旧の確認は取れておらずIDCF事件(nissui-logistics-2026等)とは別に複合候補として継続。"
+    },
+    {
+      "title": "S-QUE eラーニングのパートナー侵害と予防的な基盤移行",
+      "url": "https://s-que.net/news/20261008/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "元URLを再取得しHTTP 404。本文を確認できず、供給者侵害・予防的移行の主張は未検証のまま継続。"
+    },
+    {
+      "title": "KKR京都くに荘のメールサーバへの不正アクセスの調査結果",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Scan本文を再読。9月16日発表の調査結果で、第三者によるメールボックスのアクセス・閲覧の記録はなく、現時点で個人情報漏えいは未確認。侵入の有無の確定には至らず継続。"
+    },
+    {
+      "title": "BLACK XによるBayer・enTouch・lopayの未確認主張",
+      "url": "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再読。10月9日の3件のリークサイト掲載は攻撃者の主張で、侵害は未確認、会社同定も不明と明記。被害確認なしで継続、件数等は記録せず。"
+    },
+    {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
       "incident_id": "ftapi-2026",
       "url": null,
@@ -577,7 +569,7 @@
     "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/": "2026-10-15T17:24:06.169808+00:00",
     "tottori-care-provider-email-2026": "2026-10-15T05:43:47.787042Z",
     "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-15T17:24:06.169808+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html": "2026-10-15T06:42:07.697459+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html": "2026-10-15T21:28:39.109382Z",
     "solar-russian-medical-network-2026": "2026-10-15T05:43:47.787042Z",
     "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-15T17:24:06.169808+00:00",
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-15T17:24:06.169808+00:00",
@@ -585,7 +577,7 @@
     "hcuch-imaging-2026": "2026-10-15T05:43:47.787042Z",
     "kenya-brs-2026": "2026-10-15T05:43:47.787042Z",
     "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/": "2026-10-15T17:24:06.169808+00:00",
-    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-15T06:42:07.697459+00:00",
+    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-15T21:28:39.109382Z",
     "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-15T05:43:47.787042Z",
     "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-15T18:19:43.703601+00:00",
     "https://www.security-next.com/190739": "2026-10-15T05:43:47.787042Z",
@@ -596,7 +588,7 @@
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-15T17:24:06.169808+00:00",
     "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-15T05:43:47.787042Z",
     "https://www.reddit.com/r/newsokuexp/comments/1wuhku8/e%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E9%80%9A%E7%9F%A5%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8C%E6%9C%AC%E6%96%87%E3%81%AB%E8%B3%BC%E5%85%A5%E5%85%88%E3%81%AE%E5%BA%97%E5%90%8D%E3%81%8C%E3%81%AA%E3%81%84%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E5%B1%8A%E3%81%84%E3%81%9F%E4%BA%BA%E3%81%84%E3%82%8B/": "2026-10-15T05:43:47.787042Z",
-    "https://s-que.net/news/20261008/": "2026-10-15T06:42:07.697459+00:00",
+    "https://s-que.net/news/20261008/": "2026-10-15T21:28:39.109382Z",
     "https://www.itmedia.co.jp/business/articles/2610/09/news077.html": "2026-10-15T05:43:47.787042Z",
     "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-15T17:24:06.169808+00:00",
     "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-15T17:24:06.169808+00:00",
@@ -604,9 +596,9 @@
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-15T17:24:06.169808+00:00",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002177/": "2026-10-15T17:24:06.169808+00:00",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-15T17:24:06.169808+00:00",
-    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-15T06:42:07.697459+00:00",
+    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-15T21:28:39.109382Z",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-15T18:19:43.703601+00:00",
-    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-15T06:42:07.697459+00:00",
+    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-15T21:28:39.109382Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-15T17:24:06.169808+00:00",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-10-15T17:24:06.169808+00:00",
     "https://www.security-next.com/190136": "2026-10-15T05:43:47.787042Z",
@@ -615,19 +607,18 @@
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-15T17:24:06.169808+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-15T17:24:06.169808+00:00",
     "https://www.iodata.jp/support/information/2026/10_familysmile/index.htm": "2026-10-15T17:24:06.169808+00:00",
-    "https://pachinkopachisro.com/archives/4369/": "2026-10-15T06:42:07.697459+00:00",
+    "https://pachinkopachisro.com/archives/4369/": "2026-10-15T21:28:39.109382Z",
     "https://haveibeenpwned.com/breach/neogen": "2026-10-15T18:19:43.703601+00:00",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-15T18:19:43.703601+00:00",
     "https://haveibeenpwned.com/breach/angelone": "2026-10-15T18:19:43.703601+00:00",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-15T18:19:43.703601+00:00",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-15T17:24:06.169808+00:00",
     "coldcard-x-phishing-2026": "2026-10-15T05:43:47.787042Z",
-    "https://www.security-next.com/191457": "2026-10-15T06:42:07.697459+00:00",
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-15T06:42:07.697459+00:00",
-    "https://www.ria.ee/olukord-kuberruumis-september-2026": "2026-10-15T05:43:47.787042Z",
+    "https://www.ria.ee/olukord-kuberruumis-september-2026": "2026-10-15T21:28:39.109382Z",
     "https://ria.ee/en/situation-cyberspace-september-2026": "2026-10-15T05:43:47.787042Z",
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-15T18:19:43.703601+00:00",
-    "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-15T05:43:47.787042Z",
+    "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-15T21:28:39.109382Z",
     "senture-fmcsa-2026": "2026-10-15T06:42:07.697459+00:00",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-15T06:42:07.697459+00:00",
     "https://scan.netsecurity.ne.jp/": "2026-10-15T08:34:46Z",
@@ -637,10 +628,10 @@
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-15T18:19:43.703601+00:00",
-      "summary": "Security NEXT・ScanNetSecurity・BleepingComputer・The Recordの新着一覧を確認し、未掲載だった2件（アルカディアSpeeCAN RAIDEN、オズモール）を一次発表と報道で本文確認して新規掲載。その他の候補は既存記録と照合。必須の持越し8件は再調査したが、いずれも当事者確認等を補えずdeferred継続（Policlinico Triestinoは再取得に失敗）。未読の一覧記事3件はdeferredとして次回へ。",
-      "run_id": "38784173591",
-      "main_sha": "095440bfb4d371d606a35b3bb5aac4997c19c2a5"
+      "completed_at": "2026-10-15T21:28:39.109382Z",
+      "summary": "直近72時間の国内外一覧を確認し、既存掲載済みの事件を照合。新規として米連邦破産裁判所の通知センター(BAE Systems委託)の停止を一次発表とThe Recordで確認して追加。選択済み持越し8件は再読したが解決条件を満たさず全て継続。Xは本文を読めず、公開検索で新規の重要候補は見つからなかった。",
+      "run_id": "38809704434",
+      "main_sha": "a9cf174e9e2c2d07799a672b256f995dece9048d"
     },
     "historical": {
       "completed_at": "2026-10-15T17:24:06.169808+00:00",
@@ -651,10 +642,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "38784173591",
-    "completed_at": "2026-10-15T18:20:15.397507+00:00",
+    "run_id": "38809704434",
+    "completed_at": "2026-10-15T21:28:59.944402+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "095440bfb4d371d606a35b3bb5aac4997c19c2a5"
+    "main_sha": "a9cf174e9e2c2d07799a672b256f995dece9048d"
   }
 }
