@@ -4632,5 +4632,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56359.html",
     "title": "スターツ出版「オズモール」に不正アクセス、会員のメールアドレス 最大447,610名分が漏えいした可能性"
+  },
+  {
+    "id": "bnc-bae-2026-1",
+    "publisher": "United States Courts",
+    "type": "primary",
+    "url": "https://www.uscourts.gov/data-news/judiciary-news/2026/10/15/cybersecurity-incident-disrupting-bankruptcy-court-operations",
+    "title": "Cybersecurity Incident Disrupting Bankruptcy Court Operations"
+  },
+  {
+    "id": "bnc-bae-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+    "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack"
   }
 ]

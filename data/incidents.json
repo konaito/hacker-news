@@ -10561,5 +10561,28 @@
     "first_seen_at": "2026-10-15",
     "last_verified_at": "2026-10-15",
     "verification_note": "同社の一次発表と報道2媒体の本文を確認。件数は発表間で異なるため差異を注記し、閲覧の可能性として記録。"
+  },
+  {
+    "id": "bnc-bae-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": null,
+    "company": "米連邦司法府（委託先BAE Systems）",
+    "service": "Bankruptcy Noticing Center",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム停止",
+    "category": "行政・公共",
+    "title": "破産裁判所の通知センターが委託先へのサイバー事案で停止、通知作成に影響",
+    "summary": "米連邦司法府は、BAE Systemsが連邦司法府のために運用するBankruptcy Noticing Centerのシステムとウェブサイトがサイバーセキュリティ事案の影響を受けたと発表しました。同センターは全米の連邦破産裁判所の通知を作成・送付しています。",
+    "note": "The Recordによると、通知作成が止まり、複数のBNCサイトと全国債権者登録サービスが利用できなくなったと伝えています。発生日、侵入経路、攻撃者、データ窃取の有無は未公表で、BAEは影響がBNCシステムに限られると説明したと報じられています。BAE全体の侵害とは扱いません。",
+    "affected": [],
+    "sources": [
+      "bnc-bae-2026-1",
+      "bnc-bae-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "米連邦裁判所の10月15日付一次発表の本文とThe Record本文を確認。データ流出は確認されておらず、停止の事実のみを記録。"
   }
 ]
