@@ -15,7 +15,7 @@ AGENTS.mdを読み、data/incidents.json、sources.json、monthly-digests.json�
 一次情報確認済みは published。一次情報なしの場合は独立した信頼できる報道2媒体以上を本文で確認した場合のみ published。報道1媒体だけは pending。sourcesにはpublisher,type,url,titleを記録する。確認できない主張は追加しない。検証待ち候補の再調査範囲も実行モード指示に従う。
 新規・変更レコードのすべての出典リンクを開き本文と主張を突合する。HTTP403等の場合ブラウザ/Webツールで本文を確認できなければpendingを維持する。自動リンクチェックの失敗を無視して検証済みにしない。
 last_verified_at は実際に当該レコードを確認した場合だけ変更する。無変更の確認だけで既存データの日付を更新して公開を発生させない。
-原則data/のみ編集する。UIやスクリプトを変更しない。JSON検証 python3 scripts/validate.py を通す。変更があれば python3 build.py と node --check public/app.js を実行する。
+原則data/のみ編集する。UIやスクリプトを変更しない。JSON検証 python3 scripts/validate.py を通す。GitHub Actionsの調査ジョブではビルドしない。公開用のビルドと生成物の検証は別ジョブのrunnerが実行する。
 監査結果を .audit/current-report.json にJSONで記録する: schema_version(2), quality_version(1), completed_at(UTC ISO), searches(実際の検索語の配列), changed_ids, pending_ids, summary, coverage, candidates, source_checks。coverageはモードの必須経路をキーに持ち、各値は searches（実際の検索語の非空配列）、checked_urls（実際に開いたURLの非空配列）、limitations（取得失敗・探索制約の文字列配列）を持つ。candidatesは上記候補オブジェクトの配列。
 domestic_mediaとinternational_mediaにはlisting_checksも必要。各要素は {url, result: reviewed/unavailable, reason, candidate_urls}。urlは実際に開いた一覧URLでchecked_urlsにも含める。reasonに調べた期間・次ページ・取得制約、候補ゼロならその判断を具体的に記す。candidate_urlsは一覧から拾った候補の記事URLで、すべてcandidatesにも判断を記録する。国内・海外それぞれ少なくとも異なる2媒体の一覧を本文で確認する。必須媒体の取得に失敗した場合もunavailableを残し、同経路の別媒体を確認して補う。検索結果ページだけを一覧確認としない。
 source_checksは出典IDをキーとするオブジェクト。本文確認成功は {result: body_checked, method: 実際の確認方法, supported_claims: [本文が裏付けた事実の短い言い換え]}。取得失敗は {result: unavailable, method, reason}。HTTP成功・検索見出しだけではbody_checkedにしない。公開する新規・変更レコードが参照する全出典の本文を確認する。出典の変更がある場合も、それを参照するレコードのIDをchanged_idsへ含めて再確認する。changed_idsは実データ差分と一致させ、各IDのpublished/updated/pending判断もcandidatesへ記録する。報告用に既存の検証日を更新しない。

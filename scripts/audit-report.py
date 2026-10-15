@@ -69,7 +69,7 @@ def collect_carryover(reports, incidents, mode, started_at):
     result = {}
     for key, candidate in latest.items():
         record = records.get(candidate.get('incident_id'))
-        if record and record['publication_status'] == 'published':
+        if record and record['publication_status'] == 'published' and not candidate.get('requires_recheck'):
             continue
         if candidate['decision'] == 'deferred' and (mode == 'historical' or candidate['priority'] == 'high'):
             result[key] = candidate

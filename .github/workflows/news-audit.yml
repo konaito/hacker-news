@@ -1,0 +1,144 @@
+name: Claude cybersecurity news audit
+on:
+  schedule:
+    - cron: '17 * * * *'
+    - cron: '43 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Research scope
+        type: choice
+        options: [fresh, historical]
+        default: fresh
+permissions:
+  contents: read
+concurrency:
+  group: news-audit-main
+  cancel-in-progress: false
+env:
+  AUDIT_MODE: ${{ (github.event.schedule == '43 */6 * * *' || inputs.mode == 'historical') && 'historical' || 'fresh' }}
+jobs:
+  research:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: read
+    outputs:
+      baseline: ${{ steps.prepare.outputs.baseline }}
+      state_base: ${{ steps.prepare.outputs.state_base }}
+      started_at: ${{ steps.prepare.outputs.started_at }}
+      artifact_id: ${{ steps.archive.outputs.artifact-id }}
+      mode: ${{ env.AUDIT_MODE }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Claude authentication
+        env:
+          CLAUDE_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$CLAUDE_OAUTH" ] && [ -z "$CLAUDE_API_KEY" ]; then
+            echo '::error::Add CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY to repository Actions secrets.'
+            exit 1
+          fi
+      - name: Restore durable candidates and prepare research
+        id: prepare
+        run: python3 scripts/actions-audit.py prepare --mode "$AUDIT_MODE"
+      - name: Research source bodies with Claude
+        id: claude
+        continue-on-error: true
+        timeout-minutes: ${{ env.AUDIT_MODE == 'historical' && 50 || 25 }}
+        uses: anthropics/claude-code-action@a26b07d8c778b0c43f64618e5fd29fd0f8af72e8 # v1
+        with:
+          github_token: ${{ github.token }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN == '' && secrets.ANTHROPIC_API_KEY || '' }}
+          show_full_output: 'false'
+          classify_inline_comments: 'false'
+          prompt: |
+            Read CLAUDE.md and .audit/cloud/prompt.md, then execute the research task.
+            Edit only the requested source data and completion report. Do not commit,
+            push, deploy, or modify scripts/workflows. Cite checked source bodies.
+          claude_args: >-
+            --max-turns 180
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(python3:*),Bash(curl:*),Bash(rg:*),Bash(date:*),Bash(mkdir:*),Bash(cat:*)"
+      - name: Preserve research output, including failed or timed-out attempts
+        id: archive
+        if: always() && steps.prepare.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-research-${{ github.run_id }}-${{ github.run_attempt }}
+          include-hidden-files: true
+          retention-days: 14
+          path: |
+            data/*.json
+            .audit/cloud/context.json
+            .audit/fresh/current-report.json
+            .audit/historical/current-report.json
+          if-no-files-found: error
+
+  publish:
+    needs: research
+    if: always() && needs.research.outputs.artifact_id != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      accepted: ${{ steps.publish.outputs.accepted }}
+      published_sha: ${{ steps.publish.outputs.published_sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.research.outputs.baseline }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ needs.research.outputs.artifact_id }}
+          path: .audit/research-result
+          merge-multiple: true
+      - name: Configure publication identity and GitHub authentication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          gh auth setup-git
+      - name: Validate, rebuild, and atomically synchronize main and audit state
+        id: publish
+        env:
+          BASELINE: ${{ needs.research.outputs.baseline }}
+          STATE_BASE: ${{ needs.research.outputs.state_base }}
+          STARTED_AT: ${{ needs.research.outputs.started_at }}
+          MODE: ${{ needs.research.outputs.mode }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/actions-audit.py finalize \
+            --artifact .audit/research-result --mode "$MODE" \
+            --baseline "$BASELINE" --state-base "$STATE_BASE" \
+            --started-at "$STARTED_AT" --run-id "$GITHUB_RUN_ID"
+
+  deploy:
+    needs: publish
+    if: needs.publish.outputs.accepted == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/github-pages.yml
+    with:
+      deploy_ref: ${{ needs.publish.outputs.published_sha }}
