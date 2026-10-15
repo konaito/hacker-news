@@ -4457,5 +4457,124 @@
     "type": "primary",
     "url": "https://www.komatsu.jp/ja/newsroom/2026/20260915",
     "title": "個人情報が閲覧可能な状態にあったことに関するお知らせ（2026年9月15日）"
+  },
+  {
+    "id": "rakuten-mobile-payment-certificate-2026-1",
+    "publisher": "楽天モバイル",
+    "type": "primary",
+    "url": "https://network.mobile.rakuten.co.jp/information/news/other/3888/",
+    "title": "【重要】支払い証明書の第三者閲覧の可能性について"
+  },
+  {
+    "id": "rakuten-mobile-payment-certificate-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002250/",
+    "title": "楽天モバイル、利用者の「支払い証明書」に第三者閲覧の恐れ　社内の脆弱性診断で発覚"
+  },
+  {
+    "id": "asahi-kasei-trade-secret-2026-1",
+    "publisher": "旭化成",
+    "type": "primary",
+    "url": "https://www.asahi-kasei.com/jp/news/2026/ze260917",
+    "title": "元従業員の逮捕について"
+  },
+  {
+    "id": "asahi-kasei-trade-secret-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56311.html",
+    "title": "旭化成の元従業員が不正競争防止法違反で逮捕、機密情報持ち出し中国企業「山東聖泉」へ流出"
+  },
+  {
+    "id": "hirudo-android-campaign-2026-1",
+    "publisher": "ThreatFabric",
+    "type": "primary",
+    "url": "https://www.threatfabric.com/blogs/hirudo-from-fake-updates-to-patched-banking-apps",
+    "title": "Hirudo: From Fake Updates to Patched Banking Apps"
+  },
+  {
+    "id": "hirudo-android-campaign-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+    "title": "Hirudo Android malware replaces banking apps to evade security checks"
+  },
+  {
+    "id": "senture-fmcsa-2026-1",
+    "publisher": "DysruptionHub",
+    "type": "reporting",
+    "url": "https://dysruptionhub.com/senture-kentucky-cyberattack-fmcsa-phones/",
+    "title": "Cyberattack on Senture disrupts federal trucking registration phone support"
+  },
+  {
+    "id": "senture-fmcsa-2026-2",
+    "publisher": "Federal Motor Carrier Safety Administration",
+    "type": "primary",
+    "url": "https://www.fmcsa.dot.gov/newsroom/fmcsa-contact-center-update-0",
+    "title": "FMCSA Contact Center Update"
+  },
+  {
+    "id": "meta-github-2026-2",
+    "publisher": "Security Boulevard",
+    "type": "reporting",
+    "url": "https://securityboulevard.com/2026/10/meta-security-breach-exposes-corporate-code-employee-data-on-github/",
+    "title": "Meta Security Breach Exposes Corporate Code, Employee Data on GitHub"
+  },
+  {
+    "id": "idcf-docomo-filter-2026-1",
+    "publisher": "NTTドコモ",
+    "type": "primary",
+    "url": "https://www.docomo.ne.jp/info/notice/page/261008_01_m.html",
+    "title": "「あんしんフィルター for docomo」がご利用いただけない状況について（第四報）"
+  },
+  {
+    "id": "idcf-jrtokai-2026-1",
+    "publisher": "東海旅客鉄道",
+    "type": "primary",
+    "url": "https://e-mono.jr-central.co.jp/shop/pages/20261013.aspx",
+    "title": "株式会社ＩＤＣフロンティアで発生した不正アクセスに伴うメールアドレス等漏えいの可能性について"
+  },
+  {
+    "id": "idcf-pachimagasmag-2026-1",
+    "publisher": "パチマガスロマガ編集部",
+    "type": "primary",
+    "url": "https://psmaga.com/info/system_outage_202610.php",
+    "title": "パチマガスロマガMobileの接続障害に関するお詫びと進捗状況"
+  },
+  {
+    "id": "idcf-mouse-2026-1",
+    "publisher": "マウスコンピューター",
+    "type": "primary",
+    "url": "https://www2.mouse-jp.co.jp/ssl/user_support2/info.asp?N_ID=535",
+    "title": "メールアドレス漏えいの可能性およびメールマガジン配信の一時停止について"
+  },
+  {
+    "id": "idcf-izumi-2026-1",
+    "publisher": "イズミ",
+    "type": "primary",
+    "url": "https://www.izumi.co.jp/news_release/assets/dc18e543b048e2f1a4d596bb0035aaaf_2.pdf",
+    "title": "IDCフロンティア社で発生した不正アクセスに伴うメールアドレス等の漏えいの可能性につきまして"
+  },
+  {
+    "id": "arcadia-aizuwakamatsu-2026-1",
+    "publisher": "会津若松市",
+    "type": "primary",
+    "url": "https://www.city.aizuwakamatsu.lg.jp/docs/2026101400011/",
+    "title": "不正アクセスに伴う災害時電話発信サービスの緊急停止及び個人情報漏洩の可能性について"
+  },
+  {
+    "id": "denmark-cpr-2026-3",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002257/",
+    "title": "デンマークの880万人分流出、原因はパスワード「123456」　ハッカー「侵入は難しくなかった」　現地報道"
+  },
+  {
+    "id": "denmark-cpr-2026-4",
+    "publisher": "The Copenhagen Post / Ritzau",
+    "type": "reporting",
+    "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+    "title": "123456 password used in massive Danish CPR data breach"
   }
 ]
