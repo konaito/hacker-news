@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-15T08:19:08.949584+00:00",
+  "completed_at": "2026-10-15T08:25:21.989818+00:00",
   "candidates": [
     {
       "title": "Prato市のサイバー攻撃告知",
@@ -115,14 +115,6 @@
       "reason": "元BC本文をWebツールで再読し、Ninja Forms・Patchstack・XSS・永続化で続報検索。観測した攻撃試行とペイロードの機能を確認したが、成功した個別侵害の範囲・重複を追加確定できず継続。導入サイト数を被害数にしない。"
     },
     {
-      "title": "Kimberly-Clarkに対するShinyHuntersの恐喝主張",
-      "url": "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元SOCRadar本文のAllegedと、流出サイト掲載は独立確認できない旨の免責を再確認。会社名とShinyHuntersで検索しても会社の今回被害確認を補えず継続。"
-    },
-    {
       "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
       "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
       "priority": "high",
@@ -147,14 +139,6 @@
       "reason": "元SecurityWeek本文を再読しMALFEX・Checkmarx・感染被害を検索。悪性npm配布とWindows向け機能は説明されるが、40,000超のダウンロードを感染数・個別被害へ置換できず継続。"
     },
     {
-      "title": "Aon plcへのTermiteの被害主張",
-      "url": "https://wasteland.me/intel/aon-termite-ransomware",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元Wasteland本文を通常HTTPSで再読。Unverifiedで、直接主張を紹介するのはKalirの単一索引、他の出典は一般助言等と明記。Aon・Termite検索で被害企業の確認を補えず継続。"
-    },
-    {
       "title": "公開GitHubリポジトリの543000超の有効認証情報",
       "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
       "priority": "high",
@@ -169,38 +153,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "元ITmedia本文を通常HTTPSで再読し自治体・Jクラブ・復旧を検索。松本市は自動翻訳障害、他の施設は説明が異なる。小平市公式臨時ページも確認したが全組織をIDCF事件へ包含する根拠は補えず継続。"
-    },
-    {
-      "title": "Silent Ransom Groupの流出会話と法律事務所への物理訪問",
-      "url": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元The Record本文を通常HTTPSで再読しSRG・法律事務所・確認済み被害を検索。独立して裏付けられた部分と未実行計画、金額の自称を分離。個別既存事件との確実な対応づけ未了で継続。"
-    },
-    {
-      "title": "skyticketの9月9日の会員1名への不正ログイン",
-      "url": "https://skyticket.jp/news/maintenance/67603",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元skyticket公式全文を再読し9月9日・会員1名・続報を検索。公式は異なる経路の3件のうち業務管理項目でこの不正ログインに言及。既存3事案との関係を追加確定できず別事件・人数として加算しない。"
-    },
-    {
-      "title": "韓国の2教会の実名報道と匿名の侵害分析",
-      "url": "https://therecord.media/south-korea-hackers-megachurches",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元The Record本文を通常HTTPSで再読しYoido・SaRang・Oasisを再検索。実名の教会回答と研究上の匿名事例の対応が未確定。85万人を匿名の既存レコードへ推定付与せず継続。"
-    },
-    {
-      "title": "Belarusian Cyber Partisansのロシア医療侵害主張",
-      "url": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元The Record本文を通常HTTPSで再読しCyber Partisans・Moscow・Solarを検索。2023年侵入後に維持しなかったとの主張と、Solarの2024年以降の痕跡を区別。同一性や追加の被害元確認は未確定で継続。"
     },
     {
       "title": "Domino’s利用者アカウントへの不正ログイン",
@@ -267,14 +219,6 @@
       "reason": "元INC一覧のhsc.mb.ca行を通常HTTPSで再読しShared Health・HSC・INCを検索。8月の施設保守系ランサム公式説明は発見できるが、今回の掲載との同一性と9月以降の被害元続報を補えず継続。"
     },
     {
-      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元BC本文をWebで再読しEdward Dubrovsky・FBI・ShinyHunters・訴追を検索。逮捕報道と当局が公開確認していない本人対応、封印訴状の中身を分離。確定犯人・新規被害事件として追加せず継続。"
-    },
-    {
       "title": "CNESTENへのQilinの主張",
       "url": "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/",
       "priority": "high",
@@ -321,14 +265,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "元RansomLook recent本文の海運・港湾各社の掲載行を通常HTTPSで再読しOcean Network Express・Tsuneishi/Kambara Kisen・Santos Brasil・Asyaport・N0nを検索。会社や当局の実被害確認を補えず継続。各社を単一事件や確定被害として加算しない。"
-    },
-    {
-      "title": "Claire’sへのDark Projectの主張",
-      "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "元Undercodeは通常HTTPS403、Webで本文を代替確認。Claire’s・Dark Project・会社声明を検索。記事自身も独立した侵入・窃取・数量・公式確認なしと明記するため継続。"
     },
     {
       "title": "Radford市のデータ事件疑いとサービス停止",
@@ -457,6 +393,231 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "TFG記事本文のH&Mに関する説明も再確認。主張を調査中で侵害の兆候なしという会社説明の段階を超える独立確認を補えず継続。TFG事件とは別候補。"
+    },
+    {
+      "title": "防災メール等の一斉配信サービスに不正アクセス、メール最大約313万6,000件に漏洩の可能性",
+      "url": "https://www.security-next.com/191371",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "「バイトル」「バイトルNEXT」に不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56464.html",
+      "incident_id": "baitoru-email-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "データ移行に用いた記憶媒体を紛失（商船三井クルーズ）",
+      "url": "https://www.security-next.com/191197",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "八王子学園 ランサムウェア攻撃 2報",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56465.html",
+      "incident_id": "hachioji-gakuen-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "第一ライフグループと第一生命保険の人事システムに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56463.html",
+      "incident_id": "dai-ichi-life-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "東洋紡せんいのメールアカウントに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56462.html",
+      "incident_id": "toyobo-seni-email-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "両毛システムズにランサムウェア攻撃",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56461.html",
+      "incident_id": "ryomo-systems-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "レゴランド・ジャパン・ホテルが利用するオンライン予約プラットフォームに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56460.html",
+      "incident_id": "legoland-amadeus-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "ファインズの予約システムに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56459.html",
+      "incident_id": "fines-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "キングプリンターズに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56458.html",
+      "incident_id": "kingprinters-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "incident_id": "legal-aid-agency-2025",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "incident_id": "ledger-cryptobilis-hardware-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Russian travel booking platform suspends reservations after cyberattack",
+      "url": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
+      "incident_id": "anywayanyday-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "skyticketの9月9日の会員1名への不正ログイン",
+      "url": "https://skyticket.jp/news/maintenance/67603",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Kimberly-Clarkに対するShinyHuntersの恐喝主張",
+      "url": "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Belarusian Cyber Partisansのロシア医療侵害主張",
+      "url": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Silent Ransom Groupの流出会話と法律事務所への物理訪問",
+      "url": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "韓国の2教会の実名報道と匿名の侵害分析",
+      "url": "https://therecord.media/south-korea-hackers-megachurches",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Claire’sへのDark Projectの主張",
+      "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Aon plcへのTermiteの被害主張",
+      "url": "https://wasteland.me/intel/aon-termite-ransomware",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "旭化成セラピューティクス医療関係者向けサイト",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261006de55037",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "防災メール等の一斉配信サービスに不正アクセス、メール最大約313万6,000件に漏洩の可能性",
+      "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "防災メール等の一斉配信サービスに不正アクセス、メール最大約313万6,000件に漏洩の可能性",
+      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134471.html",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "防災メール等の一斉配信サービスに不正アクセス、メール最大約313万6,000件に漏洩の可能性",
+      "url": "https://news.ksb.co.jp/article/16948768",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -622,10 +783,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "38704753496",
-    "completed_at": "2026-10-15T08:19:08.949584+00:00",
+    "run_id": "38705142272",
+    "completed_at": "2026-10-15T08:25:21.989818+00:00",
     "result": "failure",
-    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/fresh/current-report.json",
+    "error": "Candidate requires a matching incident",
     "main_sha": "75ee54a71282efc8e804bd6c53b3a6c38ddd3f3c"
   }
 }
