@@ -4107,5 +4107,292 @@
     "type": "reporting",
     "url": "https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account",
     "title": "Coldcard says it’s investigating how phishing link appeared on its X account"
+  },
+  {
+    "id": "fireworks-evaluation-secrets-2026-1",
+    "publisher": "Fireworks AI",
+    "type": "primary",
+    "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident",
+    "title": "Fireworks October 2026 security incident"
+  },
+  {
+    "id": "zenith-technology-2026-1",
+    "publisher": "Health New Zealand",
+    "type": "primary",
+    "url": "https://www.healthnz.govt.nz/news-and-updates/health-new-zealand-statement-on-zenith-technology-cyber-incident",
+    "title": "Health New Zealand statement on Zenith Technology cyber incident"
+  },
+  {
+    "id": "zenith-technology-2026-2",
+    "publisher": "TMC Insight",
+    "type": "reporting",
+    "url": "https://insight.tmcnet.com/insight/zentech-takes-systems-offline-as-police-probe-clinical-data-incident-mtx2fh1o",
+    "title": "ZenTech Takes Systems Offline as Police Probe Clinical Data Incident"
+  },
+  {
+    "id": "arcadia-raiden-2026-1",
+    "publisher": "アルカディア（SpeeCAN RAIDEN公式ブログ）",
+    "type": "primary",
+    "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+    "title": "SpeeCAN RAIDENへの不正アクセスによる個人情報漏洩の可能性について（10月15日更新）"
+  },
+  {
+    "id": "fivot-idare-2026-1",
+    "publisher": "Fivot（IDARE）",
+    "type": "primary",
+    "url": "https://idare.jp/news/1926/",
+    "title": "「IDARE」における不正アクセスによる個人情報漏えいに関するお知らせとお詫び"
+  },
+  {
+    "id": "aena-app-2026-1",
+    "publisher": "アエナ",
+    "type": "primary",
+    "url": "https://www.aena.co.jp/news/detail/7826/",
+    "title": "外部からの不正アクセスによるお客様情報流出の可能性について"
+  },
+  {
+    "id": "medley-atlink-2026-1",
+    "publisher": "メドレー（適時開示）",
+    "type": "primary",
+    "url": "https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20261014550839/140120261014550839.pdf",
+    "title": "当社サービス「アットリンク」への不正アクセス及びサービスの一時停止に関するお知らせ"
+  },
+  {
+    "id": "japanpost-business-toolbox-2026-1",
+    "publisher": "日本郵便",
+    "type": "primary",
+    "url": "https://files.japanpost.jp/assets/34d9d11432734cfaa759e78fe395b688/f3f28b64a67841a1bd88dec64017f917/20261013_03_01.pdf",
+    "title": "「JP Business Tool Box」におけるお客さま情報の漏えいのおそれについて"
+  },
+  {
+    "id": "dcm-myvo-2026-1",
+    "publisher": "DCMホールディングス",
+    "type": "primary",
+    "url": "https://www.dcm-hldgs.co.jp/grp/news/news_file/file/20261013nwes%20.pdf",
+    "title": "会員サービス「マイボ」における不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "tfg-london-2026-1",
+    "publisher": "The Foschini Group（JSE SENS開示、Sharenet掲載）",
+    "type": "primary",
+    "url": "https://www2.sharenet.co.za/v3/sens_display.php?scode=&seq=6&tdate=20261013070500",
+    "title": "Cybersecurity incident at TFG London"
+  },
+  {
+    "id": "anywayanyday-2026-1",
+    "publisher": "Anywayanyday",
+    "type": "primary",
+    "url": "https://anywayanyday.agency/",
+    "title": "О причине технических ограничений работы сервиса Anywayanyday"
+  },
+  {
+    "id": "anywayanyday-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
+    "title": "Russian travel booking platform suspends reservations after cyberattack"
+  },
+  {
+    "id": "housing-ombudsman-2026-1",
+    "publisher": "Housing Ombudsman Service",
+    "type": "primary",
+    "url": "https://www.housing-ombudsman.org.uk/2026/10/13/housing-ombudsman-service-statement-it-security-incident/",
+    "title": "Housing Ombudsman Service statement: IT Security Incident"
+  },
+  {
+    "id": "hachioji-gakuen-2026-1",
+    "publisher": "八王子学園",
+    "type": "primary",
+    "url": "https://www.hachioji.ed.jp/information/information-junr/5111/",
+    "title": "本校を標的にしたサイバー攻撃について（第２報）"
+  },
+  {
+    "id": "ryomo-systems-2026-1",
+    "publisher": "両毛システムズ",
+    "type": "primary",
+    "url": "https://www.ryomo.co.jp/news/202609_02.html",
+    "title": "当社社内システムへの不正アクセスに関するお知らせ（第3報）"
+  },
+  {
+    "id": "ryomo-systems-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56461.html",
+    "title": "両毛システムズにランサムウェア攻撃"
+  },
+  {
+    "id": "toyobo-seni-email-2026-1",
+    "publisher": "東洋紡",
+    "type": "primary",
+    "url": "https://www.toyobo.co.jp/system/files/News_Release/202609/press_20260925_3J.pdf",
+    "title": "当社グループ会社メールアカウントへの不正アクセスおよび不審メール送信について（お詫び）"
+  },
+  {
+    "id": "legoland-amadeus-2026-1",
+    "publisher": "LEGOLAND Japan",
+    "type": "primary",
+    "url": "https://www.legoland.jp/operation/news/news-release/news20260925/",
+    "title": "ホテルの予約プラットフォームに対する不正アクセスについてのお詫びとお知らせ"
+  },
+  {
+    "id": "conoha-wing-2026-1",
+    "publisher": "GMOインターネット（ConoHa WING）",
+    "type": "primary",
+    "url": "https://www.conoha.jp/wing/news/?ap=2015054834&btn_id=wing-news--news_wing-news",
+    "title": "一部収容ホスト（Webサーバー）への第三者による不正アクセスに関するお詫びとお知らせ（9月20日）"
+  },
+  {
+    "id": "kingprinters-2026-1",
+    "publisher": "キングプリンターズ",
+    "type": "primary",
+    "url": "https://kingprinters.com/news/2026/oshirase_20260925",
+    "title": "不正アクセス検知に伴う調査状況のお知らせ【第2報】"
+  },
+  {
+    "id": "panos-management-exploitation-2026-1",
+    "publisher": "Palo Alto Networks",
+    "type": "primary",
+    "url": "https://security.paloaltonetworks.com/CVE-2026-0322",
+    "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface"
+  },
+  {
+    "id": "cisco-seg-october-exploitation-2026-1",
+    "publisher": "Cisco PSIRT",
+    "type": "primary",
+    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp",
+    "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability"
+  },
+  {
+    "id": "siteguard-exploitation-2026-1",
+    "publisher": "EGセキュアソリューションズ",
+    "type": "primary",
+    "url": "https://www.eg-secure.co.jp/siteguard/news/alert-202610-1",
+    "title": "SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性(緊急)"
+  },
+  {
+    "id": "ivanti-ics-october-exploitation-2026-1",
+    "publisher": "Volexity",
+    "type": "primary",
+    "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+    "title": "A Series of Unauthenticated Events: Chained Exploitation of Ivanti Connect Secure Zero-Days"
+  },
+  {
+    "id": "ivanti-ics-october-exploitation-2026-2",
+    "publisher": "Ivanti",
+    "type": "primary",
+    "url": "https://www.ivanti.com/blog/october-2026-security-update",
+    "title": "October 2026 Security Update"
+  },
+  {
+    "id": "meta-github-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+    "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach"
+  },
+  {
+    "id": "gmo-infoq-2026-2",
+    "publisher": "GMOリサーチ&AI",
+    "type": "primary",
+    "url": "https://gmo-research.ai/pressroom/notice/notice-20261014",
+    "title": "infoQへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第2報）"
+  },
+  {
+    "id": "bookoff-members-2026-2",
+    "publisher": "ブックオフグループホールディングス",
+    "type": "primary",
+    "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2894129/00.pdf",
+    "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第2報）"
+  },
+  {
+    "id": "kindal-2026-3",
+    "publisher": "トレジャー・ファクトリー",
+    "type": "primary",
+    "url": "https://ssl4.eir-parts.net/doc/3093/tdnet/2893776/00.pdf",
+    "title": "当社連結子会社における不正アクセスによる個人情報漏えいに関する調査結果及び再発防止策について（第三報）"
+  },
+  {
+    "id": "unirita-2026-2",
+    "publisher": "ユニリタ",
+    "type": "primary",
+    "url": "https://www.unirita.co.jp/news/2026/media_20261014.html",
+    "title": "不正アクセスの発生および情報漏えいに関するお知らせ（第３報）"
+  },
+  {
+    "id": "idcf-cloud-2026-7",
+    "publisher": "IDCフロンティア",
+    "type": "primary",
+    "url": "https://www.idcf.jp/news/topics/20261014001",
+    "title": "【第5報】不正アクセスによる障害に関する調査の進捗について"
+  },
+  {
+    "id": "french-supermarket-refrigeration-2026-3",
+    "publisher": "Cooling Post",
+    "type": "reporting",
+    "url": "https://www.coolingpost.com/world-news/danfoss-moves-to-mitigate-cyberattack/",
+    "title": "Danfoss moves to mitigate cyberattack"
+  },
+  {
+    "id": "french-supermarket-refrigeration-2026-4",
+    "publisher": "CERT-FR（ANSSI）",
+    "type": "primary",
+    "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+    "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération"
+  },
+  {
+    "id": "ledger-cryptobilis-hardware-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+    "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack"
+  },
+  {
+    "id": "ledger-cryptobilis-hardware-2026-4",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft",
+    "title": "Ledger says hardware implant in cryptocurrency wallets stole recovery phrases"
+  },
+  {
+    "id": "ahold-delhaize-october-2026-2",
+    "publisher": "Ahold Delhaize",
+    "type": "primary",
+    "url": "https://newsroom.aholddelhaize.com/update-on-ahold-delhaizes-cybersecurity-incident/",
+    "title": "Update on Ahold Delhaize’s cybersecurity incident（October 14 update）"
+  },
+  {
+    "id": "centerpoint-energy-2026-2",
+    "publisher": "KPRC 2 / Click2Houston",
+    "type": "reporting",
+    "url": "https://www.click2houston.com/news/local/2026/10/14/more-than-1-million-texans-affected-by-centerpoint-data-breach-ag-report-shows/",
+    "title": "More than 1 million Texans affected by CenterPoint data breach, AG report shows"
+  },
+  {
+    "id": "centerpoint-energy-2026-3",
+    "publisher": "ABC13 / KTRK",
+    "type": "reporting",
+    "url": "https://abc13.com/post/more-1-million-customers-impacted-centerpoint-energy-data-breach-ag-report-filing-shows/19938921/",
+    "title": "More than 1 million customers impacted by CenterPoint Energy data breach, AG report filing shows"
+  },
+  {
+    "id": "ampath-laboratories-2026-1",
+    "publisher": "Ampath（Novus Press Bulletin掲載の会社声明）",
+    "type": "primary",
+    "url": "https://novuspressbulletin.co.za/blog/ampath-cautions-about-overstated-numbers-as-cybersecurity-incident-probe-continues",
+    "title": "Ampath cautions about overstated numbers as cybersecurity incident probe continues"
+  },
+  {
+    "id": "ampath-laboratories-2026-2",
+    "publisher": "MyBroadband",
+    "type": "reporting",
+    "url": "https://mybroadband.co.za/news/security/672153-attackers-claim-to-have-stolen-80-million-south-african-patient-records-in-massive-ampath-laboratories-data-breach.html",
+    "title": "Attackers claim to have stolen 80 million South African patient records in massive Ampath Laboratories data breach"
+  },
+  {
+    "id": "rideonexpress-2026-1",
+    "publisher": "ライドオンエクスプレスホールディングス",
+    "type": "primary",
+    "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+    "title": "サイバー攻撃による個人情報漏えいの可能性に関するお詫びとお知らせ（第3報）"
   }
 ]
