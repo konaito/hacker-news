@@ -10476,5 +10476,28 @@
     "first_seen_at": "2026-10-15",
     "last_verified_at": "2026-10-15",
     "verification_note": "本文が裏付ける事実に範囲を限定。発生日・公表日、閲覧可能性・実際の取得、件数・人数を区別。"
+  },
+  {
+    "id": "mitsui-ocean-cruises-2026",
+    "published_at": "2026-09-10",
+    "occurred_at": null,
+    "company": "商船三井クルーズ",
+    "service": "データ移行に用いた外部記憶媒体",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "旅行・交通",
+    "title": "クルーズ船のデータ移行に使った外部記憶媒体を紛失、個人情報を含む可能性",
+    "summary": "にっぽん丸の運航終了に伴い、船内PCのデータを就航準備中のMITSUI OCEAN SAKURAへ移す際に使った外部記憶媒体の一部が所在不明になりました。7月の保管確認で判明し、船内調査でも見つかっていません。",
+    "note": "報道では紛失の事実のみで、第三者による閲覧・取得や不正利用は確認されていません。対象の個人情報の件数・人数は調査中で、約20万ファイルはバックアップ全体の調査対象数であり漏えい件数ではありません。公表日は9月10日（Scan記事は9月29日、Security NEXT記事は10月14日）で、同社の公式本文は今回取得できていません。",
+    "affected": [],
+    "sources": [
+      "mitsui-ocean-cruises-2026-1",
+      "mitsui-ocean-cruises-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "独立した報道2媒体（ScanNetSecurity、Security NEXT）の本文を確認。紛失と調査中の範囲に限定し、漏えい・不正利用は確認済みとしていません。"
   }
 ]

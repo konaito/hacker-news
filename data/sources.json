@@ -4576,5 +4576,19 @@
     "type": "reporting",
     "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
     "title": "123456 password used in massive Danish CPR data breach"
+  },
+  {
+    "id": "mitsui-ocean-cruises-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56328.html",
+    "title": "商船三井クルーズで営業情報を保存した外部記憶媒体を紛失、就航準備中のクルーズ船「MITSUI OCEAN SAKURA」の船内で保管"
+  },
+  {
+    "id": "mitsui-ocean-cruises-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191197",
+    "title": "データ移行に用いた記憶媒体を紛失、内容を調査 - 商船三井クルーズ"
   }
 ]
