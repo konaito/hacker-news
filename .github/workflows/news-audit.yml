@@ -39,6 +39,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Restore durable candidates and prepare research
+        id: prepare
+        run: python3 scripts/actions-audit.py prepare --mode "$AUDIT_MODE"
       - name: Check Claude authentication
         env:
           CLAUDE_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -48,9 +51,6 @@ jobs:
             echo '::error::Add CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY to repository Actions secrets.'
             exit 1
           fi
-      - name: Restore durable candidates and prepare research
-        id: prepare
-        run: python3 scripts/actions-audit.py prepare --mode "$AUDIT_MODE"
       - name: Research source bodies with Claude
         id: claude
         continue-on-error: true
