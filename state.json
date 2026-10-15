@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-15T08:35:06.310970+00:00",
+  "completed_at": "2026-10-15T13:31:23.385794+00:00",
   "candidates": [
     {
       "title": "Prato市のサイバー攻撃告知",
@@ -395,69 +395,6 @@
       "reason": "TFG記事本文のH&Mに関する説明も再確認。主張を調査中で侵害の兆候なしという会社説明の段階を超える独立確認を補えず継続。TFG事件とは別候補。"
     },
     {
-      "title": "防災メール等の一斉配信サービスに不正アクセス、メール最大約313万6,000件に漏洩の可能性",
-      "url": "https://www.security-next.com/191371",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "データ移行に用いた記憶媒体を紛失（商船三井クルーズ）",
-      "url": "https://www.security-next.com/191197",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "skyticketの9月9日の会員1名への不正ログイン",
-      "url": "https://skyticket.jp/news/maintenance/67603",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "Kimberly-Clarkに対するShinyHuntersの恐喝主張",
-      "url": "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "Belarusian Cyber Partisansのロシア医療侵害主張",
-      "url": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "Silent Ransom Groupの流出会話と法律事務所への物理訪問",
-      "url": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "韓国の2教会の実名報道と匿名の侵害分析",
-      "url": "https://therecord.media/south-korea-hackers-megachurches",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
       "title": "Claire’sへのDark Projectの主張",
       "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
       "incident_id": null,
@@ -485,23 +422,6 @@
       "reason": "Unfinished Actions audit; verify source bodies before publication."
     },
     {
-      "title": "防災メール等の一斉配信サービスに不正アクセス、メール最大約313万6,000件に漏洩の可能性",
-      "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134471.html",
-      "incident_id": null,
-      "priority": "high",
-      "decision": "deferred",
-      "requires_recheck": true,
-      "reason": "Unfinished Actions audit; verify source bodies before publication."
-    },
-    {
-      "title": "Legal Aid Agency: Hackers stole records dating back to 1978",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧で発見。既存legal-aid-agency-2025との続報関係と本文は時間不足で未確認。"
-    },
-    {
       "title": "Foschini Group investigating cyberattack on British fashion brands",
       "url": "https://therecord.media/foschini-group-south-africa-cyber",
       "priority": "normal",
@@ -510,20 +430,44 @@
       "reason": "一覧で発見した短報。本文未確認、未レコード化。"
     },
     {
-      "title": "キングプリンターズに不正アクセス、認証情報を用いた生成AIサービスの不正利用が目的",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56458.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧で発見。本文未確認で未レコード化。"
-    },
-    {
       "title": "愛知県「X投稿プレゼントキャンペーン」当選者の個人情報が相互閲覧可能に",
       "url": "https://scan.netsecurity.ne.jp/",
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
       "reason": "検索結果の概要のみ。年・本文未確認のため事実化しない。"
+    },
+    {
+      "title": "skyticketの9月9日の会員1名への不正ログイン",
+      "url": "https://skyticket.jp/news/maintenance/67603",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HTTP 403で本文を取得できず未検証。既存のskyticket記録は10月2日の別経路の事案で、同一とは扱わない。次回再調査。"
+    },
+    {
+      "title": "Kimberly-Clarkに対するShinyHuntersの恐喝主張",
+      "url": "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HTTP 403で本文を取得できず。攻撃者の主張のままで、企業の確認も未確認。次回再調査。"
+    },
+    {
+      "title": "Belarusian Cyber Partisansのロシア医療侵害主張",
+      "url": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文を確認。Solar（ロストレコム系）の報告と当該団体の声明が根拠で、時期が食い違い、取得データも不明。独立した2媒体または一次情報が未確認のため非公開で継続。"
+    },
+    {
+      "title": "Silent Ransom Groupの流出会話と法律事務所への物理訪問",
+      "url": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文を確認。流出アーカイブの主張が中心で、実行の裏付けは限定的。個別の被害組織が特定できず、独立2媒体も未確認のため継続。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -607,7 +551,7 @@
     }
   ],
   "checked_at": {
-    "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-13T05:38:48.291637+00:00",
+    "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-15T13:30:55+00:00",
     "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-10-15T05:43:47.787042Z",
     "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/": "2026-10-13T05:38:48.291637+00:00",
     "rakuten-data-sale-claim-2026": "2026-10-15T05:43:47.787042Z",
@@ -631,12 +575,11 @@
     "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-15T06:42:07.697459+00:00",
     "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-15T05:43:47.787042Z",
     "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-15T05:22:38.458151+00:00",
-    "https://therecord.media/south-korea-hackers-megachurches": "2026-10-13T05:38:48.291637+00:00",
     "https://www.security-next.com/190739": "2026-10-15T05:43:47.787042Z",
     "andover-town-schools-2026": "2026-10-15T05:43:47.787042Z",
-    "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-13T05:38:48.291637+00:00",
-    "https://skyticket.jp/news/maintenance/67603": "2026-10-13T05:38:48.291637+00:00",
-    "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack": "2026-10-13T05:38:48.291637+00:00",
+    "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-15T13:30:55+00:00",
+    "https://skyticket.jp/news/maintenance/67603": "2026-10-15T13:30:55+00:00",
+    "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack": "2026-10-15T13:30:55+00:00",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-13T05:38:48.291637+00:00",
     "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-15T05:43:47.787042Z",
     "https://www.reddit.com/r/newsokuexp/comments/1wuhku8/e%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E9%80%9A%E7%9F%A5%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8C%E6%9C%AC%E6%96%87%E3%81%AB%E8%B3%BC%E5%85%A5%E5%85%88%E3%81%AE%E5%BA%97%E5%90%8D%E3%81%8C%E3%81%AA%E3%81%84%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E5%B1%8A%E3%81%84%E3%81%9F%E4%BA%BA%E3%81%84%E3%82%8B/": "2026-10-15T05:43:47.787042Z",
@@ -674,17 +617,15 @@
     "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-15T05:43:47.787042Z",
     "senture-fmcsa-2026": "2026-10-15T06:42:07.697459+00:00",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-15T06:42:07.697459+00:00",
-    "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/": "2026-10-15T08:34:46Z",
     "https://therecord.media/foschini-group-south-africa-cyber": "2026-10-15T08:34:46Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/15/56458.html": "2026-10-15T08:34:46Z",
     "https://scan.netsecurity.ne.jp/": "2026-10-15T08:34:46Z"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-15T08:34:46Z",
-      "summary": "必須再調査8件を実施。5件は公式/報道本文を再読し既存レコードと整合、データ変更なし。Arcadia復旧は未更新で次回に一次確認。新規掲載なし。",
-      "run_id": "38706036840",
-      "main_sha": "4da1ad5ca3ece45d5518907305677a408c237854"
+      "completed_at": "2026-10-15T13:30:55+00:00",
+      "summary": "選択された8件の再調査を実施。埼玉市・Security NEXTの防災メール配信サービス事案は既存のarcadia-raiden-2026と同一として照合。商船三井クルーズの記憶媒体紛失をScanNetSecurityとSecurity NEXTの本文2媒体で確認し新規掲載（紛失のみで漏えいは未確認、公式本文は未取得）。skyticket 9月9日の件とKimberly-Clarkは403で本文未確認のためdeferred。Cyber Partisans、Silent Ransom Groupは報道1媒体のためdeferred。韓国教会の件は既存の匿名A/B記録と照合。国内外の一覧で見つかった他の新着は既存IDと題名で照合したが、各記事本文の続報有無までは再確認していない。",
+      "run_id": "38742962221",
+      "main_sha": "fc636e7608c443095d45cd1e43dafa0bdc211f41"
     },
     "historical": {
       "completed_at": "2026-10-15T05:43:47.787042Z",
@@ -694,10 +635,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "38706036840",
-    "completed_at": "2026-10-15T08:35:06.310970+00:00",
+    "run_id": "38742962221",
+    "completed_at": "2026-10-15T13:31:23.385794+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "4da1ad5ca3ece45d5518907305677a408c237854"
+    "main_sha": "fc636e7608c443095d45cd1e43dafa0bdc211f41"
   }
 }
