@@ -47,7 +47,7 @@ def validate_report(report, started_at, incident_ids, mode='fresh', *,
         if incident_id is not None and incident_id not in incident_ids:
             raise ValueError('Unknown candidate incident')
         if candidate['decision'] in {'published', 'updated', 'duplicate', 'pending'} and incident_id is None:
-            raise ValueError('Candidate requires a matching incident')
+            raise ValueError('Candidate requires a matching incident: ' + candidate['url'])
 
     validate_quality(report, incidents, sources, changed_ids, carryover)
 

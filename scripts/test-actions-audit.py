@@ -226,6 +226,19 @@ class CloudAuditTests(unittest.TestCase):
         self.assertFalse(self.finalize())
         self.assertEqual(self.remote_main(), self.base)
 
+    def test_claude_can_check_report_before_publication(self):
+        self.research()
+        shutil.copy2(self.artifact / 'data/incidents.json', self.root / 'data/incidents.json')
+        target = self.root / '.audit/fresh/current-report.json'
+        cloud.write_json(target, self.report)
+        self.audit.check('fresh')
+        self.report['candidates'].append({'title': 'Unknown duplicate', 'url': 'https://other.example/',
+                                          'priority': 'normal', 'decision': 'duplicate',
+                                          'incident_id': None, 'reason': 'Existing record not identified'})
+        cloud.write_json(target, self.report)
+        with self.assertRaisesRegex(ValueError, 'matching incident: https://other.example/'):
+            self.audit.check('fresh')
+
 
 if __name__ == '__main__':
     unittest.main()

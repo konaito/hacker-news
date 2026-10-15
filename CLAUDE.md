@@ -18,3 +18,9 @@ Only the supplied recheck batch is mandatory in this run. Remaining unresolved
 leads stay in the durable `news-audit-state` branch and rotate into later runs.
 Never claim to have checked unselected or unread sources. A missing or invalid
 completion report is a failure; do not fabricate a report to meet the timeout.
+
+Before finishing, run `python3 scripts/actions-audit.py check --mode <mode>` and
+repair reported inconsistencies until it passes. Candidates marked `duplicate`
+must name the existing incident ID. An unverified lead without a matching record
+uses `deferred` with a null ID, rather than `duplicate` or `pending`. Never invent
+verification claims to make a check pass.
