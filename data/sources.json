@@ -4394,5 +4394,68 @@
     "type": "primary",
     "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
     "title": "サイバー攻撃による個人情報漏えいの可能性に関するお詫びとお知らせ（第3報）"
+  },
+  {
+    "id": "ntv-wands-faveconnect-2026-1",
+    "publisher": "日テレWands",
+    "type": "primary",
+    "url": "https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html",
+    "title": "「FaveConnect」への不正アクセスによる個人情報閲覧の可能性について"
+  },
+  {
+    "id": "legal-aid-agency-2025-october-2026-1",
+    "publisher": "Legal Aid Agency",
+    "type": "primary",
+    "url": "https://www.gov.uk/government/news/legal-aid-agency-cyber-security-incident-data-update-october-2026",
+    "title": "Legal Aid Agency cyber security incident data update October 2026"
+  },
+  {
+    "id": "innovaatik-dental-2026-1",
+    "publisher": "Andmekaitse Inspektsioon（エストニア個人情報保護当局）",
+    "type": "primary",
+    "url": "https://www.aki.ee/uudised/innovaatik-ou-andmeleke-kliinikud-ei-pea-aki-le-eraldi-rikkumisteadet-esitama",
+    "title": "Innovaatik OÜ andmeleke: kliinikud ei pea AKI-le eraldi rikkumisteadet esitama"
+  },
+  {
+    "id": "estonia-ria-september-2026-1",
+    "publisher": "RIA（エストニア情報システム庁）",
+    "type": "primary",
+    "url": "https://ria.ee/en/situation-cyberspace-september-2026",
+    "title": "Situation in Cyberspace – September 2026"
+  },
+  {
+    "id": "adachi-urban-agriculture-ml-2026-1",
+    "publisher": "足立区",
+    "type": "primary",
+    "url": "https://www.city.adachi.tokyo.jp/k-iji/2608toshinou.html",
+    "title": "指定管理者のメーリングリストの公開設定の誤りによる個人情報の漏えいについて"
+  },
+  {
+    "id": "adachi-urban-agriculture-ml-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/190386",
+    "title": "メーリングリストで設定ミス、個人情報が公開状態 - 足立区"
+  },
+  {
+    "id": "edogawa-recruit-email-2026-1",
+    "publisher": "江戸川区",
+    "type": "primary",
+    "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/09/0924.html",
+    "title": "2026年9月24日 メール誤送信による個人情報の流出"
+  },
+  {
+    "id": "osaka-art-museum-email-2026-1",
+    "publisher": "大阪市",
+    "type": "primary",
+    "url": "https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000687654.html",
+    "title": "大阪市立美術館におけるメール誤送信による個人情報の漏えいについて"
+  },
+  {
+    "id": "komatsu-permission-review-2026-1",
+    "publisher": "コマツ（小松製作所）",
+    "type": "primary",
+    "url": "https://www.komatsu.jp/ja/newsroom/2026/20260915",
+    "title": "個人情報が閲覧可能な状態にあったことに関するお知らせ（2026年9月15日）"
   }
 ]

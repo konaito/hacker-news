@@ -10159,5 +10159,221 @@
     "first_seen_at": "2026-10-15",
     "last_verified_at": "2026-10-15",
     "verification_note": "発表本文を確認し、公開データと攻撃者の主張、件数と人数を区別。既存の会社・サービス・出典との一致を検索して照合。"
+  },
+  {
+    "id": "ntv-wands-faveconnect-2026",
+    "published_at": "2026-10-14",
+    "occurred_at": "2026-10-11",
+    "company": "日テレWands",
+    "service": "FaveConnectの高嶺のなでしこ・HEROINES会員管理画面",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "不正閲覧のおそれ",
+    "category": "エンタメ",
+    "title": "管理者アカウントへ不正ログイン、11万7392アカウントの会員情報に閲覧のおそれ",
+    "summary": "10月14日、FaveConnectの2サービスで管理者アカウントへの不正ログインを公表しました。10月11～13日に管理画面で会員情報を閲覧した形跡を確認し、会員と退会後6か月以内の元会員の計11万7392アカウントについて、氏名・連絡先・生年月日・任意コメント等が閲覧された可能性があります。",
+    "note": "10月13日は検知日、発生日欄は確認されたアクセス期間の開始日です。アカウント数を人数や確定流出件数へ換算しません。決済に関する機微情報は対象外。データベースへの直接侵入、情報改ざん、不特定多数への公開や不正利用は未確認です。不正利用された管理者アカウントの削除・接続遮断を実施し、他サービスの同様の被害は確認されていません。",
+    "affected": [
+      {
+        "count": 117392,
+        "unit": "accounts",
+        "description": "2サービス合計で会員情報を閲覧された可能性があるアカウント。実人数・確認済み持ち出し件数ではない。",
+        "source_id": "ntv-wands-faveconnect-2026-1"
+      }
+    ],
+    "sources": [
+      "ntv-wands-faveconnect-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "日テレWands公式発表の全本文をWebツールと通常HTTPSで確認。管理者への侵入・閲覧の形跡と、全対象情報の閲覧可能性を区別し、確認されていない外部持ち出しを断定しない。"
+  },
+  {
+    "id": "legal-aid-agency-2025",
+    "published_at": "2026-10-14",
+    "occurred_at": null,
+    "company": "英国Legal Aid Agency（法的扶助庁）",
+    "service": "オンライン申請・請求等のデジタルサービス",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "データ持ち出し確認",
+    "category": "行政・公共",
+    "title": "2025年の侵害の調査続報、2007年以前の約25万レコードと保護観察情報も対象",
+    "summary": "10月14日の公式続報で、2025年のサイバー攻撃で持ち出されたデータの範囲を更新しました。大半は2007年以降の申請・請求等に関する情報ですが、2007年以前の約25万レコードも含まれ、確認できた最古の記録は1978年です。保護観察関連情報の一部も同じ事件の持ち出し対象だったとしています。",
+    "note": "2025年4月23日は攻撃の検知日で、侵入開始日は不明。5月16日に大規模な個人データの持ち出しを確認した事件の続報であり、2026年の新たな攻撃とは扱いません。約25万レコードは全体の一部で人数ではなく、対象年代の利用者全員の被害を意味しません。情報項目は個人ごとに異なり、当局は盗まれたデータの公開・共有を示す情報はないと説明しています。",
+    "affected": [
+      {
+        "count": 250000,
+        "unit": "records",
+        "description": "持ち出されたデータのうち2007年以前の記録の概数。事件全体の総件数や実人数ではない。",
+        "source_id": "legal-aid-agency-2025-october-2026-1"
+      }
+    ],
+    "sources": [
+      "legal-aid-agency-2025-october-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "GOV.UK掲載のLegal Aid Agencyの10月14日付続報本文をWebツールと通常HTTPSで確認。検知日と発生日、古い記録の部分件数と総人数を区別し、個人ごとの情報項目を一律の被害として転記しない。"
+  },
+  {
+    "id": "innovaatik-dental-2026",
+    "published_at": "2026-09-04",
+    "occurred_at": null,
+    "company": "Innovaatik OÜ（エストニア）",
+    "service": "歯科等の医療機関が利用する診療情報管理システム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "患者情報の取得確認",
+    "category": "医療・ヘルスケア",
+    "title": "歯科診療情報基盤に繰り返し侵入、患者の個人情報・健康情報をダウンロード",
+    "summary": "エストニアのRIAは9月の月報で、Innovaatikが管理する医療情報システムに繰り返し不正アクセスがあり、患者の個人情報と健康情報がダウンロードされたと報告しました。主に歯科治療の情報で、暫定情報では300超の医療提供者のデータが関係します。個人情報保護当局も9月4日にこの漏えいへの対応を案内しています。",
+    "note": "300超は医療提供者の範囲であり、患者数やレコード数としてaffectedへ入れません。正確な侵入日・被害人数は不明。警察が拘束した容疑者は以前同社に関係していた人物とされますが、有罪や流出データの公開・第三者提供は断定しません。公表日は日付を確認できた個人情報保護当局の告知を採用し、RIAの月報の日付を推測しません。",
+    "affected": [],
+    "sources": [
+      "innovaatik-dental-2026-1",
+      "estonia-ria-september-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "AKIの9月4日付告知とRIAの9月月報の本文を通常HTTPSで読み、Webツールでも確認。漏えいの認識・患者情報のダウンロード・医療提供者という数量の単位を突合し、患者人数は補わない。"
+  },
+  {
+    "id": "adachi-urban-agriculture-ml-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": "2021-04-24",
+    "company": "足立区都市農業公園の指定管理者（体験型有機農業パークマネジメント）",
+    "service": "公園スタッフ向けメーリングリスト",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "公開状態を確認",
+    "category": "行政・公共",
+    "title": "メーリングリストの公開設定ミス、1356通に50人分の個人情報",
+    "summary": "公園スタッフ向けメーリングリストの投稿がインターネットから閲覧できる設定になっていました。2021年4月24日～2026年8月5日のメール1356件を調べ、氏名・連絡先や顔の判別できる写真・動画など、50人分の個人情報を確認しました。8月5日に設定を変更し、利用を中止しています。",
+    "note": "8月24日の区公式発表を、対象期間内の10月2日付報道で確認した事案です。発生日欄は公表された閲覧可能期間の開始日。50人の情報が公開状態だったことと、第三者の取得が実証されたことを区別します。メール1356件を人数へ換算せず、氏名・連絡先32人、動画3人、写真15人の区分を重ねて加算しません。",
+    "affected": [
+      {
+        "count": 50,
+        "unit": "people",
+        "description": "公開状態のメーリングリストに個人情報が含まれていた人。第三者の取得を確認した人数ではない。",
+        "source_id": "adachi-urban-agriculture-ml-2026-1"
+      }
+    ],
+    "sources": [
+      "adachi-urban-agriculture-ml-2026-1",
+      "adachi-urban-agriculture-ml-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "必須持越しの元NEXT記事本文を再読。あだちるの案内から足立区の個別公式発表と詳細本文へ進み、公開期間・メール件数・個人情報の対象50人と設定変更を突合して掲載。"
+  },
+  {
+    "id": "edogawa-recruit-email-2026",
+    "published_at": "2026-09-24",
+    "occurred_at": "2026-09-18",
+    "company": "江戸川区",
+    "service": "採用内定式の開催案内メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "メール誤送信",
+    "category": "行政・公共",
+    "title": "採用内定式の案内を宛先欄で一斉送信、96人のメールアドレスが流出",
+    "summary": "江戸川区は9月24日、職員採用内定者96人に送った開催案内メールで、BCC欄ではなく宛先欄にアドレスを入力し、他の受信者にも表示される状態で送信したと公表しました。9月18日に発生し、21日に担当者が気付き、22日に謝罪と削除依頼を送っています。",
+    "note": "公式が示す96人分のメールアドレスを記録します。他の個人情報の流出はないと説明。外部侵入やランサムウェアと分類せず、複数人での送信前確認などの再発防止策を案内しています。",
+    "affected": [
+      {
+        "count": 96,
+        "unit": "people",
+        "description": "宛先欄の設定ミスでメールアドレスが他の受信者にも表示された採用内定者。",
+        "source_id": "edogawa-recruit-email-2026-1"
+      }
+    ],
+    "sources": [
+      "edogawa-recruit-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "freshの未解決候補とScanの無料本文を照合し、リンク先の江戸川区公式発表を通常HTTPSで全文確認。人数、発生・検知・公表日、流出情報がメールアドレスのみである点を確認。"
+  },
+  {
+    "id": "osaka-art-museum-email-2026",
+    "published_at": "2026-09-24",
+    "occurred_at": "2026-09-10",
+    "company": "大阪市立美術館（大阪市博物館機構）",
+    "service": "講座受講者への回答メール",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "メール誤送信",
+    "category": "文化・公共",
+    "title": "講座受講者への回答をグループ宛に誤送信、30人の氏名・メールアドレスが流出",
+    "summary": "大阪市は9月24日、美術館の職員が受講者1人への回答メールをグループメールのアドレスへ誤送信し、30人の氏名とメールアドレスが相互に確認できる状態になったと公表しました。9月10日に発生して担当者は把握していましたが、上司への報告がなく、16日の外部からの問い合わせで組織として判明しました。",
+    "note": "対象は回答先1人を含む合計30人で、別に29人を加算しません。メール本文には回答先の氏名以外の個人情報はないと説明。送信先確認の不足と報告の遅れを区別し、第三者のシステム侵入とは扱いません。",
+    "affected": [
+      {
+        "count": 30,
+        "unit": "people",
+        "description": "誤送信されたグループメールで氏名とメールアドレスを相互確認できた講座受講者の合計。",
+        "source_id": "osaka-art-museum-email-2026-1"
+      }
+    ],
+    "sources": [
+      "osaka-art-museum-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "freshの未解決候補とScan無料本文を確認後、大阪市の9月24日付一次発表全文を通常HTTPSで確認。30人の範囲と発生・担当者把握・組織判明・公表日を区別して掲載。"
+  },
+  {
+    "id": "komatsu-permission-review-2026",
+    "published_at": "2026-09-15",
+    "occurred_at": null,
+    "company": "コマツ（小松製作所）",
+    "service": "グループ・代理店用ポータル、設計変更承認、販売業務、製品品質報告の各システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "権限外閲覧のおそれ",
+    "category": "製造・工業",
+    "title": "横断点検で4システムの閲覧範囲不備、最大区分は21万4916人の情報",
+    "summary": "9月15日、6月の公表を受けた横断点検で、複数システムに設計・設定・運用上の不備が見つかり、必要な範囲を超えて個人情報を閲覧できた、またはそのおそれがあったと公表しました。ポータルは21万4916人、設計承認は2万9621人、販売業務は8万6015人、品質報告は4万6445人が対象の区分です。",
+    "note": "9月の横断点検公表を一つの報告として記録し、4区分の対象者数は重複を含むため合算しません。不特定多数からインターネットで閲覧可能だった事案ではなく、システム利用権限を持つ利用者等が閲覧し得た範囲です。認証情報は含まず、不正利用等の二次被害は未確認。すべてのシステムで閲覧範囲の制限等の対応を完了したと説明しています。各不備の開始日は非公表で、6月16日や9月15日を発生日へ転用しません。",
+    "affected": [
+      {
+        "count": 214916,
+        "unit": "people",
+        "description": "グループ・代理店用ポータルのファイルに含まれたユーザー情報の対象。閲覧可能性の範囲であり、他システムとの重複を含み得る。",
+        "source_id": "komatsu-permission-review-2026-1"
+      },
+      {
+        "count": 29621,
+        "unit": "people",
+        "description": "設計変更等の申請・承認システムの検索・閲覧範囲に含まれた対象。他区分と合算しない。",
+        "source_id": "komatsu-permission-review-2026-1"
+      },
+      {
+        "count": 86015,
+        "unit": "people",
+        "description": "販売業務システムの権限申請機能から他社ユーザー情報を検索・閲覧できた対象。他区分と合算しない。",
+        "source_id": "komatsu-permission-review-2026-1"
+      },
+      {
+        "count": 46445,
+        "unit": "people",
+        "description": "製品品質情報の報告システムで部門切替により担当者情報を閲覧できた対象。他区分と合算しない。",
+        "source_id": "komatsu-permission-review-2026-1"
+      }
+    ],
+    "sources": [
+      "komatsu-permission-review-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-15",
+    "last_verified_at": "2026-10-15",
+    "verification_note": "公式の9月15日付本文と4行の対象表をWebツール・通常HTTPSで読み、既存全レコードを会社名・システム名・件数で照合。公開可能性と実際の取得を区別し、区分ごとの人数と重複注意を保持した。"
   }
 ]
