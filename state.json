@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-15T08:14:34.532292+00:00",
+  "completed_at": "2026-10-15T08:19:08.949584+00:00",
   "candidates": [
     {
       "title": "Prato市のサイバー攻撃告知",
@@ -619,5 +619,13 @@
       "summary": "2026-09-01以降の広域監査。直近72時間（10月12日05:24UTC以降）を重ね、日付なし検索と国内外の実一覧・次ページを確認。前回historicalの国内9月中旬・海外9月下旬の範囲から、国内9月15～24日と9月後半、欧州の医療・公共・製造へ広げた。必須20候補を全件再調査し、全pending10件の現況も記録。新規公開7件、既存更新0件、新規pending0件。持越しの足立区ML、freshの江戸川区・大阪市立美術館の3件を直接一次で解決し、今回新発見のFaveConnect・Legal Aid Agency続報・Innovaatik・コマツを掲載。393件中383件公開、pending10件（うち重複統合済み2件）。既存IDと数量の続報を比較し、無変更の検証日更新は行わない。コマツの4区分は重複を含むため合算せず、約25万レコードや117392アカウントを人数へ変換しない。攻撃者の販売主張・canary偵察は被害件数とせず、Booz AllenのAI能力評価と月例パッチの総数は事件集計対象外。monthly-digestsは既存の編集要約を変える必要がなく据え置き。次回はTARA・タルトゥの有日付公表、Policlinico公式News、ドコモの通知原文と単位、SecurityWeek集約残項目、FTAPI・HCUCH・Kenya・Andoverと国内9月後半の残り一次照合、南アジア・東南アジアの医療・公共を優先。今回非選択の持越しや全事件を網羅・解決したとは主張しない。commit/push/deployと成功チェックポイント更新はrunnerに委ねる。",
       "origin": "migrated-local-checkpoint"
     }
+  },
+  "last_attempt": {
+    "mode": "fresh",
+    "run_id": "38704753496",
+    "completed_at": "2026-10-15T08:19:08.949584+00:00",
+    "result": "failure",
+    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/fresh/current-report.json",
+    "main_sha": "75ee54a71282efc8e804bd6c53b3a6c38ddd3f3c"
   }
 }
