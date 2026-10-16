@@ -4688,5 +4688,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html",
     "title": "システム業者への不正アクセスを受け、大分県で防災メール等配信システムの新規登録を停止"
+  },
+  {
+    "id": "sourcenext-members-2026-1",
+    "publisher": "ソースネクスト",
+    "type": "primary",
+    "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+    "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ"
+  },
+  {
+    "id": "sourcenext-members-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191549",
+    "title": "ソースネクストの会員情報最大2251万件が流出か"
   }
 ]

@@ -10660,5 +10660,35 @@
     "first_seen_at": "2026-10-16",
     "last_verified_at": "2026-10-16",
     "verification_note": "大分県の公式発表本文とScanNetSecurity本文を確認。可能性と確認済みを区別し、件数の単位をメールアドレスとして記録。"
+  },
+  {
+    "id": "sourcenext-members-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-10-09",
+    "company": "ソースネクスト",
+    "service": "会員情報管理システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報取得確認",
+    "category": "IT・クラウド",
+    "title": "会員情報管理システムへの不正アクセスで2,251万9,960件の顧客情報が流出",
+    "summary": "ソースネクストは10月15日、会員情報の取得用APIが悪用され、顧客情報2,251万9,960件が外部に流出したと公表しました。メールアドレス・パスワード・氏名・住所・電話番号・生年月日などが含まれる場合があります。",
+    "note": "10月9日10:00ごろに第三者のアクセスが始まり、13日9:00ごろに確認、同日13:36までに遮断。件数は件（レコード）で、人数ではありません。項目は顧客ごとに異なり、クレジットカード情報は対象システムに保存されていません。公式は冒頭で流出が判明としつつ詳細欄では「可能性のある」と表記しており、調査は継続中です。全顧客のパスワードをリセット済みです。",
+    "affected": [
+      {
+        "count": 22519960,
+        "unit": "records",
+        "description": "流出した顧客情報の件数（会員登録内容により項目は異なる）",
+        "source_id": "sourcenext-members-2026-1"
+      }
+    ],
+    "sources": [
+      "sourcenext-members-2026-1",
+      "sourcenext-members-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-16",
+    "last_verified_at": "2026-10-16",
+    "verification_note": "公式のお詫びとお知らせ本文（発生・確認・遮断時刻、API悪用、件数、項目、対応）とSecurity NEXT本文を確認。件数を人数へ換算せず、侵入経路の詳細は公表がないため補っていない。"
   }
 ]
