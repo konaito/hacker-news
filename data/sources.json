@@ -4716,5 +4716,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
     "title": "Burger King Japan data breach exposes 11 million customer records"
+  },
+  {
+    "id": "namamame-honpo-sqli-2026-1",
+    "publisher": "極上珈琲 生豆本舗",
+    "type": "primary",
+    "url": "https://www.namamame.jp/index.php?main_page=news_manager&pages_id=995",
+    "title": "サイト障害のお詫びと復旧のお知らせ"
+  },
+  {
+    "id": "namamame-honpo-sqli-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56476.html",
+    "title": "「極上珈琲 生豆本舗」に SQL インジェクション攻撃、サイトが正常に表示されない障害が発生"
   }
 ]

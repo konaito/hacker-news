@@ -10720,5 +10720,28 @@
     "first_seen_at": "2026-10-16",
     "last_verified_at": "2026-10-16",
     "verification_note": "会社の公式PDF（画像主体で本文を取得できず未確認）に代えて、独立した2媒体のSecurity NEXTとBleepingComputerの本文を確認。日付・件数・対応は両媒体で一致。件数は人数へ換算せず、侵入経路は未公表のため補っていない。"
+  },
+  {
+    "id": "namamame-honpo-sqli-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-09-26",
+    "company": "コロンビア珈琲（極上珈琲 生豆本舗）",
+    "service": "オンラインショップ namamame.jp",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サイト停止",
+    "category": "小売・EC",
+    "title": "通販サイトにSQLインジェクション攻撃、約14時間表示障害、顧客・注文データ取得の形跡なし",
+    "summary": "「極上珈琲 生豆本舗」は、9月25日から国内100回線超を経由した自動ツールによる約1万回のSQLインジェクション攻撃を受け、26日夜に商品検索経由の特殊な文字列でデータベースが高負荷となり、同日23時頃から27日13時15分頃までサイトが正常に表示できなかったと9月28日付で公表しました。",
+    "note": "会社はアクセスログを確認し、攻撃はすべて拒否・無効化され、顧客情報や注文情報が取得された形跡は確認していないと説明しています。この間に問い合わせ窓口宛てのメールが一部届いていない可能性があります。データ流出は確認されておらず、障害（サイト停止）として記録します。会社公表は9月28日で、ScanNetSecurityの報道は10月16日です。",
+    "affected": [],
+    "sources": [
+      "namamame-honpo-sqli-2026-1",
+      "namamame-honpo-sqli-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-16",
+    "last_verified_at": "2026-10-16",
+    "verification_note": "会社の公式お知らせ本文とScanNetSecurity本文を確認し、日時・攻撃回数・対策・データ影響なしの説明が一致。情報流出は確認されていないため漏えいとしては扱わない。"
   }
 ]
