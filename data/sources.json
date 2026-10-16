@@ -4702,5 +4702,19 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191549",
     "title": "ソースネクストの会員情報最大2251万件が流出か"
+  },
+  {
+    "id": "burger-king-japan-app-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191546",
+    "title": "アプリ会員の個人情報が流出、詳細を調査 - バーガーキング"
+  },
+  {
+    "id": "burger-king-japan-app-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+    "title": "Burger King Japan data breach exposes 11 million customer records"
   }
 ]

@@ -10690,5 +10690,35 @@
     "first_seen_at": "2026-10-16",
     "last_verified_at": "2026-10-16",
     "verification_note": "公式のお詫びとお知らせ本文（発生・確認・遮断時刻、API悪用、件数、項目、対応）とSecurity NEXT本文を確認。件数を人数へ換算せず、侵入経路の詳細は公表がないため補っていない。"
+  },
+  {
+    "id": "burger-king-japan-app-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-10-02",
+    "company": "ビーケー・ジャパン（バーガーキング日本）",
+    "service": "公式アプリの会員情報システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "飲食",
+    "title": "公式アプリの会員情報約1,118万件が流出、不正アクセスは10月2〜7日",
+    "summary": "バーガーキング日本事業を運営するビーケー・ジャパンは、公式アプリの会員情報システムへの不正アクセスで、氏名・電話番号・生年月日・メールアドレスなど約1,118万件の会員情報が流出したと公表しました。",
+    "note": "不正アクセスは10月2日から7日、会社は13日に確認。件数は件（レコード）で人数ではありません。Security NEXTは項目として氏名・電話番号・居住都道府県・生年月日・性別・メールアドレス・会員ID等、BleepingComputerは注文履歴にも言及しており、項目の表現は媒体で異なります。侵入経路は調査中、二次被害は未確認。個人情報保護委員会へ報告済み。",
+    "affected": [
+      {
+        "count": 11180000,
+        "unit": "records",
+        "description": "流出した会員情報の件数（報道は約1,118万件）",
+        "source_id": "burger-king-japan-app-2026-1"
+      }
+    ],
+    "sources": [
+      "burger-king-japan-app-2026-1",
+      "burger-king-japan-app-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-16",
+    "last_verified_at": "2026-10-16",
+    "verification_note": "会社の公式PDF（画像主体で本文を取得できず未確認）に代えて、独立した2媒体のSecurity NEXTとBleepingComputerの本文を確認。日付・件数・対応は両媒体で一致。件数は人数へ換算せず、侵入経路は未公表のため補っていない。"
   }
 ]
