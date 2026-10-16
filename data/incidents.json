@@ -10584,5 +10584,81 @@
     "first_seen_at": "2026-10-15",
     "last_verified_at": "2026-10-15",
     "verification_note": "米連邦裁判所の10月15日付一次発表の本文とThe Record本文を確認。データ流出は確認されておらず、停止の事実のみを記録。"
+  },
+  {
+    "id": "sanpo-foods-site-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": null,
+    "company": "サンポー食品",
+    "service": "公式ウェブサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "食品・製造",
+    "title": "ウェブサイトへの不正アクセスで管理者権限を取得され改ざん、データ持ち出しは確認されず",
+    "summary": "8月25日に第三者による不正アクセスを確認し、サイトを停止しました。攻撃者は管理者権限を取得してサイトを改ざんしたと公表しています。9月28日に公式発表されました。",
+    "note": "原因はWebシステムの脆弱性の悪用が濃厚とされています。データの持ち出しや悪用の形跡は確認されておらず、不正アクセス中にサイト内データが閲覧可能だった可能性は否定できないとしています。問い合わせフォームの内容はサイト内に保存されておらず、個人情報の漏えいは確認されていません。侵入開始日と復旧状況は公式発表に記載がありません。",
+    "affected": [],
+    "sources": [
+      "sanpo-foods-site-2026-1",
+      "sanpo-foods-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-16",
+    "last_verified_at": "2026-10-16",
+    "verification_note": "公式発表本文とScanNetSecurity本文を確認。発生確認日と公表日を区別し、持ち出し未確認の点を確定事実として扱わない。"
+  },
+  {
+    "id": "fukuvi-english-sites-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-09-16",
+    "company": "フクビ化学工業",
+    "service": "英語版・海外子会社ウェブサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "製造・メーカー",
+    "title": "外部レンタルサーバー上の英語版サイトに不正アクセス、全サイトを停止し基幹系への影響は未確認",
+    "summary": "9月16日に英語版ウェブサイトを置くサーバーへの外部からの不正アクセスと障害を確認し、同日に対象サイトを停止しました。9月28日に公表し、30日に続報を出しています。",
+    "note": "対象は建材英語サイト、ベトナム・タイ子会社サイト、Fandalineサイトで、外部事業者のレンタルサーバー上にあり基幹システムや社内ネットワークとは別と説明しています。現時点で基幹系などへの影響は確認されていません。データ流出の有無や対象サイトの保有情報は公式発表に記載がなく、調査中です。",
+    "affected": [],
+    "sources": [
+      "fukuvi-english-sites-2026-1",
+      "fukuvi-english-sites-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-16",
+    "last_verified_at": "2026-10-16",
+    "verification_note": "公式続報本文とScanNetSecurity本文を確認。初報本文は直接読んでおらず、9月16日・28日の日付はScanNetSecurityの記述による。流出は未確認として記録。"
+  },
+  {
+    "id": "oita-safety-mail-vendor-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": null,
+    "company": "大分県（システム委託業者）",
+    "service": "県民安全・安心メール等配信システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "官公庁・自治体",
+    "title": "防災メール配信システムの業者に不正アクセス、登録メールアドレス最大27,667件に漏えいの可能性",
+    "summary": "大分県は10月13日、防災・安全メール等配信システムの業者への不正アクセスで、登録者のメールアドレスが漏えいした可能性があると公表しました。同日16時25分から新規登録・変更・解除を停止しています。",
+    "note": "最大27,667件は漏えいの可能性があるメールアドレスの件数で、人数ではありません。業者名は公表されておらず、調査中です。気象警報メールの配信は継続しています。別の一斉配信サービス事件との関係は出典に記載がないため、同一事件とは扱いません。",
+    "affected": [
+      {
+        "count": 27667,
+        "unit": "records",
+        "description": "漏えいの可能性があるメールアドレスの最大件数。人数ではない。",
+        "source_id": "oita-safety-mail-vendor-2026-1"
+      }
+    ],
+    "sources": [
+      "oita-safety-mail-vendor-2026-1",
+      "oita-safety-mail-vendor-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-16",
+    "last_verified_at": "2026-10-16",
+    "verification_note": "大分県の公式発表本文とScanNetSecurity本文を確認。可能性と確認済みを区別し、件数の単位をメールアドレスとして記録。"
   }
 ]

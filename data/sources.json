@@ -4646,5 +4646,47 @@
     "type": "reporting",
     "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
     "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack"
+  },
+  {
+    "id": "sanpo-foods-site-2026-1",
+    "publisher": "サンポー食品",
+    "type": "primary",
+    "url": "https://sanpofoods.co.jp/news/archives/1658/",
+    "title": "不正アクセスに関するお詫びとご報告｜サンポー食品"
+  },
+  {
+    "id": "sanpo-foods-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56477.html",
+    "title": "サンポー食品ウェブサイトに不正アクセス、管理者権限の取得や改ざんを確認"
+  },
+  {
+    "id": "fukuvi-english-sites-2026-1",
+    "publisher": "フクビ化学工業",
+    "type": "primary",
+    "url": "https://www.fukuvi.co.jp/news/information/2026093001",
+    "title": "英語版ウェブサイトへの不正アクセスに関する続報（9月30日）｜フクビ化学工業"
+  },
+  {
+    "id": "fukuvi-english-sites-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56478.html",
+    "title": "フクビ化学工業 英語版ウェブサイトに不正アクセス"
+  },
+  {
+    "id": "oita-safety-mail-vendor-2026-1",
+    "publisher": "大分県",
+    "type": "primary",
+    "url": "https://www.pref.oita.jp/soshiki/13550/bosaimeil.html",
+    "title": "県民安全・安心メール等配信システムの業者への不正アクセスについて｜大分県"
+  },
+  {
+    "id": "oita-safety-mail-vendor-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56482.html",
+    "title": "システム業者への不正アクセスを受け、大分県で防災メール等配信システムの新規登録を停止"
   }
 ]
