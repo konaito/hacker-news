@@ -4730,5 +4730,26 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56476.html",
     "title": "「極上珈琲 生豆本舗」に SQL インジェクション攻撃、サイトが正常に表示されない障害が発生"
+  },
+  {
+    "id": "beyondtrust-rs-zero-day-2026-1",
+    "publisher": "BeyondTrust",
+    "type": "primary",
+    "url": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-05",
+    "title": "BT26-05 Remote Support security advisory"
+  },
+  {
+    "id": "beyondtrust-rs-zero-day-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "title": "BeyondTrust patches zero-day exploited in attacks since August"
+  },
+  {
+    "id": "beyondtrust-rs-zero-day-2026-3",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/beyond-trust-cyberattack-china",
+    "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day"
   }
 ]

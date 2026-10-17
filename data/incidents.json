@@ -10743,5 +10743,29 @@
     "first_seen_at": "2026-10-16",
     "last_verified_at": "2026-10-16",
     "verification_note": "会社の公式お知らせ本文とScanNetSecurity本文を確認し、日時・攻撃回数・対策・データ影響なしの説明が一致。情報流出は確認されていないため漏えいとしては扱わない。"
+  },
+  {
+    "id": "beyondtrust-rs-zero-day-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-08-29",
+    "company": "BeyondTrust Remote Support利用組織（組織名非公表）",
+    "service": "BeyondTrust Remote Support",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "Remote SupportのゼロデイCVE-2026-102764が8月下旬から悪用、権限昇格・Webシェル設置を確認",
+    "summary": "BeyondTrust Remote Support 26.2.3以前の認証回避の脆弱性（CVE-2026-102764）が、8月下旬から中国関与が疑われる攻撃者に悪用されたと、MandiantとGoogle脅威インテリジェンスが報告しました。開発元は修正パッチを公開しています。",
+    "note": "報道によればMandiantの調査で攻撃者はroot権限へ昇格し、Sawflyウェブシェルとトンネリング用マルウェアを設置、ログ消去や保存済み認証情報を使った横展開を行いました。被害組織名・侵害台数は非公表で、Shadowserverが観測した公開インスタンス約1,400件は被害件数ではありません。開発元アドバイザリー自体は悪用の有無に触れておらず、悪用の事実は2報道の記述に基づきます。",
+    "affected": [],
+    "sources": [
+      "beyondtrust-rs-zero-day-2026-1",
+      "beyondtrust-rs-zero-day-2026-2",
+      "beyondtrust-rs-zero-day-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "BeyondTrustアドバイザリー、BleepingComputer、The Record本文を確認。CVE・影響バージョン・パッチは一次情報で、悪用時期と攻撃者の説明は独立した2報道が一致。アドバイザリーは悪用に言及しない点を明記。"
   }
 ]
