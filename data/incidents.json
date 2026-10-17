@@ -10874,5 +10874,29 @@
     "first_seen_at": "2026-10-17",
     "last_verified_at": "2026-10-17",
     "verification_note": "独立した報道2媒体の本文で郡の説明を確認。攻撃者の主張は未検証で件数は記録しない。"
+  },
+  {
+    "id": "connectwise-cloud-backup-m365-2026",
+    "published_at": "2026-10-17",
+    "occurred_at": "2026-10-15",
+    "company": "ConnectWise Cloud Backup（旧SkyKick）利用組織",
+    "service": "ConnectWise Cloud Backup／Microsoft 365連携アプリ",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "ConnectWise Cloud Backupのアプリ認証情報が悪用され、Microsoft 365の少なくとも162テナントで不正サインインを確認",
+    "summary": "ConnectWiseは10月17日、Cloud Backup環境のアプリケーションID（サービスプリンシパル）への不正アクセスを確認したとして、同サービスのアプリアクセスを停止しました。Huntressは10月16日19:00 UTC時点で162テナントの不正サインインを確認したと報告しています。",
+    "note": "発生日は、Huntressが不審なサインインを確認した10月15日（ConnectWiseの発表は10月16日）。Huntressは10月13〜14日にも同一IPからの別のパスワードスプレー試行を観測しています。データ窃取は未確認で、ConnectWiseはバックアップデータが侵害された兆候はないと説明しています。162はHuntressが確認した範囲の下限で、全体の被害テナント数は不明です。",
+    "affected": [],
+    "sources": [
+      "connectwise-cloud-backup-m365-2026-1",
+      "connectwise-cloud-backup-m365-2026-2",
+      "connectwise-cloud-backup-m365-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "ConnectWise公式アドバイザリー、Huntress、BleepingComputerの本文を確認。アプリID不正アクセスと停止措置は公式、162テナントと攻撃タイムラインはHuntress。Todylは403で本文未確認のため出典に含めない。"
   }
 ]

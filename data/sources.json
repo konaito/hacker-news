@@ -4814,5 +4814,26 @@
     "type": "reporting",
     "url": "https://www.thebanner.com/politics-power/local-government/anne-arundel-cyberattack-5VTS5MJ4CVDN7PZAWUX35ET6JA/",
     "title": "Anne Arundel County cyberattack (late August)"
+  },
+  {
+    "id": "connectwise-cloud-backup-m365-2026-1",
+    "publisher": "ConnectWise",
+    "type": "primary",
+    "url": "https://www.connectwise.com/company/trust/advisories",
+    "title": "October 17, 2026: Cloud Backup (formerly known as SkyKick) Service Interruption"
+  },
+  {
+    "id": "connectwise-cloud-backup-m365-2026-2",
+    "publisher": "Huntress",
+    "type": "reporting",
+    "url": "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
+    "title": "Vendor credential enables unauthorized access"
+  },
+  {
+    "id": "connectwise-cloud-backup-m365-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack"
   }
 ]
