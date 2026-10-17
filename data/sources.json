@@ -4835,5 +4835,12 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
     "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack"
+  },
+  {
+    "id": "nihon-university-cst-email-2026-1",
+    "publisher": "日本大学理工学部",
+    "type": "primary",
+    "url": "https://www.cst.nihon-u.ac.jp/news/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E8%BF%B7%E6%83%91%E3%83%A1%E3%83%BC%E3%83%AB%E7%99%BA%E4%BF%A1%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E3%82%8F/",
+    "title": "不正アクセスによる迷惑メール発信に関する日本大学理工学部の発表（2026年9月8日付）"
   }
 ]

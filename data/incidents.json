@@ -10898,5 +10898,34 @@
     "first_seen_at": "2026-10-17",
     "last_verified_at": "2026-10-17",
     "verification_note": "ConnectWise公式アドバイザリー、Huntress、BleepingComputerの本文を確認。アプリID不正アクセスと停止措置は公式、162テナントと攻撃タイムラインはHuntress。Todylは403で本文未確認のため出典に含めない。"
+  },
+  {
+    "id": "nihon-university-cst-email-2026",
+    "published_at": "2026-09-08",
+    "occurred_at": "2026-08-07",
+    "company": "日本大学理工学部",
+    "service": "教職員メールアカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "理工学部の教職員1名のメールアカウントが乗っ取られ、不審メール50件を送信",
+    "summary": "日本大学理工学部は9月8日、教職員1名のメールアカウントが第三者に不正アクセスされ、アドレス帳の学内外宛てに不審メール50件が送信されたと公表しました。メールボックス内の個人情報が閲覧された可能性があり、漏えいは否定できないとしています。",
+    "note": "発生は8月7日23:40頃、検知は8月19日20:20頃。フィッシングメールのリンクをクリックして認証情報が漏れたことが原因で、端末のウイルス感染は確認されていません。二次被害は未確認で、メールボックス内の対象者数は未公表です。日本大学の別部署の事案（nihon-university-email-2026）とは別の事案として扱います。",
+    "affected": [
+      {
+        "count": 1,
+        "unit": "accounts",
+        "description": "不正アクセスを受けた理工学部教職員のメールアカウント",
+        "source_id": "nihon-university-cst-email-2026-1"
+      }
+    ],
+    "sources": [
+      "nihon-university-cst-email-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "理工学部の公式発表の本文を確認。アカウント数・不審メール数・日時は公式、個人情報の閲覧は可能性として記録。ScanNetSecurityの別記事は1名のアカウント乗っ取りを報じるがメール件数の記載がなく、出典には含めない。"
   }
 ]
