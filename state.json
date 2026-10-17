@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-17T11:37:01.723702+00:00",
+  "completed_at": "2026-10-17T15:33:42.264799+00:00",
   "candidates": [
     {
       "title": "愛知県「X投稿プレゼントキャンペーン」当選者の個人情報が相互閲覧可能に",
@@ -33,70 +33,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は新たな本文確認を行わず、前回判断を維持して次回へ持ち越し。時間配分上、本文の再取得は行っていない。"
-    },
-    {
-      "title": "Claire’sへのDark Projectの主張",
-      "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "追跡サイトの掲載のみで公式確認・報道なし。今回再検索したが会社・当局による一次確認が得られず、前回判断を維持して次回へ持ち越し。"
-    },
-    {
-      "title": "Aon plcへのTermiteの被害主張",
-      "url": "https://wasteland.me/intel/aon-termite-ransomware",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Aonの公式声明なし、リーク掲載のみ。持ち越し。"
-    },
-    {
-      "title": "Microsoft Windows Shell CVE-2026-96951の実悪用",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文は悪用済みゼロデイと記すが、悪用の経緯・報告者が不明でMSRC本文を未確認のため掲載せず持ち越し。"
-    },
-    {
-      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文では裁判記録で拘束・起訴罪名は確認できるが、FBIは捜査との関連を公表しておらず訴状は封印中。個別の侵害事件ではなく関連は未確認のため持ち越し。"
-    },
-    {
-      "title": "ARTEX・Claudeを使った韓国金融機関への攻撃",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文では銀行側の被害確認が引用されず、BleepingComputer単独の報道。AI関与の証拠はCrowdStrike等の分析とされるが一次情報未確認のため持ち越し。"
-    },
-    {
-      "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "UpGuardの調査報告で、個別事業者の被害確認がなく研究・設定不備の集計。UpGuard一次報告を未確認のため持ち越し。"
-    },
-    {
-      "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
-      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Patchstack観測に基づく悪用は限定的と記載。被害サイト数・被害組織が不明で、Patchstack一次情報未確認のため持ち越し。"
-    },
-    {
-      "title": "公開GitHubリポジトリの543000超の有効認証情報",
-      "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Truffle Securityの調査研究で個別の侵害事件ではない。サイトの対象範囲外の研究として記録し持ち越し。"
     },
     {
       "title": "H&Mへの未確認の侵害主張",
@@ -491,12 +427,84 @@
       "reason": "今回は再調査せず、流出の真正性が未確認のまま持ち越し。"
     },
     {
-      "title": "Nextcloud向けCollabora CODEの脆弱性悪用(CVE-2026-110447)",
+      "title": "Collabora RCE悪用によるNextcloudサーバーのバックドア化",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "priority": "normal",
+      "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "BleepingComputerの本文は確認。ただし管理者報告に基づく悪用で、被害組織・件数は未確認。報道は1媒体のみで、脆弱性情報が中心のため未記録のまま持ち越し。"
+      "reason": "悪用報道だが被害組織・規模が不明で本文未確認。時間配分上、次回へ。"
+    },
+    {
+      "title": "産婦人科等の予約・受付システムへの不正アクセス（NHK 10/15）",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261015de59790",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索結果の見出しのみで本文未確認。次回に本文を確認する。"
+    },
+    {
+      "title": "銀のさらにサイバー攻撃",
+      "url": "https://www.security-next.com/191397",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "記事本文を未確認。既存の「銀のさら」記載との関係も未照合のため次回へ。"
+    },
+    {
+      "title": "Claire’sへのDark Projectの主張",
+      "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索したがClaire’sとDark Projectを結ぶ公式発表・報道は見つからず。追跡サイト由来の主張のみで未検証。"
+    },
+    {
+      "title": "Aon plcへのTermiteの被害主張",
+      "url": "https://wasteland.me/intel/aon-termite-ransomware",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索でも掲載の検知情報のみで、Aonの公式声明や独立報道は確認できず。未検証のまま持ち越し。"
+    },
+    {
+      "title": "Microsoft Windows Shell CVE-2026-96951の実悪用",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "二次情報（Help Net Security等）でCISA KEV追加とされるが、MSRC・CISAの本文は未取得。脆弱性情報で被害組織が不明のため掲載せず持ち越し。"
+    },
+    {
+      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得しておらず前回判断を維持。個別の侵害事件との関連が未確認。"
+    },
+    {
+      "title": "ARTEX・Claudeを使った韓国金融機関への攻撃",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得しておらず前回判断を維持。単独報道でAI関与の一次情報が未確認。"
+    },
+    {
+      "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+      "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得しておらず前回判断を維持。UpGuard一次報告が未確認で、研究・設定不備の集計。"
+    },
+    {
+      "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
+      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得しておらず前回判断を維持。被害サイト数・組織が不明でPatchstack一次情報未確認。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -590,17 +598,16 @@
     "https://scan.netsecurity.ne.jp/article/2026/09/30/56341.html": "2026-10-16T21:44:13.790584+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-10-16T21:44:13.790584+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/09/15/56234.html": "2026-10-16T21:44:13.790584+00:00",
-    "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/": "2026-10-17T01:19:52.191068+00:00",
+    "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/": "2026-10-17T15:33:15.656713+00:00",
     "tottori-care-provider-email-2026": "2026-10-17T11:12:40.100995+00:00",
-    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-17T01:19:52.191068+00:00",
+    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-17T15:33:15.656713+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html": "2026-10-17T11:36:42Z",
     "solar-russian-medical-network-2026": "2026-10-17T11:12:40.100995+00:00",
     "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-17T05:01:58.134983+00:00",
-    "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-16T22:52:09.712574+00:00",
+    "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-17T15:33:15.656713+00:00",
     "https://www.linkedin.com/posts/ccondon_new-kev-earlier-today-vulnchecks-canary-share-7511574376446590976-NNh3/": "2026-10-17T05:01:58.134983+00:00",
     "hcuch-imaging-2026": "2026-10-17T11:12:40.100995+00:00",
     "kenya-brs-2026": "2026-10-17T11:12:40.100995+00:00",
-    "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/": "2026-10-17T01:19:52.191068+00:00",
     "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-17T11:12:40.100995+00:00",
     "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-17T11:12:40.100995+00:00",
     "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-17T06:57:24Z",
@@ -614,8 +621,8 @@
     "https://www.reddit.com/r/newsokuexp/comments/1wuhku8/e%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E9%80%9A%E7%9F%A5%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8C%E6%9C%AC%E6%96%87%E3%81%AB%E8%B3%BC%E5%85%A5%E5%85%88%E3%81%AE%E5%BA%97%E5%90%8D%E3%81%8C%E3%81%AA%E3%81%84%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E5%B1%8A%E3%81%84%E3%81%9F%E4%BA%BA%E3%81%84%E3%82%8B/": "2026-10-17T05:01:58.134983+00:00",
     "https://s-que.net/news/20261008/": "2026-10-17T11:36:42Z",
     "https://www.itmedia.co.jp/business/articles/2610/09/news077.html": "2026-10-17T05:01:58.134983+00:00",
-    "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-17T01:19:52.191068+00:00",
-    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-17T01:19:52.191068+00:00",
+    "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-17T15:33:15.656713+00:00",
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-17T15:33:15.656713+00:00",
     "rhyne-industrial-company-2023": "2026-10-17T11:12:40.100995+00:00",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-17T05:01:58.134983+00:00",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002177/": "2026-10-17T05:01:58.134983+00:00",
@@ -635,30 +642,32 @@
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-17T06:57:24Z",
     "https://haveibeenpwned.com/breach/angelone": "2026-10-17T06:57:24Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-17T06:57:24Z",
-    "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-16T22:52:09.712574+00:00",
+    "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-17T15:33:15.656713+00:00",
     "coldcard-x-phishing-2026": "2026-10-17T11:12:40.100995+00:00",
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-17T01:19:52.191068+00:00",
     "https://ria.ee/en/situation-cyberspace-september-2026": "2026-10-17T11:12:40.100995+00:00",
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-17T11:12:40.100995+00:00",
     "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-17T11:36:42Z",
     "senture-fmcsa-2026": "2026-10-17T06:57:24Z",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-17T01:19:52.191068+00:00",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-17T15:33:15.656713+00:00",
     "https://scan.netsecurity.ne.jp/": "2026-10-16T21:44:13.790584+00:00",
     "https://www.security-next.com/190693": "2026-10-17T05:01:58.134983+00:00",
     "https://www.security-next.com/191336": "2026-10-17T11:12:40.100995+00:00",
     "https://www.security-next.com/191406": "2026-10-17T11:12:40.100995+00:00",
     "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/": "2026-10-17T11:12:40.100995+00:00",
-    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-17T11:36:42Z",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-17T15:33:15.656713+00:00",
     "https://www.security-next.com/190996": "2026-10-17T01:19:52.191068+00:00",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-17T01:19:52.191068+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/16/56471.html": "2026-10-17T05:01:58.134983+00:00"
+    "https://scan.netsecurity.ne.jp/article/2026/10/16/56471.html": "2026-10-17T05:01:58.134983+00:00",
+    "https://news.web.nhk/newsweb/na/nd-20261015de59790": "2026-10-17T15:33:15.656713+00:00",
+    "https://www.security-next.com/191397": "2026-10-17T15:33:15.656713+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-17T11:36:42Z",
-      "summary": "Security NEXT、ScanNetSecurity、BleepingComputer、The Recordの新着一覧を確認し、直近の主要事件は既存レコードで照合済みだった。新たに掲載できる事件はなく、data/は変更していない。必須再調査8件のうち、再検索・再取得したものも含め、一次情報または独立2媒体を確認できたものはなく、deferredのまま持ち越した。",
-      "run_id": "39029264764",
-      "main_sha": "0e915b93dae35829ba51291a9e78eab83691d405"
+      "completed_at": "2026-10-17T15:33:15.656713+00:00",
+      "summary": "直近の新着で新規掲載は1件（ConnectWise Cloud Backup経由のMicrosoft 365不正サインイン）。国内外の一覧に載る他の主要事件は既存IDで掲載済み。必須再調査8件のうち、Claire's・Aon・CVE-2026-96951は再検索したが未検証のまま持ち越し。残り5件は今回再取得せず前回判断を維持。",
+      "run_id": "39045330639",
+      "main_sha": "8063134e21b417aa0df2978c6ee8ea588beeac9a"
     },
     "historical": {
       "completed_at": "2026-10-17T11:12:40.100995+00:00",
@@ -669,10 +678,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "39029264764",
-    "completed_at": "2026-10-17T11:37:01.723702+00:00",
+    "run_id": "39045330639",
+    "completed_at": "2026-10-17T15:33:42.264799+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "0e915b93dae35829ba51291a9e78eab83691d405"
+    "main_sha": "8063134e21b417aa0df2978c6ee8ea588beeac9a"
   }
 }
