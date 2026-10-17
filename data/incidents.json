@@ -10767,5 +10767,58 @@
     "first_seen_at": "2026-10-17",
     "last_verified_at": "2026-10-17",
     "verification_note": "BeyondTrustアドバイザリー、BleepingComputer、The Record本文を確認。CVE・影響バージョン・パッチは一次情報で、悪用時期と攻撃者の説明は独立した2報道が一致。アドバイザリーは悪用に言及しない点を明記。"
+  },
+  {
+    "id": "his-thailand-2026",
+    "published_at": "2026-10-07",
+    "occurred_at": null,
+    "company": "エイチ・アイ・エス（H.I.S. TOURSタイ法人）",
+    "service": "タイ子会社のファイルサーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "旅行・交通",
+    "title": "タイ子会社のファイルサーバーに不正アクセス、最大627人のパスポート情報に漏えいの可能性",
+    "summary": "HISは10月7日、タイ子会社H.I.S. TOURSのファイルサーバーに第三者が不正アクセスしたと公表しました。2025年12月11日に検知し、最大627人のパスポート情報とアレルギー情報が含まれると2026年2月24日に判明。流出の可能性があるとしています。",
+    "note": "発生日は非公表のためnull。検知は2025年12月11日、公表は10月7日で、約10か月後です。627は最大の人数で、データが実際に外部へ持ち出されたかは確認済みとして扱いません。電話番号・住所・メールアドレス・クレジットカード情報は含まれないと説明されています。悪用は報道本文で確認できていません。",
+    "affected": [
+      {
+        "count": 627,
+        "unit": "people",
+        "description": "パスポート情報が対象データに含まれていた利用者の最大人数。",
+        "source_id": "his-thailand-2026-1"
+      }
+    ],
+    "sources": [
+      "his-thailand-2026-1",
+      "his-thailand-2026-2",
+      "his-thailand-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "トラベルWatch、@IT、Security NEXTの本文を確認し、検知日・公表日・最大627人・情報項目・非該当項目・流出は可能性である点を突合。HIS公式PDFは未取得のため、独立した報道3媒体で掲載。"
+  },
+  {
+    "id": "estonia-tara-ddos-2026",
+    "published_at": "2026-10-17",
+    "occurred_at": "2026-09-11",
+    "company": "エストニア政府（国家認証サービスTARA）",
+    "service": "国家認証サービスTARA",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "行政・公共",
+    "title": "エストニアの国家認証サービスTARAに大規模DDoS、一時的な停止と遅延",
+    "summary": "エストニア情報システム庁（RIA）の9月の月次報告によると、9月11日11時12分から12時15分にかけ国家認証サービスTARAがDDoS攻撃を受け、11時57分頃まで短時間の停止と遅延が発生しました。8,600万件超のリクエストのうち90%超を防御したと説明しています。",
+    "note": "障害は攻撃時間帯に限られ、データ漏えいの記載はありません。攻撃者や動機はこの報告では特定されておらず、9月上旬の他のエストニア向け攻撃と同一とも断定しません。月次報告の公表日は本文から確認できなかったため、公表日欄には当サイトで確認した日を使います。",
+    "affected": [],
+    "sources": [
+      "estonia-tara-ddos-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "RIA月次報告の本文で攻撃時間、影響時間、8,600万件超のリクエスト、90%超の遮断、攻撃主体を特定していない点を確認。一次情報のため単独で掲載。"
   }
 ]

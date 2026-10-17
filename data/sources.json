@@ -4751,5 +4751,33 @@
     "type": "reporting",
     "url": "https://therecord.media/beyond-trust-cyberattack-china",
     "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day"
+  },
+  {
+    "id": "his-thailand-2026-1",
+    "publisher": "トラベル Watch",
+    "type": "reporting",
+    "url": "https://travel.watch.impress.co.jp/docs/news/2146514.html",
+    "title": "HISのタイ子会社に不正アクセス、最大627人のパスポート情報が流出の可能性"
+  },
+  {
+    "id": "his-thailand-2026-2",
+    "publisher": "@IT",
+    "type": "reporting",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/10/news006.html",
+    "title": "「最大627人分パスポート情報が抜かれた」 HISが公表まで約10カ月もかかった意外な理由"
+  },
+  {
+    "id": "his-thailand-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191188",
+    "title": "タイ子会社に不正アクセス、パスポート情報流出の可能性 - HIS"
+  },
+  {
+    "id": "estonia-tara-ddos-2026-1",
+    "publisher": "エストニア情報システム庁（RIA）",
+    "type": "primary",
+    "url": "https://www.ria.ee/olukord-kuberruumis-september-2026",
+    "title": "Olukord küberruumis september 2026"
   }
 ]
