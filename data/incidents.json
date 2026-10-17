@@ -10820,5 +10820,59 @@
     "first_seen_at": "2026-10-17",
     "last_verified_at": "2026-10-17",
     "verification_note": "RIA月次報告の本文で攻撃時間、影響時間、8,600万件超のリクエスト、90%超の遮断、攻撃主体を特定していない点を確認。一次情報のため単独で掲載。"
+  },
+  {
+    "id": "dip-baitoru-2026",
+    "published_at": "2026-10-09",
+    "occurred_at": "2026-10-06",
+    "company": "ディップ",
+    "service": "バイトル／バイトルNEXT",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "EC・サービス",
+    "title": "「バイトル」「バイトルNEXT」に海外から不正アクセス、会員メールアドレス最大3,885,771件に漏えいの可能性",
+    "summary": "ディップは10月9日、バイトルとバイトルNEXTの一部機能の仕様の不備を突いた海外からの不正アクセスで、会員のメールアドレスが漏えいした可能性があると公表したと報じられています。海外からのアクセスを遮断しプログラムを改修したとされます。",
+    "note": "10月6日確認、10月9日公表。対象はメールアドレスのみで件数は最大値。Security NEXTは個人情報保護委員会等への報告と警察への相談を伝えています。ディップ本体の発表本文は今回取得できず、報道3媒体で確認しました。なりすましメールへの注意が呼びかけられています。",
+    "affected": [
+      {
+        "count": 3885771,
+        "unit": "records",
+        "description": "漏えいの可能性があるメールアドレスの最大件数。人数ではない。",
+        "source_id": "dip-baitoru-2026-2"
+      }
+    ],
+    "sources": [
+      "dip-baitoru-2026-1",
+      "dip-baitoru-2026-2",
+      "dip-baitoru-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "独立した報道3媒体の本文を確認。会社発表の原文は未確認。件数はレコード（メールアドレス）単位で最大値。"
+  },
+  {
+    "id": "anne-arundel-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-08-28",
+    "company": "Anne Arundel County",
+    "service": "郡政府システム",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "官公庁・自治体",
+    "title": "米メリーランド州Anne Arundel郡、8月の不正アクセスで一部ファイルの複製を確認、内容は調査中",
+    "summary": "同郡は8月28日に一部システムで異常を検知し、第三者が限られたシステムへアクセスして一部ファイルをコピーしたと説明しています。ファイルの内容や規模は未公表で、個人情報が含まれる場合は通知するとしています。",
+    "note": "2025年の別事件とは別件と郡は説明。ランサムウェア集団の主張はThe Recordがグループ名を伝える一方、Bannerは主張を独立検証できていません。主張の件数・内容は事実として扱わず、被害件数は不明です。",
+    "affected": [],
+    "sources": [
+      "anne-arundel-2026-1",
+      "anne-arundel-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-17",
+    "last_verified_at": "2026-10-17",
+    "verification_note": "独立した報道2媒体の本文で郡の説明を確認。攻撃者の主張は未検証で件数は記録しない。"
   }
 ]

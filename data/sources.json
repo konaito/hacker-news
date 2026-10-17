@@ -4779,5 +4779,40 @@
     "type": "primary",
     "url": "https://www.ria.ee/olukord-kuberruumis-september-2026",
     "title": "Olukord küberruumis september 2026"
+  },
+  {
+    "id": "dip-baitoru-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191327",
+    "title": "「バイトル」で会員メールアドレスが流出した可能性"
+  },
+  {
+    "id": "dip-baitoru-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56464.html",
+    "title": "「バイトル」「バイトルNEXT」に不正アクセス、最大3,885,771件のメールアドレスが漏えい"
+  },
+  {
+    "id": "dip-baitoru-2026-3",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261009de57499",
+    "title": "バイトル 不正アクセスで会員メールアドレス最大388万件漏えいのおそれ"
+  },
+  {
+    "id": "anne-arundel-2026-1",
+    "publisher": "The Record from Recorded Future News",
+    "type": "reporting",
+    "url": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
+    "title": "Baltimore suburb confirms August data breach after ransomware claims"
+  },
+  {
+    "id": "anne-arundel-2026-2",
+    "publisher": "The Baltimore Banner",
+    "type": "reporting",
+    "url": "https://www.thebanner.com/politics-power/local-government/anne-arundel-cyberattack-5VTS5MJ4CVDN7PZAWUX35ET6JA/",
+    "title": "Anne Arundel County cyberattack (late August)"
   }
 ]
