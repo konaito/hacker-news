@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-18T05:09:25.008236+00:00",
+  "completed_at": "2026-10-18T09:37:35.705092+00:00",
   "candidates": [
     {
       "title": "愛知県「X投稿プレゼントキャンペーン」当選者の個人情報が相互閲覧可能に",
@@ -75,14 +75,6 @@
       "reason": "今回の再調査では本文を取得せず、前回判断を維持して次回へ持ち越し。本実行では時間配分上、本文を再取得していない。"
     },
     {
-      "title": "Collabora脆弱性悪用によるNextcloud侵害",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputerの一覧で再確認したが被害組織が不明で本文は未取得。次回へ持ち越し。"
-    },
-    {
       "title": "Silent Ransom GroupのSNSリード",
       "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
       "priority": "high",
@@ -105,30 +97,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は再調査の検索で裏付けを得られず、攻撃者主張のまま持越し。"
-    },
-    {
-      "title": "Radford市のデータ事件疑い",
-      "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索でWDBJ報道（10/1,10/2,10/6）を再確認。市は「possible data incident」とし、データ取得の有無は未確認。市の一次発表の本文は未取得で、WDBJ1媒体のみのため持越し。"
-    },
-    {
-      "title": "Angel Oneの2023年事件に関するHIBP登録",
-      "url": "https://haveibeenpwned.com/breach/angelone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。2023年事件で新たな一次公表なし、持越し。"
-    },
-    {
-      "title": "CyrusOne由来とされる公開データのHIBP登録",
-      "url": "https://haveibeenpwned.com/breach/cyrusone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。CyrusOneの確認なく持越し。"
     },
     {
       "title": "MALFEXの悪性npmパッケージ配布",
@@ -201,46 +169,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は本文を再取得せず前回判断を維持。次回へ持ち越し。"
-    },
-    {
-      "title": "Neogen由来とされる公開データのHIBP登録",
-      "url": "https://haveibeenpwned.com/breach/neogen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "HIBP本文を確認: 2026年8月の被害、43.6万件のメールアドレス、ShinyHuntersの恐喝と公開と記載。ただしHIBPは第三者登録で、Neogen自身の発表や独立報道本文は未確認のためdeferred維持。"
-    },
-    {
-      "title": "NVIDIA DCGM ExporterのGPU監視情報露出",
-      "url": "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得せず。脆弱性研究で実被害の確認がないため保留。"
-    },
-    {
-      "title": "J:COMのDNS障害と広範な通信影響",
-      "url": "https://newsreleases.jcom.co.jp/news/20260924_22551.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "公式本文を確認: 9/23 8:55頃〜18:00頃、外部からの大量アクセスでDNSが過負荷、最大約408万世帯に影響。公式は攻撃とは明言していないため侵害として公開せず、攻撃を裏付ける報道を待ち保留。"
-    },
-    {
-      "title": "テラスモバイル2・パチマガスロマガのIDCF影響続報",
-      "url": "https://pachinkopachisro.com/archives/4369/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得せず。既存idcf-cloud-2026の続報候補として次回へ持ち越し。"
-    },
-    {
-      "title": "Policlinico Triestinoのサイバー攻撃報道",
-      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得せず前回判断を維持し次回へ持ち越し。"
     },
     {
       "title": "タルトゥ大学の電子書店への侵入",
@@ -459,6 +387,78 @@
       "reason": "SecurityWeek一覧で発見。本文未確認のため次回へ。"
     },
     {
+      "title": "Radford市のデータ事件疑い",
+      "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索でWDBJ7の10/1,10/2,10/6報道を再確認。市は「possible data incident」とし、データ取得の有無は未確認。市の一次発表本文は未取得で独立2媒体も未確認のため持越し。"
+    },
+    {
+      "title": "Angel Oneの2023年事件に関するHIBP登録",
+      "url": "https://haveibeenpwned.com/breach/angelone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず。2023年事件で新たな一次公表を確認できていないため持越し。"
+    },
+    {
+      "title": "CyrusOne由来とされる公開データのHIBP登録",
+      "url": "https://haveibeenpwned.com/breach/cyrusone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず。CyrusOne側の確認なく持越し。"
+    },
+    {
+      "title": "Neogen由来とされる公開データのHIBP登録",
+      "url": "https://haveibeenpwned.com/breach/neogen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索でShinyHuntersの主張(8/29-30)と関連記事を確認したが、Neogen自身の発表は見つからず。攻撃者の主張のみで未検証のためdeferred維持。"
+    },
+    {
+      "title": "NVIDIA DCGM ExporterのGPU監視情報露出",
+      "url": "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は本文を再取得せず。脆弱性研究で実被害の確認がないため保留。"
+    },
+    {
+      "title": "J:COMのDNS障害と広範な通信影響",
+      "url": "https://newsreleases.jcom.co.jp/news/20260924_22551.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で、公式発表が「外部からの大量アクセスでDNS高負荷、最大約408万世帯」とするのみで攻撃とは明言せず、新たな続報もないことを再確認。侵害として公開せず保留。"
+    },
+    {
+      "title": "テラスモバイル2・パチマガスロマガのIDCF影響続報",
+      "url": "https://pachinkopachisro.com/archives/4369/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は本文を再取得せず。既存idcf-cloud-2026の続報候補として持越し。"
+    },
+    {
+      "title": "Policlinico Triestinoのサイバー攻撃報道",
+      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索でINC Ransomの主張(9/2)と施設の確認(9/3付の声明)を示す記述を確認したが、本文・一次発表は未取得で報道も単一系統のため持越し。"
+    },
+    {
+      "title": "Collabora RCEを悪用したNextcloudサーバー侵害",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "脆弱性悪用の報道で被害組織・件数が特定できず、本文未取得。時間配分上、次回へ持越し。"
+    },
+    {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
       "incident_id": "ftapi-2026",
       "url": null,
@@ -557,9 +557,9 @@
     "https://www.linkedin.com/posts/ccondon_new-kev-earlier-today-vulnchecks-canary-share-7511574376446590976-NNh3/": "2026-10-18T05:08:52.990307+00:00",
     "hcuch-imaging-2026": "2026-10-17T20:59:33Z",
     "kenya-brs-2026": "2026-10-18T05:08:52.990307+00:00",
-    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-18T05:08:52.990307+00:00",
+    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-18T09:37:12Z",
     "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-18T05:08:52.990307+00:00",
-    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-18T05:08:52.990307+00:00",
+    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-18T09:37:12Z",
     "https://www.security-next.com/190739": "2026-10-18T05:08:52.990307+00:00",
     "andover-town-schools-2026": "2026-10-17T20:59:33Z",
     "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-18T05:08:52.990307+00:00",
@@ -578,7 +578,7 @@
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-18T05:08:52.990307+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-18T05:08:52.990307+00:00",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-18T05:08:52.990307+00:00",
-    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-18T05:08:52.990307+00:00",
+    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-18T09:37:12Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-18T05:08:52.990307+00:00",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-10-18T05:08:52.990307+00:00",
     "https://www.security-next.com/190136": "2026-10-18T05:08:52.990307+00:00",
@@ -586,23 +586,23 @@
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-18T05:08:52.990307+00:00",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-18T05:08:52.990307+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-18T05:08:52.990307+00:00",
-    "https://pachinkopachisro.com/archives/4369/": "2026-10-18T05:08:52.990307+00:00",
-    "https://haveibeenpwned.com/breach/neogen": "2026-10-18T05:08:52.990307+00:00",
-    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-18T05:08:52.990307+00:00",
-    "https://haveibeenpwned.com/breach/angelone": "2026-10-18T05:08:52.990307+00:00",
+    "https://pachinkopachisro.com/archives/4369/": "2026-10-18T09:37:12Z",
+    "https://haveibeenpwned.com/breach/neogen": "2026-10-18T09:37:12Z",
+    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-18T09:37:12Z",
+    "https://haveibeenpwned.com/breach/angelone": "2026-10-18T09:37:12Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-18T05:08:52.990307+00:00",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-18T05:08:52.990307+00:00",
     "coldcard-x-phishing-2026": "2026-10-17T20:59:33Z",
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-18T05:08:52.990307+00:00",
     "https://ria.ee/en/situation-cyberspace-september-2026": "2026-10-18T05:08:52.990307+00:00",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-18T05:08:52.990307+00:00",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-18T09:37:12Z",
     "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-18T05:08:52.990307+00:00",
     "senture-fmcsa-2026": "2026-10-17T20:59:33Z",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-18T05:08:52.990307+00:00",
     "https://scan.netsecurity.ne.jp/": "2026-10-18T05:08:52.990307+00:00",
     "https://www.security-next.com/190693": "2026-10-18T05:08:52.990307+00:00",
     "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/": "2026-10-18T05:08:52.990307+00:00",
-    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-18T05:08:52.990307+00:00",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-18T09:37:12Z",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-18T05:08:52.990307+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/16/56471.html": "2026-10-18T05:08:52.990307+00:00",
     "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/": "2026-10-18T05:08:52.990307+00:00",
@@ -610,10 +610,10 @@
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-18T04:29:31Z",
-      "summary": "直近72時間の国内外一覧を確認。主要件は既存IDで掲載済みで、新規掲載・更新なし。選択済み8件の再調査は未確認・攻撃者主張のため全てdeferredで持ち越し。",
-      "run_id": "39097143727",
-      "main_sha": "84d7a13ec6581da70bfe08dbbaa3b1b4c3217477"
+      "completed_at": "2026-10-18T09:37:12Z",
+      "summary": "直近72時間(10/13〜10/17)の国内外の新着一覧を照合した結果、新規に公開できる未掲載事件はなく、データ変更なし。SpeeCAN RAIDEN・メドレー@link等は既存IDと整合。必須再調査8件はいずれも一次情報・独立2媒体が揃わずdeferredを維持。J:COM障害は公式が攻撃と明言せず保留。",
+      "run_id": "39115843256",
+      "main_sha": "9f1e4e19f8e7886e182a1278f5e5b85896148d2b"
     },
     "historical": {
       "completed_at": "2026-10-18T05:08:52.990307+00:00",
@@ -623,9 +623,9 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "39099438881",
-    "completed_at": "2026-10-18T05:09:25.008236+00:00",
+    "mode": "fresh",
+    "run_id": "39115843256",
+    "completed_at": "2026-10-18T09:37:35.705092+00:00",
     "result": "success",
     "error": null,
     "main_sha": "9f1e4e19f8e7886e182a1278f5e5b85896148d2b"
