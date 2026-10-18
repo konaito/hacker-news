@@ -10952,5 +10952,28 @@
     "first_seen_at": "2026-10-18",
     "last_verified_at": "2026-10-18",
     "verification_note": "The Record、BleepingComputer、Le Monde Informatiqueの本文を確認。店舗数・原因機器は報道で幅や未確認があり、そのまま不確実として記録。"
+  },
+  {
+    "id": "aiphone-australia-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "アイホン株式会社（豪州販売子会社 AIPHONE PTY LTD）",
+    "service": "豪州子会社の社内ネットワーク",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "製造",
+    "title": "アイホンの豪州販売子会社の社内ネットワークに不正アクセス、情報漏えいは現時点で未確認",
+    "summary": "アイホンは9月29日、豪州の販売子会社AIPHONE PTY LTDの社内ネットワークに第三者による不正アクセスがあったと第1報で公表しました。他拠点とのネットワーク接続を遮断し、外部専門機関と調査中で、他拠点への影響や外部への情報漏えいは現時点で確認されていないとしています。",
+    "note": "第1報のみの情報で、発生日・侵入経路・攻撃者・アクセスされたデータの範囲は公表されていません。「漏えい未確認」は漏えいがなかったことの確認ではありません。ScanNetSecurityの記事は10月19日付です。",
+    "affected": [],
+    "sources": [
+      "aiphone-australia-2026-1",
+      "aiphone-australia-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-18",
+    "last_verified_at": "2026-10-18",
+    "verification_note": "アイホン公式の第1報本文とScanNetSecurityの記事本文を確認。公表日・対応・影響範囲の記載が一致。第2報以降は未確認。"
   }
 ]

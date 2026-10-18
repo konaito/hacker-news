@@ -4870,5 +4870,19 @@
     "type": "reporting",
     "url": "https://www.lemondeinformatique.fr/actualites/lire-une-cyberattaque-perturbe-les-installations-frigorifiques-de-centaines-de-supermarches-100850.html",
     "title": "Une cyberattaque perturbe les installations frigorifiques de centaines de supermarchés"
+  },
+  {
+    "id": "aiphone-australia-2026-1",
+    "publisher": "アイホン株式会社",
+    "type": "primary",
+    "url": "https://www.aiphone.co.jp/docs/news/202609291325.html",
+    "title": "当社豪州法人における不正アクセスの発生について（第1報）"
+  },
+  {
+    "id": "aiphone-australia-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56493.html",
+    "title": "アイホン豪州法人に不正アクセス"
   }
 ]
