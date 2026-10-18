@@ -4849,5 +4849,26 @@
     "type": "reporting",
     "url": "https://www.sanin-chuo.co.jp/articles/-/1071165",
     "title": "介護事業者のメアド１６３件流出 鳥取県"
+  },
+  {
+    "id": "france-supermarket-refrigeration-2026-1",
+    "publisher": "The Record from Recorded Future News",
+    "type": "reporting",
+    "url": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+    "title": "A cyberattack disrupts refrigeration at hundreds of French supermarkets"
+  },
+  {
+    "id": "france-supermarket-refrigeration-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "title": "Cyberattack shuts down refrigerators at French supermarkets"
+  },
+  {
+    "id": "france-supermarket-refrigeration-2026-3",
+    "publisher": "Le Monde Informatique",
+    "type": "reporting",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-une-cyberattaque-perturbe-les-installations-frigorifiques-de-centaines-de-supermarches-100850.html",
+    "title": "Une cyberattaque perturbe les installations frigorifiques de centaines de supermarchés"
   }
 ]

@@ -10928,5 +10928,29 @@
     "first_seen_at": "2026-10-17",
     "last_verified_at": "2026-10-17",
     "verification_note": "理工学部の公式発表の本文を確認。アカウント数・不審メール数・日時は公式、個人情報の閲覧は可能性として記録。ScanNetSecurityの別記事は1名のアカウント乗っ取りを報じるがメール件数の記載がなく、出典には含めない。"
+  },
+  {
+    "id": "france-supermarket-refrigeration-2026",
+    "published_at": "2026-10-12",
+    "occurred_at": "2026-10-11",
+    "company": "フランスの複数の大手スーパー（Intermarché、Netto、Coopérative U、E.Leclerc、Monoprixなど）",
+    "service": "店舗の冷蔵設備制御システム（Danfoss製とされる）",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "設備停止",
+    "category": "小売",
+    "title": "フランスのスーパー数百店で冷蔵設備が遠隔操作され、除霜で食品廃棄",
+    "summary": "10月11日夜から12日にかけ、フランスの複数のスーパーチェーンで冷蔵設備の制御システムが遠隔から操作され、除霜機能で庫内温度が上昇して生鮮・冷凍食品を廃棄する事態になりました。Coopérative Uの代表がサイバー攻撃を認め、パリ検察が捜査を開始、ANSSIが対応しています。",
+    "note": "影響店舗数は報道により約250〜400店と幅があり、確定値ではありません。Danfoss製制御装置が狙われたとの点はBFMTV報道に基づき、Danfossは公式に確認していません。侵入経路・攻撃者は未公表で、データ流出は報じられていません。",
+    "affected": [],
+    "sources": [
+      "france-supermarket-refrigeration-2026-1",
+      "france-supermarket-refrigeration-2026-2",
+      "france-supermarket-refrigeration-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-18",
+    "last_verified_at": "2026-10-18",
+    "verification_note": "The Record、BleepingComputer、Le Monde Informatiqueの本文を確認。店舗数・原因機器は報道で幅や未確認があり、そのまま不確実として記録。"
   }
 ]
