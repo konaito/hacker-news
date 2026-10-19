@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-19T13:11:00.236909+00:00",
+  "completed_at": "2026-10-19T13:59:34.655211+00:00",
   "candidates": [
     {
       "title": "ドコモのAmazonへの同意未取得の情報提供報道",
@@ -8,7 +8,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の再調査でも新たな一次情報・本文を確認できず、未検証のまま持越し。前回判断: 再調査: 検索結果で熊本日日(共同通信)等が約34万人分の電話番号・プラン名の提供、対象期間4/21〜8/20、9/12にAmazon側で消去と報じる点を確認。検索スニペットのみでドコモ公式本文は未取得のため公開せず持越し。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 再調査: 検索結果で熊本日日(共同通信)等が約34万人分の電話番号・プラン名の提供、対象期間4/21〜8/20、9/12にAmazon側で消去と報じる点を確認。検索スニペットのみでドコモ公式本文は未取得のため公開せず持越し。"
     },
     {
       "title": "S-QUE eラーニングのパートナー侵害と予防的な基盤移行",
@@ -16,7 +16,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の再調査でも新たな一次情報・本文を確認できず、未検証のまま持越し。前回判断: 再取得を試みたがHTTP 404で本文を確認できず。未検証のまま持越し。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 再取得を試みたがHTTP 404で本文を確認できず。未検証のまま持越し。"
     },
     {
       "title": "KKR京都くに荘のメールサーバへの不正アクセス調査結果",
@@ -24,7 +24,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の再調査でも新たな一次情報・本文を確認できず、未検証のまま持越し。前回判断: ScanNetSecurity本文を再確認。8/25に漏えいの可能性、9/16に調査結果を公表、メールボックスへの第三者アクセス記録や閲覧は確認されず顧客情報漏えいは未確認。件数なし・一次発表の本文は未取得のため公開せず持越し。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: ScanNetSecurity本文を再確認。8/25に漏えいの可能性、9/16に調査結果を公表、メールボックスへの第三者アクセス記録や閲覧は確認されず顧客情報漏えいは未確認。件数なし・一次発表の本文は未取得のため公開せず持越し。"
     },
     {
       "title": "BLACK XによるBayer・enTouch・lopayの未確認主張",
@@ -32,7 +32,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の再調査でも新たな一次情報・本文を確認できず、未検証のまま持越し。前回判断: 本文再確認。10/9のリーク掲載の主張のみで、被害組織の確認・コメントなし、侵害は未確認。事実としてレコード化せず持越し。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 本文再確認。10/9のリーク掲載の主張のみで、被害組織の確認・コメントなし、侵害は未確認。事実としてレコード化せず持越し。"
     },
     {
       "title": "Collabora RCE悪用によるNextcloud侵害",
@@ -40,7 +40,7 @@
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の再調査でも新たな一次情報・本文を確認できず、未検証のまま持越し。前回判断: 脆弱性悪用の一般報道。被害組織が特定されず本文未読。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 脆弱性悪用の一般報道。被害組織が特定されず本文未読。"
     },
     {
       "title": "SecurityWeekの今週の事件紹介",
@@ -121,14 +121,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得せず前回判断を維持。次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "加古川市 職員メール配信システム事業者",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 同種の配信事業者事案だが、既存のarcadia系レコードとの同一性を本文で未確認。次回照合。"
     },
     {
       "title": "Silent Ransom Groupの流出会話",
@@ -384,7 +376,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "Angel Oneの2023年事件に関するHIBP登録",
@@ -392,7 +384,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "CyrusOne由来とされる公開データのHIBP登録",
@@ -400,7 +392,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "Neogen由来とされる公開データのHIBP登録",
@@ -408,7 +400,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "NVIDIA DCGM ExporterのGPU監視情報露出",
@@ -416,7 +408,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "J:COMのDNS障害と広範な通信影響",
@@ -424,7 +416,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "テラスモバイル2・パチマガスロマガのIDCF影響続報",
@@ -432,7 +424,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
       "title": "Policlinico Triestinoのサイバー攻撃報道",
@@ -440,39 +432,23 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
     },
     {
-      "title": "「コミックシーモア」で情報流出",
-      "url": "https://www.security-next.com/191552",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文は確認。公式通知は見出しのみで本文未取得(rocket-boysは403)。独立2媒体の本文未確認のため持越し。"
-    },
-    {
-      "title": "FirstVDS顧客データ窃取",
+      "title": "FirstVDS顧客データ窃取(ロシア)",
       "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "The Record単一媒体の本文のみ。検索で追加報道を確認できず持越し。"
+      "reason": "The Record本文を読み事案は確認したが、会社発表(Telegram)は未取得で独立2媒体目も未確認のため未公開、次回再調査。"
     },
     {
-      "title": "佐川急便 お荷物問い合わせサービス 第4報",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56499.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "第4報の本文は未取得のため既存sagawa-2026への反映は見送り。次回再調査。"
-    },
-    {
-      "title": "IDCフロンティア不正アクセス えきねっと影響なし",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56496.html",
+      "title": "加古川市の職員メール配信システム事業者への不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html",
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "既存idcf-cloud-2026への反映要否の本文確認は未実施のため持越し。"
+      "reason": "本文確認: 10/13公表、職員約2,200件の氏名・メールの可能性、防災ネットは無関係。事業者名が本文になくアルカディア事案との同一性を未確認。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -556,75 +532,72 @@
     }
   ],
   "checked_at": {
-    "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/": "2026-10-19T06:14:14.062725+00:00",
+    "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/": "2026-10-19T13:59:12.566136+00:00",
     "rakuten-data-sale-claim-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-19T06:14:14.062725+00:00",
-    "ftapi-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/09/30/56341.html": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-10-19T06:14:14.062725+00:00",
+    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-19T13:59:12.566136+00:00",
+    "ftapi-2026": "2026-10-19T13:59:12.566136+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/09/30/56341.html": "2026-10-19T13:59:12.566136+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-10-19T13:59:12.566136+00:00",
     "tottori-care-provider-email-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html": "2026-10-19T06:14:14.062725+00:00",
+    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-19T13:59:12.566136+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html": "2026-10-19T13:59:12.566136+00:00",
     "solar-russian-medical-network-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-19T06:14:14.062725+00:00",
-    "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.linkedin.com/posts/ccondon_new-kev-earlier-today-vulnchecks-canary-share-7511574376446590976-NNh3/": "2026-10-19T06:14:14.062725+00:00",
-    "hcuch-imaging-2026": "2026-10-19T06:14:14.062725+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-19T13:59:12.566136+00:00",
+    "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.linkedin.com/posts/ccondon_new-kev-earlier-today-vulnchecks-canary-share-7511574376446590976-NNh3/": "2026-10-19T13:59:12.566136+00:00",
+    "hcuch-imaging-2026": "2026-10-19T13:59:12.566136+00:00",
     "kenya-brs-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-19T13:10:41Z",
-    "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-19T06:14:14.062725+00:00",
-    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-19T13:10:41Z",
-    "https://www.security-next.com/190739": "2026-10-19T06:14:14.062725+00:00",
-    "andover-town-schools-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-19T06:14:14.062725+00:00",
-    "https://skyticket.jp/news/maintenance/67603": "2026-10-19T06:14:14.062725+00:00",
-    "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.reddit.com/r/newsokuexp/comments/1wuhku8/e%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E9%80%9A%E7%9F%A5%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8C%E6%9C%AC%E6%96%87%E3%81%AB%E8%B3%BC%E5%85%A5%E5%85%88%E3%81%AE%E5%BA%97%E5%90%8D%E3%81%8C%E3%81%AA%E3%81%84%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E5%B1%8A%E3%81%84%E3%81%9F%E4%BA%BA%E3%81%84%E3%82%8B/": "2026-10-19T06:14:14.062725+00:00",
-    "https://s-que.net/news/20261008/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.itmedia.co.jp/business/articles/2610/09/news077.html": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-19T06:14:14.062725+00:00",
+    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-19T13:59:12.566136+00:00",
+    "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-19T13:59:12.566136+00:00",
+    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.security-next.com/190739": "2026-10-19T13:59:12.566136+00:00",
+    "andover-town-schools-2026": "2026-10-19T13:59:12.566136+00:00",
+    "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-19T13:59:12.566136+00:00",
+    "https://skyticket.jp/news/maintenance/67603": "2026-10-19T13:59:12.566136+00:00",
+    "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.reddit.com/r/newsokuexp/comments/1wuhku8/e%E3%82%B9%E3%83%88%E3%82%A2%E3%83%BC%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E9%80%9A%E7%9F%A5%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8C%E6%9C%AC%E6%96%87%E3%81%AB%E8%B3%BC%E5%85%A5%E5%85%88%E3%81%AE%E5%BA%97%E5%90%8D%E3%81%8C%E3%81%AA%E3%81%84%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E5%B1%8A%E3%81%84%E3%81%9F%E4%BA%BA%E3%81%84%E3%82%8B/": "2026-10-19T13:59:12.566136+00:00",
+    "https://s-que.net/news/20261008/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.itmedia.co.jp/business/articles/2610/09/news077.html": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-19T13:59:12.566136+00:00",
     "rhyne-industrial-company-2023": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/09/2000002177/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-19T06:14:14.062725+00:00",
-    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-19T06:14:14.062725+00:00",
-    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-19T13:10:41Z",
-    "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.ransomlook.io/group/inc%20ransom": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.security-next.com/190136": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.ransomlook.io/recent": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-19T06:14:14.062725+00:00",
-    "https://pachinkopachisro.com/archives/4369/": "2026-10-19T13:10:41Z",
-    "https://haveibeenpwned.com/breach/neogen": "2026-10-19T13:10:41Z",
-    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-19T13:10:41Z",
-    "https://haveibeenpwned.com/breach/angelone": "2026-10-19T13:10:41Z",
-    "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-19T06:14:14.062725+00:00",
-    "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-19T06:14:14.062725+00:00",
-    "coldcard-x-phishing-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-19T06:14:14.062725+00:00",
-    "https://ria.ee/en/situation-cyberspace-september-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-19T13:10:41Z",
-    "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-19T06:14:14.062725+00:00",
+    "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/09/2000002177/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-19T13:59:12.566136+00:00",
+    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-19T13:59:12.566136+00:00",
+    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.ransomlook.io/group/inc%20ransom": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.security-next.com/190136": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.ransomlook.io/recent": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-19T13:59:12.566136+00:00",
+    "https://pachinkopachisro.com/archives/4369/": "2026-10-19T13:59:12.566136+00:00",
+    "https://haveibeenpwned.com/breach/neogen": "2026-10-19T13:59:12.566136+00:00",
+    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-19T13:59:12.566136+00:00",
+    "https://haveibeenpwned.com/breach/angelone": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-19T13:59:12.566136+00:00",
+    "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-19T13:59:12.566136+00:00",
+    "coldcard-x-phishing-2026": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-19T13:59:12.566136+00:00",
+    "https://ria.ee/en/situation-cyberspace-september-2026": "2026-10-19T13:59:12.566136+00:00",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-19T13:59:12.566136+00:00",
+    "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-19T13:59:12.566136+00:00",
     "senture-fmcsa-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.security-next.com/190693": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/16/56471.html": "2026-10-19T06:14:14.062725+00:00",
-    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html": "2026-10-19T06:14:14.062725+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/19/56496.html": "2026-10-19T13:10:41Z",
-    "https://www.security-next.com/191552": "2026-10-19T13:10:41Z",
-    "https://therecord.media/russia-cyberattack-firstvds-cloud": "2026-10-19T13:10:41Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/19/56499.html": "2026-10-19T13:10:41Z"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-19T13:59:12.566136+00:00",
+    "https://scan.netsecurity.ne.jp/": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.security-next.com/190693": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-19T13:59:12.566136+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/16/56471.html": "2026-10-19T13:59:12.566136+00:00",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-19T13:59:12.566136+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html": "2026-10-19T13:59:12.566136+00:00",
+    "https://therecord.media/russia-cyberattack-firstvds-cloud": "2026-10-19T13:59:12.566136+00:00"
   },
   "last_success": {
     "fresh": {
@@ -634,18 +607,18 @@
       "main_sha": "a1c50d000c200de363d35c05aebfd1c10a71a4e7"
     },
     "historical": {
-      "completed_at": "2026-10-19T05:22:07Z",
-      "summary": "historicalモード。必須再調査20件のうち、渋谷区・神奈川県・静岡県・愛媛・Radford・小平市・ITmediaまとめは再確認し、残りは本文を再取得せず持越し（確認済みとは主張しない）。国内はSecurity NEXT/ScanNetSecurity、海外はBleepingComputer/The Recordの新着一覧を確認し、銀のさら・アルカディア・Burger King Japan等の主要事案は既存IDに掲載済みと照合。新規公開・更新はなし（data/変更なし）。次回は9月前半の国内自治体・大学の公表、海外ランサム主張の一次確認、Deloitte/CNESTEN等の攻撃者主張の裏付け確認を優先。",
-      "run_id": "39203877691",
-      "main_sha": "23c21ced070f6a5c63309a772e0ca2ab7e2ab417"
+      "completed_at": "2026-10-19T13:59:12.566136+00:00",
+      "summary": "必須再調査の4件(Andover・COLDCARD・FTAPI・HCUCH)を再検索・本文確認したが、公開条件を満たす新たな一次本文や独立2媒体目はなくpending維持。ScanNetSecurity・Security NEXT・BleepingComputer・The Recordの新着一覧を直近72時間分確認し、コミックシーモア(NTTソルマーレ)をSecurity NEXTとNHKの2媒体で新規掲載。その他の一覧記事は既存IDに照合済み。FirstVDSは会社発表未取得でdeferred。選択外のdeferred候補は未読のまま持越しで、確認済みとは主張しない。次回はドコモ/S-QUE/KKR京都くに荘/skyticket等の持越し、9月の国内過去分と欧州・アジア地域の過去記事アーカイブを優先。",
+      "run_id": "39264430600",
+      "main_sha": "0599ed78ce8ee06a67cf26c48ef568bc0883f214"
     }
   },
   "last_attempt": {
-    "mode": "fresh",
-    "run_id": "39257582152",
-    "completed_at": "2026-10-19T13:11:00.236909+00:00",
+    "mode": "historical",
+    "run_id": "39264430600",
+    "completed_at": "2026-10-19T13:59:34.655211+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "a1c50d000c200de363d35c05aebfd1c10a71a4e7"
+    "main_sha": "0599ed78ce8ee06a67cf26c48ef568bc0883f214"
   }
 }
