@@ -10975,5 +10975,64 @@
     "first_seen_at": "2026-10-18",
     "last_verified_at": "2026-10-18",
     "verification_note": "アイホン公式の第1報本文とScanNetSecurityの記事本文を確認。公表日・対応・影響範囲の記載が一致。第2報以降は未確認。"
+  },
+  {
+    "id": "fancl-attenir-ec-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-10-03",
+    "company": "ファンケル／アテニア（キリングループ）",
+    "service": "ECサイトの会員情報",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "小売",
+    "title": "ファンケル・アテニアのECサイトに不正アクセス、会員約78万人分の情報が一部流出",
+    "summary": "ファンケルとアテニアは、両社のECサイトが10月3日〜10日に不正アクセスを受け、会員情報の一部が外部に流出したと公表しました。対象はファンケル36万8,184人、アテニア41万7,312人と報じられています。",
+    "note": "10月15日の社内調査で判明。氏名・住所・電話番号・生年月日・メールアドレス・顧客番号等が対象で、サブメールのパスワードの一部はハッシュ化されたものです。侵入経路は報道で明示されていません。不正利用・二次被害は未確認。合計数は報道間で表現が異なるため、各社別の人数のみ記載しています。",
+    "affected": [
+      {
+        "count": 368184,
+        "unit": "people",
+        "description": "ファンケルの対象会員数",
+        "source_id": "fancl-attenir-ec-2026-1"
+      },
+      {
+        "count": 417312,
+        "unit": "people",
+        "description": "アテニアの対象会員数",
+        "source_id": "fancl-attenir-ec-2026-1"
+      }
+    ],
+    "sources": [
+      "fancl-attenir-ec-2026-1",
+      "fancl-attenir-ec-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-19",
+    "last_verified_at": "2026-10-19",
+    "verification_note": "企業の一次発表は取得できず、独立した2媒体（Security NEXT、WWDJAPAN）の本文を確認。期間・件数・対応が一致。"
+  },
+  {
+    "id": "ets-california-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-05-22",
+    "company": "Educational Testing Service（ETS）／カリフォルニア州教育局",
+    "service": "州統一テスト用SFTPサイト",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育",
+    "title": "ETS委託のカリフォルニア州学力テスト用SFTPに不正アクセス、生徒情報を複製",
+    "summary": "カリフォルニア州教育局は、委託先ETSのSFTPサイトで、侵害された認証情報により5月22日〜9月18日に生徒関連ファイルが複製されたと公表しました。過去3年度の在籍生徒などが対象で、氏名・生年月日・住所・州生徒ID等が含まれ得ます。",
+    "note": "ETSは9月25日に不審な活動を検知。対象人数は未公表（SecurityWeekは過去3年度の在籍生徒と2006年までの一部元生徒と報道）。社会保障番号・パスワード・金融情報・保護者情報は対象外とされています。公開された証拠は未確認。",
+    "affected": [],
+    "sources": [
+      "ets-california-2026-1",
+      "ets-california-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-19",
+    "last_verified_at": "2026-10-19",
+    "verification_note": "CDEの公式通知ページとSecurityWeekの本文を確認。期間・データ項目・対応が一致。人数は未公表のため記載せず。"
   }
 ]

@@ -4884,5 +4884,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56493.html",
     "title": "アイホン豪州法人に不正アクセス"
+  },
+  {
+    "id": "fancl-attenir-ec-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191600",
+    "title": "ファンケルとアテニア、eコマースサイトの会員情報が流出"
+  },
+  {
+    "id": "fancl-attenir-ec-2026-2",
+    "publisher": "WWDJAPAN",
+    "type": "reporting",
+    "url": "https://www.wwdjapan.com/articles/2528854",
+    "title": "ファンケルとアテニアのECサイトに不正アクセス、会員情報が流出"
+  },
+  {
+    "id": "ets-california-2026-1",
+    "publisher": "California Department of Education",
+    "type": "primary",
+    "url": "https://www.cde.ca.gov/nr/in/ets-notification.asp",
+    "title": "ETS Data Security Incident notification"
+  },
+  {
+    "id": "ets-california-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+    "title": "One Compromised Login Exposed Millions of California Students' Records"
   }
 ]
