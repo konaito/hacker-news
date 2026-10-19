@@ -11057,5 +11057,28 @@
     "first_seen_at": "2026-10-19",
     "last_verified_at": "2026-10-19",
     "verification_note": "Security NEXT(10月19日)とNHK(10月15日)の本文を確認し、サービス停止と不正アクセスの可能性が一致。公式告知は未取得で、件数は未公表のため記載しない。"
+  },
+  {
+    "id": "bullhorn-2026",
+    "published_at": "2026-10-17",
+    "occurred_at": null,
+    "company": "Bullhorn",
+    "service": "人材紹介・派遣向けクラウドプラットフォーム(ATS/CRM等)",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "システム停止",
+    "category": "IT・クラウド",
+    "title": "人材業界向けBullhornがサイバーインシデントでシステムを遮断、広範な停止と復旧作業",
+    "summary": "米Bullhornは10月17日、システム全体の障害の後にサイバーインシデントを認めてアクセスを遮断し、CrowdStrikeを関与させました。19日時点でATS/CRMは地域別に復旧が進む一方、Talent Platformは停止が続いています。",
+    "note": "BleepingComputerによると、データ流出の有無は調査中で、攻撃者・手口は未公表です。ステータスページはTalent Platformについて『サイバー活動の証拠はない』と記し、予防的に停止したとしています。非SSOユーザーのパスワード再設定が求められています。顧客数10,000社超は同社の自己申告です。データ侵害は確認扱いにしません。",
+    "affected": [],
+    "sources": [
+      "bullhorn-2026-1",
+      "bullhorn-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-19",
+    "last_verified_at": "2026-10-19",
+    "verification_note": "Bullhornステータスページ(10月19日15:15 EDT時点)とBleepingComputer本文を確認し、17日のサイバーインシデント認定・遮断・復旧状況が一致。データ流出は未確認。"
   }
 ]

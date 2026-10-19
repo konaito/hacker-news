@@ -4926,5 +4926,19 @@
     "type": "reporting",
     "url": "https://news.web.nhk/newsweb/na/nd-20261015de60114",
     "title": "コミックシーモアがサービス停止 不正アクセスの可能性(NHK NEWS WEB 2026年10月15日)"
+  },
+  {
+    "id": "bullhorn-2026-1",
+    "publisher": "Bullhorn",
+    "type": "primary",
+    "url": "https://status.bullhorn.com",
+    "title": "Bullhorn Status(2026年10月17〜19日のサイバーインシデント更新)"
+  },
+  {
+    "id": "bullhorn-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+    "title": "Bullhorn takes staffing platform offline to contain cyberattack"
   }
 ]
