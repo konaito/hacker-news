@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-19T13:59:34.655211+00:00",
+  "completed_at": "2026-10-19T19:22:26.620001+00:00",
   "candidates": [
     {
       "title": "ドコモのAmazonへの同意未取得の情報提供報道",
@@ -371,12 +371,36 @@
       "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回の必須再調査に選ばれたが、本文は再取得していない。前回判断を維持して次回へ持ち越し（確認済みとは主張しない）。"
     },
     {
+      "title": "加古川市の職員メール配信システム事業者への不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文確認: 10/13公表、職員約2,200件の氏名・メールの可能性、防災ネットは無関係。事業者名が本文になくアルカディア事案との同一性を未確認。"
+    },
+    {
+      "title": "OpenCodeのAPIキー露出",
+      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認。一次情報はX投稿で本文を読めず、独立した2媒体目も検索で見つからないため未公開。"
+    },
+    {
+      "title": "FirstVDSの顧客データ窃取",
+      "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文のみ確認。一次発表はTelegramで未読、独立2媒体目も検索で見つからず未公開。"
+    },
+    {
       "title": "Radford市のデータ事件疑い",
       "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "再取得し本文確認。9月29日の停止で悪意ある原因・データ露出は未確認、他出典なし。単独の未確認情報のため持越し。"
     },
     {
       "title": "Angel Oneの2023年事件に関するHIBP登録",
@@ -384,47 +408,31 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "HIBP本文確認:2023年4月の事件、10月7日登録、790万件。2023年事件で期間(2026-09-01以降の新規公表)の該当性と独立出典が未確認のため未公開。"
     },
     {
-      "title": "CyrusOne由来とされる公開データのHIBP登録",
+      "title": "CyrusOne由来公開データのHIBP登録",
       "url": "https://haveibeenpwned.com/breach/cyrusone",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "HIBP本文確認:2026年8月、ShinyHuntersの恐喝後公開、約373,500メール。HIBP単独で、企業確認・独立2媒体が未確認のため持越し。"
     },
     {
-      "title": "Neogen由来とされる公開データのHIBP登録",
+      "title": "Neogen由来公開データのHIBP登録",
       "url": "https://haveibeenpwned.com/breach/neogen",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "HIBP本文確認:2026年8月、ShinyHunters、約436,000メール。HIBP単独で企業確認・独立2媒体が未確認のため持越し。"
     },
     {
-      "title": "NVIDIA DCGM ExporterのGPU監視情報露出",
-      "url": "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
-    },
-    {
-      "title": "J:COMのDNS障害と広範な通信影響",
+      "title": "J:COMのDNS障害",
       "url": "https://newsreleases.jcom.co.jp/news/20260924_22551.html",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
-    },
-    {
-      "title": "テラスモバイル2・パチマガスロマガのIDCF影響続報",
-      "url": "https://pachinkopachisro.com/archives/4369/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
+      "reason": "公式本文確認:9月23日、外部からの大量アクセスでDNS過負荷、最大約408万世帯、同日復旧。実害の侵害ではなく大量アクセスによる障害で攻撃かは未確認、サイトの対象性判断と第二出典を次回へ。"
     },
     {
       "title": "Policlinico Triestinoのサイバー攻撃報道",
@@ -432,23 +440,7 @@
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "今回の必須再調査の選択外のため未確認・未読。前回判断を維持して持越し。前回判断: 今回は本文を再取得できず再調査は未完了。新着探索を優先したため前回判断を維持して次回へ持越し（確認済みとは主張しない）。"
-    },
-    {
-      "title": "FirstVDS顧客データ窃取(ロシア)",
-      "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文を読み事案は確認したが、会社発表(Telegram)は未取得で独立2媒体目も未確認のため未公開、次回再調査。"
-    },
-    {
-      "title": "加古川市の職員メール配信システム事業者への不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文確認: 10/13公表、職員約2,200件の氏名・メールの可能性、防災ネットは無関係。事業者名が本文になくアルカディア事案との同一性を未確認。"
+      "reason": "取得がsocket hang upで失敗し本文未確認。未検証のまま持越し。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -549,9 +541,9 @@
     "https://www.linkedin.com/posts/ccondon_new-kev-earlier-today-vulnchecks-canary-share-7511574376446590976-NNh3/": "2026-10-19T13:59:12.566136+00:00",
     "hcuch-imaging-2026": "2026-10-19T13:59:12.566136+00:00",
     "kenya-brs-2026": "2026-10-19T06:14:14.062725+00:00",
-    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-19T13:59:12.566136+00:00",
+    "https://newsreleases.jcom.co.jp/news/20260924_22551.html": "2026-10-19T19:21:40.779584+00:00",
     "https://comunicati.comune.prato.it/generali/?action=dettaglio&comunicato=14202600000479": "2026-10-19T13:59:12.566136+00:00",
-    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-19T13:59:12.566136+00:00",
+    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-19T19:21:40.779584+00:00",
     "https://www.security-next.com/190739": "2026-10-19T13:59:12.566136+00:00",
     "andover-town-schools-2026": "2026-10-19T13:59:12.566136+00:00",
     "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-19T13:59:12.566136+00:00",
@@ -570,7 +562,6 @@
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-19T13:59:12.566136+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-19T13:59:12.566136+00:00",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-19T13:59:12.566136+00:00",
-    "https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability": "2026-10-19T13:59:12.566136+00:00",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-19T13:59:12.566136+00:00",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-10-19T13:59:12.566136+00:00",
     "https://www.security-next.com/190136": "2026-10-19T13:59:12.566136+00:00",
@@ -578,16 +569,15 @@
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-19T13:59:12.566136+00:00",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-19T13:59:12.566136+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-19T13:59:12.566136+00:00",
-    "https://pachinkopachisro.com/archives/4369/": "2026-10-19T13:59:12.566136+00:00",
-    "https://haveibeenpwned.com/breach/neogen": "2026-10-19T13:59:12.566136+00:00",
-    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-19T13:59:12.566136+00:00",
-    "https://haveibeenpwned.com/breach/angelone": "2026-10-19T13:59:12.566136+00:00",
+    "https://haveibeenpwned.com/breach/neogen": "2026-10-19T19:21:40.779584+00:00",
+    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-19T19:21:40.779584+00:00",
+    "https://haveibeenpwned.com/breach/angelone": "2026-10-19T19:21:40.779584+00:00",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-19T13:59:12.566136+00:00",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-19T13:59:12.566136+00:00",
     "coldcard-x-phishing-2026": "2026-10-19T13:59:12.566136+00:00",
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-19T13:59:12.566136+00:00",
     "https://ria.ee/en/situation-cyberspace-september-2026": "2026-10-19T13:59:12.566136+00:00",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-19T13:59:12.566136+00:00",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-19T19:21:40.779584+00:00",
     "https://rocket-boys.co.jp/security-measures-lab/ntt-docomo-340000-data-provision-report/": "2026-10-19T13:59:12.566136+00:00",
     "senture-fmcsa-2026": "2026-10-19T06:14:14.062725+00:00",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-19T13:59:12.566136+00:00",
@@ -597,14 +587,15 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/16/56471.html": "2026-10-19T13:59:12.566136+00:00",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-19T13:59:12.566136+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html": "2026-10-19T13:59:12.566136+00:00",
-    "https://therecord.media/russia-cyberattack-firstvds-cloud": "2026-10-19T13:59:12.566136+00:00"
+    "https://therecord.media/russia-cyberattack-firstvds-cloud": "2026-10-19T19:21:40.779584+00:00",
+    "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/": "2026-10-19T19:21:40.779584+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-19T13:10:41Z",
-      "summary": "国内2媒体・海外3媒体の一覧を確認し、新規2件（ファンケル/アテニア、ETS）を掲載。必須再調査8件は本文を再取得できず全件持越し。コミックシーモアは公式本文未取得のため持越し。",
-      "run_id": "39257582152",
-      "main_sha": "a1c50d000c200de363d35c05aebfd1c10a71a4e7"
+      "completed_at": "2026-10-19T19:21:40.779584+00:00",
+      "summary": "新規1件(Bullhorn)を一次情報とBleepingComputerで確認して掲載、IDCF事案へのJR東日本の漏えいなし判断(ScanNetSecurity本文確認)は既存16出典の再確認が未了のため反映せず持越し。OpenCode・FirstVDSは単一報道のためdeferred。選択済み再調査8件を実施(取得失敗1件)。",
+      "run_id": "39309957571",
+      "main_sha": "1bce49c889c2f165c1a1c287e5ef460aecfe67e2"
     },
     "historical": {
       "completed_at": "2026-10-19T13:59:12.566136+00:00",
@@ -614,11 +605,11 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "39264430600",
-    "completed_at": "2026-10-19T13:59:34.655211+00:00",
+    "mode": "fresh",
+    "run_id": "39309957571",
+    "completed_at": "2026-10-19T19:22:26.620001+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "0599ed78ce8ee06a67cf26c48ef568bc0883f214"
+    "main_sha": "1bce49c889c2f165c1a1c287e5ef460aecfe67e2"
   }
 }
