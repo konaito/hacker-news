@@ -11080,5 +11080,35 @@
     "first_seen_at": "2026-10-19",
     "last_verified_at": "2026-10-19",
     "verification_note": "Bullhornステータスページ(10月19日15:15 EDT時点)とBleepingComputer本文を確認し、17日のサイバーインシデント認定・遮断・復旧状況が一致。データ流出は未確認。"
+  },
+  {
+    "id": "nikkei-dev-cloud-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-10-07",
+    "company": "日本経済新聞社",
+    "service": "システム開発用クラウドサービス",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "メディア",
+    "title": "日経、開発用クラウドへの不正アクセスで約183万件の個人情報が漏洩",
+    "summary": "日本経済新聞社は10月16日、窃取された認証情報で7日未明から朝にかけて開発用クラウドに不正アクセスがあり、保管していた約183万件が漏洩したと公表しました。",
+    "note": "約183万件は件数(レコード)で人数ではありません。うち氏名・メール・住所・電話・生年月日のいずれかを含むのは約15万件(メール含む約12万件)、残る約168万件は単体で個人を特定できない識別子のみです。クレジットカード情報は含まれず、16日時点で悪用は未確認。個人情報保護委員会へ11日に報告済み。7月のGoogle Workspace、9月のMicrosoft 365の事案とはシステム・時期が異なり、関連は公表されていません。",
+    "affected": [
+      {
+        "count": 1830000,
+        "unit": "records",
+        "description": "漏洩した個人情報関連レコードの合計(約15万件は個人情報を含み、約168万件は識別子のみ)。人数ではない。",
+        "source_id": "nikkei-dev-cloud-2026-1"
+      }
+    ],
+    "sources": [
+      "nikkei-dev-cloud-2026-1",
+      "nikkei-dev-cloud-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-19",
+    "last_verified_at": "2026-10-19",
+    "verification_note": "日経の公式お知らせ本文とBleepingComputer本文を確認し、7日の不正アクセス、約183万件の内訳、PPC報告、悪用未確認が一致。"
   }
 ]

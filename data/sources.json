@@ -4940,5 +4940,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
     "title": "Bullhorn takes staffing platform offline to contain cyberattack"
+  },
+  {
+    "id": "nikkei-dev-cloud-2026-1",
+    "publisher": "日本経済新聞社",
+    "title": "日本経済新聞社｜不正アクセスによる個人情報漏洩について",
+    "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html",
+    "type": "primary"
+  },
+  {
+    "id": "nikkei-dev-cloud-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+    "title": "Nikkei discloses third data breach in a month, 1.8M records exposed"
   }
 ]
