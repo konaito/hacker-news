@@ -4912,5 +4912,19 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
     "title": "One Compromised Login Exposed Millions of California Students' Records"
+  },
+  {
+    "id": "comic-cmoa-nttsolmare-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191552",
+    "title": "「コミックシーモア」で情報流出 - 影響など調査"
+  },
+  {
+    "id": "comic-cmoa-nttsolmare-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261015de60114",
+    "title": "コミックシーモアがサービス停止 不正アクセスの可能性(NHK NEWS WEB 2026年10月15日)"
   }
 ]

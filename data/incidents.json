@@ -11034,5 +11034,28 @@
     "first_seen_at": "2026-10-19",
     "last_verified_at": "2026-10-19",
     "verification_note": "CDEの公式通知ページとSecurityWeekの本文を確認。期間・データ項目・対応が一致。人数は未公表のため記載せず。"
+  },
+  {
+    "id": "comic-cmoa-nttsolmare-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": null,
+    "company": "NTTソルマーレ",
+    "service": "電子書店「コミックシーモア」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "エンタメ・配信",
+    "title": "コミックシーモアで不正アクセスの可能性、サービスを停止し会員情報の流出を調査",
+    "summary": "運営のNTTソルマーレは10月15日、サーバーへの外部からの不正アクセスの可能性が高いとしてサービスを停止しました。Security NEXTは、メールアドレス・生年月日・性別・ニックネーム・パスワードのハッシュ値などの会員情報に関わる可能性があると伝えています。",
+    "note": "NHK本文はサービス停止と不正アクセスの可能性のみを伝え、データ項目や件数は記載していません。データ項目はSecurity NEXTの記載に基づき、対象件数は未公表です。購買履歴の流出は確認されていないとされます。運営の公式告知本文は直接取得できておらず、発生日も不明です。",
+    "affected": [],
+    "sources": [
+      "comic-cmoa-nttsolmare-2026-1",
+      "comic-cmoa-nttsolmare-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-19",
+    "last_verified_at": "2026-10-19",
+    "verification_note": "Security NEXT(10月19日)とNHK(10月15日)の本文を確認し、サービス停止と不正アクセスの可能性が一致。公式告知は未取得で、件数は未公表のため記載しない。"
   }
 ]
