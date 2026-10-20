@@ -5080,5 +5080,12 @@
     "type": "reporting",
     "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002369/",
     "title": "家電量販のJoshin、不正アクセスで一部サービス停止　個人情報漏えい「可能性否定できず」"
+  },
+  {
+    "id": "jcom-dns-outage-2026-1",
+    "publisher": "J:COM",
+    "type": "primary",
+    "url": "https://newsreleases.jcom.co.jp/news/20260924_22551.html",
+    "title": "J:COM NET等のインターネット接続障害について"
   }
 ]

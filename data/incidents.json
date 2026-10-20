@@ -11330,5 +11330,27 @@
     "first_seen_at": "2026-10-20",
     "last_verified_at": "2026-10-20",
     "verification_note": "同社公式告知PDFの本文（日付・認識日・調査中・漏えい可能性否定できず）を確認し、ITmedia NEWSの本文と突合。"
+  },
+  {
+    "id": "jcom-dns-outage-2026",
+    "published_at": "2026-09-23",
+    "occurred_at": "2026-09-23",
+    "company": "J:COM",
+    "service": "J:COM NETなどのインターネット接続",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス障害",
+    "category": "通信",
+    "title": "外部からの大量アクセスでDNSサーバーに高負荷、インターネット接続に障害",
+    "summary": "J:COMは9月23日、午前8時55分ごろから夕方にかけてインターネット接続などに障害が生じたと発表しました。調査では外部からの大量のアクセスがDNSサーバーに高負荷を与えたことが判明し、同日20時に正常稼働を確認しました。",
+    "note": "発表は原因をサイバー攻撃とは明言していません。情報漏えいに関する記載はなく、影響は最大約408万世帯の契約世帯数として示された数値で、人数ではありません。",
+    "affected": [],
+    "sources": [
+      "jcom-dns-outage-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "J:COM公式リリース本文を確認し、障害時間、DNS高負荷、対象サービス、影響範囲を突合。"
   }
 ]
