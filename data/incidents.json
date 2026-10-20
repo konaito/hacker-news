@@ -11110,5 +11110,88 @@
     "first_seen_at": "2026-10-19",
     "last_verified_at": "2026-10-19",
     "verification_note": "日経の公式お知らせ本文とBleepingComputer本文を確認し、7日の不正アクセス、約183万件の内訳、PPC報告、悪用未確認が一致。"
+  },
+  {
+    "id": "rankmath-pro-supply-chain-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-15",
+    "company": "Rank Math（WordPress SEOプラグイン）",
+    "service": "Rank Math PRO 3.0.123",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "WordPress用SEOプラグインRank Math PROの配布ファイルにマルウェア混入、有効化したサイトは侵害の恐れ",
+    "summary": "Rank Mathは、PRO版v3.0.123のファイルにマルウェアが含まれ、有効化したサイトを侵害し得ると公表しました。該当版は10月15日20:02 UTCから16日07:12 UTCに入手可能で、同社は感染ファイルを削除し修正版3.0.124を公開しました。",
+    "note": "影響は「限定的な数の利用者」とされ、件数は非公表です。WordPress.orgの無料版は対象外。侵入経路は未公表。BleepingComputerが見つけた別のPHPサンプルが同プラグイン経由かは未確認です。認証情報等の実際の窃取は確認されていません。",
+    "affected": [],
+    "sources": [
+      "rankmath-pro-supply-chain-2026-1",
+      "rankmath-pro-supply-chain-2026-2",
+      "rankmath-pro-supply-chain-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "Rank Math公式告知、BleepingComputer、SecurityWeekの本文を確認。ダウンロード期間と修正版は公式、攻撃の詳細はメディア報道による。"
+  },
+  {
+    "id": "aomei-update-tampering-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-05-28",
+    "company": "AOMEI Technology",
+    "service": "AOMEI Backupperの更新配信基盤",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "AOMEI Backupperの更新配信経路が短時間改ざんされ、バックドア型マルウェアを配布",
+    "summary": "ManageEngineの研究部門は、AOMEI Backupperが取得する更新関連ファイルが数分間だけ改ざんされ、ドロッパーとバックドアが配布されたと報告しました。別組織2社の端末で5月28日に確認され、Google/Mandiantは4〜7月の複数の改ざん期間を報告したとされます。",
+    "note": "発生日は研究者が最初に観測した5月28日で、Google/Mandiantは4月からの活動と報告しています（報道ベース）。AOMEIは自社サーバーを修正したと説明しますが、侵入経路は未確認で、封じ込めも研究者側では未検証です。被害組織数の全体像は不明で、確認できる端末は2組織分です。",
+    "affected": [],
+    "sources": [
+      "aomei-update-tampering-2026-1",
+      "aomei-update-tampering-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "ManageEngine Threat Analysis LabとBleepingComputerの本文を確認。Google/Mandiant報告そのものの本文は未確認で、BleepingComputer経由の記述として扱う。AOMEIの一次発表は未確認。"
+  },
+  {
+    "id": "gdo-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-10-13",
+    "company": "ゴルフダイジェスト・オンライン",
+    "service": "社内管理サーバー・会員情報",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "流出確認",
+    "category": "EC・サービス",
+    "title": "ゴルフダイジェスト・オンラインのサーバーに不正アクセス、従業員等1,789人の氏名・メールが流出、会員55件が参照された",
+    "summary": "同社は10月16日、13日に検知した不正アクセスで、社内システムの管理者・利用者一覧が持ち出され従業員・退職者・取引先担当者1,789人分の氏名等とメールアドレスが流出したと公表しました。別のサーバー経由で会員情報55件が参照されています。",
+    "note": "人数（1,789人）と会員情報の件数（55件）は別の単位です。10月16日時点の暫定値で、侵入経路は未特定、調査継続中です。顧客のパスワードやカード情報への影響は確認されていません。ScanNetSecurityは取引・サービスへの影響を記述していますが、公式発表本文には顧客向けの停止・障害の記載がなく、この点は公式本文を優先しました。",
+    "affected": [
+      {
+        "count": 1789,
+        "unit": "people",
+        "description": "従業員・退職者・取引先担当者（氏名・社内メールアドレス）。流出を確認",
+        "source_id": "gdo-2026-1"
+      },
+      {
+        "count": 55,
+        "unit": "records",
+        "description": "会員登録情報（うち51件は識別子IDのみ、4件は氏名・住所等を含む）。第三者に参照された可能性",
+        "source_id": "gdo-2026-1"
+      }
+    ],
+    "sources": [
+      "gdo-2026-1",
+      "gdo-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "GDO公式発表とScanNetSecurityの本文を確認。件数・時系列は公式本文に基づく。"
   }
 ]

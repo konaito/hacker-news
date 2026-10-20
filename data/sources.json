@@ -4954,5 +4954,54 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
     "title": "Nikkei discloses third data breach in a month, 1.8M records exposed"
+  },
+  {
+    "id": "rankmath-pro-supply-chain-2026-1",
+    "publisher": "Rank Math",
+    "type": "primary",
+    "url": "https://rankmath.com/kb/pro-3-0-123-security-incident/",
+    "title": "Rank Math PRO v3.0.123 Security Incident"
+  },
+  {
+    "id": "rankmath-pro-supply-chain-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+    "title": "WordPress SEO plugin Rank Math compromised to backdoor websites"
+  },
+  {
+    "id": "rankmath-pro-supply-chain-2026-3",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+    "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack"
+  },
+  {
+    "id": "aomei-update-tampering-2026-1",
+    "publisher": "ManageEngine Threat Analysis Lab",
+    "type": "reporting",
+    "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+    "title": "AOMEI Backupper supply chain compromise"
+  },
+  {
+    "id": "aomei-update-tampering-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+    "title": "Hackers hijack AOMEI update servers to secretly spread malware"
+  },
+  {
+    "id": "gdo-2026-1",
+    "publisher": "ゴルフダイジェスト・オンライン",
+    "type": "primary",
+    "url": "https://company.golfdigest.co.jp/corp/pr/2026101601.html",
+    "title": "当社サーバーへの不正アクセスに関するお知らせ（2026年10月16日）"
+  },
+  {
+    "id": "gdo-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56514.html",
+    "title": "ゴルフダイジェスト・オンラインに不正アクセス、攻撃者にファイルがダウンロードされたことを確認"
   }
 ]
