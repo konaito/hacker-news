@@ -5003,5 +5003,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56514.html",
     "title": "ゴルフダイジェスト・オンラインに不正アクセス、攻撃者にファイルがダウンロードされたことを確認"
+  },
+  {
+    "id": "nifty-line-system-2026-1",
+    "publisher": "ニフティ",
+    "type": "primary",
+    "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+    "title": "【第一報】当社回線申込・受付管理システムへの不正アクセスの発生について"
+  },
+  {
+    "id": "nifty-line-system-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191648",
+    "title": "社内の光回線申込受付管理システムで侵害、影響を調査 - ニフティ"
   }
 ]

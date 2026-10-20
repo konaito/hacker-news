@@ -11193,5 +11193,35 @@
     "first_seen_at": "2026-10-20",
     "last_verified_at": "2026-10-20",
     "verification_note": "GDO公式発表とScanNetSecurityの本文を確認。件数・時系列は公式本文に基づく。"
+  },
+  {
+    "id": "nifty-line-system-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-19",
+    "company": "ニフティ",
+    "service": "回線申込・受付管理システム（@nifty光ほか）",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "通信",
+    "title": "ニフティの回線申込・受付管理システムに不正アクセス、最大542,513件の顧客情報が漏えいした可能性",
+    "summary": "同社は10月19日、社内の回線申込・受付管理システムへの不正アクセスを同日10時20分頃に確認したと発表しました。2019年以降にニフティ公式サイト以外から@nifty光・@nifty MAX光・@nifty auひかりプラスを申し込んだ顧客の情報が対象です。",
+    "note": "件数は「最大542,513件」で、公式発表は単位を「件」としており人数とは確認されていません。漏えいは未確認の可能性段階で、第一報のため調査中です。対象項目は会員ID、氏名、性別、生年月日、住所、電話番号、メールアドレスで、口座・クレジットカード情報は保持していないとしています。",
+    "affected": [
+      {
+        "count": 542513,
+        "unit": "records",
+        "description": "2019年以降にニフティサイト以外から回線を申し込んだ顧客の申込情報（最大。漏えいは可能性）",
+        "source_id": "nifty-line-system-2026-1"
+      }
+    ],
+    "sources": [
+      "nifty-line-system-2026-1",
+      "nifty-line-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "ニフティ公式第一報とSecurity NEXTの本文を確認。件数・項目・時刻は公式本文に基づく。"
   }
 ]
