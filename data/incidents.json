@@ -11352,5 +11352,41 @@
     "first_seen_at": "2026-10-20",
     "last_verified_at": "2026-10-20",
     "verification_note": "J:COM公式リリース本文を確認し、障害時間、DNS高負荷、対象サービス、影響範囲を突合。"
+  },
+  {
+    "id": "zeabur-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": "2026-10-14",
+    "company": "Zeabur",
+    "service": "Zeabur共有クラスター・専用サーバー・プラットフォームDB",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "デプロイ基盤Zeaburで2か月に2度目の侵害、プラットフォームDBの32万超アカウント情報と環境変数が読み取られ、サービス終了を発表",
+    "summary": "Zeaburは、10月14日に内部の管理者認証情報が悪用され、共有クラスターや専用サーバー、プラットフォームDBに不正アクセスされたと公表しました。DBからは321,810アカウントの情報と3,218,965件のサービス環境変数レコードが読み取られ、GCP専用サーバー101台にrootでログインされています。同社は12月末までにサービスを終了する方針です。",
+    "note": "件数はZeabur自身の調査結果で、アカウント数とレコード数は別単位です。共有クラスターのデータベース内で実際に持ち出されたデータは同社も確認しきれていません。攻撃者が最初に認証情報を得た経路は未確認で、8月の別侵害との関連は仮説です。",
+    "affected": [
+      {
+        "count": 321810,
+        "unit": "accounts",
+        "description": "プラットフォームDBから読み取られたアカウント情報（メール・ユーザー名・電話番号等）",
+        "source_id": "zeabur-2026-1"
+      },
+      {
+        "count": 3218965,
+        "unit": "records",
+        "description": "プラットフォームDBから読み取られたサービス環境変数レコード",
+        "source_id": "zeabur-2026-1"
+      }
+    ],
+    "sources": [
+      "zeabur-2026-1",
+      "zeabur-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "Zeabur公式インシデント報告とBleepingComputerの本文を確認し、日付・件数・原因の記述が一致することを照合。"
   }
 ]
