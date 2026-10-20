@@ -5017,5 +5017,68 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191648",
     "title": "社内の光回線申込受付管理システムで侵害、影響を調査 - ニフティ"
+  },
+  {
+    "id": "nec-contractor-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191694",
+    "title": "NEC委託先にサイバー攻撃 - 顧客システムで障害、個人情報流出"
+  },
+  {
+    "id": "nec-contractor-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002433/",
+    "title": "NECの委託先にサイバー攻撃 正規アカウント悪用し顧客のサーバ暗号化、個人情報の漏えいも"
+  },
+  {
+    "id": "ymir-link-cuenote-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002409/",
+    "title": "メール配信のユミルリンクに不正アクセス メアドなど約900万件漏えいか"
+  },
+  {
+    "id": "ymir-link-cuenote-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191652",
+    "title": "複数システムに不正アクセス、個人情報が流出 - ユミルリンク"
+  },
+  {
+    "id": "ymir-link-cuenote-2026-3",
+    "publisher": "NTTピーシーコミュニケーションズ",
+    "type": "primary",
+    "url": "https://www.nttpc.co.jp/press/info/2026/10/202610201600.html",
+    "title": "ユミルリンク株式会社で発生した不正アクセスに伴うメールアドレス等の漏えいの可能性について"
+  },
+  {
+    "id": "paradigm-healthcare-2026-1",
+    "publisher": "Paradigm Healthcare Services",
+    "type": "primary",
+    "url": "https://www.paradigm-healthcare.com/notice",
+    "title": "Data Breach Notice"
+  },
+  {
+    "id": "paradigm-healthcare-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/",
+    "title": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach"
+  },
+  {
+    "id": "joshin-2026-1",
+    "publisher": "Joshin",
+    "type": "primary",
+    "url": "https://www.joshin.co.jp/ja/news/info/info-20261017/main/0/link/20261017Notice%20and%20Apology%20Regarding%20System%20Disruption%20Caused%20by%20Unauthorized%20Access.pdf",
+    "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ"
+  },
+  {
+    "id": "joshin-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002369/",
+    "title": "家電量販のJoshin、不正アクセスで一部サービス停止　個人情報漏えい「可能性否定できず」"
   }
 ]

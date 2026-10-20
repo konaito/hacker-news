@@ -11223,5 +11223,112 @@
     "first_seen_at": "2026-10-20",
     "last_verified_at": "2026-10-20",
     "verification_note": "ニフティ公式第一報とSecurity NEXTの本文を確認。件数・項目・時刻は公式本文に基づく。"
+  },
+  {
+    "id": "nec-contractor-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": null,
+    "company": "NEC（委託先・顧客企業は非公表）",
+    "service": "NECのシステム開発・保守委託先と顧客システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "IT・クラウド",
+    "title": "NECの委託先にサイバー攻撃、正規アカウント悪用で顧客サーバのファイルが暗号化、共有クラウドから個人情報を含むファイルが流出",
+    "summary": "NECは10月20日、システム開発・保守を委託している企業が9月下旬にサイバー攻撃を受けたと発表しました。窃取された正規アカウントで委託先端末から顧客のシステム環境に入られ、複数顧客でサーバ内のファイルが暗号化されシステムが利用できなくなったほか、NECや顧客が情報共有に使っていたクラウドストレージのファイルが流出しました。",
+    "note": "攻撃は2026年9月下旬（正確な日付は非公表）。流出ファイルには顧客の保有する個人情報やシステム関連情報が含まれますが、件数・人数、委託先名、被害顧客名は公表されていません。本文を確認できた報道は顧客数を「複数」とし、個人情報の範囲は確認中です。NEC公式ページは取得できず、Security NEXTとITmedia NEWSの本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "nec-contractor-2026-1",
+      "nec-contractor-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "NEC公式ページはHTTP 403で本文未取得。独立した報道2媒体（Security NEXT、ITmedia NEWS）の本文で、攻撃時期・手口・暗号化・クラウドストレージからのファイル流出・件数未公表を確認。"
+  },
+  {
+    "id": "ymir-link-cuenote-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": null,
+    "company": "ユミルリンク",
+    "service": "メール配信サービス「Cuenote FC」（専用ASPプラン）",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "IT・クラウド",
+    "title": "ユミルリンクのメール配信サービス「Cuenote FC」に不正アクセス、メールアドレスなど延べ約900万件が持ち出された",
+    "summary": "同社は10月19日、メール配信サービスCuenote FCの5システムが外部から不正アクセスを受け、データベースからデータが持ち出されたと発表しました。10月16日未明に確認され、プログラムの脆弱性を突かれ、サポート・品質管理担当者の認証情報が取得されたとされています。",
+    "note": "約900万件は同社の試算による延べ件数で、人数とは確認されていません。件数の単位は「件」です。NTTPCは自社サービスの連絡先メールアドレス等が漏えいした可能性があると注意喚起しており、影響を受ける委託元は他にも出る可能性があります。同社の発表本文そのものは取得できておらず、報道とNTTPCの告知に基づきます。詳細は外部専門家が調査中です。",
+    "affected": [
+      {
+        "count": 9000000,
+        "unit": "records",
+        "description": "Cuenote FCの5システムから持ち出されたメールアドレス等を含むデータの延べ件数（同社試算）",
+        "source_id": "ymir-link-cuenote-2026-1"
+      }
+    ],
+    "sources": [
+      "ymir-link-cuenote-2026-1",
+      "ymir-link-cuenote-2026-2",
+      "ymir-link-cuenote-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "ITmedia NEWS、Security NEXT、NTTPCの告知の本文を確認。ユミルリンク公式サイトの一覧では当該告知を確認できず、同社発表は報道・NTTPC告知経由で確認。"
+  },
+  {
+    "id": "paradigm-healthcare-2026",
+    "published_at": "2026-09-14",
+    "occurred_at": "2025-10-08",
+    "company": "Paradigm Healthcare Services",
+    "service": "Medi-Cal請求処理事業者のローカルネットワーク",
+    "region": "US",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療",
+    "title": "Medi-Cal請求処理のParadigm Healthcare Servicesで不正アクセス、97万人超の氏名・生年月日・会員IDが閲覧された可能性",
+    "summary": "同社は、2025年10月13日にローカルネットワークへの不正アクセスを把握し、2026年8月18日に個人の医療関連情報を含むファイルを特定したとして、9月14日付で通知を出しました。HHSへの報告では97万人超が対象と報じられています。",
+    "note": "ファイルは2025年10月8日〜15日にアクセスされた可能性があります。対象項目は氏名、生年月日、性別、Medi-Cal会員ID番号です。攻撃者の特定、侵入経路、データの持ち出しの有無は公表されておらず、97万人超はHHS報告に基づく報道上の数値です（同社告知自体は件数を記載していません）。",
+    "affected": [
+      {
+        "count": 970000,
+        "unit": "people",
+        "description": "HHSに報告されたMedi-Cal会員等の対象者数（97万人超）",
+        "source_id": "paradigm-healthcare-2026-2"
+      }
+    ],
+    "sources": [
+      "paradigm-healthcare-2026-1",
+      "paradigm-healthcare-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "同社公式告知とSecurityWeekの本文を確認。日付・対象項目は公式告知、97万人超はSecurityWeekが報じたHHS報告値。"
+  },
+  {
+    "id": "joshin-2026",
+    "published_at": "2026-10-17",
+    "occurred_at": null,
+    "company": "Joshin",
+    "service": "同社ネットワーク（一部サービス）",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "業務障害・調査中",
+    "category": "EC・小売",
+    "title": "家電量販のJoshinが不正アクセスで一部サービス停止、個人情報漏えいの可能性は否定できず",
+    "summary": "同社は10月17日、ネットワークが第三者による不正アクセスを受け、一部サービスを提供できない状態になっていると発表しました。10月16日に不正アクセスを認識し、外部からのアクセスを制限しています。",
+    "note": "外部専門機関と調査中で、情報流出の有無は確認中です。現時点で個人情報漏えいの可能性は否定できないとして個人情報保護委員会へ第一報を入れていますが、漏えいは確認されていません。影響サービス名、再開時期、対象件数は公表されていません。",
+    "affected": [],
+    "sources": [
+      "joshin-2026-1",
+      "joshin-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-20",
+    "last_verified_at": "2026-10-20",
+    "verification_note": "同社公式告知PDFの本文（日付・認識日・調査中・漏えい可能性否定できず）を確認し、ITmedia NEWSの本文と突合。"
   }
 ]
