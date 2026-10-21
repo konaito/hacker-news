@@ -5192,5 +5192,12 @@
     "type": "reporting",
     "url": "https://www.fashionsnap.com/article/2026-10-19/h2o-unauthorized-access/",
     "title": "H2Oリテイリング、阪急阪神百貨店の予約サイト等に不正アクセス"
+  },
+  {
+    "id": "nikkei-dev-cloud-2026-3",
+    "publisher": "日経ナショナル ジオグラフィック",
+    "type": "primary",
+    "url": "https://natgeo.nikkeibp.co.jp/atcl/topics/15/271114/101700365/",
+    "title": "【重要なお知らせ】 日本経済新聞社への不正アクセスに伴う当社サービス利用者情報に関するお知らせ"
   }
 ]
