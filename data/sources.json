@@ -5101,5 +5101,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
     "title": "Zeabur shutting down after second security breach in two months"
+  },
+  {
+    "id": "updraft-2026-1",
+    "publisher": "TeamUpdraft",
+    "type": "primary",
+    "url": "https://teamupdraft.com/blog/security-incident-october-2026/",
+    "title": "Security incident October 2026"
+  },
+  {
+    "id": "updraft-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
   }
 ]

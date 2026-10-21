@@ -11388,5 +11388,28 @@
     "first_seen_at": "2026-10-20",
     "last_verified_at": "2026-10-20",
     "verification_note": "Zeabur公式インシデント報告とBleepingComputerの本文を確認し、日付・件数・原因の記述が一致することを照合。"
+  },
+  {
+    "id": "updraft-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": "2026-10-17",
+    "company": "TeamUpdraft",
+    "service": "UpdraftPlus・UpdraftCentral・UpdraftVault・UpdraftClone",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "UpdraftPlus開発元の顧客DBに侵入、接続キーが悪用されWordPressサイトにバックドア",
+    "summary": "TeamUpdraftは10月17〜18日に公式サイトへの不正アクセスを確認し、顧客データベース(氏名・メール・請求先・注文履歴・パスワードハッシュ・2FA設定・各サービスの接続キー)が閲覧されたとみられると公表しました。BleepingComputerによると、Patchstackは18日から盗まれた接続キーで管理者アカウント追加や悪意あるプラグイン設置が行われたと報告しています。",
+    "note": "影響を受けた顧客数・サイト数は公式に示されていません。約40万サイトが潜在的に影響という数値はBleepingComputerが紹介した推計で、確認済みの被害数ではありません。カード情報は保存していないと同社は説明しています。バックドア設置の件数(99件以上)はPatchstackの観測値です。",
+    "affected": [],
+    "sources": [
+      "updraft-2026-1",
+      "updraft-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "TeamUpdraft公式インシデント報告とBleepingComputerの本文を確認し、日付・閲覧された情報の種類・対応が一致することを照合。"
   }
 ]
