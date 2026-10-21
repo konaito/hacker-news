@@ -5241,5 +5241,19 @@
     "type": "reporting",
     "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119020/",
     "title": "岩井コスモ証券、委託先トレードワークスへの不正アクセスによる個人情報流出"
+  },
+  {
+    "id": "onamae-desktop-cloud-2026-1",
+    "publisher": "GMOインターネット(お名前.com)",
+    "type": "primary",
+    "url": "https://www.onamae.com/news/article/11584",
+    "title": "お名前.com デスクトップクラウドにおける不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "onamae-desktop-cloud-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected"
   }
 ]
