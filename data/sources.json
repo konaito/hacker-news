@@ -5115,5 +5115,40 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
     "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
+  },
+  {
+    "id": "ovhcloud-cli-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets"
+  },
+  {
+    "id": "ovhcloud-cli-2026-2",
+    "publisher": "The Stack",
+    "type": "reporting",
+    "url": "https://www.thestack.technology/ovhcloud-cli-repo-compromised-customer-reports-incident/",
+    "title": "OVHcloud CLI repo compromised, customer reports incident"
+  },
+  {
+    "id": "ovhcloud-cli-2026-3",
+    "publisher": "OpenSourceMalware",
+    "type": "reporting",
+    "url": "https://opensourcemalware.com/blog/glassworm-hacks-ovh-clouds-cli-tool",
+    "title": "GlassWorm hacks OVH Cloud's CLI tool"
+  },
+  {
+    "id": "firstvds-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+    "title": "Hackers steal customer data from major Russian hosting provider FirstVDS"
+  },
+  {
+    "id": "firstvds-2026-2",
+    "publisher": "SecurityLab.ru",
+    "type": "reporting",
+    "url": "https://www.securitylab.ru/news/578930.php",
+    "title": "Хакеры добрались до серверов FirstVDS. Под угрозой криптокошельки и облачные аккаунты"
   }
 ]

@@ -11411,5 +11411,52 @@
     "first_seen_at": "2026-10-21",
     "last_verified_at": "2026-10-21",
     "verification_note": "TeamUpdraft公式インシデント報告とBleepingComputerの本文を確認し、日付・閲覧された情報の種類・対応が一致することを照合。"
+  },
+  {
+    "id": "ovhcloud-cli-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": "2026-10-19",
+    "company": "OVHcloud",
+    "service": "OVHcloud CLI(GitHub配布版)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "OVHcloudのCLI配布物が開発者のGitHubアカウント乗っ取りで改ざん、ディスク上の秘密情報を狙うバイナリが混入",
+    "summary": "OVHcloudのOctave Klaba CEOは、開発者のGitHubアカウントが悪用され、公式CLIの既存リリースにディスク上の秘密情報を取得するバイナリが追加されたと説明しました。影響版はv0.11.0〜v0.15.0とされ、顧客の指摘後に差し替えファイルが削除され、クリーンなv0.16.0が公開されました。",
+    "note": "被害を受けた利用者数や実際の秘密情報の窃取は公表されていません。差し替えバイナリは回収前に削除され、挙動は未検証です。OpenSourceMalwareはGlassWormとの関連を推測していますが、確定情報ではありません。影響版の範囲はメディアにより記述が異なり(v0.13.0〜v0.15.0のみ確認との指摘あり)、時刻の表記もUTCと現地で食い違うため記載していません。一次発表はX投稿で本文を確認できていません。",
+    "affected": [],
+    "sources": [
+      "ovhcloud-cli-2026-1",
+      "ovhcloud-cli-2026-2",
+      "ovhcloud-cli-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "BleepingComputer、The Stack、OpenSourceMalwareの本文を確認し、影響版・原因・OVHcloudの対応が一致することを照合。OVHcloud CEOのX投稿は本文を取得できず、報道経由の引用として扱った。"
+  },
+  {
+    "id": "firstvds-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-17",
+    "company": "FirstVDS",
+    "service": "VPS・クラウドホスティング(VMmanager 6)",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "IT・クラウド",
+    "title": "ロシアのホスティング事業者FirstVDSで仮想化管理基盤の脆弱性が悪用され、顧客サーバーのパスワードや認証情報が外部へ送信",
+    "summary": "FirstVDSは10月17日に一部インフラが侵害されたと公表しました。ISPsystem製VMmanager 6の脆弱性が悪用され、顧客の仮想サーバーのディスクが読み取り専用で複製されて外部サーバーへ送られ、パスワードやクラウド認証情報、設定ファイル等が盗まれた可能性があるとして、通知を受けた顧客には秘密情報の変更を求めています。",
+    "note": "影響を受けた顧客数・サーバー数、流出データ量、侵入経路、CVEは公表されていません。「暗号資産ウォレット等も対象」とする記述は盗まれた可能性のある情報の列挙で、個別の被害確認ではありません。ベンダーの暫定修正後も完全な修正は未了で、一部機能が制限されています。",
+    "affected": [],
+    "sources": [
+      "firstvds-2026-1",
+      "firstvds-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "The RecordとSecurityLab.ruの本文を確認し、日付・手口・盗まれた情報の種類・対応が一致することを照合。FirstVDS自身の発表ページは未確認。"
   }
 ]
