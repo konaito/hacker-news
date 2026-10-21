@@ -5199,5 +5199,47 @@
     "type": "primary",
     "url": "https://natgeo.nikkeibp.co.jp/atcl/topics/15/271114/101700365/",
     "title": "【重要なお知らせ】 日本経済新聞社への不正アクセスに伴う当社サービス利用者情報に関するお知らせ"
+  },
+  {
+    "id": "recruit-carsensor-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002456/",
+    "title": "「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか 問い合わせ客の氏名・住所など"
+  },
+  {
+    "id": "recruit-carsensor-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261021de62694",
+    "title": "リクルート 「カーセンサーnet」などに不正アクセス 最大約370万件の個人情報漏えいか"
+  },
+  {
+    "id": "recruit-carsensor-2026-3",
+    "publisher": "FNNプライムオンライン(ライブドアニュース)",
+    "type": "reporting",
+    "url": "https://news.livedoor.com/article/detail/32620078/",
+    "title": "リクルート「カーセンサーnet」など最大約371万件の個人情報漏えいか 不正アクセス クレカ情報など含まれず"
+  },
+  {
+    "id": "recruit-carsensor-2026-4",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002354/",
+    "title": "カーセンサーnetが関連全サービスを一時停止"
+  },
+  {
+    "id": "iwai-cosmo-tradeworks-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191717",
+    "title": "個人情報流出が判明、意図しない売買も - 岩井コスモ証券"
+  },
+  {
+    "id": "iwai-cosmo-tradeworks-2026-2",
+    "publisher": "innovatopia",
+    "type": "reporting",
+    "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119020/",
+    "title": "岩井コスモ証券、委託先トレードワークスへの不正アクセスによる個人情報流出"
   }
 ]

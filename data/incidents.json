@@ -11521,5 +11521,60 @@
     "first_seen_at": "2026-10-21",
     "last_verified_at": "2026-10-21",
     "verification_note": "ITmedia NEWS、共同通信配信の熊本日日新聞、FASHIONSNAPの本文で、日付・件数・手口・漏えい項目・対応が一致することを確認。H2Oの公式PDFは本文を読めず未確認。"
+  },
+  {
+    "id": "recruit-carsensor-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": null,
+    "company": "リクルート",
+    "service": "カーセンサーnet・カーセンサーアプリ・C-MATCH",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "リクルートの「カーセンサーnet」「C-MATCH」に不正アクセス、最大約371万件の個人情報が漏えいした可能性",
+    "summary": "リクルートは10月21日、中古車情報サイト「カーセンサーnet」と販売店向け業務支援サービス「C-MATCH」の関連システムへの外部からの不正アクセスにより、個人情報が最大3,709,551件漏えいした可能性があると公表しました。10月17日に不審なアクセスを検知し、同日17時ごろから関連サービスを全て停止しています。内訳は問い合わせ利用者3,210,421件、販売店483,168件、従業員・委託先等10,673件、口コミ投稿者5,289件で、利用者は氏名・住所が大半です。パスワードと決済情報は含まれないとされ、個人情報保護委員会へ報告済みです。",
+    "note": "件数は漏えいの可能性がある最大値(件数単位)で、人数ではなく、流出の確定でもありません。個人事業主の販売店は事業所住所や引落口座情報を含む可能性があります。原因・範囲は調査中で、二次被害は確認されていません。リクルート公式発表は取得できず(HTTP 403)、ITmedia内で引用された内訳をNHK・FNNの報道と照合しました。",
+    "affected": [
+      {
+        "count": 3709551,
+        "unit": "records",
+        "description": "漏えいの可能性がある個人情報の最大件数(利用者・販売店・従業員等の合算、報道が伝える公式発表値)",
+        "source_id": "recruit-carsensor-2026-1"
+      }
+    ],
+    "sources": [
+      "recruit-carsensor-2026-1",
+      "recruit-carsensor-2026-2",
+      "recruit-carsensor-2026-3",
+      "recruit-carsensor-2026-4"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "ITmedia NEWS、NHK、FNN(ライブドア配信)の本文で、発表日・検知日・最大約371万件・クレカ情報とパスワード非該当が一致することを確認。内訳の詳細はITmedia本文のみ。公式プレスリリースは403で本文未確認。"
+  },
+  {
+    "id": "iwai-cosmo-tradeworks-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": null,
+    "company": "岩井コスモ証券(委託先:トレードワークス)",
+    "service": "インターネット取引システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "金融",
+    "title": "岩井コスモ証券のネット取引システムで委託先トレードワークスが侵害、氏名・メールアドレス流出の可能性",
+    "summary": "岩井コスモ証券は10月14日、インターネット取引システムの運用保守を委託するトレードワークスのシステムが第三者に侵害されたことを確認しました。氏名やメールアドレスなどが流出した可能性があり、口座ログインや不正取引につながる情報は含まれないと説明しています。Security NEXTは10月21日、同社が意図しない取引や取引管理システムへの別の攻撃も確認したと伝えています。",
+    "note": "件数は報道間で異なります(10月16日発表を伝える記事は4,611人、10月21日のSecurity NEXTは4,975件)ため、件数は確定せず掲載しません。意図しない取引と侵害の関係、原因は報道本文では不明です。",
+    "affected": [],
+    "sources": [
+      "iwai-cosmo-tradeworks-2026-1",
+      "iwai-cosmo-tradeworks-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "Security NEXT(10月21日)とinnovatopia(10月16日発表の要約)の本文で、10月14日検知・委託先侵害・氏名とメールアドレスを確認。件数と意図しない取引の記載は2記事で差があり、一次発表は未確認のため件数は掲載しない。"
   }
 ]
