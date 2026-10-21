@@ -11458,5 +11458,67 @@
     "first_seen_at": "2026-10-21",
     "last_verified_at": "2026-10-21",
     "verification_note": "The RecordとSecurityLab.ruの本文を確認し、日付・手口・盗まれた情報の種類・対応が一致することを照合。FirstVDS自身の発表ページは未確認。"
+  },
+  {
+    "id": "trustbank-furusato-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-17",
+    "company": "トラストバンク",
+    "service": "ふるさとチョイス",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "EC・Web",
+    "title": "ふるさと納税サイト「ふるさとチョイス」に不正アクセス、会員情報445万件が流出、サービス停止",
+    "summary": "運営するトラストバンクは、10月17日に第三者による不正アクセスがあり、会員情報が外部に流出したと10月20日に公表しました。10月19日に異常なアクセスを把握して関連サービスを停止し、個人情報保護委員会へ報告済みです。流出した情報は氏名、メールアドレス、住所、電話番号、ハッシュ化されたパスワード、控除額の推定値とされています。",
+    "note": "件数は4,454,097件の会員情報(レコード)で、人数ではなく、調査で変動する可能性があると公表されています。原因・侵入経路は調査中で、サービスの再開時期は未定です。",
+    "affected": [
+      {
+        "count": 4454097,
+        "unit": "records",
+        "description": "流出した会員情報(暫定、会員レコード数)",
+        "source_id": "trustbank-furusato-2026-1"
+      }
+    ],
+    "sources": [
+      "trustbank-furusato-2026-1",
+      "trustbank-furusato-2026-2",
+      "trustbank-furusato-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "トラストバンクの公式発表本文で日時・件数・情報項目・対応を確認し、Security NEXTの本文と一致。NHKの本文は不正アクセスの疑いとサービス停止の確認のみで、漏えい件数は裏付けていない。"
+  },
+  {
+    "id": "h2o-hankyu-hanshin-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-16",
+    "company": "エイチ・ツー・オー リテイリング(阪急阪神百貨店)",
+    "service": "阪急阪神百貨店予約サイト・H2O ID",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "小売・EC",
+    "title": "阪急阪神百貨店の予約サイトに不正アクセス、共通ID「H2O ID」の個人情報約126万件が漏えい、通販サイトも停止",
+    "summary": "エイチ・ツー・オー リテイリングは10月19日、子会社の阪急阪神百貨店の予約サイト経由で顧客管理システムに不正アクセスがあり、共通ID「H2O ID」会員の個人情報が漏えいしたと公表しました。10月16日に不正アクセスを確認して予約サイトを停止し、17日には通販サイトHANKYU HANSHIN E-STORESとRemo Orderでも不正アクセスを確認して停止しています。漏えいしたのは氏名、住所、電話番号、メールアドレス、生年月日などで、ほぼ全会員が対象とされています。個人情報保護委員会と警察へ届出済みです。",
+    "note": "約126万件は報道が伝える個人情報の件数で、人数とは限りません。通販サイト側の注文履歴やカード情報の一部(下4桁等)が漏えいした可能性は調査中で、カード番号全桁とセキュリティコードは保有していないとされています。二次被害は確認されていません。公式発表(PDF)の本文は取得できず、報道本文で確認しています。",
+    "affected": [
+      {
+        "count": 1260000,
+        "unit": "records",
+        "description": "漏えいした個人情報の件数(約126万件、H2O ID関連、報道)",
+        "source_id": "h2o-hankyu-hanshin-2026-1"
+      }
+    ],
+    "sources": [
+      "h2o-hankyu-hanshin-2026-1",
+      "h2o-hankyu-hanshin-2026-2",
+      "h2o-hankyu-hanshin-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "verification_note": "ITmedia NEWS、共同通信配信の熊本日日新聞、FASHIONSNAPの本文で、日付・件数・手口・漏えい項目・対応が一致することを確認。H2Oの公式PDFは本文を読めず未確認。"
   }
 ]

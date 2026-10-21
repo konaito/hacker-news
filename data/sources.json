@@ -5150,5 +5150,47 @@
     "type": "reporting",
     "url": "https://www.securitylab.ru/news/578930.php",
     "title": "Хакеры добрались до серверов FirstVDS. Под угрозой криптокошельки и облачные аккаунты"
+  },
+  {
+    "id": "trustbank-furusato-2026-1",
+    "publisher": "トラストバンク",
+    "type": "primary",
+    "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+    "title": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ"
+  },
+  {
+    "id": "trustbank-furusato-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191714",
+    "title": "「ふるさとチョイス」に不正アクセス - 会員情報が流出"
+  },
+  {
+    "id": "trustbank-furusato-2026-3",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261019de61781",
+    "title": "「ふるさとチョイス」不正アクセスの疑い 運営会社がサービス一時停止"
+  },
+  {
+    "id": "h2o-hankyu-hanshin-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002398/",
+    "title": "阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい 約126万件 予約サイトに不正アクセス"
+  },
+  {
+    "id": "h2o-hankyu-hanshin-2026-2",
+    "publisher": "熊本日日新聞(共同通信)",
+    "type": "reporting",
+    "url": "https://kumanichi.com/articles/2048163",
+    "title": "H2Oのシステムに不正アクセス 顧客126万件の個人情報漏えい"
+  },
+  {
+    "id": "h2o-hankyu-hanshin-2026-3",
+    "publisher": "FASHIONSNAP",
+    "type": "reporting",
+    "url": "https://www.fashionsnap.com/article/2026-10-19/h2o-unauthorized-access/",
+    "title": "H2Oリテイリング、阪急阪神百貨店の予約サイト等に不正アクセス"
   }
 ]
