@@ -5311,5 +5311,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html",
     "title": "Z会「Z-IDシステム」に不正ログイン、計13件のパスワード変更が判明"
+  },
+  {
+    "id": "capcom-capcom-id-2026-1",
+    "publisher": "カプコン",
+    "type": "primary",
+    "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+    "title": "CAPCOM IDへの不正アクセスによるお客様情報漏えいのお知らせ"
+  },
+  {
+    "id": "capcom-capcom-id-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+    "title": "Capcom confirms data breach affecting 11.7 million accounts"
+  },
+  {
+    "id": "fujitv-promo-system-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002449/",
+    "title": "フジテレビ番組宣伝システムへの不正アクセス(最大730件)"
+  },
+  {
+    "id": "fujitv-promo-system-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191719",
+    "title": "番組宣伝システムでメディア関係者情報が流出か - フジテレビ"
   }
 ]

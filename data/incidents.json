@@ -1,5 +1,71 @@
 [
   {
+    "id": "fujitv-promo-system-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-19",
+    "company": "フジテレビジョン",
+    "service": "番組宣伝システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "メディア",
+    "title": "フジテレビの番組宣伝システムに不正アクセス、メディア関係者情報最大730件が流出の可能性",
+    "summary": "フジテレビは10月20日、番組宣伝システムへの第三者による不正アクセスを10月19日夜に確認したと発表しました。メディア関係者の氏名・会社名・メールアドレス最大730件が流出した可能性があります。",
+    "note": "不正アクセスは確認済みですが、情報流出は可能性の段階で、範囲は調査中です。件数は10月20日時点の最大値(件)で人数ではありません。視聴者の個人情報は登録されていないとしています。同社は当該システムの利用を停止しました。公式発表本文は未確認で、報道2媒体(ITmedia NEWS、Security NEXT)の本文に基づきます。",
+    "affected": [
+      {
+        "count": 730,
+        "unit": "records",
+        "description": "流出した可能性のあるメディア関係者情報(10月20日時点の最大件数)",
+        "source_id": "fujitv-promo-system-2026-2"
+      }
+    ],
+    "sources": [
+      "fujitv-promo-system-2026-1",
+      "fujitv-promo-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-22",
+    "last_verified_at": "2026-10-22",
+    "verification_note": "ITmedia NEWSとSecurity NEXTの本文を確認し、日付・項目・最大730件・視聴者情報なし・利用停止が一致。フジテレビ公式本文は未確認のため、確認済みの範囲に限定。"
+  },
+  {
+    "id": "capcom-capcom-id-2026",
+    "published_at": "2026-10-22",
+    "occurred_at": "2026-10-19",
+    "company": "カプコン",
+    "service": "CAPCOM ID",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "エンタメ",
+    "title": "CAPCOM IDへの不正アクセスで1,177万件超のアカウント情報が流出",
+    "summary": "カプコンは10月22日、CAPCOM IDへの不正アクセスで顧客情報が外部に流出したと公表しました。メールアドレスと利用履歴情報が11,774,247アカウント分、うち43件は生年月日等も対象です。",
+    "note": "10月19日に不審な痕跡を確認し遮断、20日に漏えいを確認、21日に警察と個人情報保護委員会へ報告。196件でパスワードの不正変更があり再設定済み。パスワード自体の流出やクレジットカード情報の流出はないとしています。件数はアカウント単位で人数ではありません。侵入経路の詳細は非公表で、調査は継続中です。",
+    "affected": [
+      {
+        "count": 11774247,
+        "unit": "accounts",
+        "description": "メールアドレスとアカウント作成日・最終ログイン情報等が流出したCAPCOM IDアカウント",
+        "source_id": "capcom-capcom-id-2026-1"
+      },
+      {
+        "count": 43,
+        "unit": "accounts",
+        "description": "上記のうち生年月日・性別・国/地域・ニックネームも流出したアカウント",
+        "source_id": "capcom-capcom-id-2026-1"
+      }
+    ],
+    "sources": [
+      "capcom-capcom-id-2026-1",
+      "capcom-capcom-id-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-22",
+    "last_verified_at": "2026-10-22",
+    "verification_note": "カプコン公式発表本文(時系列、件数、項目、対応)とBleepingComputer本文を確認し、件数・日付が一致。侵入経路は公表されておらず補っていない。"
+  },
+  {
     "id": "fortimail-exploitation-2026",
     "published_at": "2026-10-01",
     "occurred_at": null,
