@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-22T05:24:25.727825+00:00",
+  "completed_at": "2026-10-22T07:31:55.812690+00:00",
   "candidates": [
     {
       "title": "Aon plcへのTermiteの被害主張",
@@ -605,11 +605,11 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "39727506500",
-    "completed_at": "2026-10-22T05:24:25.727825+00:00",
-    "result": "success",
-    "error": null,
+    "mode": "fresh",
+    "run_id": "39741054634",
+    "completed_at": "2026-10-22T07:31:55.812690+00:00",
+    "result": "failure",
+    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/fresh/current-report.json",
     "main_sha": "1f596710309ba622f71414df1ac43ec82b573415"
   }
 }
