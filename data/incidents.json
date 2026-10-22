@@ -10888,17 +10888,19 @@
     "category": "IT・クラウド",
     "title": "ConnectWise Cloud Backupのアプリ認証情報が悪用され、Microsoft 365の少なくとも162テナントで不正サインインを確認",
     "summary": "ConnectWiseは10月17日、Cloud Backup環境のアプリケーションID（サービスプリンシパル）への不正アクセスを確認したとして、同サービスのアプリアクセスを停止しました。Huntressは10月16日19:00 UTC時点で162テナントの不正サインインを確認したと報告しています。",
-    "note": "発生日は、Huntressが不審なサインインを確認した10月15日（ConnectWiseの発表は10月16日）。Huntressは10月13〜14日にも同一IPからの別のパスワードスプレー試行を観測しています。データ窃取は未確認で、ConnectWiseはバックアップデータが侵害された兆候はないと説明しています。162はHuntressが確認した範囲の下限で、全体の被害テナント数は不明です。",
+    "note": "発生日は、Huntressが不審なサインインを確認した10月15日（ConnectWiseの発表は10月16日）。Huntressは10月13〜14日にも同一IPからの別のパスワードスプレー試行を観測しています。データ窃取は未確認で、ConnectWiseはバックアップデータが侵害された兆候はないと説明しています。162はHuntressが確認した範囲の下限で、全体の被害テナント数は不明です。 Microsoftは10月21日、Storm-0940（中国政府系と評価）の関与を評価し、ARTEX（オープンソースのAI侵入テスト基盤）の使用を示唆しています。ARTEX使用の検証方法は本文で詳述されず、MicrosoftはConnectWise関連で2,250超のテナントに活動が及んだとする一方、認証成功だけではデータアクセスや持ち出しの確認にならないとしています。",
     "affected": [],
     "sources": [
       "connectwise-cloud-backup-m365-2026-1",
       "connectwise-cloud-backup-m365-2026-2",
-      "connectwise-cloud-backup-m365-2026-3"
+      "connectwise-cloud-backup-m365-2026-3",
+      "connectwise-cloud-backup-m365-2026-4",
+      "connectwise-cloud-backup-m365-2026-5"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-17",
-    "last_verified_at": "2026-10-17",
-    "verification_note": "ConnectWise公式アドバイザリー、Huntress、BleepingComputerの本文を確認。アプリID不正アクセスと停止措置は公式、162テナントと攻撃タイムラインはHuntress。Todylは403で本文未確認のため出典に含めない。"
+    "last_verified_at": "2026-10-22",
+    "verification_note": "ConnectWise公式アドバイザリー、Huntress、BleepingComputerの本文を確認。アプリID不正アクセスと停止措置は公式、162テナントと攻撃タイムラインはHuntress。Todylは403で本文未確認のため出典に含めない。 10月22日にMicrosoft公式ブログとThe Record本文を確認し、Storm-0940への帰属評価（評価であり確定ではない）と2,250超テナントの範囲を追記。"
   },
   {
     "id": "nihon-university-cst-email-2026",
@@ -11651,5 +11653,57 @@
     "first_seen_at": "2026-10-22",
     "last_verified_at": "2026-10-22",
     "verification_note": "エストニア政府機関RIAの月次概況本文で、9月11日の検知・影響データ種別・未修正の脆弱性・サイト停止を確認。"
+  },
+  {
+    "occurred_at": null,
+    "publication_status": "published",
+    "first_seen_at": "2026-10-22",
+    "last_verified_at": "2026-10-22",
+    "id": "korea-finance-artex-2026",
+    "published_at": "2026-10-08",
+    "company": "韓国の金融機関（複数、名称非公表）",
+    "service": "融資進捗照会サービス、従業員向けモバイル業務支援システムなど",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "金融",
+    "title": "AI侵入テスト基盤ARTEXを使った攻撃で韓国の金融機関から情報が持ち出される、CrowdStrikeが調査",
+    "summary": "CrowdStrikeは、9月下旬から10月初めにかけて韓国の金融機関を標的とした攻撃で、ARTEXとLLMを併用した攻撃者によりデータが持ち出されたと報告しました。攻撃者の公開ディレクトリにはClaude Codeのセッション履歴やARTEX設定ファイルが残っていたとされます。",
+    "note": "CrowdStrikeは持ち出しを確認したとしますが、データの種類・量・被害組織数は本文にありません。融資進捗照会サービスと従業員向け業務支援システムへの侵入は『業界報道によれば』という伝聞で、CrowdStrike自身の確認範囲とは区別しています。攻撃者は金融目的の中国語話者と中程度の確度で評価され、特定されていません。AI関与はCrowdStrikeが確認した攻撃者側ツールの痕跡に基づきます。被害を受けた金融機関側の一次発表は未確認です。公開日の10月8日はReutersの報道日を参考にした暫定値で、CrowdStrike記事の公開日は本文から確認できていません。",
+    "affected": [],
+    "sources": [
+      "korea-finance-artex-2026-1"
+    ],
+    "verification_note": "CrowdStrike本文で、データ持ち出しを伴う攻撃、ARTEXとLLM使用の痕跡（Claude Codeセッション履歴等）、中程度の確度での攻撃者評価を確認。被害組織名と数量は未記載。"
+  },
+  {
+    "occurred_at": "2026-10-15",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-22",
+    "last_verified_at": "2026-10-22",
+    "id": "zkai-z-id-2026",
+    "published_at": "2026-10-19",
+    "company": "Z会",
+    "service": "Z-IDシステム（Z会グループ共通ログイン）",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育",
+    "title": "Z会のZ-IDシステムで不正ログイン、13アカウントのパスワードが不正に変更され氏名・メールアドレスが閲覧された可能性",
+    "summary": "Z会は10月19日、Z-IDのパスワード変更機能で10月15日未明に13件の通常と異なる連続変更があり、第三者がパスワードを不正にリセットしたと発表しました。対象アカウントの氏名、メールアドレス、Z-IDが閲覧された可能性があります。",
+    "note": "発生日は10月15日。同社はサーバーやデータベースへの直接侵入や情報の外部持ち出しは確認していません。対象アカウントは一時停止され、10月20日にパスワード再設定機能は再開されました。他の情報の閲覧は未確認で調査中です。",
+    "affected": [
+      {
+        "count": 13,
+        "unit": "accounts",
+        "description": "パスワードが不正に変更されたZ-IDアカウント数。",
+        "source_id": "zkai-z-id-2026-1"
+      }
+    ],
+    "sources": [
+      "zkai-z-id-2026-1",
+      "zkai-z-id-2026-2"
+    ],
+    "verification_note": "Z会の第一報本文（10月19日、10月20日更新）で13件・閲覧可能性のある情報・直接侵入なしを確認。ScanNetSecurityも同内容。"
   }
 ]

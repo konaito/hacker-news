@@ -5276,5 +5276,40 @@
     "type": "primary",
     "url": "https://ria.ee/en/situation-cyberspace-september-2026",
     "title": "Situation in cyberspace: September 2026"
+  },
+  {
+    "id": "connectwise-cloud-backup-m365-2026-4",
+    "publisher": "Microsoft Security Blog",
+    "type": "primary",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "title": "Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise"
+  },
+  {
+    "id": "connectwise-cloud-backup-m365-2026-5",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/china-cyber-connectwise-ai",
+    "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents"
+  },
+  {
+    "id": "korea-finance-artex-2026-1",
+    "publisher": "CrowdStrike",
+    "type": "primary",
+    "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+    "title": "Unknown threat actor uses ARTEX to target South Korean finance"
+  },
+  {
+    "id": "zkai-z-id-2026-1",
+    "publisher": "Z会",
+    "type": "primary",
+    "url": "https://www.zkai.co.jp/post-120678/",
+    "title": "Z-IDシステムへの不正ログインについて（第一報）"
+  },
+  {
+    "id": "zkai-z-id-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html",
+    "title": "Z会「Z-IDシステム」に不正ログイン、計13件のパスワード変更が判明"
   }
 ]
