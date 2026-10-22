@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-22T12:26:05.108094+00:00",
+  "completed_at": "2026-10-22T13:47:05.191176+00:00",
   "candidates": [
     {
       "title": "Aon plcへのTermiteの被害主張",
@@ -211,38 +211,6 @@
       "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は再取得せず未確認のまま持越し。"
     },
     {
-      "title": "Radford市のデータ事件疑い",
-      "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は再取得せず未確認のまま持越し。"
-    },
-    {
-      "title": "Angel Oneの2023年事件に関するHIBP登録",
-      "url": "https://haveibeenpwned.com/breach/angelone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は再取得せず。2023年の過去事件で対象期間の新事実は未確認のまま持越し。"
-    },
-    {
-      "title": "CyrusOne由来公開データのHIBP登録",
-      "url": "https://haveibeenpwned.com/breach/cyrusone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: HIBP本文を再取得。2026年8月にShinyHuntersが恐喝後公開、約37.35万アドレスが10/7追加。企業の確認・独立報道は未確認でHIBP単独のため未掲載。"
-    },
-    {
-      "title": "Neogen由来公開データのHIBP登録",
-      "url": "https://haveibeenpwned.com/breach/neogen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は再取得せず未確認のまま持越し。"
-    },
-    {
       "title": "Studio社クラウド不正アクセス(岐阜県イベント関連情報)",
       "url": "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html",
       "priority": "high",
@@ -265,30 +233,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 一覧の要約のみ。既存のarcadia系レコードとの関係は本文未確認のため持越し。"
-    },
-    {
-      "title": "Policlinico Triestinoのサイバー攻撃報道",
-      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 再取得で接続エラー(socket hang up)、本文未確認。次回へ持越し。"
-    },
-    {
-      "title": "S-QUE eラーニングのパートナー侵害",
-      "url": "https://s-que.net/news/20261008/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は再取得せず前回判断(HTTP 404)を維持。未検証のまま持越し。"
-    },
-    {
-      "title": "電子書籍販売サイト「Renta！」への不正アクセスの可能性",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: ScanNetSecurityは503。検索では10/18停止とパピレス適時開示の二次情報のみ。公式本文(papyless.co.jpは名前解決失敗)と独立2媒体の本文は未確認。持越し。"
     },
     {
       "title": "BLACK XによるBayer等の未確認主張",
@@ -379,70 +323,6 @@
       "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は本文を再取得しておらず持越し。攻撃者の主張であり事実とは扱わない。"
     },
     {
-      "title": "Z会「Z-IDシステム」への不正ログイン",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 既存レコードに該当なし。ScanNetSecurity一覧の見出しのみ確認し、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "日本郵政「ゆうゆうポイントサイト」の緊急サービス停止",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 既存レコードに該当なし。ScanNetSecurity一覧の見出しのみ確認し、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "エネルギー・金属鉱物資源機構への不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56535.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 既存レコードに該当なし。ScanNetSecurity一覧の見出しのみ確認し、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "オンライン抽選サービス777CON-PASSへの不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 既存レコードに該当なし。ScanNetSecurity一覧の見出しのみ確認し、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "SafePayランサムウェアの重要インフラ600組織超への被害（CISA/FBI）",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 一覧の見出しのみ確認。既存レコードに該当なしで、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "カリフォルニア州の公立校生徒データが委託先侵害で流出",
-      "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 一覧の見出しのみ確認。既存レコードに該当なしで、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "UpdraftCentralの盗まれた鍵によるWordPressサイトへのバックドア",
-      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 一覧の見出しのみ確認。既存レコードに該当なしで、本文・一次発表は未読のため次回へ持越し。"
-    },
-    {
-      "title": "日本郵政ゆうゆうポイントサイト緊急停止",
-      "url": "https://scan.netsecurity.ne.jp/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認、本文未読のため未検証で持越し。"
-    },
-    {
       "title": "銀のさらへのサイバー攻撃",
       "url": "https://www.security-next.com/",
       "priority": "normal",
@@ -457,6 +337,102 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧の見出しのみ確認、本文未読のため未検証で持越し。グループ全体の統計で個別被害組織なし。"
+    },
+    {
+      "title": "Radford市のデータ事件疑い",
+      "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回も本文を再取得せず未確認のまま持越し。"
+    },
+    {
+      "title": "Angel Oneの2023年事件に関するHIBP登録",
+      "url": "https://haveibeenpwned.com/breach/angelone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回も本文を再取得せず持越し。"
+    },
+    {
+      "title": "Neogen由来公開データのHIBP登録",
+      "url": "https://haveibeenpwned.com/breach/neogen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回も本文を再取得せず持越し。"
+    },
+    {
+      "title": "Policlinico Triestinoのサイバー攻撃報道",
+      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回も本文を再取得せず持越し。"
+    },
+    {
+      "title": "S-QUE eラーニングのパートナー侵害",
+      "url": "https://s-que.net/news/20261008/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回も本文を再取得せず持越し(前回HTTP 404)。"
+    },
+    {
+      "title": "CyrusOne由来公開データのHIBP登録",
+      "url": "https://haveibeenpwned.com/breach/cyrusone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HIBP本文を再取得し、2026年8月のShinyHunters恐喝・10/7登録・約37.35万アドレスを確認。HIBP単独で企業確認・独立報道なしのため未掲載のまま持越し。"
+    },
+    {
+      "title": "日本郵政ゆうゆうポイントサイト緊急停止",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認: 10/16停止、原因・件数の記載なし。日本郵政の一次発表は本文を取得できず、サイバー被害か不明のため未掲載。"
+    },
+    {
+      "title": "電子書店「Renta！」への不正アクセスの可能性",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認: 10/18に不正アクセスの可能性を把握、10/19停止発表、件数・原因なし。パピレスの一次発表(TDnet)は未取得で独立2媒体の本文も未確認のため持越し。"
+    },
+    {
+      "title": "Z会Z-IDシステムへの不正ログイン",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文のみ確認(13アカウントのパスワード変更)。Z会の一次発表は検索で見つからず、報道1媒体のため未掲載。"
+    },
+    {
+      "title": "オンライン抽選サービス777CON-PASSへの不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文のみ確認(サミーネットワークス、10/2発表、件数調査中)。一次発表未取得のため未掲載。"
+    },
+    {
+      "title": "ZonExpert管理のAmazonセラーセントラルアカウント不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文のみ確認。一次発表zonexpert.co.jp/news/298/はHTTP 503で本文未確認のため未掲載。"
+    },
+    {
+      "title": "日本郵政ゆうゆうポイントサイト緊急停止(持越し元)",
+      "url": "https://scan.netsecurity.ne.jp/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity記事56529の本文は確認したが、日本郵政の一次発表は未取得でサイバー被害か不明。未掲載で持越し。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -554,14 +530,14 @@
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-22T12:25:40.479259+00:00",
     "hcuch-imaging-2026": "2026-10-22T05:24:03.752556+00:00",
     "kenya-brs-2026": "2026-10-22T05:24:03.752556+00:00",
-    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-22T12:25:40.479259+00:00",
+    "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-22T13:46:42.470233+00:00",
     "https://www.security-next.com/190739": "2026-10-22T12:25:40.479259+00:00",
     "andover-town-schools-2026": "2026-10-22T05:24:03.752556+00:00",
     "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-22T12:25:40.479259+00:00",
     "https://skyticket.jp/news/maintenance/67603": "2026-10-22T12:25:40.479259+00:00",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-22T12:25:40.479259+00:00",
     "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-22T12:25:40.479259+00:00",
-    "https://s-que.net/news/20261008/": "2026-10-22T12:25:40.479259+00:00",
+    "https://s-que.net/news/20261008/": "2026-10-22T13:46:42.470233+00:00",
     "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/": "2026-10-22T12:25:40.479259+00:00",
     "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-22T12:25:40.479259+00:00",
     "rhyne-industrial-company-2023": "2026-10-22T05:24:03.752556+00:00",
@@ -576,44 +552,41 @@
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-22T12:25:40.479259+00:00",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-22T12:25:40.479259+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-22T12:25:40.479259+00:00",
-    "https://haveibeenpwned.com/breach/neogen": "2026-10-22T12:25:40.479259+00:00",
-    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-22T12:25:40.479259+00:00",
-    "https://haveibeenpwned.com/breach/angelone": "2026-10-22T12:25:40.479259+00:00",
+    "https://haveibeenpwned.com/breach/neogen": "2026-10-22T13:46:42.470233+00:00",
+    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-22T13:46:42.470233+00:00",
+    "https://haveibeenpwned.com/breach/angelone": "2026-10-22T13:46:42.470233+00:00",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-22T12:25:40.479259+00:00",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-22T12:25:40.479259+00:00",
     "coldcard-x-phishing-2026": "2026-10-22T05:24:03.752556+00:00",
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-22T12:25:40.479259+00:00",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-22T12:25:40.479259+00:00",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-22T13:46:42.470233+00:00",
     "senture-fmcsa-2026": "2026-10-22T05:24:03.752556+00:00",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-22T12:25:40.479259+00:00",
-    "https://scan.netsecurity.ne.jp/": "2026-10-22T12:25:40.479259+00:00",
+    "https://scan.netsecurity.ne.jp/": "2026-10-22T13:46:42.470233+00:00",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-22T12:25:40.479259+00:00",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-22T12:25:40.479259+00:00",
     "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/": "2026-10-22T12:25:40.479259+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-10-22T12:25:40.479259+00:00",
     "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-10-22T12:25:40.479259+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html": "2026-10-22T12:25:40.479259+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-10-22T12:25:40.479259+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html": "2026-10-22T13:46:42.470233+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-10-22T13:46:42.470233+00:00",
     "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-10-22T12:25:40.479259+00:00",
     "https://www.itmedia.co.jp/news/article/2610/21/2000002449/": "2026-10-22T12:25:40.479259+00:00",
     "https://www.itmedia.co.jp/news/article/2610/20/2000002435/": "2026-10-22T12:25:40.479259+00:00",
     "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html": "2026-10-22T12:25:40.479259+00:00",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-10-22T12:25:40.479259+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html": "2026-10-22T12:25:40.479259+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56535.html": "2026-10-22T12:25:40.479259+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-10-22T12:25:40.479259+00:00",
-    "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/": "2026-10-22T12:25:40.479259+00:00",
-    "https://therecord.media/california-warns-all-public-school-students-of-data-breach": "2026-10-22T12:25:40.479259+00:00",
-    "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/": "2026-10-22T12:25:40.479259+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56540.html": "2026-10-22T13:46:42.470233+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-10-22T13:46:42.470233+00:00",
     "https://www.security-next.com/": "2026-10-22T12:25:40.479259+00:00",
-    "https://www.bleepingcomputer.com/news/security/": "2026-10-22T12:25:40.479259+00:00"
+    "https://www.bleepingcomputer.com/news/security/": "2026-10-22T12:25:40.479259+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-10-22T13:46:42.470233+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-22T01:31:59.394190+00:00",
-      "summary": "データ変更なし。直近72時間の国内外一覧を確認し、新着の重要事件は大半が既存ID掲載済み。フジテレビ(単一媒体)は未検証のまま持越し。必須再調査8件のうちRenta!・ゆうゆう・skyticket・Kimberly-Clark・Policlinico等は本文を読めず未解決で持越し、Belarus主張は本文確認の上で既存IDに紐づけ。",
-      "run_id": "39705924902",
-      "main_sha": "26d56688775e8715f42a87a81da24c346459b7d0"
+      "completed_at": "2026-10-22T13:46:42.470233+00:00",
+      "summary": "データ変更なし。国内外4一覧を確認し、新着の大半は既存IDと照合済み。新規候補は一次情報を取得できず、deferredで持越し。SNS経路は未実施。",
+      "run_id": "39789604778",
+      "main_sha": "1f596710309ba622f71414df1ac43ec82b573415"
     },
     "historical": {
       "completed_at": "2026-10-22T12:25:40.479259+00:00",
@@ -623,9 +596,9 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "39778036288",
-    "completed_at": "2026-10-22T12:26:05.108094+00:00",
+    "mode": "fresh",
+    "run_id": "39789604778",
+    "completed_at": "2026-10-22T13:47:05.191176+00:00",
     "result": "success",
     "error": null,
     "main_sha": "1f596710309ba622f71414df1ac43ec82b573415"
