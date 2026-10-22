@@ -11599,5 +11599,57 @@
     "first_seen_at": "2026-10-21",
     "last_verified_at": "2026-10-21",
     "verification_note": "GMOインターネットの公式告知本文で不正プログラム設置確認・26,739件・サーバー順次停止・流出未確認を照合し、BleepingComputerの本文でも同内容を確認。"
+  },
+  {
+    "id": "kakogawa-staff-mail-2026",
+    "published_at": "2026-10-13",
+    "occurred_at": null,
+    "company": "加古川市（兵庫県）",
+    "service": "職員メール配信システム（委託事業者運用）",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "行政・公共",
+    "title": "職員メール配信システムの委託事業者に不正アクセス、職員情報約2,200件が漏えいした可能性",
+    "summary": "加古川市は10月13日、職員メール配信システムを運用する委託事業者が外部からの不正アクセスを受けたと公表しました。職員情報約2,200件が外部に漏えいした可能性があるとしています。市民の個人情報の漏えいは確認していないと説明しています。",
+    "note": "約2,200件は職員情報の件数（人数ではない）で、漏えいは可能性の段階です。委託事業者名と侵入経路は市の発表では不明で、他自治体や他事案との関連は確認できていません。防災ネットかこがわは別事業者の運用で影響なしと市が説明しています。",
+    "affected": [
+      {
+        "count": 2200,
+        "unit": "records",
+        "description": "市が漏えいの可能性があるとした職員情報の件数。人数としては扱わない。",
+        "source_id": "kakogawa-staff-mail-2026-1"
+      }
+    ],
+    "sources": [
+      "kakogawa-staff-mail-2026-1",
+      "kakogawa-staff-mail-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-22",
+    "last_verified_at": "2026-10-22",
+    "verification_note": "加古川市の発表本文（10月13日19時時点）で、委託事業者への不正アクセス・職員情報約2,200件の漏えい可能性・市民情報未確認を確認。ScanNetSecurityの本文も同内容。"
+  },
+  {
+    "id": "tartu-ebookstore-2026",
+    "published_at": "2026-09-11",
+    "occurred_at": null,
+    "company": "タルトゥ大学（エストニア）",
+    "service": "電子書店 raamatupood.utlib.ee",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育",
+    "title": "タルトゥ大学の電子書店に侵入、氏名・連絡先・暗号化パスワードなどが影響を受けた可能性",
+    "summary": "エストニアのRIAは、タルトゥ大学が9月11日に電子書店への攻撃者の侵入を検知したと報告しました。氏名、メールアドレス、電話番号、ユーザー名、暗号化されたパスワード、購入履歴やIPアドレスなどが影響を受けた可能性があります。",
+    "note": "9月11日は検知日で、侵入開始日は不明です。侵入経路は初期報告で未修正の脆弱性とされています。大学は電子書店へのアクセスを停止し、清掃と修正後に再開するとしています。影響人数は公表されておらず、データが実際に持ち出されたかは確認していません。RIA月次概況の公開日は本文から確認できておらず、公表日は検知日で代用しています。",
+    "affected": [],
+    "sources": [
+      "tartu-ebookstore-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-22",
+    "last_verified_at": "2026-10-22",
+    "verification_note": "エストニア政府機関RIAの月次概況本文で、9月11日の検知・影響データ種別・未修正の脆弱性・サイト停止を確認。"
   }
 ]

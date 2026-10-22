@@ -5255,5 +5255,26 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
     "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected"
+  },
+  {
+    "id": "kakogawa-staff-mail-2026-1",
+    "publisher": "加古川市",
+    "type": "primary",
+    "url": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/bousai/kikikanrisitsu/sizensaigai/kikikanrikakaranooshirase/51199.html",
+    "title": "職員メール配信システムの委託事業者への不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "kakogawa-staff-mail-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56491.html",
+    "title": "加古川市の職員メール配信システム事業者への不正アクセス"
+  },
+  {
+    "id": "tartu-ebookstore-2026-1",
+    "publisher": "RIA（エストニア情報システム庁）",
+    "type": "primary",
+    "url": "https://ria.ee/en/situation-cyberspace-september-2026",
+    "title": "Situation in cyberspace: September 2026"
   }
 ]
