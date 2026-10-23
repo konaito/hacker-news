@@ -5395,5 +5395,68 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
     "title": "LiteLLM release pipeline hacked to distribute info-stealer malware"
+  },
+  {
+    "id": "mlit-shoene2024-hakuhodo-2026-1",
+    "publisher": "国土交通省",
+    "type": "primary",
+    "url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
+    "title": "住宅省エネ2024キャンペーン事務局システムへの不正アクセスに伴う事業者情報の漏えいの可能性について"
+  },
+  {
+    "id": "mlit-shoene2024-hakuhodo-2026-2",
+    "publisher": "共同通信(熊本日日新聞)",
+    "type": "reporting",
+    "url": "https://kumanichi.com/articles/2048592",
+    "title": "国住宅事業で情報漏えいか 事業者2万3千人超"
+  },
+  {
+    "id": "mlit-shoene2024-hakuhodo-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191780",
+    "title": "キャンペーン事務局のシステムに不正アクセス、個人情報が流出 - 国交省"
+  },
+  {
+    "id": "studio-cloud-2026-1",
+    "publisher": "岐阜県",
+    "type": "primary",
+    "url": "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html",
+    "title": "Studio株式会社のクラウド環境への不正アクセスに伴う個人情報漏えいの可能性について"
+  },
+  {
+    "id": "studio-cloud-2026-2",
+    "publisher": "埼玉県",
+    "type": "primary",
+    "url": "https://www.pref.saitama.lg.jp/a0508/news/page/news2026101603.html",
+    "title": "Studio株式会社で発生した不正アクセスに伴う個人情報漏えいの可能性について"
+  },
+  {
+    "id": "studio-cloud-2026-3",
+    "publisher": "共同通信(熊本日日新聞)",
+    "type": "reporting",
+    "url": "https://kumanichi.com/articles/2048591",
+    "title": "ウェブ制作会社で流出恐れ 不正アクセスで全顧客情報"
+  },
+  {
+    "id": "columbia-sc-2026-1",
+    "publisher": "ABC News 4 (WACH)",
+    "type": "reporting",
+    "url": "https://abcnews4.com/news/state/sled-investigating-security-breach-in-city-of-columbia",
+    "title": "SLED investigating 'suspicious activity' in City of Columbia network"
+  },
+  {
+    "id": "columbia-sc-2026-2",
+    "publisher": "The Record from Recorded Future News",
+    "type": "reporting",
+    "url": "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
+    "title": "South Carolina officials offer assistance after state capital hit with cyberattack"
+  },
+  {
+    "id": "studio-cloud-2026-4",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002543/",
+    "title": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで"
   }
 ]
