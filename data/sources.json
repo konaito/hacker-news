@@ -5472,5 +5472,33 @@
     "type": "reporting",
     "url": "https://therecord.media/quest-diagnostics-network-intrusion",
     "title": "Quest Diagnostics warns of potential data theft after attack on lab service system"
+  },
+  {
+    "id": "digitalarts-cloud-2026-1",
+    "publisher": "デジタルアーツ",
+    "type": "primary",
+    "url": "https://www.daj.jp/webtopics/1354/",
+    "title": "当社への不正アクセスに関するお知らせとお詫び"
+  },
+  {
+    "id": "digitalarts-cloud-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191844",
+    "title": "運用環境に第三者が不正侵入、1年以上前の痕跡も - デジタルアーツ"
+  },
+  {
+    "id": "saferinternet-sakura-2026-1",
+    "publisher": "セーファーインターネット協会",
+    "type": "primary",
+    "url": "https://www.saferinternet.or.jp/info/35403/",
+    "title": "個人情報の漏えいの可能性に関するお詫びとご案内"
+  },
+  {
+    "id": "saferinternet-sakura-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/23/56550.html",
+    "title": "セーファーインターネット協会が利用する「さくらのレンタルサーバ」に不正アクセス"
   }
 ]

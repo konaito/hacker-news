@@ -11968,5 +11968,49 @@
     "first_seen_at": "2026-10-23",
     "last_verified_at": "2026-10-23",
     "verification_note": "SEC提出のForm 8-K本文(10月22日付署名、10月21日に把握、患者記録へのアクセスと調査中の範囲)とThe Record本文(10月22日にシステム停止、紙の依頼書、犯行声明なし)で一致を確認。"
+  },
+  {
+    "id": "digitalarts-cloud-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": null,
+    "company": "デジタルアーツ",
+    "service": "クラウドサービスの運用環境・社内環境",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "クラウドサービス運用環境に不正アクセス、2025年7月ごろからの痕跡と一部顧客情報の閲覧可能性",
+    "summary": "同社は10月21日、クラウドサービスの運用に使う認証情報が第三者に不正取得され、運用環境に侵入されたと発表しました。10月9日の調査で判明し、痕跡は2025年7月ごろまで遡ります。i-FILTER@Cloudなど6サービスの一部顧客情報が閲覧された可能性があります。",
+    "note": "顧客情報の外部への持ち出しは10月21日正午時点で確認されておらず、不正利用や二次被害の報告もありません。影響を受けた顧客数・件数は非公表のためaffectedは空欄です。対象サービスの全利用者に管理者・ユーザーのパスワード変更を求めています。発生日は侵入開始時期が確定していないためnullとし、痕跡の最古は2025年7月ごろです。",
+    "affected": [],
+    "sources": [
+      "digitalarts-cloud-2026-1",
+      "digitalarts-cloud-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23"
+  },
+  {
+    "id": "saferinternet-sakura-2026",
+    "published_at": "2026-10-02",
+    "occurred_at": null,
+    "company": "セーファーインターネット協会",
+    "service": "さくらのレンタルサーバ上の協会サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "利用するレンタルサーバーへの不正アクセスで、通報・問い合わせ内容など個人情報が漏えいした可能性",
+    "summary": "同協会は10月2日、利用するさくらインターネットの「さくらのレンタルサーバ」への不正アクセスにより、氏名、メールアドレス、ホットラインへの通報内容、問い合わせ内容、イベント・研修の申込情報などが第三者に閲覧または取得された可能性があると発表しました。",
+    "note": "第三者による実際の閲覧・取得は確認されておらず、悪用や二次被害も未確認です。影響人数は非公表のためaffectedは空欄です。協会はサーバーとメールの認証情報を変更し、個人情報保護委員会へ報告しています。さくらインターネット側の別件（sakura-2026）との関係は協会の本文では詳述されていません。",
+    "affected": [],
+    "sources": [
+      "saferinternet-sakura-2026-1",
+      "saferinternet-sakura-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23"
   }
 ]
