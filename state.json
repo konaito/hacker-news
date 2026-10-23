@@ -1,63 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-10-23T05:24:12.135261+00:00",
+  "completed_at": "2026-10-23T07:32:27.571616+00:00",
   "candidates": [
-    {
-      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再取得。10月9日の逮捕でFBIは関連を公式確認せず訴状は非公開。企業被害の新事実はなく、捜査続報として持越し。"
-    },
-    {
-      "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
-      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再取得。悪用は限定的で被害サイト数・組織は不明、Patchstack一次情報は未読。脆弱性情報として持越し。"
-    },
-    {
-      "title": "H&Mへの未確認の侵害主張",
-      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再取得。H&Mは侵害の兆候なしと説明、攻撃者の主張のみで未掲載。TFG Londonは既存tfg-london-2026で掲載済み。"
-    },
-    {
-      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
-      "url": "https://www.derp.ca/ransomware/thegentlemen/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ページを再取得したが直近の主張5件にRoyal Thai Air Force・KFCの記載なし。裏付けなしで持越し。"
-    },
-    {
-      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
-      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再取得。原因が示されたのは松本市（外部翻訳サービス障害）のみ。茨城県はクラウド障害と説明、攻撃の証拠なし。"
-    },
-    {
-      "title": "都内自治体でシステム障害相次ぐ 小平市はHP閲覧できず",
-      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再取得。小平市はIDCFとの関連を回答せず、三鷹市・足立区は委託先の障害と説明。攻撃との公式確認なし。IDCF事案はidcf-cloud-2026で追跡。"
-    },
-    {
-      "title": "Domino's利用者アカウントへの不正ログイン",
-      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Malwarebytes本文を再取得。クレデンシャルスタッフィング、ごく少数のアカウント、国は英国と推測。Domino's一次発表へのリンクなし、報道1媒体のため未公開。"
-    },
     {
       "title": "777CON-PASS不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
@@ -97,22 +41,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 本文を再確認: 10月5日、窓口業務縮小、原因は調査中でサイバー攻撃との言及なし。攻撃と確認できずdisruption扱いの一次(区の発表)も未読のため未公開。"
-    },
-    {
-      "title": "栃木県警 Arcadia関連の不正アクセス",
-      "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002435/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 一覧の要約のみ。既存のarcadia系レコードとの関係は本文未確認のため持越し。"
-    },
-    {
-      "title": "Studio社クラウド不正アクセス(岐阜県イベント関連情報)",
-      "url": "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 検索要約のみで本文未取得。未検証のため持越し。"
     },
     {
       "title": "hsc.mb.caに対するINC Ransomの公開主張",
@@ -419,14 +347,6 @@
       "reason": "一覧の見出しのみ確認、本文未読のため未検証で持越し。グループ全体の統計で個別被害組織なし。"
     },
     {
-      "title": "国土交通省 住宅省エネ2024キャンペーン事務局システムへの不正アクセス",
-      "url": "https://www.security-next.com/191780",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文を確認(10/22)。MLIT発表を引用し事業者16,950件・個人情報23,918人分の可能性と報道。MLIT一次発表は未取得、単独媒体のため未掲載、次回優先。"
-    },
-    {
       "title": "セーファーインターネット協会 さくらのレンタルサーバへの不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/23/56550.html",
       "priority": "normal",
@@ -435,20 +355,84 @@
       "reason": "ScanNetSecurity本文を確認。10月2日公表、件数不明。一次発表saferinternet.or.jp/info/35403/は未取得、単独報道のため未掲載。"
     },
     {
-      "title": "Toronto Crime Stoppers等のNavigate360経由の通報データ侵害",
+      "title": "Toronto Crime Stoppersが運用停止(Navigate360/P3の侵害)",
       "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "The Record本文を確認。CBC調査引用で全国150万件超の通報流出、Toronto 176,859件と報道。CBC・DDoSecrets等の本文は未取得で未掲載、次回優先。"
+      "reason": "The Record本文のみ確認。CTV等の過去報道はあるが10月の運用停止の独立確認なし、侵害自体は3月発生。持越し。"
     },
     {
-      "title": "米サウスカロライナ州コロンビア市へのサイバー攻撃",
-      "url": "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
+      "title": "コミックシーモアの流出が最大約420万件に",
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002500/",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "The Record本文を確認。市の複数システム停止、SLED調査、ランサムウェアか不明・犯行声明なし。単独報道のため未掲載で追跡。"
+      "reason": "既存レコードは件数未反映。ITmedia本文は公式第4報を伝えるが、独立2媒体または公式本文を未確認のため更新を見送り。 既存ID comic-cmoa-nttsolmare-2026 への続報(件数更新)として次回再確認。"
+    },
+    {
+      "title": "栃木県警など全職員情報流出か(アルカディア不正アクセス)",
+      "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002435/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認し本文未読。時間不足で次回へ持越し。"
+    },
+    {
+      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再取得。FBIは関連を公式確認せず訴状は非公開、被害企業名なし。捜査続報として持越し。"
+    },
+    {
+      "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
+      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再取得。悪用は限定的、被害サイト数・組織は不明。脆弱性情報として持越し。Patchstack一次情報は未読。"
+    },
+    {
+      "title": "H&Mへの未確認の侵害主張",
+      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索結果でH&Mが侵害の兆候なしと説明、ShinyHunters主張は未検証。検索要約のみで本文は読んでいないため持越し。"
+    },
+    {
+      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
+      "url": "https://www.derp.ca/ransomware/thegentlemen/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ページを再取得、直近の主張5件(10月16〜17日)にRoyal Thai Air Force・KFCの記載なし。裏付けなしで持越し。"
+    },
+    {
+      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再取得。原因は松本市の外部翻訳サービス障害、茨城県はクラウド障害など。攻撃の証拠なし。"
+    },
+    {
+      "title": "都内自治体でシステム障害相次ぐ 小平市はHP閲覧できず",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再取得。小平市はIDCFとの関連を確認せず、三鷹市・足立区は委託先障害と説明。IDCF事案はidcf-cloud-2026で追跡。"
+    },
+    {
+      "title": "Domino's利用者アカウントへの不正ログイン",
+      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は検索要約のみ(本文は再取得せず)。ごく少数アカウント、英国ICOへ報告とされるが独立報道・一次発表の本文は未確認。持越し。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -540,9 +524,9 @@
     "ftapi-2026": "2026-10-23T05:23:49.350825+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-10-23T05:23:49.350825+00:00",
     "tottori-care-provider-email-2026": "2026-10-23T05:23:49.350825+00:00",
-    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-23T07:31:54+00:00",
     "solar-russian-medical-network-2026": "2026-10-23T05:23:49.350825+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-23T07:31:54+00:00",
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-23T05:23:49.350825+00:00",
     "hcuch-imaging-2026": "2026-10-23T05:23:49.350825+00:00",
     "kenya-brs-2026": "2026-10-23T05:23:49.350825+00:00",
@@ -551,13 +535,13 @@
     "andover-town-schools-2026": "2026-10-23T05:23:49.350825+00:00",
     "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms": "2026-10-23T05:23:49.350825+00:00",
     "https://skyticket.jp/news/maintenance/67603": "2026-10-23T01:31:29Z",
-    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-23T07:31:54+00:00",
     "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-22T21:57:05+00:00",
     "https://s-que.net/news/20261008/": "2026-10-23T01:31:29Z",
-    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-23T07:31:54+00:00",
     "rhyne-industrial-company-2023": "2026-10-23T05:23:49.350825+00:00",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-22T21:57:05+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-23T07:31:54+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-23T01:31:29Z",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-22T21:57:05+00:00",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-22T21:57:05+00:00",
@@ -565,7 +549,7 @@
     "https://www.security-next.com/190136": "2026-10-22T21:57:05+00:00",
     "https://www.ransomlook.io/recent": "2026-10-22T21:57:05+00:00",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-22T22:20:45+00:00",
-    "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-23T07:31:54+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-22T21:57:05+00:00",
     "https://haveibeenpwned.com/breach/neogen": "2026-10-22T22:20:45+00:00",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-22T22:20:45+00:00",
@@ -573,7 +557,7 @@
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-22T22:20:45+00:00",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-23T05:23:49.350825+00:00",
     "coldcard-x-phishing-2026": "2026-10-23T05:23:49.350825+00:00",
-    "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-22T18:33:53.782170+00:00",
+    "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-23T07:31:54+00:00",
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-22T22:20:45+00:00",
     "senture-fmcsa-2026": "2026-10-23T05:23:49.350825+00:00",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-23T05:23:49.350825+00:00",
@@ -586,25 +570,23 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html": "2026-10-22T22:20:45+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-10-23T01:31:29Z",
     "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-10-23T05:23:49.350825+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/20/2000002435/": "2026-10-22T21:57:05+00:00",
-    "https://www.pref.gifu.lg.jp/site/pressrelease/522624.html": "2026-10-22T21:57:05+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/20/2000002435/": "2026-10-23T07:31:54+00:00",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-10-22T22:20:45+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-10-22T18:33:53.782170+00:00",
     "https://www.bleepingcomputer.com/news/security/": "2026-10-23T05:23:49.350825+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-10-23T05:23:49.350825+00:00",
-    "https://www.security-next.com/191780": "2026-10-23T05:23:49.350825+00:00",
     "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims": "2026-10-23T05:23:49.350825+00:00",
-    "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident": "2026-10-23T05:23:49.350825+00:00",
-    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-23T05:23:49.350825+00:00",
+    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-23T07:31:54+00:00",
     "https://www.security-next.com/191195": "2026-10-22T21:57:05+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/23/56550.html": "2026-10-23T05:23:49.350825+00:00"
+    "https://scan.netsecurity.ne.jp/article/2026/10/23/56550.html": "2026-10-23T05:23:49.350825+00:00",
+    "https://www.itmedia.co.jp/news/article/2610/22/2000002500/": "2026-10-23T07:31:54+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-23T01:31:29Z",
-      "summary": "新規4件(ブラストメール、富士急CLUBフジQ、Railway、LiteLLM)を一次発表本文と報道本文で確認し掲載。持越し8件のうちETS(California)と日経ナショジオは既存IDに照合、他は未解決として持越し。",
-      "run_id": "39884185312",
-      "main_sha": "ec288769df60158e859eb8e0062e9750b0ae56e5"
+      "completed_at": "2026-10-23T07:31:54+00:00",
+      "summary": "新規3件(国交省・博報堂の住宅省エネ2024キャンペーン事務局、Studio社クラウド不正アクセス、米コロンビア市)を掲載。Studioにはデジタル庁分の報道を出典追加。必須再調査8件のうち7件は本文または公開ページを再取得し、いずれも掲載基準未達のため持越し。ScanNetSecurityは接続できず(ENOTFOUND)、ITmedia NEWSセキュリティ一覧で代替した。コミックシーモアの最大約420万件への更新は出典がITmedia1媒体のため見送り。",
+      "run_id": "39917886380",
+      "main_sha": "f72e69d9f0a12e218cf7be9c7cdf9ddc8f3c2c5d"
     },
     "historical": {
       "completed_at": "2026-10-23T05:23:49.350825+00:00",
@@ -614,11 +596,11 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "39905271120",
-    "completed_at": "2026-10-23T05:24:12.135261+00:00",
+    "mode": "fresh",
+    "run_id": "39917886380",
+    "completed_at": "2026-10-23T07:32:27.571616+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "ec288769df60158e859eb8e0062e9750b0ae56e5"
+    "main_sha": "f72e69d9f0a12e218cf7be9c7cdf9ddc8f3c2c5d"
   }
 }
