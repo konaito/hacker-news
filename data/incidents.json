@@ -11771,5 +11771,100 @@
       "zkai-z-id-2026-2"
     ],
     "verification_note": "Z会の第一報本文（10月19日、10月20日更新）で13件・閲覧可能性のある情報・直接侵入なしを確認。ScanNetSecurityも同内容。"
+  },
+  {
+    "id": "blastmail-rakus-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": null,
+    "company": "ラクスライトクラウド（ラクス）",
+    "service": "メール配信システム「ブラストメール」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "IT・クラウド",
+    "title": "メール配信「ブラストメール」に不正アクセス、全契約者の連絡先・契約履歴などが持ち出され、サービス停止続く",
+    "summary": "ラクスは10月21日、子会社ラクスライトクラウドが運営するブラストメールのAPIサーバー2台に第三者が侵入してコマンドを実行し、営業管理システムとサービスDBに接続してデータを持ち出したと発表しました。サービスは同日0時30分から緊急停止中です。",
+    "note": "持ち出されたのは全契約者の会社名・担当者名・電話番号・メールアドレス・請求先メールアドレス・契約/支払履歴で、一部顧客では配信リスト等も含まれます。クレジットカード番号は保有していないため対象外です。件数は未公表、侵入経路は調査中、再開日未定です。",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23",
+    "sources": [
+      "blastmail-rakus-2026-1",
+      "blastmail-rakus-2026-2"
+    ]
+  },
+  {
+    "id": "fujiq-club-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": "2026-09-04",
+    "company": "富士急ハイランド",
+    "service": "公式アプリ・会員サイト「CLUB フジQ」",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "エンタメ",
+    "title": "富士急ハイランド公式アプリ・会員サイトにリスト型攻撃、159アカウントに不正ログイン",
+    "summary": "同社は10月20日、9月4日から7日にかけて外部から入手したID・パスワードの組み合わせによるリスト型攻撃を受け、会員159アカウントに不正ログインされたと発表しました。氏名・メールアドレス・生年月日・電話番号などが閲覧された可能性があります。",
+    "note": "一部の顧客では購入履歴、カード情報の一部（番号の一部・有効期限・名義）、チケット情報も閲覧された可能性があります。同社はサーバー・データベースへの侵入や大量の情報窃取は確認しておらず、不正購入等の二次被害も未確認です。個人情報保護委員会と警察に報告済みです。",
+    "affected": [
+      {
+        "count": 159,
+        "unit": "accounts",
+        "description": "不正ログインされた会員アカウント数。",
+        "source_id": "fujiq-club-2026-1"
+      }
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23",
+    "sources": [
+      "fujiq-club-2026-1",
+      "fujiq-club-2026-2"
+    ]
+  },
+  {
+    "id": "railway-env-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-21",
+    "company": "Railway",
+    "service": "クラウドホスティング基盤（顧客の環境変数保管システム）",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "クラウド基盤Railwayで環境変数保管システムに異常、第三者が暗号化された環境変数に接触した可能性、全ユーザーに秘密情報の更新を要請",
+    "summary": "Railwayは10月21日、顧客の環境変数を保管するシステムで異常なアクセスを検知し、第三者が暗号化された環境変数に接触し、一部は復号された内容を取得した可能性があると公表しました。デプロイを停止し、全ユーザーにAPIキー等の更新を求めています。",
+    "note": "影響は一部ユーザーにとどまる見込みですが、対象アカウントと件数は未確定です。同社はAIインファレンス事業者を狙う一連の攻撃の一部とみて、上流事業者へ鍵の無効化を通知しました。BleepingComputerは約480万ユーザーと報じていますが、影響件数ではありません。",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23",
+    "sources": [
+      "railway-env-2026-1",
+      "railway-env-2026-2"
+    ]
+  },
+  {
+    "id": "litellm-1107-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-21",
+    "company": "LiteLLM（BerriAI）",
+    "service": "OSS「LiteLLM」のPyPI・Dockerリリース",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "LiteLLMのリリース基盤が侵害され、認証情報を窃取するマルウェア入りのv1.107.0がPyPI・Dockerで配布",
+    "summary": "LiteLLMの開発側は10月21日、リリースパイプラインが侵害され、認証情報を窃取しリモートコード実行ツールを読み込むマルウェアを含むv1.107.0がPyPIとDockerレジストリで公開されたと公表しました。PyPIは約2時間、Dockerタグは数時間公開されました。",
+    "note": "GitHub上の正規タグにはマルウェアは含まれず、攻撃者管理の類似リポジトリからビルドされた成果物でした。侵入口はGitHub CLIのOAuthトークンの可能性があるとされますが未確認です。旧バージョンとエンタープライズ版は影響なしとされ、実際の被害者数は不明です。",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23",
+    "sources": [
+      "litellm-1107-2026-1",
+      "litellm-1107-2026-2"
+    ]
   }
 ]

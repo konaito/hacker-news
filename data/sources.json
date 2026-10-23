@@ -5339,5 +5339,61 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191719",
     "title": "番組宣伝システムでメディア関係者情報が流出か - フジテレビ"
+  },
+  {
+    "id": "blastmail-rakus-2026-1",
+    "publisher": "ラクス",
+    "type": "primary",
+    "url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+    "title": "ブラストメールへの不正アクセスに関するお知らせ(第2報)"
+  },
+  {
+    "id": "blastmail-rakus-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/23/56554.html",
+    "title": "メール配信システム「ブラストメール」に不正アクセス、データ持ち出しを確認"
+  },
+  {
+    "id": "fujiq-club-2026-1",
+    "publisher": "富士急ハイランド",
+    "type": "primary",
+    "url": "https://www.fujiq.jp/news/20261020_oshirase.html",
+    "title": "公式アプリ・会員サイト「CLUB フジQ」への不正ログインに関するお知らせ"
+  },
+  {
+    "id": "fujiq-club-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/23/56549.html",
+    "title": "富士急ハイランド公式アプリ・会員サイト「CLUB フジQ」にリスト型攻撃、159名の会員情報が閲覧された可能性"
+  },
+  {
+    "id": "railway-env-2026-1",
+    "publisher": "Railway",
+    "type": "primary",
+    "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "title": "Security disclosure Wednesday October 21st"
+  },
+  {
+    "id": "railway-env-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+    "title": "Railway warns devs to rotate secrets after potential breach"
+  },
+  {
+    "id": "litellm-1107-2026-1",
+    "publisher": "LiteLLM",
+    "type": "primary",
+    "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+    "title": "Security incident: Oct 21, 2026"
+  },
+  {
+    "id": "litellm-1107-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "title": "LiteLLM release pipeline hacked to distribute info-stealer malware"
   }
 ]
