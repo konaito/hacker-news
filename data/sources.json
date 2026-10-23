@@ -5458,5 +5458,19 @@
     "type": "reporting",
     "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002543/",
     "title": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで"
+  },
+  {
+    "id": "quest-lsm-2026-1",
+    "publisher": "SEC(Quest Diagnostics Form 8-K)",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001022079/000094787126000941/ss6979200_8k.htm",
+    "title": "Quest Diagnostics Inc. Form 8-K (Item 8.01) Quanum LSMへの不正アクセス"
+  },
+  {
+    "id": "quest-lsm-2026-2",
+    "publisher": "The Record from Recorded Future News",
+    "type": "reporting",
+    "url": "https://therecord.media/quest-diagnostics-network-intrusion",
+    "title": "Quest Diagnostics warns of potential data theft after attack on lab service system"
   }
 ]

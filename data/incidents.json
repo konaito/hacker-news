@@ -11945,5 +11945,28 @@
     "first_seen_at": "2026-10-23",
     "last_verified_at": "2026-10-23",
     "verification_note": "ABC News 4(10月20日付・21日更新)とThe Record(10月22日付)の本文で、SLEDへの通報、MyColaSC等の停止、公共安全・水道の稼働継続が一致することを確認。市の公式発表は未確認。"
+  },
+  {
+    "id": "quest-lsm-2026",
+    "published_at": "2026-10-23",
+    "occurred_at": null,
+    "company": "Quest Diagnostics",
+    "service": "Quanum Lab Services Manager(検査オーダー・結果照会システム)",
+    "region": "US",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療・ヘルスケア",
+    "title": "米臨床検査大手Quest Diagnosticsで検査オーダー・結果照会システムに不正アクセス、患者記録に接触の可能性、法執行機関に通報",
+    "summary": "Quest Diagnosticsは米SECへの提出書類(Form 8-K)で、一部の顧客が検査の発注や結果照会に使うQuanum LSMシステムへの不正アクセスを10月21日に把握したと開示しました。連邦法執行機関に通報し外部専門家を起用、第三者が一部の患者記録にアクセスしたとみています。The Recordによると、同社は10月22日にこのシステムを停止し、顧客には紙の依頼書を案内しています。",
+    "note": "影響を受けた患者数・情報の種類・侵入経路は調査中で未公表です。8-Kは事業運営への重大な支障はないとしています。攻撃者の犯行声明はThe Record掲載時点で確認されていません。2016年や2019年の過去の事案とは別の事案です。",
+    "affected": [],
+    "sources": [
+      "quest-lsm-2026-1",
+      "quest-lsm-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-23",
+    "last_verified_at": "2026-10-23",
+    "verification_note": "SEC提出のForm 8-K本文(10月22日付署名、10月21日に把握、患者記録へのアクセスと調査中の範囲)とThe Record本文(10月22日にシステム停止、紙の依頼書、犯行声明なし)で一致を確認。"
   }
 ]
