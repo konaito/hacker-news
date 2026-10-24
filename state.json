@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-24T18:09:57.932250+00:00",
+  "completed_at": "2026-10-24T20:45:45.687992+00:00",
   "candidates": [
     {
       "title": "hsc.mb.caに対するINC Ransomの公開主張",
@@ -642,10 +642,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "40119166906",
-    "completed_at": "2026-10-24T18:09:57.932250+00:00",
-    "result": "success",
-    "error": null,
+    "run_id": "40131177684",
+    "completed_at": "2026-10-24T20:45:45.687992+00:00",
+    "result": "failure",
+    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/fresh/current-report.json",
     "main_sha": "912ec5328e32ed7b3b624b81ebc767b87402fece"
   }
 }
