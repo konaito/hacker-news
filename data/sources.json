@@ -186,7 +186,7 @@
     "publisher": "ヤマトホールディングス",
     "type": "primary",
     "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
-    "title": "ヤマト運輸｜2026-10-02発表・報道"
+    "title": "【第4報】「クロネコ代金後払いサービス」への不正アクセスに関する調査結果と今後の対応について(2026-10-16)"
   },
   {
     "id": "ozmall-2026-1",
@@ -5507,5 +5507,12 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191883",
     "title": "GMO「デスクトップクラウド」で侵害 - 利用者から金融口座の不正操作報告"
+  },
+  {
+    "id": "yamato-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191595",
+    "title": "「代金後払いサービス」で個人情報が流出 - ヤマト運輸"
   }
 ]
