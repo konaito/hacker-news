@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-10-24T21:11:32.791857+00:00",
+  "completed_at": "2026-10-24T23:15:12.799211+00:00",
   "candidates": [
-    {
-      "title": "hsc.mb.caに対するINC Ransomの公開主張",
-      "url": "https://www.ransomlook.io/group/inc%20ransom",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
-    },
-    {
-      "title": "BigIDに対するThe Gentlemenの公開主張",
-      "url": "https://www.ransomlook.io/group/the%20gentlemen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
-    },
-    {
-      "title": "N0nによる海運・港湾企業の主張",
-      "url": "https://www.ransomlook.io/recent",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
-    },
-    {
-      "title": "Silent Ransom GroupのSNSリード",
-      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
-    },
     {
       "title": "小平市サイト停止の公開SNSリード",
       "url": "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/",
@@ -65,38 +33,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
-    },
-    {
-      "title": "佐川急便 お荷物問い合わせサービス 最大5323万件",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2150814.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "既存sagawa-2026の最終検証は10/10。件数続報の反映は未確認。時間不足のため本文未取得、次回再調査。"
-    },
-    {
-      "title": "マネックス証券 口座開設受付停止",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2150058.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認、本文未取得。次回再調査。"
-    },
-    {
-      "title": "バルテック サイバー攻撃によるサービス停止",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2150396.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認、本文未取得。次回再調査。"
-    },
-    {
-      "title": "大阪大学 委託先NEC個人情報漏えい",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2150389.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "既存nec-contractor-2026との関係を未照合。本文未取得。次回再調査。"
     },
     {
       "title": "Collabora RCE悪用によるNextcloud侵害",
@@ -459,20 +395,60 @@
       "reason": "INTERNET Watch本文を確認(10/19付、10/17 8時から My SoftBank/My Y!mobile/My メニューのWebサイトを不正アクセス試行検知で停止、漏えいの記載なし)。報道1媒体のみで公式本文未確認、既存レコードなし。2媒体目を確認できず持越し。"
     },
     {
-      "title": "Toronto Crime Stoppers 活動停止(Navigate360経由のtip情報流出)",
-      "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文を確認(CBC報道、全国150万件超のtip流出、2026年3月にDDoSecretsが公開)。発生が3月で今回は続報。報道1媒体のため未掲載、次回に2媒体目を探す。"
-    },
-    {
       "title": "eMudhra 証明書事業撤退(セキュリティインシデント)",
       "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
       "reason": "The Record一覧の見出しのみ確認。本文未取得、既存レコードなし。次回再調査。"
+    },
+    {
+      "title": "バルテック サイバー攻撃によるサービス停止",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2150396.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "INTERNET Watch本文のみ確認(10/22発表、MOT等のサービス停止、個人情報流出の可能性、26日復旧予定、原因説明の訂正あり)。公式・第2媒体を取得できず単一報道のため未掲載で次回へ持越し。"
+    },
+    {
+      "title": "hsc.mb.caに対するINC Ransomの公開主張",
+      "url": "https://www.ransomlook.io/group/inc%20ransom",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず(ransomlookは取得がタイムアウト)。攻撃者主張の未検証リードとして次回へ持越し。"
+    },
+    {
+      "title": "BigIDに対するThe Gentlemenの公開主張",
+      "url": "https://www.ransomlook.io/group/the%20gentlemen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。攻撃者主張の未検証リードとして次回へ持越し。"
+    },
+    {
+      "title": "N0nによる海運・港湾企業の主張",
+      "url": "https://www.ransomlook.io/recent",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ransomlook/recentの取得がタイムアウトし再調査できず。未検証のまま次回へ持越し。"
+    },
+    {
+      "title": "Silent Ransom GroupのSNSリード",
+      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。SNSリードは検証の代わりにならず、未検証のまま次回へ持越し。"
+    },
+    {
+      "title": "Toronto crime tips org freezes operations after data breach",
+      "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record一覧の見出しのみ確認、本文未取得。既存レコードなし。次回再調査。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -584,13 +560,13 @@
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-24T18:09:03Z",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-24T16:16:48.227132+00:00",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-24T10:57:33Z",
-    "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-24T10:57:33Z",
-    "https://www.ransomlook.io/group/inc%20ransom": "2026-10-24T10:57:33Z",
+    "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-24T23:14:48Z",
+    "https://www.ransomlook.io/group/inc%20ransom": "2026-10-24T23:14:48Z",
     "https://www.security-next.com/190136": "2026-10-24T11:39:42Z",
-    "https://www.ransomlook.io/recent": "2026-10-24T10:57:33Z",
+    "https://www.ransomlook.io/recent": "2026-10-24T23:14:48Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-24T11:39:42Z",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-24T18:09:03Z",
-    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-24T10:57:33Z",
+    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-24T23:14:48Z",
     "https://haveibeenpwned.com/breach/neogen": "2026-10-24T14:32:08.445523+00:00",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-24T14:32:08.445523+00:00",
     "https://haveibeenpwned.com/breach/angelone": "2026-10-24T14:32:08.445523+00:00",
@@ -614,24 +590,21 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-10-24T16:16:48.227132+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-10-24T16:16:48.227132+00:00",
     "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims": "2026-10-24T16:16:48.227132+00:00",
-    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-24T18:09:03Z",
+    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-24T23:14:48Z",
     "https://www.itmedia.co.jp/news/article/2610/22/2000002500/": "2026-10-24T18:09:03Z",
     "https://therecord.media/china-cyber-connectwise-ai": "2026-10-24T14:32:08.445523+00:00",
-    "https://internet.watch.impress.co.jp/docs/news/2150814.html": "2026-10-24T10:57:33Z",
     "https://internet.watch.impress.co.jp/docs/news/2149432.html": "2026-10-24T18:09:03Z",
-    "https://internet.watch.impress.co.jp/docs/news/2150058.html": "2026-10-24T10:57:33Z",
-    "https://internet.watch.impress.co.jp/docs/news/2150396.html": "2026-10-24T10:57:33Z",
-    "https://internet.watch.impress.co.jp/docs/news/2150389.html": "2026-10-24T10:57:33Z",
+    "https://internet.watch.impress.co.jp/docs/news/2150396.html": "2026-10-24T23:14:48Z",
     "https://www.security-next.com/": "2026-10-24T11:39:42Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/23/56549.html": "2026-10-24T16:16:48.227132+00:00",
     "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident": "2026-10-24T18:09:03Z"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-24T18:09:03Z",
-      "summary": "Security NEXT・BleepingComputer・The Recordの新着一覧を確認し、主要事件は既存IDと照合済み。必須再調査8件のうち、アルカディア事案はITmedia NEWSと共同通信配信記事の本文を確認して既存ID arcadia-raiden-2026に県警関連の可能性報道を追記。コミックシーモア第4報、Domino's、ソフトバンクは本文または報道は確認したが公開条件(一次情報または独立2媒体)を満たせず持越し。H&M、Gentlemen、自治体サイト閲覧不能2件は今回再取得せず持越し(確認済みとは主張しない)。限界: ScanNetSecurityは取得不可(ドメイン転送)、X本文・公式サイトは未取得、rocket-boysは403。",
-      "run_id": "40119166906",
-      "main_sha": "912ec5328e32ed7b3b624b81ebc767b87402fece"
+      "completed_at": "2026-10-24T23:14:48Z",
+      "summary": "必須再調査8件のうち国内4件(マネックス、大阪大学、佐川、バルテック)を再調査。マネックスと大阪大学を新規掲載、佐川は第5報の本文を確認したが既存出典の再確認ができず更新を取り下げ(deferred)、バルテックは単一報道のためdeferred。ransomlook系・SNSの4件は未再調査で持越し。新着探索では他に新規掲載候補なし(既存IDと照合)。PHP等の脆弱性ニュースは対象外。",
+      "run_id": "40141604539",
+      "main_sha": "54fe8ca2236d37974019d89bde34aaeea258e649"
     },
     "historical": {
       "completed_at": "2026-10-24T16:16:48.227132+00:00",
@@ -641,11 +614,11 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "40133086373",
-    "completed_at": "2026-10-24T21:11:32.791857+00:00",
-    "result": "failure",
-    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/historical/current-report.json",
-    "main_sha": "912ec5328e32ed7b3b624b81ebc767b87402fece"
+    "mode": "fresh",
+    "run_id": "40141604539",
+    "completed_at": "2026-10-24T23:15:12.799211+00:00",
+    "result": "success",
+    "error": null,
+    "main_sha": "54fe8ca2236d37974019d89bde34aaeea258e649"
   }
 }
