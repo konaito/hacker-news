@@ -5528,5 +5528,40 @@
     "type": "reporting",
     "url": "https://kumanichi.com/articles/2048904",
     "title": "22府県警で個人情報流出か 不正アクセス、一般住民も"
+  },
+  {
+    "id": "osaka-u-nec-2026-1",
+    "publisher": "大阪大学",
+    "type": "primary",
+    "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+    "title": "委託事業者における個人情報漏えいについて"
+  },
+  {
+    "id": "osaka-u-nec-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002491/",
+    "title": "大阪大、学生など7.8万人の情報漏えい NECが無断で協力会社とデータ共有"
+  },
+  {
+    "id": "osaka-u-nec-2026-3",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2150389.html",
+    "title": "大阪大学、委託先NECの個人情報漏えいを公表"
+  },
+  {
+    "id": "monex-account-opening-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002443/",
+    "title": "マネックス証券、委託先に第三者がアクセス試行の形跡 口座の新規開設を一時停止"
+  },
+  {
+    "id": "monex-account-opening-2026-2",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2150058.html",
+    "title": "マネックス証券、新規口座開設を一時停止 外部委託システムに不審なアクセス"
   }
 ]

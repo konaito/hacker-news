@@ -1,5 +1,59 @@
 [
   {
+    "id": "monex-account-opening-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": null,
+    "company": "マネックス証券",
+    "service": "証券総合取引口座の新規開設受付",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "業務停止・調査中",
+    "category": "金融",
+    "title": "マネックス証券、委託先システムへの不審なアクセス形跡で新規口座開設受付を一時停止",
+    "summary": "マネックス証券は10月20日、口座開設システムのうち外部委託先が管理するシステムに第三者がアクセスを試みた形跡を確認したとして、Webサイトとアプリからの証券総合取引口座の新規開設受付を予防的に一時停止したと発表しました。",
+    "note": "確認されたのはアクセス試行の形跡で、侵入や情報流出は報道本文に記載がありません。委託先名・試行時期・再開時期は未公表で、既存口座への影響も記載がありません。公式発表本文はHTTP 403で未確認です(検索結果の要約では停止開始は10月19日とされ、報道は10月20日発表)。",
+    "affected": [],
+    "sources": [
+      "monex-account-opening-2026-1",
+      "monex-account-opening-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-24",
+    "last_verified_at": "2026-10-24",
+    "verification_note": "ITmedia NEWSとINTERNET Watchの本文を確認し、委託先管理システムへのアクセス試行形跡・新規開設の一時停止・流出言及なしが一致。公式ページは403で本文未確認。"
+  },
+  {
+    "id": "osaka-u-nec-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-09-26",
+    "company": "大阪大学（委託先: NEC）",
+    "service": "全学教育用電子計算機システムの運用委託",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "教育",
+    "title": "大阪大学、委託先NECが協力会社とクラウド共有していたファイルから7万7,851人の個人情報が漏えい",
+    "summary": "大阪大学は10月21日、全学教育用電子計算機システムの運用委託先NECから、9月26日に第三者が同大学の個人情報を含むファイルをダウンロードしていたとの報告(10月9日)を受けたと公表しました。対象は重複を除き77,851人です。",
+    "note": "NECが大学に未報告の協力会社と、契約に基づかずクラウドストレージ上で共有し、削除すべきファイルが残っていたとされます。NECの調査では教育用システム自体への不正アクセスの痕跡は確認されておらず、不正利用・二次被害も未確認です。10月20日にNECが公表した委託先へのサイバー攻撃(nec-contractor-2026)との関係について、大学の発表本文は因果を説明しておらず、同一事案とは断定しません。件数は人数(重複除く)です。",
+    "affected": [
+      {
+        "count": 77851,
+        "unit": "people",
+        "description": "漏えい対象者(重複除く。卒業生59,014、在学生15,035、教職員3,802)",
+        "source_id": "osaka-u-nec-2026-1"
+      }
+    ],
+    "sources": [
+      "osaka-u-nec-2026-1",
+      "osaka-u-nec-2026-2",
+      "osaka-u-nec-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-24",
+    "last_verified_at": "2026-10-24",
+    "verification_note": "大阪大学の公式発表本文とITmedia NEWS、INTERNET Watchの本文を確認し、日付・人数・内訳・項目・原因・不正アクセス痕跡なしが一致。NEC委託先攻撃との関係は未確認として扱った。"
+  },
+  {
     "id": "fujitv-promo-system-2026",
     "published_at": "2026-10-21",
     "occurred_at": "2026-10-19",
