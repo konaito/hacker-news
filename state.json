@@ -1,15 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-10-24T05:51:06.313344+00:00",
+  "completed_at": "2026-10-24T10:57:52.788901+00:00",
   "candidates": [
-    {
-      "title": "Deloitteに対するTheGentlemenの未確認主張",
-      "url": "https://www.vallanx.com/cyber-threat-monitor?pageb=53",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は再取得せず未確認のまま持越し(確認済みとは主張しない)。"
-    },
     {
       "title": "CNESTENへのQilinの主張",
       "url": "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/",
@@ -83,54 +75,6 @@
       "reason": "今回は個別の追加確認を行わず前回判断を維持して持越し(確認済みとは主張しない)。前回: ITmedia本文を再取得: 10/5に窓口業務縮小、原因・サイバー攻撃の記載なし。攻撃と確認できず未公開。"
     },
     {
-      "title": "hsc.mb.caに対するINC Ransomの公開主張",
-      "url": "https://www.ransomlook.io/group/inc%20ransom",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: RansomLookに10月11日付でドメインのみ掲載(説明なし)。攻撃者の主張のみで被害組織の確認・報道なし。未検証。"
-    },
-    {
-      "title": "BigIDに対するThe Gentlemenの公開主張",
-      "url": "https://www.ransomlook.io/group/the%20gentlemen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: RansomLookに10月11日付で企業プロフィールの掲載のみ。流出の事実・件数は未確認の攻撃者主張として追跡、報道・公式発表なし。"
-    },
-    {
-      "title": "N0nによる海運・港湾企業の主張",
-      "url": "https://www.ransomlook.io/recent",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 最新一覧を確認したがN0n関連の海運・港湾の掲載は特定できず(Storm群のPatriot Maritime等のみ)。主張の裏付けなし。持越し。"
-    },
-    {
-      "title": "Silent Ransom GroupのSNSリード",
-      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: Reddit本文は取得を試みず(同ドメインはWebFetch不可)。SNSはリードであり未検証。前回判断を維持して持越し。今回は本文を取得できなかった/取得できても追加の独立出典がなく未解決のため、確認済みとは主張しない。"
-    },
-    {
-      "title": "小平市サイト停止の公開SNSリード",
-      "url": "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: Reddit本文は取得不可。市の個人情報流出・ランサム攻撃の主張はSNS上のみで、ITmedia(産経配信)本文では市は関連の有無を回答せず。未検証。"
-    },
-    {
-      "title": "公開SNSでのKimberly-Clark被害主張",
-      "url": "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: Reddit本文を取得できず(WebFetch不可)。攻撃者の主張でありSNSリードにとどまる。未検証。"
-    },
-    {
       "title": "研修会申込者の個人情報が閲覧可能に、フォーム設定ミス - 静岡県",
       "url": "https://www.security-next.com/190136",
       "priority": "normal",
@@ -161,14 +105,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回は本文を再取得しておらず持越し（確認済みとは主張しない）。"
-    },
-    {
-      "title": "MALFEXの悪性npmパッケージ配布",
-      "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。前回: 今回も個別に本文を再取得しておらず、前回判断を維持して持越し(確認済みとは主張しない)。前回: SecurityWeek本文を再取得。Checkmarx単独報告(2026-10-06)で感染システム数なし、事業者確認なし、独立2媒体未確認。持越し。"
     },
     {
       "title": "Radford市のデータ事件疑い",
@@ -459,12 +395,116 @@
       "reason": "検索要約で、自社システム侵害ではなくクレデンシャルスタッフィング、ICOへ報告とのMalwarebytes記事内容を再確認。本文精読と独立報道・一次発表は未確認、件数不明のため持越し。"
     },
     {
-      "title": "Toronto Crime Stoppers、ベンダーNavigate360経由の通報データ流出で受付停止",
+      "title": "hsc.mb.caに対するINC Ransomの公開主張",
+      "url": "https://www.ransomlook.io/group/inc%20ransom",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "BigIDに対するThe Gentlemenの公開主張",
+      "url": "https://www.ransomlook.io/group/the%20gentlemen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "N0nによる海運・港湾企業の主張",
+      "url": "https://www.ransomlook.io/recent",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "Silent Ransom GroupのSNSリード",
+      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "小平市サイト停止の公開SNSリード",
+      "url": "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "公開SNSでのKimberly-Clark被害主張",
+      "url": "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "MALFEXの悪性npmパッケージ配布",
+      "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "Deloitteに対するTheGentlemenの未確認主張",
+      "url": "https://www.vallanx.com/cyber-threat-monitor?pageb=53",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に本文を再取得せず前回判断を維持して持越し(確認済みとは主張しない)。新着探索を優先し、未検証のまま次回へ渡す。"
+    },
+    {
+      "title": "Toronto Crime Stoppers 活動停止(Navigate360/P3侵害)",
       "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "The Record本文を確認: 2026年3月の侵害、150万件超の通報、Toronto分176,859件、10/22に受付停止。ただし1媒体のみで、犯行声明や件数は未検証。他媒体の過去報道は検索要約のみで本文未確認。独立2媒体の本文確認まで未掲載。"
+      "reason": "The Record本文のみ確認。ハッカー主張・CBC報道依拠で、独立2媒体の本文は未確認(検索結果の見出しのみ)。次回再調査。"
+    },
+    {
+      "title": "佐川急便 お荷物問い合わせサービス 最大5323万件",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2150814.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "既存sagawa-2026の最終検証は10/10。件数続報の反映は未確認。時間不足のため本文未取得、次回再調査。"
+    },
+    {
+      "title": "ソフトバンク My SoftBank 不正アクセス試行・サイト一時停止",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2149432.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認、本文未取得。既存レコードなし。次回再調査。"
+    },
+    {
+      "title": "マネックス証券 口座開設受付停止",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2150058.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認、本文未取得。次回再調査。"
+    },
+    {
+      "title": "バルテック サイバー攻撃によるサービス停止",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2150396.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認、本文未取得。次回再調査。"
+    },
+    {
+      "title": "大阪大学 委託先NEC個人情報漏えい",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2150389.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "既存nec-contractor-2026との関係を未照合。本文未取得。次回再調査。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -550,9 +590,9 @@
   "checked_at": {
     "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-24T05:03:33.893916+00:00",
     "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-10-23T22:10:57.414194+00:00",
-    "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/": "2026-10-23T22:10:57.414194+00:00",
+    "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/": "2026-10-24T10:57:33Z",
     "rakuten-data-sale-claim-2026": "2026-10-23T22:10:57.414194+00:00",
-    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-23T22:10:57.414194+00:00",
+    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-24T10:57:33Z",
     "ftapi-2026": "2026-10-24T05:03:33.893916+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-10-24T05:03:33.893916+00:00",
     "tottori-care-provider-email-2026": "2026-10-23T22:10:57.414194+00:00",
@@ -572,17 +612,17 @@
     "https://s-que.net/news/20261008/": "2026-10-24T00:40:56Z",
     "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-24T05:03:33.893916+00:00",
     "rhyne-industrial-company-2023": "2026-10-23T22:10:57.414194+00:00",
-    "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-23T22:10:57.414194+00:00",
+    "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-24T10:57:33Z",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-24T05:50:41.452641+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-24T05:03:33.893916+00:00",
-    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-23T22:10:57.414194+00:00",
-    "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-23T22:10:57.414194+00:00",
-    "https://www.ransomlook.io/group/inc%20ransom": "2026-10-23T22:10:57.414194+00:00",
+    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-24T10:57:33Z",
+    "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-24T10:57:33Z",
+    "https://www.ransomlook.io/group/inc%20ransom": "2026-10-24T10:57:33Z",
     "https://www.security-next.com/190136": "2026-10-23T22:10:57.414194+00:00",
-    "https://www.ransomlook.io/recent": "2026-10-23T22:10:57.414194+00:00",
+    "https://www.ransomlook.io/recent": "2026-10-24T10:57:33Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-23T22:10:57.414194+00:00",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-24T05:50:41.452641+00:00",
-    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-23T22:10:57.414194+00:00",
+    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-24T10:57:33Z",
     "https://haveibeenpwned.com/breach/neogen": "2026-10-24T00:40:56Z",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-24T00:40:56Z",
     "https://haveibeenpwned.com/breach/angelone": "2026-10-24T00:40:56Z",
@@ -608,21 +648,26 @@
     "https://www.bleepingcomputer.com/news/security/": "2026-10-24T05:03:33.893916+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-10-24T05:03:33.893916+00:00",
     "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims": "2026-10-24T05:03:33.893916+00:00",
-    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-24T05:50:41.452641+00:00",
+    "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-24T10:57:33Z",
     "https://www.itmedia.co.jp/news/article/2610/22/2000002500/": "2026-10-24T05:50:41.452641+00:00",
     "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/": "2026-10-23T22:10:57.414194+00:00",
     "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/": "2026-10-23T22:10:57.414194+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/23/56551.html": "2026-10-24T05:03:33.893916+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/23/56553.html": "2026-10-24T05:03:33.893916+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/23/56552.html": "2026-10-24T05:03:33.893916+00:00",
-    "https://therecord.media/china-cyber-connectwise-ai": "2026-10-24T05:03:33.893916+00:00"
+    "https://therecord.media/china-cyber-connectwise-ai": "2026-10-24T05:03:33.893916+00:00",
+    "https://internet.watch.impress.co.jp/docs/news/2150814.html": "2026-10-24T10:57:33Z",
+    "https://internet.watch.impress.co.jp/docs/news/2149432.html": "2026-10-24T10:57:33Z",
+    "https://internet.watch.impress.co.jp/docs/news/2150058.html": "2026-10-24T10:57:33Z",
+    "https://internet.watch.impress.co.jp/docs/news/2150396.html": "2026-10-24T10:57:33Z",
+    "https://internet.watch.impress.co.jp/docs/news/2150389.html": "2026-10-24T10:57:33Z"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-24T05:50:41.452641+00:00",
-      "summary": "主要4媒体の一覧を確認したが、新規掲載・更新できる検証済み事案はなくデータ変更なし。選択された8件の再調査は検索要約の範囲で、公式または独立2媒体の本文を確認できないため全件deferredで持越し。Toronto Crime StoppersはThe Record本文のみ確認し単独報道のためdeferred。",
-      "run_id": "40067706857",
-      "main_sha": "0142dfe43661ac5a5ebccd5156840f7513b77167"
+      "completed_at": "2026-10-24T10:57:33Z",
+      "summary": "直近72時間の主要報道を国内2媒体・海外3媒体の一覧で照合。大半は既存IDで掲載済み。ヤマト運輸の後払いサービス事案が第二報止まりだったため第4報(約526万件等)で更新。ソフトバンク・マネックス・バルテック・佐川続報・Toronto Crime Stoppersは未検証のdeferred。選択済み8件の持越しは再取得せず維持(確認済みとは主張しない)。新規掲載は0件。",
+      "run_id": "40087754677",
+      "main_sha": "114a535edd57790a1267f837788b2d514b513dc3"
     },
     "historical": {
       "completed_at": "2026-10-24T05:03:33.893916+00:00",
@@ -633,10 +678,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "40067706857",
-    "completed_at": "2026-10-24T05:51:06.313344+00:00",
+    "run_id": "40087754677",
+    "completed_at": "2026-10-24T10:57:52.788901+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "0142dfe43661ac5a5ebccd5156840f7513b77167"
+    "main_sha": "114a535edd57790a1267f837788b2d514b513dc3"
   }
 }
