@@ -5514,5 +5514,19 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191595",
     "title": "「代金後払いサービス」で個人情報が流出 - ヤマト運輸"
+  },
+  {
+    "id": "arcadia-raiden-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002435/",
+    "title": "栃木県警など全職員情報流出か(アルカディア不正アクセス)"
+  },
+  {
+    "id": "arcadia-raiden-2026-3",
+    "publisher": "共同通信(熊本日日新聞配信)",
+    "type": "reporting",
+    "url": "https://kumanichi.com/articles/2048904",
+    "title": "22府県警で個人情報流出か 不正アクセス、一般住民も"
   }
 ]
