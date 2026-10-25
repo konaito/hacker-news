@@ -1,4 +1,4 @@
-const CACHE = 'allalarm-5cb06ba42851f060';
+const CACHE = 'allalarm-4ec988129e655f71';
 const CORE = ['/', '/offline.html', '/style.css', '/app.js', '/pwa.js', '/manifest.webmanifest', '/fonts/LINESeedJP_OTF_Rg.woff2', '/fonts/LINESeedJP_OTF_Bd.woff2', '/assets/cybersecurity-news.png', '/icons/app/icon-192.png', '/icons/app/icon-512.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE))));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('allalarm-') && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim())));

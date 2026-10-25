@@ -12118,5 +12118,27 @@
     "first_seen_at": "2026-10-25",
     "last_verified_at": "2026-10-25",
     "verification_note": "BleepingComputerとTechCrunchの本文を確認し、Console利用者1.4%への影響、外部AIキーの露出、10月17日ごろの発生、メール通知と返金対応が一致。公式Xは直接未確認。"
+  },
+  {
+    "id": "softbank-mysoftbank-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-17",
+    "company": "ソフトバンク",
+    "service": "My SoftBank / My Y!mobile / My メニュー(Webサイト)",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "業務停止・調査中",
+    "category": "通信",
+    "title": "ソフトバンク、My SoftBank関連システムへの不正アクセス試行を検知し、My SoftBank・My Y!mobile・My メニューのWebサイトを一時停止",
+    "summary": "ソフトバンクは10月19日、10月17日に第三者によるMy SoftBankの一部関連システムへの不正アクセスの試みを監視システムで検知したと発表しました。関連システムの一部停止と疑わしい通信経路の遮断を行い、10月17日午前8時から3サービスのWebサイトを一時停止しています。アプリ版は利用できます。",
+    "note": "公式発表は不正アクセスの「試み」であり、情報漏えいや侵入の成立は記載されていません。再開時期は未定です。",
+    "affected": [],
+    "sources": [
+      "softbank-mysoftbank-2026-1"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-25",
+    "last_verified_at": "2026-10-25",
+    "verification_note": "ソフトバンクの公式プレスリリース本文(10/19付)を確認し、10/17の不正アクセス試行検知、Webサイト3種の停止、アプリ継続、漏えい記載なし、再開時期未定が一致。"
   }
 ]
