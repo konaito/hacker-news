@@ -5598,5 +5598,19 @@
     "type": "reporting",
     "url": "https://www.cp24.com/news/canada/2026/06/18/crime-stoppers-cyber-breach-may-put-tipsters-lives-at-risk/",
     "title": "Crime Stoppers cyber breach may put tipsters' lives at risk"
+  },
+  {
+    "id": "arista-vco-cve-2026-114625-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+    "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months"
+  },
+  {
+    "id": "arista-vco-cve-2026-114625-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks"
   }
 ]
