@@ -12140,5 +12140,35 @@
     "first_seen_at": "2026-10-25",
     "last_verified_at": "2026-10-25",
     "verification_note": "ソフトバンクの公式プレスリリース本文(10/19付)を確認し、10/17の不正アクセス試行検知、Webサイト3種の停止、アプリ継続、漏えい記載なし、再開時期未定が一致。"
+  },
+  {
+    "id": "toronto-crime-stoppers-p3-2026",
+    "published_at": "2026-10-22",
+    "occurred_at": null,
+    "company": "Toronto Crime Stoppers / Navigate360（P3 Global Intel）",
+    "service": "匿名通報の受付プラットフォーム「P3 Global Intel」",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "受付停止・調査中",
+    "category": "行政・公共",
+    "title": "Crime Stoppers委託先P3の侵害、トロント支部が通報受付を停止し、同市の通報17万6859件が影響",
+    "summary": "The Recordは10月22日、Toronto Crime Stoppersが匿名通報の受付を停止したと報じました。委託先Navigate360傘下のP3 Global Intelへの3月の侵害を受けた措置で、同団体はベンダーから、2022年1月〜2025年11月のトロント分の通報17万6859件が影響を受けたと伝えられたとしています。",
+    "note": "件数は同団体がベンダーから受けた説明で、独立検証はありません。通報内に見つかった1万4973の氏名が通報者・被疑者のどちらかは不明です。CBCが確認した全国150万件超の通報、約830万件とされる別報道の主張件数、実行者の動機は未確認の報道・主張で、被害規模として採用しません。トロント分の通報本文がどこまで流出したかも未確認です。",
+    "affected": [
+      {
+        "count": 176859,
+        "unit": "records",
+        "description": "同団体がNavigate360から伝えられた、侵害の影響を受けたトロント分の通報件数(2022年1月〜2025年11月)。独立検証なし。",
+        "source_id": "toronto-crime-stoppers-p3-2026-1"
+      }
+    ],
+    "sources": [
+      "toronto-crime-stoppers-p3-2026-1",
+      "toronto-crime-stoppers-p3-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-25",
+    "last_verified_at": "2026-10-25",
+    "verification_note": "The Record本文(10/22)とCP24本文(6/18)を確認。両者でP3 Global Intel/Navigate360の侵害とCrime Stoppersの対応が一致。Malwarebytesも参照したが独立出典としては数えない。"
   }
 ]

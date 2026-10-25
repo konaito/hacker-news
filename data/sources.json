@@ -5584,5 +5584,19 @@
     "type": "primary",
     "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/",
     "title": "お客さま向け会員サイト「My SoftBank」の一時的な停止について"
+  },
+  {
+    "id": "toronto-crime-stoppers-p3-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+    "title": "Toronto crime tips org freezes operations after details of data breach come to light"
+  },
+  {
+    "id": "toronto-crime-stoppers-p3-2026-2",
+    "publisher": "CP24",
+    "type": "reporting",
+    "url": "https://www.cp24.com/news/canada/2026/06/18/crime-stoppers-cyber-breach-may-put-tipsters-lives-at-risk/",
+    "title": "Crime Stoppers cyber breach may put tipsters' lives at risk"
   }
 ]
