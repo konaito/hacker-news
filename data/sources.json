@@ -5563,5 +5563,19 @@
     "type": "reporting",
     "url": "https://internet.watch.impress.co.jp/docs/news/2150058.html",
     "title": "マネックス証券、新規口座開設を一時停止 外部委託システムに不審なアクセス"
+  },
+  {
+    "id": "opencode-console-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "title": "OpenCode hack exposes API keys amid AI distillation attacks"
+  },
+  {
+    "id": "opencode-console-2026-2",
+    "publisher": "TechCrunch",
+    "type": "reporting",
+    "url": "https://techcrunch.com/?p=3179164",
+    "title": "OpenCode breach (TechCrunch, 2026-10-19)"
   }
 ]

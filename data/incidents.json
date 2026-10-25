@@ -12095,5 +12095,28 @@
     "publication_status": "published",
     "first_seen_at": "2026-10-23",
     "last_verified_at": "2026-10-23"
+  },
+  {
+    "id": "opencode-console-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-17",
+    "company": "OpenCode",
+    "service": "OpenCode Console（連携した外部AIプロバイダーのAPIキー）",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・クラウド",
+    "title": "AIコーディングエージェントOpenCodeのConsoleで不正アクセス、利用者が保存した外部AIのAPIキーが露出した可能性",
+    "summary": "OpenCodeは10月17日(土)ごろ、旧システムへの侵入によりConsole利用者の1.4%に影響が出たと公表しました。外部AIプロバイダーのAPIキーが露出した可能性があり、影響を受けた利用者へメールで通知し、不正利用分の返金を進めるとしています。",
+    "note": "1.4%は影響を受けたConsole利用者の割合で、件数ではありません。侵入経路・鍵の保管方法・全体の被害額は未公表です。同社は「大規模な蒸留攻撃」と説明しますが、蒸留との関連は未検証で、攻撃者も特定されていません。不正課金額は利用者の報告で、確認済みの合計ではありません。OSSアプリとCLIは影響なしと同社が説明しています。公式発表(X)は本文を直接確認できておらず、報道経由の記述です。",
+    "affected": [],
+    "sources": [
+      "opencode-console-2026-1",
+      "opencode-console-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-25",
+    "last_verified_at": "2026-10-25",
+    "verification_note": "BleepingComputerとTechCrunchの本文を確認し、Console利用者1.4%への影響、外部AIキーの露出、10月17日ごろの発生、メール通知と返金対応が一致。公式Xは直接未確認。"
   }
 ]
