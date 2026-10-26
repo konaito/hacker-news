@@ -1,63 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-10-26T22:55:55.976493+00:00",
+  "completed_at": "2026-10-26T23:16:00.700950+00:00",
   "candidates": [
-    {
-      "title": "Metabase脆弱性悪用による不正アクセス(JPX開示)",
-      "url": "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず(前回HTTP 403)。未検証のまま持越し。"
-    },
-    {
-      "title": "Kimberly-ClarkへのShinyHunters恐喝主張",
-      "url": "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得したがHTTP 403で本文を読めず。攻撃者の主張で企業確認なし。持越し。"
-    },
-    {
-      "title": "FancyBearによる欧州防衛関連企業への侵入",
-      "url": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文再確認(10/20)。Symantec情報の1媒体報道で被害組織名なし、一次情報未確認のため未掲載で持越し"
-    },
-    {
-      "title": "Claire'sへのDark Projectの主張",
-      "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索で再調査。SOCRadar等は攻撃者の主張のみで企業の確認なし。未検証のまま持越し"
-    },
-    {
-      "title": "Aon plcへのTermiteの被害主張",
-      "url": "https://wasteland.me/intel/aon-termite-ransomware",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索で再調査。リーク掲載の主張のみでAonの確認なし。未検証のまま持越し"
-    },
-    {
-      "title": "Microsoft Windows Shell CVE-2026-96951の実悪用",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索で再調査。実悪用は複数の二次情報にあるがMicrosoft一次情報は未確認で、被害組織のない脆弱性のためレコード化せず持越し"
-    },
-    {
-      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文再確認(10/10付)。ShinyHunters関与はFBI未確認で侵害事案ではないため持越し"
-    },
     {
       "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
       "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
@@ -89,14 +33,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "本文確認。Sansec由来の1媒体報道で被害組織名なし。次回以降に2媒体目を確認"
-    },
-    {
-      "title": "電子ギフト会社への不正アクセスで5億5000万円分が不正発行(NHK見出し)",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61855",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "NHKの別見出しのみで本文を確認できず、検索でも該当記事を発見できなかった。次回再調査"
     },
     {
       "title": "さくらさくみらい利用クラウド事業者への不正アクセス",
@@ -193,22 +129,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧タイトルのみ確認。本文未読。次回優先。"
-    },
-    {
-      "title": "佐川急便 荷物問い合わせサービス 件数取りまとめ(のべ約5323万件)",
-      "url": "https://www.security-next.com/191906",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "既存sagawa-2026への続報。Security NEXT1媒体のみで、一次情報は403で取得できず、2媒体目も未確認のため更新せず持越し。"
-    },
-    {
-      "title": "エスケーロジへのランサムウェア攻撃",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet1媒体のみ。会社の第2報は本文が画像で読めず、一次情報の本文未確認。未記録のため次回へ。"
     },
     {
       "title": "Domino's利用者アカウントへの不正ログイン",
@@ -435,20 +355,108 @@
       "reason": "ScanNetとSecurity NEXTの一覧で見出しのみ確認。本文未読のため次回優先で検証。"
     },
     {
-      "title": "University of Copenhagen data breach(525,000人)",
-      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer一覧の見出しのみ確認。本文未読のため次回優先で検証。"
-    },
-    {
       "title": "Quest Diagnostics data breach",
       "url": "https://therecord.media/quest-diagnostics-network-intrusion",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
       "reason": "The Record・BleepingComputer一覧で見出しのみ確認。本文未読のため次回優先で検証。"
+    },
+    {
+      "title": "Kimberly-ClarkへのShinyHunters恐喝主張",
+      "url": "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で再調査。SOCRadar/DeXposeのリーク掲載のみで企業の確認なし。本文は未取得で未検証のまま持越し"
+    },
+    {
+      "title": "Metabase脆弱性悪用による不正アクセス(JPX開示)",
+      "url": "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず。未検証のまま持越し"
+    },
+    {
+      "title": "電子ギフト会社への不正アクセスで5億5000万円分が不正発行(NHK見出し)",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261019de61855",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で再調査したが該当記事を発見できず。持越し"
+    },
+    {
+      "title": "FancyBearによる欧州防衛関連企業への侵入",
+      "url": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。持越し"
+    },
+    {
+      "title": "Claire'sへのDark Projectの主張",
+      "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別に再調査できず。未検証のまま持越し"
+    },
+    {
+      "title": "Aon plcへのTermiteの被害主張",
+      "url": "https://wasteland.me/intel/aon-termite-ransomware",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で再調査。リーク掲載の主張のみでAonの確認なし。持越し"
+    },
+    {
+      "title": "Microsoft Windows Shell CVE-2026-96951の実悪用",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。脆弱性のみでレコード化せず持越し"
+    },
+    {
+      "title": "ShinyHunters捜査に関連するとされるサイバー幹部の逮捕",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。持越し"
+    },
+    {
+      "title": "リゾートトラストのWebサイト不正アクセス(会員約2.6万件・予約者約3.6万件)",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56582.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文は確認。公式PDFはバイナリで本文を読めず、独立した2媒体目の本文未確認のため未掲載。次回再調査"
+    },
+    {
+      "title": "エスケーロジへのランサムウェア攻撃",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "公式お知らせは画像のみで本文を読めず、ScanNetSecurity1媒体のみのため未掲載"
+    },
+    {
+      "title": "University of Copenhagen test environment breach (525,000 people)",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認。大学公式は接続拒否で未確認、検索でも他媒体なし。次回再調査"
+    },
+    {
+      "title": "DreamHost強制パスワードリセット",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "侵害の有無・原因・件数が未確認で報道は1媒体のみ。HNコメントは憶測。持越し"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -532,7 +540,7 @@
     }
   ],
   "checked_at": {
-    "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-26T06:11:17Z",
+    "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-26T23:15:37.456892+00:00",
     "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-10-26T22:55:34Z",
     "rakuten-data-sale-claim-2026": "2026-10-26T13:36:08+00:00",
     "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-26T22:55:34Z",
@@ -542,7 +550,7 @@
     "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/": "2026-10-26T12:59:35Z",
     "solar-russian-medical-network-2026": "2026-10-26T13:36:08+00:00",
     "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-10-26T13:36:08+00:00",
-    "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-26T12:59:35Z",
+    "https://wasteland.me/intel/aon-termite-ransomware": "2026-10-26T23:15:37.456892+00:00",
     "hcuch-imaging-2026": "2026-10-26T13:36:08+00:00",
     "kenya-brs-2026": "2026-10-26T13:36:08+00:00",
     "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-26T19:18:58Z",
@@ -552,7 +560,7 @@
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-26T19:18:58Z",
     "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-26T13:36:08+00:00",
     "https://s-que.net/news/20261008/": "2026-10-26T22:55:34Z",
-    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-26T12:59:35Z",
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-26T23:15:37.456892+00:00",
     "rhyne-industrial-company-2023": "2026-10-26T13:36:08+00:00",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-26T22:55:34Z",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-26T13:36:08+00:00",
@@ -569,42 +577,43 @@
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-26T19:18:58Z",
     "https://haveibeenpwned.com/breach/angelone": "2026-10-26T19:18:58Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-26T22:55:34Z",
-    "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-26T12:59:35Z",
+    "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-26T23:15:37.456892+00:00",
     "coldcard-x-phishing-2026": "2026-10-26T13:36:08+00:00",
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/": "2026-10-26T12:59:35Z",
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-26T22:55:34Z",
     "senture-fmcsa-2026": "2026-10-26T13:36:08+00:00",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-26T12:59:35Z",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/": "2026-10-26T23:15:37.456892+00:00",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-26T22:55:34Z",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-10-26T13:36:08+00:00",
     "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-10-26T13:36:08+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-10-26T22:55:34Z",
-    "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-10-26T12:59:35Z",
-    "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-10-26T06:11:17Z",
+    "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-10-26T23:15:37.456892+00:00",
+    "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-10-26T23:15:37.456892+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-10-26T22:55:34Z",
     "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims": "2026-10-26T22:55:34Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-10-26T19:18:58Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-10-26T23:15:37.456892+00:00",
     "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/": "2026-10-26T12:59:35Z",
-    "https://news.web.nhk/newsweb/na/nd-20261019de61855": "2026-10-26T12:59:35Z",
+    "https://news.web.nhk/newsweb/na/nd-20261019de61855": "2026-10-26T23:15:37.456892+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html": "2026-10-26T13:36:08+00:00",
     "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident": "2026-10-26T13:36:08+00:00",
     "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-26T13:36:08+00:00",
     "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident": "2026-10-26T13:36:08+00:00",
-    "https://www.security-next.com/191906": "2026-10-26T19:18:58Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/23/56555.html": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56563.html": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56564.html": "2026-10-26T22:55:34Z",
-    "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/": "2026-10-26T22:55:34Z",
-    "https://therecord.media/quest-diagnostics-network-intrusion": "2026-10-26T22:55:34Z"
+    "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/": "2026-10-26T23:15:37.456892+00:00",
+    "https://therecord.media/quest-diagnostics-network-intrusion": "2026-10-26T22:55:34Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/27/56582.html": "2026-10-26T23:15:37.456892+00:00",
+    "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/": "2026-10-26T23:15:37.456892+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-26T19:18:58Z",
-      "summary": "新規・更新の掲載なし。国内外の新着一覧を照合し、Security NEXT・ScanNetSecurityの対象記事は既存IDで掲載済みと確認。佐川急便の約5323万件(のべ)はSecurity NEXT1媒体のみで一次情報を取得できず更新を見送り、エスケーロジは一次告知が画像で本文を読めず未検証として持越し。必須再調査8件を再確認したが、いずれも掲載基準未達で持越し。",
-      "run_id": "40385175058",
-      "main_sha": "bbf8320174f0c00239140cf07e549687268de3b1"
+      "completed_at": "2026-10-26T23:15:37.456892+00:00",
+      "summary": "国内外の新着一覧を確認。新規候補(リゾートトラスト、エスケーロジ、コペンハーゲン大学、DreamHost)は出典要件を満たせずdeferredで、data/は変更なし。必須再調査8件はすべてdeferredのまま持越し(うち検索で再確認できたのはKimberly-Clark、Aon、NHK見出しのみで、他は今回再調査できていない)。",
+      "run_id": "40417679477",
+      "main_sha": "a625309fd6b079fb3a31a19356d6a0a4ed8425e9"
     },
     "historical": {
       "completed_at": "2026-10-26T22:55:34Z",
@@ -614,9 +623,9 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "40415705127",
-    "completed_at": "2026-10-26T22:55:55.976493+00:00",
+    "mode": "fresh",
+    "run_id": "40417679477",
+    "completed_at": "2026-10-26T23:16:00.700950+00:00",
     "result": "success",
     "error": null,
     "main_sha": "a625309fd6b079fb3a31a19356d6a0a4ed8425e9"
