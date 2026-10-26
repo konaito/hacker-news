@@ -11321,21 +11321,35 @@
     "company": "NTTソルマーレ",
     "service": "電子書店「コミックシーモア」",
     "region": "JP",
-    "status": "possible_leak",
-    "display_label": "漏えいの可能性",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
     "category": "エンタメ・配信",
-    "title": "コミックシーモアで不正アクセスの可能性、サービスを停止し会員情報の流出を調査",
-    "summary": "運営のNTTソルマーレは10月15日、サーバーへの外部からの不正アクセスの可能性が高いとしてサービスを停止しました。Security NEXTは、メールアドレス・生年月日・性別・ニックネーム・パスワードのハッシュ値などの会員情報に関わる可能性があると伝えています。",
-    "note": "NHK本文はサービス停止と不正アクセスの可能性のみを伝え、データ項目や件数は記載していません。データ項目はSecurity NEXTの記載に基づき、対象件数は未公表です。購買履歴の流出は確認されていないとされます。運営の公式告知本文は直接取得できておらず、発生日も不明です。",
-    "affected": [],
+    "title": "コミックシーモアで会員情報319件、システムログ最大約420万件の流出を確認(第4報)",
+    "summary": "運営のNTTソルマーレは10月15日にサービスを停止し、10月21日の第4報で、会員データベースの319件と、システムログ内の情報最大約420万件の流出を確認したと公表しました。",
+    "note": "ログの約420万件は最大値で、同一利用者の重複を含む可能性があり人数ではありません。会員DBはメールアドレス・ハッシュ化パスワード・ニックネーム・生年月日・性別、ログはパスワードを含まない同種項目。クレジットカード情報は対象システムで保有せず、購入履歴等の流出は未確認とされます。発生日は不明です。",
+    "affected": [
+      {
+        "count": 319,
+        "unit": "records",
+        "description": "会員データベースから流出が確認された件数",
+        "source_id": "comic-cmoa-nttsolmare-2026-3"
+      },
+      {
+        "count": 4200000,
+        "unit": "records",
+        "description": "システムログ内の流出情報の最大件数。重複の可能性があり人数ではない",
+        "source_id": "comic-cmoa-nttsolmare-2026-3"
+      }
+    ],
     "sources": [
+      "comic-cmoa-nttsolmare-2026-3",
       "comic-cmoa-nttsolmare-2026-1",
       "comic-cmoa-nttsolmare-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-19",
-    "last_verified_at": "2026-10-19",
-    "verification_note": "Security NEXT(10月19日)とNHK(10月15日)の本文を確認し、サービス停止と不正アクセスの可能性が一致。公式告知は未取得で、件数は未公表のため記載しない。"
+    "last_verified_at": "2026-10-26",
+    "verification_note": "NTTソルマーレ第4報(10/21)の本文を確認し件数・項目・重複の注記を突合。Security NEXT・NHK本文も再確認。"
   },
   {
     "id": "bullhorn-2026",

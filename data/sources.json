@@ -5710,5 +5710,12 @@
     "type": "reporting",
     "url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
     "title": "Albert Heijn"
+  },
+  {
+    "id": "comic-cmoa-nttsolmare-2026-3",
+    "publisher": "NTTソルマーレ",
+    "type": "primary",
+    "url": "https://www.nttsolmare.com/press/2026/1021.html",
+    "title": "コミックシーモアへの不正アクセスに関するお知らせ(第4報)"
   }
 ]
