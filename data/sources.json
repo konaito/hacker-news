@@ -5654,5 +5654,26 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html",
     "title": "厚生労働省 委託事業で個人情報が漏えい"
+  },
+  {
+    "id": "sourcenext-id-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191549",
+    "title": "会員情報約2252万件が流出した可能性 - ソースネクスト"
+  },
+  {
+    "id": "sourcenext-id-2026-2",
+    "publisher": "@IT(ITmedia)",
+    "type": "reporting",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news010.html",
+    "title": "ソースネクストで2251万件超の情報流出 退会者含めたユーザーパスワードも漏えい"
+  },
+  {
+    "id": "sourcenext-id-2026-3",
+    "publisher": "INTERNET Watch(Impress)",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2148588.html",
+    "title": "ソースネクストの会員情報2251万件超が流出の可能性"
   }
 ]
