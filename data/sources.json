@@ -5675,5 +5675,40 @@
     "type": "reporting",
     "url": "https://internet.watch.impress.co.jp/docs/news/2148588.html",
     "title": "ソースネクストの会員情報2251万件超が流出の可能性"
+  },
+  {
+    "id": "yumilink-mail-delivery-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191652",
+    "title": "複数システムに不正アクセス、個人情報が流出 - ユミルリンク"
+  },
+  {
+    "id": "yumilink-mail-delivery-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261019de61855",
+    "title": "ユミルリンク 不正アクセスで個人情報流出か メールアドレスなど約900万件"
+  },
+  {
+    "id": "yumilink-mail-delivery-2026-3",
+    "publisher": "埼玉県",
+    "type": "primary",
+    "url": "https://www.pref.saitama.lg.jp/a0903/news/page/news2026102001.html",
+    "title": "ユミルリンク株式会社で発生した不正アクセスに伴う個人情報流出の可能性について"
+  },
+  {
+    "id": "ahold-delhaize-october-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+    "title": "Ahold Delhaize cyberattack affects services across US and Europe"
+  },
+  {
+    "id": "ahold-delhaize-october-2026-4",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+    "title": "Albert Heijn"
   }
 ]
