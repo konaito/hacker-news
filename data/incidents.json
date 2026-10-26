@@ -1,5 +1,101 @@
 [
   {
+    "id": "yakiniku-king-app-2026",
+    "published_at": "2026-10-05",
+    "occurred_at": "2026-10-02",
+    "company": "物語コーポレーション",
+    "service": "焼肉きんぐ公式アプリ会員管理システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "飲食",
+    "title": "「焼肉きんぐ」公式アプリの会員管理システムに不正アクセス、会員情報10,788,963件が流出",
+    "summary": "物語コーポレーションは10月5日、焼肉きんぐ公式アプリの会員管理システムへの第三者の不正アクセスで、会員番号・氏名・メールアドレス・電話番号が流出したと公表しました。流出件数は10,788,963件で、アプリ登録者10,808,784人の大半にあたります。",
+    "note": "10月2日に不正アクセスを確認、3日に流出が判明。件数は件(レコード)で、人数へは換算していません。パスワード・生年月日・性別・住所・ポイント・利用履歴は流出対象外とされ、決済情報は保有していません。公開や悪用は確認されていないとされ、原因は調査中です。ScanNetSecurityの報道は10月26日付。",
+    "affected": [
+      {
+        "count": 10788963,
+        "unit": "records",
+        "description": "流出した会員情報の件数(アプリ登録者10,808,784人中)",
+        "source_id": "yakiniku-king-app-2026-1"
+      }
+    ],
+    "sources": [
+      "yakiniku-king-app-2026-1",
+      "yakiniku-king-app-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-26",
+    "last_verified_at": "2026-10-26",
+    "verification_note": "公式発表本文(発覚経緯・流出項目・件数・対象外項目・原因調査中)とScanNetSecurity本文を確認し一致。件数は件で人数換算なし。"
+  },
+  {
+    "id": "mlit-hakuhodo-shoene-2026",
+    "published_at": "2026-10-20",
+    "occurred_at": null,
+    "company": "国土交通省(事務局:博報堂)",
+    "service": "住宅省エネ2024キャンペーン事務局の事業者登録システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "行政・公共",
+    "title": "住宅省エネ2024キャンペーンの事務局システムに外部から不正操作、登録事業者の個人情報最大23,918人分が漏えいの可能性",
+    "summary": "国土交通省は10月20日、住宅省エネ2024キャンペーン事務局の博報堂が運営するシステムに外部から不正操作があり、登録事業者の情報が漏えいした可能性があると発表しました。速報値で16,950事業者・23,918人分が対象です。",
+    "note": "発生日は未公表。対象は事業者の代表者・個人事業主・補助金担当者の氏名、肩書、住所、部署、電話番号、メールアドレス等で、一般消費者の情報漏えいは確認されていません。原因・被害範囲は博報堂が調査中で、数値は速報値です。システム機能は全面停止中です。 対象事業者数は速報値で16,950事業者(単位が異なるため件数欄には含めていません)。",
+    "affected": [
+      {
+        "count": 23918,
+        "unit": "people",
+        "description": "漏えいの可能性がある事業者関係者の個人情報(速報値)",
+        "source_id": "mlit-hakuhodo-shoene-2026-1"
+      }
+    ],
+    "sources": [
+      "mlit-hakuhodo-shoene-2026-1",
+      "mlit-hakuhodo-shoene-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-26",
+    "last_verified_at": "2026-10-26",
+    "verification_note": "国交省公表本文(事務局システムへの外部不正操作、速報値の件数・項目、消費者情報は未確認、原因調査中)とSecurity NEXT本文を確認し一致。Security NEXTの見出しは「流出」だが公式は「可能性」。"
+  },
+  {
+    "id": "mhlw-1fedu-2026",
+    "published_at": "2026-10-22",
+    "occurred_at": null,
+    "company": "厚生労働省(委託先:テクノヒル)",
+    "service": "被ばく低減対策普及啓発事業の研修サイト「1FEdu」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "行政・公共",
+    "title": "厚労省委託事業の研修サイト「1FEdu」へのサイバー攻撃で、6人分の認証情報漏えいと不正ログインを確認、最大595人分に漏えいの可能性",
+    "summary": "厚生労働省は10月22日、委託先テクノヒルが運営する福島第一原発廃炉作業の被ばく低減対策研修サイト「1FEdu」が第三者のサイバー攻撃を受けたと公表しました。6人分のメールアドレスとパスワードの漏えいと不正ログインを確認し、同DBの最大595人分の登録情報も漏えいした可能性があります。",
+    "note": "発生日は未公表。確認済みは6人分の認証情報、可能性は受講登録者最大595人分(6人を含む)の氏名・所属・連絡先・勤務経験等で、人数の単位が異なるため合算していません。サービスは停止し外部アクセスを遮断済み、二次被害は確認されていません。",
+    "affected": [
+      {
+        "count": 6,
+        "unit": "people",
+        "description": "メールアドレスとパスワードの漏えいを確認した人数(不正ログインも確認)",
+        "source_id": "mhlw-1fedu-2026-1"
+      },
+      {
+        "count": 595,
+        "unit": "people",
+        "description": "漏えいの可能性がある受講登録者(上記6人を含む、最大)",
+        "source_id": "mhlw-1fedu-2026-1"
+      }
+    ],
+    "sources": [
+      "mhlw-1fedu-2026-1",
+      "mhlw-1fedu-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-26",
+    "last_verified_at": "2026-10-26",
+    "verification_note": "厚労省公表本文(攻撃、6人分の確認済み漏えいと不正ログイン、最大595人分の可能性、対応)とScanNetSecurity本文を確認し一致。"
+  },
+  {
     "id": "monex-account-opening-2026",
     "published_at": "2026-10-20",
     "occurred_at": null,

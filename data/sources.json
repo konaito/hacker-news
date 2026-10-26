@@ -5612,5 +5612,47 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
     "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks"
+  },
+  {
+    "id": "yakiniku-king-app-2026-1",
+    "publisher": "物語コーポレーション",
+    "type": "primary",
+    "url": "https://www.yakiniku-king.jp/news/6875/",
+    "title": "焼肉きんぐ公式アプリ会員情報の流出に関するお詫びとお知らせ"
+  },
+  {
+    "id": "yakiniku-king-app-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56563.html",
+    "title": "「焼肉きんぐ」公式アプリ会員管理システムに不正アクセス"
+  },
+  {
+    "id": "mlit-hakuhodo-shoene-2026-1",
+    "publisher": "国土交通省",
+    "type": "primary",
+    "url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
+    "title": "住宅省エネ2024キャンペーン事務局のシステムにおける不正操作及び事業者情報漏えいの可能性について"
+  },
+  {
+    "id": "mlit-hakuhodo-shoene-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191780",
+    "title": "キャンペーン事務局のシステムに不正アクセス、個人情報が流出 - 国交省"
+  },
+  {
+    "id": "mhlw-1fedu-2026-1",
+    "publisher": "厚生労働省",
+    "type": "primary",
+    "url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+    "title": "委託事業に係る個人情報の漏えいについて"
+  },
+  {
+    "id": "mhlw-1fedu-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html",
+    "title": "厚生労働省 委託事業で個人情報が漏えい"
   }
 ]
