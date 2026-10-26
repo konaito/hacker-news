@@ -5717,5 +5717,40 @@
     "type": "primary",
     "url": "https://www.nttsolmare.com/press/2026/1021.html",
     "title": "コミックシーモアへの不正アクセスに関するお知らせ(第4報)"
+  },
+  {
+    "id": "yuid-yuyu-point-2026-1",
+    "publisher": "日本郵政",
+    "type": "primary",
+    "url": "https://www.japanpost.jp/news/pressrelease/20261019_01/",
+    "title": "第三者による不正利用および会員情報漏えいの可能性について(ゆうID)"
+  },
+  {
+    "id": "yuid-yuyu-point-2026-2",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2149657.html",
+    "title": "日本郵政「ゆうID」に不正ログイン、249アカウントで会員情報が閲覧された可能性"
+  },
+  {
+    "id": "yuid-yuyu-point-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html",
+    "title": "日本郵政「ゆうゆうポイントサイト」を緊急サービス停止"
+  },
+  {
+    "id": "valtec-mot-2026-1",
+    "publisher": "バルテック",
+    "type": "primary",
+    "url": "https://www.webjapan.co.jp/maintenance/serviceteishi261022/",
+    "title": "サービス停止に関するお知らせ(不正アクセス)"
+  },
+  {
+    "id": "valtec-mot-2026-2",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2150396.html",
+    "title": "バルテックに不正アクセス、業務系クラウドなど複数サービスが停止"
   }
 ]
