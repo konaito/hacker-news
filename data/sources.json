@@ -5857,5 +5857,33 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
     "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets"
+  },
+  {
+    "id": "kushiro-portas-2026-1",
+    "publisher": "釧路市",
+    "type": "primary",
+    "url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html",
+    "title": "学習用端末管理委託先でのランサムウェア被害について"
+  },
+  {
+    "id": "kushiro-portas-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56605.html",
+    "title": "釧路市が市立小中学校の学習用端末の管理運用を委託しているポータスにランサムウェア攻撃"
+  },
+  {
+    "id": "eyelashgarage-ec-2026-1",
+    "publisher": "アイラッシュガレージ",
+    "type": "primary",
+    "url": "https://eyelashgarage.co.jp/information/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e5%ae%a2%e6%a7%98%e6%83%85%e5%a0%b1%e6%bc%8f%e6%b4%a9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab/",
+    "title": "不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ"
+  },
+  {
+    "id": "eyelashgarage-ec-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56603.html",
+    "title": "アイラッシュガレージECサイトに不正アクセス、4万9,191件の顧客情報が漏えい"
   }
 ]

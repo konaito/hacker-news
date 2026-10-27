@@ -12561,5 +12561,77 @@
     "first_seen_at": "2026-10-27",
     "last_verified_at": "2026-10-27",
     "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10月23日のFile Manager障害、パスワード強制リセット、侵害未確認、件数非公表で一致。DreamHost公式ステータス本文は未取得。"
+  },
+  {
+    "id": "kushiro-portas-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-08-29",
+    "company": "釧路市(委託先ポータス)",
+    "service": "市立小中学校の学習用端末管理運用",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "教育",
+    "title": "釧路市の学習用端末管理委託先ポータスがランサムウェア被害、児童生徒・教職員のアカウント情報などの漏えいを否定できず",
+    "summary": "釧路市が市立小中学校の学習用端末の管理運用を委託するポータスで、8月29日に社内サーバがランサムウェア攻撃を受けました。当初は市のサーバへの影響はないとされましたが、外部調査で市の端末設定情報を保管するサーバに不正アクセスの痕跡が見つかり、10月13日に情報漏えいの可能性を否定できないと報告されました。対象は児童生徒・教職員のアカウント情報(学校名・氏名・フリガナ・アカウント名・パスワード)と、全39校のネットワーク機器・学校メールの管理者パスワードです。",
+    "note": "令和2年・7年・8年の年度別のアカウント記録数で、同一人物が年度をまたいで重複する可能性があるため合算していません。管理者パスワードの対象は全39校です。住所・生年月日・電話番号・口座情報・成績・健康診断情報は含まれないと市は説明。情報の公開や悪用は確認されていません。",
+    "affected": [
+      {
+        "count": 11106,
+        "unit": "records",
+        "description": "令和2年の児童生徒アカウント記録(漏えいの可能性)",
+        "source_id": "kushiro-portas-2026-1"
+      },
+      {
+        "count": 9252,
+        "unit": "records",
+        "description": "令和7年の児童生徒アカウント記録(漏えいの可能性)",
+        "source_id": "kushiro-portas-2026-1"
+      },
+      {
+        "count": 8284,
+        "unit": "records",
+        "description": "令和8年の児童生徒アカウント記録(漏えいの可能性)",
+        "source_id": "kushiro-portas-2026-1"
+      }
+    ],
+    "sources": [
+      "kushiro-portas-2026-1",
+      "kushiro-portas-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "釧路市の公式発表本文とScanNetSecurityの本文を照合。漏えいは可能性で、公開・悪用は未確認。"
+  },
+  {
+    "id": "eyelashgarage-ec-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-10-10",
+    "company": "アイラッシュガレージ",
+    "service": "ECサイト",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "EC・小売",
+    "title": "アイラッシュガレージのECサイトに不正アクセス、顧客情報4万9,191件が漏えい",
+    "summary": "アイラッシュガレージは、10月10日から12日にかけてECサイトへ不正アクセスがあり、10月10日23時55分時点で保存されていた顧客情報4万9,191件が漏えいしたと発表しました。漏えいしたのは会社名・サロン名・顧客名・営業形態・サロンURL・電話番号・メールアドレス・パスワードのハッシュ値・秘密の質問と回答のハッシュ値です。10月13日に検知し、同日中に経路を遮断しました。",
+    "note": "件数は顧客情報の件数で、人数ではありません。住所・配送情報・購入履歴・クレジットカード情報の漏えいは確認されていないと説明。情報の公開・悪用は確認されていません。",
+    "affected": [
+      {
+        "count": 49191,
+        "unit": "records",
+        "description": "漏えいした顧客情報の件数(人数ではない)",
+        "source_id": "eyelashgarage-ec-2026-1"
+      }
+    ],
+    "sources": [
+      "eyelashgarage-ec-2026-1",
+      "eyelashgarage-ec-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "発表主体の本文とScanNetSecurityの本文を照合。件数は件(records)として扱う。"
   }
 ]
