@@ -5780,5 +5780,19 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
     "title": "Genesys Hack Exposes Customer Data From Internal Systems"
+  },
+  {
+    "id": "ku-copenhagen-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+    "title": "University of Copenhagen data breach exposes data of 525,000 people"
+  },
+  {
+    "id": "ku-copenhagen-2026-2",
+    "publisher": "TV2 Kosmopol",
+    "type": "reporting",
+    "url": "https://www.tv2kosmopol.dk/koebenhavn/kobenhavns-universitet-udsat-for-et-cyberangreb-d8abc",
+    "title": "Københavns Universitet hacket – 525.000 personer kan være berørt"
   }
 ]

@@ -12452,5 +12452,35 @@
     "first_seen_at": "2026-10-27",
     "last_verified_at": "2026-10-27",
     "verification_note": "Genesys公式の更新ページ本文(10月16日把握、LMS・CRM侵入、10月23日封じ込め、主要プラットフォーム非影響、調査継続)と、SecurityWeek本文(データ項目、件数なし、未検証の犯行声明)を確認し一致。発表の「閲覧および/または取得」の表現を超えて流出量を補っていない。"
+  },
+  {
+    "id": "ku-copenhagen-2026",
+    "published_at": "2026-10-23",
+    "occurred_at": null,
+    "company": "コペンハーゲン大学（デンマーク）",
+    "service": "大学のIT環境",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "コペンハーゲン大学がサイバー攻撃を公表、約52.5万人分の情報にアクセスされたと報道",
+    "summary": "同大学は10月23日(金)にサイバー攻撃を公表し、氏名、CPR番号(国民ID)、電話番号、私用メールアドレスなどを含む約52万5000人分の情報にハッカーがアクセスしたと報じられています。攻撃は火曜日に検知され、制御下に置かれたと説明されています。",
+    "note": "BleepingComputerは翌日に約2万人の職員・学生のPINコード流出が追加されたと報じていますが、1媒体のみのため件数には含めません。影響範囲は大学が分析中です。データ保護当局(Datatilsynet)へ届出済み。大学の一次ページは接続できず、2つの独立した報道本文の確認に基づきます。発生日は報道が相対表現のため不明扱いです。",
+    "affected": [
+      {
+        "count": 525000,
+        "unit": "people",
+        "description": "アクセスされた情報の対象者(大学の発表として報道)",
+        "source_id": "ku-copenhagen-2026-1"
+      }
+    ],
+    "sources": [
+      "ku-copenhagen-2026-1",
+      "ku-copenhagen-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-27",
+    "last_verified_at": "2026-10-27",
+    "verification_note": "BleepingComputerとTV2 Kosmopolの本文を確認し、約52.5万人、データ項目、検知から公表までの経過、当局届出が一致。大学の一次ページは接続拒否で未確認。"
   }
 ]
