@@ -5794,5 +5794,19 @@
     "type": "reporting",
     "url": "https://www.tv2kosmopol.dk/koebenhavn/kobenhavns-universitet-udsat-for-et-cyberangreb-d8abc",
     "title": "Københavns Universitet hacket – 525.000 personer kan være berørt"
+  },
+  {
+    "id": "kufu-machitalk-2026-1",
+    "publisher": "くふうカンパニー",
+    "type": "primary",
+    "url": "https://kufu.co.jp/2026/10/13/kufu-announce-2/",
+    "title": "「くふう まちトークβ版」への不正アクセスに関する調査結果のご報告"
+  },
+  {
+    "id": "kufu-machitalk-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56583.html",
+    "title": "「くふう まちトークβ版」に不正アクセス、生年月日・性別が外部から閲覧できる状態に"
   }
 ]
