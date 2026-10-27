@@ -5752,5 +5752,33 @@
     "type": "reporting",
     "url": "https://internet.watch.impress.co.jp/docs/news/2150396.html",
     "title": "バルテックに不正アクセス、業務系クラウドなど複数サービスが停止"
+  },
+  {
+    "id": "capcom-capcom-id-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56585.html",
+    "title": "CAPCOM ID 不正アクセス(第二報)"
+  },
+  {
+    "id": "onamae-desktop-cloud-2026-4",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56587.html",
+    "title": "お名前.com デスクトップクラウド 見舞金支払い(第4報)"
+  },
+  {
+    "id": "genesys-internal-2026-1",
+    "publisher": "Genesys",
+    "type": "primary",
+    "url": "https://www.genesys.com/blog/post/security-update-incident-affecting-certain-genesys-internal-business-systems",
+    "title": "Security Update: Incident Affecting Certain Genesys Internal Business Systems"
+  },
+  {
+    "id": "genesys-internal-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+    "title": "Genesys Hack Exposes Customer Data From Internal Systems"
   }
 ]
