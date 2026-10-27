@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-10-27T12:42:02.929459+00:00",
+  "completed_at": "2026-10-27T14:32:39.161334+00:00",
   "candidates": [
     {
       "title": "SafePay 600+組織(CISA/FBI)",
@@ -35,38 +35,6 @@
       "reason": "今回は再取得せず。サイバー攻撃の確認がなく持越し。"
     },
     {
-      "title": "Silent Ransom GroupのSNSリード",
-      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再調査せず。SNSリードは検証の代わりにならず持越し。"
-    },
-    {
-      "title": "小平市サイト停止の公開SNSリード",
-      "url": "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再検索したが得られたのはrocket-boys(二次)の1件のみ(10/8公表、委託先クラウド基盤へのランサムウェア、漏えい未確認)。市公式本文と独立2媒体の本文が未確認のため持越し。"
-    },
-    {
-      "title": "公開SNSでのKimberly-Clark被害主張",
-      "url": "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再検索でもSOCRadar等の脅威インテル掲載のみで、企業の声明・報道は見つからず。攻撃者主張は未検証のまま持越し。"
-    },
-    {
-      "title": "Deloitteに対するTheGentlemenの未確認主張",
-      "url": "https://www.vallanx.com/cyber-threat-monitor?pageb=53",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。未検証のまま持越し。"
-    },
-    {
       "title": "CNESTENへのQilinの主張",
       "url": "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/",
       "priority": "high",
@@ -81,38 +49,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は再取得せず。主張のみで未検証のまま持越し。"
-    },
-    {
-      "title": "BLACK XによるBayer等の未確認主張",
-      "url": "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。攻撃者の主張で未検証のまま持越し。"
-    },
-    {
-      "title": "skyticketの9月9日の会員1名への不正ログイン",
-      "url": "https://skyticket.jp/news/maintenance/67603",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。前回HTTP 403で本文を読めず未検証のまま持越し。"
-    },
-    {
-      "title": "焼肉きんぐ公式アプリ会員管理システム不正アクセス(1,078万8,963件)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56563.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet一覧の見出しのみ確認。本文・公式は未読のため次回優先で検証。"
-    },
-    {
-      "title": "お名前.com デスクトップクラウド不正アクセス(GMO)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56564.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNetとSecurity NEXTの一覧で見出しのみ確認。本文未読のため次回優先で検証。"
     },
     {
       "title": "Kimberly-ClarkへのShinyHunters恐喝主張",
@@ -290,22 +226,6 @@
       "requires_recheck": true
     },
     {
-      "title": "University of Copenhagen 約52.5万人のデータ侵害",
-      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文確認(テスト環境侵入、約52.5万人、CPR等)。大学の一次発表・独立2媒体は未取得、検索でも二次確認できず。次回再調査。"
-    },
-    {
-      "title": "DreamHost 強制パスワードリセット",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文確認。10/23以降の障害とリセット、侵害は未確認、件数不明。1媒体のみ。"
-    },
-    {
       "title": "UNM Health System サイバー問題で患者受入停止",
       "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
       "priority": "high",
@@ -418,22 +338,6 @@
       "reason": "一覧の見出しのみ確認。既存レコードとの照合・本文未読。次回優先。"
     },
     {
-      "title": "バンナム子会社 一番くじONLINE",
-      "url": "https://www.security-next.com/191994",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。既存レコードとの照合・本文未読。次回優先。"
-    },
-    {
-      "title": "GMOへの身代金要求",
-      "url": "https://www.security-next.com/191999",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。既存レコードとの照合・本文未読。次回優先。"
-    },
-    {
       "title": "DreamHost incident",
       "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
       "priority": "high",
@@ -448,6 +352,86 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧の見出しのみ確認。既存レコードとの照合・本文未読。次回優先。"
+    },
+    {
+      "title": "BLACK XによるBayer等の未確認主張",
+      "url": "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず。攻撃者の主張で未検証のまま持越し。"
+    },
+    {
+      "title": "skyticketの9月9日の会員1名への不正ログイン",
+      "url": "https://skyticket.jp/news/maintenance/67603",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回も公式ページがHTTP 403で本文を読めず未検証のまま持越し。"
+    },
+    {
+      "title": "Silent Ransom GroupのSNSリード",
+      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。SNSリードは検証の代わりにならず持越し。"
+    },
+    {
+      "title": "小平市サイト停止の公開SNSリード",
+      "url": "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。市公式本文と独立2媒体の本文が未確認のため持越し。"
+    },
+    {
+      "title": "公開SNSでのKimberly-Clark被害主張",
+      "url": "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索でも企業声明・信頼できる報道は見つからず。攻撃者主張は未検証のまま持越し。"
+    },
+    {
+      "title": "Deloitteに対するTheGentlemenの未確認主張",
+      "url": "https://www.vallanx.com/cyber-threat-monitor?pageb=53",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索で得られたのはDutchITChannelの1件のみ(10/12、HookPhish経由の主張)。Deloitteの確認なし、未検証のまま持越し。"
+    },
+    {
+      "title": "バンナム子会社(バンダイロジパル)「一番くじONLINE」配送情報流出か",
+      "url": "https://www.security-next.com/191994",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文のみ確認(10/21検知、10/26個人情報保護委員会へ報告、氏名・住所・電話番号、件数不明)。公式未取得、独立2媒体未確認のため次回優先で検証。"
+    },
+    {
+      "title": "University of Copenhagen data breach(525,000人)",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認。大学公式は接続拒否、独立報道は検索で見つからず。次回優先で検証。"
+    },
+    {
+      "title": "ENGIE顧客データ漏えい(フランス)",
+      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認。パートナー用マーケティングツール経由、件数不明。公式声明本文は未取得。"
+    },
+    {
+      "title": "DreamHostの不正インシデントとパスワード強制リセット",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認。原因・漏えい有無・件数は不明。公式ステータスページ未取得。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -534,7 +518,7 @@
     "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-10-26T23:15:37.456892+00:00",
     "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-10-26T22:55:34Z",
     "rakuten-data-sale-claim-2026": "2026-10-27T12:41:40Z",
-    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-26T22:55:34Z",
+    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-10-27T14:32:12Z",
     "ftapi-2026": "2026-10-27T05:39:00.011440+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-10-27T05:39:00.011440+00:00",
     "tottori-care-provider-email-2026": "2026-10-27T12:41:40Z",
@@ -546,23 +530,23 @@
     "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-27T07:50:56Z",
     "https://www.security-next.com/190739": "2026-10-27T12:41:40Z",
     "andover-town-schools-2026": "2026-10-27T05:39:00.011440+00:00",
-    "https://skyticket.jp/news/maintenance/67603": "2026-10-26T22:55:34Z",
+    "https://skyticket.jp/news/maintenance/67603": "2026-10-27T14:32:12Z",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-27T07:50:56Z",
     "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/": "2026-10-27T12:41:40Z",
     "https://s-que.net/news/20261008/": "2026-10-27T12:41:40Z",
     "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-26T23:15:37.456892+00:00",
     "rhyne-industrial-company-2023": "2026-10-27T12:41:40Z",
-    "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-26T22:55:34Z",
+    "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-27T14:32:12Z",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-27T07:50:56Z",
-    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-26T22:55:34Z",
-    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-26T22:55:34Z",
+    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-27T14:32:12Z",
+    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-27T14:32:12Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-27T12:41:40Z",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-10-27T12:41:40Z",
     "https://www.security-next.com/190136": "2026-10-27T12:41:40Z",
     "https://www.ransomlook.io/recent": "2026-10-27T12:41:40Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-26T22:55:34Z",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-27T05:39:00.011440+00:00",
-    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-26T22:55:34Z",
+    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-27T14:32:12Z",
     "https://haveibeenpwned.com/breach/neogen": "2026-10-27T07:50:56Z",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-10-27T07:50:56Z",
     "https://haveibeenpwned.com/breach/angelone": "2026-10-27T07:50:56Z",
@@ -585,23 +569,21 @@
     "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-10-27T05:39:00.011440+00:00",
     "https://news.web.nhk/newsweb/na/nd-20261019de61855": "2026-10-26T23:15:37.456892+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56563.html": "2026-10-26T22:55:34Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56564.html": "2026-10-26T22:55:34Z",
-    "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/": "2026-10-27T07:50:56Z",
+    "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/": "2026-10-27T14:32:12Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/27/56582.html": "2026-10-27T12:41:40Z",
-    "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/": "2026-10-27T07:50:56Z",
+    "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/": "2026-10-27T14:32:12Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/27/56583.html": "2026-10-27T05:39:00.011440+00:00",
     "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": "2026-10-27T07:50:56Z",
-    "https://www.security-next.com/191994": "2026-10-27T12:41:40Z",
-    "https://www.security-next.com/191999": "2026-10-27T12:41:40Z",
+    "https://www.security-next.com/191994": "2026-10-27T14:32:12Z",
     "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/": "2026-10-27T12:41:40Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/27/56576.html": "2026-10-27T12:41:40Z"
+    "https://scan.netsecurity.ne.jp/article/2026/10/27/56576.html": "2026-10-27T12:41:40Z",
+    "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/": "2026-10-27T14:32:12Z"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-27T07:50:56Z",
-      "summary": "必須4経路と持越し再調査8件を実施。新規掲載・更新なし。Copenhagen大学、DreamHost、UNM Health、リゾートトラストは本文を確認したが、一次または独立2媒体の確認が揃わず持越し。eMudhraは鍵の脆弱性で対象外。",
-      "run_id": "40469290200",
+      "completed_at": "2026-10-27T14:32:12Z",
+      "summary": "データ変更なし。必須再調査のうち焼肉きんぐ・お名前.comは既存IDと本文で照合済み(重複)。新着のコペンハーゲン大学・バンナム子会社・ENGIE・DreamHostは独立2媒体/一次本文を確認できず未掲載(deferred)。skyticket等は未検証のまま持越し。",
+      "run_id": "40521280763",
       "main_sha": "9b842b2f039b23275f13d7b62076efe35bf659b4"
     },
     "historical": {
@@ -612,9 +594,9 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "40505542789",
-    "completed_at": "2026-10-27T12:42:02.929459+00:00",
+    "mode": "fresh",
+    "run_id": "40521280763",
+    "completed_at": "2026-10-27T14:32:39.161334+00:00",
     "result": "success",
     "error": null,
     "main_sha": "9b842b2f039b23275f13d7b62076efe35bf659b4"
