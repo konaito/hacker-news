@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-10-26T23:16:00.700950+00:00",
+  "completed_at": "2026-10-27T02:07:56.156416+00:00",
   "candidates": [
-    {
-      "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
-      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文再確認(10/6、Patchstack由来)。侵害サイト数・被害組織なし、1媒体のため持越し"
-    },
-    {
-      "title": "H&Mへの未確認の侵害主張",
-      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文再確認(10/13)。H&Mは侵害の兆候なしと回答、攻撃者の主張のみのため未掲載で持越し"
-    },
-    {
-      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
-      "url": "https://www.derp.ca/ransomware/thegentlemen/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索で再調査。リーク掲載の主張のみで両組織の確認なし。持越し"
-    },
-    {
-      "title": "953のオンラインストアに感染するマルウェアキャンペーン",
-      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文確認。Sansec由来の1媒体報道で被害組織名なし。次回以降に2媒体目を確認"
-    },
     {
       "title": "さくらさくみらい利用クラウド事業者への不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html",
@@ -83,49 +51,9 @@
       "reason": "今回は本文を再取得せず。確認済みとは主張しない。持越し。"
     },
     {
-      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
-      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。持越し。"
-    },
-    {
-      "title": "都内自治体でシステム障害相次ぐ",
-      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。持越し。"
-    },
-    {
-      "title": "厚労省委託事業で個人情報が漏えい",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認。誤公開等の可能性があり本文・公式発表は未確認。次回優先。"
-    },
-    {
-      "title": "eMudhra、セキュリティインシデント後に証明書事業撤退",
-      "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認。本文未読・既存レコードの有無も未精査。次回優先。"
-    },
-    {
       "title": "Toronto crime tips org freezes operations after data breach",
       "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
       "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認。本文未読。次回優先。"
-    },
-    {
-      "title": "South Carolina州都がサイバー攻撃",
-      "url": "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
-      "priority": "high",
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧タイトルのみ確認。本文未読。次回優先。"
@@ -427,36 +355,193 @@
       "reason": "今回は再調査せず。持越し"
     },
     {
-      "title": "リゾートトラストのWebサイト不正アクセス(会員約2.6万件・予約者約3.6万件)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56582.html",
+      "title": "厚労省委託の福島第一廃炉作業向け講習サイト「1FEdu」に不正アクセス、6人の認証情報が漏えい・不正ログイン、最大595人分の情報が漏えいした可能性",
+      "url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+      "incident_id": "mhlw-1fedu-2026",
       "priority": "high",
       "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNetSecurity本文は確認。公式PDFはバイナリで本文を読めず、独立した2媒体目の本文未確認のため未掲載。次回再調査"
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
     },
     {
-      "title": "エスケーロジへのランサムウェア攻撃",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
-      "priority": "normal",
+      "title": "eMudhra、セキュリティインシデント後に証明書事業撤退",
+      "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+      "incident_id": null,
+      "priority": "high",
       "decision": "deferred",
-      "incident_id": null,
-      "reason": "公式お知らせは画像のみで本文を読めず、ScanNetSecurity1媒体のみのため未掲載"
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
     },
     {
-      "title": "University of Copenhagen test environment breach (525,000 people)",
+      "title": "South Carolina州都がサイバー攻撃",
+      "url": "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
+      "incident_id": "columbia-sc-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "WordPressの2プラグインを狙うXSS・永続化キャンペーン",
+      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "H&Mへの未確認の侵害主張",
+      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
+      "url": "https://www.derp.ca/ransomware/thegentlemen/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "都内自治体でシステム障害相次ぐ",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
       "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "incident_id": null,
       "priority": "high",
       "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文のみ確認。大学公式は接続拒否で未確認、検索でも他媒体なし。次回再調査"
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
     },
     {
-      "title": "DreamHost強制パスワードリセット",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "title": "UNM Health System cybersecurity issue",
+      "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+      "incident_id": null,
       "priority": "high",
       "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "リゾートトラストのウェブサイトに不正アクセス、約26,000件の会員情報が漏えい",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56582.html",
       "incident_id": null,
-      "reason": "侵害の有無・原因・件数が未確認で報道は1媒体のみ。HNコメントは憶測。持越し"
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "DreamHost forces password resets in ongoing incident",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "エスケーロジにランサムウェア攻撃、一部の社内情報の漏えいを確認",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "「くふう まちトークβ版」に不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56583.html",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "CAPCOM ID 不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56585.html",
+      "incident_id": "capcom-capcom-id-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "ミスターマックス不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56580.html",
+      "incident_id": "mrmax-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "お名前.com デスクトップクラウド 見舞金支払い",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56587.html",
+      "incident_id": "onamae-desktop-cloud-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "佐川急便 流出対象件数",
+      "url": "https://www.security-next.com/191906",
+      "incident_id": "sagawa-2026",
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
+    },
+    {
+      "title": "PHP2Shell・Arista VCO等の脆弱性悪用",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "incident_id": null,
+      "priority": "high",
+      "decision": "deferred",
+      "requires_recheck": true,
+      "reason": "Unfinished Actions audit; verify source bodies before publication."
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -596,10 +681,8 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-10-26T23:15:37.456892+00:00",
     "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/": "2026-10-26T12:59:35Z",
     "https://news.web.nhk/newsweb/na/nd-20261019de61855": "2026-10-26T23:15:37.456892+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html": "2026-10-26T13:36:08+00:00",
     "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident": "2026-10-26T13:36:08+00:00",
     "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach": "2026-10-26T13:36:08+00:00",
-    "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident": "2026-10-26T13:36:08+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/23/56555.html": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56563.html": "2026-10-26T22:55:34Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56564.html": "2026-10-26T22:55:34Z",
@@ -624,10 +707,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "40417679477",
-    "completed_at": "2026-10-26T23:16:00.700950+00:00",
-    "result": "success",
-    "error": null,
+    "run_id": "40436143250",
+    "completed_at": "2026-10-27T02:07:56.156416+00:00",
+    "result": "failure",
+    "error": "Command '['/opt/hostedtoolcache/Python/3.12.15/x64/bin/python3', 'scripts/validate.py']' returned non-zero exit status 1.",
     "main_sha": "a625309fd6b079fb3a31a19356d6a0a4ed8425e9"
   }
 }
