@@ -12512,5 +12512,54 @@
     "first_seen_at": "2026-10-27",
     "last_verified_at": "2026-10-27",
     "verification_note": "くふうカンパニーの10月13日付公式発表本文で日付・308名・1名のメール取得・対応を確認し、ScanNetSecurity本文とも一致。"
+  },
+  {
+    "id": "unm-health-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": "2026-10-26",
+    "company": "ニューメキシコ大学ヘルスサイエンスセンター(UNM Health)",
+    "service": "UNM Health 病院・診療所システム",
+    "region": "US",
+    "status": "disruption",
+    "display_label": "業務停止・原因調査中",
+    "category": "医療",
+    "title": "米UNM Healthでサイバー事案、救急搬送を一時停止し外来を中止",
+    "summary": "UNM Health Sciences Centerは10月26日、サイバーセキュリティ事案を受けて救急車の受け入れを一時停止し、全診療所の予約を取り消しました。法執行機関に通報し外部の専門家と対応しており、病院は開院を続け、診療所は27日に再開予定と説明しています。",
+    "note": "攻撃の性質や情報流出の有無は大学側が確認していません。従業員端末に表示されたとされる画面や、BYODを名乗るグループの犯行声明・3万6,000台などの主張は未検証で、被害件数にしていません。救急搬送の停止は報道により約2時間とされます。",
+    "affected": [],
+    "sources": [
+      "unm-health-2026-1",
+      "unm-health-2026-2",
+      "unm-health-2026-3",
+      "unm-health-2026-4",
+      "unm-health-2026-5"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-27",
+    "last_verified_at": "2026-10-27",
+    "verification_note": "KOB 4・The Register・Daily Lobo・SecurityWeek・The Recordの独立5媒体の本文を確認。発生日、救急搬送停止、診療所の予約中止、法執行機関への通報で一致。データ窃取・ランサムウェアは未確認として記載。"
+  },
+  {
+    "id": "dreamhost-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": "2026-10-23",
+    "company": "DreamHost",
+    "service": "File Manager・メール・FTP/SFTP",
+    "region": "US",
+    "status": "disruption",
+    "display_label": "障害・パスワード強制リセット",
+    "category": "IT・クラウド",
+    "title": "DreamHostでFile Manager停止、メール・FTPパスワードを予防的に強制リセット",
+    "summary": "DreamHostは10月23日ごろからFile Managerに問題が生じ、メール・FTP/SFTP利用者のパスワードを予防措置として強制リセットしました。SecurityWeekによれば修正を展開しFile Managerのアクセスは復旧したと説明しています。",
+    "note": "侵害やデータ漏えいは会社が確認しておらず、原因と影響件数は非公表です。転送ルールの確認を促した点を除き、アカウント侵害を示す事実は確認できていません。利用者の憶測は採用しません。",
+    "affected": [],
+    "sources": [
+      "dreamhost-2026-1",
+      "dreamhost-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-27",
+    "last_verified_at": "2026-10-27",
+    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10月23日のFile Manager障害、パスワード強制リセット、侵害未確認、件数非公表で一致。DreamHost公式ステータス本文は未取得。"
   }
 ]

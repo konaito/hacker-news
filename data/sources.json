@@ -5808,5 +5808,54 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56583.html",
     "title": "「くふう まちトークβ版」に不正アクセス、生年月日・性別が外部から閲覧できる状態に"
+  },
+  {
+    "id": "unm-health-2026-1",
+    "publisher": "KOB 4",
+    "type": "reporting",
+    "url": "https://www.kob.com/news/top-news/apparent-computer-hacking-attack-hits-unm-hospital/",
+    "title": "UNM Health cybersecurity threat: Ambulances diverted, clinics closed, students sent home"
+  },
+  {
+    "id": "unm-health-2026-2",
+    "publisher": "The Register",
+    "type": "reporting",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/27/day-2-of-canceled-classes-at-university-of-new-mexico-after-health-sciences-center-cyberattack/5305690",
+    "title": "Day 2 of canceled classes at University of New Mexico after Health Sciences Center cyberattack"
+  },
+  {
+    "id": "unm-health-2026-3",
+    "publisher": "The Daily Lobo",
+    "type": "reporting",
+    "url": "https://www.dailylobo.com/article/2026/10/cyberattack-forces-closure-of-unm-hsc-and-suspension-of-classes-research-through-tuesday",
+    "title": "Cyberattack forces closure of UNM HSC and suspension of classes, research through Tuesday"
+  },
+  {
+    "id": "unm-health-2026-4",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+    "title": "A Cybersecurity Issue Forces A Major New Mexico Hospital To Divert Patients, Close Clinics"
+  },
+  {
+    "id": "unm-health-2026-5",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+    "title": "University of New Mexico hospital diverts ambulances after cyberattack"
+  },
+  {
+    "id": "dreamhost-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+    "title": "DreamHost forces password resets in ongoing \"incident\""
+  },
+  {
+    "id": "dreamhost-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+    "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets"
   }
 ]
