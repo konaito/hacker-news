@@ -5885,5 +5885,40 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56603.html",
     "title": "アイラッシュガレージECサイトに不正アクセス、4万9,191件の顧客情報が漏えい"
+  },
+  {
+    "id": "yumilink-mail-delivery-2026-4",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192029",
+    "title": "49システムで情報流出、横展開など確認 - ユミルリンク"
+  },
+  {
+    "id": "onamae-desktop-cloud-2026-5",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+    "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat"
+  },
+  {
+    "id": "onamae-desktop-cloud-2026-6",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191999",
+    "title": "GMOに身代金要求 - ランサム攻撃や情報公開を行うと脅迫"
+  },
+  {
+    "id": "engie-marketing-platform-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+    "title": "Energy giant ENGIE discloses data breach affecting customers"
+  },
+  {
+    "id": "engie-marketing-platform-2026-2",
+    "publisher": "Fuites Infos",
+    "type": "reporting",
+    "url": "https://fuitesinfos.fr/article/2026-10-23-engie",
+    "title": "ENGIE: fuite de données clients (Fuites Infos)"
   }
 ]
