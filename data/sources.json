@@ -5990,5 +5990,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
     "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records"
+  },
+  {
+    "id": "jal-jta-amadeus-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002687/",
+    "title": "JAL・JTA 旅客システム(Amadeus)への不正アクセス 約9.2万人"
+  },
+  {
+    "id": "jal-jta-amadeus-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+    "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents"
   }
 ]

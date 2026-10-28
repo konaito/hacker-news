@@ -12823,5 +12823,41 @@
     "first_seen_at": "2026-10-28",
     "last_verified_at": "2026-10-28",
     "verification_note": "ドコモ公式告知、Security NEXT、BleepingComputerの本文で発生日(10/19)・項目・件数・ドコモ分44万3,495件を照合。ソニー公式PDFは403で本文未取得。"
+  },
+  {
+    "id": "jal-jta-amadeus-2026",
+    "published_at": "2026-10-28",
+    "occurred_at": null,
+    "company": "日本航空(JAL)・日本トランスオーシャン航空(JTA)",
+    "service": "旅客サービスシステム(Amadeus IT Group運営)",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "旅行・交通",
+    "title": "JAL・JTAの旅客システム(Amadeus)に不正アクセス、約9.2万人の予約情報が対象",
+    "summary": "JALとJTAは10月28日、予約・発券・搭乗手続きを担う旅客サービスシステムの委託先Amadeus IT Group(スペイン)で不正アクセスがあり、10月23日に報告を受けたと公表しました。ITmedia NEWSによると、対象は2023年8月10日から2026年9月23日までのJAL・JTA便の予約情報の一部で、約9.2万人です。約9万人は予約番号・氏名・搭乗日・区間・クラス、約2,000人はさらにメールアドレス、電話番号、パスポート番号、国籍、マイル番号などが対象です。運航への影響やクレジットカード番号・パスワードの流出は確認されていません。",
+    "note": "The Recordは約2,000人をJAL顧客としており、ITmedia NEWSの記述と細部の表現が異なります。不正アクセスの発生日は報道で明示されていません。JAL公式発表はHTTP 403で本文を取得できず、ITmedia NEWSとThe Recordの2媒体の本文に基づきます。",
+    "affected": [
+      {
+        "count": 92000,
+        "unit": "people",
+        "description": "予約情報が対象となった利用者の概数(ITmedia NEWS・The Record報道)",
+        "source_id": "jal-jta-amadeus-2026-1"
+      },
+      {
+        "count": 2000,
+        "unit": "people",
+        "description": "うち、パスポート番号等の追加項目が対象の概数(ITmedia NEWS報道)",
+        "source_id": "jal-jta-amadeus-2026-1"
+      }
+    ],
+    "sources": [
+      "jal-jta-amadeus-2026-1",
+      "jal-jta-amadeus-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "ITmedia NEWSとThe Recordの本文で公表日(10/28)・Amadeus経由・約9.2万人・約2千人の追加項目・カード番号非流出を照合。JAL公式は403で未取得。"
   }
 ]
