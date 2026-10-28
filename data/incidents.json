@@ -12780,5 +12780,48 @@
     "first_seen_at": "2026-10-28",
     "last_verified_at": "2026-10-28",
     "verification_note": "ScanNetSecurity(10/28)とROCKET BOYSの本文で、確認日・原因(アクセス制御不備)・項目・非該当情報を照合。トイポ公式Notionは本文取得不可。"
+  },
+  {
+    "id": "so-net-member-db-2026",
+    "published_at": "2026-10-27",
+    "occurred_at": "2026-10-19",
+    "company": "ソニーネットワークコミュニケーションズ",
+    "service": "So-net会員データベース(「ぷらら」Sコース含む)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "IT・通信",
+    "title": "So-netの会員データベースに不正アクセス、214万件超の会員情報が流出、ドコモ「ぷらら」契約者44万件超も対象",
+    "summary": "ソニーネットワークコミュニケーションズは、10月19日にSo-net会員データベースへ第三者から不正アクセスがあり、10月23日に個人情報の流出を確認したと公表しました。Security NEXTによると対象は会員情報214万1,986件(退会者27万2,215件を含む)で、氏名・電話番号・生年月日・性別・メールアドレス・ユーザーID・インターネット接続IDが含まれます。別に4つのメール関連サービスの54,401件のメールアドレスとパスワードも流出しました。NTTドコモは、委託先であるソニー側から10月26日に報告を受け、「ぷらら」(Sコース)契約者(解約後6か月以内を含む)44万3,495件が対象と公表しています。",
+    "note": "ドコモは対象項目にパスワード・クレジットカード・口座情報は含まれないと説明していますが、Security NEXTは別にメール関連サービスのパスワード流出を報じており、項目は対象サービスごとに異なります。ドコモ分44万3,495件はSo-net会員情報214万件と別枠として報じられる場合があり(BleepingComputerは合計258万5,481件と報道)、出典間で内訳の扱いが異なるため合算していません。ソニー側の公式PDFは取得できず(HTTP 403)、ドコモの公式告知と2媒体の本文に基づきます。二次被害は10月27日時点で確認されていません。",
+    "affected": [
+      {
+        "count": 2141986,
+        "unit": "records",
+        "description": "流出したSo-net会員情報(退会者27万2,215件を含む、Security NEXT報道)",
+        "source_id": "so-net-member-db-2026-2"
+      },
+      {
+        "count": 443495,
+        "unit": "records",
+        "description": "ドコモ「ぷらら」(Sコース)契約者の対象件数(ドコモ公表)",
+        "source_id": "so-net-member-db-2026-1"
+      },
+      {
+        "count": 54401,
+        "unit": "records",
+        "description": "メール関連サービスのメールアドレスとパスワード(Security NEXT報道)",
+        "source_id": "so-net-member-db-2026-2"
+      }
+    ],
+    "sources": [
+      "so-net-member-db-2026-1",
+      "so-net-member-db-2026-2",
+      "so-net-member-db-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "ドコモ公式告知、Security NEXT、BleepingComputerの本文で発生日(10/19)・項目・件数・ドコモ分44万3,495件を照合。ソニー公式PDFは403で本文未取得。"
   }
 ]

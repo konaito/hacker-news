@@ -5969,5 +5969,26 @@
     "type": "primary",
     "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
     "title": "デジタル庁報道発表: Studio社クラウド環境への不正アクセスに伴う問い合わせフォーム情報の漏えいの可能性"
+  },
+  {
+    "id": "so-net-member-db-2026-1",
+    "publisher": "NTTドコモ",
+    "type": "primary",
+    "url": "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
+    "title": "ドコモ「ぷらら(Sコース)」ご契約者さま向け: So-net会員データベースへの不正アクセスについて"
+  },
+  {
+    "id": "so-net-member-db-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192075",
+    "title": "「So-net」の会員DB侵害、個人情報流出を確認"
+  },
+  {
+    "id": "so-net-member-db-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+    "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records"
   }
 ]
