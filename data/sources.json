@@ -5962,5 +5962,12 @@
     "type": "reporting",
     "url": "https://rocket-boys.co.jp/security-measures-lab/toypo-app-api-unauthorized-access-data-leak/",
     "title": "トイポアプリのAPIに不正アクセス、個人情報漏えいの可能性"
+  },
+  {
+    "id": "studio-cloud-2026-5",
+    "publisher": "デジタル庁",
+    "type": "primary",
+    "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+    "title": "デジタル庁報道発表: Studio社クラウド環境への不正アクセスに伴う問い合わせフォーム情報の漏えいの可能性"
   }
 ]
