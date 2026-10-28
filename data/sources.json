@@ -5920,5 +5920,47 @@
     "type": "reporting",
     "url": "https://fuitesinfos.fr/article/2026-10-23-engie",
     "title": "ENGIE: fuite de données clients (Fuites Infos)"
+  },
+  {
+    "id": "resorttrust-website-2026-1",
+    "publisher": "日本経済新聞",
+    "type": "reporting",
+    "url": "https://www.nikkei.com/article/DGXZQOFD0993O0Z01C26A0000000/",
+    "title": "リゾートトラスト、サイトに不正アクセス 会員情報2万6千件漏洩"
+  },
+  {
+    "id": "resorttrust-website-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56582.html",
+    "title": "リゾートトラストのWebサイトに不正アクセス、約2万6,000件の会員情報などが漏えい"
+  },
+  {
+    "id": "rakuten-travel-2026-1",
+    "publisher": "楽天トラベル",
+    "type": "primary",
+    "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+    "title": "海外宿泊予約ページおよび多言語予約サイトへの不正アクセスについて"
+  },
+  {
+    "id": "rakuten-travel-2026-2",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002606/",
+    "title": "「楽天トラベル」に不正アクセス 顧客情報最大約260万件など流出か 予約者約3.6万件のクレカ情報も"
+  },
+  {
+    "id": "toypo-app-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56602.html",
+    "title": "行動データプラットフォーム「トイポアプリ」に不正アクセス、69万7,209名のユーザーの登録情報が漏えいした可能性"
+  },
+  {
+    "id": "toypo-app-2026-2",
+    "publisher": "ROCKET BOYS",
+    "type": "reporting",
+    "url": "https://rocket-boys.co.jp/security-measures-lab/toypo-app-api-unauthorized-access-data-leak/",
+    "title": "トイポアプリのAPIに不正アクセス、個人情報漏えいの可能性"
   }
 ]

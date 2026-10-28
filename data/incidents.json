@@ -12659,5 +12659,125 @@
     "first_seen_at": "2026-10-28",
     "last_verified_at": "2026-10-28",
     "verification_note": "BleepingComputer(10/27)とFuites Infos(10/24、顧客宛通知の記載)の本文で、取引先ツールへの攻撃・対象項目・銀行情報非該当・件数未公表を照合。ENGIE公式本文は未取得。"
+  },
+  {
+    "id": "resorttrust-website-2026",
+    "published_at": "2026-10-09",
+    "occurred_at": "2026-10-05",
+    "company": "リゾートトラスト",
+    "service": "同社が管理するWebサイト",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "旅行・交通",
+    "title": "リゾートトラストのWebサイトに不正アクセス、会員情報約2万6,000件・ホテル予約者情報約3万6,000件が漏えい",
+    "summary": "リゾートトラストは10月9日、同社のWebサイトへの不正アクセスにより個人情報が外部に漏えいしたと発表しました。10月5日夜にシステムの異常な動作があり、7日に漏えいを確認してアクセスを遮断しました。対象はグループ会員情報約2万6,000件と、「ザ・カハラ・ホテル&リゾート 横浜」の予約者情報約3万6,000件です。",
+    "note": "件数は情報の件数で、重複を除いた人数ではありません。公表時点で医療情報・クレジットカード情報・本人確認書類は含まれないと報じられています。ホテル・施設の営業への直接の影響はないとされています。原因・侵入手法は報道本文では示されていません。同社の公式PDF本文は読み取れず、日本経済新聞とScanNetSecurityの本文に基づきます。10月16日以降の続報(侵入経路・項目拡大・サービス停止)は未確認のため反映していません。",
+    "affected": [
+      {
+        "count": 26000,
+        "unit": "records",
+        "description": "漏えいしたグループ会員情報の件数(約、人数ではない)",
+        "source_id": "resorttrust-website-2026-1"
+      },
+      {
+        "count": 36000,
+        "unit": "records",
+        "description": "漏えいしたザ・カハラ・ホテル&リゾート横浜の予約者情報の件数(約、人数ではない)",
+        "source_id": "resorttrust-website-2026-1"
+      }
+    ],
+    "sources": [
+      "resorttrust-website-2026-1",
+      "resorttrust-website-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "日本経済新聞(10/9)とScanNetSecurity(10/27)の本文で、日付・件数・非該当情報・営業影響を照合。公式PDFは取得できず未確認。"
+  },
+  {
+    "id": "rakuten-travel-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": null,
+    "company": "楽天グループ(楽天トラベル)",
+    "service": "海外宿泊予約ページ・多言語予約サイト",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "旅行・交通",
+    "title": "楽天トラベルの海外宿泊予約ページと多言語予約サイトに不正アクセス、最大約260万人分の顧客情報などが漏えいした可能性",
+    "summary": "楽天は10月26日、子会社Rakuten Travel Xchangeが管理する海外宿泊予約ページ(9月10日検知)と多言語予約サイト(10月20日検知)への第三者の不正アクセスを公表しました。海外宿泊サイトではログイン顧客最大約260万人の氏名・メール・電話番号・内部ID、予約者最大約4万人の予約情報、最大約3万6,000件の決済関連情報(カード下4桁・名義・有効期限等)が漏えいした可能性があります。多言語サイトではログイン顧客最大約86万人のメールと内部ID、宿泊施設スタッフ最大約4万アカウントの情報が対象です。",
+    "note": "いずれも「最大」の可能性で、実際の流出件数は確定していません。カード番号全桁・セキュリティコード・パスワード・旅券情報は含まれないと説明されています。2件の不正アクセスは別の経路で、対象地域は限定されています。二次被害は確認されていないとされ、原因・侵入手法は公表されていません。発生日は不明で、9月10日・10月20日は検知日です。",
+    "affected": [
+      {
+        "count": 2600000,
+        "unit": "people",
+        "description": "海外宿泊サイトのログイン顧客(最大約、可能性)",
+        "source_id": "rakuten-travel-2026-1"
+      },
+      {
+        "count": 40000,
+        "unit": "people",
+        "description": "海外宿泊サイトの予約者(最大約、可能性)",
+        "source_id": "rakuten-travel-2026-1"
+      },
+      {
+        "count": 36000,
+        "unit": "records",
+        "description": "決済関連情報の対象予約(最大約、可能性)",
+        "source_id": "rakuten-travel-2026-1"
+      },
+      {
+        "count": 860000,
+        "unit": "people",
+        "description": "多言語予約サイトのログイン顧客(最大約、可能性)",
+        "source_id": "rakuten-travel-2026-1"
+      },
+      {
+        "count": 40000,
+        "unit": "accounts",
+        "description": "多言語サイトの宿泊施設スタッフアカウント(最大約、可能性)",
+        "source_id": "rakuten-travel-2026-1"
+      }
+    ],
+    "sources": [
+      "rakuten-travel-2026-1",
+      "rakuten-travel-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "楽天トラベルの公式発表とITmedia NEWS(10/27)の本文で、検知日・対象項目・最大件数・非該当情報を照合。"
+  },
+  {
+    "id": "toypo-app-2026",
+    "published_at": "2026-10-14",
+    "occurred_at": "2026-10-04",
+    "company": "トイポ",
+    "service": "行動データプラットフォーム「トイポアプリ」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・通信",
+    "title": "「トイポアプリ」に不正アクセス、利用者69万7,209名の登録情報が漏えいした可能性",
+    "summary": "トイポは10月4日に第三者による不正アクセスを確認し、10月13日から利用者への個別通知を開始、14日に一部顧客の個人情報漏えいの可能性を公表しました。ScanNetSecurityによると対象は69万7,209名で、電話番号・ユーザーIDのほか、登録していた場合は氏名・メール・生年月日・性別・住所が含まれ得ます。一部システムのアクセス制御の不備により、権限のない第三者が他の利用者の情報を取得できた状態でした。",
+    "note": "漏えいの可能性であり、実際に取得された件数は公表されていません。69万7,209名はScanNetSecurityが報じた対象人数です。ROCKET BOYSによると、導入企業のJR九州フードサービス(約2万6,900人/約6万1,500人中)など個別企業の数値も別に公表されていますが、合算値ではありません。パスワード・カード情報は含まれないと報じられています。トイポの公式ページ本文は取得できず、2媒体の本文に基づきます。",
+    "affected": [
+      {
+        "count": 697209,
+        "unit": "people",
+        "description": "漏えいの可能性があるトイポアプリ利用者(ScanNetSecurity報道)",
+        "source_id": "toypo-app-2026-1"
+      }
+    ],
+    "sources": [
+      "toypo-app-2026-1",
+      "toypo-app-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-28",
+    "last_verified_at": "2026-10-28",
+    "verification_note": "ScanNetSecurity(10/28)とROCKET BOYSの本文で、確認日・原因(アクセス制御不備)・項目・非該当情報を照合。トイポ公式Notionは本文取得不可。"
   }
 ]
