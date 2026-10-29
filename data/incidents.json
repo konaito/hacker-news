@@ -12995,5 +12995,95 @@
     "first_seen_at": "2026-10-29",
     "last_verified_at": "2026-10-29",
     "verification_note": "ビジネス+ITとSecurity NEXTの本文を確認。10/21発見、アカウント悪用、配送先情報の漏えい可能性、件数調査中で一致。公式発表本文は未確認。"
+  },
+  {
+    "id": "m3-mrkun-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-10-14",
+    "company": "エムスリー",
+    "service": "製薬企業向けサービス「MR君」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "医療・ヘルスケア",
+    "title": "エムスリー「MR君」に不正アクセス、医師会員等25,775名と製薬企業担当者2,260名の情報が漏えい",
+    "summary": "エムスリーは10月15日、製薬企業向け「MR君」への第三者による不正アクセスを公表しました。報道によると第2報(10月23日)で、漏えいはm3.com会員等25,775名と製薬企業担当者2,260名で、氏名・勤務先と一部のメールアドレスが含まれます。",
+    "note": "第1報では人数を精査中とし、医師会員の1割未満・担当者数百人規模と説明。人数は第2報報道の値で、企業の一次本文は直接確認できていません。ログインパスワード、m3ポイントは対象外、クレジットカード番号は同社が保有しないとされます。技術的な原因は調査中。10月21日公表のStudio経由の別事案とは別です。",
+    "affected": [
+      {
+        "count": 25775,
+        "unit": "people",
+        "description": "漏えいが確認されたm3.com会員等の人数(第2報報道)",
+        "source_id": "m3-mrkun-2026-2"
+      },
+      {
+        "count": 2260,
+        "unit": "people",
+        "description": "漏えいが確認された製薬企業担当者の人数(第2報報道)",
+        "source_id": "m3-mrkun-2026-2"
+      }
+    ],
+    "sources": [
+      "m3-mrkun-2026-1",
+      "m3-mrkun-2026-2",
+      "m3-mrkun-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-29",
+    "last_verified_at": "2026-10-29",
+    "verification_note": "ScanNetSecurity、ビジネス+IT、ASCII.jp(infoseek配信)の本文を確認。企業の一次本文は未取得のため独立した報道3媒体で成立。人数は第2報の値をビジネス+ITで確認。"
+  },
+  {
+    "id": "moldova-gov-cyberattack-2026",
+    "published_at": "2026-10-28",
+    "occurred_at": "2026-10-19",
+    "company": "モルドバ政府(電子政府庁)",
+    "service": "政府のデジタル公共サービス・情報システム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "行政・公共",
+    "title": "モルドバ政府サービスに大規模サイバー攻撃、約75万人分のIDNP関連データが抽出",
+    "summary": "モルドバ電子政府庁(AGE)は、10月19日から23日にかけ認証不要の脆弱なサービスを悪用した攻撃で、約75万のIDNP(個人識別番号)に紐づくデータが抽出されたと発表したと報じられています。82のデジタルサービスを点検し、30超のシステムを一時停止しました。",
+    "note": "報道は電子政府庁の発表に基づきます。75万はIDNPに紐づくデータセット数、約100万はアクセスを試みられたIDNPで、人数の確定値ではありません。首相は外国の関与の可能性を調べているとしますが、攻撃者・国の特定はなく、帰属は未確認。銀行カード情報は影響なしと説明。10月23日に抽出を阻止し、後続の試行も阻止されたとされます。",
+    "affected": [
+      {
+        "count": 750000,
+        "unit": "records",
+        "description": "抽出されたIDNP関連のデータセット数(電子政府庁発表の報道)",
+        "source_id": "moldova-gov-cyberattack-2026-2"
+      }
+    ],
+    "sources": [
+      "moldova-gov-cyberattack-2026-1",
+      "moldova-gov-cyberattack-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-29",
+    "last_verified_at": "2026-10-29",
+    "verification_note": "The RecordとLogos Pressの本文を確認。いずれも政府機関の発表に基づくため政府一次資料は直接未確認。数値は両報道で一致。"
+  },
+  {
+    "id": "sapporo-intl-univ-phishing-2026",
+    "published_at": "2026-10-14",
+    "occurred_at": "2026-07-09",
+    "company": "札幌国際大学",
+    "service": "学生・教職員のメールアカウント(Microsoft 365)",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育",
+    "title": "札幌国際大学、フィッシングで複数のメールアカウントが乗っ取られ学内外へ大量送信",
+    "summary": "札幌国際大学は10月14日、7月9日以降に届いたフィッシングメールでリンク先に誘導された学生・教職員の複数アカウントが乗っ取られ、学内外へ大量のフィッシングメールが送られたと報告しました。一部メールボックスへのアクセスも確認されました。",
+    "note": "個人情報の外部流出は現時点で確認されていないと大学は説明。アカウント数・送信数は非公表のためaffectedは空欄。全学生・教職員のパスワード再設定、多要素認証の必須化などの対応が完了したと報告されています。",
+    "affected": [],
+    "sources": [
+      "sapporo-intl-univ-phishing-2026-1",
+      "sapporo-intl-univ-phishing-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-29",
+    "last_verified_at": "2026-10-29",
+    "verification_note": "大学の公式報告本文とScanNetSecurityの本文を照合。個人情報の外部流出は未確認で、流出とは扱わない。"
   }
 ]

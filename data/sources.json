@@ -6088,5 +6088,54 @@
     "type": "reporting",
     "url": "https://www.security-next.com/191994",
     "title": "バンナム子会社に不正アクセス - 「一番くじONLINE」配送情報が流出か"
+  },
+  {
+    "id": "m3-mrkun-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56604.html",
+    "title": "製薬企業向け「MR君」不正アクセス"
+  },
+  {
+    "id": "m3-mrkun-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/187742",
+    "title": "エムスリー「MR君」不正アクセスの第2報"
+  },
+  {
+    "id": "m3-mrkun-2026-3",
+    "publisher": "ASCII.jp",
+    "type": "reporting",
+    "url": "https://news.infoseek.co.jp/article/asciijp_4443124/",
+    "title": "医師の氏名や勤務先などが漏えい エムスリーに不正アクセス"
+  },
+  {
+    "id": "moldova-gov-cyberattack-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
+    "title": "Moldova investigates possible foreign involvement in major government cyberattack"
+  },
+  {
+    "id": "moldova-gov-cyberattack-2026-2",
+    "publisher": "Logos Press",
+    "type": "reporting",
+    "url": "https://logos-pres.md/en/news/data-belonging-to-750000-people-in-moldova-was-extracted-following-a-cyberattack-on-government-systems/",
+    "title": "Data belonging to 750,000 people in Moldova was extracted following a cyberattack on government systems"
+  },
+  {
+    "id": "sapporo-intl-univ-phishing-2026-1",
+    "publisher": "札幌国際大学",
+    "type": "primary",
+    "url": "https://www.siu.ac.jp/news/detail.html?news=1960",
+    "title": "【重要】本学におけるフィッシングメール被害に関する調査結果および対応完了のご報告"
+  },
+  {
+    "id": "sapporo-intl-univ-phishing-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56600.html",
+    "title": "札幌国際大学メールアカウント不正アクセス"
   }
 ]
