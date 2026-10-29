@@ -6053,5 +6053,40 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56614.html",
     "title": "丸木医科器械へのサイバー攻撃で基幹システムがダウン、FAX で注文受付"
+  },
+  {
+    "id": "giftee-egift-2026-1",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261026de66013",
+    "title": "ギフティグループのシステムへの不正アクセスで電子ギフトが不正発行(約5.5億円)"
+  },
+  {
+    "id": "giftee-egift-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/187808",
+    "title": "ギフティの電子ギフト不正発行(約5.5億円の損失見込み)"
+  },
+  {
+    "id": "giftee-egift-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191987",
+    "title": "不正アクセスで電子ギフトが不正発行 - ギフティ"
+  },
+  {
+    "id": "bandai-logipal-2026-1",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/187817",
+    "title": "バンダイロジパルへの不正アクセスと「一番くじ ONLINE」配送情報の漏えいの可能性"
+  },
+  {
+    "id": "bandai-logipal-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191994",
+    "title": "バンナム子会社に不正アクセス - 「一番くじONLINE」配送情報が流出か"
   }
 ]
