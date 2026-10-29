@@ -6039,5 +6039,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56621.html",
     "title": "三井住友DS投信直販ネットのマイページにログインできない状況に、取引委託業者のシステムで不正アクセスを検知"
+  },
+  {
+    "id": "maruki-ms-2026-1",
+    "publisher": "丸木医科器械",
+    "type": "primary",
+    "url": "https://maruki-ms.co.jp/archives/8405",
+    "title": "【重要】弊社システム障害に伴う、受注・出荷の停止に関するお詫びとご案内"
+  },
+  {
+    "id": "maruki-ms-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56614.html",
+    "title": "丸木医科器械へのサイバー攻撃で基幹システムがダウン、FAX で注文受付"
   }
 ]
