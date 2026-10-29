@@ -12872,5 +12872,58 @@
     "first_seen_at": "2026-10-28",
     "last_verified_at": "2026-10-28",
     "verification_note": "ITmedia NEWSとThe Recordの本文で公表日(10/28)・Amadeus経由・約9.2万人・約2千人の追加項目・カード番号非流出を照合。JAL公式は403で未取得。"
+  },
+  {
+    "id": "np-atobarai-invoice-2026",
+    "published_at": "2026-10-22",
+    "occurred_at": "2026-10-14",
+    "company": "ネットプロテクションズ",
+    "service": "NP後払い(請求書再発行システム)",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "「NP後払い」の請求書再発行システムに不正アクセス、28,884件の取引で氏名・住所に接触",
+    "summary": "ネットプロテクションズは10月22日、NP後払いの請求書再発行システムに第三者が通常想定されない機械的・連続的なリクエストを送り、一部顧客の個人情報にアクセスしたと公表しました。確認された対象はNP後払い利用取引の28,884件で、氏名・住所(法人は会社名・部署名)が含まれます。",
+    "note": "28,884件は取引件数で、人数へは換算していません。10月14日に発覚(侵入開始日は不明)。個人情報保護委員会とJIPDECへ報告済み。情報の不正利用は現時点で確認されておらず、対象者へは個別にメール連絡。原因・範囲は調査中で、対象システムは安全確認後に再開予定、サービス自体は通常提供と説明されています。",
+    "affected": [
+      {
+        "count": 28884,
+        "unit": "records",
+        "description": "アクセスが確認されたNP後払い利用取引の件数",
+        "source_id": "np-atobarai-invoice-2026-1"
+      }
+    ],
+    "sources": [
+      "np-atobarai-invoice-2026-1",
+      "np-atobarai-invoice-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-29",
+    "last_verified_at": "2026-10-29",
+    "verification_note": "ネットプロテクションズ公式発表本文とScanNetSecurity本文を確認。10/14発覚、機械的な連続リクエスト、28,884件、氏名・住所、個別連絡で一致。"
+  },
+  {
+    "id": "smdam-direct-net-2026",
+    "published_at": "2026-10-16",
+    "occurred_at": "2026-10-15",
+    "company": "三井住友DS アセットマネジメント",
+    "service": "三井住友DS投信直販ネット(マイページ)",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス停止",
+    "category": "金融",
+    "title": "三井住友DS投信直販ネット、取引委託業者のシステムへの不正アクセスを検知しマイページを一時停止",
+    "summary": "三井住友DSアセットマネジメントは10月16日、サービスを運営する取引委託業者のシステムへの第三者による不正アクセスを検知し、予防的にシステムを停止したため、10月15日19時50分ごろから16日6時ごろまでマイページにログインできなかったと公表しました。現在は復旧しています。",
+    "note": "公式発表時点でお客様の口座情報や取引への影響は確認されていないと説明されています。委託業者名、侵入手法、情報流出の有無・件数は公表されていません。停止開始日は発生日として記録し、侵入日ではありません。",
+    "affected": [],
+    "sources": [
+      "smdam-direct-net-2026-1",
+      "smdam-direct-net-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-29",
+    "last_verified_at": "2026-10-29",
+    "verification_note": "同社公式発表本文とScanNetSecurity本文を確認。停止時間帯・委託業者システムへの不正アクセス検知・復旧済み・口座や取引への影響未確認で一致。"
   }
 ]

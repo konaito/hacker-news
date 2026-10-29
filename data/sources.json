@@ -6011,5 +6011,33 @@
     "title": "Eストアー｜ショップサーブの不正アクセスに関する最終報告",
     "url": "https://estore.jp/press/20261016/",
     "type": "primary"
+  },
+  {
+    "id": "np-atobarai-invoice-2026-1",
+    "publisher": "ネットプロテクションズ",
+    "type": "primary",
+    "url": "https://corp.netprotections.com/news/info/corporate/20261022/",
+    "title": "「NP後払い」への不正アクセスについて"
+  },
+  {
+    "id": "np-atobarai-invoice-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56616.html",
+    "title": "BtoC通販向け決済「NP後払い」に不正アクセス"
+  },
+  {
+    "id": "smdam-direct-net-2026-1",
+    "publisher": "三井住友DSアセットマネジメント",
+    "type": "primary",
+    "url": "https://www.smd-am.co.jp/news/news/2026/news_20261016/",
+    "title": "三井住友DS投信直販ネットのマイページ一時利用停止のお詫びと復旧のお知らせ"
+  },
+  {
+    "id": "smdam-direct-net-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56621.html",
+    "title": "三井住友DS投信直販ネットのマイページにログインできない状況に、取引委託業者のシステムで不正アクセスを検知"
   }
 ]
