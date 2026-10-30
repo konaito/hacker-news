@@ -13085,5 +13085,58 @@
     "first_seen_at": "2026-10-29",
     "last_verified_at": "2026-10-29",
     "verification_note": "大学の公式報告本文とScanNetSecurityの本文を照合。個人情報の外部流出は未確認で、流出とは扱わない。"
+  },
+  {
+    "id": "doutor-employee-access-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": null,
+    "company": "ドトールコーヒー",
+    "service": "従業員・退職者情報を保管する社内システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "小売・飲食",
+    "title": "ドトールコーヒー、システムへの不正アクセスで従業員・退職者951人の個人情報が漏えいした可能性",
+    "summary": "ドトールコーヒーは10月26日、10月20日に社内システムへの不正アクセスを検知したと公表しました。東京都内4店舗の従業員・退職者951人の氏名、生年月日、住所、メールアドレス、電話番号、銀行口座番号が第三者に閲覧され、外部に漏えいした可能性があります。",
+    "note": "顧客情報への不正アクセスは確認されておらず、二次被害も現時点で確認されていないと同社は説明しています。侵入の時期・手口は公表されていません。個人情報保護委員会へ報告済みです。",
+    "affected": [
+      {
+        "count": 951,
+        "unit": "people",
+        "description": "対象4店舗の従業員・退職者(個人情報が漏えいした可能性のある人数)",
+        "source_id": "doutor-employee-access-2026-1"
+      }
+    ],
+    "sources": [
+      "doutor-employee-access-2026-1",
+      "doutor-employee-access-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "verification_note": "ドトールコーヒーの公式発表本文(10/26付)とSecurity NEXT(10/29)の記事内容を照合。10/20検知・951人・項目・顧客情報未確認を確認。漏えいは可能性として扱う。"
+  },
+  {
+    "id": "polymarket-debugbear-2026",
+    "published_at": "2026-10-29",
+    "occurred_at": "2026-10-29",
+    "company": "Polymarket",
+    "service": "Polymarket国際版取引所(polymarket.com)",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "暗号資産",
+    "title": "Polymarket、外部監視サービスDebugBear経由の不正スクリプトで取引停止、暗号資産流出",
+    "summary": "予測市場Polymarketは10月29日、サードパーティ事業者が侵害されたとして国際版取引所を一時的に取引停止(cancel-only)にし、約1時間後に再開しました。BleepingComputerによると、性能監視サービスDebugBearのRUM埋め込みスクリプト経由で認証済みセッションを悪用するスクリプトが配信され、約2.5百万ドル相当が攻撃者ウォレットに追跡されました。Polymarketは影響を受けた取引者に全額補填すると表明し、法執行機関に通報しました。",
+    "note": "約2.5百万ドルは攻撃者ウォレットに確認された額で、確定被害総額・被害者数ではありません。Polymarketは被害額・人数を公表していません。DebugBearは「進行中のセキュリティインシデント」としRUM利用者に埋め込みコードの削除を求めましたが、侵害の原因や他顧客への影響は未公表です。DebugBearの特定はReuters報道では関係者情報です。",
+    "affected": [],
+    "sources": [
+      "polymarket-debugbear-2026-1",
+      "polymarket-debugbear-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "verification_note": "BleepingComputerとReuters(Lufkin Daily News掲載)の本文で、10/29の取引停止、Polymarketの全額補填表明、DebugBearの声明を照合。追加でDeFi Primeの本文も確認(ただし出典には含めず)。被害額は未確定。"
   }
 ]

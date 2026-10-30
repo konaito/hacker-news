@@ -6137,5 +6137,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56600.html",
     "title": "札幌国際大学メールアカウント不正アクセス"
+  },
+  {
+    "id": "doutor-employee-access-2026-1",
+    "publisher": "ドトールコーヒー",
+    "type": "primary",
+    "url": "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
+    "title": "当社の従業員及び退職者の皆様へのお知らせ 当社システムの一部に対する不正アクセスについて"
+  },
+  {
+    "id": "doutor-employee-access-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192077",
+    "title": "従業員の個人情報が流出した可能性 - ドトールコーヒー"
+  },
+  {
+    "id": "polymarket-debugbear-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced"
+  },
+  {
+    "id": "polymarket-debugbear-2026-2",
+    "publisher": "Reuters(Lufkin Daily News掲載)",
+    "type": "reporting",
+    "url": "https://lufkindailynews.com/news_reuters/business/polymarket-halts-trading-on-international-platform-after-third-party-provider-compromised/article_aefa1d0a-086f-5f0b-8f5b-6fc709232f6d.html",
+    "title": "Polymarket resumes trading after third-party security breach, to reimburse users"
   }
 ]
