@@ -13350,5 +13350,94 @@
       "meti-dentrinet-2026-1",
       "meti-dentrinet-2026-2"
     ]
+  },
+  {
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "publication_status": "published",
+    "id": "matsuya-app-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "松屋フーズホールディングス",
+    "service": "公式アプリ・松弁ネット・モバイルオーダー・松弁デリバリー",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "飲食",
+    "title": "松屋フーズ、公式アプリの管理システムへの不正アクセスで会員情報237万件超が漏えい、アプリ・Webサービスを停止",
+    "summary": "松屋フーズホールディングスは10月30日、公式アプリの管理システムに第三者の不正アクセスがあり、個人情報が漏えいしたと発表しました。松弁ネット・モバイルオーダー・松弁デリバリーの利用者情報237万7,127件(会員ID・届け先住所・氏名・電話番号・松屋ポイント)と、アプリ会員約2,000件(最大3,000件の可能性。生年月日・メールアドレス・暗号化パスワード等を含む)が対象です。",
+    "note": "10月28日に不正アクセスを把握しアプリとWebサービスを停止しており、再開時期は未定です。件数は「件」(レコード)単位で人数ではなく、2区分は合算していません。クレジットカード情報は保持していないとされます。原因・経緯は調査中で、停止期間中の補償を予定しています。松屋の公式発表本文は取得せず、報道3媒体の本文に基づきます。",
+    "affected": [
+      {
+        "count": 2377127,
+        "unit": "records",
+        "description": "松弁ネット・モバイルオーダー・松弁デリバリー利用者の情報(会員ID・届け先住所・氏名・電話番号・ポイント)",
+        "source_id": "matsuya-app-2026-2"
+      },
+      {
+        "count": 2000,
+        "unit": "records",
+        "description": "公式アプリ会員の情報(最大3,000件の可能性)",
+        "source_id": "matsuya-app-2026-2"
+      }
+    ],
+    "verification_note": "ITmedia、INTERNET Watch、Security NEXTの本文で、10/30発表・10/28把握・237万7,127件・約2,000件(最大3,000件)・項目・カード情報非保有・調査中を照合。ITmedia本文は文字化けで一部判読不能だったためINTERNET Watchの数値で記載。公式発表は未取得。",
+    "sources": [
+      "matsuya-app-2026-1",
+      "matsuya-app-2026-2",
+      "matsuya-app-2026-3"
+    ]
+  },
+  {
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "publication_status": "published",
+    "id": "revolve-card-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "Revolve Group",
+    "service": "Revolve ECサイト",
+    "region": "US",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "米ファッションECのRevolve、不正アクセスで保存済み決済カード情報が取得された可能性、8-Kで開示",
+    "summary": "Revolve GroupはSEC提出の8-K(10月29日付)で、一部システムへの不正アクセスを認識し、保存済み決済情報のある一部顧客の氏名・連絡先・カード番号・有効期限が自動化された手段で取得された可能性があると開示しました。不正活動は是正済みで、法執行機関に通報し外部専門家を起用しています。",
+    "note": "8-Kは発生・発見日と総件数を示していません。The Recordによると州当局への届出ではテキサス州127,200人、バーモント州1,328人で、全体件数ではありません。業務停止や重大な事業影響は想定していないとしています。",
+    "affected": [
+      {
+        "count": 127200,
+        "unit": "people",
+        "description": "テキサス州当局への届出に記載された対象者(全体数ではない)",
+        "source_id": "revolve-card-2026-2"
+      }
+    ],
+    "verification_note": "SEC 8-K本文(Item 8.01)とThe Record本文を照合。8-Kは「may have obtained」と記載し、カード情報の取得は可能性として扱う。",
+    "sources": [
+      "revolve-card-2026-1",
+      "revolve-card-2026-2"
+    ]
+  },
+  {
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "publication_status": "pending",
+    "id": "fldoe-financial-aid-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "フロリダ州教育省",
+    "service": "Florida Student Financial Aid Webサイト",
+    "region": "US",
+    "status": "confirmed_leak",
+    "display_label": "検証待ち",
+    "category": "教育・研究",
+    "title": "フロリダ州教育省の学生向け奨学金サイトで約490万人分の個人情報が漏えいと報道",
+    "summary": "The Recordは、フロリダ州教育省が10月19日に認知した学生向け奨学金サイトの侵害で、約490万人の氏名・住所・電話番号・メール・社会保障番号・生年月日等が漏えいしたと州が通知したと報じています。サイトは停止され、被害は封じ込めたとされます。",
+    "note": "現時点で報道1媒体のみで、州教育省の公式通知(fldoe.org)はHTTP 403で本文を取得できず未検証のためpendingです。原因は未公表です。",
+    "affected": [],
+    "verification_note": "The Record本文のみ確認。公式通知は取得不可のため公開基準未達。",
+    "sources": [
+      "fldoe-financial-aid-2026-1"
+    ]
   }
 ]

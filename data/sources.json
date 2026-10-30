@@ -6291,5 +6291,47 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/187889",
     "title": "電力・ガス取引監視等委員会の「デントリネット」に不正アクセス"
+  },
+  {
+    "id": "matsuya-app-2026-1",
+    "publisher": "ITmedia ビジネスオンライン",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/business/articles/2610/30/news071.html",
+    "title": "松屋、237万件超の個人情報が漏えい 「氏名」「電話番号」「住所」など流出、公式アプリへの不正アクセスで"
+  },
+  {
+    "id": "matsuya-app-2026-2",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2152679.html",
+    "title": "松屋フーズ、不正アクセスにより公式アプリの利用者の情報約238万件が漏えい"
+  },
+  {
+    "id": "matsuya-app-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192210",
+    "title": "アプリの管理システムが侵害、会員情報流出 - 松屋"
+  },
+  {
+    "id": "revolve-card-2026-1",
+    "publisher": "SEC EDGAR",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001746618/000119312526439022/rvlv-20261029.htm",
+    "title": "Revolve Group, Inc. Form 8-K (2026-10-29)"
+  },
+  {
+    "id": "revolve-card-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+    "title": "Fashion retailer Resolve says hackers stole payment card information"
+  },
+  {
+    "id": "fldoe-financial-aid-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+    "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach"
   }
 ]
