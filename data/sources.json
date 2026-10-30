@@ -6256,5 +6256,40 @@
     "type": "reporting",
     "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119032/",
     "title": "セカンドリテイリングに不正アクセス、ゲオとセカンドストリートのアプリ・WEBサービスを停止 再開は未定"
+  },
+  {
+    "id": "belgium-fps-finance-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+    "title": "Cyberattack disrupts Belgian tax services before filing deadline"
+  },
+  {
+    "id": "belgium-fps-finance-2026-2",
+    "publisher": "Euronews",
+    "type": "reporting",
+    "url": "https://www.euronews.com/2026/10/28/belgiums-finance-and-tax-agency-hit-by-cyberattack",
+    "title": "Belgium's finance and tax agency hit by cyberattack"
+  },
+  {
+    "id": "belgium-fps-finance-2026-3",
+    "publisher": "Brussels Times",
+    "type": "reporting",
+    "url": "https://www.brusselstimes.com/2381839/belgian-finance-ministry-hit-by-cyberattack-myminfin-and-other-services-offline",
+    "title": "Belgian Finance Ministry hit by cyberattack, MyMinfin and other services offline"
+  },
+  {
+    "id": "meti-dentrinet-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192212",
+    "title": "電力・ガス取引監視等委員会の関連サイトに攻撃 - 経産省"
+  },
+  {
+    "id": "meti-dentrinet-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/187889",
+    "title": "電力・ガス取引監視等委員会の「デントリネット」に不正アクセス"
   }
 ]

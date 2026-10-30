@@ -13303,5 +13303,52 @@
       "second-retailing-geo-2026-2",
       "second-retailing-geo-2026-3"
     ]
+  },
+  {
+    "id": "belgium-fps-finance-2026",
+    "published_at": "2026-10-28",
+    "occurred_at": null,
+    "company": "ベルギー連邦財務省(FPS Finance)",
+    "service": "税務ポータル MyMinfin ほか",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サービス停止",
+    "category": "政府・公共",
+    "title": "ベルギー連邦財務省にサイバー攻撃、税務ポータルMyMinfinなどを停止、申告期限を延長へ",
+    "summary": "ベルギー連邦財務省(FPS Finance)は10月28日、デジタルサービスへのサイバー攻撃を受け、オンライン税務ポータルMyMinfinなど複数サービスを予防措置として停止したと発表しました。10月31日期限の特定所得の申告には十分な延長を認めるとしています。現時点で個人データの侵害や流出を示す兆候はないとされ、調査が続いています。",
+    "note": "データ侵害は確認されていません。攻撃者・侵入経路は未公表です。The Recordは10月上旬の別のPHP関連の予防的サイト停止との関係は不明としています。件数は公表されていません。公式発表本文は取得しておらず、The Record・Euronews・Brussels Timesの3媒体の本文に基づきます。",
+    "affected": [],
+    "verification_note": "The Record、Euronews、Brussels Timesの本文で10/28発表・MyMinfin停止・流出兆候なし・申告期限延長を照合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "belgium-fps-finance-2026-1",
+      "belgium-fps-finance-2026-2",
+      "belgium-fps-finance-2026-3"
+    ]
+  },
+  {
+    "id": "meti-dentrinet-2026",
+    "published_at": "2026-10-28",
+    "occurred_at": "2026-10-27",
+    "company": "経済産業省 電力・ガス取引監視等委員会",
+    "service": "定期報告用サイト「デントリネット」",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス停止",
+    "category": "政府・公共",
+    "title": "電力・ガス取引監視等委員会の報告用サイト「デントリネット」に不正アクセス、運用停止",
+    "summary": "経済産業省の電力・ガス取引監視等委員会は10月28日、小売電気・ガス事業者が電力・ガス取引報などを提出するサイト「デントリネット」に10月27日未明、不正アクセスがあったと公表しました。サイトの運用を停止し、原因究明と再発防止策を検討しています。情報流出の有無は確認中で、復旧までは電子メールで報告を受け付けます。",
+    "note": "情報流出は確認されていません(調査中)。手口・原因・復旧時期は未公表です。ビジネス+ITは一般家庭の情報を扱わないとするNHK報道を引用しています(ビジネス+ITは一部会員限定)。METI公式本文は取得しておらず、Security NEXTとビジネス+ITの本文に基づきます。",
+    "affected": [],
+    "verification_note": "Security NEXT(10/30)とビジネス+IT(10/29)の本文で、10/27未明の不正アクセス・10/28確認と公表・運用停止・流出有無確認中を照合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "meti-dentrinet-2026-1",
+      "meti-dentrinet-2026-2"
+    ]
   }
 ]
