@@ -1,15 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-10-30T06:29:29.679342+00:00",
+  "completed_at": "2026-10-30T08:40:31.648872+00:00",
   "candidates": [
-    {
-      "title": "パナソニックG従業員情報の生成AIアップロード",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56617.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認。不正アクセスではなく内部ルール違反の可能性があり本文未確認。"
-    },
     {
       "title": "佐川急便 流出対象件数取りまとめ",
       "url": "https://www.security-next.com/191906",
@@ -17,70 +9,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧タイトルのみ。既存 sagawa-2026 の続報の可能性があるが本文未確認。"
-    },
-    {
-      "title": "Angel One HIBP",
-      "url": "https://haveibeenpwned.com/breach/angelone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得。2023年4月の侵害、790万件、10/7にHIBP追加。1媒体のみで新規事案性も不明。未掲載。"
-    },
-    {
-      "title": "CyrusOne HIBP",
-      "url": "https://haveibeenpwned.com/breach/cyrusone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得。ShinyHunters恐喝・約37.35万メール。HIBP1媒体のみ。未掲載。"
-    },
-    {
-      "title": "Neogen HIBP",
-      "url": "https://haveibeenpwned.com/breach/neogen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得。ShinyHunters・約43.6万メール。HIBP1媒体のみ。未掲載。"
-    },
-    {
-      "title": "Policlinico Triestino",
-      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得。攻撃は被害組織が認めるが、データ窃取は双方未確認で本文内にも矛盾。1媒体のため未掲載。"
-    },
-    {
-      "title": "S-QUE eラーニング",
-      "url": "https://s-que.net/news/20261008/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得もHTTP 404のまま本文取得不可。未検証で持越し。"
-    },
-    {
-      "title": "Renta!",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得。ScanNet本文は10/18把握・停止・漏えい有無不明まで。10/23のメール流出おそれは検索要約のみで、ROCKET BOYSは403、公式本文未確認。未掲載。"
-    },
-    {
-      "title": "BLACK XによるBayer等の未確認主張",
-      "url": "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再調査していない選択済み持越し候補。確認済みとは主張せず次回へ持越し。"
-    },
-    {
-      "title": "skyticketの9月9日の会員1名への不正ログイン",
-      "url": "https://skyticket.jp/news/maintenance/67603",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再調査していない選択済み持越し候補。確認済みとは主張せず次回へ持越し。前回HTTP403。"
     },
     {
       "title": "Kimberly-ClarkへのShinyHunters恐喝主張",
@@ -201,14 +129,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "見出しのみ確認。既存irhythm-business-apps-2026の件数が最新か本文未確認のため次回へ持越し。"
-    },
-    {
-      "title": "DHS職員4.1万件超の記録がオンライン流出",
-      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "見出しのみ確認で本文未読。次回へ持越し。"
     },
     {
       "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
@@ -427,60 +347,108 @@
       "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
     },
     {
-      "title": "Gunosy社内アカウント不正ログイン",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56634.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
-    },
-    {
-      "title": "エンタッチにランサムウェア攻撃",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56627.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
-    },
-    {
-      "title": "セカンドリテイリングに不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56628.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
-    },
-    {
-      "title": "GETTIISの会員情報流出",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56631.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
-    },
-    {
-      "title": "Binanceの580億ドル規模の暗号資産流出の可能性調査",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "title": "GMOへの身代金要求",
+      "url": "https://www.security-next.com/191999",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。重要候補として次回最優先で本文検証。"
+      "reason": "GMOインターネットグループ代表が約80億円の金銭要求を公表との報。本文未確認のため次回へ持越し。"
+    },
+    {
+      "title": "パナソニックG従業員情報の生成AIアップロード",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/29/56617.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "不正アクセスではなく内部ルール違反の可能性。本文未確認。"
+    },
+    {
+      "title": "米DHS職員記録4.1万件の流出",
+      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧タイトルのみ確認。本文未確認。"
     },
     {
       "title": "ベルギー税務サービスへのサイバー攻撃",
       "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
-      "priority": "normal",
+      "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
+      "reason": "一覧タイトルのみ確認。本文未確認。"
     },
     {
-      "title": "ニューメキシコ大学病院システムへのサイバー攻撃",
+      "title": "ニューメキシコ大学病院システム",
       "url": "https://therecord.media/new-mexico-cyberattack-hospital",
-      "priority": "normal",
+      "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未確認で既存IDなし。次回検証。"
+      "reason": "一覧タイトルのみ確認。本文未確認。"
+    },
+    {
+      "title": "Angel One HIBP",
+      "url": "https://haveibeenpwned.com/breach/angelone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HIBP本文を再取得: 2023年4月の侵害、680万メール(790万件)、2026/10/7追加、2024年7月に既報。今回の新規事案性を示す独立報道なし。未掲載。"
+    },
+    {
+      "title": "CyrusOne HIBP",
+      "url": "https://haveibeenpwned.com/breach/cyrusone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HIBP本文を再取得: 2026年8月のShinyHunters恐喝、約37.35万メール。独立した2媒体目は未確認。未掲載。"
+    },
+    {
+      "title": "Neogen HIBP",
+      "url": "https://haveibeenpwned.com/breach/neogen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HIBP本文を再取得: 2026年8月のShinyHunters恐喝、43.6万メール。独立した2媒体目は未確認。未掲載。"
+    },
+    {
+      "title": "Policlinico Triestino",
+      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得していない(時間配分のため)。1媒体のみで未掲載のまま次回へ持越し。"
+    },
+    {
+      "title": "S-QUE eラーニング",
+      "url": "https://s-que.net/news/20261008/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得もHTTP 404で本文取得不可。未検証で持越し。"
+    },
+    {
+      "title": "Renta!",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索。10/23のメール流出おそれは検索要約のみで、rocket-boysは403、パピレス公式本文は取得できず。ScanNet本文は10/18把握・停止まで。未掲載。"
+    },
+    {
+      "title": "BLACK XによるBayer等の未確認主張",
+      "url": "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索のみ再調査。リークサイト主張と脅威インテル記事に限られ、Bayer公式の確認なし。dexposeはエンタッチ・Lopayも主張として列挙(未確認)。未掲載。"
+    },
+    {
+      "title": "skyticketの9月9日の会員1名への不正ログイン",
+      "url": "https://skyticket.jp/news/maintenance/67603",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得もHTTP 403で本文取得不可。未検証で持越し。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -579,14 +547,14 @@
     "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/": "2026-10-30T06:29:06Z",
     "https://www.security-next.com/190739": "2026-10-30T06:29:06Z",
     "andover-town-schools-2026": "2026-10-29T23:02:03Z",
-    "https://skyticket.jp/news/maintenance/67603": "2026-10-29T21:50:37.662104+00:00",
+    "https://skyticket.jp/news/maintenance/67603": "2026-10-30T08:39:51+00:00",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-10-30T02:00:02Z",
-    "https://s-que.net/news/20261008/": "2026-10-29T16:58:14Z",
+    "https://s-que.net/news/20261008/": "2026-10-30T08:39:51+00:00",
     "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": "2026-10-29T23:02:03Z",
     "rhyne-industrial-company-2023": "2026-10-30T06:29:06Z",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-10-30T06:29:06Z",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-10-30T02:00:02Z",
-    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-29T21:50:37.662104+00:00",
+    "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-10-30T08:39:51+00:00",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-10-30T06:29:06Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-10-30T02:00:02Z",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-10-30T02:00:02Z",
@@ -595,19 +563,19 @@
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-10-30T06:29:06Z",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-10-30T02:00:02Z",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-10-30T06:29:06Z",
-    "https://haveibeenpwned.com/breach/neogen": "2026-10-29T16:58:14Z",
-    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-29T16:58:14Z",
-    "https://haveibeenpwned.com/breach/angelone": "2026-10-29T16:58:14Z",
+    "https://haveibeenpwned.com/breach/neogen": "2026-10-30T08:39:51+00:00",
+    "https://haveibeenpwned.com/breach/cyrusone": "2026-10-30T08:39:51+00:00",
+    "https://haveibeenpwned.com/breach/angelone": "2026-10-30T08:39:51+00:00",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-10-30T06:29:06Z",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-10-29T21:50:37.662104+00:00",
     "coldcard-x-phishing-2026": "2026-10-29T23:02:03Z",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-29T16:58:14Z",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-10-30T08:39:51+00:00",
     "senture-fmcsa-2026": "2026-10-29T23:02:03Z",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-10-30T06:29:06Z",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-10-30T06:29:06Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-10-29T23:02:03Z",
     "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-10-30T06:29:06Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-10-29T16:58:14Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-10-30T08:39:51+00:00",
     "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-10-29T21:50:37.662104+00:00",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-10-30T06:29:06Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-10-29T23:02:03Z",
@@ -619,28 +587,24 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-10-29T23:02:03Z",
     "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": "2026-10-30T02:00:02Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-10-29T23:02:03Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/29/56617.html": "2026-10-29T16:58:14Z",
-    "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/": "2026-10-30T02:00:02Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/29/56617.html": "2026-10-30T08:39:51+00:00",
+    "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/": "2026-10-30T08:39:51+00:00",
     "https://www.security-next.com/191906": "2026-10-29T16:58:14Z",
-    "https://therecord.media/new-mexico-cyberattack-hospital": "2026-10-30T06:29:06Z",
+    "https://therecord.media/new-mexico-cyberattack-hospital": "2026-10-30T08:39:51+00:00",
     "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/": "2026-10-30T02:00:02Z",
     "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack": "2026-10-29T23:02:03Z",
-    "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/": "2026-10-30T06:29:06Z",
-    "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline": "2026-10-30T06:29:06Z",
+    "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline": "2026-10-30T08:39:51+00:00",
     "https://www.security-next.com/191987": "2026-10-29T23:02:03Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/30/56634.html": "2026-10-30T06:29:06Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/30/56631.html": "2026-10-30T06:29:06Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/30/56630.html": "2026-10-30T02:00:02Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/30/56628.html": "2026-10-30T06:29:06Z",
     "https://www.security-next.com/191994": "2026-10-30T06:29:06Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/30/56627.html": "2026-10-30T06:29:06Z"
+    "https://www.security-next.com/191999": "2026-10-30T08:39:51+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-10-30T02:00:02Z",
-      "summary": "新規2件を掲載(ドトールコーヒー従業員情報、Polymarket/DebugBear)。国内はSecurity NEXTとScanNetSecurityの一覧を確認(後者は見出しのみ)。選択された8件の持越しは公開基準を満たせず、いずれもdeferredのまま。対象外の大きなニュースとしてCisco SD-WAN/ASAやPHP2Shell等の脆弱性悪用は実被害の個別記録対象外。",
-      "run_id": "40988751159",
-      "main_sha": "8f3614a531f0c4c632c6d6d1d1c33c802511be51"
+      "completed_at": "2026-10-30T08:39:51+00:00",
+      "summary": "新規5件を掲載: Binanceの大規模不正出金(BleepingComputer・SecurityWeek)、Gunosy、GETTIIS、エンタッチ(各公式発表+ScanNetSecurity)、セカンドリテイリング(ScanNet・熊本日日・innovaTopia、公式は403)。選択済み持越し8件のうちHIBP 3件・S-QUE・skyticket・Renta!・BLACK X・Policlinicoは再調査したが新たな独立確認が得られず、未掲載のままdeferredで持越し(Policlinicoは今回再取得していない)。Security NEXT/ScanNet/BleepingComputer/The Record/SecurityWeekの新着一覧のうち既掲載分(So-net、ニフティ、楽天トラベル、H2O、JAL/JTA、釧路ポータス、お名前.com等)は重複として照合した。",
+      "run_id": "41027527124",
+      "main_sha": "9a0d624ecb8685e3ff10db1db444154c181f2f5e"
     },
     "historical": {
       "completed_at": "2026-10-30T06:29:06Z",
@@ -650,11 +614,11 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "41014027440",
-    "completed_at": "2026-10-30T06:29:29.679342+00:00",
+    "mode": "fresh",
+    "run_id": "41027527124",
+    "completed_at": "2026-10-30T08:40:31.648872+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "3e3286086a4f00cd9556c01f5ef2226c08fedf63"
+    "main_sha": "9a0d624ecb8685e3ff10db1db444154c181f2f5e"
   }
 }
