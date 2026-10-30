@@ -6179,5 +6179,82 @@
     "type": "reporting",
     "url": "https://canaltech.com.br/seguranca/hackers-escondem-codigo-que-rouba-cartao-e-cpf-de-quem-compra-em-lojas-de-moda-no-brasil/",
     "title": "Hackers escondem código que rouba cartão e CPF de quem compra em lojas de moda no Brasil"
+  },
+  {
+    "id": "binance-hot-wallet-theft-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+    "title": "Binance probes potential $5.8 billion crypto-theft hack"
+  },
+  {
+    "id": "binance-hot-wallet-theft-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+    "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea's TraderTraitor"
+  },
+  {
+    "id": "gunosy-internal-account-2026-1",
+    "publisher": "Gunosy",
+    "type": "primary",
+    "url": "https://gunosy.co.jp/news/464",
+    "title": "Gunosy｜不正アクセスによる情報流出に関するお知らせ"
+  },
+  {
+    "id": "gunosy-internal-account-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56634.html",
+    "title": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン、取引先や役員・従業員等の情報が流出"
+  },
+  {
+    "id": "gettiis-linkstation-2026-1",
+    "publisher": "リンクステーション",
+    "type": "primary",
+    "url": "https://www.gettiis.jp/notice/detail/42",
+    "title": "GETTIIS｜不正アクセスによる会員情報流出に関するお知らせ(第二報)"
+  },
+  {
+    "id": "gettiis-linkstation-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56631.html",
+    "title": "不正アクセスでチケット購入サービス「GETTIIS」会員情報が外部流出"
+  },
+  {
+    "id": "entouch-ransomware-2026-1",
+    "publisher": "エンタッチ",
+    "type": "primary",
+    "url": "https://entouch.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e5%bc%8a%e7%a4%be%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88/",
+    "title": "【重要】弊社データベースへの不正アクセスによる情報流出に関するお知らせ(第一報)"
+  },
+  {
+    "id": "entouch-ransomware-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56627.html",
+    "title": "エンタッチにランサムウェア攻撃、データベース内の情報が流出"
+  },
+  {
+    "id": "second-retailing-geo-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56628.html",
+    "title": "セカンドリテイリングに不正アクセス"
+  },
+  {
+    "id": "second-retailing-geo-2026-2",
+    "publisher": "熊本日日新聞",
+    "type": "reporting",
+    "url": "https://kumanichi.com/articles/2048201",
+    "title": "「ゲオ」運営会社に不正アクセス 二次被害防止へアプリ停止"
+  },
+  {
+    "id": "second-retailing-geo-2026-3",
+    "publisher": "innovaTopia",
+    "type": "reporting",
+    "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119032/",
+    "title": "セカンドリテイリングに不正アクセス、ゲオとセカンドストリートのアプリ・WEBサービスを停止 再開は未定"
   }
 ]

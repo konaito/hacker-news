@@ -13161,5 +13161,147 @@
     "first_seen_at": "2026-10-30",
     "last_verified_at": "2026-10-30",
     "verification_note": "BleepingComputerとCanaltechの本文を確認。10/24の発見、スキマーの対象項目、10/27の除去確認、件数未公表で一致。Sansec原文は取得できず(推測URLは404)、Convertrの一次発表も未確認のため独立2媒体で掲載。"
+  },
+  {
+    "id": "binance-hot-wallet-theft-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": "2026-10-29",
+    "company": "Binance",
+    "service": "Binanceのホットウォレット(複数ブロックチェーン)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正出金確認",
+    "category": "暗号資産",
+    "title": "Binance、複数チェーンのホットウォレットから不正出金、損失は約63億ドルと推計され過去最大級",
+    "summary": "BleepingComputerとSecurityWeekは10月29日から30日にかけ、暗号資産取引所Binanceのウォレットから大規模な資金流出があったと報じました。SecurityWeekによると、Binanceは損失を約63億ドルと見積もり、出金を停止してSAFU基金等で全額補填すると表明しました。初期調査ではDevOps担当者のノートPCが侵害され、サービスコンテナ経由で不正な出金が申請されたとしており、秘密鍵の漏えいの証拠はないとしています。TetherとCircleはステーブルコインの一部を凍結しました。",
+    "note": "損失額はBinanceとTRM Labsの推計で第三者監査済みではなく、初期報道(BleepingComputer)ではブロックチェーン分析ベースで約35億〜58億ドルと幅がありました。侵入経路(従業員PC侵害)はBinanceの暫定調査です。北朝鮮のTraderTraitorによるとの見方はTRM Labs・Chainalysis・ZachXBTの分析で、政府機関による公式の帰属は確認されていません。凍結額は時間とともに更新されています。利用者数・件数は未公表のためaffectedは空です。",
+    "affected": [],
+    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10/29の流出、Binanceの調査・補填表明、凍結の事実は一致。損失額は出典間・時点間で差があり確定値として扱わない。Binance公式発表本文は未取得。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "binance-hot-wallet-theft-2026-1",
+      "binance-hot-wallet-theft-2026-2"
+    ]
+  },
+  {
+    "id": "gunosy-internal-account-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": null,
+    "company": "Gunosy",
+    "service": "社内業務用アカウント(クラウド環境・業務ツール)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "メディア",
+    "title": "Gunosy、社内業務用アカウントの認証情報で不正ログイン、取引先担当者25名・役職員等107名の情報が流出",
+    "summary": "Gunosyは10月26日、10月21日に監視システムが第三者による社内業務用アカウントのID・パスワードでの不正ログインを検知し、同日アカウントを停止したと公表しました。第三者はサービス運営・社内業務用のクラウド環境と業務ツールに到達し、取引先担当者25名の氏名・メールアドレス・署名欄の連絡先、役職員・元役職員107名の氏名・メールアドレス等が流出しました。一部メール本文が閲覧されましたが、添付ファイルを開いた記録はないとしています。",
+    "note": "「グノシー」「ニュースライト」「auサービスToday」「IR Hub」の利用者情報の流出は確認されていません。認証情報の入手経路は調査中です。情報の悪用・ネット上への公開は確認されていません。25名と107名は別の集団で合算していません。",
+    "affected": [
+      {
+        "count": 25,
+        "unit": "people",
+        "description": "取引先担当者(氏名・メールアドレス等)",
+        "source_id": "gunosy-internal-account-2026-1"
+      },
+      {
+        "count": 107,
+        "unit": "people",
+        "description": "役職員・元役職員等(氏名・メールアドレス等)",
+        "source_id": "gunosy-internal-account-2026-1"
+      }
+    ],
+    "verification_note": "Gunosy公式発表(news/464)とScanNetSecurityの本文を照合。検知日10/21、通知開始10/26、対象25名・107名、利用者情報流出は未確認で一致。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "gunosy-internal-account-2026-1",
+      "gunosy-internal-account-2026-2"
+    ]
+  },
+  {
+    "id": "gettiis-linkstation-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-18",
+    "company": "リンクステーション",
+    "service": "チケット購入サービス「GETTIIS」(イベント主催者向け「Gettii-Lite」経由)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "エンタメ",
+    "title": "チケット購入サービス「GETTIIS」、主催者向けGettii-Liteの脆弱性を突かれ会員情報が流出、会員ID約31.8万件",
+    "summary": "リンクステーションは10月19日の第一報、20日の第二報で、10月18日に不審なアクセスを確認し、同日0時〜7時頃にイベント主催者向け「Gettii-Lite」の脆弱性を悪用されてGETTIIS会員情報が取得されたと公表しました。項目別の件数は会員ID317,971件、ハッシュ化パスワード311,451件、カード関連情報(先頭4桁・末尾4桁・名義・有効期限、暗号化)29,515件、氏名309,759件、電話番号309,668件、メールアドレス311,426件などです。",
+    "note": "件数は項目ごとのレコード数で、人数ではありません。会社はカード番号全桁・セキュリティコードは保持していないと説明しています。GettiiとGettii-ECは別システムで影響なしとされています。原因・範囲は調査中で警察に相談しています。",
+    "affected": [
+      {
+        "count": 317971,
+        "unit": "records",
+        "description": "会員ID件数(項目別、人数ではない)",
+        "source_id": "gettiis-linkstation-2026-1"
+      },
+      {
+        "count": 29515,
+        "unit": "records",
+        "description": "カード関連情報(先頭・末尾4桁、名義、有効期限)",
+        "source_id": "gettiis-linkstation-2026-1"
+      }
+    ],
+    "verification_note": "GETTIIS公式第二報とScanNetSecurityの本文を照合。10/18の発生、脆弱性悪用、項目別件数で一致。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "gettiis-linkstation-2026-1",
+      "gettiis-linkstation-2026-2"
+    ]
+  },
+  {
+    "id": "entouch-ransomware-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-09",
+    "company": "エンタッチ",
+    "service": "リモートディテーリング事業のデータベース",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "医療・ヘルスケア",
+    "title": "エンタッチ、ランサムウェアグループを名乗る第三者がデータベースに不正アクセス、医療従事者の氏名・所属等が流出",
+    "summary": "エンタッチは10月19日の第一報で、10月9日にランサムウェアグループを名乗る第三者が同社データベースへ不正アクセスし、プロジェクトデータが外部に流出したと公表しました。10月13日16時頃に発覚し、医療従事者の氏名・所属医療機関・都道府県、管理者・担当者の氏名とメールアドレス、予約時の連絡先、予約内容・日時などが対象です。パッチ適用、パスワード強制リセット、外部フォレンジック調査、警察相談、個人情報保護委員会への報告を実施しています。",
+    "note": "影響件数・範囲は調査中で未公表のためaffectedは空です。資料ファイルや録画・音声はデータベースに保存されておらず対象外とされています。攻撃者の名乗りは同社の説明に基づくもので、グループ名は公表されていません。",
+    "affected": [],
+    "verification_note": "エンタッチ公式第一報とScanNetSecurityの本文を照合。発生日10/9、発覚10/13、流出項目、件数未公表で一致。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "entouch-ransomware-2026-1",
+      "entouch-ransomware-2026-2"
+    ]
+  },
+  {
+    "id": "second-retailing-geo-2026",
+    "published_at": "2026-10-17",
+    "occurred_at": null,
+    "company": "セカンドリテイリング",
+    "service": "ゲオ・セカンドストリートのアプリ・Webサービス",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス停止",
+    "category": "EC・小売",
+    "title": "セカンドリテイリングの社内システムに不正アクセス、ゲオ・セカンドストリートのアプリ・Webサービスを停止、再開未定",
+    "summary": "ゲオとセカンドストリートを運営するセカンドリテイリングは、10月15日に社内システムへの第三者による不正アクセスを確認し、10月17日21時から二次被害防止のためアプリ・オンラインストア・買取サービス等を停止しました。10月19日の第2報では、外部セキュリティ専門機関の調査でデータベースサーバーへの不審な外部接続や直接アクセスの痕跡はなく、個人情報・機密情報の外部漏えいは確認されていないと説明しています。10月30日時点でも多くのサービスが停止中で、再開日は未定です。",
+    "note": "漏えいは確認されていません(調査継続中)。件数・影響人数は公表されていません。侵入経路・発生日は未公表のためoccurred_atはnullです。セカンドリテイリングの公式発表(2nd-rtl.com)はHTTP 403で本文を取得できず、ScanNetSecurity・熊本日日新聞・innovaTopiaの本文に基づきます。",
+    "affected": [],
+    "verification_note": "ScanNetSecurity(10/30、公式第2報を要約)、熊本日日新聞、innovaTopiaの本文で、10/15確認・10/17停止・再開未定を照合。漏えい未確認はScanNetSecurityと熊本日日新聞が記載。公式本文は403で未確認のため独立3媒体で掲載。",
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "sources": [
+      "second-retailing-geo-2026-1",
+      "second-retailing-geo-2026-2",
+      "second-retailing-geo-2026-3"
+    ]
   }
 ]
