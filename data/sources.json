@@ -6165,5 +6165,19 @@
     "type": "reporting",
     "url": "https://lufkindailynews.com/news_reuters/business/polymarket-halts-trading-on-international-platform-after-third-party-provider-compromised/article_aefa1d0a-086f-5f0b-8f5b-6fc709232f6d.html",
     "title": "Polymarket resumes trading after third-party security breach, to reimburse users"
+  },
+  {
+    "id": "convertr-analytics-skimmer-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+    "title": "Hackers hijack Convertr analytics script to steal payment card data"
+  },
+  {
+    "id": "convertr-analytics-skimmer-2026-2",
+    "publisher": "Canaltech",
+    "type": "reporting",
+    "url": "https://canaltech.com.br/seguranca/hackers-escondem-codigo-que-rouba-cartao-e-cpf-de-quem-compra-em-lojas-de-moda-no-brasil/",
+    "title": "Hackers escondem código que rouba cartão e CPF de quem compra em lojas de moda no Brasil"
   }
 ]

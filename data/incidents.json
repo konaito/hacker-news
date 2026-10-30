@@ -13138,5 +13138,28 @@
     "first_seen_at": "2026-10-30",
     "last_verified_at": "2026-10-30",
     "verification_note": "BleepingComputerとReuters(Lufkin Daily News掲載)の本文で、10/29の取引停止、Polymarketの全額補填表明、DebugBearの声明を照合。追加でDeFi Primeの本文も確認(ただし出典には含めず)。被害額は未確定。"
+  },
+  {
+    "id": "convertr-analytics-skimmer-2026",
+    "published_at": "2026-10-27",
+    "occurred_at": "2026-10-24",
+    "company": "Convertr(ブラジルのEC決済基盤)",
+    "service": "Convertr管理の分析スクリプト(Plausible)とチェックアウト",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "侵害確認",
+    "category": "EC・小売",
+    "title": "ブラジルのConvertr、分析スクリプト改ざんでチェックアウトにカード情報窃取コード",
+    "summary": "BleepingComputerとCanaltechは10月27日、セキュリティ企業Sansecの報告として、ブラジルのEC基盤Convertrが自社管理するPlausible分析スクリプトを改ざんされ、同基盤のチェックアウトでカード番号・有効期限・CVV・氏名・CPF(納税者番号)を盗むスキマーが10月24日から動作していたと報じました。Convertrは悪性コードを削除しPlausibleを更新し、加盟店や決済事業者へ通知中とされています。",
+    "note": "侵入経路はPlausibleの未修正脆弱性(CVE-2026-8467)の疑いですがサーバーログがなく未確認です。被害者数・店舗数は報じられておらず、affectedは空です。ConvertrはCanaltechに対し加盟店・顧客の機微データへのアクセスはなかったと述べており、窃取の実績は第三者(Sansec)の分析に基づきます。Convertrの一次発表本文は確認できていません。",
+    "affected": [],
+    "sources": [
+      "convertr-analytics-skimmer-2026-1",
+      "convertr-analytics-skimmer-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-30",
+    "last_verified_at": "2026-10-30",
+    "verification_note": "BleepingComputerとCanaltechの本文を確認。10/24の発見、スキマーの対象項目、10/27の除去確認、件数未公表で一致。Sansec原文は取得できず(推測URLは404)、Convertrの一次発表も未確認のため独立2媒体で掲載。"
   }
 ]
