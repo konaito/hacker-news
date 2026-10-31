@@ -13508,5 +13508,29 @@
     "first_seen_at": "2026-10-31",
     "last_verified_at": "2026-10-31",
     "verification_note": "Chainalysis公式ブログ(一次情報)とBleepingComputer本文で、10/30公表、アクセスされた項目、アクセス証拠のない項目、件数未公表を照合。"
+  },
+  {
+    "id": "northflank-secrets-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "Northflank",
+    "service": "Northflank(クラウドホスティング/開発者プラットフォーム)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "クラウド基盤Northflankで侵害、顧客の環境変数が復号された前提で全シークレットの再発行を要請、AI APIキーの不正利用も報告",
+    "summary": "Northflankは10月30日、Wizの脅威アラート(UTC11:43)を受けて対応を開始し、顧客に対して全環境変数が復号されたものとして扱い、すべてのキー・認証情報を無効化・再発行するよう求めました。複数の顧客から、同プラットフォームに保存したAI APIキーが不正利用されたとの報告があり、ステータスページは認証情報の不正利用を認めています。Wizは10月に少なくとも9件のAI開発者プラットフォームの事案があったと整理しています。",
+    "note": "侵入経路、影響を受けた顧客数、認証情報以外のデータへの影響は未公表で、調査中です。Wizの報告は9件の事案を列挙するのみで、同一攻撃者によるものとは確認されていません。ネットワーク、証明書、サービス、アドオン、ジョブ、ビルド等で障害が表示されています。",
+    "affected": [],
+    "sources": [
+      "northflank-secrets-2026-1",
+      "northflank-secrets-2026-2",
+      "northflank-secrets-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-31",
+    "last_verified_at": "2026-10-31",
+    "verification_note": "Northflank公式ステータスページ(一次情報)、BleepingComputer、Wizの本文を確認。10/30のWizアラート、環境変数復号の前提でのローテーション要請、AI APIキー不正利用の顧客報告で一致。被害数・原因は未公表。"
   }
 ]

@@ -6382,5 +6382,26 @@
     "type": "primary",
     "url": "https://group.gmo/info/alert/2026102705/",
     "title": "「お名前.com デスクトップクラウド」への不正アクセスに関する対応状況(第12報)"
+  },
+  {
+    "id": "northflank-secrets-2026-1",
+    "publisher": "Northflank",
+    "type": "primary",
+    "url": "https://status.northflank.com/",
+    "title": "Northflank Status｜Security incident(環境変数を侵害されたものとして扱い、全シークレットのローテーションを要請)"
+  },
+  {
+    "id": "northflank-secrets-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "title": "Northflank security breach leads to abuse of customers' AI API keys"
+  },
+  {
+    "id": "northflank-secrets-2026-3",
+    "publisher": "Wiz",
+    "type": "reporting",
+    "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+    "title": "Black October for AI Developer Platforms"
   }
 ]
