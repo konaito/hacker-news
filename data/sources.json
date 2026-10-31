@@ -6333,5 +6333,33 @@
     "type": "reporting",
     "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
     "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach"
+  },
+  {
+    "id": "fldoe-financial-aid-2026-2",
+    "publisher": "CBS Miami",
+    "type": "reporting",
+    "url": "https://www.cbsnews.com/miami/news/florida-department-of-education-financial-aid-website-data-breach-october-2026/",
+    "title": "Hackers breached Florida's Department of Education financial aid website, officials confirm"
+  },
+  {
+    "id": "fldoe-financial-aid-2026-3",
+    "publisher": "WPTV",
+    "type": "reporting",
+    "url": "https://www.wptv.com/news/state/florida-education-data-breach-may-have-exposed-social-security-numbers-of-4-9-million-people",
+    "title": "Florida education data breach may have exposed Social Security numbers of 4.9 million people"
+  },
+  {
+    "id": "revolve-2026-1",
+    "publisher": "Revolve Group, Inc. (SEC)",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001746618/000119312526439022/rvlv-20261029.htm",
+    "title": "Revolve Group, Inc. Form 8-K (Item 8.01) 2026-10-29"
+  },
+  {
+    "id": "revolve-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+    "title": "Fashion retailer Resolve says hackers stole payment card information"
   }
 ]

@@ -13420,24 +13420,69 @@
   },
   {
     "first_seen_at": "2026-10-30",
-    "last_verified_at": "2026-10-30",
-    "publication_status": "pending",
+    "last_verified_at": "2026-10-31",
+    "publication_status": "published",
     "id": "fldoe-financial-aid-2026",
-    "published_at": "2026-10-30",
+    "published_at": "2026-10-29",
     "occurred_at": null,
     "company": "フロリダ州教育省",
     "service": "Florida Student Financial Aid Webサイト",
     "region": "US",
     "status": "confirmed_leak",
-    "display_label": "検証待ち",
+    "display_label": "漏えい確認",
     "category": "教育・研究",
-    "title": "フロリダ州教育省の学生向け奨学金サイトで約490万人分の個人情報が漏えいと報道",
-    "summary": "The Recordは、フロリダ州教育省が10月19日に認知した学生向け奨学金サイトの侵害で、約490万人の氏名・住所・電話番号・メール・社会保障番号・生年月日等が漏えいしたと州が通知したと報じています。サイトは停止され、被害は封じ込めたとされます。",
-    "note": "現時点で報道1媒体のみで、州教育省の公式通知(fldoe.org)はHTTP 403で本文を取得できず未検証のためpendingです。原因は未公表です。",
-    "affected": [],
-    "verification_note": "The Record本文のみ確認。公式通知は取得不可のため公開基準未達。",
+    "title": "フロリダ州教育省の学生向け奨学金サイトに不正アクセス、最大約490万人の個人情報(社会保障番号含む)が漏えいの可能性",
+    "summary": "フロリダ州教育省は10月19日に学生向け奨学金サイト(Florida Student Financial Aid)への不正な犯罪的アクセスを認知し、10月29日ごろに公表しました。最大約490万人に影響した可能性があり、氏名・住所・電話番号・メールアドレス・性別・生年月日・社会保障番号などが含まれるとされます。サイトは停止され、州司法長官室に通知、フロリダ・デジタルサービスと州法執行局が対応しています。",
+    "note": "490万人は「影響を受けた可能性がある最大人数」で、確定した被害者数ではありません。州は侵害を当該サイトに限られると考えており、原因・攻撃者は未公表です。州教育省の公式通知(fldoe.org)はHTTP 403で本文を取得できず、The Record・CBS Miami・WPTVの3媒体の本文に基づきます。奨学金の支給や学費支払い、受給資格への影響はないとされています。",
+    "affected": [
+      {
+        "count": 4900000,
+        "unit": "people",
+        "description": "影響を受けた可能性がある最大人数(州教育省の通知を伝える報道)",
+        "source_id": "fldoe-financial-aid-2026-1"
+      }
+    ],
+    "verification_note": "The Record、CBS Miami、WPTVの本文で10月19日認知、最大約490万人、SSN等の項目、サイト停止、関係機関を照合。州公式通知は403で未取得。",
     "sources": [
-      "fldoe-financial-aid-2026-1"
+      "fldoe-financial-aid-2026-1",
+      "fldoe-financial-aid-2026-2",
+      "fldoe-financial-aid-2026-3"
     ]
+  },
+  {
+    "id": "revolve-2026",
+    "published_at": "2026-10-29",
+    "occurred_at": null,
+    "company": "Revolve Group",
+    "service": "ECプラットフォーム(アカウントに保存された支払い情報)",
+    "region": "US",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "EC・小売",
+    "title": "米ファッションEC Revolveに不正アクセス、保存されたカード番号・有効期限・氏名などが取得された恐れ",
+    "summary": "Revolve Groupは10月29日付の8-Kで、システムへの不正アクセスを認知し、攻撃者が自動化された手段でアカウントに支払い情報を保存していた顧客の氏名、連絡先、カード番号、有効期限を取得した可能性があると開示しました。不正な活動は停止され、連邦捜査当局に通知、外部専門家が調査しています。",
+    "note": "8-Kは「取得した可能性」と記載しており、総数は未公表です。The Recordによると州当局への届出ではテキサス州127,200人、バーモント州1,328人で、これは州別の届出数であり合計ではありません。発生日は不明。事業への重大な影響は見込まないとしています。",
+    "affected": [
+      {
+        "count": 127200,
+        "unit": "people",
+        "description": "テキサス州当局への届出に記載の対象者数(州別、全体数ではない)",
+        "source_id": "revolve-2026-2"
+      },
+      {
+        "count": 1328,
+        "unit": "people",
+        "description": "バーモント州当局への届出に記載の対象者数(州別、全体数ではない)",
+        "source_id": "revolve-2026-2"
+      }
+    ],
+    "sources": [
+      "revolve-2026-1",
+      "revolve-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-31",
+    "last_verified_at": "2026-10-31",
+    "verification_note": "SEC 8-K本文(一次情報)とThe Record本文で認知、項目、対応、州別届出数を照合。"
   }
 ]
