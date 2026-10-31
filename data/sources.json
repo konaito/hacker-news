@@ -6361,5 +6361,26 @@
     "type": "reporting",
     "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
     "title": "Fashion retailer Resolve says hackers stole payment card information"
+  },
+  {
+    "id": "chainalysis-2026-1",
+    "publisher": "Chainalysis",
+    "type": "primary",
+    "url": "https://www.chainalysis.com/blog/security-incident-october-30/",
+    "title": "Security incident: October 30"
+  },
+  {
+    "id": "chainalysis-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "title": "Chainalysis discloses data breach from 'offensive agentic techniques'"
+  },
+  {
+    "id": "onamae-desktop-cloud-2026-7",
+    "publisher": "GMOインターネットグループ",
+    "type": "primary",
+    "url": "https://group.gmo/info/alert/2026102705/",
+    "title": "「お名前.com デスクトップクラウド」への不正アクセスに関する対応状況(第12報)"
   }
 ]
