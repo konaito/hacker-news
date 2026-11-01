@@ -13532,5 +13532,52 @@
     "first_seen_at": "2026-10-31",
     "last_verified_at": "2026-10-31",
     "verification_note": "Northflank公式ステータスページ(一次情報)、BleepingComputer、Wizの本文を確認。10/30のWizアラート、環境変数復号の前提でのローテーション要請、AI APIキー不正利用の顧客報告で一致。被害数・原因は未公表。"
+  },
+  {
+    "id": "cloudflare-workers-ai-kv-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": "2026-08-27",
+    "company": "Cloudflare",
+    "service": "Workers AI(GLM 5.3モデル)",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "IT・クラウド",
+    "title": "Cloudflare Workers AIで他の顧客の入力データを含む応答が返却、超長文リクエスト155件が影響",
+    "summary": "Cloudflareは10月26日、Workers AIのGLM 5.3モデルで、8月27日から9月9日の間に155件の応答へ同じモデルの他の顧客の直近リクエストのデータが含まれていたと公表しました。KVキャッシュの設定不一致と推論エンジンSGLangの不具合が原因で、68万1,280トークン超のプロンプトが対象でした。9月8日にKnosticの研究者がHackerOne経由で報告し、9月9日に対応しました。",
+    "note": "影響を受けた顧客は「少数」とされ、正確な顧客数や通知の有無は公表されていません。Cloudflareは意図的な悪用の証拠は見つからなかったとしています。件数は応答の数で、人・アカウント・レコードの単位に当てはまらないため影響件数欄には入れていません。",
+    "affected": [],
+    "sources": [
+      "cloudflare-workers-ai-kv-2026-1",
+      "cloudflare-workers-ai-kv-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-01",
+    "last_verified_at": "2026-11-01",
+    "verification_note": "Cloudflare公式ブログ(一次情報)とSecurityWeekの記事本文を確認。発生期間、155件、原因、悪用の証拠なしの記述で一致。顧客数は未公表。"
+  },
+  {
+    "id": "radford-data-incident-2026",
+    "published_at": "2026-09-29",
+    "occurred_at": null,
+    "company": "米バージニア州Radford市",
+    "service": "市のインターネット・メール・電話・庁内システム",
+    "region": "US",
+    "status": "disruption",
+    "display_label": "業務障害・調査中",
+    "category": "行政・公共",
+    "title": "米バージニア州Radford市、「データインシデントの可能性」でメール・電話が停止、水道料金請求などに影響",
+    "summary": "Radford市は9月29日、「データインシデントの可能性」によるインターネット障害を告知しました。市庁舎のメールと大半の電話が停止し、サイバーセキュリティ専門家、弁護士、州・連邦の捜査機関が対応しています。10月5日までに大半のサービスは復旧しましたが、DMV Select窓口、オンラインの課税カード、9月分の水道料金請求などに影響が残りました。",
+    "note": "不正アクセス、ランサムウェア、データ窃取の事実は公表されておらず、原因は未確認です。個人情報の漏えいも確認されていません。市の告知は画像で本文を確認できず、地元報道とDysruptionHubの本文に基づいています。",
+    "affected": [],
+    "sources": [
+      "radford-data-incident-2026-1",
+      "radford-data-incident-2026-2",
+      "radford-data-incident-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-10-31",
+    "last_verified_at": "2026-11-01",
+    "verification_note": "WSLS、WDBJ、DysruptionHubの本文を確認。『データインシデントの可能性』による停止、捜査機関の関与、10/5時点の復旧状況で一致。市の告知は画像のため本文未確認。侵害の有無は未確認。"
   }
 ]

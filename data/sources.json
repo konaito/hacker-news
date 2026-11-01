@@ -6403,5 +6403,40 @@
     "type": "reporting",
     "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
     "title": "Black October for AI Developer Platforms"
+  },
+  {
+    "id": "cloudflare-workers-ai-kv-2026-1",
+    "publisher": "Cloudflare",
+    "type": "primary",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "title": "Workers AI KV cache exposure remediation"
+  },
+  {
+    "id": "cloudflare-workers-ai-kv-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+    "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak"
+  },
+  {
+    "id": "radford-data-incident-2026-1",
+    "publisher": "WSLS",
+    "type": "reporting",
+    "url": "https://www.wsls.com/news/local/2026/09/30/city-of-radford-experiencing-internet-outage-after-possible-data-incident/",
+    "title": "City of Radford experiencing internet outage after possible data incident"
+  },
+  {
+    "id": "radford-data-incident-2026-2",
+    "publisher": "WDBJ",
+    "type": "reporting",
+    "url": "https://www.wdbj7.com/2026/10/06/most-radford-city-services-restored-after-unavailability-due-data-incident/",
+    "title": "Most Radford city services restored after unavailability due to data incident"
+  },
+  {
+    "id": "radford-data-incident-2026-3",
+    "publisher": "DysruptionHub",
+    "type": "reporting",
+    "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
+    "title": "City of Radford incident profile"
   }
 ]
