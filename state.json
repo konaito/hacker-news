@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-11-01T09:15:45.969362+00:00",
+  "completed_at": "2026-11-01T16:02:47.759316+00:00",
   "candidates": [
     {
       "title": "Anthropic社内システムへのCathedral侵入を巡る争い",
@@ -123,22 +123,6 @@
       "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
     },
     {
-      "title": "ロシアの家庭用品チェーンPoryadokへのサイバー攻撃",
-      "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
-      "url": "https://www.derp.ca/ransomware/thegentlemen/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
       "title": "ヤマダデンキ提供サービスへの不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html",
       "priority": "normal",
@@ -174,62 +158,6 @@
       "title": "渋谷区のシステム障害と窓口業務縮小",
       "url": "https://www.itmedia.co.jp/news/article/2610/05/2000001998/",
       "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
-      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "都内自治体でシステム障害相次ぐ",
-      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "Domino's利用者アカウントへの不正ログイン",
-      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "hsc.mb.caに対するINC Ransomの公開主張",
-      "url": "https://www.ransomlook.io/group/inc%20ransom",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "BigIDに対するThe Gentlemenの公開主張",
-      "url": "https://www.ransomlook.io/group/the%20gentlemen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "N0nによる海運・港湾企業の主張",
-      "url": "https://www.ransomlook.io/recent",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
-    },
-    {
-      "title": "Silent Ransom GroupのSNSリード",
-      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
-      "priority": "high",
       "decision": "deferred",
       "incident_id": null,
       "reason": "必須再調査の選択外のため今回は再取得せず。前回の判断を維持して持越し。"
@@ -467,6 +395,110 @@
       "reason": "既存のgmo-*レコードと同一事案かを本文で照合しておらず、時間配分上、次回へ持越し。GMOへの身代金要求(SN 191999)も含む。"
     },
     {
+      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
+      "url": "https://www.derp.ca/ransomware/thegentlemen/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で追跡サイト・Cybernewsの報道を確認したが、いずれも当事者の確認がなく、リーク掲載のみ。日付もソース間で10/10と10/12に不一致。未検証のため持越し。"
+    },
+    {
+      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ITmedia本文を再取得。クラウド・サーバ管理会社の障害とする組織が複数あるが、攻撃の事実や共通原因は未確認。攻撃と確認できず持越し。"
+    },
+    {
+      "title": "都内自治体でシステム障害相次ぐ",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ITmedia本文を再取得。IDCフロンティアへのランサム疑いは推測のみで、各自治体の原因説明も未検証。既存のidcf-cloud-2026との関係は未確認で持越し。"
+    },
+    {
+      "title": "Domino's利用者アカウントへの不正ログイン",
+      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Malwarebytes本文を再取得。英国のDomino'sとみられるが推定で、被害件数は不明。出典は同記事1件のみで掲載基準未達、持越し。"
+    },
+    {
+      "title": "hsc.mb.caに対するINC Ransomの公開主張",
+      "url": "https://www.ransomlook.io/group/inc%20ransom",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で、INC Ransomの主張は追跡サイトの記載のみで、病院からの確認は見つからなかった。8月の別件ランサムウェア(CTV等)との関係も不明。未検証のため持越し。"
+    },
+    {
+      "title": "BigIDに対するThe Gentlemenの公開主張",
+      "url": "https://www.ransomlook.io/group/the%20gentlemen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索ではSOCRadar・Dexposeなど脅威情報サイトの掲載のみで、BigIDの声明なし。攻撃者の主張で未検証、持越し。"
+    },
+    {
+      "title": "N0nによる海運・港湾企業の主張",
+      "url": "https://www.ransomlook.io/recent",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索でThe Loadstar、Maritime Executive等が38組織の主張を報道。ただし各社の確認はなく、共通ソフト環境の可能性も未確定。個別企業の侵害は未検証で持越し。"
+    },
+    {
+      "title": "Silent Ransom GroupのSNSリード",
+      "url": "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索でThe Record等がチャットログ漏えいを報道。約2.07億ドルは攻撃者側の内部記録で未検証。個別の被害組織は特定できず、持越し。"
+    },
+    {
+      "title": "ANAの予約情報に不正アクセス(Amadeus経由)",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002722/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ITmedia本文のみ確認。ANA公式・他媒体は検索で確認できず。報道1媒体のため掲載せず次回に持越し(既存jal-jta-amadeus-2026とは別組織)。"
+    },
+    {
+      "title": "Poryadok(ロシアのホームグッズ小売)へのサイバー攻撃",
+      "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文のみ確認。企業のVK投稿が一次情報だが本文未取得。1媒体のみで持越し。"
+    },
+    {
+      "title": "Alpine LinuxのGitLabへの攻撃試行",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認。侵害は未確認で、Alpine公式本文は未取得。脆弱性の悪用試行であり、掲載基準未達で持越し。"
+    },
+    {
+      "title": "Oracle Health(Cerner)の漏えい規模が約2,000万人との報道",
+      "url": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文は確認。件数はBloomberg引用でOracle未確認。既存のoracle-health-cerner-2025への反映は、州当局の確定値が得られていないため見送り。"
+    },
+    {
+      "title": "資さんうどん勤怠システムの設定不備",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002667/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ITmedia見出しのみ確認。本文未確認で持越し。"
+    },
+    {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
       "incident_id": "ftapi-2026",
       "url": null,
@@ -556,27 +588,27 @@
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-11-01T06:51:31Z",
     "tottori-care-provider-email-2026": "2026-11-01T02:14:32Z",
     "solar-russian-medical-network-2026": "2026-11-01T02:14:32Z",
-    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-11-01T02:14:32Z",
+    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-11-01T16:02:14Z",
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-11-01T09:15:24Z",
     "hcuch-imaging-2026": "2026-11-01T06:51:31Z",
     "kenya-brs-2026": "2026-11-01T02:14:32Z",
     "https://www.security-next.com/190739": "2026-11-01T02:14:32Z",
     "andover-town-schools-2026": "2026-11-01T06:51:31Z",
     "https://skyticket.jp/news/maintenance/67603": "2026-11-01T09:15:24Z",
-    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-01T02:14:32Z",
+    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-01T16:02:14Z",
     "https://s-que.net/news/20261008/": "2026-11-01T06:51:31Z",
     "rhyne-industrial-company-2023": "2026-11-01T02:14:32Z",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-11-01T02:14:32Z",
-    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-11-01T02:14:32Z",
+    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-11-01T16:02:14Z",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-11-01T09:15:24Z",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-01T02:14:32Z",
-    "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-01T02:14:32Z",
-    "https://www.ransomlook.io/group/inc%20ransom": "2026-11-01T02:14:32Z",
+    "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-01T16:02:14Z",
+    "https://www.ransomlook.io/group/inc%20ransom": "2026-11-01T16:02:14Z",
     "https://www.security-next.com/190136": "2026-11-01T02:14:32Z",
-    "https://www.ransomlook.io/recent": "2026-11-01T02:14:32Z",
+    "https://www.ransomlook.io/recent": "2026-11-01T16:02:14Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-01T02:14:32Z",
-    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-01T02:14:32Z",
-    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-01T02:14:32Z",
+    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-01T16:02:14Z",
+    "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-01T16:02:14Z",
     "https://haveibeenpwned.com/breach/neogen": "2026-11-01T06:51:31Z",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-11-01T06:51:31Z",
     "https://haveibeenpwned.com/breach/angelone": "2026-11-01T06:51:31Z",
@@ -605,7 +637,7 @@
     "https://www.security-next.com/191906": "2026-11-01T02:14:32Z",
     "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/": "2026-11-01T02:14:32Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html": "2026-11-01T06:51:31Z",
-    "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-01T02:14:32Z",
+    "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-01T16:02:14Z",
     "https://www.city.yokohama.lg.jp/konan/bosai_bohan/saigai/bousai-oshirase.html": "2026-11-01T02:14:32Z",
     "https://www.pref.fukuoka.lg.jp/contents/kyoryokutai-attention.html": "2026-11-01T02:14:32Z",
     "https://therecord.media/": "2026-11-01T06:51:31Z",
@@ -615,13 +647,17 @@
     "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/": "2026-11-01T02:14:32Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/30/56626.html": "2026-11-01T06:51:31Z",
     "https://www.bleepingcomputer.com/": "2026-11-01T06:51:31Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/30/56632.html": "2026-11-01T09:15:24Z"
+    "https://scan.netsecurity.ne.jp/article/2026/10/30/56632.html": "2026-11-01T09:15:24Z",
+    "https://www.itmedia.co.jp/news/article/2610/29/2000002722/": "2026-11-01T16:02:14Z",
+    "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/": "2026-11-01T16:02:14Z",
+    "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/": "2026-11-01T16:02:14Z",
+    "https://www.itmedia.co.jp/news/article/2610/28/2000002667/": "2026-11-01T16:02:14Z"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-11-01T09:15:24Z",
-      "summary": "直近72時間の新着一覧(Security NEXT、ScanNetSecurity、BleepingComputer、The Record)を確認し、掲載対象の事件はすべて既存IDに収録済みで、新規掲載・更新はなし。選択された必須再調査8件は再検索し、うち6件は未検証、1件は第2の報道なしでdeferred持越し、ShinyHunters関連の逮捕報道は対象外と判断した(skyticketは公式403で未検証)。データ変更なし。",
-      "run_id": "41292069739",
+      "completed_at": "2026-11-01T16:02:14Z",
+      "summary": "直近72時間の国内外の一覧と必須再調査8件を確認した。新規掲載基準を満たす事件はなく、data/は変更なし。ANAのAmadeus経由の不正アクセスなどは報道1媒体のためdeferred。",
+      "run_id": "41323981701",
       "main_sha": "9f30e04910e7596a2f691f2bead144627a494de5"
     },
     "historical": {
@@ -633,8 +669,8 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "41292069739",
-    "completed_at": "2026-11-01T09:15:45.969362+00:00",
+    "run_id": "41323981701",
+    "completed_at": "2026-11-01T16:02:47.759316+00:00",
     "result": "success",
     "error": null,
     "main_sha": "9f30e04910e7596a2f691f2bead144627a494de5"
