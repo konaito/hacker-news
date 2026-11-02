@@ -6466,5 +6466,47 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56645.html",
     "title": "ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ51,628,280件の情報が流出"
+  },
+  {
+    "id": "ana-amadeus-2026-1",
+    "publisher": "Aviation Wire",
+    "type": "reporting",
+    "url": "https://www.aviationwire.jp/archives/353359/print/",
+    "title": "ANA、アマデウスへの不正アクセスで約3万7800人の予約情報が閲覧された可能性"
+  },
+  {
+    "id": "ana-amadeus-2026-2",
+    "publisher": "トラベルボイス",
+    "type": "reporting",
+    "url": "https://www.travelvoice.jp/20261030-160771",
+    "title": "ANA、Amadeusへの不正アクセスで約3万7800人の予約情報が閲覧された可能性"
+  },
+  {
+    "id": "shinryo-cyberattack-2026-1",
+    "publisher": "新菱冷熱工業",
+    "type": "primary",
+    "url": "https://www.shinryo.com/news/20261021.html",
+    "title": "サイバー攻撃によるシステム障害発生について"
+  },
+  {
+    "id": "shinryo-cyberattack-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56642.html",
+    "title": "新菱冷熱工業にサイバー攻撃、システム障害で一部サービスにも影響"
+  },
+  {
+    "id": "sally-inquiry-2026-1",
+    "publisher": "株式会社Sally",
+    "type": "primary",
+    "url": "https://sally-inc.jp/news/2026-10-incident",
+    "title": "【重要】お問い合わせ情報の漏えいのおそれに関するお詫びとお知らせ"
+  },
+  {
+    "id": "sally-inquiry-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56641.html",
+    "title": "Sallyに2件の不正アクセス、問い合わせ情報が漏えいした可能性"
   }
 ]

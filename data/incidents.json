@@ -13617,5 +13617,100 @@
     "first_seen_at": "2026-11-02",
     "last_verified_at": "2026-11-02",
     "verification_note": "PingCAP公式セキュリティ情報の本文で期間・対象データ・ソースコード取得・TiDB保存データへの影響証拠なしを確認。ScanNetSecurity本文で日本国内最大約5万件と項目を確認。"
+  },
+  {
+    "id": "ana-amadeus-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "全日本空輸(ANA)",
+    "service": "旅客サービスシステム(Amadeus IT Group運営)",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "旅行・交通",
+    "title": "ANA、Amadeusへの不正アクセスで約3.78万人の予約情報が閲覧された可能性",
+    "summary": "ANAは、旅客サービスシステムを運営するAmadeus IT Group(スペイン)への不正アクセスにより、2023年8月10日から2026年9月23日までに予約した約3万7,800人の予約情報が外部から閲覧された可能性があると公表しました。約3万6,100人は氏名・予約番号・搭乗日・区間・クラス、約1,700人はさらにメールアドレス、電話番号、パスポート番号、国籍、マイル番号などが対象です。クレジットカード情報とパスワードは含まれないとしています。Amadeusは9月24日に検知しましたがANAへの報告は当初なく、10月20日に報告を受けて個人情報保護委員会等へ届け出ました。",
+    "note": "JAL・JTAの事案(jal-jta-amadeus-2026)と同じAmadeusの不正アクセスですが、被害を受けた航空会社と人数は別で、合算しません。件数は閲覧された可能性のある人数(概数)です。ランサムウェア、改ざん・削除の証拠はないとされています。ANA公式発表の本文は取得しておらず、Aviation WireとトラベルボイスのANA発表の報道本文に基づきます。エア・ドゥ、ソラシドエア、スターフライヤーも個人データが閲覧された可能性を公表したと報じられていますが、本記録では未確認です。",
+    "affected": [
+      {
+        "count": 37800,
+        "unit": "people",
+        "description": "予約情報が閲覧された可能性のある顧客の概数(Aviation Wire・トラベルボイス報道)",
+        "source_id": "ana-amadeus-2026-1"
+      },
+      {
+        "count": 1700,
+        "unit": "people",
+        "description": "うち、パスポート番号等の追加項目が対象の概数",
+        "source_id": "ana-amadeus-2026-1"
+      }
+    ],
+    "sources": [
+      "ana-amadeus-2026-1",
+      "ana-amadeus-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-02",
+    "last_verified_at": "2026-11-02",
+    "verification_note": "Aviation Wireとトラベルボイスの本文で、約3.78万人・内訳・期間・9/24検知・10/20報告・カード/パスワード非対象を照合。ANA公式は未取得。"
+  },
+  {
+    "id": "shinryo-cyberattack-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-17",
+    "company": "新菱冷熱工業",
+    "service": "社内システム・一部提供サービス",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "業務障害・調査中",
+    "category": "建設・不動産",
+    "title": "新菱冷熱工業、第三者のサイバー攻撃でシステム障害、一部サービスに影響",
+    "summary": "新菱冷熱工業は10月21日、10月17日に第三者によるサイバー攻撃を受けてシステム障害が発生し、同社が提供する一部サービスに影響が出ていると公表しました。現時点で個人情報や顧客データが外部へ流出した事実は確認されていないとしています。外部専門機関や関係機関と連携し、復旧、事実関係の確認、影響範囲の特定を進めています。",
+    "note": "影響件数や対象サービス、攻撃手法は公表されていません。情報流出は「確認されていない」段階で、流出なしの確定ではありません。調査が進めば内容が変わる可能性があります。",
+    "affected": [],
+    "sources": [
+      "shinryo-cyberattack-2026-1",
+      "shinryo-cyberattack-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-02",
+    "last_verified_at": "2026-11-02",
+    "verification_note": "同社公式お知らせ(一次情報)とScanNetSecurityの本文で、10/17発生、10/21公表、流出未確認、件数なしを照合。"
+  },
+  {
+    "id": "sally-inquiry-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-14",
+    "company": "株式会社Sally",
+    "service": "「ウズ」問い合わせ管理システム・公式サイト問い合わせフォーム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "IT・通信",
+    "title": "Sally、2件の不正アクセスで問い合わせ情報計約950人分が漏えいのおそれ",
+    "summary": "株式会社Sallyは10月21日、2件の不正アクセスにより問い合わせ情報が漏えいしたおそれがあると公表しました。1件目は10月14日に社員のメールアカウントが悪用され問い合わせ管理システムにログインされた事案で、「ウズ」への問い合わせ544人のメールアドレス、電話番号、問い合わせ内容が対象です。2件目は以前利用していたWebサイト構築サービスStudioのクラウド環境への9月30日〜10月1日の不正アクセスで、公式サイトのフォーム404人の氏名、メールアドレス、問い合わせ内容などが対象です。情報の公開や悪用は確認されていません。",
+    "note": "544人と404人は別事案の人数で、重複の有無は公表されていないため合算しません(合計は参考の概数)。クレジットカード情報、アプリ内メッセージ等は対象外とされています。個人情報保護委員会へは10月17日に届出済みです。",
+    "affected": [
+      {
+        "count": 544,
+        "unit": "people",
+        "description": "「ウズ」問い合わせ者(2026年3月30日〜10月14日)のうち漏えいのおそれがある人数",
+        "source_id": "sally-inquiry-2026-1"
+      },
+      {
+        "count": 404,
+        "unit": "people",
+        "description": "公式サイトフォームの送信者(2026年4月まで)のうち漏えいのおそれがある人数",
+        "source_id": "sally-inquiry-2026-1"
+      }
+    ],
+    "sources": [
+      "sally-inquiry-2026-1",
+      "sally-inquiry-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-02",
+    "last_verified_at": "2026-11-02",
+    "verification_note": "Sally公式お知らせ(一次情報)とScanNetSecurityの本文で、2事案の日付・人数・項目・非対象情報を照合。"
   }
 ]
