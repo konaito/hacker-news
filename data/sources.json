@@ -6550,5 +6550,33 @@
     "type": "reporting",
     "url": "https://nextgov.com/cybersecurity/2026/10/dhs-personnel-leak-exposes-contact-details-and-sensitive-job-information/416901",
     "title": "DHS personnel leak exposes contact details and sensitive job information"
+  },
+  {
+    "id": "cursor-claude-code-extension-2026-1",
+    "publisher": "Cursor",
+    "type": "primary",
+    "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "title": "Security notice: malicious Claude Code extension on the Cursor Marketplace"
+  },
+  {
+    "id": "cursor-claude-code-extension-2026-2",
+    "publisher": "Microsoft Security Blog",
+    "type": "reporting",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+    "title": "Inside malicious Claude Code-branded Cursor extension: persistent SSH backdoor"
+  },
+  {
+    "id": "cursor-claude-code-extension-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors"
+  },
+  {
+    "id": "cursor-claude-code-extension-2026-4",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+    "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack"
   }
 ]

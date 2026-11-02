@@ -13768,5 +13768,30 @@
     "first_seen_at": "2026-11-02",
     "last_verified_at": "2026-11-02",
     "verification_note": "CyberScoopとNextgov/FCWの本文で公開日・件数・DHSおよびOktaの反応・部分的な検証状況を照合。攻撃者側の主張は主張として区別。"
+  },
+  {
+    "id": "cursor-claude-code-extension-2026",
+    "published_at": "2026-10-29",
+    "occurred_at": "2026-10-29",
+    "company": "Cursor(Anysphere)",
+    "service": "Cursor拡張機能マーケットプレイス",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "Cursorのマーケットプレイスで改ざんされたClaude Code拡張機能が約11時間配布、SSHバックドア設置を試行",
+    "summary": "Cursorは10月29日、Anthropic名義のClaude Code拡張機能の悪意あるバージョン(2.1.312・2.1.313)がCursorの拡張機能マーケットプレイスで配布されたと公表しました。太平洋時間の午前2時27分ごろから午後1時35分ごろまで入手可能で、読み込み時にホスト情報の送信、攻撃者のSSH鍵の追加、リバースSSHトンネルや永続化の設置を試みました。Cursorは当該版を削除し、マーケットプレイスを一時停止して鍵を更新しました。",
+    "note": "影響人数はCursorの告知になく、最大約5,000人はBleepingComputer・SecurityWeekが報じた推計(SecurityWeekはKevin Beaumont氏の見方)のため件数としては採用しません。SSH接続は管理者権限が必要で多くの環境で失敗したとされますが、鍵や永続化の痕跡は残る場合があります。Anthropicは自社が作成・公開したものではなく、公式配布経路は影響を受けていないとしています。マーケットプレイスへ公開された経緯は未解明です。",
+    "affected": [],
+    "sources": [
+      "cursor-claude-code-extension-2026-1",
+      "cursor-claude-code-extension-2026-2",
+      "cursor-claude-code-extension-2026-3",
+      "cursor-claude-code-extension-2026-4"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-02",
+    "last_verified_at": "2026-11-02",
+    "verification_note": "Cursorの公式告知、Microsoft、BleepingComputer、SecurityWeekの本文を取得し、公開時間帯・対象バージョン・動作・Cursorの対応・影響人数が推計である点を照合。"
   }
 ]
