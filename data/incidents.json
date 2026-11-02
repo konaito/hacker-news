@@ -13399,11 +13399,11 @@
   },
   {
     "first_seen_at": "2026-10-30",
-    "last_verified_at": "2026-10-30",
+    "last_verified_at": "2026-11-02",
     "publication_status": "published",
     "id": "revolve-card-2026",
     "published_at": "2026-10-30",
-    "occurred_at": null,
+    "occurred_at": "2026-09-11",
     "company": "Revolve Group",
     "service": "Revolve ECサイト",
     "region": "US",
@@ -13412,19 +13412,20 @@
     "category": "EC・小売",
     "title": "米ファッションECのRevolve、不正アクセスで保存済み決済カード情報が取得された可能性、8-Kで開示",
     "summary": "Revolve GroupはSEC提出の8-K(10月29日付)で、一部システムへの不正アクセスを認識し、保存済み決済情報のある一部顧客の氏名・連絡先・カード番号・有効期限が自動化された手段で取得された可能性があると開示しました。不正活動は是正済みで、法執行機関に通報し外部専門家を起用しています。",
-    "note": "8-Kは発生・発見日と総件数を示していません。The Recordによると州当局への届出ではテキサス州127,200人、バーモント州1,328人で、全体件数ではありません。業務停止や重大な事業影響は想定していないとしています。",
+    "note": "8-Kは発生・発見日と総件数を示していません。The Recordによると州当局への届出ではテキサス州127,200人、バーモント州1,328人で、全体件数ではありません。業務停止や重大な事業影響は想定していないとしています。 11月2日のSecurityWeekは、4州の届出で通知対象が少なくとも179,259人、発生日は9月11日、保存済みの氏名・住所・カード番号・有効期限が対象と報じました(会社は正確な総数を未公表)。",
     "affected": [
       {
-        "count": 127200,
+        "count": 179259,
         "unit": "people",
-        "description": "テキサス州当局への届出に記載された対象者(全体数ではない)",
-        "source_id": "revolve-card-2026-2"
+        "description": "米4州(アイオワ、マサチューセッツ、テキサス、バーモント)当局への届出に記載された通知対象者の合計(最低数)",
+        "source_id": "revolve-card-2026-3"
       }
     ],
-    "verification_note": "SEC 8-K本文(Item 8.01)とThe Record本文を照合。8-Kは「may have obtained」と記載し、カード情報の取得は可能性として扱う。",
+    "verification_note": "SEC 8-K本文(Item 8.01)とThe Record本文を照合。8-Kは「may have obtained」と記載し、カード情報の取得は可能性として扱う。 11/2にSecurityWeek本文で届出ベースの件数と発生日を追加確認。",
     "sources": [
       "revolve-card-2026-1",
-      "revolve-card-2026-2"
+      "revolve-card-2026-2",
+      "revolve-card-2026-3"
     ]
   },
   {
@@ -13461,7 +13462,7 @@
   {
     "id": "revolve-2026",
     "published_at": "2026-10-29",
-    "occurred_at": null,
+    "occurred_at": "2026-09-11",
     "company": "Revolve Group",
     "service": "ECプラットフォーム(アカウントに保存された支払い情報)",
     "region": "US",
@@ -13470,29 +13471,24 @@
     "category": "EC・小売",
     "title": "米ファッションEC Revolveに不正アクセス、保存されたカード番号・有効期限・氏名などが取得された恐れ",
     "summary": "Revolve Groupは10月29日付の8-Kで、システムへの不正アクセスを認知し、攻撃者が自動化された手段でアカウントに支払い情報を保存していた顧客の氏名、連絡先、カード番号、有効期限を取得した可能性があると開示しました。不正な活動は停止され、連邦捜査当局に通知、外部専門家が調査しています。",
-    "note": "8-Kは「取得した可能性」と記載しており、総数は未公表です。The Recordによると州当局への届出ではテキサス州127,200人、バーモント州1,328人で、これは州別の届出数であり合計ではありません。発生日は不明。事業への重大な影響は見込まないとしています。",
+    "note": "8-Kは「取得した可能性」と記載しており、総数は未公表です。The Recordによると州当局への届出ではテキサス州127,200人、バーモント州1,328人で、これは州別の届出数であり合計ではありません。発生日は不明。事業への重大な影響は見込まないとしています。 11月2日のSecurityWeekは、4州の届出で通知対象が少なくとも179,259人、発生日は9月11日、保存済みの氏名・住所・カード番号・有効期限が対象と報じました(会社は正確な総数を未公表)。",
     "affected": [
       {
-        "count": 127200,
+        "count": 179259,
         "unit": "people",
-        "description": "テキサス州当局への届出に記載の対象者数(州別、全体数ではない)",
-        "source_id": "revolve-2026-2"
-      },
-      {
-        "count": 1328,
-        "unit": "people",
-        "description": "バーモント州当局への届出に記載の対象者数(州別、全体数ではない)",
-        "source_id": "revolve-2026-2"
+        "description": "米4州(アイオワ、マサチューセッツ、テキサス、バーモント)当局への届出に記載された通知対象者の合計(最低数)",
+        "source_id": "revolve-2026-3"
       }
     ],
     "sources": [
       "revolve-2026-1",
-      "revolve-2026-2"
+      "revolve-2026-2",
+      "revolve-2026-3"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-31",
-    "last_verified_at": "2026-10-31",
-    "verification_note": "SEC 8-K本文(一次情報)とThe Record本文で認知、項目、対応、州別届出数を照合。"
+    "last_verified_at": "2026-11-02",
+    "verification_note": "SEC 8-K本文(一次情報)とThe Record本文で認知、項目、対応、州別届出数を照合。 11/2にSecurityWeek本文で届出ベースの件数と発生日を追加確認。"
   },
   {
     "id": "chainalysis-2026",
@@ -13712,5 +13708,65 @@
     "first_seen_at": "2026-11-02",
     "last_verified_at": "2026-11-02",
     "verification_note": "Sally公式お知らせ(一次情報)とScanNetSecurityの本文で、2事案の日付・人数・項目・非対象情報を照合。"
+  },
+  {
+    "id": "mofa-network-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": "2026-07-27",
+    "company": "外務省",
+    "service": "外部とやり取り可能なネットワーク(メール等)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "官公庁・自治体",
+    "title": "外務省、外部と通信可能なネットワークへの不正アクセスで個人情報約3,600件が漏えいした可能性",
+    "summary": "外務省は10月30日、外部とやり取りできるネットワークへの不正アクセスにより、同ネットワーク上で扱っていた個人情報を含むメール等の一部が漏えいした可能性があると発表しました。7月27日に不正アクセスを検知して遮断し認証情報を無効化、外部専門事業者の調査で流出の可能性が確認されました。",
+    "note": "約3,600件は氏名・メールアドレス等の情報の件数で、うち約900件は外務省職員以外のものと報じられています(件数の単位は人数ではありません)。機密性の高い情報の含有や二次被害は確認されていないとされます。外務省公式ページは403で本文を取得できず、NHKとSecurity NEXTの本文で確認しました。",
+    "affected": [
+      {
+        "count": 3600,
+        "unit": "records",
+        "description": "漏えいの可能性がある氏名・メールアドレス等の情報(約、うち約900件は省外の方)",
+        "source_id": "mofa-network-2026-1"
+      }
+    ],
+    "sources": [
+      "mofa-network-2026-1",
+      "mofa-network-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-02",
+    "last_verified_at": "2026-11-02",
+    "verification_note": "一次情報は取得不可のため、独立した報道2媒体(NHK、Security NEXT)の本文で日付・件数・対応を照合。"
+  },
+  {
+    "id": "dhs-icepick-leak-2026",
+    "published_at": "2026-10-28",
+    "occurred_at": null,
+    "company": "米国土安全保障省(DHS)",
+    "service": "DHS職員・契約者の連絡先等のデータ",
+    "region": "US",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "政府・公共",
+    "title": "米DHS職員・契約者4.1万人超の記録がDDoSecretsで公開、DHSは「侵害の可能性」を認識",
+    "summary": "非営利のDDoSecretsは10月28日、ハクティビスト集団「Department of Peace」から受け取ったとするDHS職員・契約者4.1万人超の検索可能なデータ「Icepick」を公開しました。氏名、電話番号、メールアドレス、役職、内部グループ所属などが含まれるとされ、ICE・CBP・CISAなどが対象です。DHSは「潜在的な侵害を認識し対処中」と述べています。",
+    "note": "入手経路はハクティビストが「OktaのSSO」と主張していますが未確認で、Oktaは自社の侵害の証拠はないとしています。報道各社は一部記録(CISA職員など)の実在を確認した一方、全データの真正性は確認されておらず、過去の記録も含まれます。4.1万人超は報道上の件数で、公式の確定値ではありません。",
+    "affected": [
+      {
+        "count": 41000,
+        "unit": "records",
+        "description": "公開データに含まれるDHS職員・契約者の記録(4.1万人超と報道、未確定)",
+        "source_id": "dhs-icepick-leak-2026-1"
+      }
+    ],
+    "sources": [
+      "dhs-icepick-leak-2026-1",
+      "dhs-icepick-leak-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-02",
+    "last_verified_at": "2026-11-02",
+    "verification_note": "CyberScoopとNextgov/FCWの本文で公開日・件数・DHSおよびOktaの反応・部分的な検証状況を照合。攻撃者側の主張は主張として区別。"
   }
 ]
