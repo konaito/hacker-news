@@ -6438,5 +6438,33 @@
     "type": "reporting",
     "url": "https://dysruptionhub.com/incidents/profiles/city-of-radford-2026-01/",
     "title": "City of Radford incident profile"
+  },
+  {
+    "id": "pingcap-tidb-cloud-2026-1",
+    "publisher": "PingCAP",
+    "type": "primary",
+    "url": "https://www.pingcap.com/trust-hub/security/security-update-october-2026/",
+    "title": "Security Update October 2026"
+  },
+  {
+    "id": "pingcap-tidb-cloud-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56640.html",
+    "title": "PingCAPに不正アクセス、日本国内で最大約5万件の個人情報が漏えい"
+  },
+  {
+    "id": "yumilink-mail-delivery-2026-5",
+    "publisher": "ユミルリンク",
+    "type": "primary",
+    "url": "https://www.ymir.co.jp/info/ymir-information20261027.html",
+    "title": "当社システムへの不正なアクセスに関するご報告(第二報)"
+  },
+  {
+    "id": "yumilink-mail-delivery-2026-6",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56645.html",
+    "title": "ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ51,628,280件の情報が流出"
   }
 ]
