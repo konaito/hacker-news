@@ -13793,5 +13793,58 @@
     "first_seen_at": "2026-11-02",
     "last_verified_at": "2026-11-02",
     "verification_note": "Cursorの公式告知、Microsoft、BleepingComputer、SecurityWeekの本文を取得し、公開時間帯・対象バージョン・動作・Cursorの対応・影響人数が推計である点を照合。"
+  },
+  {
+    "id": "iris-plaza-2026",
+    "published_at": "2026-11-03",
+    "occurred_at": null,
+    "company": "アイリスオーヤマ",
+    "service": "公式通販サイト「アイリスプラザ」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "アイリスオーヤマ、通販サイト「アイリスプラザ」で不正アクセスを確認し一時停止、情報漏えいの可能性を調査",
+    "summary": "アイリスオーヤマは10月29日、運営する通販サイトで不正アクセス(侵害)を確認したとして、利用者の安全確保のためサイトを一時停止し、情報漏えいの可能性を含めて調査していると発表しました。同日時点でクレジットカード情報の流出は確認されていないとされます。",
+    "note": "発生日・再開時期・影響件数は報道時点で公表されていません。公式お知らせはHTTP 403で本文を取得できず、NHKとSecurity NEXTの本文で確認しました。漏えいは確認済みではなく可能性として扱っています。",
+    "affected": [],
+    "sources": [
+      "iris-plaza-2026-1",
+      "iris-plaza-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-03",
+    "last_verified_at": "2026-11-03",
+    "verification_note": "一次情報は取得不可のため、独立した報道2媒体(NHK、Security NEXT)の本文で日付・停止・調査内容を照合。"
+  },
+  {
+    "id": "goodsmile-shop-2026",
+    "published_at": "2026-11-03",
+    "occurred_at": "2026-10-19",
+    "company": "グッドスマイルカンパニー",
+    "service": "公式ショップ(EC)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "グッドスマイルカンパニー公式ショップで不正アクセス、カード決済ページの不正プログラムで最大2,800人のカード情報が漏えいのおそれ",
+    "summary": "グッドスマイルカンパニーは、公式ショップで10月19日〜22日に管理情報への不正アクセスがあり、10月21日13時55分〜23日7時にカード決済ページへ不正プログラムが設置されていたと公表しました。この間にカード情報を入力した可能性のある2,800人について、名義・番号・有効期限・セキュリティコードが漏えいしたおそれがあります。サイトは10月23日に閉鎖されました。",
+    "note": "2,800人は決済ページを利用した可能性のある人数で、実際にカード決済で注文したのは384人と報じられています。システムの脆弱性が悪用され管理者権限が奪われたと同社は認識しています。企業の一次発表は直接取得しておらず、2媒体の本文で確認しました。",
+    "affected": [
+      {
+        "count": 2800,
+        "unit": "people",
+        "description": "不正プログラム設置期間にカード決済ページを利用し、カード情報が漏えいしたおそれのある人(最大、個別連絡対象)",
+        "source_id": "goodsmile-shop-2026-2"
+      }
+    ],
+    "sources": [
+      "goodsmile-shop-2026-1",
+      "goodsmile-shop-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-03",
+    "last_verified_at": "2026-11-03",
+    "verification_note": "独立した報道2媒体(Security NEXT、GameBusiness.jp)の本文で、期間・情報種別・2,800人・サイト閉鎖を照合。"
   }
 ]

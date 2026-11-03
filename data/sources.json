@@ -6578,5 +6578,33 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
     "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack"
+  },
+  {
+    "id": "iris-plaza-2026-1",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261029de68116",
+    "title": "アイリスオーヤマ 通販サイトで不正アクセス確認 サイト一時停止"
+  },
+  {
+    "id": "iris-plaza-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192208",
+    "title": "アイリスオーヤマ通販サイトで侵害 - 詳細を調査"
+  },
+  {
+    "id": "goodsmile-shop-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/191996",
+    "title": "ECサイトに不正アクセス、会員情報流出 - フィギュアメーカー"
+  },
+  {
+    "id": "goodsmile-shop-2026-2",
+    "publisher": "GameBusiness.jp",
+    "type": "reporting",
+    "url": "https://www.gamebusiness.jp/article/2026/10/30/28497.html",
+    "title": "クレカ番号全16桁、セキュリティコードまで漏えいの可能性ーグッドスマイルカンパニーの不正アクセス問題、対象となる2,800名に個別連絡"
   }
 ]
