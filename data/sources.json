@@ -6634,5 +6634,33 @@
     "type": "reporting",
     "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/",
     "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表"
+  },
+  {
+    "id": "workos-sales-app-2026-1",
+    "publisher": "WorkOS",
+    "type": "primary",
+    "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident",
+    "title": "Data Security Incident (October 30th, 2026)"
+  },
+  {
+    "id": "workos-sales-app-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app"
+  },
+  {
+    "id": "muji-app-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56662.html",
+    "title": "「MUJIアプリ」で最大 約2,726万件の顧客情報が流出した可能性"
+  },
+  {
+    "id": "muji-app-2026-2",
+    "publisher": "FASHIONSNAP",
+    "type": "reporting",
+    "url": "https://www.fashionsnap.com/article/2026-10-30/muji-unauthorized-access/",
+    "title": "無印良品「MUJIアプリ」に不正アクセス"
   }
 ]
