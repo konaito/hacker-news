@@ -6606,5 +6606,33 @@
     "type": "reporting",
     "url": "https://www.gamebusiness.jp/article/2026/10/30/28497.html",
     "title": "クレカ番号全16桁、セキュリティコードまで漏えいの可能性ーグッドスマイルカンパニーの不正アクセス問題、対象となる2,800名に個別連絡"
+  },
+  {
+    "id": "european-supermarket-refrigeration-wave2-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+    "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Resume"
+  },
+  {
+    "id": "european-supermarket-refrigeration-wave2-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+    "title": "Second wave of suspected cyberattacks hits supermarket freezers across Europe"
+  },
+  {
+    "id": "binance-hot-wallet-theft-2026-3",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+    "title": "FBI Flags Over 600 Addresses Tied to North Korea's Binance Heist"
+  },
+  {
+    "id": "binance-hot-wallet-theft-2026-4",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/",
+    "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表"
   }
 ]

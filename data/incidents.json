@@ -13182,16 +13182,18 @@
     "display_label": "不正出金確認",
     "category": "暗号資産",
     "title": "Binance、複数チェーンのホットウォレットから不正出金、損失は約63億ドルと推計され過去最大級",
-    "summary": "BleepingComputerとSecurityWeekは10月29日から30日にかけ、暗号資産取引所Binanceのウォレットから大規模な資金流出があったと報じました。SecurityWeekによると、Binanceは損失を約63億ドルと見積もり、出金を停止してSAFU基金等で全額補填すると表明しました。初期調査ではDevOps担当者のノートPCが侵害され、サービスコンテナ経由で不正な出金が申請されたとしており、秘密鍵の漏えいの証拠はないとしています。TetherとCircleはステーブルコインの一部を凍結しました。",
-    "note": "損失額はBinanceとTRM Labsの推計で第三者監査済みではなく、初期報道(BleepingComputer)ではブロックチェーン分析ベースで約35億〜58億ドルと幅がありました。侵入経路(従業員PC侵害)はBinanceの暫定調査です。北朝鮮のTraderTraitorによるとの見方はTRM Labs・Chainalysis・ZachXBTの分析で、政府機関による公式の帰属は確認されていません。凍結額は時間とともに更新されています。利用者数・件数は未公表のためaffectedは空です。",
+    "summary": "BleepingComputerとSecurityWeekは10月29日から30日にかけ、暗号資産取引所Binanceのウォレットから大規模な資金流出があったと報じました。SecurityWeekによると、Binanceは損失を約63億ドルと見積もり、出金を停止してSAFU基金等で全額補填すると表明しました。初期調査ではDevOps担当者のノートPCが侵害され、サービスコンテナ経由で不正な出金が申請されたとしており、秘密鍵の漏えいの証拠はないとしています。TetherとCircleはステーブルコインの一部を凍結しました。 米FBIは10月31日、盗難を北朝鮮関連のTraderTraitorによるものと帰属し、盗難資産の保有に関わる628アドレス(イーサリアム608、ビットコイン19、ソラナ1)を公表しました。FBIは資産が主にETHへ換えられ、DeFiや即時交換サービスで洗浄される見込みとして、事業者に関連取引の拒否を求めています。",
+    "note": "損失額はBinanceとTRM Labsの推計で第三者監査済みではなく、初期報道(BleepingComputer)ではブロックチェーン分析ベースで約35億〜58億ドルと幅がありました。侵入経路(従業員PC侵害)はBinanceの暫定調査です。北朝鮮のTraderTraitorによるとの見方はTRM Labs・Chainalysis・ZachXBTの分析で、10月31日にFBIが公式に北朝鮮のTraderTraitorへ帰属しました(SecurityWeek・ITmedia NEWSの本文で確認、FBI原文は未取得)。Binanceの共同CEOは初期のPC侵害説は不完全で単独犯ではないと述べたと報じられています。凍結額は時間とともに更新されています。利用者数・件数は未公表のためaffectedは空です。",
     "affected": [],
-    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10/29の流出、Binanceの調査・補填表明、凍結の事実は一致。損失額は出典間・時点間で差があり確定値として扱わない。Binance公式発表本文は未取得。",
+    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10/29の流出、Binanceの調査・補填表明、凍結の事実は一致。損失額は出典間・時点間で差があり確定値として扱わない。Binance公式発表本文は未取得。 11/3にFBIの帰属を伝えるSecurityWeekとITmedia NEWSの本文を追加確認し反映。",
     "publication_status": "published",
     "first_seen_at": "2026-10-30",
-    "last_verified_at": "2026-10-30",
+    "last_verified_at": "2026-11-03",
     "sources": [
       "binance-hot-wallet-theft-2026-1",
-      "binance-hot-wallet-theft-2026-2"
+      "binance-hot-wallet-theft-2026-2",
+      "binance-hot-wallet-theft-2026-3",
+      "binance-hot-wallet-theft-2026-4"
     ]
   },
   {
@@ -13846,5 +13848,28 @@
     "first_seen_at": "2026-11-03",
     "last_verified_at": "2026-11-03",
     "verification_note": "独立した報道2媒体(Security NEXT、GameBusiness.jp)の本文で、期間・情報種別・2,800人・サイト閉鎖を照合。"
+  },
+  {
+    "id": "european-supermarket-refrigeration-wave2-2026",
+    "published_at": "2026-11-02",
+    "occurred_at": "2026-11-02",
+    "company": "欧州の複数スーパー（Delhaize・Carrefour・SuperValu・ICA等）",
+    "service": "店舗の冷凍・冷蔵設備の遠隔管理システム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "設備停止",
+    "category": "小売・EC",
+    "title": "欧州のスーパーで冷凍・冷蔵設備が再び異常加熱、100店超に影響、10月のフランス事案に続く第2波",
+    "summary": "11月1日夜から2日にかけ、ベルギー、エストニア、アイルランド、ルクセンブルク、オランダ、スウェーデンなどのスーパーや食料品店で冷凍・冷蔵設備の庫内温度が最大50℃まで上昇しました。小売各社はサイバー攻撃が原因と説明し、ベルギー連邦検察が捜査を開始しました。SecurityWeekは100店超が影響を受けたと報じています。",
+    "note": "店舗数は媒体で異なり(The Recordはベルギーで50店超、SecurityWeekは全体で100店超)、重複を整理できないため件数は記録しません。犯行声明はなく、10月のフランス事案との関連や攻撃者は未確認です。報道では旧型のDanfoss機器やCopeland機器が言及されていますが、侵入経路は当局から公表されていません。AI関与の証拠は示されていません。企業・当局の一次発表は直接取得しておらず、2媒体の本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "european-supermarket-refrigeration-wave2-2026-1",
+      "european-supermarket-refrigeration-wave2-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-03",
+    "last_verified_at": "2026-11-03",
+    "verification_note": "独立した報道2媒体(SecurityWeek、The Record)の本文で、11月2日の発生、対象国、設備温度の異常上昇、攻撃者未特定を照合。"
   }
 ]
