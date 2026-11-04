@@ -13956,5 +13956,65 @@
     "first_seen_at": "2026-11-04",
     "last_verified_at": "2026-11-04",
     "verification_note": "BleepingComputer(2026-11-03)、Have I Been Pwned、Harvard Magazine(2025-11-25、大学の説明を引用)の本文で、2025年11月18日の発見、電話フィッシング、対象データ、約85万500アカウントを照合。大学公式ページは未取得(HTTP 403)。"
+  },
+  {
+    "id": "elestyle-merchant-2026",
+    "published_at": "2026-10-29",
+    "occurred_at": "2026-10-25",
+    "company": "ELESTYLE株式会社",
+    "service": "管理システム(加盟店登録情報)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・通信",
+    "title": "ELESTYLEの管理システムでアクセス制御の不備を突かれ、加盟店の登録情報最大7,162件が取得された可能性",
+    "summary": "ELESTYLEは10月29日、管理システムの一部機能のアクセス制御の不備を突いた第三者による不正アクセスが10月25日9時30分ごろから16時ごろにあったと公表しました。外部からのアクセスは同日遮断し、不備は27日に修正しています。加盟店の登録情報(ユーザー名・メールアドレス・内部システム識別子)7,162件が取得された可能性があり、個人情報保護委員会へ報告済みです。",
+    "note": "取得された可能性であり、実際の取得は確認されていません。パスワード、エンドユーザー情報、カード・銀行口座情報、取引記録、本人確認書類は対象外と公式に説明されています。7,162件は加盟店登録情報のレコード数で、人数ではありません。",
+    "affected": [
+      {
+        "count": 7162,
+        "unit": "records",
+        "description": "取得された可能性がある加盟店登録情報のレコード数",
+        "source_id": "elestyle-merchant-2026-1"
+      }
+    ],
+    "sources": [
+      "elestyle-merchant-2026-1",
+      "elestyle-merchant-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-04",
+    "last_verified_at": "2026-11-04",
+    "verification_note": "ELESTYLE公式発表(10/29)とScanNetSecurity(11/4)の本文で、発生日時・修正日・対象項目・件数7,162件を照合。"
+  },
+  {
+    "id": "chariloto-app-2026",
+    "published_at": "2026-10-24",
+    "occurred_at": "2026-10-21",
+    "company": "株式会社チャリ・ロト",
+    "service": "競輪・オートレース投票サービス「チャリロト」アプリ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "エンタメ",
+    "title": "「チャリロト」アプリの脆弱性を突かれ、チャリカ会員373人の氏名・口座情報・投票履歴などが取得される",
+    "summary": "チャリ・ロトは10月24日、10月21日9時30分ごろから13時ごろにかけて第三者がアプリの脆弱性を突いて不正アクセスし、チャリカ会員373人の情報が取得されたと公表しました。10月22日に点検で不審なログを発見してアプリを停止し、23日に脆弱性を修正してサービスを再開しています。対象は会員情報、銀行口座情報、カード情報(下4桁・有効期限・ブランド)、チャリカ残高・入出金履歴、投票履歴です。",
+    "note": "ログインパスワード、カード番号全桁、セキュリティコードは対象外とされています。公表時点で二次被害は確認されていません。個人情報保護委員会へ速報済みです。",
+    "affected": [
+      {
+        "count": 373,
+        "unit": "people",
+        "description": "情報が取得されたチャリカ会員",
+        "source_id": "chariloto-app-2026-1"
+      }
+    ],
+    "sources": [
+      "chariloto-app-2026-1",
+      "chariloto-app-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-04",
+    "last_verified_at": "2026-11-04",
+    "verification_note": "チャリ・ロト公式発表(10/24)とScanNetSecurity(11/4)の本文で、発生日時・対象人数373人・取得項目・対応を照合。"
   }
 ]

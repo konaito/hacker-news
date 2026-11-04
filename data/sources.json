@@ -6690,5 +6690,33 @@
     "type": "reporting",
     "url": "https://www.harvardmagazine.com/index.php/university-news/harvard-data-breach-alumni-affairs-cybersecurity",
     "title": "Harvard Alumni Affairs Databases Breached"
+  },
+  {
+    "id": "elestyle-merchant-2026-1",
+    "publisher": "ELESTYLE",
+    "type": "primary",
+    "url": "https://elestyle.jp/20261029-report",
+    "title": "不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "elestyle-merchant-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56659.html",
+    "title": "ELESTYLEのシステムに不正アクセス、加盟店の登録情報が外部に取得された可能性"
+  },
+  {
+    "id": "chariloto-app-2026-1",
+    "publisher": "チャリ・ロト",
+    "type": "primary",
+    "url": "https://chariloto.jp/news/20261024/index.html",
+    "title": "チャリロトアプリへの不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "chariloto-app-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56658.html",
+    "title": "競輪・オートレース投票サービス「チャリロト」に不正アクセス、点検で不審なログを発見"
   }
 ]
