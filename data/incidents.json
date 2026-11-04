@@ -13182,18 +13182,19 @@
     "display_label": "不正出金確認",
     "category": "暗号資産",
     "title": "Binance、複数チェーンのホットウォレットから不正出金、損失は約63億ドルと推計され過去最大級",
-    "summary": "BleepingComputerとSecurityWeekは10月29日から30日にかけ、暗号資産取引所Binanceのウォレットから大規模な資金流出があったと報じました。SecurityWeekによると、Binanceは損失を約63億ドルと見積もり、出金を停止してSAFU基金等で全額補填すると表明しました。初期調査ではDevOps担当者のノートPCが侵害され、サービスコンテナ経由で不正な出金が申請されたとしており、秘密鍵の漏えいの証拠はないとしています。TetherとCircleはステーブルコインの一部を凍結しました。 米FBIは10月31日、盗難を北朝鮮関連のTraderTraitorによるものと帰属し、盗難資産の保有に関わる628アドレス(イーサリアム608、ビットコイン19、ソラナ1)を公表しました。FBIは資産が主にETHへ換えられ、DeFiや即時交換サービスで洗浄される見込みとして、事業者に関連取引の拒否を求めています。",
-    "note": "損失額はBinanceとTRM Labsの推計で第三者監査済みではなく、初期報道(BleepingComputer)ではブロックチェーン分析ベースで約35億〜58億ドルと幅がありました。侵入経路(従業員PC侵害)はBinanceの暫定調査です。北朝鮮のTraderTraitorによるとの見方はTRM Labs・Chainalysis・ZachXBTの分析で、10月31日にFBIが公式に北朝鮮のTraderTraitorへ帰属しました(SecurityWeek・ITmedia NEWSの本文で確認、FBI原文は未取得)。Binanceの共同CEOは初期のPC侵害説は不完全で単独犯ではないと述べたと報じられています。凍結額は時間とともに更新されています。利用者数・件数は未公表のためaffectedは空です。",
+    "summary": "BleepingComputerとSecurityWeekは10月29日から30日にかけ、暗号資産取引所Binanceのウォレットから大規模な資金流出があったと報じました。SecurityWeekによると、Binanceは損失を約63億ドルと見積もり、出金を停止してSAFU基金等で全額補填すると表明しました。初期調査ではDevOps担当者のノートPCが侵害され、サービスコンテナ経由で不正な出金が申請されたとしており、秘密鍵の漏えいの証拠はないとしています。TetherとCircleはステーブルコインの一部を凍結しました。 米FBIは10月31日、盗難を北朝鮮関連のTraderTraitorによるものと帰属し、盗難資産の保有に関わる628アドレス(イーサリアム608、ビットコイン19、ソラナ1)を公表しました。FBIは資産が主にETHへ換えられ、DeFiや即時交換サービスで洗浄される見込みとして、事業者に関連取引の拒否を求めています。11月3日、BleepingComputerはBinanceの事案報告として、9月に始まった偽の採用面接によるソフトウェア技術者への接触、コーディング課題経由のマルウェア感染、AIツールを併用した2名の従業員の認証情報・デプロイトークン取得、10月29日の署名サービスへの不正アクセスという経緯を報じました。同社は凍結・回収額を約28.5億ドル(11月3日時点)、影響を受けたトークン資産の98%を補填済み(10月31日時点)としています。",
+    "note": "損失額はBinanceとTRM Labsの推計で第三者監査済みではなく、初期報道(BleepingComputer)ではブロックチェーン分析ベースで約35億〜58億ドルと幅がありました。侵入経路(従業員PC侵害)はBinanceの暫定調査です。北朝鮮のTraderTraitorによるとの見方はTRM Labs・Chainalysis・ZachXBTの分析で、10月31日にFBIが公式に北朝鮮のTraderTraitorへ帰属しました(SecurityWeek・ITmedia NEWSの本文で確認、FBI原文は未取得)。Binanceの共同CEOは初期のPC侵害説は不完全で単独犯ではないと述べたと報じられています。凍結額は時間とともに更新されています。利用者数・件数は未公表のためaffectedは空です。 11/3付BleepingComputerの報道では損失は約63.4億ドルとされ、侵入経路は初期の「DevOps担当者のノートPC」から、偽の採用面接で感染した技術者端末を足掛かりとする説明に更新されました。内容はほぼBinance自身の報告に基づき、マルウェアや回収額は第三者に独立検証されていません。Binance公式報告の本文は未取得です。",
     "affected": [],
-    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10/29の流出、Binanceの調査・補填表明、凍結の事実は一致。損失額は出典間・時点間で差があり確定値として扱わない。Binance公式発表本文は未取得。 11/3にFBIの帰属を伝えるSecurityWeekとITmedia NEWSの本文を追加確認し反映。",
+    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10/29の流出、Binanceの調査・補填表明、凍結の事実は一致。損失額は出典間・時点間で差があり確定値として扱わない。Binance公式発表本文は未取得。 11/3にFBIの帰属を伝えるSecurityWeekとITmedia NEWSの本文を追加確認し反映。 11/4に、BleepingComputer 11/3付記事の本文で侵入経路の更新と凍結・補填の数値を確認し反映。",
     "publication_status": "published",
     "first_seen_at": "2026-10-30",
-    "last_verified_at": "2026-11-03",
+    "last_verified_at": "2026-11-04",
     "sources": [
       "binance-hot-wallet-theft-2026-1",
       "binance-hot-wallet-theft-2026-2",
       "binance-hot-wallet-theft-2026-3",
-      "binance-hot-wallet-theft-2026-4"
+      "binance-hot-wallet-theft-2026-4",
+      "binance-hot-wallet-theft-2026-5"
     ]
   },
   {
@@ -13924,5 +13925,36 @@
     "first_seen_at": "2026-11-03",
     "last_verified_at": "2026-11-03",
     "verification_note": "独立した報道2媒体(ScanNetSecurity、FASHIONSNAP)の本文で、10月30日の発表、最大約2,726万件、対象項目、カード情報等を含まない旨を照合。公式告知の本文は未取得。"
+  },
+  {
+    "id": "harvard-alumni-affairs-2026",
+    "published_at": "2026-11-03",
+    "occurred_at": null,
+    "company": "ハーバード大学",
+    "service": "同窓・寄付業務(Alumni Affairs and Development)のシステム",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育",
+    "title": "ハーバード大学の同窓・寄付業務システムへの不正アクセス、約85万1,000件のメールアドレスを含むデータがHIBPに登録",
+    "summary": "ハーバード大学は2025年11月18日、電話を使ったフィッシングにより同窓・寄付業務のシステムに第三者が侵入したことを確認したと公表していました。11月3日、Have I Been Pwnedは同事案のデータ(約85万500アカウント、約85万1,000件の固有メールアドレス)を登録し、BleepingComputerはShinyHuntersが2026年2月に1.1GBのアーカイブを公開したと報じました。流出項目は氏名、連絡先、住所、生年月日、寄付情報などで、同大は社会保障番号、パスワード、カード情報、金融情報は保管していないとしています。",
+    "note": "件数はHIBPが示すアカウント(メールアドレス)単位で、人数ではありません。ハーバード大学は影響人数を公表しておらず、攻撃者の特定もしていません。ShinyHuntersによる犯行・公開はBleepingComputerの報道による内容で、大学は確認していません。侵害の発生は2025年11月で、今回は件数と流出データの公開に関する続報です。大学の公式ページはHTTP 403で本文を読めず、Harvard Magazineの本文で大学の説明を確認しました。",
+    "affected": [
+      {
+        "count": 850500,
+        "unit": "accounts",
+        "description": "HIBPが登録した影響アカウント(約85万1,000件の固有メールアドレス)",
+        "source_id": "harvard-alumni-affairs-2026-2"
+      }
+    ],
+    "sources": [
+      "harvard-alumni-affairs-2026-1",
+      "harvard-alumni-affairs-2026-2",
+      "harvard-alumni-affairs-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-04",
+    "last_verified_at": "2026-11-04",
+    "verification_note": "BleepingComputer(2026-11-03)、Have I Been Pwned、Harvard Magazine(2025-11-25、大学の説明を引用)の本文で、2025年11月18日の発見、電話フィッシング、対象データ、約85万500アカウントを照合。大学公式ページは未取得(HTTP 403)。"
   }
 ]

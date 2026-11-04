@@ -6662,5 +6662,33 @@
     "type": "reporting",
     "url": "https://www.fashionsnap.com/article/2026-10-30/muji-unauthorized-access/",
     "title": "無印良品「MUJIアプリ」に不正アクセス"
+  },
+  {
+    "id": "binance-hot-wallet-theft-2026-5",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+    "title": "Binance says fake job interview led to $6.3 billion crypto heist"
+  },
+  {
+    "id": "harvard-alumni-affairs-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+    "title": "Harvard University data breach exposed info of 851,000 accounts"
+  },
+  {
+    "id": "harvard-alumni-affairs-2026-2",
+    "publisher": "Have I Been Pwned",
+    "type": "reporting",
+    "url": "https://haveibeenpwned.com/Breach/Harvard",
+    "title": "Harvard Data Breach"
+  },
+  {
+    "id": "harvard-alumni-affairs-2026-3",
+    "publisher": "Harvard Magazine",
+    "type": "reporting",
+    "url": "https://www.harvardmagazine.com/index.php/university-news/harvard-data-breach-alumni-affairs-cybersecurity",
+    "title": "Harvard Alumni Affairs Databases Breached"
   }
 ]
