@@ -12572,21 +12572,23 @@
     "company": "DreamHost",
     "service": "File Manager・メール・FTP/SFTP",
     "region": "US",
-    "status": "disruption",
-    "display_label": "障害・パスワード強制リセット",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
     "category": "IT・クラウド",
-    "title": "DreamHostでFile Manager停止、メール・FTPパスワードを予防的に強制リセット",
-    "summary": "DreamHostは10月23日ごろからFile Managerに問題が生じ、メール・FTP/SFTP利用者のパスワードを予防措置として強制リセットしました。SecurityWeekによれば修正を展開しFile Managerのアクセスは復旧したと説明しています。",
-    "note": "侵害やデータ漏えいは会社が確認しておらず、原因と影響件数は非公表です。転送ルールの確認を促した点を除き、アカウント侵害を示す事実は確認できていません。利用者の憶測は採用しません。",
+    "title": "DreamHost、File Managerサーバーへの不正アクセスを確認、FTP/SFTP認証情報とWebメール認証情報が対象",
+    "summary": "DreamHostは10月23日に発見したFile Managerサーバーへの第三者の不正アクセスについて、サードパーティ製ソフトの脆弱性が悪用され、8月ごろ以降のFile Manager利用者のFTP/SFTP認証情報と、限られた利用者のWebメール認証情報が取得されたと公表しました。一部ではメールボックスの内容を閲覧された可能性があるとしています。",
+    "note": "影響は全メール・FTP/SFTPアカウントの約10%を大きく下回るとされ、正確な件数は非公表です。コントロールパネルのログインや請求情報へのアクセスの証拠はないとしています。調査は継続中です。",
     "affected": [],
     "sources": [
+      "dreamhost-2026-3",
+      "dreamhost-2026-4",
       "dreamhost-2026-1",
       "dreamhost-2026-2"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-27",
-    "last_verified_at": "2026-10-27",
-    "verification_note": "BleepingComputerとSecurityWeekの本文を確認。10月23日のFile Manager障害、パスワード強制リセット、侵害未確認、件数非公表で一致。DreamHost公式ステータス本文は未取得。"
+    "last_verified_at": "2026-11-04",
+    "verification_note": "DreamHost公式告知(10/29更新)とBleepingComputer(11/4)の本文で、10/23発見、脆弱性悪用、FTP/SFTP・Webメール認証情報の露出、件数非公表を照合。10/26時点の「侵害未確認」から更新。"
   },
   {
     "id": "kushiro-portas-2026",
@@ -14016,5 +14018,36 @@
     "first_seen_at": "2026-11-04",
     "last_verified_at": "2026-11-04",
     "verification_note": "チャリ・ロト公式発表(10/24)とScanNetSecurity(11/4)の本文で、発生日時・対象人数373人・取得項目・対応を照合。"
+  },
+  {
+    "id": "club-tourism-members-2026",
+    "published_at": "2026-10-31",
+    "occurred_at": "2026-10-30",
+    "company": "クラブツーリズム株式会社",
+    "service": "インターネット予約システム(インターネット会員)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "旅行・交通",
+    "title": "クラブツーリズム、サーバーへの不正アクセスでインターネット会員の情報約432万件が流出した可能性、サイトを一時停止",
+    "summary": "クラブツーリズムは10月31日、10月30日5時45分に同社サーバーの一部への第三者による不正アクセスを検知したと公表しました。インターネット予約システムに登録した会員の氏名、国籍、性別、生年月日・年齢、住所、電話番号、メールアドレス、会員ID、緊急連絡先など約432万件が流出した可能性があります。同社は侵入経路と手口を特定して対処し、サーバーの隔離、攻撃元の遮断、サイトの一時停止を行いました。",
+    "note": "ログインパスワード、パスポート情報、クレジットカード情報、口座番号は対象外とされています。公表時点で具体的な二次被害は確認されていません。警察と個人情報保護委員会などへ報告済みです。件数は記録件数で、人数ではありません。",
+    "affected": [
+      {
+        "count": 4320000,
+        "unit": "records",
+        "description": "流出の可能性があるインターネット会員情報(約432万件)",
+        "source_id": "clubtourism-2026-2"
+      }
+    ],
+    "sources": [
+      "clubtourism-2026-1",
+      "clubtourism-2026-2",
+      "clubtourism-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-04",
+    "last_verified_at": "2026-11-04",
+    "verification_note": "Security NEXT、Business+IT、TRAICYの3媒体本文で、10/30検知、約432万件、対象項目、対象外項目、対応を照合。同社公式発表本文は未取得のため一次情報なしの複数報道で掲載。"
   }
 ]

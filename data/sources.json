@@ -6718,5 +6718,40 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56658.html",
     "title": "競輪・オートレース投票サービス「チャリロト」に不正アクセス、点検で不審なログを発見"
+  },
+  {
+    "id": "clubtourism-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192254",
+    "title": "ネット登録会員の個人情報が流出した可能性 - クラブツーリズム"
+  },
+  {
+    "id": "clubtourism-2026-2",
+    "publisher": "Business+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/187992",
+    "title": "クラブツーリズム 約432万件の会員情報流出の可能性"
+  },
+  {
+    "id": "clubtourism-2026-3",
+    "publisher": "TRAICY",
+    "type": "reporting",
+    "url": "https://www.traicy.com/?p=386570",
+    "title": "クラブツーリズム、不正アクセスでインターネット会員情報約432万件が流出の可能性"
+  },
+  {
+    "id": "dreamhost-2026-3",
+    "publisher": "DreamHost",
+    "type": "primary",
+    "url": "https://www.dreamhost.com/news/announcements/october-security-incident/",
+    "title": "October Security Incident"
+  },
+  {
+    "id": "dreamhost-2026-4",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions"
   }
 ]
