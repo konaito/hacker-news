@@ -6858,5 +6858,47 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56676.html",
     "title": "障害者支援アプリ運営委託事業者ミラボに不正アクセス"
+  },
+  {
+    "id": "digicert-business-system-2026-1",
+    "publisher": "Mozilla Bugzilla(DigiCert)",
+    "type": "primary",
+    "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2084460",
+    "title": "DigiCertのインシデント報告(Mozilla Bug 2084460)"
+  },
+  {
+    "id": "digicert-business-system-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+    "title": "DigiCert data breach exposes customer information, identity documents"
+  },
+  {
+    "id": "beget-wiper-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/russia-cyberattack-beget-cloud",
+    "title": "Cyberattack wipes cloud data at major Russian hosting provider Beget"
+  },
+  {
+    "id": "beget-wiper-2026-2",
+    "publisher": "Security Lab",
+    "type": "reporting",
+    "url": "https://www.securitylab.ru/news/579588.php",
+    "title": "Ночной сбой Beget оказался кибератакой. Провайдер объявил форс-мажор"
+  },
+  {
+    "id": "efs-refrigeration-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
+    "title": "French blood service hit by Europe-wide cyberattacks on refrigeration"
+  },
+  {
+    "id": "efs-refrigeration-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+    "title": "Cyberattack disrupts blood storage refrigeration systems in France"
   }
 ]

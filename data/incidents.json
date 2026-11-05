@@ -14259,5 +14259,74 @@
     "first_seen_at": "2026-11-05",
     "last_verified_at": "2026-11-05",
     "verification_note": "台東区の公式発表(一次情報)本文とScanNetSecurity(11/5)本文で、件数・項目・原因・対応を照合。"
+  },
+  {
+    "occurred_at": "2026-06-27",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "id": "digicert-business-system-2026",
+    "published_at": "2026-11-05",
+    "company": "DigiCert",
+    "service": "社内業務システム(顧客アーカイブデータ)",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "DigiCert、誤って公開された社内業務システムへの不正アカウントで顧客情報にアクセスされたと公表、一部は身分証明書類を含む",
+    "summary": "DigiCertはMozillaへの報告で、2025年2月のサーバー移行で社内業務システムが外部から到達可能になり、不正に作成されたアカウントが2026年6月27日〜7月2日に顧客情報へアクセスしたと説明しました。対象は氏名・業務用メール・電話・住所で、一部は運転免許証・パスポート・公共料金請求書も含みます。",
+    "note": "アクセス権は読み取りのみで、証明書の発行・検証承認はできなかったとされ、認証局サービスやCertCentralは侵害されていないと説明されています。影響を受けた顧客数・人数は非公表です。10月19日に報告対象と判断し、顧客への通知を開始しています。",
+    "sources": [
+      "digicert-business-system-2026-1",
+      "digicert-business-system-2026-2"
+    ],
+    "verification_note": "DigiCertのBugzilla報告(一次情報)とBleepingComputer(11/5)の本文で、発生期間・対象情報・読み取り専用・件数非公表を照合。"
+  },
+  {
+    "occurred_at": "2026-11-01",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "id": "beget-wiper-2026",
+    "published_at": "2026-11-04",
+    "company": "Beget(ロシアのホスティング事業者)",
+    "service": "VPS・クラウドストレージ・Kubernetes・共有ホスティング",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "設備停止",
+    "category": "IT・クラウド",
+    "title": "ロシアのホスティング大手Beget、管理基盤への攻撃でVPS等のデータが消去され広範囲で障害、不可抗力を通知",
+    "summary": "Begetは11月1日夜〜2日にかけ、インフラ管理系統に到達した攻撃者がデータ消去スクリプトを実行したと説明しました。VPS・クラウド・Kubernetes関連データとVPSのバイナリバックアップが消去され、ファイル単位のバックアップは残り、共有ホスティングのほぼ全サイトは復旧見込みとされます。",
+    "note": "Begetは顧客データの窃取・改ざんの証拠はないとしています。侵入経路は非公表で、犯行声明や攻撃者の特定はありません。復旧時期は未定です。影響顧客数は非公表で、記録しません。EU制裁対象企業であることが報じられています。",
+    "sources": [
+      "beget-wiper-2026-1",
+      "beget-wiper-2026-2"
+    ],
+    "verification_note": "The Record(11/4)とSecurity Lab(11/2)の本文を照合。データ消去の詳細はThe Record(会社発表の引用)に基づき、攻撃者・件数は未確認のまま記録。"
+  },
+  {
+    "occurred_at": "2026-11-02",
+    "affected": [],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "id": "efs-refrigeration-2026",
+    "published_at": "2026-11-03",
+    "company": "フランス血液事業団(EFS)",
+    "service": "血液製剤保管用の冷蔵設備(納入事業者経由)",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "設備停止",
+    "category": "医療・ヘルスケア",
+    "title": "フランス血液事業団、冷蔵設備の温度・除霜設定が不正に変更され3拠点で影響、健康被害・製剤の損失なし",
+    "summary": "EFSは11月3日、冷蔵設備の納入事業者経由の攻撃で3拠点の保管庫の温度・除霜設定が異常値に変えられたと公表しました。監視・警報で速やかに検知し、製剤は他拠点へ移すなどし、健康への影響や血液製剤の損失は確認されていません。ANSSIと保健省と連携しています。",
+    "note": "BleepingComputerは納入事業者をCoolworld Rentalsと報じていますが、The RecordはEFSが事業者名を非公表と報じており、攻撃元は未確認です。欧州のスーパー冷蔵設備への攻撃との関連は2媒体とも確認していません。犯行声明はありません。EFSの公式声明は直接取得せず、2媒体の本文で確認しました。",
+    "sources": [
+      "efs-refrigeration-2026-1",
+      "efs-refrigeration-2026-2"
+    ],
+    "verification_note": "The Record(11/4)とBleepingComputer(11/4)の本文で、3拠点・設定改ざん・影響なし・納入事業者経由を照合。"
   }
 ]
