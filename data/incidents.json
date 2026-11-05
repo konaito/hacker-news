@@ -14049,5 +14049,96 @@
     "first_seen_at": "2026-11-04",
     "last_verified_at": "2026-11-04",
     "verification_note": "Security NEXT、Business+IT、TRAICYの3媒体本文で、10/30検知、約432万件、対象項目、対象外項目、対応を照合。同社公式発表本文は未取得のため一次情報なしの複数報道で掲載。"
+  },
+  {
+    "id": "gmopg-lifecard-2026",
+    "occurred_at": "2026-10-30",
+    "company": "GMOペイメントゲートウェイ",
+    "service": "ライフカード向け発行支援サービス",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "金融",
+    "title": "GMOペイメントゲートウェイ、ライフカード向け発行支援サービスへの不正操作で顧客情報69件が窃取された可能性",
+    "summary": "GMOペイメントゲートウェイは11月2日、ライフカード向けに提供する発行支援サービスの個別機能が10月30日に第三者に不正操作され、顧客情報の一部が窃取された可能性があると公表しました。対象は計69件で、Vプリカのカード番号・セキュリティコード・有効期限・氏名が3件含まれます。",
+    "note": "件数はアカウント・件単位で、人数へは換算していません。内訳は氏名・メール・電話・住所一部が63件、Vプリカ番号等が3件、Vプリカ番号の一部のみが3件。ライフカードが個別に連絡します。同社は他の発行支援顧客・決済処理サービスは別基盤で影響なしと説明しており、サービスの一部を停止中です。",
+    "affected": [
+      {
+        "count": 69,
+        "unit": "accounts",
+        "description": "窃取された可能性のある顧客情報(アカウント)の件数",
+        "source_id": "gmopg-lifecard-2026-1"
+      }
+    ],
+    "sources": [
+      "gmopg-lifecard-2026-1",
+      "gmopg-lifecard-2026-2"
+    ],
+    "verification_note": "GMOペイメントゲートウェイの公式発表本文(11/2付)とScanNetSecurity(11/5)本文を照合。10/30の不正操作、69件の内訳、他顧客非影響の説明が一致。",
+    "published_at": "2026-11-02",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "publication_status": "published",
+    "region": "JP"
+  },
+  {
+    "id": "mos-card-valuedesign-2026",
+    "occurred_at": null,
+    "company": "モスフードサービス / バリューデザイン",
+    "service": "プリペイドカード「モスカード」(Value Card基盤)",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "小売・飲食",
+    "title": "モスカードの運用委託先バリューデザインに不正アクセス、モスカード113万3,070件のカード番号・PIN・残高が流出",
+    "summary": "モスフードサービスは10月23日、サーバー運用を委託するバリューデザインが第三者から不正アクセスを受け、モスカードの情報が外部へ流出したと公表しました。報道によると流出は113万3,070件(流通済み約57万件、未流通約56万件)で、16桁のカード番号、6桁のPIN、残高が対象です。",
+    "note": "件数はカード(レコード)単位で、人数へは換算していません。バリューデザインは10月14〜18日に不審なアクセスを検知したとされ、ASCIIは10月19日に不正アクセスを確認したと報じています(日付に報道間の差があります)。氏名・住所・クレジットカード情報は含まれないとされます。流出番号に紐づくPINは強制変更済み。件数は公式ページ本文には記載がなく、ScanNetSecurityとASCIIの報道本文に基づきます。Value Card全体の件数(1,424,748件)とは集計対象が異なり合算できません。",
+    "affected": [
+      {
+        "count": 1133070,
+        "unit": "records",
+        "description": "流出したモスカード情報(カード)の件数",
+        "source_id": "mos-card-valuedesign-2026-2"
+      }
+    ],
+    "sources": [
+      "mos-card-valuedesign-2026-1",
+      "mos-card-valuedesign-2026-2",
+      "mos-card-valuedesign-2026-3"
+    ],
+    "verification_note": "モスフードサービス公式ページ本文で流出・PIN強制変更を確認し、ScanNetSecurityとASCII.jp本文で件数・内訳・流出項目を照合。件数の一次文書(TDnet PDF)は本文を読めていない。",
+    "published_at": "2026-10-23",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "publication_status": "published",
+    "region": "JP"
+  },
+  {
+    "id": "kddi-lifenet-2026",
+    "occurred_at": "2026-10-23",
+    "company": "KDDI / ライフネット生命保険",
+    "service": "「auの生命ほけん」連携システム(LNシステム)",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "通信",
+    "title": "ライフネット生命の連携システムに不正アクセス、KDDI顧客情報最大約2万2,541件が漏えいした可能性",
+    "summary": "KDDIとライフネット生命保険は10月30日、ライフネット生命のLNシステムが不正アクセスを受け、連携するKDDIのKシステムの顧客情報の一部が取得された可能性があると公表しました。件数は項目の組み合わせ別の合計で最大約2万2,541件です。",
+    "note": "件数はレコード単位で、人数へは換算していません。10月23日にライフネット生命が検知しKDDIへ報告、10月24日にKDDIがLNシステムからKシステムへの経路を遮断。LNシステム機能の脆弱性悪用とされます。パスワード・カード・口座・本人確認書類・保険契約情報は対象外とされます。『auの生命ほけん』の申込受付など一部機能を停止中。KDDIの公式PDFは本文を読めておらず、2媒体の報道本文で確認しました。",
+    "affected": [
+      {
+        "count": 22541,
+        "unit": "records",
+        "description": "漏えいした可能性のあるKDDI顧客情報(レコード、項目組み合わせ別の合計)",
+        "source_id": "kddi-lifenet-2026-1"
+      }
+    ],
+    "sources": [
+      "kddi-lifenet-2026-1",
+      "kddi-lifenet-2026-2"
+    ],
+    "verification_note": "KDDI公式PDFは本文抽出できず未確認。ScanNetSecurity(11/5)とBusiness+IT(10/31)本文で、10/23検知・10/24遮断・最大22,541件・対象外項目を照合。",
+    "published_at": "2026-10-30",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "publication_status": "published",
+    "region": "JP"
   }
 ]
