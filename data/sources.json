@@ -6802,5 +6802,19 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/187987",
     "title": "KDDI・ライフネット生命の顧客情報漏えいの可能性(Business+IT)"
+  },
+  {
+    "id": "tsslk-wp-2026-1",
+    "publisher": "株式会社ティエスエスリンク",
+    "type": "primary",
+    "url": "https://www.tsslk.jp/news/info/security_notice_202610/",
+    "title": "不正アクセスに関するお知らせ(第一報)"
+  },
+  {
+    "id": "tsslk-wp-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56648.html",
+    "title": "ティエスエスリンク WP脆弱性悪用"
   }
 ]
