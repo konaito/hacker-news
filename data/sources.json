@@ -6816,5 +6816,47 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56648.html",
     "title": "ティエスエスリンク WP脆弱性悪用"
+  },
+  {
+    "id": "jprouso-mailmag-2026-1",
+    "publisher": "日本郵政グループ労働組合",
+    "type": "primary",
+    "url": "https://www.jprouso.or.jp/system/servlet/yusei.UserMain?method=show_detail&clause_id=18457",
+    "title": "組合員情報の漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "jprouso-mailmag-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html",
+    "title": "日本郵政グループ労働組合に不正アクセス、4万件以上の組合員情報が漏えい"
+  },
+  {
+    "id": "comsbi-sonicmoov-2026-1",
+    "publisher": "株式会社ソニックムーブ",
+    "type": "primary",
+    "url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+    "title": "COMSBI エンタープライズ基盤への不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "comsbi-sonicmoov-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56673.html",
+    "title": "LINE連携基盤「COMSBI エンタープライズ基盤」に不正アクセス"
+  },
+  {
+    "id": "taito-sasaeru-mirabo-2026-1",
+    "publisher": "台東区",
+    "type": "primary",
+    "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/osirase/0000000000.html",
+    "title": "障害者支援アプリ「ささえ～る」への不正アクセスについて"
+  },
+  {
+    "id": "taito-sasaeru-mirabo-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56676.html",
+    "title": "障害者支援アプリ運営委託事業者ミラボに不正アクセス"
   }
 ]

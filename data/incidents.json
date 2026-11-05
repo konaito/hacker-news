@@ -14176,5 +14176,88 @@
     "first_seen_at": "2026-11-05",
     "last_verified_at": "2026-11-05",
     "verification_note": "同社の公式発表(一次情報)本文とScanNetSecurity(11/2)本文で、判明日・影響期間・件数・「可能性」の扱い・対応を照合。"
+  },
+  {
+    "id": "jprouso-mailmag-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": null,
+    "company": "日本郵政グループ労働組合(JP労組)",
+    "service": "過去に運用していたメールマガジン配信システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "行政・公共",
+    "title": "JP労組、旧メールマガジンシステムへの不正アクセスで組合員情報4万件以上が漏えいした可能性",
+    "summary": "日本郵政グループ労働組合(JP労組)は10月26日、2019年頃まで運用していたメールマガジンシステムが第三者から不正アクセスを受け、配信先の組合員情報が漏えいした可能性があると公表しました。対象項目は地方本部名・組合員名・組合員番号・性別・メールアドレスです。",
+    "note": "件数はScanNetSecurity(11/5)が運用委託先の調査中の値として報じた「4万件以上の配信先リスト」で、件(レコード)単位です。人数には換算していません。JP労組の発表本文には件数の明記を確認できませんでした。侵入日・原因は未公表です。",
+    "affected": [
+      {
+        "count": 40000,
+        "unit": "records",
+        "description": "メールマガジン配信先リストの件数(「4万件以上」、漏えいの可能性、ScanNetSecurity報道)",
+        "source_id": "jprouso-mailmag-2026-2"
+      }
+    ],
+    "sources": [
+      "jprouso-mailmag-2026-1",
+      "jprouso-mailmag-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "verification_note": "JP労組の公式発表(一次情報)本文とScanNetSecurity本文で、対象項目・対応・件数の出所を照合。公式本文は文字化けがあり件数は報道側の記載に依拠。"
+  },
+  {
+    "id": "comsbi-sonicmoov-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": "2026-10-23",
+    "company": "株式会社ソニックムーブ",
+    "service": "LINE連携基盤「COMSBI エンタープライズ基盤」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・クラウド",
+    "title": "ソニックムーブのLINE連携基盤「COMSBI エンタープライズ基盤」に不正アクセス、管理者情報や顧客のエンドユーザー情報が漏えいした可能性、サービス停止中",
+    "summary": "ソニックムーブは10月26日、10月23日に第三者が管理画面へ不正ログインしたと公表しました。管理画面の認証情報を入手され、機能上の不備を突かれてサーバー認証情報も取得されました。管理者の氏名・メールアドレス・暗号化パスワード、LINE公式アカウントの設定、顧客保有のエンドユーザー情報が漏えいした可能性があり、一部顧客が影響を受け、サービスは停止中です。",
+    "note": "影響を受けた顧客数・エンドユーザー数は未公表です。SaaS版は影響なしとされています。クレジットカード情報は保持していないとしています。",
+    "affected": [],
+    "sources": [
+      "comsbi-sonicmoov-2026-1",
+      "comsbi-sonicmoov-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "verification_note": "同社の公式発表(一次情報)本文とScanNetSecurity(11/5)本文で、発生日・原因・対象項目・対応・件数未公表を照合。"
+  },
+  {
+    "id": "taito-sasaeru-mirabo-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": null,
+    "company": "東京都台東区(運営委託先:株式会社ミラボ)",
+    "service": "障害者支援アプリ「ささえ～る」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "官公庁・自治体",
+    "title": "台東区の障害者支援アプリ「ささえ～る」で不正な管理者アカウントが作成され、会員のメールアドレス197件などが取得される",
+    "summary": "台東区は10月26日、運営委託先ミラボから10月23日に報告があったとして、アプリ「ささえ～る」で不正に管理者アカウントが作成され、会員登録情報がダウンロードされたと公表しました。取得されたのはメールアドレス197件、障害児者との関係、障害の種別で、氏名・住所・電話番号は含まれないとされています。",
+    "note": "件数はメールアドレスの件(レコード)単位です。原因はアカウント登録と権限管理の設計上の不備で、不正アカウントは削除済み、新規会員登録は一時停止されています。不正アクセスの発生日は未公表です。",
+    "affected": [
+      {
+        "count": 197,
+        "unit": "records",
+        "description": "取得された会員のメールアドレス件数(あわせて障害児者との関係・障害の種別)",
+        "source_id": "taito-sasaeru-mirabo-2026-1"
+      }
+    ],
+    "sources": [
+      "taito-sasaeru-mirabo-2026-1",
+      "taito-sasaeru-mirabo-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-05",
+    "last_verified_at": "2026-11-05",
+    "verification_note": "台東区の公式発表(一次情報)本文とScanNetSecurity(11/5)本文で、件数・項目・原因・対応を照合。"
   }
 ]
