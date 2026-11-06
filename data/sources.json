@@ -6942,5 +6942,54 @@
     "type": "reporting",
     "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
     "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack"
+  },
+  {
+    "id": "muji-app-2026-3",
+    "publisher": "ネットショップ担当者フォーラム(Impress)",
+    "type": "reporting",
+    "url": "https://netshop.impress.co.jp/n/2026/11/06/16992",
+    "title": "無印良品の公式アプリ「MUJIアプリ」やECサイトに不正アクセス、クレジットカード情報全桁が流出した恐れ"
+  },
+  {
+    "id": "muji-app-2026-4",
+    "publisher": "時事通信",
+    "type": "reporting",
+    "url": "https://www.jiji.com/jc/article?k=2026110401144&g=eco",
+    "title": "良品計画、クレカ番号109万件流出疑い 「MUJI Card」で"
+  },
+  {
+    "id": "muji-app-2026-5",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56697.html",
+    "title": "「MUJIアプリ」への不正アクセス、新たにカード情報が外部からアクセスされた可能性も"
+  },
+  {
+    "id": "docomo-online-shop-2026-1",
+    "publisher": "NTTドコモ",
+    "type": "primary",
+    "url": "https://www.docomo.ne.jp/info/notice/page/261105_03_m.html",
+    "title": "【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ(第二報)"
+  },
+  {
+    "id": "docomo-online-shop-2026-2",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2154107.html",
+    "title": "ドコモ、不正アクセスで最大30万件の情報漏えい My docomoとオンラインショップ"
+  },
+  {
+    "id": "cosme-members-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56696.html",
+    "title": "「@cosme」に不正アクセス、約300万人の会員情報が漏えい"
+  },
+  {
+    "id": "cosme-members-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188013",
+    "title": "@cosme(アイスタイル)の不正アクセスで約300万人の会員情報が漏えい"
   }
 ]
