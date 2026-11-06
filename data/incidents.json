@@ -14552,5 +14552,28 @@
     "first_seen_at": "2026-11-06",
     "last_verified_at": "2026-11-06",
     "verification_note": "公式発表本文は取得できず、Security NEXT・NHK・ビジネス+ITの本文で、11/1検知、約700万件、対象項目、2サイト休止、カード情報非保持を照合。"
+  },
+  {
+    "id": "japanpost-mailmag-contractor-2026",
+    "published_at": "2026-10-29",
+    "occurred_at": null,
+    "company": "日本郵便(委託先: メール配信事業者)",
+    "service": "国際郵便マイページ会員向けメールマガジン配信の委託先サーバ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "運輸・物流",
+    "title": "日本郵便、メールマガジン配信の委託先サーバに不正アクセス、国際郵便マイページ会員のメールアドレスが漏えいした可能性",
+    "summary": "日本郵便は10月29日、メールマガジン配信を委託する事業者のサーバの一部に第三者が不正アクセスしたと公表しました。国際郵便マイページ会員のうち案内メールを希望した顧客のメールアドレスが漏えいした可能性があります。",
+    "note": "漏えいは可能性の段階で、対象件数・委託先名・発生日は公表されていません。国際郵便マイページ自体への侵害や、氏名・住所・電話番号等の漏えいは確認されていないとされます。委託先はメール配信サービスを停止し、範囲と原因を調査中です。",
+    "affected": [],
+    "sources": [
+      "japanpost-mailmag-contractor-2026-1",
+      "japanpost-mailmag-contractor-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "日本郵便の公式発表本文(10/29)とScanNetSecurity本文(11/6)で、委託先サーバへの不正アクセス、メールアドレスのみ漏えいの可能性、件数未公表、配信停止を照合。"
   }
 ]

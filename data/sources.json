@@ -7012,5 +7012,19 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/188025",
     "title": "ノジマオンライン等への不正アクセスによる個人情報流出"
+  },
+  {
+    "id": "japanpost-mailmag-contractor-2026-1",
+    "publisher": "日本郵便",
+    "type": "primary",
+    "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/01175116571.html",
+    "title": "当社委託先のメール配信サービスにおける情報漏えいのおそれについて"
+  },
+  {
+    "id": "japanpost-mailmag-contractor-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56694.html",
+    "title": "日本郵便がメールマガジンの配信業務を委託している事業者に不正アクセス"
   }
 ]
