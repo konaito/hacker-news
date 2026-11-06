@@ -6900,5 +6900,47 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
     "title": "Cyberattack disrupts blood storage refrigeration systems in France"
+  },
+  {
+    "id": "suntory-cloud-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56687.html",
+    "title": "サントリーグループが利用する外部クラウドサービスに不正アクセス、個人情報が含まれるファイルのダウンロードを確認"
+  },
+  {
+    "id": "suntory-cloud-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188015",
+    "title": "サントリーの外部クラウドサービスへの不正アクセスによる個人情報漏えい"
+  },
+  {
+    "id": "donki-cox-ransomware-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56678.html",
+    "title": "ドン・キホーテ委託先にランサムウェア攻撃、時計修理依頼者の個人情報が漏えいした可能性"
+  },
+  {
+    "id": "donki-cox-ransomware-2026-2",
+    "publisher": "ASCII.jp",
+    "type": "reporting",
+    "url": "https://ascii.jp/en/elem/000/004/446/4446479/",
+    "title": "ドン・キホーテ、時計修理の委託先がランサムウェア被害"
+  },
+  {
+    "id": "mercado-bitcoin-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+    "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform"
+  },
+  {
+    "id": "mercado-bitcoin-2026-2",
+    "publisher": "Decrypt",
+    "type": "reporting",
+    "url": "https://decrypt.co/382341/mercado-bitcoin-halts-withdrawals-40-million-hack",
+    "title": "Brazil's Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack"
   }
 ]

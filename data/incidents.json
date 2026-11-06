@@ -14328,5 +14328,117 @@
       "efs-refrigeration-2026-2"
     ],
     "verification_note": "The Record(11/4)とBleepingComputer(11/4)の本文で、3拠点・設定改ざん・影響なし・納入事業者経由を照合。"
+  },
+  {
+    "id": "suntory-cloud-2026",
+    "published_at": "2026-11-02",
+    "occurred_at": "2026-10-28",
+    "company": "サントリーホールディングス",
+    "service": "グループが利用する外部クラウドサービス",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "食品・製造",
+    "title": "サントリーグループ、外部クラウドサービスへの不正アクセスで従業員約9万人など個人情報を含むファイルがダウンロードされる",
+    "summary": "サントリーは11月2日、グループが利用する外部クラウドサービスへの第三者の不正アクセスで、個人情報を含むファイルが外部にダウンロードされたと公表しました。10月28日に異常を検知してアクセスを遮断し、29日に個人情報の含有を確認しました。グループ・取引先従業員の氏名・メール約9万人のほか、新卒採用応募者7,173人、顧客7,323人などが対象で、決済情報は含まれず悪用も確認されていません。",
+    "note": "件数は項目ごとの別集計で、重複の可能性があるため合算していません(約9万人は概数)。侵入経路・クラウドサービス名は公式発表では特定されていません。サントリー公式発表は直接取得できず(HTTP 403)、ScanNetSecurityとビジネス+ITの本文で確認しました。",
+    "affected": [
+      {
+        "count": 90000,
+        "unit": "people",
+        "description": "約9万人: グループ・取引先従業員(氏名・メール、概数)",
+        "source_id": "suntory-cloud-2026-1"
+      },
+      {
+        "count": 7323,
+        "unit": "people",
+        "description": "マル・デ・シャイン登録顧客(メール、2023年末時点)",
+        "source_id": "suntory-cloud-2026-1"
+      },
+      {
+        "count": 7173,
+        "unit": "people",
+        "description": "2026年新卒採用応募者(氏名・メール・電話等)",
+        "source_id": "suntory-cloud-2026-1"
+      },
+      {
+        "count": 1097,
+        "unit": "people",
+        "description": "サントリービバレッジソリューション社用携帯2台の登録者(氏名・電話)",
+        "source_id": "suntory-cloud-2026-1"
+      },
+      {
+        "count": 324,
+        "unit": "people",
+        "description": "モンテ物産従業員・取引先従業員(氏名・メール・電話)",
+        "source_id": "suntory-cloud-2026-1"
+      },
+      {
+        "count": 96,
+        "unit": "people",
+        "description": "イイズマイゼン配達顧客・配達員(氏名・配達先)",
+        "source_id": "suntory-cloud-2026-1"
+      },
+      {
+        "count": 25,
+        "unit": "people",
+        "description": "取引先従業員(氏名・役職)",
+        "source_id": "suntory-cloud-2026-1"
+      }
+    ],
+    "sources": [
+      "suntory-cloud-2026-1",
+      "suntory-cloud-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "ScanNetSecurity(11/6)とビジネス+IT(SBbit)の本文で、10/28検知・10/29確認・11/2公表、対象項目と件数、決済情報なしを照合。公式お詫びはHTTP 403で本文未取得。"
+  },
+  {
+    "id": "donki-cox-ransomware-2026",
+    "published_at": "2026-10-28",
+    "occurred_at": "2026-09-15",
+    "company": "ドン・キホーテ(委託先: コックス)",
+    "service": "時計修理委託先コックスのサーバ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "小売・EC",
+    "title": "ドン・キホーテ、時計修理の委託先コックスがランサムウェア被害、修理依頼者の氏名・住所・電話番号の一部が漏えいした可能性",
+    "summary": "ドン・キホーテ、長崎屋、橘百貨店、UDリテールは10月28日、時計修理を委託するコックスのサーバがランサムウェアで暗号化されたと公表しました。コックスは9月15日に検知し、9月25日にグループへ報告しました。2025年9月以降に修理を依頼した客の氏名と住所・電話番号の一部が漏えいした可能性を否定できないとしています。",
+    "note": "漏えいの事実は確認されておらず、対象件数は公表されていません。暗号化されたサーバは報道時点で復旧していません。ドン・キホーテの公式PDFは直接取得せず、ScanNetSecurityとASCII.jpの本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "donki-cox-ransomware-2026-1",
+      "donki-cox-ransomware-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "ScanNetSecurity(11/5)とASCII.jp(10/28)の本文で、9/15検知・9/25報告・10/28公表、対象データ、漏えい未確認、件数未公表を照合。"
+  },
+  {
+    "id": "mercado-bitcoin-2026",
+    "published_at": "2026-11-02",
+    "occurred_at": "2026-11-01",
+    "company": "Mercado Bitcoin",
+    "service": "暗号資産取引所",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "入出金停止",
+    "category": "暗号資産",
+    "title": "ブラジル最大の暗号資産取引所Mercado Bitcoin、セキュリティ事案で入出金を停止、外部分析では4,000万ドル超が流出",
+    "summary": "Mercado Bitcoinは11月2日、システムの一つでセキュリティ事案を検知したとして入出金を停止しました。ブロックチェーン分析企業は4,000万〜4,600万ドル超が複数チェーンで流出したと分析していますが、同社は金額を認めていません。TetherのCEOは約450万USDTを凍結したと述べています。",
+    "note": "同社は顧客に損害はなくデータ漏えいもないと説明していますが、複数の専門家は一部の顧客ウォレットから資金が流出した証拠があると反論しています。侵入経路・攻撃者は未公表で、同社は先に起きたBinanceの件との関連も示していません。流出額は外部推計で未確認です。",
+    "affected": [],
+    "sources": [
+      "mercado-bitcoin-2026-1",
+      "mercado-bitcoin-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "The Record(11/2)とDecrypt(11/2)の本文で、入出金停止、外部推計の流出額、同社の声明、Tetherの凍結、攻撃者未特定を照合。"
   }
 ]
