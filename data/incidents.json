@@ -14575,5 +14575,95 @@
     "first_seen_at": "2026-11-06",
     "last_verified_at": "2026-11-06",
     "verification_note": "日本郵便の公式発表本文(10/29)とScanNetSecurity本文(11/6)で、委託先サーバへの不正アクセス、メールアドレスのみ漏えいの可能性、件数未公表、配信停止を照合。"
+  },
+  {
+    "id": "ownly-smartshare-2026",
+    "published_at": "2026-10-27",
+    "occurred_at": "2026-10-16",
+    "company": "スマートシェア",
+    "service": "SNSキャンペーンツール「OWNLY」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "IT・クラウド",
+    "title": "スマートシェア、SNSキャンペーンツール「OWNLY」に不正アクセス、キャンペーン参加者の情報1万4,034件が漏えい",
+    "summary": "スマートシェアは10月27日、OWNLYのファイルアップロード機能の不備を突かれ第三者に不正アクセスされ、モスバーガー関連3キャンペーンの参加者情報計1万4,034件が閲覧・ダウンロードされた形跡があると公表しました。",
+    "note": "10月16日未明に検知し同日に侵入経路を遮断。対象はXまたはLINEのユーザー名・ユーザーID、エントリー日時、抽選・クーポン取得状況で、氏名・住所・メールアドレス等は収集していないとされます。件数は件(レコード)で人数ではありません。二次被害は未確認で、個人情報保護委員会等へ報告済みです。",
+    "affected": [
+      {
+        "count": 14034,
+        "unit": "records",
+        "description": "漏えいした3キャンペーン参加者情報の件数(合計)",
+        "source_id": "ownly-smartshare-2026-1"
+      }
+    ],
+    "sources": [
+      "ownly-smartshare-2026-1",
+      "ownly-smartshare-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "スマートシェア公式発表(10/27)とScanNetSecurity(11/6)の本文で、10/16検知、ファイルアップロード機能の不備、計14,034件、対象項目を照合。"
+  },
+  {
+    "id": "jetro-evenue-2026",
+    "published_at": "2026-10-27",
+    "occurred_at": "2026-09-24",
+    "company": "日本貿易振興機構(JETRO)",
+    "service": "国際ビジネスマッチングサイト「e-Venue」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "官公庁・公共",
+    "title": "JETRO、国際ビジネスマッチングサイト「e-Venue」に不正アクセス、最大133件の個人情報が漏えいした可能性、サービス停止中",
+    "summary": "JETROは10月27日、委託先が構築・運用する外部環境のe-Venueに外部から不正アクセスがあり、公開されない情報が取得されたと見られ、最大133件の個人情報が漏えいした可能性があると公表しました。",
+    "note": "不正アクセスは9月24日、9月25日、10月14日。対象は氏名・メールアドレス・電話番号・携帯電話番号・FAX番号。件数は件(レコード)で人数とは限りません。原因・被害範囲は調査中で、サービスは停止中です。",
+    "affected": [
+      {
+        "count": 133,
+        "unit": "records",
+        "description": "漏えいした可能性のある個人情報の件数(最大)",
+        "source_id": "jetro-evenue-2026-1"
+      }
+    ],
+    "sources": [
+      "jetro-evenue-2026-1",
+      "jetro-evenue-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "JETRO公式発表(10/27)とScanNetSecurity(11/6)の本文で、不正アクセス日、最大133件、対象項目、サービス停止を照合。"
+  },
+  {
+    "id": "ferret-one-basic-2026",
+    "published_at": "2026-10-27",
+    "occurred_at": "2026-10-14",
+    "company": "ベーシック",
+    "service": "マーケティングプラットフォーム「ferret One」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・クラウド",
+    "title": "ベーシック「ferret One」、内部管理機能の不備で第三者が不正アカウントを作成、6アカウントで不正ログイン、ログイン用メールアドレスが閲覧された可能性",
+    "summary": "ベーシックは10月27日、ferret Oneの内部管理機能の不備により第三者が不正アカウントを作成し、企業・顧客アカウント計6件で不正ログインがあったと公表しました。顧客のログイン用メールアドレスが閲覧・取得された可能性があります。",
+    "note": "10月14日に不正アカウントが作成され、10月26日に確認・削除、不備を修正済み。氏名等その他の登録情報は含まれないとされます。実際の閲覧有無と影響範囲、侵入経路は調査中で、メールアドレスの対象件数は未公表です。第一報の内容です。",
+    "affected": [
+      {
+        "count": 6,
+        "unit": "accounts",
+        "description": "不正ログインが確認されたアカウント数(企業・顧客アカウント合計)",
+        "source_id": "ferret-one-basic-2026-1"
+      }
+    ],
+    "sources": [
+      "ferret-one-basic-2026-1",
+      "ferret-one-basic-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-06",
+    "last_verified_at": "2026-11-06",
+    "verification_note": "ベーシック公式第一報(10/27)とScanNetSecurity(11/6)の本文で、10/14作成、10/26対処、6アカウント、メールアドレス閲覧の可能性を照合。"
   }
 ]

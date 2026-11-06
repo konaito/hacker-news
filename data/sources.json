@@ -7026,5 +7026,47 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56694.html",
     "title": "日本郵便がメールマガジンの配信業務を委託している事業者に不正アクセス"
+  },
+  {
+    "id": "ownly-smartshare-2026-1",
+    "publisher": "スマートシェア",
+    "type": "primary",
+    "url": "https://www.smartshare.jp/news/20261027",
+    "title": "当社サービス「OWNLY」への不正アクセスに伴うお客様情報漏洩に関するお詫びとお知らせ"
+  },
+  {
+    "id": "ownly-smartshare-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56690.html",
+    "title": "SNSキャンペーンツール「OWNLY」に不正アクセス、合計1万4,034 件の参加者情報が漏えい"
+  },
+  {
+    "id": "jetro-evenue-2026-1",
+    "publisher": "JETRO",
+    "type": "primary",
+    "url": "https://www.jetro.go.jp/news/announcement/2026/5eebe72f41bc2230.html",
+    "title": "e-Venueへの不正アクセスによる個人情報漏えいの可能性について"
+  },
+  {
+    "id": "jetro-evenue-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html",
+    "title": "JETROが利用する国際ビジネスマッチングサイトに不正アクセス"
+  },
+  {
+    "id": "ferret-one-basic-2026-1",
+    "publisher": "ベーシック",
+    "type": "primary",
+    "url": "https://ferret-one.com/notice/20261027",
+    "title": "【重要】当社サービス「ferret One」への不正アクセスに関するお詫びとお知らせ（第一報）"
+  },
+  {
+    "id": "ferret-one-basic-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56693.html",
+    "title": "マーケティングプラットフォーム「ferret One」への不正アクセス、内部管理機能に不備"
   }
 ]
