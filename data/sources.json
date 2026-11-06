@@ -6991,5 +6991,26 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/188013",
     "title": "@cosme(アイスタイル)の不正アクセスで約300万人の会員情報が漏えい"
+  },
+  {
+    "id": "nojima-online-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192339",
+    "title": "ECサイトの会員管理システムで個人情報が流出 - ノジマ"
+  },
+  {
+    "id": "nojima-online-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261102de69780",
+    "title": "ノジマ 会員約700万件の個人情報流出 ネット通販サイトに不正アクセス"
+  },
+  {
+    "id": "nojima-online-2026-3",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188025",
+    "title": "ノジマオンライン等への不正アクセスによる個人情報流出"
   }
 ]
