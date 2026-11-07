@@ -7068,5 +7068,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56693.html",
     "title": "マーケティングプラットフォーム「ferret One」への不正アクセス、内部管理機能に不備"
+  },
+  {
+    "id": "yakult-website-2026-1",
+    "publisher": "ヤクルト本社",
+    "type": "primary",
+    "url": "https://www.yakult.co.jp/maintenance/",
+    "title": "当社ホームページへの不正アクセスについて(第3報)"
+  },
+  {
+    "id": "yakult-website-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192342",
+    "title": "問い合わせフォーム利用者などの個人情報が流出 - ヤクルト"
+  },
+  {
+    "id": "micin-cron-2026-1",
+    "publisher": "MICIN",
+    "type": "primary",
+    "url": "https://micin.jp/news/14859/",
+    "title": "オンライン診療サービス「クロンオンライン診療」への不正ログインに関するご報告"
+  },
+  {
+    "id": "micin-cron-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56691.html",
+    "title": "オンライン診療サービス「クロンオンライン診療」にリスト型攻撃"
   }
 ]
