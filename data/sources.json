@@ -7110,5 +7110,68 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet"
+  },
+  {
+    "id": "tokyo-waterworks-hdd-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192391",
+    "title": "個人情報が保存されたHDDや書類を紛失 - 都水道局"
+  },
+  {
+    "id": "tokyo-waterworks-hdd-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56656.html",
+    "title": "東京都水道局で個人情報を含む外付けHDD4台が施錠されたキャビネットから紛失"
+  },
+  {
+    "id": "credit-mutuel-arkea-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+    "title": "French bank confirms cyber heist"
+  },
+  {
+    "id": "credit-mutuel-arkea-2026-2",
+    "publisher": "Moneyvox",
+    "type": "reporting",
+    "url": "https://www.moneyvox.fr/banque/actualites/111108/le-credit-mutuel-arkea-victime-operations-frauduleuses-suite-a-une-cyberattaque",
+    "title": "Le Crédit Mutuel Arkéa victime d'opérations frauduleuses suite à une cyberattaque"
+  },
+  {
+    "id": "credit-mutuel-arkea-2026-3",
+    "publisher": "FrenchWeb",
+    "type": "reporting",
+    "url": "https://www.frenchweb.fr/credit-mutuel-arkea-confirme-une-cyberattaque-le-montant-du-detournement-reste-a-etablir/900000019",
+    "title": "Crédit Mutuel Arkéa confirme une cyberattaque, le montant du détournement reste à établir"
+  },
+  {
+    "id": "kyiv-independent-cms-2026-1",
+    "publisher": "The Kyiv Independent",
+    "type": "primary",
+    "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/",
+    "title": "The Kyiv Independent hit by suspected Russian cyberattack"
+  },
+  {
+    "id": "kyiv-independent-cms-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
+    "title": "Kyiv Independent cyberattack"
+  },
+  {
+    "id": "bushiroad-ours-notes-2026-1",
+    "publisher": "GameBusiness.jp",
+    "type": "reporting",
+    "url": "https://www.gamebusiness.jp/article/2026/10/29/28490.html",
+    "title": "ブシロード、『バンドリ!アワーノーツ』で電話番号・住所など個人情報漏えい―委託先への不正アクセスでCBT応募者・サポート利用者ら約1万3000名に影響"
+  },
+  {
+    "id": "bushiroad-ours-notes-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56692.html",
+    "title": "ブシロード「バンドリ！アワーノーツ」開発業務委託先に不正アクセス"
   }
 ]

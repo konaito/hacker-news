@@ -14739,5 +14739,118 @@
     "first_seen_at": "2026-11-07",
     "last_verified_at": "2026-11-07",
     "verification_note": "MICIN公式発表(10/27)本文で日付・件数・情報種別・原因を確認し、ScanNetSecurity本文(10/23発見、10/27公表、リスト型攻撃)と照合。"
+  },
+  {
+    "id": "tokyo-waterworks-hdd-2026",
+    "published_at": "2026-10-23",
+    "occurred_at": null,
+    "company": "東京都水道局",
+    "service": "外付けHDD(保有用地の管理・利用に関する書類)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "官公庁・自治体",
+    "title": "東京都水道局、個人情報を含む外付けHDD4台が施錠キャビネットから所在不明に、最大1,932人分",
+    "summary": "東京都水道局は、個人情報を保存した外付けHDD4台が執務室の施錠されたキャビネット内から所在不明になったと公表しました。10月2日に空き容量確認のため開けた際に、ケースだけが残っているのが見つかりました。保有用地の管理・利用に関する書類で、氏名のほか一部は住所・電話番号を含み、対象は1,932人と報じられています。",
+    "note": "紛失日時は不明で、発見は10月2日、公表は10月23日(ScanNetSecurity)。10月23日時点で局内を捜索中で未発見。不正利用は報じられていません。1,932人はSecurity NEXTの報道に基づき、ScanNetSecurityの本文取得分では件数が確認できていません。Security NEXTは、委託先職員が10月20日に電車内へ置き忘れた紙資料(調査対象の顧客84人分)という別件も併せて報じていますが、本件の件数には含めていません。東京都の公式発表本文は確認していません。",
+    "affected": [
+      {
+        "count": 1932,
+        "unit": "people",
+        "description": "紛失したHDDに情報が含まれる関係者(企業・国・自治体・地域住民など)",
+        "source_id": "tokyo-waterworks-hdd-2026-1"
+      }
+    ],
+    "sources": [
+      "tokyo-waterworks-hdd-2026-1",
+      "tokyo-waterworks-hdd-2026-2"
+    ],
+    "verification_note": "Security NEXTとScanNetSecurityの独立2媒体の本文で、HDD4台、10月2日発見、施錠キャビネット内からの所在不明、不正利用の報告なしを照合。件数1,932人はSecurity NEXTのみ。公式発表は未確認。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
+  },
+  {
+    "id": "credit-mutuel-arkea-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": null,
+    "company": "Crédit Mutuel Arkéa",
+    "service": "銀行グループの決済・送金",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "仏Crédit Mutuel Arkéa、サイバー攻撃で不正な資金移動が発生、被害額は未確定",
+    "summary": "仏銀行グループCrédit Mutuel Arkéaは11月4日、サイバー攻撃により不正な取引が実行されたと認め、現在は制御下にあると発表しました。送金など一部取引を一時停止し、顧客に金銭的影響はないとしています。ブロックチェーン調査者ZachXBTは1億3,300万ドル超と推定していますが、銀行は金額を確認していません。",
+    "note": "被害額はZachXBTの推定で、銀行は確認せず(The Recordでは「桁は妥当」と述べたと報道、他媒体は金額未確認)。侵入経路は未公表で、外部事業者経由との報道は銀行が明らかにしたものではなく、The Recordは銀行が人為的ミスではない高度な攻撃と述べたと報じています。個人情報の漏えいは報じられていません。顧客口座へのアクセスはなく顧客資産に影響しないと銀行は説明しています。銀行の公式発表本文は取得しておらず、報道3媒体の本文に基づきます。",
+    "affected": [],
+    "sources": [
+      "credit-mutuel-arkea-2026-1",
+      "credit-mutuel-arkea-2026-2",
+      "credit-mutuel-arkea-2026-3"
+    ],
+    "verification_note": "The Record、Moneyvox、FrenchWebの本文で、11月4日の銀行による攻撃確認、不正取引、一部取引の一時停止、顧客への金銭的影響なし、金額未確認を照合。公式発表は未取得。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
+  },
+  {
+    "id": "kyiv-independent-cms-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": "2026-11-04",
+    "company": "The Kyiv Independent",
+    "service": "ウェブサイトのCMSとニュースレター配信サービス",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "メディア",
+    "title": "ウクライナのThe Kyiv Independent、CMSとメール配信が乗っ取られ偽の核攻撃メールを読者へ送信",
+    "summary": "ウクライナのニュースメディアThe Kyiv Independentは11月4日、サイトのコンテンツ管理システムとニュースレター配信に使うメールサービスが侵害され、読者に偽の内容のメール計4通が送られたと発表しました。ゼレンスキー大統領が核弾頭を発射したなどの虚偽内容で、サイト上の同様の投稿は直ちに削除されました。",
+    "note": "ロシア関与の疑いは内容からの推測で、同紙・The Recordとも技術的な裏付けは示していません。会員・寄付者の決済情報は外部決済サービスで処理され影響なしとされています。メール送信先の人数は公表されていません。直前にウクライナの空襲警報アプリが侵害された事件との関連は確認されていません。",
+    "affected": [],
+    "sources": [
+      "kyiv-independent-cms-2026-1",
+      "kyiv-independent-cms-2026-2"
+    ],
+    "verification_note": "同紙の自社発表本文とThe Recordの本文で、11月4日、CMSとメールサービスの侵害、偽メール4通、決済情報への影響なし、ロシア関与は疑いにとどまることを照合。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
+  },
+  {
+    "id": "bushiroad-ours-notes-2026",
+    "published_at": "2026-10-27",
+    "occurred_at": null,
+    "company": "ブシロード",
+    "service": "バンドリ!アワーノーツ(開発委託先のシステム)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "エンタメ",
+    "title": "ブシロード「バンドリ!アワーノーツ」、開発委託先への不正アクセスでCBT応募者とサポート利用者の個人情報が取得された可能性",
+    "summary": "ブシロードは10月27日、スマホゲーム「バンドリ!アワーノーツ」の開発委託先システムに第三者が不正アクセスし、クローズドβテスト応募者とカスタマーサポート利用者の個人情報が取得されたとみられると発表しました。委託先の管理上の不備が原因とされ、項目は氏名・電話番号・住所・メールアドレスなどです。",
+    "note": "CBT関連は2026年6月25日〜29日の10,194人の応募者に運営関係者71人とアンケート回答者5人を加えた10,270人、サポート問い合わせは9月24日〜10月14日の3,034人(GameBusiness.jp)。2区分は合算していません。ブシロードは「取得されたとみられる」と表現しており、パスワード・クレジットカード情報の漏えいは未確認、二次被害も確認されていません。委託先名は非公表。公式発表本文は確認していません。",
+    "affected": [
+      {
+        "count": 10270,
+        "unit": "people",
+        "description": "CBT応募者・運営関係者・アンケート回答者の個人情報が取得されたとみられる人数",
+        "source_id": "bushiroad-ours-notes-2026-1"
+      },
+      {
+        "count": 3034,
+        "unit": "people",
+        "description": "カスタマーサポート利用者の個人情報が取得されたとみられる人数",
+        "source_id": "bushiroad-ours-notes-2026-1"
+      }
+    ],
+    "sources": [
+      "bushiroad-ours-notes-2026-1",
+      "bushiroad-ours-notes-2026-2"
+    ],
+    "verification_note": "GameBusiness.jpとScanNetSecurityの独立2媒体の本文で、10月27日発表、委託先への不正アクセス、管理上の不備、2区分の対象期間、「取得されたとみられる」の表現を照合。件数はGameBusiness.jpのみ。公式発表は未確認。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
   }
 ]
