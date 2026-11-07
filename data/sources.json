@@ -7215,5 +7215,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56657.html",
     "title": "高速道路情報サイト「ドラとら」に不正アクセス"
+  },
+  {
+    "id": "sukesan-employee-db-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192260",
+    "title": "サーバ設定不備、従業員情報流出の可能性 - 資さんうどん"
+  },
+  {
+    "id": "sukesan-employee-db-2026-2",
+    "publisher": "J-PRIME",
+    "type": "reporting",
+    "url": "https://www.jprime.jp/articles/-/44405",
+    "title": "資さんうどん 従業員・退職者の個人情報漏えいの可能性"
   }
 ]

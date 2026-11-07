@@ -14921,5 +14921,28 @@
     "first_seen_at": "2026-11-07",
     "last_verified_at": "2026-11-07",
     "publication_status": "published"
+  },
+  {
+    "id": "sukesan-employee-db-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "資さん",
+    "service": "勤怠管理システム等のデータベース(委託先カホエンタープライズが運用)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "外食・小売",
+    "title": "資さんうどんの資さん、委託先サーバの設定不備で従業員・退職者の個人情報が外部から閲覧可能だった可能性",
+    "summary": "資さんは、運用を委託するカホエンタープライズ管理のデータベースに設定不備があり、2021年10月から2026年10月に在籍した従業員・退職者の個人情報が外部から閲覧できた可能性があると公表したと報じられています。",
+    "note": "Security NEXTによると対象情報は氏名、電話番号、生年月日、性別、賃金履歴、勤怠記録(一部は退職理由、入退社日、社会保険加入履歴)で、設定は修正済み、個人情報保護委員会へ報告済みです。J-PRIMEは、同社が外部流出や改ざんは確認しておらず、アクセスの可能性は否定できないと説明したと報じています。人数は同社から示されておらず、不正アクセスや閲覧の事実は確認されていません。企業の公式お知らせ本文は取得できず、報道2媒体の本文に基づきます。",
+    "affected": [],
+    "sources": [
+      "sukesan-employee-db-2026-1",
+      "sukesan-employee-db-2026-2"
+    ],
+    "verification_note": "Security NEXT(11/5)とJ-PRIME(10/30、同社の回答を引用)の本文を確認し照合。公式サイトのお知らせ一覧では該当告知を確認できず。人数・閲覧の有無は未確認。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
   }
 ]
