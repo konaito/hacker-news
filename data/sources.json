@@ -7096,5 +7096,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56691.html",
     "title": "オンライン診療サービス「クロンオンライン診療」にリスト型攻撃"
+  },
+  {
+    "id": "ledger-cryptobilis-hardware-2026-5",
+    "publisher": "Trezor",
+    "type": "primary",
+    "url": "https://trezor.io/blog/news/implant-reported-in-a-trezor-sold-by-cryptobilis",
+    "title": "Implant reported in a Trezor sold by CryptoBilis"
+  },
+  {
+    "id": "ledger-cryptobilis-hardware-2026-6",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet"
   }
 ]

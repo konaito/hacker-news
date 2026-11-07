@@ -9810,18 +9810,20 @@
     "category": "金融",
     "title": "回復フレーズを盗む不正部品を確認、東南アジア・香港の販売店へ販売停止を要請",
     "summary": "販売店経由のLedger端末への不正部品について、10月13日の続報は画面に表示される回復フレーズを読み、LTEで外部へ送る仕組みを説明しました。BleepingComputerは14日、同社が東南アジア6か国と香港の販売代理店へ販売停止と店頭撤去を要請したと報道しています。",
-    "note": "確認された資産喪失はCryptoBilis販売分で、他の販売元・地域の報告は調査中。予防的な販売停止対象全体で機器改変が確定したとはしません。Ledger本体のシステム侵害を示すものではなく、改変時期・被害総数・損失総額は未確定。研究者の推定額をaffectedへ入れません。不正部品がSecure Element等を変更しないため真正性検査を通る場合もあると説明しています。",
+    "note": "確認された資産喪失はCryptoBilis販売分で、他の販売元・地域の報告は調査中。予防的な販売停止対象全体で機器改変が確定したとはしません。Ledger本体のシステム侵害を示すものではなく、改変時期・被害総数・損失総額は未確定。研究者の推定額をaffectedへ入れません。不正部品がSecure Element等を変更しないため真正性検査を通る場合もあると説明しています。 10月30日にTrezorも、CryptoBilis経由で8月に購入したSafe 5に携帯通信モジュール付きの追加基板があるとの報告を受けたと公表しました。Trezorは現物未入手で内容は未検証、資金喪失の報告もないとしています。Trezor端末の改変は確定扱いにしていません。",
     "affected": [],
     "sources": [
       "ledger-cryptobilis-hardware-2026-1",
       "ledger-cryptobilis-hardware-2026-2",
       "ledger-cryptobilis-hardware-2026-3",
-      "ledger-cryptobilis-hardware-2026-4"
+      "ledger-cryptobilis-hardware-2026-4",
+      "ledger-cryptobilis-hardware-2026-5",
+      "ledger-cryptobilis-hardware-2026-6"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-13",
-    "last_verified_at": "2026-10-15",
-    "verification_note": "既存の全参照出典と続報の本文を再確認し、同じ安定IDへ反映。数量の単位と確認済み・可能性の違いを保持。"
+    "last_verified_at": "2026-11-07",
+    "verification_note": "Ledger関連4出典の本文を再確認し、Trezor公式ブログとBleepingComputerの本文でTrezorへの疑い報告(未検証)を確認。Trezor側は改変確定と扱わず注記のみ。"
   },
   {
     "id": "nipigon-hospital-2026",
