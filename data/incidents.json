@@ -14875,5 +14875,51 @@
     "first_seen_at": "2026-11-07",
     "last_verified_at": "2026-11-07",
     "publication_status": "published"
+  },
+  {
+    "id": "zyxel-gs1900-2026",
+    "published_at": "2026-11-07",
+    "occurred_at": "2026-08-17",
+    "company": "Zyxel",
+    "service": "GS1900シリーズスイッチ(10機種)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・通信",
+    "title": "Zyxel GS1900スイッチ、未知の脆弱性を悪用され約1,000台が侵害、修正済みとされた旧脆弱性とは別と判明",
+    "summary": "Zyxel GS1900シリーズのWeb管理画面の脆弱性(CVE-2026-107441)が、修正前に悪用され、GreyNoiseは48か国で996台が侵害されたと報告しました。当初は6月に修正された別の脆弱性が悪用されたとされていましたが、Binarlyが未知の別の欠陥だと指摘しました。",
+    "note": "悪用は8月17日ごろ開始と報じられています。BinarlyがZyxelへ9月29日に通知し、Zyxelは10月下旬に修正ファームを公開、11月3日に勧告を出しました。侵害台数は機器単位で、利用者・アカウント数ではないため件数欄には記録しません。攻撃者の帰属(中国語圏グループ)は調査会社の見立てで、データ窃取の有無や被害組織は不明です。",
+    "affected": [],
+    "sources": [
+      "zyxel-gs1900-2026-1",
+      "zyxel-gs1900-2026-2"
+    ],
+    "verification_note": "BleepingComputer(11/4)とSecurityWeek(11/5)の本文を照合。CVE、10機種、約1,000台の侵害、旧CVEとは別の0-dayである点、修正・勧告の時系列を確認。Zyxel勧告そのものは未取得。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
+  },
+  {
+    "id": "nexco-doratora-2026",
+    "published_at": "2026-10-23",
+    "occurred_at": null,
+    "company": "NEXCO東日本",
+    "service": "高速道路情報サイト「ドラとら」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "交通・物流",
+    "title": "NEXCO東日本「ドラとら」に不正アクセス、一部会員のメールアドレスやパスワードなどが閲覧された可能性",
+    "summary": "NEXCO東日本は10月23日、高速道路情報サイト「ドラとら」が第三者から不正アクセスを受け、一部の会員の登録情報が閲覧された可能性があると公表しました。",
+    "note": "閲覧された可能性がある情報はメールアドレス、パスワード、性別、都道府県、生年です。対象は「一部のお客さま」とされ、人数、不正アクセスの日時、原因は公表文では示されていません。同じメール・パスワードを他サイトで使っている場合の変更が案内されています。",
+    "affected": [],
+    "sources": [
+      "nexco-doratora-2026-1",
+      "nexco-doratora-2026-2"
+    ],
+    "verification_note": "NEXCO東日本の公式発表(10/23)本文を確認し、ScanNetSecurity(11/4)の報道と照合。件数・発生日は公表文に記載なし。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
   }
 ]

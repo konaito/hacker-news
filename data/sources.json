@@ -7187,5 +7187,33 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
     "title": "Fintech platform Sageworks taken offline after suspected cyberattack"
+  },
+  {
+    "id": "zyxel-gs1900-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches"
+  },
+  {
+    "id": "zyxel-gs1900-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+    "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day"
+  },
+  {
+    "id": "nexco-doratora-2026-1",
+    "publisher": "NEXCO東日本",
+    "type": "primary",
+    "url": "https://www.e-nexco.co.jp/news/important_info/2026/1023/00016745.html",
+    "title": "高速道路情報サイト「ドラとら」への不正アクセスについて"
+  },
+  {
+    "id": "nexco-doratora-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56657.html",
+    "title": "高速道路情報サイト「ドラとら」に不正アクセス"
   }
 ]
