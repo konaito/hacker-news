@@ -1,167 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-11-07T18:47:40.996863+00:00",
+  "completed_at": "2026-11-07T22:20:04.741853+00:00",
   "candidates": [
-    {
-      "title": "mSecure(mSeven)パスワードマネージャー侵害",
-      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文のみ。企業通知の本文は未確認で件数不明。"
-    },
-    {
-      "title": "Zyxelスイッチ0-day悪用/NIKKEランチャー改ざん/Kyiv Independent攻撃",
-      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認。本文未検証のため次回へ。"
-    },
-    {
-      "title": "777CON-PASS不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "エスケーロジにランサムウェア攻撃",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "楽天モバイル 支払い証明書が第三者に閲覧可能(脆弱性診断で判明)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "GMOクリック証券 不正取引注意喚起",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56594.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "PIECE運営施設のBooking.com管理アカウント不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "スズキワールドHP不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "JFEケミカルへの不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "ヤマダデンキ提供サービスへの不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "SpeeCAN RAIDEN不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56626.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "WorldShopping 海外顧客301名",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "ママワークス会員名簿",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "SHIPS CYCLE MARKET Swym Wishlist Plus",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "フジッコ委託先不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "台東区のウェブサイト管理者トラベルジップに不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "ハウス「Value Card」に不正アクセス、ID番号等が流出",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56655.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNetSecurity本文を確認(Value Card約142万件、10/19発覚、10/23公表)。公式PDFは本文抽出できず未確認、独立2媒体目なし。既存のモスカード記録とは集計対象が異なるため別途検討、次回再調査。"
-    },
-    {
-      "title": "高速道路情報サイト「ドラとら」に不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56657.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "日本郵政グループ労働組合への不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
-    {
-      "title": "ロシア統計局へのサイバー攻撃",
-      "url": "https://therecord.media/hackers-ukraine-belarus-russia",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は本文を再取得できず前回判断を維持し次回へ持ち越し(確認済みとは主張しない)。"
-    },
     {
       "title": "Poryadok(ロシアのホームグッズ小売)へのサイバー攻撃",
       "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
@@ -659,6 +499,158 @@
       "reason": "一覧タイトルのみ。本文未確認、攻撃者主張。"
     },
     {
+      "title": "mSecure(mSeven)パスワードマネージャー侵害",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文を再確認(11/3通知、11/4報道)。暗号化DB窃取は顧客共有のサポート回答に基づき会社は公式確認せず、件数不明、企業通知本文なし。独立2媒体目なしのため次回へ。"
+    },
+    {
+      "title": "777CON-PASS不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(サミーネットワークス、9/25検知、10/2公表、件数不明)。公式サイトは403で本文未確認、単一媒体のため次回へ。"
+    },
+    {
+      "title": "エスケーロジにランサムウェア攻撃",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(9/20ランサム被害、9/24公表、一部社内情報漏えい、件数なし)。公式発表は画像のみで未確認、単一媒体のため次回へ。"
+    },
+    {
+      "title": "楽天モバイル 支払い証明書が第三者に閲覧可能",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(10/13発表、閲覧の可能性、実際の閲覧は未確認、件数なし)。公式発表未取得、単一媒体のため次回へ。"
+    },
+    {
+      "title": "GMOクリック証券 不正取引注意喚起",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56594.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認。お名前.comデスクトップクラウドへの不正アクセスが原因とされ件数不明。公式発表・独立媒体未確認のため次回へ。"
+    },
+    {
+      "title": "PIECE運営施設のBooking.com管理アカウント不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(10/13夜に不正アクセス、10/14公表)。公式(piecehotel.com)は今回取得せず、単一媒体のため次回へ。"
+    },
+    {
+      "title": "スズキワールドHP不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(スズキ二輪、約4,400件の可能性)。公式発表は403で本文未確認のため次回へ。"
+    },
+    {
+      "title": "JFEケミカルへの不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(10/21公表、データ窃取)。公式PDFは本文抽出できず未確認、単一媒体のため次回へ。"
+    },
+    {
+      "title": "ヤマダデンキ提供サービスへの不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(ヤマダビデオ等の手続き画面、10/22停止)。公式PDFは未取得、漏えい有無不明のため次回へ。"
+    },
+    {
+      "title": "SpeeCAN RAIDEN不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/30/56626.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(アルカディア、10/11検知、10/19経過報告)。公式PDFは未取得、件数不明のため次回へ。"
+    },
+    {
+      "title": "WorldShopping 海外顧客301名",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(ジグザグ、301件、10/19公表)。TDnet公式PDFは未取得、単一媒体のため次回へ。"
+    },
+    {
+      "title": "ママワークス会員名簿",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(アイドマ、10/20公表、件数不明)。公式PDFは未取得、単一媒体のため次回へ。"
+    },
+    {
+      "title": "SHIPS CYCLE MARKET Swym Wishlist Plus",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(Swym側侵害、10/14-15、偽決済画面の可能性)。公式は未取得、単一媒体のため次回へ。"
+    },
+    {
+      "title": "フジッコ委託先不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(延べ約15,500件の可能性、10/22公表)。公式PDFは本文抽出できず未確認のため次回へ。"
+    },
+    {
+      "title": "台東区のウェブサイト管理者トラベルジップに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(10/23公表、件数・項目不明)。区の公式発表は未取得、単一媒体のため次回へ。"
+    },
+    {
+      "title": "ハウス「Value Card」に不正アクセス、ID番号等が流出",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56655.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(バリューデザイン運営、1,424,748件、10/19発覚、10/23公表)。公式PDFは本文抽出できず未確認、独立2媒体目なし。既存abahouse-2026とは別事件の可能性があり次回再調査。"
+    },
+    {
+      "title": "日本郵政グループ労働組合への不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(JP労組、2019年ごろまでのメール配信システム、4万件超の可能性、10/26公表)。公式発表は未取得、単一媒体のため次回へ。"
+    },
+    {
+      "title": "ロシア統計局へのサイバー攻撃",
+      "url": "https://therecord.media/hackers-ukraine-belarus-russia",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文を確認(Cyber Partisans/Silent Crowが破壊的攻撃を主張、Rosstatは攻撃を認めたが漏えい証拠なしと説明)。主張は未検証で独立報道なし、次回へ。"
+    },
+    {
+      "title": "フランス銀行から1.33億ドル窃取(サービスプロバイダ経由)",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer一覧のタイトルのみ確認。本文未検証のため次回優先。"
+    },
+    {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
       "incident_id": "ftapi-2026",
       "url": null,
@@ -783,44 +775,42 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-11-07T07:09:04Z",
     "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-11-07T13:36:53.434156+00:00",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-11-07T00:56:44.582643+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-07T22:19:45Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-11-07T13:36:53.434156+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-07T22:19:45Z",
     "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": "2026-11-07T06:38:17Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-07T22:19:45Z",
     "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": "2026-11-07T18:47:05+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html": "2026-11-07T22:19:45Z",
     "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-06T19:42:10Z",
     "https://www.pref.fukuoka.lg.jp/contents/kyoryokutai-attention.html": "2026-11-07T06:38:17Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56594.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56594.html": "2026-11-07T22:19:45Z",
     "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/": "2026-11-07T18:47:05+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/30/56626.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/30/56626.html": "2026-11-07T22:19:45Z",
     "https://www.itmedia.co.jp/news/article/2610/28/2000002667/": "2026-11-07T06:38:17Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html": "2026-11-07T22:19:45Z",
     "https://scan.netsecurity.ne.jp/": "2026-11-07T13:36:53.434156+00:00",
     "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/": "2026-11-07T06:38:17Z",
-    "https://therecord.media/hackers-ukraine-belarus-russia": "2026-11-06T19:42:10Z",
+    "https://therecord.media/hackers-ukraine-belarus-russia": "2026-11-07T22:19:45Z",
     "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": "2026-11-07T18:47:05+00:00",
     "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/": "2026-11-07T06:38:17Z",
     "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/": "2026-11-07T06:38:17Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/04/56657.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/04/56655.html": "2026-11-06T19:42:10Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html": "2026-11-06T19:42:10Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/04/56655.html": "2026-11-07T22:19:45Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html": "2026-11-07T22:19:45Z",
     "https://www.security-next.com/192337": "2026-11-07T06:38:17Z",
-    "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/": "2026-11-06T15:02:26Z",
+    "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/": "2026-11-07T22:19:45Z",
     "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/": "2026-11-07T06:38:17Z",
     "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/": "2026-11-07T06:38:17Z",
     "https://www.security-next.com/192388": "2026-11-07T18:47:05+00:00",
     "https://www.security-next.com/192260": "2026-11-07T18:47:05+00:00",
     "https://www.security-next.com/192081": "2026-11-07T06:38:17Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html": "2026-11-06T19:42:10Z",
-    "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/": "2026-11-06T15:02:26Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html": "2026-11-07T22:19:45Z",
     "https://therecord.media/queens-library-ransomware-causes-disruptions": "2026-11-07T18:47:05+00:00",
     "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/": "2026-11-07T06:38:17Z",
     "https://www.bleepingcomputer.com/news/security/mSecure-password-manager-hack-prompts-password-reset-warnings/": "2026-11-07T06:38:17Z",
@@ -831,7 +821,8 @@
     "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents": "2026-11-07T06:38:17Z",
     "https://therecord.media/bogota-potential-city-health-agency-hack-european-hoax-emails": "2026-11-07T13:36:53.434156+00:00",
     "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/": "2026-11-07T18:47:05+00:00",
-    "https://www.security-next.com/192393": "2026-11-07T18:47:05+00:00"
+    "https://www.security-next.com/192393": "2026-11-07T18:47:05+00:00",
+    "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/": "2026-11-07T22:19:45Z"
   },
   "last_success": {
     "fresh": {
@@ -841,18 +832,18 @@
       "main_sha": "cd6ed40c820cba125f3aa0f4e7ebfce1e0b16a08"
     },
     "historical": {
-      "completed_at": "2026-11-07T13:36:53.434156+00:00",
-      "summary": "必須再調査のpending9件は検索と一部本文で再確認したが、新たな裏付けを得られず全てpending維持(rhyneのDOJページは本文が空、coldcardは3媒体で投稿事実は確認も侵害は未確認)。新規公開は東京都水道局HDD紛失、Crédit Mutuel Arkéa、Kyiv Independent、ブシロード委託先の4件。カナダ歯科は2023年事案で対象外、フランス血液事業団は既存ID重複。未解決のdeferred(さくらさくみらい、ALSOKジョイライフ、ZonExpert、FancyBear、Claire's、Queens Public Library、Michigan State、Bogotá)は未検証のまま持越し。全件の網羅や一覧全記事の本文確認は主張しない。次回は国内の2026/09〜10の過去月、公式お知らせ、pendingの出典本文の再取得を優先。",
-      "run_id": "42377390960",
-      "main_sha": "038a7b0dddcaece349ce5416ec964feff201ecd3"
+      "completed_at": "2026-11-07T22:19:45Z",
+      "summary": "必須再調査20件の本文を再取得。Zyxel GS1900(独立2媒体)とNEXCO東日本ドラとら(公式)を新規掲載。残り18件はPDF抽出不可・403・単一媒体のためdeferred維持。国内2媒体・海外2媒体の一覧を確認。未実施: 過去期間・業種を変えた検索、JPCERT/CC・IPA・CISA、SNS。次回は仏銀行窃取、Value Card、公式PDFの再確認を優先。全件網羅は主張しない。",
+      "run_id": "42419849578",
+      "main_sha": "c566e25cb5b978f5e4e94cb1c3e8311b1b48a495"
     }
   },
   "last_attempt": {
-    "mode": "fresh",
-    "run_id": "42402767539",
-    "completed_at": "2026-11-07T18:47:40.996863+00:00",
+    "mode": "historical",
+    "run_id": "42419849578",
+    "completed_at": "2026-11-07T22:20:04.741853+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "cd6ed40c820cba125f3aa0f4e7ebfce1e0b16a08"
+    "main_sha": "c566e25cb5b978f5e4e94cb1c3e8311b1b48a495"
   }
 }
