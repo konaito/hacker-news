@@ -14852,5 +14852,28 @@
     "first_seen_at": "2026-11-07",
     "last_verified_at": "2026-11-07",
     "publication_status": "published"
+  },
+  {
+    "id": "abrigo-sageworks-2026",
+    "published_at": "2026-11-03",
+    "occurred_at": "2026-10-30",
+    "company": "Abrigo",
+    "service": "Sageworks(Sageworks Analyst・Sageworks API・Online Portal Now)",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "米Abrigoの融資分析基盤Sageworks、不審な活動で停止、不正アクセスを確認もデータ窃取の有無は不明",
+    "summary": "AbrigoはSageworksを10月30日に停止し、環境内の不審な活動を理由に挙げました。その後、American Bankerに対し不正アクセスを伴うデータセキュリティ事案だと認めました。11月2日までに大半の機能は復旧しましたが、借り手向け機能は停止が続きました。",
+    "note": "Abrigoは不正アクセスは封じ込め済みで継続の証拠はないと説明していますが、データが閲覧・取得されたか、対象データや金融機関数は明らかにしていません。Sageworksは借り手の確定申告書や財務諸表などの融資書類を扱うとされます。過去のSalesforce関連事案との関連は未確認で、ShinyHunters関与の主張も未検証です。件数は記録しません。",
+    "affected": [],
+    "sources": [
+      "abrigo-sageworks-2026-1",
+      "abrigo-sageworks-2026-2"
+    ],
+    "verification_note": "American Banker(11/3)とBleepingComputer(11/2)の本文を照合。停止日、サービス名、Abrigoの不正アクセス確認(American Banker)、データ窃取は未確認である点を確認。",
+    "first_seen_at": "2026-11-07",
+    "last_verified_at": "2026-11-07",
+    "publication_status": "published"
   }
 ]

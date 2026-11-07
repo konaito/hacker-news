@@ -7173,5 +7173,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56692.html",
     "title": "ブシロード「バンドリ！アワーノーツ」開発業務委託先に不正アクセス"
+  },
+  {
+    "id": "abrigo-sageworks-2026-1",
+    "publisher": "American Banker",
+    "type": "reporting",
+    "url": "https://www.americanbanker.com/news/abrigo-confirms-data-security-incident-caused-3-day-outage",
+    "title": "Abrigo confirms data security incident caused 3-day outage"
+  },
+  {
+    "id": "abrigo-sageworks-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+    "title": "Fintech platform Sageworks taken offline after suspected cyberattack"
   }
 ]
