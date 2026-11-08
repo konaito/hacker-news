@@ -7229,5 +7229,61 @@
     "type": "reporting",
     "url": "https://www.jprime.jp/articles/-/44405",
     "title": "資さんうどん 従業員・退職者の個人情報漏えいの可能性"
+  },
+  {
+    "id": "queens-library-ransomware-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+    "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers"
+  },
+  {
+    "id": "queens-library-ransomware-2026-2",
+    "publisher": "NY1",
+    "type": "reporting",
+    "url": "https://www.ny1.com/nyc/all-boroughs/news/2026/11/05/ransomware-attack-disrupts-queens-public-library-services",
+    "title": "Ransomware attack disrupts Queens Public Library services"
+  },
+  {
+    "id": "workos-sales-app-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox"
+  },
+  {
+    "id": "arara-message-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002907/",
+    "title": "モスやワークマン、IIJmioも アララへの不正アクセスで顧客情報の流出発表相次ぐ"
+  },
+  {
+    "id": "arara-message-2026-2",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2153526.html",
+    "title": "アララメッセージへの不正アクセス(約7,700万件のメールアドレス流出、2日時点)"
+  },
+  {
+    "id": "sega-fave-allnet-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002941/",
+    "title": "ゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず 原因は不正アクセス"
+  },
+  {
+    "id": "sega-fave-allnet-2026-2",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2153346.html",
+    "title": "セガ フェイブの「ALL.Net」に不正アクセス、「太鼓の達人」「チュウニズム」などのアーケードゲームに影響"
+  },
+  {
+    "id": "sega-fave-allnet-2026-3",
+    "publisher": "GameBusiness.jp",
+    "type": "reporting",
+    "url": "https://www.gamebusiness.jp/article/2026/11/07/28583.html",
+    "title": "ALL.Net/Aime不正アクセス問題、サービス再開の目処立たず"
   }
 ]
