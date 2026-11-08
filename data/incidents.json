@@ -15022,5 +15022,88 @@
     "first_seen_at": "2026-11-08",
     "last_verified_at": "2026-11-08",
     "publication_status": "published"
+  },
+  {
+    "id": "fujicco-campaign-2026",
+    "published_at": "2026-10-22",
+    "occurred_at": null,
+    "company": "フジッコ",
+    "service": "カスピ海ヨーグルト等のキャンペーン応募受付(委託先サーバー)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "食品・製造",
+    "title": "フジッコのキャンペーン応募受付の委託先サーバーに不正アクセス、応募者情報が漏えいした可能性、第2報で件数を14,594件に修正",
+    "summary": "フジッコは10月22日、カスピ海ヨーグルトシリーズ「もっと!とろぉ~もっちキャンペーン 第2弾」と「フジッコ大感謝祭キャンペーン」の応募受付業務の委託先サーバーが第三者から不正アクセスを受け、非会員向け応募フォームの応募者情報が漏えいした可能性があると公表しました。11月2日の第2報で、当初延べ約15,500件としていた件数を修正しました。",
+    "note": "第2報の件数は重複応募を除いた14,594件、両キャンペーンへの応募者254を加えた合計14,848とされています(公式HTMLの本文に基づく。単位が人数か件数かの記載は確認しきれていないため、recordsとして記録)。ScanNetSecurityは氏名・住所・電話番号・メール・アンケート回答などを報じていますが、第2報に項目の記載は確認できていません。同社は第三者に取得されたものとみなして対応しており、不正利用は未確認とされています。侵入日・手口は未公表です。",
+    "affected": [
+      {
+        "count": 14594,
+        "unit": "records",
+        "description": "第2報で修正された、重複応募を除く漏えいの可能性がある応募情報(公式HTML本文)",
+        "source_id": "fujicco-campaign-2026-1"
+      }
+    ],
+    "sources": [
+      "fujicco-campaign-2026-1",
+      "fujicco-campaign-2026-2"
+    ],
+    "verification_note": "フジッコ公式第2報(11/2)の本文とScanNetSecurity(11/2)本文を照合。公式PDF第一報は本文抽出不能で未確認。",
+    "first_seen_at": "2026-11-08",
+    "last_verified_at": "2026-11-08",
+    "publication_status": "published"
+  },
+  {
+    "id": "cpguard-opsshield-2026",
+    "published_at": "2026-11-03",
+    "occurred_at": "2026-11-02",
+    "company": "OpsShield(cPGuard開発元)",
+    "service": "cPGuard 自動アップデート配信基盤・課金/ライセンスサーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "cPGuardの更新配信基盤が侵害され、約2,950台のLinuxサーバーにバックドアと認証情報窃取スクリプトが配布",
+    "summary": "OpsShieldは11月3日、侵害された認証情報で更新配信基盤にアクセスされ、cPGuard 5.88.12〜5.88.19を通じて悪意あるスクリプトが配布されたと公表しました。BleepingComputerとThe Hacker Newsは、スクリプトが/etc/shadowやrootのSSH鍵、MySQLのrootパスワード等を窃取し、課金データベースも複製されたと報じています。",
+    "note": "影響台数はOpsShieldがBleepingComputerに述べた2,946台、The Hacker Newsは約2,950台と報じています(サーバー単位)。課金記録は約7,900アカウント分と報じられています(The Hacker News)。修正版は報道間で5.88.25/5.88.26と表記が異なり、利用者は最新の公式案内を要確認です。OpsShield自身の公表本文は直接取得しておらず、報道2媒体の本文に基づきます。",
+    "affected": [
+      {
+        "count": 2946,
+        "unit": "records",
+        "description": "スクリプトが実行され情報が取得されたcPGuard導入サーバーの台数(OpsShield広報の説明、BleepingComputer)",
+        "source_id": "cpguard-opsshield-2026-1"
+      }
+    ],
+    "sources": [
+      "cpguard-opsshield-2026-1",
+      "cpguard-opsshield-2026-2"
+    ],
+    "verification_note": "BleepingComputerとThe Hacker Newsの本文で、11/2の配信、対象バージョン、窃取対象、台数、ベンダー対応を照合。OpsShield本人の公表は未取得。",
+    "first_seen_at": "2026-11-08",
+    "last_verified_at": "2026-11-08",
+    "publication_status": "published"
+  },
+  {
+    "id": "nikke-launcher-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": "2026-09-27",
+    "company": "Level Infinite(Shift Up開発)",
+    "service": "「勝利の女神:NIKKE」PCランチャー",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "エンタメ",
+    "title": "NIKKEのPCランチャー配信スクリプトが改ざんされ、遠隔操作・情報窃取マルウェアが配布、運営が謝罪と対応を公表",
+    "summary": "Level Infinite(運営)は、WindowsのPCランチャーが利用する公式CDN上のスクリプト4本が第三者に改ざんされたと認め、11月5日に謝罪しました。運営の説明では9月27日にドメインが乗っ取られスクリプトが改ざんされ、10月30日からマルウェアが利用者PCに拡散し、11月4日に異常を検知して修正しました。BleepingComputerは遠隔操作エージェントK2Fによる資格情報・ブラウザ情報の窃取を報じています。",
+    "note": "影響を受けた利用者数は未公表です。対象は9月27日15時41分以降にPCランチャーを起動した利用者で、モバイル版は対象外とされています。仮想通貨ウォレットを狙うDLLについては、実際の展開・被害は不明です。日付は報道間で異なり(BleepingComputerは研究者の説明で9/27改ざん)、運営説明(Inven Global経由)ではマルウェア配布開始は10/30です。運営の公式告知本文は直接取得していません。",
+    "affected": [],
+    "sources": [
+      "nikke-launcher-2026-1",
+      "nikke-launcher-2026-2"
+    ],
+    "verification_note": "BleepingComputer(11/4、11/6更新)とInven Global(運営11/5声明の報道)の本文で、改ざん、マルウェア挙動、タイムライン、対象範囲、対応を照合。運営の公式告知は未取得。",
+    "first_seen_at": "2026-11-08",
+    "last_verified_at": "2026-11-08",
+    "publication_status": "published"
   }
 ]

@@ -7285,5 +7285,47 @@
     "type": "reporting",
     "url": "https://www.gamebusiness.jp/article/2026/11/07/28583.html",
     "title": "ALL.Net/Aime不正アクセス問題、サービス再開の目処立たず"
+  },
+  {
+    "id": "fujicco-campaign-2026-1",
+    "publisher": "フジッコ",
+    "type": "primary",
+    "url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+    "title": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について"
+  },
+  {
+    "id": "fujicco-campaign-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56644.html",
+    "title": "フジッコのキャンペーンの応募受付業務の委託先に不正アクセス"
+  },
+  {
+    "id": "cpguard-opsshield-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data"
+  },
+  {
+    "id": "cpguard-opsshield-2026-2",
+    "publisher": "The Hacker News",
+    "type": "reporting",
+    "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+    "title": "cPGuard Update Channel Hijacked to Push Linux Server Backdoor"
+  },
+  {
+    "id": "nikke-launcher-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware"
+  },
+  {
+    "id": "nikke-launcher-2026-2",
+    "publisher": "Inven Global",
+    "type": "reporting",
+    "url": "https://www.invenglobal.com/articles/28158/level-infinite-apologizes-for-nikke-pc-launcher-issue-accepts-reports-of-secondary-damage",
+    "title": "Level Infinite apologizes for NIKKE PC launcher issue, accepts reports of secondary damage"
   }
 ]
