@@ -15263,5 +15263,111 @@
     "first_seen_at": "2026-11-09",
     "last_verified_at": "2026-11-09",
     "publication_status": "published"
+  },
+  {
+    "id": "tokuma-goodspress-test-2026",
+    "occurred_at": "2026-10-22",
+    "company": "徳間書店",
+    "service": "GoodsPress Webのテスト環境",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "閲覧の可能性",
+    "category": "メディア",
+    "title": "徳間書店のGoodsPress Webテスト環境に不正アクセス、執筆協力者ら103件の氏名・メールアドレスが閲覧された可能性",
+    "summary": "徳間書店は、GoodsPress Webのテスト環境に第三者が不正アクセスし、管理者アカウントを不正作成してページを改ざんしたと公表しました。テスト環境に登録していた執筆協力者・取引先103件の氏名、ニックネーム、メールアドレスが閲覧された可能性があります。",
+    "note": "10月22日に運用委託先からの連絡で把握し、攻撃経路の遮断、不正アカウント停止、改ざんページの非公開化、同日19時50分のテストサーバ停止を実施。10月26日付で個人情報保護委員会へ報告。実際の閲覧・持ち出しや悪用は確認されておらず、本番環境と読者の情報は対象外とされます。侵入経路は公表されていません。件数はレコード(件)として扱い人数へ換算していません。",
+    "affected": [
+      {
+        "count": 103,
+        "unit": "records",
+        "description": "テスト環境に登録していた執筆協力者・取引先の氏名・ニックネーム・メールアドレス(閲覧された可能性)",
+        "source_id": "tokuma-goodspress-test-2026-1"
+      }
+    ],
+    "sources": [
+      "tokuma-goodspress-test-2026-1",
+      "tokuma-goodspress-test-2026-2"
+    ],
+    "verification_note": "徳間書店の公式お知らせ本文とScanNetSecurity本文を確認し、10/22把握、管理者アカウント不正作成、103件、項目、本番環境非対象で一致。",
+    "published_at": "2026-11-09",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
+  },
+  {
+    "id": "york-university-forms-2026",
+    "occurred_at": null,
+    "company": "ヨーク大学(カナダ)",
+    "service": "大学14学部・部署のウェブサイトのオンラインフォーム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報窃取確認",
+    "category": "教育",
+    "title": "カナダのヨーク大学で大学サイト14件のオンラインフォーム情報が窃取、2007年以降の提出データが対象",
+    "summary": "ヨーク大学は10月25日に把握したサイバー事案で、不正な第三者が一部学部・部署のオンラインフォームにアクセスし、各サイトの運用開始年から2026年10月までに提出された個人情報が窃取されたと公表しました。多くは連絡先とYork ID番号ですが、一部は政府発行ID・金融口座情報を含みます。",
+    "note": "対象は14のウェブサイトで、データ項目はサイトごとに異なります(連絡先、生年月日、健康情報、学歴、財務状況など)。影響人数は公表されていません。大学は事案を封じ込め、他のIT環境への到達の証拠はないとし、オンタリオ州情報プライバシー委員会と法執行機関へ報告、政府ID等が対象の少数へ2年間の信用監視を提供するとしています。原因は調査中で、攻撃者は特定されていません。",
+    "affected": [],
+    "sources": [
+      "york-university-forms-2026-1",
+      "york-university-forms-2026-2"
+    ],
+    "verification_note": "大学公式FAQとBleepingComputer本文を確認。10/25把握、14サイト、対象データ、人数未公表、2年間の信用監視で一致。",
+    "published_at": "2026-11-09",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
+  },
+  {
+    "id": "amplifon-americas-2026",
+    "occurred_at": "2026-01-18",
+    "company": "Amplifon(米国事業)",
+    "service": "社内システム上のファイル",
+    "region": "US",
+    "status": "confirmed_leak",
+    "display_label": "情報取得確認",
+    "category": "医療・ヘルスケア",
+    "title": "補聴器大手Amplifonの米国事業で1月のサイバー攻撃により顧客情報が取得され、州当局への届出でテキサス州85,804人",
+    "summary": "Amplifonは米国向け通知で、2026年1月18日から2月8日の間に第三者が一部システムのファイルを取得し、2月11日に不審な活動を検知したと説明しました。氏名・連絡先、生年月日、運転免許証等のID番号、医療・健康保険情報などが対象となる可能性があり、10月6日のデータ精査で判明しました。",
+    "note": "The Recordは州当局への届出としてテキサス州85,804人、バーモント州1,027人を報じています(州ごとの重複は不明で合算していません)。弁護士事務所が示す約133万人の総数は会社未確認のため採用しません。社会保障番号や金融情報は限られた個人のみの可能性とされ、不正利用は把握していないとしています。攻撃者の犯行声明はありません。発生日は取得期間の開始日です。",
+    "affected": [
+      {
+        "count": 85804,
+        "unit": "people",
+        "description": "テキサス州当局への届出に記載された対象者数(全体の人数ではない)",
+        "source_id": "amplifon-americas-2026-2"
+      }
+    ],
+    "sources": [
+      "amplifon-americas-2026-1",
+      "amplifon-americas-2026-2"
+    ],
+    "verification_note": "Amplifon米国公式通知とThe Record本文を確認。期間、検知日、10/6の精査、対象項目で一致。件数は州届出としてThe Recordのみが記載。",
+    "published_at": "2026-11-09",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
+  },
+  {
+    "id": "dennys-app-2026",
+    "occurred_at": null,
+    "company": "デニーズジャパン",
+    "service": "デニーズアプリ(旧アプリからの移行処理)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "外食・小売",
+    "title": "デニーズアプリで移行処理に不備、第三者が認証情報を不正作成し旧アプリ利用者の個人情報が漏えいした可能性",
+    "summary": "デニーズジャパンは11月3日、旧アプリから新アプリへの移行処理で第三者が認証情報を不正に作成し、一部顧客のアカウントへアクセスしたと公表しました。10月30日に把握し、会員コード、メールアドレス、生年月日などが漏えいした可能性があります。",
+    "note": "ログ上は個人情報を取得する処理が実行されていますが、第三者の操作か顧客本人の操作かを区別できておらず、実際の取得・項目・人数は確認中です。ScanNetSecurityは性別、都道府県、お気に入り店舗、子の誕生日情報も可能性の項目として伝えています。人数は未公表で、該当者へ個別に連絡する方針です。公式第一報PDFは本文を抽出できず、一次確認とはしていません。",
+    "affected": [],
+    "sources": [
+      "dennys-app-2026-1",
+      "dennys-app-2026-2"
+    ],
+    "verification_note": "ScanNetSecurityとSecurity NEXTの本文を確認し、10/30把握、移行処理での認証情報の不正作成、取得処理の実行、人数未確認で一致。公式PDF(dennys.jp/pdf/261103.pdf)は圧縮で本文未抽出。",
+    "published_at": "2026-11-09",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
   }
 ]

@@ -7411,5 +7411,61 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html",
     "title": "ソニー銀行のデジタル証券に関連する外部委託先Securitize Japanに不正アクセス"
+  },
+  {
+    "id": "tokuma-goodspress-test-2026-1",
+    "publisher": "徳間書店",
+    "type": "primary",
+    "url": "https://www.tokuma.jp/news/n65028.html",
+    "title": "不正アクセスによる個人情報漏えいのおそれに関するお知らせ"
+  },
+  {
+    "id": "tokuma-goodspress-test-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56686.html",
+    "title": "徳間書店「GoodsPress Web」テスト環境への不正アクセス"
+  },
+  {
+    "id": "york-university-forms-2026-1",
+    "publisher": "York University",
+    "type": "primary",
+    "url": "https://www.yorku.ca/uit/infosec/incident-faq/",
+    "title": "York University Cybersecurity Incident FAQ"
+  },
+  {
+    "id": "york-university-forms-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+    "title": "York University breach exposed personal information dating to 2007"
+  },
+  {
+    "id": "amplifon-americas-2026-1",
+    "publisher": "Amplifon USA",
+    "type": "primary",
+    "url": "https://www.amplifonusa.com/legal-and-privacy/amplifon-americas-security-incident",
+    "title": "Amplifon Americas Security Incident"
+  },
+  {
+    "id": "amplifon-americas-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+    "title": "Data breach at hearing aid giant Amplifon impacts thousands"
+  },
+  {
+    "id": "dennys-app-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56704.html",
+    "title": "デニーズアプリへ不正アクセス"
+  },
+  {
+    "id": "dennys-app-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192388",
+    "title": "第三者が認証情報を不正作成か、アプリ移行処理に不備 - デニーズ"
   }
 ]
