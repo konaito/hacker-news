@@ -1,103 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-11-09T00:53:47.696893+00:00",
+  "completed_at": "2026-11-09T07:14:16.028471+00:00",
   "candidates": [
-    {
-      "title": "楽天証券 委託先不正アクセス(デジタル特典付き社債)",
-      "url": "https://atsoho.com/blog/rakuten-sec-digital-bond-ntt-data-breach",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索結果の要約のみ。本文未確認のため次回へ。"
-    },
-    {
-      "title": "さくらさくみらい委託先",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "ALSOKジョイライフ",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "ZonExpert",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "777CON-PASS",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "エスケーロジ",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "楽天モバイル支払い証明書",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "GMOクリック証券",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56594.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "PIECE",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "スズキワールド",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "チャリロト、ドラとら、ELESTYLE、Value Card、トラベルジップ、東京都水道局HDD紛失",
-      "url": "https://scan.netsecurity.ne.jp/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回の必須再調査対象外で未再取得。未検証のまま次回へ持越し。"
-    },
-    {
-      "title": "NIKKE公式PCランチャーでCDN上のスクリプト改ざん",
-      "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002895/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ITmedia見出しのみ確認。本文未確認のため次回へ持越し。"
-    },
     {
       "title": "JFEケミカルへの不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html",
@@ -539,12 +443,100 @@
       "reason": "WebSearchで再調査。Malwarebytes単一媒体で、Domino's告知メールの内容を伝えるのみ、件数不明。独立した2媒体目は未確認。持越し。"
     },
     {
-      "title": "ソニー銀行デジタル証券の委託先Securitize Japanに不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html",
-      "priority": "high",
+      "title": "電力・ガス取引監視等委員会ウェブサイトに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56702.html",
+      "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧タイトルのみ確認で本文・2媒体目は未確認。次回へ。"
+      "reason": "一覧タイトルのみ確認で本文・2媒体目は未確認。既存meti-dentrinet-2026との関係も未確認。次回へ。"
+    },
+    {
+      "title": "楽天証券 委託先不正アクセス(デジタル特典付き社債)",
+      "url": "https://atsoho.com/blog/rakuten-sec-digital-bond-ntt-data-breach",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得はHTTP 403で本文を確認できず。検索要約では延べ362件・NTTデータ委託先とされるが未検証のため次回へ。"
+    },
+    {
+      "title": "チャリロト、ドラとら、ELESTYLE、Value Card、トラベルジップ、東京都水道局HDD紛失",
+      "url": "https://scan.netsecurity.ne.jp/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は個別記事を取得せず未検証のまま次回へ持越し。Security NEXTに都水道局HDD紛失の記事(192391)があるが本文は未読。"
+    },
+    {
+      "title": "さくらさくみらい委託先",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(未公表のクラウド委託先経由で一部サーバーのパスワード流出の可能性、8/31通知、9/7公表、件数なし)。企業の一次発表は未取得で単独報道のためdeferred。"
+    },
+    {
+      "title": "ALSOKジョイライフ",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(7/4端末への不正リモート操作、入居者・退居者134件の閲覧可能性、10/1調査結果)。公式本文には到達できず単独報道のためdeferred。"
+    },
+    {
+      "title": "ZonExpert",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurityと公式本文を確認したが、公式本文の発生・対応日が2025年表記でScanNetSecurityの2026年表記と不一致。日付を確定できないためdeferred。"
+    },
+    {
+      "title": "777CON-PASS",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(サミーネットワークス、9/25検知、10/2公表、漏えいの可能性)。公式本文はHTTP 403で取得できず単独報道のためdeferred。"
+    },
+    {
+      "title": "エスケーロジ",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(9/20ランサム被害、10/3第2報で一部社内情報の漏えい確認)。公式本文は未取得で単独報道のためdeferred。"
+    },
+    {
+      "title": "PIECE",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(10/13のBooking.com管理アカウント不正アクセス、偽の割引案内)。公式本文は未取得で単独報道、個人情報漏えいは未確認のためdeferred。"
+    },
+    {
+      "title": "スズキワールド",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文を確認(スズキ二輪、問合せログ約4,400件、閲覧・取得の可能性)。公式本文はHTTP 403で取得できず単独報道のためdeferred。"
+    },
+    {
+      "title": "ポイントインカムとCoinTradeで個人情報が流出",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56707.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧見出しのみ確認。既存レコードなし、本文未読のため次回へ。"
+    },
+    {
+      "title": "ソニー銀行のデジタル証券に関連する外部委託先Securitize Japanに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧見出しのみ確認。既存レコードなし、本文未読のため次回へ(楽天証券の委託先事案との関連も未確認)。"
     },
     {
       "title": "デニーズアプリへ不正アクセス",
@@ -552,7 +544,7 @@
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧タイトルのみ確認で本文・2媒体目は未確認。次回へ。"
+      "reason": "一覧見出しのみ確認。既存レコードなし、本文未読のため次回へ。"
     },
     {
       "title": "CNポイントのサテライトシステムに不正アクセス",
@@ -560,15 +552,15 @@
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧タイトルのみ確認で本文・2媒体目は未確認。次回へ。"
+      "reason": "一覧見出しのみ確認。既存レコードなし、本文未読のため次回へ。"
     },
     {
-      "title": "電力・ガス取引監視等委員会ウェブサイトに不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56702.html",
-      "priority": "normal",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧タイトルのみ確認で本文・2媒体目は未確認。既存meti-dentrinet-2026との関係も未確認。次回へ。"
+      "reason": "一覧見出しのみ確認。既存レコードなし、本文未読のため次回へ。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -654,22 +646,22 @@
   "checked_at": {
     "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-11-09T00:53:23.028804+00:00",
     "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-11-08T22:30:57Z",
-    "rakuten-data-sale-claim-2026": "2026-11-08T06:43:28.060376+00:00",
+    "rakuten-data-sale-claim-2026": "2026-11-09T07:13:50+00:00",
     "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-11-08T16:43:30Z",
-    "ftapi-2026": "2026-11-08T06:43:28.060376+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-11-08T06:43:28.060376+00:00",
-    "tottori-care-provider-email-2026": "2026-11-08T06:43:28.060376+00:00",
-    "solar-russian-medical-network-2026": "2026-11-08T06:43:28.060376+00:00",
+    "ftapi-2026": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-11-09T07:13:50+00:00",
+    "tottori-care-provider-email-2026": "2026-11-09T07:13:50+00:00",
+    "solar-russian-medical-network-2026": "2026-11-09T07:13:50+00:00",
     "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-11-09T00:53:23.028804+00:00",
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-11-09T00:53:23.028804+00:00",
-    "hcuch-imaging-2026": "2026-11-08T06:43:28.060376+00:00",
-    "kenya-brs-2026": "2026-11-08T06:43:28.060376+00:00",
+    "hcuch-imaging-2026": "2026-11-09T07:13:50+00:00",
+    "kenya-brs-2026": "2026-11-09T07:13:50+00:00",
     "https://www.security-next.com/190739": "2026-11-08T22:30:57Z",
     "andover-town-schools-2026": "2026-11-08T22:30:57Z",
     "https://skyticket.jp/news/maintenance/67603": "2026-11-08T22:30:57Z",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-09T00:53:23.028804+00:00",
     "https://s-que.net/news/20261008/": "2026-11-08T21:09:40Z",
-    "rhyne-industrial-company-2023": "2026-11-08T06:43:28.060376+00:00",
+    "rhyne-industrial-company-2023": "2026-11-09T07:13:50+00:00",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-11-08T16:43:30Z",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-11-09T00:53:23.028804+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-11-08T22:30:57Z",
@@ -687,33 +679,31 @@
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-11-09T00:53:23.028804+00:00",
     "coldcard-x-phishing-2026": "2026-11-08T22:30:57Z",
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-08T21:09:40Z",
-    "senture-fmcsa-2026": "2026-11-08T06:43:28.060376+00:00",
+    "senture-fmcsa-2026": "2026-11-09T07:13:50+00:00",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-11-08T22:30:57Z",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-11-08T13:57:06.006199+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-08T06:43:28.060376+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-09T07:13:50+00:00",
     "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-11-08T22:30:57Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-11-08T22:30:57Z",
     "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-11-09T00:53:23.028804+00:00",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-11-08T21:09:40Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-08T06:43:28.060376+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-11-08T06:43:28.060376+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-08T06:43:28.060376+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-09T07:13:50+00:00",
     "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": "2026-11-08T13:57:06.006199+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html": "2026-11-08T13:57:06.006199+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html": "2026-11-08T13:57:06.006199+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-08T06:43:28.060376+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-09T07:13:50+00:00",
     "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": "2026-11-08T16:43:30Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-08T06:43:28.060376+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/27/56584.html": "2026-11-08T06:43:28.060376+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-09T07:13:50+00:00",
     "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-08T13:57:06.006199+00:00",
     "https://www.pref.fukuoka.lg.jp/contents/kyoryokutai-attention.html": "2026-11-08T22:30:57Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56594.html": "2026-11-08T06:43:28.060376+00:00",
     "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/": "2026-11-08T21:09:40Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/30/56626.html": "2026-11-08T13:57:06.006199+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-08T13:57:06.006199+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-08T13:57:06.006199+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html": "2026-11-08T13:57:06.006199+00:00",
-    "https://scan.netsecurity.ne.jp/": "2026-11-08T06:43:28.060376+00:00",
+    "https://scan.netsecurity.ne.jp/": "2026-11-09T07:13:50+00:00",
     "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/": "2026-11-08T13:57:06.006199+00:00",
     "https://therecord.media/hackers-ukraine-belarus-russia": "2026-11-08T13:57:06.006199+00:00",
     "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": "2026-11-08T16:43:30Z",
@@ -727,12 +717,13 @@
     "https://scan.netsecurity.ne.jp/article/2026/11/06/56686.html": "2026-11-08T21:09:40Z",
     "https://therecord.media/bogota-potential-city-health-agency-hack-european-hoax-emails": "2026-11-08T13:57:06.006199+00:00",
     "https://www.security-next.com/192393": "2026-11-08T22:30:57Z",
-    "https://atsoho.com/blog/rakuten-sec-digital-bond-ntt-data-breach": "2026-11-08T06:43:28.060376+00:00",
-    "https://www.itmedia.co.jp/news/article/2611/05/2000002895/": "2026-11-08T10:18:30Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html": "2026-11-09T00:53:23.028804+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/09/56704.html": "2026-11-09T00:53:23.028804+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/09/56703.html": "2026-11-09T00:53:23.028804+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/09/56702.html": "2026-11-09T00:53:23.028804+00:00"
+    "https://atsoho.com/blog/rakuten-sec-digital-bond-ntt-data-breach": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/09/56704.html": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/09/56703.html": "2026-11-09T07:13:50+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/09/56702.html": "2026-11-09T00:53:23.028804+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/09/56707.html": "2026-11-09T07:13:50+00:00",
+    "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/": "2026-11-09T07:13:50+00:00"
   },
   "last_success": {
     "fresh": {
@@ -742,16 +733,16 @@
       "main_sha": "f3b59a0de5f0871fae6e8809e02994ea37875181"
     },
     "historical": {
-      "completed_at": "2026-11-08T22:30:57Z",
-      "summary": "historicalモード。選択された必須再調査20件のうち、既存IDと照合できた6件(資さんうどん、アイリスプラザ、松屋、外務省、WorkOS、cPGuard)をduplicateとして整理。Andoverは独立源を確認できずpending維持、Value CardはScanNetSecurity本文のみ確認で公式・2媒体目未確認のためdeferred。データ変更なし。残りは再取得せず持越しで、未確認のまま事実化していない。次回優先: Renta!公式、Value Card公式(ペイクラウドHD)、skyticket、Cairn、BLACK X、DigiCert/Chainalysis等の新着照合、一覧の次ページ。",
-      "run_id": "42530386314",
-      "main_sha": "80f7f9955418e47d5a660d7eafb4b0e8921cb600"
+      "completed_at": "2026-11-09T07:13:50+00:00",
+      "summary": "historical調査。必須再調査のpending8件とdeferred12件を再取得・検索した。ScanNetSecurity本文を読んだ候補(ALSOKジョイライフ、ZonExpert、777CON-PASS、エスケーロジ、PIECE、スズキワールド、さくらさくみらい)は、公式本文がHTTP 403・未取得、または日付不一致のため公開基準を満たさずdeferredで維持した。楽天モバイル、GMOクリック証券、NIKKEは既存IDと重複で変更なし。pending8件に追加の裏付けは得られず状態を維持した。新規公開・更新はなくdata/は変更していない。ポイントインカム、Securitize Japan、デニーズ、CNポイント、仏銀行強奪事案は見出しのみでdeferred。social_leadsは任意のため実施していない。次回は未読のdeferredと、10月以前の週・業種・地域の過去分を優先する。全件の網羅は主張しない。",
+      "run_id": "42577584091",
+      "main_sha": "f3b59a0de5f0871fae6e8809e02994ea37875181"
     }
   },
   "last_attempt": {
-    "mode": "fresh",
-    "run_id": "42542355658",
-    "completed_at": "2026-11-09T00:53:47.696893+00:00",
+    "mode": "historical",
+    "run_id": "42577584091",
+    "completed_at": "2026-11-09T07:14:16.028471+00:00",
     "result": "success",
     "error": null,
     "main_sha": "f3b59a0de5f0871fae6e8809e02994ea37875181"
