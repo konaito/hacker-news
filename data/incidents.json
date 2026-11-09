@@ -15114,5 +15114,88 @@
     "first_seen_at": "2026-11-08",
     "last_verified_at": "2026-11-08",
     "publication_status": "published"
+  },
+  {
+    "id": "hana-cupid-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": "2026-10-14",
+    "company": "花キューピット",
+    "service": "「インターネット花キューピット」「ビジネス花キューピット」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "EC・小売",
+    "title": "花キューピット、会員管理システムへの不正アクセスで会員423万8,242件のログインID・メールアドレス等が漏えい",
+    "summary": "花キューピットは10月28日、10月14〜15日に第三者が管理システムへ不正アクセスし、会員情報が漏えいしたと公表しました。10月19日の調査で漏えいを確認し、対象は公式ECサイトにメールアドレスを登録した会員4,238,242件です。漏えい項目はユーザーID、ハッシュ化されたパスワード、PC・携帯のメールアドレスで、氏名・住所・電話番号・クレジットカード番号は含まれないとしています。",
+    "note": "件数は会員(アカウント)の件数で、実人数とは限りません。侵入手口は未公表で調査中です。二次被害は確認されていないとされています。ScanNetSecurityは11月9日に報じました。",
+    "affected": [
+      {
+        "count": 4238242,
+        "unit": "accounts",
+        "description": "漏えい対象となった会員の件数(公式ECサイトにメールアドレスを登録した会員)",
+        "source_id": "hana-cupid-2026-1"
+      }
+    ],
+    "sources": [
+      "hana-cupid-2026-1",
+      "hana-cupid-2026-2"
+    ],
+    "verification_note": "花キューピット公式お知らせ(10/28、10/30訂正反映)の本文で日付・項目・件数・対応を確認し、ScanNetSecurity(11/9)の本文と照合。",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
+  },
+  {
+    "id": "sony-life-medicare-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": null,
+    "company": "ソニー生命保険",
+    "service": "「お客さまWEBサービス」ほか(メディケア生命の代理店契約情報)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "金融・保険",
+    "title": "ソニー生命、「お客さまWEBサービス」に不正アクセス、メディケア生命の契約者・被保険者の約38.5万件が漏えい",
+    "summary": "ソニー生命は10月28日、10月27日に不正アクセスを確認したと発表しました。同社が代理店として扱ったメディケア生命の契約者・被保険者の情報約38.5万件が漏えいし、氏名・生年月日・性別・住所・電話番号・証券番号・契約内容が含まれます。お客さまWEBサービスやアプリなど関連サービスは緊急メンテナンスで停止されました。",
+    "note": "件数は「件」単位で、人数とは限りません。原因と影響範囲は調査中です。侵入日は未公表です。公式PDFは本文を取得できず、ScanNetSecurityとNHKの報道本文で確認しました(NHKは項目の記述が確認できず、項目はScanNetSecurityに基づきます)。",
+    "affected": [
+      {
+        "count": 385000,
+        "unit": "records",
+        "description": "漏えいしたメディケア生命の契約者・被保険者の情報(約38.5万件)",
+        "source_id": "sony-life-medicare-2026-1"
+      }
+    ],
+    "sources": [
+      "sony-life-medicare-2026-1",
+      "sony-life-medicare-2026-2"
+    ],
+    "verification_note": "ScanNetSecurity(11/9)とNHK(10/28)の本文で、不正アクセス・約38.5万件の漏えいを照合。公式PDFは本文未取得。",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
+  },
+  {
+    "id": "fdma-safety-info-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": null,
+    "company": "総務省消防庁(委託先:富士ソフト)",
+    "service": "武力攻撃事態等における安否情報収集・提供システム",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "官公庁・公共",
+    "title": "消防庁の安否情報システムに不正アクセス、委託先の富士ソフトが報告しサービス停止、個人情報の漏えいは未確認",
+    "summary": "消防庁は11月5日、運用保守を委託する富士ソフトから、武力攻撃事態等における安否情報収集・提供システムへの第三者による不正アクセスの報告を受けたと公表しました。影響範囲の確認のためサービスを停止し外部からのアクセスを遮断しており、現時点で個人情報の漏えいは確認されていません。",
+    "note": "侵入時期・経路・アクセスされた内容は未公表で、原因は委託先が調査中です。再開時期も示されていません。公式PDFは本文を取得できず、ScanNetSecurityとBusiness+IT(一部会員限定)の本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "fdma-safety-info-2026-1",
+      "fdma-safety-info-2026-2"
+    ],
+    "verification_note": "ScanNetSecurity(11/9)とBusiness+IT(11/5、公開部分)の本文で、委託先からの報告、サービス停止、漏えい未確認を照合。消防庁PDFは本文未取得。",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
   }
 ]

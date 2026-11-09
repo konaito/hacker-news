@@ -7341,5 +7341,47 @@
     "type": "reporting",
     "url": "https://news.web.nhk/newsweb/na/nd-20261105de71262",
     "title": "アイリスオーヤマ 約770万人分の個人情報漏えいの可能性"
+  },
+  {
+    "id": "hana-cupid-2026-1",
+    "publisher": "花キューピット",
+    "type": "primary",
+    "url": "https://www.hana-cupid.co.jp/news/news/20261028/",
+    "title": "不正アクセスによる会員情報漏えいのお知らせ"
+  },
+  {
+    "id": "hana-cupid-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56701.html",
+    "title": "花キューピットに不正アクセス、423万8,242件の会員情報が漏えい"
+  },
+  {
+    "id": "sony-life-medicare-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56705.html",
+    "title": "ソニー生命「お客さま WEB サービス」に不正アクセス、メディケア生命保険 契約者等 約38.5万件が漏えい"
+  },
+  {
+    "id": "sony-life-medicare-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261028dw67390",
+    "title": "ソニー生命 約38万5000件の個人情報漏えい"
+  },
+  {
+    "id": "fdma-safety-info-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html",
+    "title": "消防庁「安否情報システム」に不正アクセス、影響範囲調査のためにサービスを停止"
+  },
+  {
+    "id": "fdma-safety-info-2026-2",
+    "publisher": "Business+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188127",
+    "title": "消防庁の安否情報システムに不正アクセス"
   }
 ]
