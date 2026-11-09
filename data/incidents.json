@@ -15197,5 +15197,71 @@
     "first_seen_at": "2026-11-09",
     "last_verified_at": "2026-11-09",
     "publication_status": "published"
+  },
+  {
+    "id": "denver-health-squareml-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": "2025-06-27",
+    "company": "Denver Health Medical Plan(委託先:SquareML)",
+    "service": "ヘルスケア分析プラットフォームのデータベース",
+    "region": "US",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "医療・ヘルスケア",
+    "title": "委託先SquareMLのアクセスキーが公開サイトに残り、Denver Health Medical Planの会員23万8,083人分の情報が閲覧された可能性",
+    "summary": "米コロラド州のDenver Health Medical Planは、委託先SquareMLのアクセスキーが2025年6月27日から公開ウェブサイトに掲載されていたと公表しました。2026年8月14日に通知を受け、8月18日にキーは無効化されています。氏名・生年月日・所在地、健康指標、資格情報、入退院情報を含むデータベースが対象です。",
+    "note": "キーは読み取り専用で、ダウンロードや改ざんはできない仕様と説明されています。悪用の証拠はなく、社会保障番号と金融情報は含まれないとされます。実際に閲覧・取得されたかは未確認です。公式通知PDFは本文を抽出できず、SecurityWeekとHIPAA Journalの本文で確認しました。",
+    "affected": [
+      {
+        "count": 238083,
+        "unit": "people",
+        "description": "データベースの対象となる現・元会員数(両報道が通知書の数値として伝達)",
+        "source_id": "denver-health-squareml-2026-2"
+      }
+    ],
+    "sources": [
+      "denver-health-squareml-2026-1",
+      "denver-health-squareml-2026-2"
+    ],
+    "verification_note": "SecurityWeek(10/27)とHIPAA Journal(10/26)の本文を照合し、日付・件数・対象データ・悪用証拠なしの説明が一致。公式PDFは本文未抽出のため一次確認とはしていない。",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
+  },
+  {
+    "id": "sony-bank-securitize-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": null,
+    "company": "ソニー銀行(委託先:Securitize Japan)",
+    "service": "デジタル証券",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏洩確認",
+    "category": "金融・保険",
+    "title": "ソニー銀行のデジタル証券委託先Securitize Japanに不正アクセス、顧客621人分の情報が漏えい、取引を停止",
+    "summary": "ソニー銀行は10月30日、デジタル証券の外部委託先Securitize Japanのシステムへ第三者が不正アクセスし、顧客情報が漏えいしたと公表しました。同社は10月29日に異常を検知し、同日外部からのアクセスと確認しました。4人は氏名・住所・生年月日・口座番号、617人は氏名のみです。",
+    "note": "発生日は不明で、10月29日は検知日です。不正取引は確認されておらず、情報の公開・拡散も確認されていません。デジタル証券の取引は停止中で、他サービスは対象外とされています。4人と617人は別区分の顧客数で、重複の有無は告知にありません。",
+    "affected": [
+      {
+        "count": 4,
+        "unit": "people",
+        "description": "氏名・住所・生年月日・口座番号が漏えいした顧客数",
+        "source_id": "sony-bank-securitize-2026-1"
+      },
+      {
+        "count": 617,
+        "unit": "people",
+        "description": "氏名のみが漏えいした顧客数",
+        "source_id": "sony-bank-securitize-2026-1"
+      }
+    ],
+    "sources": [
+      "sony-bank-securitize-2026-1",
+      "sony-bank-securitize-2026-2"
+    ],
+    "verification_note": "ソニー銀行の公式告知とScanNetSecurity(11/9)の本文を照合。検知日、漏えい人数、取引停止、不正取引なしを確認。",
+    "first_seen_at": "2026-11-09",
+    "last_verified_at": "2026-11-09",
+    "publication_status": "published"
   }
 ]
