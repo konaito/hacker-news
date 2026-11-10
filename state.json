@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-11-10T17:47:13.361883+00:00",
+  "completed_at": "2026-11-10T20:00:15.063700+00:00",
   "candidates": [
     {
       "title": "PIECE",
@@ -812,11 +812,11 @@
     }
   },
   "last_attempt": {
-    "mode": "fresh",
-    "run_id": "42868387115",
-    "completed_at": "2026-11-10T17:47:13.361883+00:00",
+    "mode": "historical",
+    "run_id": "42890792559",
+    "completed_at": "2026-11-10T20:00:15.063700+00:00",
     "result": "failure",
-    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/fresh/current-report.json",
+    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/historical/current-report.json",
     "main_sha": "fdbcc8d1ab33151956996c7edcd92fa1845a98c4"
   }
 }
