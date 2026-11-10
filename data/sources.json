@@ -7467,5 +7467,75 @@
     "type": "reporting",
     "url": "https://www.security-next.com/192388",
     "title": "第三者が認証情報を不正作成か、アプリ移行処理に不備 - デニーズ"
+  },
+  {
+    "id": "docomo-online-shop-2026-3",
+    "publisher": "NTTドコモ",
+    "type": "primary",
+    "url": "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
+    "title": "当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ(第三報)"
+  },
+  {
+    "id": "docomo-online-shop-2026-4",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56724.html",
+    "title": "ドコモオンラインショップ・My docomo に不正アクセス、最大約30万件の顧客情報が流出"
+  },
+  {
+    "id": "smbc-cf-guarantee-2026-1",
+    "publisher": "SMBCコンシューマーファイナンス",
+    "type": "primary",
+    "url": "https://www.smbc-cf.com/news/564.html",
+    "title": "当社保証システムへの不正アクセスによるお客さま情報の漏えいについて(専用フリーダイヤル設置のお知らせ)"
+  },
+  {
+    "id": "smbc-cf-guarantee-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56726.html",
+    "title": "SMBCコンシューマーファイナンスの保証システムに不正アクセス、外部へのデータ送信を確認"
+  },
+  {
+    "id": "smbc-cf-guarantee-2026-3",
+    "publisher": "Impress Internet Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2154306.html",
+    "title": "SMBCコンシューマーファイナンスの保証システムに不正アクセス"
+  },
+  {
+    "id": "smbc-cf-guarantee-2026-4",
+    "publisher": "SBbit",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/fj/188124",
+    "title": "SMBCコンシューマーファイナンス 保証システムへの不正アクセス"
+  },
+  {
+    "id": "tokio-marine-direct-mypage-2026-1",
+    "publisher": "東京海上ダイレクト損害保険",
+    "type": "primary",
+    "url": "https://www.e-design.net/company/news/2026/2026_11_05.html",
+    "title": "当社Webサービスへの不正アクセスに伴う個人情報の漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "tokio-marine-direct-mypage-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56725.html",
+    "title": "東京海上ダイレクト損害保険の契約者向け「マイページ」等に不正アクセス"
+  },
+  {
+    "id": "vanderbilt-byod-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed"
+  },
+  {
+    "id": "vanderbilt-byod-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+    "title": "Vanderbilt cybersecurity incident impacting campus devices and systems"
   }
 ]
