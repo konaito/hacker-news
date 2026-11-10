@@ -7558,5 +7558,68 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56724.html",
     "title": "ドコモオンラインショップ・My docomo に不正アクセス、最大約30万件の顧客情報が流出"
+  },
+  {
+    "id": "nitori-holdings-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2611/09/2000003039/",
+    "title": "ニトリに不正アクセス、最大3762万件の個人情報流出の可能性 法人会員も対象に"
+  },
+  {
+    "id": "nitori-holdings-2026-2",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2154931.html",
+    "title": "ニトリ、不正アクセスにより個人・法人会員の情報最大3762万件が流出の可能性"
+  },
+  {
+    "id": "nitori-holdings-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192572",
+    "title": "システム侵害で顧客情報流出の可能性 - ニトリグループ"
+  },
+  {
+    "id": "rohto-mail-order-2026-1",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188160",
+    "title": "ロート製薬の通販電話システムへの不正アクセス"
+  },
+  {
+    "id": "rohto-mail-order-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261106de71619",
+    "title": "ロート製薬 顧客情報 約280万人分流出の可能性"
+  },
+  {
+    "id": "rohto-mail-order-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192493",
+    "title": "不正アクセスで個人情報流出、通話音声にクレカ情報も - ロート製薬"
+  },
+  {
+    "id": "netmile-wills-2026-1",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261102de69784",
+    "title": "ネットマイル 不正アクセス 最大約549万人分の個人情報流出の可能性"
+  },
+  {
+    "id": "netmile-wills-2026-2",
+    "publisher": "TRAICY",
+    "type": "reporting",
+    "url": "https://www.traicy.com/?p=387268",
+    "title": "ウィルズ、「ネットマイル」に不正アクセス 最大約549万人の個人情報が漏えいの可能性"
+  },
+  {
+    "id": "netmile-wills-2026-3",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192460",
+    "title": "「ネットマイル」で会員情報流出の可能性 - 影響など調査"
   }
 ]

@@ -15493,5 +15493,104 @@
     "first_seen_at": "2026-11-10",
     "last_verified_at": "2026-11-10",
     "publication_status": "published"
+  },
+  {
+    "published_at": "2026-11-09",
+    "company": "ニトリホールディングス",
+    "service": "ニトリネット・ECモール公式ショップ等の会員・注文データ",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "EC・小売",
+    "title": "ニトリ、システムへの不正アクセスで最大3,762万件の個人・法人会員や注文データが流出した可能性",
+    "summary": "ニトリホールディングスは11月9日、11月6日に管理システムへの不正アクセスを確認して遮断し、ログ解析で10月中旬から下旬にも第三者が侵入した可能性があるとして、最大3,762万件の個人情報が流出した可能性があると公表しました。",
+    "note": "件数は「最大・可能性」で単位は件(records)、人数ではありません。個人会員・購入者の会員番号・氏名・メール・住所・電話番号・生年月日・性別、法人会員の担当者情報、注文データが対象となり得ます。クレジットカード情報とログインパスワードは対象外とされます。侵入経路・範囲は調査中で件数は変わる可能性があります。公式発表本文は未取得で、ITmedia・INTERNET Watch・Security NEXTの本文で確認しました。",
+    "affected": [
+      {
+        "count": 37620000,
+        "unit": "records",
+        "description": "流出した可能性のある個人情報の最大件数(単位は件、人数ではなく調査中)",
+        "source_id": "nitori-holdings-2026-1"
+      }
+    ],
+    "verification_note": "ITmedia、INTERNET Watch、Security NEXTの本文を突合。11/6検知・遮断、10月中旬〜下旬の侵入可能性、最大3,762万件、対象項目、カード・パスワード対象外が一致。一次情報は未確認。",
+    "id": "nitori-holdings-2026",
+    "region": "JP",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-10",
+    "last_verified_at": "2026-11-10",
+    "occurred_at": null,
+    "sources": [
+      "nitori-holdings-2026-1",
+      "nitori-holdings-2026-2",
+      "nitori-holdings-2026-3"
+    ]
+  },
+  {
+    "published_at": "2026-11-06",
+    "company": "ロート製薬",
+    "service": "通販の電話システム・顧客管理システム",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "製造・小売",
+    "title": "ロート製薬、通販電話システムのアカウント悪用で顧客約280万人分の情報と通話音声内のカード情報が流出した可能性",
+    "summary": "ロート製薬は11月6日、通販の電話システムのアカウント情報が不正利用され、顧客管理システムの2,797,545人分の氏名・住所・電話番号と、通話音声に含まれる9,715人分のクレジットカード番号・有効期限が流出した可能性があると公表しました。",
+    "note": "9月に事象を確認し、警察と個人情報保護委員会へ報告済みとされます。セキュリティコードや暗証番号は記録対象外で取得されていないと説明されています。二次被害は発表時点で未確認です。出典はビジネス+IT、NHK、Security NEXTの本文で、公式発表本文は未取得です。発生日は9月(日不明)として月のみ記録しました。",
+    "affected": [
+      {
+        "count": 2797545,
+        "unit": "people",
+        "description": "氏名・住所・電話番号が流出した可能性のある顧客数",
+        "source_id": "rohto-mail-order-2026-1"
+      },
+      {
+        "count": 9715,
+        "unit": "people",
+        "description": "通話音声にカード番号・有効期限が含まれた顧客数(上記の内数かは本文に明記なし)",
+        "source_id": "rohto-mail-order-2026-1"
+      }
+    ],
+    "verification_note": "ビジネス+IT、NHK(約280万人分・9月)、Security NEXTの本文を突合。件数の詳細はビジネス+ITで確認。公式発表は未確認。",
+    "id": "rohto-mail-order-2026",
+    "region": "JP",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-10",
+    "last_verified_at": "2026-11-10",
+    "occurred_at": null,
+    "sources": [
+      "rohto-mail-order-2026-1",
+      "rohto-mail-order-2026-2",
+      "rohto-mail-order-2026-3"
+    ]
+  },
+  {
+    "published_at": "2026-11-02",
+    "company": "ウィルズ",
+    "service": "ポイント交換サービス「ネットマイル」・「すぐたま」",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "ポイント・決済",
+    "title": "ウィルズのポイント交換「ネットマイル」に不正アクセス、退会者含む最大約549万人の会員情報が流出した可能性、サイト停止",
+    "summary": "ウィルズは11月2日、「ネットマイル」のシステムへの第三者による不正アクセスで、氏名・メールアドレス・特典交換情報など最大約549万人分の会員情報が流出した可能性があると公表し、ネットマイルとすぐたまのサイトを停止しました。",
+    "note": "件数は退会者を含む「最大・可能性」で、実際の流出人数は調査中です。ネット上の公開や悪用は発表時点で確認されていません。カード情報・マイナンバーカード情報は保有していないとされます。不正アクセスの発生日は未確認でnullとしました。公式発表本文は未取得で、NHK・TRAICY・Security NEXTの本文で確認しました。",
+    "affected": [
+      {
+        "count": 5490000,
+        "unit": "people",
+        "description": "流出の可能性がある会員数(退会者含む最大、調査中)",
+        "source_id": "netmile-wills-2026-2"
+      }
+    ],
+    "verification_note": "NHK(11/2)、TRAICY(11/8)、Security NEXT(11/9)の本文で最大約549万人、サイト停止を突合。NHKは本文が一部のみ取得で、項目はTRAICY・Security NEXTに基づく。公式発表は未確認。",
+    "id": "netmile-wills-2026",
+    "region": "JP",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-10",
+    "last_verified_at": "2026-11-10",
+    "occurred_at": null,
+    "sources": [
+      "netmile-wills-2026-1",
+      "netmile-wills-2026-2",
+      "netmile-wills-2026-3"
+    ]
   }
 ]
