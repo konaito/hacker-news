@@ -15462,5 +15462,36 @@
     "first_seen_at": "2026-11-10",
     "last_verified_at": "2026-11-10",
     "publication_status": "published"
+  },
+  {
+    "id": "docomo-online-shop-mydocomo-2026",
+    "occurred_at": "2026-11-04",
+    "company": "NTTドコモ",
+    "service": "ドコモオンラインショップ・My docomo",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "通信",
+    "title": "ドコモオンラインショップとMy docomoに不正アクセス、最大約30万件の顧客情報が流出",
+    "summary": "NTTドコモは、ドコモオンラインショップとMy docomoへの外部からの不正アクセスを11月4日に検知し、5日1時5分ごろから各種手続きを停止して緊急メンテナンスを実施しました。調査で、メンテナンス前の不正アクセスにより一部の顧客情報が流出したことを確認しています。",
+    "note": "公式第3報によると、全対象者の氏名・生年月日・住所・電話番号・メールアドレス・本人確認書類番号・契約情報、一部の対象者の法人情報や金融機関口座情報などが含まれます。件数は「最大約30万件」で、公式本文は人・回線・レコードの別を明示していないため単位はrecordsとして扱います。原因・侵入経路・正確な範囲は調査中、サービス再開時期は未定、新たな流出は確認されていないとされます。",
+    "affected": [
+      {
+        "count": 300000,
+        "unit": "records",
+        "description": "流出した顧客情報の最大件数(公式は「最大約30万件」、単位の内訳は本文に明記なし)",
+        "source_id": "docomo-online-shop-mydocomo-2026-1"
+      }
+    ],
+    "sources": [
+      "docomo-online-shop-mydocomo-2026-1",
+      "docomo-online-shop-mydocomo-2026-2",
+      "docomo-online-shop-mydocomo-2026-3"
+    ],
+    "verification_note": "ドコモ公式第3報(11/6 18:00時点)の本文と、Security NEXT・ScanNetSecurityの本文を突合。11/4検知、11/5停止、最大約30万件、流出項目、原因調査中が一致。",
+    "published_at": "2026-11-05",
+    "first_seen_at": "2026-11-10",
+    "last_verified_at": "2026-11-10",
+    "publication_status": "published"
   }
 ]

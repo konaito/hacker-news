@@ -7537,5 +7537,26 @@
     "type": "reporting",
     "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
     "title": "Vanderbilt cybersecurity incident impacting campus devices and systems"
+  },
+  {
+    "id": "docomo-online-shop-mydocomo-2026-1",
+    "publisher": "NTTドコモ",
+    "type": "primary",
+    "url": "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
+    "title": "ドコモオンラインショップおよびMy docomoへの不正アクセスについて(第3報)"
+  },
+  {
+    "id": "docomo-online-shop-mydocomo-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192453",
+    "title": "「ドコモオンラインショップ」と「My docomo」で個人情報が流出"
+  },
+  {
+    "id": "docomo-online-shop-mydocomo-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56724.html",
+    "title": "ドコモオンラインショップ・My docomo に不正アクセス、最大約30万件の顧客情報が流出"
   }
 ]
