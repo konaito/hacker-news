@@ -15711,5 +15711,29 @@
     "first_seen_at": "2026-11-11",
     "last_verified_at": "2026-11-11",
     "verification_note": "ScanNetSecurity(11/11)とWWD JAPAN(10/30)の本文を突合。10/17侵入、10/28検知、延べ約120万件、対象項目が一致。公式PDFは本文抽出不可で未確認。"
+  },
+  {
+    "id": "mittwald-mcp-2026",
+    "published_at": "2026-11-07",
+    "occurred_at": "2026-10-27",
+    "company": "mittwald CM Service",
+    "service": "mStudio向けMCPサーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "独ホスティングmittwaldのMCPサーバーに不正アクセス、顧客56プロジェクトが侵害",
+    "summary": "独ホスティング事業者mittwaldは11月7日、AIアシスタント連携用のMCPサーバーの脆弱性を突かれ、10月27日以降に不正アクセスを受け、56の顧客プロジェクトが侵害されたと公表しました。11月4日に検知しMCPサーバーを停止、外部フォレンジックと当局への通知を行っています。",
+    "note": "侵害は顧客プロジェクト56件(人数・記録件数ではなく、affectedの単位に該当しないため数値欄には入れていません)。単位は顧客プロジェクト数で、人数や記録件数ではありません。同社は攻撃の速度から「AIツールの使用を示唆する」と述べるのみで、AI関与の他の証拠は示されておらず、AI支援攻撃とは分類しません。侵害された具体的データ種別は同社の発表で明示されていません。詳細な報告書は後日公表予定とされます。",
+    "affected": [],
+    "sources": [
+      "mittwald-mcp-2026-1",
+      "mittwald-mcp-2026-2",
+      "mittwald-mcp-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-11",
+    "last_verified_at": "2026-11-11",
+    "verification_note": "同社ブログ本文(時系列・56プロジェクト・11/4検知・当局通知)とThe Record、Webhosting Todayの本文を突合。AI関与は同社の推測のみ。"
   }
 ]

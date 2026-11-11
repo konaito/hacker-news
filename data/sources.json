@@ -7677,5 +7677,26 @@
     "type": "reporting",
     "url": "https://www.security-next.com/192575",
     "title": "ネット印刷サービス「ラクスル」で侵害 - 個人情報や印刷データが流出か"
+  },
+  {
+    "id": "mittwald-mcp-2026-1",
+    "publisher": "mittwald",
+    "type": "primary",
+    "url": "https://www.mittwald.de/blog/mittwald/sicherheitsvorfall-am-mcp-server",
+    "title": "Sicherheitsvorfall am MCP-Server"
+  },
+  {
+    "id": "mittwald-mcp-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
+    "title": "Alleged AI-aided cyberattack exploits assistant interface to breach German web host"
+  },
+  {
+    "id": "mittwald-mcp-2026-3",
+    "publisher": "Webhosting Today",
+    "type": "reporting",
+    "url": "https://webhosting.today/2026/11/09/mittwald-traces-a-breach-of-56-customer-projects-to-its-mcp-server/",
+    "title": "mittwald traces a breach of 56 customer projects to its MCP server"
   }
 ]
