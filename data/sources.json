@@ -7621,5 +7621,33 @@
     "type": "reporting",
     "url": "https://www.security-next.com/192460",
     "title": "「ネットマイル」で会員情報流出の可能性 - 影響など調査"
+  },
+  {
+    "id": "kyuden-td-2026-1",
+    "publisher": "九州電力送配電",
+    "type": "primary",
+    "url": "https://www.kyuden.co.jp/td/press/2026/261105.html",
+    "title": "当社システムへの不正アクセスによるお客さま情報漏えいの可能性について"
+  },
+  {
+    "id": "kyuden-td-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56743.html",
+    "title": "九州電力送配電に不正アクセス、電力量情報が漏えいした可能性"
+  },
+  {
+    "id": "tinpan-alley-world-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56738.html",
+    "title": "ティンパンアレイに不正アクセス、延べ約120万件の会員情報が流出した可能性"
+  },
+  {
+    "id": "tinpan-alley-world-2026-2",
+    "publisher": "WWD JAPAN",
+    "type": "reporting",
+    "url": "https://www.wwdjapan.com/?p=2539583",
+    "title": "ワールド子会社ティンパンアレイのサーバーに不正アクセス、会員情報流出の可能性"
   }
 ]

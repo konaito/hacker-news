@@ -15592,5 +15592,65 @@
       "netmile-wills-2026-2",
       "netmile-wills-2026-3"
     ]
+  },
+  {
+    "id": "kyuden-td-2026",
+    "published_at": "2026-11-05",
+    "occurred_at": null,
+    "company": "九州電力送配電",
+    "service": "電力量・料金照会サービス",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "エネルギー",
+    "title": "九州電力送配電、社内システムへの不正アクセスで電力量情報4,139件が漏えいした可能性、照会サービス停止",
+    "summary": "九州電力送配電は11月5日、10月30日にシステムの異常を検知し不正アクセスの可能性が判明したとして、電力使用量・販売量と供給地点特定番号などの電力量情報4,139件が社外に漏えいした可能性があると公表しました。",
+    "note": "氏名・住所・連絡先・口座情報は含まれないとされます。電力の安定供給への影響はないとされ、対象者への個別連絡は11月中旬の予定です。不正アクセスの発生日・手口は公表されていません(発生日はnull)。件数の単位は件(records)で人数ではありません。",
+    "affected": [
+      {
+        "count": 4139,
+        "unit": "records",
+        "description": "漏えいの可能性がある電力量情報の件数",
+        "source_id": "kyuden-td-2026-1"
+      }
+    ],
+    "sources": [
+      "kyuden-td-2026-1",
+      "kyuden-td-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-11",
+    "last_verified_at": "2026-11-11",
+    "verification_note": "九州電力送配電の公式発表(11/5)とScanNetSecurity(11/11)の本文で、10/30検知、4,139件、対象項目、サービス停止を突合。"
+  },
+  {
+    "id": "tinpan-alley-world-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": "2026-10-17",
+    "company": "ティンパンアレイ(ワールド子会社)",
+    "service": "業務サーバー(会員情報)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "小売",
+    "title": "ワールド子会社ティンパンアレイの業務サーバーに不正アクセス、延べ約120万件の会員情報が流出した可能性",
+    "summary": "ワールドは10月30日、連結子会社ティンパンアレイの業務サーバーに10月17日に外部から侵入されデータが抽出されたとして、氏名・住所・電話番号・生年月日・性別・メールアドレスなど延べ約120万件の会員情報が流出した可能性があると公表しました。",
+    "note": "件数は延べ件数(records)で重複を含み、人数ではありません。10/28に検知しサーバーを隔離、警察と個人情報保護委員会に報告済みとされます。決済情報・顔情報の流出は確認されていないと報じられています。公式発表PDFは本文を読めず、ScanNetSecurityとWWD JAPANの本文で確認しました。",
+    "affected": [
+      {
+        "count": 1200000,
+        "unit": "records",
+        "description": "流出の可能性がある会員情報の延べ件数(重複を含む)",
+        "source_id": "tinpan-alley-world-2026-1"
+      }
+    ],
+    "sources": [
+      "tinpan-alley-world-2026-1",
+      "tinpan-alley-world-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-11",
+    "last_verified_at": "2026-11-11",
+    "verification_note": "ScanNetSecurity(11/11)とWWD JAPAN(10/30)の本文を突合。10/17侵入、10/28検知、延べ約120万件、対象項目が一致。公式PDFは本文抽出不可で未確認。"
   }
 ]
