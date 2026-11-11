@@ -1,5 +1,64 @@
 [
   {
+    "id": "nttdata-stdirect-securitize-2026",
+    "published_at": "2026-11-02",
+    "occurred_at": "2026-10-29",
+    "company": "NTTデータ(委託先:Securitize Japan)",
+    "service": "STdirectServices(デジタル証券プラットフォーム)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "金融",
+    "title": "NTTデータ「STdirectServices」の委託先Securitize JapanのSaaSに不正アクセス、社債購入者2,789人分などの情報が漏えい、サービス停止",
+    "summary": "NTTデータは11月2日、委託先Securitize JapanのSaaSへの不正アクセスで社債購入者らの個人情報の一部が漏えいしたことを確認したと公表しました。認証機能の脆弱性を突かれ管理者権限を取得されたとされ、SaaSとSTdirectServicesは停止中です。",
+    "note": "10月29日の不正アクセスで、10月31日に第1報(サービス停止)、11月2日に第2報で漏えいを確認。発行体2社の社債購入者111人は氏名・住所・電話番号・メール・性別・生年月日、別の1社の購入者2,678人はカタカナ氏名・購入数量・メールが対象で、人数は別区分のため合算していません。社債発行体・金融機関のシステム利用者の氏名・メールは件数調査中。悪用は確認されていません。同じSecuritize Japanの事案はソニー銀行の別レコード(sony-bank-securitize-2026)で扱っています。",
+    "affected": [
+      {
+        "count": 111,
+        "unit": "people",
+        "description": "発行体2社の社債購入者のうち氏名・住所・電話番号等が漏えいした人数",
+        "source_id": "nttdata-stdirect-securitize-2026-1"
+      },
+      {
+        "count": 2678,
+        "unit": "people",
+        "description": "1発行体の社債購入者のうちカタカナ氏名・購入数量・メールが漏えいした人数",
+        "source_id": "nttdata-stdirect-securitize-2026-1"
+      }
+    ],
+    "sources": [
+      "nttdata-stdirect-securitize-2026-1",
+      "nttdata-stdirect-securitize-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-11",
+    "last_verified_at": "2026-11-11",
+    "verification_note": "NTTデータの11月2日付第2報本文と、ScanNetSecurity(11/11)本文(10/31第1報の内容)を確認。日付、委託先SaaS、認証機能の脆弱性、人数、停止状況を照合。"
+  },
+  {
+    "id": "raksul-print-data-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": null,
+    "company": "ラクスル",
+    "service": "印刷データ入稿関連システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "ラクスル、データ入稿システムに不正アクセス、印刷データや注文者の氏名・住所などが流出した可能性",
+    "summary": "ラクスルは11月9日、データ入稿の処理に関わるシステムへ第三者が不正アクセスしたと公表しました。システム認証情報が不正取得され、保管データの一部に外部からアクセス可能な状態だったとされます。印刷データ、請求書、Web郵便の氏名・会社名・住所・電話番号・メールが流出した可能性があります。",
+    "note": "11月8日0時20分ごろ検知(発生日ではない)。クレジットカード情報、ログインID、パスワードの漏えいは確認されていないとされます。件数・範囲・原因は調査中で、実際に持ち出されたかは未確認です。不正利用された認証情報の無効化とアカウント停止を実施し、11月9日7時から段階的にサービス再開、一部(ラクスル パッケージ等)は停止継続。公式発表本文は直接確認しておらず、独立した2媒体の本文で確認しています。",
+    "affected": [],
+    "sources": [
+      "raksul-print-data-2026-1",
+      "raksul-print-data-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-11",
+    "last_verified_at": "2026-11-11",
+    "verification_note": "Impress Watch(11/9)とSecurity NEXT(11/11)の独立2媒体の本文を確認。検知日時、認証情報の不正取得、対象情報、カード情報等の非漏えい、対応、件数未公表で一致。公式発表本文は未確認。"
+  },
+  {
     "id": "sourcenext-id-2026",
     "published_at": "2026-10-15",
     "occurred_at": "2026-10-09",

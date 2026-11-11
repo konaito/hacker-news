@@ -7649,5 +7649,33 @@
     "type": "reporting",
     "url": "https://www.wwdjapan.com/?p=2539583",
     "title": "ワールド子会社ティンパンアレイのサーバーに不正アクセス、会員情報流出の可能性"
+  },
+  {
+    "id": "nttdata-stdirect-securitize-2026-1",
+    "publisher": "NTTデータ",
+    "type": "primary",
+    "url": "https://www.nttdata.com/global/ja/news/release/2026/110200",
+    "title": "STdirectServicesのサービス停止について(第2報)"
+  },
+  {
+    "id": "nttdata-stdirect-securitize-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56744.html",
+    "title": "NTTデータ委託先に不正アクセス、「STdirectServices」のサービス停止"
+  },
+  {
+    "id": "raksul-print-data-2026-1",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2154881.html",
+    "title": "ラクスル、データ入稿システムに不正アクセス"
+  },
+  {
+    "id": "raksul-print-data-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192575",
+    "title": "ネット印刷サービス「ラクスル」で侵害 - 個人情報や印刷データが流出か"
   }
 ]
