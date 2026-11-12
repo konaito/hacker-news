@@ -7698,5 +7698,47 @@
     "type": "reporting",
     "url": "https://webhosting.today/2026/11/09/mittwald-traces-a-breach-of-56-customer-projects-to-its-mcp-server/",
     "title": "mittwald traces a breach of 56 customer projects to its MCP server"
+  },
+  {
+    "id": "sumitomo-life-vitality-nttdata-2026-1",
+    "publisher": "NTTデータ",
+    "type": "primary",
+    "url": "https://www.nttdata.com/global/ja/news/release/2026/110900/",
+    "title": "当社受託システムにおける個人情報漏えいについて"
+  },
+  {
+    "id": "sumitomo-life-vitality-nttdata-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56761.html",
+    "title": "NTTデータが住友生命から受託した「住友生命Vitality体験版・企業型」、「Vitalityスマート(福利厚生タイプ含む)」に不正アクセス"
+  },
+  {
+    "id": "motex-website-2026-1",
+    "publisher": "京セラコミュニケーションシステム",
+    "type": "primary",
+    "url": "https://www.kccs.co.jp/news/important/2026/1106/",
+    "title": "エムオーテックス Webサイトへの不正アクセスについて(第2報)"
+  },
+  {
+    "id": "motex-website-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56757.html",
+    "title": "エムオーテックスに不正アクセス、LANSCOPE等の製品主要機能への影響は無い"
+  },
+  {
+    "id": "maersk-legacy-system-2026-1",
+    "publisher": "A.P. Moller - Maersk",
+    "type": "primary",
+    "url": "https://www.maersk.com/news/articles/2026/11/11/it-security-incident",
+    "title": "IT security incident"
+  },
+  {
+    "id": "maersk-legacy-system-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+    "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million"
   }
 ]

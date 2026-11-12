@@ -15735,5 +15735,81 @@
     "first_seen_at": "2026-11-11",
     "last_verified_at": "2026-11-11",
     "verification_note": "同社ブログ本文(時系列・56プロジェクト・11/4検知・当局通知)とThe Record、Webhosting Todayの本文を突合。AI関与は同社の推測のみ。"
+  },
+  {
+    "id": "sumitomo-life-vitality-nttdata-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": "2026-11-02",
+    "company": "NTTデータ(委託元: 住友生命)",
+    "service": "住友生命Vitality体験版・企業型/Vitalityスマート(申込み関連サービス)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "金融・保険",
+    "title": "NTTデータ受託の住友生命Vitality関連サービスに不正アクセス、利用者約8万名の個人情報が漏えい、うち約1,000名はカード番号も",
+    "summary": "NTTデータは11月9日、住友生命から受託する「住友生命Vitality体験版・企業型」「Vitalityスマート」の申込み関連システムへの第三者による不正アクセスで、氏名・住所・電話番号・生年月日・メールアドレス・クレジットカード番号(一部マスキング)のいずれかが漏えいしたと公表しました。対象は利用者約8万名で、カード番号は約1,000名です。11月2日に確認、3日に外部アクセスを遮断しサービスを一時停止しています。",
+    "note": "保険契約情報や歩数データは含まれないと発表されています。不正利用は現時点で確認されていません。原因は調査中で、サービス再開時期は未定です。",
+    "affected": [
+      {
+        "count": 80000,
+        "unit": "people",
+        "description": "漏えいが確認された利用者(利用中・過去利用者)の概数。うちカード番号漏えいは約1,000名",
+        "source_id": "sumitomo-life-vitality-nttdata-2026-1"
+      }
+    ],
+    "sources": [
+      "sumitomo-life-vitality-nttdata-2026-1",
+      "sumitomo-life-vitality-nttdata-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "verification_note": "NTTデータの公式発表本文(11/2確認・11/3遮断・約8万名・約1,000名・項目)とScanNetSecurity本文を突合。"
+  },
+  {
+    "id": "motex-website-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": "2026-11-02",
+    "company": "エムオーテックス(京セラコミュニケーションシステム子会社)",
+    "service": "エムオーテックスWebサイト運用サーバ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・通信",
+    "title": "エムオーテックス、Webサイト運用サーバへの不正アクセスで顧客情報が漏えいした可能性、LANSCOPE主要機能への影響なし",
+    "summary": "京セラコミュニケーションシステムは11月6日の第2報で、子会社エムオーテックスのWebサイト運用サーバに11月2日に不正アクセスがあり、外部専門機関の調査で会社名・氏名・メールアドレス・電話番号などの顧客情報が漏えいした可能性が判明したと公表しました。LANSCOPE等の製品は別環境で運用され、主要機能への影響はないとしています。",
+    "note": "対象件数は公表されていません。サイト停止に伴い、オンプレミス版のライセンス認証やバージョンアップに制限が出ています。二次被害は未確認で、個人情報保護委員会への報告と警察への相談を進めています。",
+    "affected": [],
+    "sources": [
+      "motex-website-2026-1",
+      "motex-website-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "verification_note": "京セラコミュニケーションシステムの第2報本文(11/2確認・情報種別・別環境・件数なし)とScanNetSecurity本文を突合。"
+  },
+  {
+    "id": "maersk-legacy-system-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": null,
+    "company": "A.P. Moller - Maersk",
+    "service": "過去の買収で取得した旧来のローカルシステム",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "交通・物流",
+    "title": "マースク、買収元由来の旧システムで不正アクセスとデータ抽出を確認、機微情報の流出はないとみて調査中",
+    "summary": "A.P. Moller - Maerskは11月11日、過去の買収で取得したローカルの旧来システムで不正アクセスとデータ抽出が起きたと公表しました。調査の結果、機微なデータは開示されていないとみており、他システムや顧客・パートナー連携への影響や業務停止は見込まないとしています。",
+    "note": "BleepingComputerによると、WhiteArmorランサムウェア集団が約100GBの窃取を主張し500万ドルを要求していますが、これは攻撃者の主張で未検証です(主張件数は数値欄に含めていません)。侵害時期、影響システム、データ種別は同社から示されていません。",
+    "affected": [],
+    "sources": [
+      "maersk-legacy-system-2026-1",
+      "maersk-legacy-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "verification_note": "Maerskの公式アドバイザリ本文(不正アクセスとデータ抽出、旧買収システム、機微情報なしとの見立て)とBleepingComputer本文を突合。攻撃者主張は未検証として扱う。"
   }
 ]
