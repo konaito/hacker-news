@@ -7782,5 +7782,26 @@
     "type": "reporting",
     "url": "https://news.web.nhk/newsweb/na/nd-20261110de73779",
     "title": "日本商工会議所 ネット試験の受験者情報 最大98万人分流出のおそれ"
+  },
+  {
+    "id": "amplifon-americas-2026-3",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+    "title": "Amplifon Americas Data Breach Impacts 1.3 Million"
+  },
+  {
+    "id": "revolve-2026-4",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million"
+  },
+  {
+    "id": "revolve-card-2026-4",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+    "title": "Revolve Puts Data Breach Victim Count at 1.5 Million"
   }
 ]
