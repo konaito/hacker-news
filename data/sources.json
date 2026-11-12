@@ -7761,5 +7761,26 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
     "title": "Notion says Fireworks breach exposed customer AI chat transcripts"
+  },
+  {
+    "id": "jcci-online-exam-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192652",
+    "title": "試験管理システムで侵害、受験者情報流出の可能性 - 日商"
+  },
+  {
+    "id": "jcci-online-exam-2026-2",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2155307.html",
+    "title": "日本商工会議所のネット試験管理システムに不正アクセス、最大約98万人分の受験者情報が漏えいした可能性"
+  },
+  {
+    "id": "jcci-online-exam-2026-3",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261110de73779",
+    "title": "日本商工会議所 ネット試験の受験者情報 最大98万人分流出のおそれ"
   }
 ]

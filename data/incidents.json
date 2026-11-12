@@ -1,5 +1,36 @@
 [
   {
+    "id": "jcci-online-exam-2026",
+    "published_at": "2026-11-10",
+    "occurred_at": "2026-11-01",
+    "company": "日本商工会議所",
+    "service": "商工会議所ネット試験管理システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "公共・教育",
+    "title": "日本商工会議所のネット試験管理システムに不正アクセス、最大約98万人分の受験者情報が漏えいした可能性",
+    "summary": "日本商工会議所は11月10日、ネット試験の予約・結果管理に使う外部サーバーへの不正アクセスにより、2022年4月1日〜2026年11月4日の受験者最大約98万人分(約197万件)の情報が漏えいした可能性があると公表しました。",
+    "note": "11月1日に不正プログラムが設置され、11月4日に管理会社の報告で判明、同日削除と夜間のパッチ適用を実施、11月9日に個人情報保護委員会へ報告。対象は氏名・フリガナ・性別・生年月日・合否・得点で、任意入力のメール・電話・住所を含む可能性があります。決済情報は含まれません。実際の漏えい・不正利用は確認されていません。98万人と197万件は単位が異なるため合算していません。",
+    "affected": [
+      {
+        "count": 980000,
+        "unit": "people",
+        "description": "漏えいの可能性があるネット試験受験者(最大、約)",
+        "source_id": "jcci-online-exam-2026-2"
+      }
+    ],
+    "sources": [
+      "jcci-online-exam-2026-1",
+      "jcci-online-exam-2026-2",
+      "jcci-online-exam-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "verification_note": "Security NEXT・Impress Watch・NHKの本文を突合。日商の一次発表本文は未取得で、独立3媒体で時系列・人数・対象試験を確認。NHKは本文が部分的で人数と可能性の表現のみ裏付け。"
+  },
+  {
     "id": "nttdata-stdirect-securitize-2026",
     "published_at": "2026-11-02",
     "occurred_at": "2026-10-29",
