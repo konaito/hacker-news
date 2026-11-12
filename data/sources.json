@@ -7747,5 +7747,19 @@
     "type": "primary",
     "url": "https://www.pref.fukuoka.lg.jp/contents/kyoryokutai-attention.html",
     "title": "福岡県地域おこし協力隊サポーターズConeruにおける個人情報漏えいの可能性について"
+  },
+  {
+    "id": "fireworks-evaluation-secrets-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
+    "title": "AI company Fireworks says hackers stole data, billing info during October breaches"
+  },
+  {
+    "id": "fireworks-evaluation-secrets-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+    "title": "Notion says Fireworks breach exposed customer AI chat transcripts"
   }
 ]
