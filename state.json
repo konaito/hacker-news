@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-11-12T20:28:51.035092+00:00",
+  "completed_at": "2026-11-12T23:42:22.879508+00:00",
   "candidates": [
     {
       "title": "JNSAセキュ理解度チェックサービスで侵害",
@@ -9,22 +9,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "Security NEXT一覧で発見、本文未読。"
-    },
-    {
-      "title": "BigIDに対するThe Gentlemenの公開主張",
-      "url": "https://www.ransomlook.io/group/the%20gentlemen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再検索。SOCRadar等の追跡サイトが10/12の主張を伝えるのみでBigIDの声明なし。未検証。"
-    },
-    {
-      "title": "N0nによる海運・港湾企業の主張",
-      "url": "https://www.ransomlook.io/recent",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再検索。N0nが10/12に海運・港湾38組織を掲載したとの追跡サイト・業界紙報道があるが、個別被害の確認はなく、共通ベンダー経由との説も推測。未検証。"
     },
     {
       "title": "SpeeCAN RAIDEN不正アクセス",
@@ -171,28 +155,12 @@
       "reason": "一覧で発見。本文未確認、次回へ。"
     },
     {
-      "title": "九州電力送配電 不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56743.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧で発見。重要インフラ。本文未確認、次回優先。"
-    },
-    {
       "title": "PICKS 8,312人の個人情報漏えい",
       "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56740.html",
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧で発見。本文未確認、次回へ。"
-    },
-    {
-      "title": "Japan Airlines 情報漏えい",
-      "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "既存データに該当IDなし。本文未読、次回確認。"
     },
     {
       "title": "Silent Ransom GroupのSNSリード",
@@ -225,38 +193,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回再取得せず。未検証。"
-    },
-    {
-      "title": "Neogen HIBP",
-      "url": "https://haveibeenpwned.com/breach/neogen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "HIBP本文を再確認(2026年8月、約43.6万メール、ShinyHunters恐喝)。Neogen一次発表と独立報道は未確認でHIBP単独では基準未達。"
-    },
-    {
-      "title": "Policlinico Triestino",
-      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回再取得せず。持越し。"
-    },
-    {
-      "title": "S-QUE eラーニング",
-      "url": "https://s-que.net/news/20261008/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回再取得せず。前回404のまま未確認。"
-    },
-    {
-      "title": "Renta!",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回再取得せず。持越し。"
     },
     {
       "title": "さくらさくみらい委託先",
@@ -499,14 +435,6 @@
       "reason": "WebSearch再調査。リークサイト掲載を集約サイトが伝えるのみで企業確認なし。未検証で持越し"
     },
     {
-      "title": "資生堂 肌測定システムFCAへの不正アクセス(2,515人)",
-      "url": "https://www.security-next.com/192582",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文のみ確認。資生堂公式発表は一覧で見つからず、検索結果は解説ブログのみ。独立2媒体または一次情報が未確認のため次回へ。"
-    },
-    {
       "title": "FancyBearによる欧州防衛関連企業への侵入",
       "url": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
       "priority": "high",
@@ -683,20 +611,124 @@
       "reason": "一覧タイトルのみ確認、本文未読。既存掲載との照合も次回最優先。"
     },
     {
-      "title": "ConnectWise investigates ScreenConnect breaches (nearly 50 organizations)",
-      "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+      "title": "BigIDに対するThe Gentlemenの公開主張",
+      "url": "https://www.ransomlook.io/group/the%20gentlemen",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧タイトルのみ確認、本文未読。"
+      "reason": "再検索。SOCRadar/Dexpose等の追跡サイトが10/12の主張を伝えるのみ。BigID声明なし、未検証。"
     },
     {
-      "title": "Poland shuts down ePUAP government platform following cyberattack",
+      "title": "N0nによる海運・港湾企業の主張",
+      "url": "https://www.ransomlook.io/recent",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回再取得せず。持越し。"
+    },
+    {
+      "title": "Neogen HIBP",
+      "url": "https://haveibeenpwned.com/breach/neogen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回再取得せず。HIBP単独では基準未達のまま持越し。"
+    },
+    {
+      "title": "Policlinico Triestino",
+      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文再確認。8/31障害、9/3に経営陣が攻撃を認めるがデータ窃取は未確認、INC Ransomの主張。記事は内部矛盾あり、1媒体のみで基準未達。"
+    },
+    {
+      "title": "S-QUE eラーニング",
+      "url": "https://s-que.net/news/20261008/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得したがHTTP 404のまま。未確認。"
+    },
+    {
+      "title": "Renta!",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文確認。10/19パピレス公表、サービス停止、データ・件数は不明。TDnet一次情報は未取得で2媒体未達。"
+    },
+    {
+      "title": "ポーランドePUAP停止",
       "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
       "priority": "high",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "一覧タイトルのみ確認、本文未読。"
+      "reason": "The Record本文のみ確認。サイバー攻撃を検知し予防的に停止、データ侵害は未確認。1媒体のみ。"
+    },
+    {
+      "title": "Apify 不正アクセス",
+      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文のみ確認(11/9-10侵入、トークン更新)。公式発表・第2媒体未確認。"
+    },
+    {
+      "title": "ConnectWise ScreenConnect RMM+悪用",
+      "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文のみ確認(約48組織・288端末、ConnectWise声明)。一次声明・第2媒体の本文未確認。"
+    },
+    {
+      "title": "資生堂 肌測定システム侵害",
+      "url": "https://www.security-next.com/192582",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文のみ確認(2,515人、10/27判明)。資生堂一次発表・第2媒体未確認。"
+    },
+    {
+      "title": "無印良品 オーダーカーテン委託先",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56777.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文のみ確認(19,933人の可能性)。一次情報・第2媒体未確認。"
+    },
+    {
+      "title": "東急不動産 Webサイト不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56771.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧タイトルのみ。本文未確認。"
+    },
+    {
+      "title": "しまねのふるさと直送便 Amazon Payプラグイン悪用",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56772.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧タイトルのみ。本文未確認。"
+    },
+    {
+      "title": "オンライン麻雀 会員情報流出",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧タイトルのみ。本文未確認。"
+    },
+    {
+      "title": "丸井グループ委託先Securitize Japan",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56775.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧タイトルのみ。既存のSecuritize関連IDとの関係は未照合。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -796,31 +828,31 @@
     "andover-town-schools-2026": "2026-11-12T20:28:28.331226+00:00",
     "https://skyticket.jp/news/maintenance/67603": "2026-11-12T09:48:30Z",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-12T20:28:28.331226+00:00",
-    "https://s-que.net/news/20261008/": "2026-11-12T01:33:00Z",
+    "https://s-que.net/news/20261008/": "2026-11-12T23:42:03Z",
     "rhyne-industrial-company-2023": "2026-11-12T20:28:28.331226+00:00",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-11-12T01:33:00Z",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-11-12T20:28:28.331226+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-11-12T09:48:30Z",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-12T01:33:00Z",
-    "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-11T18:43:37Z",
+    "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-12T23:42:03Z",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-11-12T20:28:28.331226+00:00",
     "https://www.security-next.com/190136": "2026-11-12T07:46:14Z",
-    "https://www.ransomlook.io/recent": "2026-11-11T18:43:37Z",
+    "https://www.ransomlook.io/recent": "2026-11-12T23:42:03Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-12T09:48:30Z",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-12T18:18:32Z",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-12T01:33:00Z",
-    "https://haveibeenpwned.com/breach/neogen": "2026-11-12T01:33:00Z",
+    "https://haveibeenpwned.com/breach/neogen": "2026-11-12T23:42:03Z",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-11-12T18:18:32Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-11-12T09:48:30Z",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-11-12T18:18:32Z",
     "coldcard-x-phishing-2026": "2026-11-12T20:28:28.331226+00:00",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-12T01:33:00Z",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-12T23:42:03Z",
     "senture-fmcsa-2026": "2026-11-12T20:28:28.331226+00:00",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-11-12T07:46:14Z",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/": "2026-11-11T19:53:26Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-12T07:46:14Z",
     "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-11-12T07:46:14Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-11-12T01:33:00Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html": "2026-11-12T23:42:03Z",
     "https://therecord.media/european-defense-contractors-fancy-bear-espionage": "2026-11-12T18:18:32Z",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-11-12T09:48:30Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-12T07:46:14Z",
@@ -858,32 +890,36 @@
     "https://scan.netsecurity.ne.jp/article/2026/11/10/56721.html": "2026-11-12T07:46:14Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/10/56720.html": "2026-11-12T07:46:14Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/10/56718.html": "2026-11-12T07:46:14Z",
-    "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents": "2026-11-12T01:33:00Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/11/56742.html": "2026-11-11T19:53:26Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/11/56739.html": "2026-11-12T20:28:28.331226+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/11/56741.html": "2026-11-11T19:53:26Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/11/56740.html": "2026-11-11T19:53:26Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/11/56737.html": "2026-11-12T20:28:28.331226+00:00",
     "https://therecord.media/russia-hackers-espionage-romania-kazakhstan": "2026-11-12T20:28:28.331226+00:00",
-    "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack": "2026-11-12T20:28:28.331226+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/11/56743.html": "2026-11-11T19:53:26Z",
+    "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack": "2026-11-12T23:42:03Z",
     "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/": "2026-11-12T09:48:30Z",
     "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/": "2026-11-12T09:48:30Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/12/56754.html": "2026-11-12T09:48:30Z",
     "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/": "2026-11-12T09:48:30Z",
-    "https://www.security-next.com/192582": "2026-11-12T18:18:32Z",
-    "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool": "2026-11-12T20:28:28.331226+00:00",
+    "https://www.security-next.com/192582": "2026-11-12T23:42:03Z",
+    "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool": "2026-11-12T23:42:03Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/12/56759.html": "2026-11-12T20:28:28.331226+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/12/56756.html": "2026-11-12T20:28:28.331226+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/12/56761.html": "2026-11-12T20:28:28.331226+00:00",
-    "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/": "2026-11-12T20:28:28.331226+00:00"
+    "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/": "2026-11-12T20:28:28.331226+00:00",
+    "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/": "2026-11-12T23:42:03Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/13/56777.html": "2026-11-12T23:42:03Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/13/56771.html": "2026-11-12T23:42:03Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/13/56772.html": "2026-11-12T23:42:03Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html": "2026-11-12T23:42:03Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/13/56775.html": "2026-11-12T23:42:03Z"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-11-12T18:18:32Z",
-      "summary": "新規1件(日本商工会議所ネット試験、独立3媒体で掲載)。資生堂FCAとScreenConnect/RMM+は単一媒体のためdeferred。FireworksとMaerskは既存レコードが続報を反映済み。必須再調査8件は再確認したが解決できたのはFireworksのみ(既存IDのduplicate)で、他は持越し。",
-      "run_id": "43278026737",
-      "main_sha": "627865b219f185316b28553e919aa06b1b5ddf42"
+      "completed_at": "2026-11-12T23:42:03Z",
+      "summary": "新規公開・更新なし。国内外の一覧を確認し、未掲載の新着候補(ePUAP停止、Apify、ScreenConnect/RMM+、資生堂、無印良品等)は単一媒体のみ本文確認のためdeferredとして持越し。九州電力送配電とJALは既存IDに一致。必須再調査8件のうちBigID・Policlinico・S-QUE・Renta!・九電・JALを再取得、N0nとNeogenは未再取得。",
+      "run_id": "43330764506",
+      "main_sha": "a691b8c7b5c7f6987a07e360c832a2330663847e"
     },
     "historical": {
       "completed_at": "2026-11-12T20:28:28.331226+00:00",
@@ -893,9 +929,9 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "43300269551",
-    "completed_at": "2026-11-12T20:28:51.035092+00:00",
+    "mode": "fresh",
+    "run_id": "43330764506",
+    "completed_at": "2026-11-12T23:42:22.879508+00:00",
     "result": "success",
     "error": null,
     "main_sha": "a691b8c7b5c7f6987a07e360c832a2330663847e"
