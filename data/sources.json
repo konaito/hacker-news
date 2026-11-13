@@ -7901,5 +7901,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html",
     "title": "台東区のウェブサイト管理者トラベルジップに不正アクセス"
+  },
+  {
+    "id": "meijigakuin-psy-site-2026-1",
+    "publisher": "明治学院大学",
+    "type": "primary",
+    "url": "https://www.meijigakuin.ac.jp/news/10265.html",
+    "title": "心理学部オリジナルサイトへの不正アクセスと改ざんについて"
+  },
+  {
+    "id": "meijigakuin-psy-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56754.html",
+    "title": "明治学院大学心理学部のウェブサイトが改ざん"
   }
 ]

@@ -16061,5 +16061,28 @@
     "first_seen_at": "2026-11-13",
     "last_verified_at": "2026-11-13",
     "verification_note": "台東区公式ページ(10/29更新)本文とScanNetSecurity(11/4)記事を確認。件数・日付・項目は区公式に基づく。同区の別事案(ささえ～る/ミラボ)とは別事件。"
+  },
+  {
+    "id": "meijigakuin-psy-site-2026",
+    "published_at": "2026-11-05",
+    "occurred_at": "2026-10-16",
+    "company": "明治学院大学",
+    "service": "心理学部オリジナルウェブサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "明治学院大学の心理学部サイトが改ざん、偽のロボット確認画面でコマンド実行を誘導",
+    "summary": "明治学院大学は11月5日、心理学部のオリジナルサイトが不正アクセスを受け改ざんされたと公表しました。管理者アカウントが不正使用され、不正なプログラムが設置されていました。",
+    "note": "表示期間は10月16日夜から19日正午ごろ。Macには偽のロボット確認画面でコマンド実行を促し、iOS/iPadOS 18.5以前の端末には攻撃コードが仕掛けられていた可能性があります。個人情報の漏えいは確認されておらず、影響人数は未公表です。",
+    "affected": [],
+    "sources": [
+      "meijigakuin-psy-site-2026-1",
+      "meijigakuin-psy-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "大学公式お知らせ(11/5)とScanNetSecurity(11/12)の本文を確認。影響人数は公表されておらず、個人情報漏えいは未確認。"
   }
 ]
