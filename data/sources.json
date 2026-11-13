@@ -7803,5 +7803,33 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
     "title": "Revolve Puts Data Breach Victim Count at 1.5 Million"
+  },
+  {
+    "id": "tokyu-land-web-2026-1",
+    "publisher": "東急不動産",
+    "type": "primary",
+    "url": "https://www.tokyu-land.co.jp/news/2026/001808.html",
+    "title": "当社管理ウェブサイトにおける不正アクセスおよび個人情報流出の可能性について"
+  },
+  {
+    "id": "tokyu-land-web-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56771.html",
+    "title": "東急不動産が管理するウェブサイトに不正アクセス"
+  },
+  {
+    "id": "screenconnect-rmmplus-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations"
+  },
+  {
+    "id": "screenconnect-rmmplus-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+    "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations"
   }
 ]

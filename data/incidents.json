@@ -15848,5 +15848,58 @@
     "first_seen_at": "2026-11-12",
     "last_verified_at": "2026-11-12",
     "verification_note": "Maerskの公式アドバイザリ本文(不正アクセスとデータ抽出、旧買収システム、機微情報なしとの見立て)とBleepingComputer本文を突合。攻撃者主張は未検証として扱う。"
+  },
+  {
+    "id": "tokyu-land-web-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "東急不動産",
+    "service": "管理ウェブサイト(AWS共用サーバー)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏洩の可能性",
+    "category": "不動産",
+    "title": "東急不動産、管理ウェブサイトのAWS共用サーバーに不正アクセス、登録個人情報が流出した可能性",
+    "summary": "東急不動産は10月30日、同社が管理するウェブサイトを収容するAWS共用サーバー環境に第三者が不正アクセスし、サイトに登録された個人情報が外部に流出した可能性があると公表しました。検知後、対象サイトを緊急停止しています。",
+    "note": "公式発表本文には件数・項目の記載がありません。ScanNetSecurityによると、10月19日に検知し、GREEN CROSS PARK公式サイトの会員登録4,079件とGREENUP Cooldown Projectの問い合わせ3件が対象で、原因はCMSの脆弱性とサーバーのアクセス権限設定の不備とされます。件数は件(records)で人数ではなく、実際の流出は未確認です。",
+    "affected": [
+      {
+        "count": 4082,
+        "unit": "records",
+        "description": "流出の可能性がある2サイトの登録情報(4,079件+3件、ScanNetSecurity報道)",
+        "source_id": "tokyu-land-web-2026-2"
+      }
+    ],
+    "sources": [
+      "tokyu-land-web-2026-1",
+      "tokyu-land-web-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "東急不動産の公式発表本文(不正アクセス、流出の可能性、サイト停止)とScanNetSecurity本文(件数・検知日・原因)を突合。公式本文に件数はなく件数は報道のみ。"
+  },
+  {
+    "id": "screenconnect-rmmplus-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": null,
+    "company": "ConnectWise / ScreenConnect利用MSP",
+    "service": "ScreenConnect(サードパーティ拡張RMM+等)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・サービス",
+    "title": "ScreenConnect環境が侵害され複数MSP経由で約50組織に不正なリモートアクセスツールが設置、ConnectWiseが拡張機能を無効化",
+    "summary": "ConnectWiseは、ScreenConnectのパートナーアカウントへの不正アクセスと、顧客環境への不正なリモートアクセスソフトの設置を確認したとして調査中です。Huntressは11月11日に活動を検知し、MSP経由で約47〜48組織・286〜288エンドポイントへの影響を報告しました。",
+    "note": "ConnectWiseは約400のパートナー環境で拡張機能(RMM+等)を無効化しましたが、拡張機能の存在だけで侵害とは限らないとしています。初期侵入経路は未確定で、Huntressは認証情報の窃取またはセッション乗っ取りを示唆しています。データ窃取は報じられていません。件数はHuntress集計の組織数で、進行中のため増える可能性があります。攻撃者は特定されていません。",
+    "affected": [],
+    "sources": [
+      "screenconnect-rmmplus-2026-1",
+      "screenconnect-rmmplus-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "BleepingComputer(11/11)とThe Record(11/12)の本文を突合。ConnectWiseの不正アクセス確認、拡張機能無効化、Huntress集計が一致。ConnectWise公式発表は未読。"
   }
 ]
