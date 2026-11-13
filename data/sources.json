@@ -7915,5 +7915,12 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56754.html",
     "title": "明治学院大学心理学部のウェブサイトが改ざん"
+  },
+  {
+    "id": "arara-message-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56759.html",
+    "title": "アララメッセージの流出メールアドレスは重複排除後8,132万件(11月6日の第3報)"
   }
 ]
