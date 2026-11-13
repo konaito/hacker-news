@@ -7831,5 +7831,75 @@
     "type": "reporting",
     "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
     "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations"
+  },
+  {
+    "id": "picks-dirigio-2026-1",
+    "publisher": "DIRIGIO",
+    "type": "primary",
+    "url": "https://dirigio.jp/news/release20261030",
+    "title": "モバイルオーダーサービス「PICKS」への不正アクセスによる個人情報漏えいに関するお知らせとお詫び（サービス再開のお知らせ）"
+  },
+  {
+    "id": "picks-dirigio-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56740.html",
+    "title": "PICKS 8,312人の個人情報漏えい"
+  },
+  {
+    "id": "ism-cloudone-2026-1",
+    "publisher": "クオリティソフト",
+    "type": "primary",
+    "url": "https://www.qualitysoft.com/product/update/20261104-6148/",
+    "title": "【サービス再開】【ISM CloudOne 第2サーバー】不審なアクセスの疑いを確認したことによるサービス停止"
+  },
+  {
+    "id": "ism-cloudone-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56741.html",
+    "title": "ISM CloudOne 不正アクセス"
+  },
+  {
+    "id": "facere-dentsusoken-2026-1",
+    "publisher": "電通総研",
+    "type": "primary",
+    "url": "https://www.dentsusoken.com/news/topics/2026/1104_1.html",
+    "title": "【重要】当社サービスを利用する特定企業の環境下における個人情報流出の可能性に関するお知らせとお詫び"
+  },
+  {
+    "id": "facere-dentsusoken-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56742.html",
+    "title": "電通総研 FACERE 設定不備"
+  },
+  {
+    "id": "cn-points-clubnets-2026-1",
+    "publisher": "クラブネッツ",
+    "type": "primary",
+    "url": "https://www.clubnets.jp/infos/id/221",
+    "title": "CNポイント サテライトシステムへの不正アクセスに関するお知らせ（第一報）"
+  },
+  {
+    "id": "cn-points-clubnets-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56703.html",
+    "title": "CNポイント サテライトシステム"
+  },
+  {
+    "id": "taito-oidekake-travelzip-2026-1",
+    "publisher": "台東区",
+    "type": "primary",
+    "url": "https://www.city.taito.lg.jp/bunka_kanko/other/houkoku1023.html",
+    "title": "「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出"
+  },
+  {
+    "id": "taito-oidekake-travelzip-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html",
+    "title": "台東区のウェブサイト管理者トラベルジップに不正アクセス"
   }
 ]

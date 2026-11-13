@@ -15901,5 +15901,165 @@
     "first_seen_at": "2026-11-13",
     "last_verified_at": "2026-11-13",
     "verification_note": "BleepingComputer(11/11)とThe Record(11/12)の本文を突合。ConnectWiseの不正アクセス確認、拡張機能無効化、Huntress集計が一致。ConnectWise公式発表は未読。"
+  },
+  {
+    "id": "picks-dirigio-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "DIRIGIO",
+    "service": "モバイルオーダーサービス「PICKS」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報漏えい確認",
+    "category": "小売・EC",
+    "title": "モバイルオーダー「PICKS」にAPI経由で不正アクセス、顧客8,312人分の個人情報が漏えい",
+    "summary": "DIRIGIOは10月30日、PICKSの顧客情報管理システムにAPI経由で第三者が不正アクセスし、顧客データが外部へ持ち出されたと公表しました。全サービスは10月27日に停止し、29日から段階的に再開しています。",
+    "note": "漏えい対象は重複除外で8,312人(注文9,992件)。全員の氏名・メールに加え、一部は電話番号・生年月日・性別・会員ID・住所・注文内容などが対象です。カード番号は保有せず、ログインパスワードの漏えいは未確認、二次被害も確認されていません。脆弱性の詳細は未公表です。",
+    "affected": [
+      {
+        "count": 8312,
+        "unit": "people",
+        "description": "重複を除いた漏えい対象の顧客数(会員登録なしの注文者を含む)",
+        "source_id": "picks-dirigio-2026-1"
+      },
+      {
+        "count": 9992,
+        "unit": "records",
+        "description": "漏えい対象の注文件数",
+        "source_id": "picks-dirigio-2026-1"
+      }
+    ],
+    "sources": [
+      "picks-dirigio-2026-1",
+      "picks-dirigio-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "DIRIGIO公式発表(10/30)本文とScanNetSecurity(11/11)本文を確認し、日付・件数・項目・原因を照合。"
+  },
+  {
+    "id": "ism-cloudone-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": null,
+    "company": "クオリティソフト",
+    "service": "ISM CloudOne 第2サーバー",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "IT資産管理「ISM CloudOne」第2サーバーに外部から不正アクセス、約2週間サービス停止",
+    "summary": "クオリティソフトは、ISM CloudOne第2サーバーの不審なアクセスを調査した結果、サーバーソフトの脆弱性を突いた第三者による外部からの不正アクセスを確認したと公表しました。10月20日21時から停止し、11月4日17時に再開しています。",
+    "note": "特定の顧客のデータへの不正アクセスが確認され、該当顧客へ個別連絡中です。データベース全体の持ち出しや全顧客データの無差別な窃取は確認されていないとされます。影響件数は非公表です。対象は「qty.」で始まるURLのコンソールで、新環境への移行、パッチ適用、全アカウントの認証情報更新が行われています。",
+    "affected": [],
+    "sources": [
+      "ism-cloudone-2026-1",
+      "ism-cloudone-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "クオリティソフト公式お知らせ(11/4更新)本文とScanNetSecurity(11/11)本文を確認。停止・再開日時、脆弱性悪用、影響範囲を照合。公表日は公式の更新日を採用。"
+  },
+  {
+    "id": "facere-dentsusoken-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": "2026-09-10",
+    "company": "電通総研",
+    "service": "FACERE(特定企業の環境)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・クラウド",
+    "title": "電通総研「FACERE」の特定企業環境で権限設定不備、第三者が閲覧可能に",
+    "summary": "電通総研は11月4日、サービス「FACERE」を利用する特定企業の環境で、同社側のアクセス権限の設定不備により保存データが第三者に閲覧可能な状態だったと公表しました。個人情報が流出した可能性があります。",
+    "note": "調査では9月10日に第三者によるアクセスがあり、10月29日に把握されました。設定変更とアクセス経路の遮断を実施済みで、全FACERE利用環境の点検では11月3日時点で他の設定不備は見つかっていません。対象データの種類・件数は非公表で、悪用や二次被害は確認されていません。",
+    "affected": [],
+    "sources": [
+      "facere-dentsusoken-2026-1",
+      "facere-dentsusoken-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "電通総研公式お知らせ(11/4)本文とScanNetSecurity(11/11)本文を確認。9/10のアクセス、10/29の把握、設定不備が原因である点を照合。"
+  },
+  {
+    "id": "cn-points-clubnets-2026",
+    "published_at": "2026-10-29",
+    "occurred_at": null,
+    "company": "クラブネッツ",
+    "service": "CNポイント サテライトシステム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "ポイント・決済",
+    "title": "CNポイントのサテライトシステムに外部から不正アクセス、会員情報の漏えいの可能性と3サービス停止",
+    "summary": "クラブネッツは10月29日、CNポイントのサテライトシステムへの外部からの不正アクセスにより、一部会員の個人情報が漏えいした可能性があると公表しました。CN交換、CNコンテンツ、CNモニターの3サービスを同日停止しています。",
+    "note": "漏えいの可能性があるのは、会員ID・氏名の16,936件と、会員ID・氏名・メール・電話番号・住所の2,857件(いずれもユニーク件数で、別々の会員データベース由来のため合算していません)。パスワード漏えいは未確認です。原因と範囲は調査中で、CNポイント本体は稼働しています。",
+    "affected": [
+      {
+        "count": 16936,
+        "unit": "records",
+        "description": "会員ID・氏名が漏えいした可能性のあるユニーク件数",
+        "source_id": "cn-points-clubnets-2026-1"
+      },
+      {
+        "count": 2857,
+        "unit": "records",
+        "description": "会員ID・氏名・メール・電話番号・住所が漏えいした可能性のあるユニーク件数",
+        "source_id": "cn-points-clubnets-2026-1"
+      }
+    ],
+    "sources": [
+      "cn-points-clubnets-2026-1",
+      "cn-points-clubnets-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "クラブネッツ公式第一報(10/29)本文とScanNetSecurity(11/9)本文を確認し、件数・停止サービス・停止時刻を照合。"
+  },
+  {
+    "id": "taito-oidekake-travelzip-2026",
+    "published_at": "2026-10-23",
+    "occurred_at": null,
+    "company": "台東区(委託先:トラベルジップ)",
+    "service": "観光情報サイト「TAITOおでかけナビ」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報流出確認",
+    "category": "官公庁・自治体",
+    "title": "台東区の観光サイト管理委託先トラベルジップに不正アクセス、利用者らの個人情報1,154人分が流出",
+    "summary": "台東区は10月23日、観光情報サイト「TAITOおでかけナビ」の管理委託事業者トラベルジップへの不正アクセスにより個人情報が流出したと公表しました。10月26日に被害範囲を確認し、個人情報保護委員会へ報告しています。",
+    "note": "委託事業者が10月22日夜から23日朝に不正アクセスを検知し、外部アクセスを遮断しました。対象は写真ダウンロード申請者387人、資料請求・問合せ715人、他サイト運営者等52人(区分が異なるため合算せず)。氏名、連絡先、利用目的、IPアドレス、問合せ内容などが含まれます。攻撃手法は未公表です。",
+    "affected": [
+      {
+        "count": 387,
+        "unit": "people",
+        "description": "写真ダウンロード申請者",
+        "source_id": "taito-oidekake-travelzip-2026-1"
+      },
+      {
+        "count": 715,
+        "unit": "people",
+        "description": "資料請求・問合せ者",
+        "source_id": "taito-oidekake-travelzip-2026-1"
+      },
+      {
+        "count": 52,
+        "unit": "people",
+        "description": "他サイト運営者・関係者",
+        "source_id": "taito-oidekake-travelzip-2026-1"
+      }
+    ],
+    "sources": [
+      "taito-oidekake-travelzip-2026-1",
+      "taito-oidekake-travelzip-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-13",
+    "last_verified_at": "2026-11-13",
+    "verification_note": "台東区公式ページ(10/29更新)本文とScanNetSecurity(11/4)記事を確認。件数・日付・項目は区公式に基づく。同区の別事案(ささえ～る/ミラボ)とは別事件。"
   }
 ]
