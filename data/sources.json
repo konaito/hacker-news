@@ -8090,5 +8090,19 @@
     "type": "reporting",
     "url": "https://www.security-next.com/192847",
     "title": "認証情報が漏洩、GitHub環境に不正アクセス - CSC"
+  },
+  {
+    "id": "muji-app-netstore-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192851",
+    "title": "「無印良品」のアプリやネットストアで重なる侵害被害"
+  },
+  {
+    "id": "muji-app-netstore-2026-2",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2153690.html",
+    "title": "無印良品、ネットストアなども情報漏えい　一部カード情報も"
   }
 ]

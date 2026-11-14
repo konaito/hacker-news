@@ -16366,5 +16366,41 @@
     "first_seen_at": "2026-11-14",
     "last_verified_at": "2026-11-14",
     "verification_note": "同社の公式お知らせ(11/12付第一報)とSecurity NEXT(11/13付)の本文で、認証情報の漏えい、11月5日のログ確認、漏えいの可能性がある項目、対応状況を照合。件数は未公表。"
+  },
+  {
+    "id": "muji-app-netstore-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "良品計画",
+    "service": "MUJIアプリ・無印良品ネットストア",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "小売・EC",
+    "title": "良品計画のMUJIアプリ・ネットストアで最大約2,726万件の会員情報が漏えいした可能性、MUJI Cardの情報約109万件も対象",
+    "summary": "良品計画は10月30日、MUJIアプリに関する情報が最大約2,726万件(退会者を含む)漏えいした可能性があると公表し、11月4日の第二報でネットストア利用者とMUJI Card情報にも対象が及ぶと説明しました。",
+    "note": "漏えいの可能性がある項目はメールアドレス・生年月日・性別・会員ID。一部は氏名・住所・電話番号も含みますが、その件数はSecurity NEXT(約75万件)とImpress Watch(約52万件)で食い違うため集計には使っていません。MUJI Cardは約109万件で、有効なカードは約34.5万件。2021年7月以前発行分のカード番号・カードID・生年月日がシステムに残っていたことが背景とされています。ダークウェブへの流出や被害は確認されていません。11月9日にはNHKが、他サービスで流出したID・パスワードを使うリスト型攻撃による約27万件の個人情報漏えいの可能性を報じましたが、本記録の件数とは合算していません。",
+    "affected": [
+      {
+        "count": 27260000,
+        "unit": "records",
+        "description": "漏えいの可能性があるMUJIアプリ・ネットストア関連の会員情報(最大、約、退会者を含む)",
+        "source_id": "muji-app-netstore-2026-2"
+      },
+      {
+        "count": 1090000,
+        "unit": "records",
+        "description": "漏えいの可能性があるMUJI Card会員情報(約、うち有効カードは約34.5万件)",
+        "source_id": "muji-app-netstore-2026-2"
+      }
+    ],
+    "sources": [
+      "muji-app-netstore-2026-1",
+      "muji-app-netstore-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14",
+    "verification_note": "Security NEXT(11/13、3ページ中1ページ目)とImpress Watch(11/4、第二報)の本文を突合。良品計画の一次発表本文は未取得。氏名等を含む件数は両媒体で不一致。NHK(11/9)のリスト型攻撃報道は本文が短く、別件か同一か未確認のため件数に含めていない。"
   }
 ]
