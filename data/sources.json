@@ -8048,5 +8048,33 @@
     "type": "reporting",
     "url": "https://cyberscoop.com/russian-hackers-apt28-target-nato-defense-firms/",
     "title": "Russian hackers APT28 target NATO defense firms"
+  },
+  {
+    "id": "marui-securitize-digital-bond-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56775.html",
+    "title": "丸井グループの業務委託先 Securitize Japan に不正アクセス、デジタル社債を申し込んだ顧客情報が漏えい"
+  },
+  {
+    "id": "marui-securitize-digital-bond-2026-2",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2154378.html",
+    "title": "デジタル証券などを提供するSecuritize Japanに不正アクセス、NTTデータなど委託元各社が情報を公開"
+  },
+  {
+    "id": "jnsa-literacy-check-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192491",
+    "title": "JNSAのセキュ理解度チェックサービスで侵害 - 影響など調査"
+  },
+  {
+    "id": "jnsa-literacy-check-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188186",
+    "title": "JNSA「情報セキュリティ理解度チェックサービス」不正アクセス"
   }
 ]

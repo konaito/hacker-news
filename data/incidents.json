@@ -16277,5 +16277,71 @@
     "first_seen_at": "2026-11-14",
     "last_verified_at": "2026-11-14",
     "verification_note": "The Record、The Hacker News、CyberScoop(いずれも10/20)の本文で、被害3組織、7月の初期侵入、9月24日の活動、APT28帰属(Symantec)、データ窃取の有無が不明である点を照合。Symantec本体の記事は未取得。"
+  },
+  {
+    "id": "marui-securitize-digital-bond-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": null,
+    "company": "丸井グループ(委託先:Securitize Japan)",
+    "service": "デジタル社債の管理",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "金融",
+    "title": "丸井グループのデジタル社債委託先Securitize Japanに不正アクセス、最大9,086人の情報が漏えい",
+    "summary": "丸井グループは11月2日、デジタル社債の管理を委託するSecuritize Japanのサーバーが不正アクセスを受け、社債申込みのためにアカウントを作成した最大9,086人の個人情報が漏えいしたと公表したと報じられています。うち54人は銀行口座番号も漏えいした可能性があります。",
+    "note": "不正アクセスは10月29日とされますが、報道上は検知日と発生日が明確に分かれていないため、発生日は不明として扱います。漏えい項目は氏名・住所・電話番号・メールアドレス・生年月日・性別・銀行口座番号・投資口数。丸井側システムからの漏えいは確認されていないと報じられています。丸井グループの一次発表本文は取得できず、ScanNetSecurityとINTERNET Watchの本文で確認しました。54人は9,086人の内数です。",
+    "affected": [
+      {
+        "count": 9086,
+        "unit": "people",
+        "description": "個人情報が漏えいした可能性のあるデジタル社債申込みアカウント作成者(最大)",
+        "source_id": "marui-securitize-digital-bond-2026-1"
+      },
+      {
+        "count": 54,
+        "unit": "people",
+        "description": "上記のうち銀行口座番号も漏えいした可能性がある人数",
+        "source_id": "marui-securitize-digital-bond-2026-1"
+      }
+    ],
+    "sources": [
+      "marui-securitize-digital-bond-2026-1",
+      "marui-securitize-digital-bond-2026-2"
+    ],
+    "verification_note": "一次発表は取得できず、ScanNetSecurity(11/13)とINTERNET Watch(11/6)の本文で人数・項目・委託先を照合。原因はINTERNET Watchが他社分の発表由来と記すため記載しない。",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14",
+    "publication_status": "published"
+  },
+  {
+    "id": "jnsa-literacy-check-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": null,
+    "company": "日本ネットワークセキュリティ協会(JNSA)",
+    "service": "情報セキュリティ理解度チェックサービス",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "IT・クラウド",
+    "title": "JNSAの理解度チェックサービスで不正アクセス、最大15,128件の情報漏えいのおそれ",
+    "summary": "JNSAは11月6日、運営する情報セキュリティ理解度チェックサービスへの不正アクセスを公表しました。11月4日に確認し、10月30日夜ごろから侵害されていた可能性があります。管理者の氏名・メールアドレス・組織情報、利用者IDとハッシュ化パスワードなどが最大15,128件漏えいした可能性があります。",
+    "note": "10月30日夜は侵害開始の可能性で、確認日は11月4日です。15,128件は最大の記録件数で人数ではなく、調査で変動し得ます。侵入経路・影響範囲は調査中。11月6日に個人情報保護委員会へ報告したと報じられています。JNSA公式PDFは本文を取得できず、2媒体の本文で確認しました。",
+    "affected": [
+      {
+        "count": 15128,
+        "unit": "records",
+        "description": "漏えいのおそれがある記録(最大、人数ではない)",
+        "source_id": "jnsa-literacy-check-2026-1"
+      }
+    ],
+    "sources": [
+      "jnsa-literacy-check-2026-1",
+      "jnsa-literacy-check-2026-2"
+    ],
+    "verification_note": "Security NEXT(11/9)とビジネス+IT(11/9)の本文で日付・件数・項目・個人情報保護委員会への報告を照合。JNSA公式PDFは未読。",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14",
+    "publication_status": "published"
   }
 ]
