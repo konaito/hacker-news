@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-11-14T18:32:23.532623+00:00",
+  "completed_at": "2026-11-14T21:29:32.434008+00:00",
   "candidates": [
     {
       "title": "UK school estate ランサムウェア",
@@ -145,70 +145,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は再取得せず前回判断を維持して次回へ持越し。確認済みとは主張しない。"
-    },
-    {
-      "title": "Maersk WhiteArmor ランサムウェア",
-      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "海外一覧の見出しのみ確認。本文未取得、次回優先。"
-    },
-    {
-      "title": "Microsoft 365 大規模障害",
-      "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。攻撃かどうか未確認、本文未取得。"
-    },
-    {
-      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
-      "url": "https://www.derp.ca/ransomware/thegentlemen/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得したが該当エントリなし。未検証のまま持越し。"
-    },
-    {
-      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
-      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再確認。原因はクラウド障害・委託先不具合とされ攻撃の確認なし。範囲外の可能性が高いが持越し。"
-    },
-    {
-      "title": "都内自治体でシステム障害相次ぐ",
-      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再確認。原因は未確認で、IDCFrontierのランサム報道は記事内で未検証。持越し。"
-    },
-    {
-      "title": "Domino's利用者アカウントへの不正ログイン",
-      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再確認。リスト型攻撃で「ごく少数」、Domino's顧客通知は確認したが媒体は1つのため持越し。"
-    },
-    {
-      "title": "hsc.mb.caに対するINC Ransomの公開主張",
-      "url": "https://www.ransomlook.io/group/inc%20ransom",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得したが先頭部分に該当なし。リークサイト主張のみで持越し。"
-    },
-    {
-      "title": "Neogen HIBP",
-      "url": "https://haveibeenpwned.com/breach/neogen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再確認。43.6万メールアドレス、ShinyHuntersの恐喝とされるがNeogen自身の確認は記載なし。基準未達で持越し。"
     },
     {
       "title": "Policlinico Triestino",
@@ -387,14 +323,6 @@
       "reason": "今回は再取得せず(前回のWebSearchでは一次情報・独立報道なし)。持越し。"
     },
     {
-      "title": "オンライン麻雀 会員情報流出",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ確認。本文未読のため次回へ。"
-    },
-    {
       "title": "Claire'sへのDark Projectの主張",
       "url": "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/",
       "priority": "high",
@@ -443,22 +371,6 @@
       "reason": "JPX PDFはHTTP 403で本文取得不可。再検索ではNEXT STAGEが10/13に最大約4万件の可能性を開示したとするrocket-boys記事が出たが、同記事もHTTP 403で本文未確認。未検証のまま持越し。"
     },
     {
-      "title": "Apifyが顧客データへのアクセスを確認",
-      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "既存のapify-internal-systems-2026に近い続報だが、SecurityWeekの本文は未取得のため今回は未反映。時間不足で持越し。"
-    },
-    {
-      "title": "CSC、GitHub環境への不正アクセス(認証情報漏洩)",
-      "url": "https://www.security-next.com/192847",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認。本文未確認のため持越し。"
-    },
-    {
       "title": "University of Texas at Arlington、サイバー攻撃で個人情報が窃取",
       "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
       "priority": "normal",
@@ -481,14 +393,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "SOCRadarはHTTP403で本文取得不可。検索要約ではShinyHuntersの主張を集約サイトが伝えるのみで、Medela社・規制当局・報道による確認は見つからず。未検証の主張として未レコード化。"
-    },
-    {
-      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文を確認(wfx-loot、Aikido Security報告、4,837アカウント、1,835対象で秘密情報窃取)。Aikido一次記事は検索で見つからず未読、報道1媒体のため未レコード化。"
     },
     {
       "title": "楽天証券 委託先不正アクセス(デジタル特典付き社債)",
@@ -603,22 +507,6 @@
       "reason": "前回判断を維持。今回は再取得せず本文も再読していないため確認済みとは主張せず次回へ持越し。"
     },
     {
-      "title": "無印良品 オーダーカーテン委託先",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56777.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧で発見のみ、本文未読。既存無印良品レコードとの関係も未確認。次回優先。"
-    },
-    {
-      "title": "東急不動産管理サイトへの不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56771.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧で発見のみ、本文未読。次回優先。"
-    },
-    {
       "title": "ARTPASS・アソビュー!委託先への不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56770.html",
       "priority": "normal",
@@ -667,12 +555,100 @@
       "reason": "The Record一覧で発見のみ、本文未読。次回優先。"
     },
     {
-      "title": "German military drone maker Quantum Systems cyberattack",
+      "title": "Neogen HIBP",
+      "url": "https://haveibeenpwned.com/breach/neogen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "HIBP本文を再確認。43.6万メールアドレス、ShinyHuntersの恐喝・公開の主張。Neogen自身の確認記載なく、独立2媒体も未確認のためレコード化せず持越し。"
+    },
+    {
+      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
+      "url": "https://www.derp.ca/ransomware/thegentlemen/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得したが直近の掲載5件に該当エントリなし。未検証のまま持越し。"
+    },
+    {
+      "title": "自治体・Jクラブ等のサイトが相次いで閲覧不能",
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再確認。原因はクラウド障害・サーバ管理会社の不具合・外部翻訳サービス障害とされ、攻撃の確認なし。範囲外の可能性が高いが持越し。"
+    },
+    {
+      "title": "都内自治体でシステム障害相次ぐ",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "本文を再確認。原因は未確認。IDCFrontierのランサムウェア関連は記事本文では未検証(関連見出しのみ)。IDCFの件は既存idcf-cloud-2026があるが、この記事の自治体障害との関係は本文で裏付けられないため持越し。"
+    },
+    {
+      "title": "Domino's利用者アカウントへの不正ログイン",
+      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Malwarebytes本文(10/6)を再確認。顧客通知でリスト型攻撃、システム侵害なし、ICOへ報告と記載。ただし外部報道の引用なし・単一媒体で件数不明のため持越し。"
+    },
+    {
+      "title": "hsc.mb.caに対するINC Ransomの公開主張",
+      "url": "https://www.ransomlook.io/group/inc%20ransom",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得したが先頭約10万文字に該当なし(残りは未読)。リークサイト主張のみで未検証、持越し。"
+    },
+    {
+      "title": "Quantum Systems ドローン制御ソフト更新サーバー侵害",
       "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "BleepingComputer本文(11/13)を確認。同社が声明で事案を認め、Spiegel/FTが更新サーバー侵害を報道。ただし公式声明は403で本文未取得、追加検索でも独立報道を確認できず、掲載基準未達のため次回優先で持越し。"
+    },
+    {
+      "title": "Check Point ゲートウェイ侵害とESXiワイパー",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
       "priority": "normal",
       "decision": "deferred",
       "incident_id": null,
-      "reason": "BleepingComputer一覧で発見のみ、本文未読。次回優先。"
+      "reason": "本文を確認。イスラエル等の組織への攻撃とされるが被害組織名・件数が記事にない。脆弱性悪用キャンペーンで被害事実の独立確認が必要なため持越し。"
+    },
+    {
+      "title": "オンライン麻雀に不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity一覧の見出しのみ確認。本文未読、次回調査。"
+    },
+    {
+      "title": "Trezor 3ウォレットの暗号資産窃取インプラント",
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認。本文未読のため次回以降に調査。"
+    },
+    {
+      "title": "GitHubアカウント4,800件の侵害",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認。本文未読のため次回以降に調査。"
+    },
+    {
+      "title": "SCKit ScreenConnect攻撃",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧の見出しのみ確認。本文未読のため次回以降に調査。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -764,27 +740,27 @@
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-11-14T18:31:50.514469+00:00",
     "tottori-care-provider-email-2026": "2026-11-14T07:03:30Z",
     "solar-russian-medical-network-2026": "2026-11-14T07:03:30Z",
-    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-11-13T22:01:00Z",
+    "https://www.itmedia.co.jp/news/article/2610/07/2000002085/": "2026-11-14T21:29:10.484708+00:00",
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-11-14T17:07:59Z",
     "hcuch-imaging-2026": "2026-11-14T18:31:50.514469+00:00",
     "kenya-brs-2026": "2026-11-14T07:03:30Z",
     "https://www.security-next.com/190739": "2026-11-13T20:02:56Z",
     "andover-town-schools-2026": "2026-11-14T07:03:30Z",
-    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-13T22:01:00Z",
+    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-14T21:29:10.484708+00:00",
     "https://s-que.net/news/20261008/": "2026-11-14T02:26:46Z",
     "rhyne-industrial-company-2023": "2026-11-14T07:03:30Z",
     "https://www.reddit.com/r/newsokunomoral/comments/1x11ld7/%E6%9D%B1%E4%BA%AC%E5%B0%8F%E5%B9%B3%E5%B8%82%E3%81%AE%E5%85%AC%E5%BC%8F%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8_%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A8%E3%82%A2%E6%94%BB%E6%92%83%E5%8F%97%E3%81%91%E9%96%B2%E8%A6%A7%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E7%B6%9A%E3%81%8F_%E5%B8%82%E6%B0%91%E3%81%AE%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E3%81%8C%E6%B5%81%E5%87%BA%E3%81%8B/": "2026-11-14T10:21:04Z",
-    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-11-13T22:01:00Z",
+    "https://www.itmedia.co.jp/news/article/2610/09/2000002165/": "2026-11-14T21:29:10.484708+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-11-14T02:26:46Z",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-14T10:21:04Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-14T02:26:46Z",
-    "https://www.ransomlook.io/group/inc%20ransom": "2026-11-13T22:01:00Z",
+    "https://www.ransomlook.io/group/inc%20ransom": "2026-11-14T21:29:10.484708+00:00",
     "https://www.security-next.com/190136": "2026-11-13T20:02:56Z",
     "https://www.ransomlook.io/recent": "2026-11-14T02:26:46Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-14T17:07:59Z",
-    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-13T22:01:00Z",
+    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-14T21:29:10.484708+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-14T10:21:04Z",
-    "https://haveibeenpwned.com/breach/neogen": "2026-11-13T22:01:00Z",
+    "https://haveibeenpwned.com/breach/neogen": "2026-11-14T21:29:10.484708+00:00",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-11-14T10:21:04Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-11-14T17:07:59Z",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-11-14T17:07:59Z",
@@ -833,30 +809,27 @@
     "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack": "2026-11-14T10:21:04Z",
     "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/": "2026-11-14T18:31:50.514469+00:00",
     "https://www.security-next.com/192582": "2026-11-14T18:31:50.514469+00:00",
-    "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/": "2026-11-13T20:02:56Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html": "2026-11-14T10:21:04Z",
-    "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/": "2026-11-14T18:31:50.514469+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html": "2026-11-14T21:29:10.484708+00:00",
+    "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/": "2026-11-14T21:29:10.484708+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/13/56770.html": "2026-11-14T18:31:50.514469+00:00",
     "https://socradar.io/data-breach/medela-shinyhunters-extortion-2026/": "2026-11-14T18:31:50.514469+00:00",
     "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider": "2026-11-14T18:31:50.514469+00:00",
-    "https://www.security-next.com/192847": "2026-11-14T17:07:59Z",
-    "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/": "2026-11-13T20:02:56Z",
-    "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/": "2026-11-14T18:31:50.514469+00:00",
+    "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/": "2026-11-14T21:29:10.484708+00:00",
     "https://therecord.media/university-of-texas-arlington-warns-data-breach": "2026-11-14T17:07:59Z",
-    "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/": "2026-11-14T17:07:59Z",
     "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/": "2026-11-14T17:07:59Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/13/56777.html": "2026-11-14T18:31:50.514469+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/13/56771.html": "2026-11-14T18:31:50.514469+00:00",
     "https://www.security-next.com/192572": "2026-11-14T18:31:50.514469+00:00",
     "https://www.security-next.com/192652": "2026-11-14T18:31:50.514469+00:00",
-    "https://www.security-next.com/192575": "2026-11-14T18:31:50.514469+00:00"
+    "https://www.security-next.com/192575": "2026-11-14T18:31:50.514469+00:00",
+    "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/": "2026-11-14T21:29:10.484708+00:00",
+    "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/": "2026-11-14T21:29:10.484708+00:00",
+    "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/": "2026-11-14T21:29:10.484708+00:00"
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-11-14T17:07:59Z",
-      "summary": "fresh監査。国内2媒体(Security NEXT、ScanNetSecurity)と海外3媒体(BleepingComputer、The Record、SecurityWeek)の一覧を確認。新規2件(無印良品オーダーカーテン委託先、APT28のHookedge攻撃)と更新1件(MUJIアプリ第4報)を掲載。必須再調査8件のうちScreenConnectは既存IDと照合、FancyBearは掲載、他6件は未検証のままdeferred(WaPo・JPXは403)。TSMC、Quantum Systems等は1媒体のみのため持越し。対象外の大きなニュース(FAA地上停止、Microsoft 365障害)は事件性が未確認でレコード化していない。",
-      "run_id": "43618951652",
-      "main_sha": "07e4e32a52d244f3a579c416fc18e6f46dda0f5c"
+      "completed_at": "2026-11-14T21:29:10.484708+00:00",
+      "summary": "新規1件(サイバーセキュリティクラウドのGitHub認証情報漏えい)を公式発表とSecurity NEXTの本文で確認して掲載。必須再調査8件のうちMaerskは既存IDと照合、Microsoft障害は攻撃証拠なしで対象外、他6件は掲載基準未達で持越し。Quantum Systemsの開発環境侵害は公式声明が403で未取得のためdeferred。",
+      "run_id": "43642831240",
+      "main_sha": "fc9ee461acc520939ae798a4d2b3cc6914affff9"
     },
     "historical": {
       "completed_at": "2026-11-14T18:31:50.514469+00:00",
@@ -866,11 +839,11 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "43626810658",
-    "completed_at": "2026-11-14T18:32:23.532623+00:00",
+    "mode": "fresh",
+    "run_id": "43642831240",
+    "completed_at": "2026-11-14T21:29:32.434008+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "3662cdce45911cfc0bf68eee746edf9e6139f50c"
+    "main_sha": "fc9ee461acc520939ae798a4d2b3cc6914affff9"
   }
 }
