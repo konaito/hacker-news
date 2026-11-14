@@ -8076,5 +8076,19 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/188186",
     "title": "JNSA「情報セキュリティ理解度チェックサービス」不正アクセス"
+  },
+  {
+    "id": "csc-github-credential-2026-1",
+    "publisher": "サイバーセキュリティクラウド",
+    "type": "primary",
+    "url": "https://www.cscloud.co.jp/news/info/20261112-2/",
+    "title": "当社開発環境における情報漏えいのおそれに関するお知らせとお詫び(第一報)"
+  },
+  {
+    "id": "csc-github-credential-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192847",
+    "title": "認証情報が漏洩、GitHub環境に不正アクセス - CSC"
   }
 ]

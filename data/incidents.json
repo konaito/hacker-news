@@ -16343,5 +16343,28 @@
     "first_seen_at": "2026-11-14",
     "last_verified_at": "2026-11-14",
     "publication_status": "published"
+  },
+  {
+    "id": "csc-github-credential-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": null,
+    "company": "サイバーセキュリティクラウド(CSC)",
+    "service": "ソフトウェア開発用のGitHub環境",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいのおそれ",
+    "category": "IT・クラウド",
+    "title": "サイバーセキュリティクラウド、従業員のGitHub認証情報が漏えいし開発環境へ第三者が不正アクセスした形跡、顧客情報の漏えいのおそれ(第一報)",
+    "summary": "サイバーセキュリティクラウドは11月12日、従業員1人の業務用GitHub認証情報が外部に漏えいし、開発に使うGitHub管理領域へ第三者が不正にアクセスした形跡があると第一報で公表しました。外部機関の指摘を受けて調査し、11月5日にアクセスログで過去の不審なアクセスを確認しました。一部顧客の会社名・氏名・メールアドレスや、サービス利用に伴う通信関連情報が漏えいした可能性があります。",
+    "note": "漏えいした認証情報は1件で、影響人数・記録件数は未公表です。不正アクセスの開始時期は、ログの期間・内容の制約から確定していません。同社は、不正操作や二次被害は確認されておらず、サービスは正常に稼働しているとしています。原因・影響範囲は調査中の第一報です。",
+    "affected": [],
+    "sources": [
+      "csc-github-credential-2026-1",
+      "csc-github-credential-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14",
+    "verification_note": "同社の公式お知らせ(11/12付第一報)とSecurity NEXT(11/13付)の本文で、認証情報の漏えい、11月5日のログ確認、漏えいの可能性がある項目、対応状況を照合。件数は未公表。"
   }
 ]
