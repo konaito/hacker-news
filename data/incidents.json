@@ -16115,5 +16115,58 @@
     "first_seen_at": "2026-11-14",
     "last_verified_at": "2026-11-14",
     "verification_note": "大阪市公式ページ(11/13)の本文で、期間、1,078,713件、メールアドレスのみ、TKC、原因報告待ちを確認。The Record(11/13)の本文で市の公表とアララとの関連報道を確認。"
+  },
+  {
+    "id": "shimane-furusato-ec-2026",
+    "published_at": "2026-11-02",
+    "occurred_at": "2026-08-13",
+    "company": "一般財団法人島根県物産協会",
+    "service": "ECサイト「しまねのふるさと直送便」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "行政・公共",
+    "title": "島根県物産協会のECサイト、Amazon Payプラグインの脆弱性を突かれ決済時のカード情報7人分が漏えいの可能性",
+    "summary": "島根県は11月2日、島根県物産協会が運営するECサイトでEC-CUBEのAmazon Payプラグインの脆弱性を突かれ、不正な管理者アカウントの作成と決済画面の入力内容を読み取る不正ファイルの設置があったと発表しました。8月13日〜15日に決済した7人分(購入6人)のカード情報が漏えいした可能性があります。",
+    "note": "外部への流出を示す通信記録は確認されておらず、あくまで漏えいの可能性です。11月1日時点で連絡の取れた購入者6人にカード不正利用は確認されていません。8月14日に不正アクセスのアカウントを削除し、15日に不正ファイルを差し替えました。発生日は対象決済期間の開始日で、侵入開始日ではありません。",
+    "affected": [
+      {
+        "count": 7,
+        "unit": "people",
+        "description": "カード情報漏えいの可能性がある決済者数(うち購入6人)",
+        "source_id": "shimane-furusato-ec-2026-1"
+      }
+    ],
+    "verification_note": "島根県の報道発表本文で対象サイト、原因、期間、7人・項目、流出記録なし、対応経過を確認。ScanNetSecurity本文も同内容を確認。",
+    "sources": [
+      "shimane-furusato-ec-2026-1",
+      "shimane-furusato-ec-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14"
+  },
+  {
+    "id": "turla-cereal-exchange-2026",
+    "published_at": "2026-11-10",
+    "occurred_at": null,
+    "company": "カザフスタンおよびルーマニアの政府機関(名称非公表)",
+    "service": "政府機関のMicrosoft Exchangeメールサーバー",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "侵入確認",
+    "category": "行政・公共",
+    "title": "ロシア系Turla、政府機関のExchangeサーバーに新ツールCerealを仕込みNATO・EU宛メールを狙う、ESETが報告",
+    "summary": "ESETは11月10日、ロシア系とされるAPT「Turla」が新たなツールセット「Cereal」を使い、カザフスタンとルーマニアの政府機関のExchangeサーバーでメールを収集していたと公表しました。ルーマニアではNATOやEUとのメールを対象に設定されていました。",
+    "note": "ESETは高い確度でTurlaによるものとしていますが、これは調査会社の分析です。初期侵入の経路、窃取したデータの量、他の被害組織の有無は不明です。被害組織名と影響人数は非公表で、affectedは記録しません。侵害は2025年後半とされ、発生日は特定しません。",
+    "affected": [],
+    "verification_note": "ESETの発表本文で被害2組織、Exchange上の収集モジュール、外部C2なし、Turla帰属(高い確度)、不明点を確認。The Record本文も同内容と、初期侵入経路・取得量が不明である点を確認。",
+    "sources": [
+      "turla-cereal-exchange-2026-1",
+      "turla-cereal-exchange-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14"
   }
 ]

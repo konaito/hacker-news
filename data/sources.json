@@ -7936,5 +7936,33 @@
     "type": "reporting",
     "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
     "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents"
+  },
+  {
+    "id": "shimane-furusato-ec-2026-1",
+    "publisher": "島根県",
+    "type": "primary",
+    "url": "https://www.pref.shimane.lg.jp/press_release/2026/eubcg9i5kolv.html",
+    "title": "一般財団法人 島根県物産協会 ＥＣサイトへの不正アクセスによる個人情報漏洩の可能性について"
+  },
+  {
+    "id": "shimane-furusato-ec-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56772.html",
+    "title": "「しまねのふるさと直送便」にAmazon Payプラグインの脆弱性を悪用した不正アクセス"
+  },
+  {
+    "id": "turla-cereal-exchange-2026-1",
+    "publisher": "ESET",
+    "type": "primary",
+    "url": "https://www.eset.com/us/about/newsroom/research/eset-research-turla-cereal-exchange-email-espionage/",
+    "title": "ESET Research: Russia-aligned Turla group uses novel Exchange tool to spy on EU, NATO emails"
+  },
+  {
+    "id": "turla-cereal-exchange-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+    "title": "Russian hackers compromised government email servers"
   }
 ]
