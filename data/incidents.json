@@ -16168,5 +16168,51 @@
     "publication_status": "published",
     "first_seen_at": "2026-11-14",
     "last_verified_at": "2026-11-14"
+  },
+  {
+    "id": "apify-internal-systems-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": "2026-11-09",
+    "company": "Apify",
+    "service": "Apifyプラットフォーム(社内システム)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "チェコのApify、社内システムへの不正アクセスを確認、APIトークン更新と2FA再設定を要請",
+    "summary": "Webスクレイピング基盤を提供するApifyは、11月9〜10日に第三者が社内システムの一部へ不正アクセスしたと公表しました。侵害された認証情報で関連アカウントにもアクセスされ、同社はAPIトークンのローテーション、全セッションのリセット、GitHub等の一部OAuth連携の失効を実施しています。",
+    "note": "同社ステータスページによると、一部アカウントの個人情報・保存データにアクセスされ、該当顧客にはメール通知済みです。BleepingComputerは2FAコードが露出した可能性を伝えています。影響件数は公表されていません。検知日はBleepingComputerが11月10日、同社ステータスページが11月11日と記載しており食い違いがあります。調査は継続中で、同社は1週間以内に原因分析を公開するとしています。",
+    "affected": [],
+    "sources": [
+      "apify-internal-systems-2026-1",
+      "apify-internal-systems-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14",
+    "verification_note": "Apifyステータスページ(11/13更新)とBleepingComputer(11/12)の本文で、侵入日、認証情報の悪用、顧客通知、対応措置を確認。影響件数は未公表。"
+  },
+  {
+    "id": "activecloud-belarus-2026",
+    "published_at": "2026-11-10",
+    "occurred_at": "2026-11-10",
+    "company": "ActiveCloud(Active Technologies)",
+    "service": "ActiveCloud クラウド基盤(E-Cloud、E-Cloud Protected、SmartMail)",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サイバー攻撃で停止",
+    "category": "IT・クラウド",
+    "title": "ベラルーシのクラウド事業者ActiveCloud、大規模サイバー攻撃で数日間サービス障害、顧客データ窃取の証拠は確認されず",
+    "summary": "ベラルーシのクラウド事業者ActiveCloudは11月10日未明に大規模なサイバー攻撃を受け、ウェブサイトやサポート窓口が利用できなくなりました。The Recordによると、同社は主要サービスの復旧を発表し、調査で顧客データが盗まれた証拠は見つかっていないと説明しています。",
+    "note": "The Recordはクラウド基盤の一部が暗号化されたランサムウェア攻撃と報じていますが、Nasha Nivaは「大規模サイバー攻撃」とのみ伝え、暗号化には触れていません。攻撃者と侵入経路は不明です。影響を受けた顧客数は不明で、同社の一次発表本文は取得していないため、2媒体の報道に基づく記録です。",
+    "affected": [],
+    "sources": [
+      "activecloud-belarus-2026-1",
+      "activecloud-belarus-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-14",
+    "last_verified_at": "2026-11-14",
+    "verification_note": "The Record(11/13)とNasha Niva(11/10)の本文を確認。攻撃発生と障害の事実は両者が一致。暗号化・データ窃取なしの説明はThe Recordのみ。"
   }
 ]

@@ -7964,5 +7964,33 @@
     "type": "reporting",
     "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
     "title": "Russian hackers compromised government email servers"
+  },
+  {
+    "id": "apify-internal-systems-2026-1",
+    "publisher": "Apify",
+    "type": "primary",
+    "url": "https://status.apify.com/",
+    "title": "Apify Status: Security incident"
+  },
+  {
+    "id": "apify-internal-systems-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+    "title": "Apify rotates API tokens, prompts 2FA resets after breach"
+  },
+  {
+    "id": "activecloud-belarus-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
+    "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days"
+  },
+  {
+    "id": "activecloud-belarus-2026-2",
+    "publisher": "Nasha Niva",
+    "type": "reporting",
+    "url": "https://nashaniva.com/en/408915",
+    "title": "ActiveCloud hit by massive cyberattack"
   }
 ]
