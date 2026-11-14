@@ -7992,5 +7992,61 @@
     "type": "reporting",
     "url": "https://nashaniva.com/en/408915",
     "title": "ActiveCloud hit by massive cyberattack"
+  },
+  {
+    "id": "muji-app-2026-6",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192851",
+    "title": "「無印良品」のアプリやネットストアで重なる侵害被害"
+  },
+  {
+    "id": "muji-app-2026-7",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56758.html",
+    "title": "「MUJIアプリ」への不正アクセス、さらなる総合的セキュリティ対策が必要と判断しネットストア再開を延期"
+  },
+  {
+    "id": "muji-app-2026-8",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2154921.html",
+    "title": "無印良品ネットストアの再開延期(第4報)"
+  },
+  {
+    "id": "muji-curtain-nanotech-2026-1",
+    "publisher": "良品計画",
+    "type": "primary",
+    "url": "https://prtimes.jp/main/html/rd/p/000001878.000000987.html",
+    "title": "オーダーカーテンに関するお客さま情報の流出の可能性について"
+  },
+  {
+    "id": "muji-curtain-nanotech-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56777.html",
+    "title": "無印良品のオーダーカーテンに関する業務委託先に不正アクセス"
+  },
+  {
+    "id": "apt28-hookedge-nato-defense-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+    "title": "Fancy Bear hackers target European defense contractors"
+  },
+  {
+    "id": "apt28-hookedge-nato-defense-2026-2",
+    "publisher": "The Hacker News",
+    "type": "reporting",
+    "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+    "title": "Russian APT28 Breaches NATO Naval Shipbuilder With New Reflective Loader"
+  },
+  {
+    "id": "apt28-hookedge-nato-defense-2026-3",
+    "publisher": "CyberScoop",
+    "type": "reporting",
+    "url": "https://cyberscoop.com/russian-hackers-apt28-target-nato-defense-firms/",
+    "title": "Russian hackers APT28 target NATO defense firms"
   }
 ]
