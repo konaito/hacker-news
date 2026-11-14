@@ -7922,5 +7922,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/12/56759.html",
     "title": "アララメッセージの流出メールアドレスは重複排除後8,132万件(11月6日の第3報)"
+  },
+  {
+    "id": "osaka-city-online-arara-2026-1",
+    "publisher": "大阪市",
+    "type": "primary",
+    "url": "https://www.city.osaka.lg.jp/ictsenryakushitsu/page/0000691479.html",
+    "title": "大阪市行政オンラインシステムにおけるメールアドレスの流出について"
+  },
+  {
+    "id": "osaka-city-online-arara-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+    "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents"
   }
 ]
