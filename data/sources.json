@@ -8125,5 +8125,19 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/188263",
     "title": "簿記受験者98万人分に漏えいの恐れ、日商ネット試験の外部システムに不正アクセス"
+  },
+  {
+    "id": "tsmc-employee-cloud-2026-1",
+    "publisher": "TSMC(SEC Form 6-K)",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000800/a20261112statementregardin.htm",
+    "title": "TSMC Form 6-K: Statement regarding employee data (2026-11-12)"
+  },
+  {
+    "id": "tsmc-employee-cloud-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
+    "title": "TSMC confirms employee data breach tied to cloud service provider"
   }
 ]

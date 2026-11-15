@@ -16439,5 +16439,28 @@
     "first_seen_at": "2026-11-15",
     "last_verified_at": "2026-11-15",
     "verification_note": "Security NEXT(11/12)、Impress Watch(11/10)、ビジネス+IT(11/10)の本文を突合し日付・件数・対象情報が一致。日商の一次発表は未取得のため独立した報道3媒体で確認。"
+  },
+  {
+    "id": "tsmc-employee-cloud-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": null,
+    "company": "TSMC(台湾積体電路製造)",
+    "service": "クラウド事業者が保管する従業員データ",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "情報漏えい確認",
+    "category": "製造・半導体",
+    "title": "TSMC、現・元従業員のデータが外部サイトに掲載されたと開示、クラウド事業者保管データと一致、自社システム侵害の証拠なし",
+    "summary": "TSMCは11月12日付のSEC提出書類で、現・元従業員の一部データが外部サイトに無断で掲載され、内容がクラウド事業者のシステムに保管されたデータと一致したことを確認したと公表しました。自社システムが侵害された証拠はなく、対象者への通知と調査を進めています。",
+    "note": "The Recordによると11月8日にサイバー犯罪フォーラムで6.9GBの従業員データの販売投稿があり、投稿者は連絡先・身分証・銀行情報を含むと主張し3BTC(約20万ドル)を要求したとされますが、これは攻撃者側の主張で、データ内容と件数はTSMCの公表では確認されていません。クラウド事業者名、侵害の時期、対象人数は不明です。顧客データや業務には無関係とTSMCは説明しています。2023年のKinmax経由の事案とは別件です。",
+    "affected": [],
+    "sources": [
+      "tsmc-employee-cloud-2026-1",
+      "tsmc-employee-cloud-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-15",
+    "last_verified_at": "2026-11-15",
+    "verification_note": "TSMCのSEC Form 6-K本文(一次情報)を確認し、外部サイトへの掲載・クラウド事業者データとの一致・自社侵害の証拠なし・通知と調査を確認。The Record(11/13)本文で日付と販売投稿の経緯を照合。"
   }
 ]
