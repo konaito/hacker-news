@@ -8160,5 +8160,33 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/cont1/188280",
     "title": "Renta!(パピレス)不正アクセスによるサービス停止と業績下方修正"
+  },
+  {
+    "id": "shiseido-fca-2026-1",
+    "publisher": "資生堂",
+    "type": "primary",
+    "url": "https://corp.shiseido.com/jp/notice/20261106.html",
+    "title": "当社肌測定システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "shiseido-fca-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192582",
+    "title": "肌測定システムで個人情報や測定結果が流出 - 資生堂"
+  },
+  {
+    "id": "epuap-poland-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+    "title": "Poland shuts down government services platform ePUAP after cyberattack"
+  },
+  {
+    "id": "epuap-poland-2026-2",
+    "publisher": "prawo.pl(PAP)",
+    "type": "reporting",
+    "url": "https://www.prawo.pl/samorzad/cyberatak-na-epuap,1557250.html",
+    "title": "Cyberatak na ePUAP"
   }
 ]

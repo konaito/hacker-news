@@ -1,5 +1,58 @@
 [
   {
+    "id": "shiseido-fca-2026",
+    "published_at": "2026-11-06",
+    "occurred_at": null,
+    "company": "資生堂",
+    "service": "オンライン肌測定システム「Facial Condition Analyzer(FCA)」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "EC・小売",
+    "title": "資生堂、肌測定システム「FCA」への不正アクセスで2,515件の個人情報漏えいを確認、関連の肌測定サービスを停止",
+    "summary": "資生堂は11月6日、オンライン肌測定システム「Facial Condition Analyzer(FCA)」に第三者が不正アクセスし、情報の一部が改ざんされ、データが外部に持ち出されたと公表しました。個人情報2,515件の漏えいを確認しています。",
+    "note": "10月27日に不正アクセスを確認し同日サービスを停止。対象は氏名・メールアドレス・年齢・性別・会員ID・問診データ・肌測定結果で、顔画像とクレジットカード情報は含まれません。件数は調査中で変わる可能性があります。個人情報保護委員会と警察に報告済み。漏えい確認は資生堂オンラインストアとSHISEIDOの「ビューティーアライブ サーキュレーションチェック」で、エリクシール、イプサ等の他サービスは同システム利用のため予防的に停止中です。2,515は「件」単位で、人数としては扱っていません。",
+    "affected": [
+      {
+        "count": 2515,
+        "unit": "records",
+        "description": "漏えいを確認した個人情報(件、調査中で変動の可能性)",
+        "source_id": "shiseido-fca-2026-1"
+      }
+    ],
+    "sources": [
+      "shiseido-fca-2026-1",
+      "shiseido-fca-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-15",
+    "last_verified_at": "2026-11-15",
+    "verification_note": "資生堂の11月6日付公式お知らせ本文(一次情報)と、Security NEXT(11/12)本文を確認。10/27確認、2,515件、対象項目、停止サービスを照合。"
+  },
+  {
+    "id": "epuap-poland-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": "2026-11-10",
+    "company": "ポーランド デジタル省・中央情報技術センター(COI)",
+    "service": "電子行政プラットフォーム ePUAP",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サイバー攻撃で停止",
+    "category": "公共・行政",
+    "title": "ポーランドの電子行政基盤ePUAP、サイバー攻撃を検知し予防的に停止、復旧時期は未定",
+    "summary": "ポーランドのガフコフスキ・デジタル相は11月10日夜、国の電子行政システムePUAPへのサイバー攻撃を検知し阻止したと発表し、システムは予防措置として遮断されました。11月11日時点で全面復旧の時期は示されていません。",
+    "note": "省の広報担当はPAPに対し、システム自体が攻撃で損傷したためではなく予防的に停止したと説明しました(The Record)。国内内部保安庁(ABW)が調査に関与するとprawo.plが報じています。攻撃手法・攻撃者・データ侵害の有無は公表されていません。政府の一次発表(gov.pl・X投稿)の本文は取得できておらず、報道2媒体の本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "epuap-poland-2026-1",
+      "epuap-poland-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-15",
+    "last_verified_at": "2026-11-15",
+    "verification_note": "The Record(11/11)とprawo.pl(PAP配信、11/11)の本文を確認。大臣発表、予防的遮断、復旧時期未定、ABW調査(prawo.plのみ)を照合。PAP本文は有料表示、TVPは見出しのみのため根拠にしていない。"
+  },
+  {
     "id": "jcci-online-exam-2026",
     "published_at": "2026-11-10",
     "occurred_at": "2026-11-01",
