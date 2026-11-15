@@ -8139,5 +8139,26 @@
     "type": "reporting",
     "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
     "title": "TSMC confirms employee data breach tied to cloud service provider"
+  },
+  {
+    "id": "mos-card-valuedesign-2026-4",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56655.html",
+    "title": "ハウス電子マネー発行サービス「Value Card」に不正アクセス、ID番号等が流出"
+  },
+  {
+    "id": "renta-papyless-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56528.html",
+    "title": "電子書籍販売サイト「Renta!」への不正アクセスの可能性"
+  },
+  {
+    "id": "renta-papyless-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188280",
+    "title": "Renta!(パピレス)不正アクセスによるサービス停止と業績下方修正"
   }
 ]
