@@ -8202,5 +8202,47 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56786.html",
     "title": "プレステージ・インターナショナルグループの業務システムに不正アクセス、最大約550万件の顧客の個人情報が持ち出されたことを確認"
+  },
+  {
+    "id": "axa-myaxa-2026-1",
+    "publisher": "アクサ損害保険",
+    "type": "primary",
+    "url": "https://www.axa-direct.co.jp/company/official_info/announce/2026/261113.html",
+    "title": "MyAXAへの不正アクセスおよびロードサービス委託先への不正アクセスについて(第2報)"
+  },
+  {
+    "id": "axa-myaxa-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56793.html",
+    "title": "アクサ損害保険「MyAXA」に不正アクセス、約59万7千件の顧客情報が漏えいした可能性"
+  },
+  {
+    "id": "uchicomi-ransomware-2026-1",
+    "publisher": "ウチコミ",
+    "type": "primary",
+    "url": "https://uchicomi.co.jp/news/647",
+    "title": "不正アクセスおよび個人情報漏えいの可能性に関するお詫びとお知らせ"
+  },
+  {
+    "id": "uchicomi-ransomware-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56788.html",
+    "title": "「ウチコミ！」にランサムウェア攻撃、14万2,591アカウントに影響"
+  },
+  {
+    "id": "yasukuni-online-shop-2026-1",
+    "publisher": "靖國神社",
+    "type": "primary",
+    "url": "https://www.yasukuni.or.jp/news_detail.html?id=734",
+    "title": "オンライン授与品・頒布品サイトへの不正アクセスによる個人情報漏えいのお詫びとお知らせ"
+  },
+  {
+    "id": "yasukuni-online-shop-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56790.html",
+    "title": "「靖國神社オンライン授与品・頒布品サイト」に不正アクセス、約1万4,500件の利用者の個人情報が漏えい"
   }
 ]
