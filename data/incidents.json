@@ -16665,5 +16665,117 @@
     "first_seen_at": "2026-11-16",
     "last_verified_at": "2026-11-16",
     "verification_note": "靖國神社の11月11日付公式お知らせ(一次情報)とScanNetSecurity(11/16)の本文を確認。10/28発見・同日停止、約14,500件、漏えい項目と非確認項目を照合。"
+  },
+  {
+    "id": "msad-contractor-page-2026",
+    "published_at": "2026-11-06",
+    "occurred_at": "2026-11-02",
+    "company": "三井住友海上火災保険・あいおいニッセイ同和損害保険",
+    "service": "ご契約者さま専用ページ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "金融・保険",
+    "title": "三井住友海上とあいおいニッセイ同和損保の「ご契約者さま専用ページ」に不正アクセス、契約者情報約3.7万件と約44.4万件が漏えい",
+    "summary": "三井住友海上火災保険とあいおいニッセイ同和損害保険は11月6日、「ご契約者さま専用ページ」への不正アクセスで契約者情報が漏えいしたと発表しました。11月2日夜間に検知し、3日深夜に関連サービスを停止しています。11月6日9時時点の件数は三井住友海上が約3.7万件、あいおいニッセイ同和損保が約44.4万件です。",
+    "note": "漏えい項目は保険証券番号・氏名・住所・電話番号・メールアドレスなどで、あいおいニッセイ同和損保では一部にカード名義人・下4桁や口座情報も含まれます(三井住友海上はカード・口座情報を含まないとしています)。原因・侵入経路は調査中で、不正使用は確認されていません。両社の件数は別集計の「件」で、合算や人数への換算はしていません。公式発表PDFは本文を読み取れず、SBbitとScanNetSecurityの本文で確認しました。",
+    "affected": [
+      {
+        "count": 37000,
+        "unit": "records",
+        "description": "三井住友海上の漏えい情報(約・件、11月6日9時時点)",
+        "source_id": "msad-contractor-page-2026-2"
+      },
+      {
+        "count": 444000,
+        "unit": "records",
+        "description": "あいおいニッセイ同和損保の漏えい情報(約・件、11月6日9時時点)",
+        "source_id": "msad-contractor-page-2026-1"
+      }
+    ],
+    "sources": [
+      "msad-contractor-page-2026-1",
+      "msad-contractor-page-2026-2"
+    ],
+    "verification_note": "公式PDFは読み取れず、独立した2媒体(SBbit、ScanNetSecurity)の本文で発表日・検知日・件数・項目を照合。",
+    "first_seen_at": "2026-11-16",
+    "last_verified_at": "2026-11-16",
+    "publication_status": "published"
+  },
+  {
+    "id": "shippio-platform-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": "2026-11-01",
+    "company": "Shippio",
+    "service": "Shippio Platform(貿易・物流プラットフォーム)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報取得確認",
+    "category": "交通・物流",
+    "title": "Shippio Platformに社内業務ツール経由で不正アクセス、全顧客の会社情報と貨物情報が閲覧され文書約1,300ファイルがダウンロード",
+    "summary": "貿易物流のShippioは11月4日、Shippio Platformへの不正アクセスを公表しました。11月2日に検知してサービスを停止し、5日に再開しています。社内業務ツールの認証情報を悪用され、貨物情報や会社名・住所などが閲覧され、約1,300件の文書ファイルが実際にダウンロードされました。",
+    "note": "契約チーム約1,100件で不正なユーザーアカウントとAPI認証情報が作成され、設定データの一部が上書きされました。全ユーザーのパスワードと共有リンクを無効化しています。パスワードは外部認証サービス管理のため取得されていません。原因と再発防止策は調査中です。「約1,300」は文書ファイルの件数で、人数ではありません。",
+    "affected": [
+      {
+        "count": 1300,
+        "unit": "documents",
+        "description": "実際にダウンロードされた文書ファイル(約)",
+        "source_id": "shippio-platform-2026-1"
+      }
+    ],
+    "sources": [
+      "shippio-platform-2026-1",
+      "shippio-platform-2026-2"
+    ],
+    "verification_note": "Shippio公式お知らせ(第2報)とScanNetSecurityの本文で、経緯・流出項目・約1,300ファイルのダウンロードを照合。",
+    "first_seen_at": "2026-11-16",
+    "last_verified_at": "2026-11-16",
+    "publication_status": "published"
+  },
+  {
+    "id": "checkpoint-php2shell-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": "2026-10-30",
+    "company": "Check Point Software",
+    "service": "Check Point Security Gateway(Mobile Accessポータル)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "侵害確認",
+    "category": "IT・クラウド",
+    "title": "Check PointゲートウェイがPHP2Shellとゼロデイで侵害、イスラエル組織のVMware ESXiにワイパー「destroy_v6」を展開",
+    "summary": "Check Point Researchは、PHP2Shellの脆弱性とroot権限昇格のゼロデイCVE-2026-123039を悪用してMobile Accessポータルが侵害されたと報告しました。10月30日にイスラエルの組織を中心とする第1波があり、一部はESXiホストへ横展開されワイパーが使われました。11月2日の第2波では複数国へ広がりましたが破壊活動は確認されていません。",
+    "note": "攻撃者はウェブシェル、TSGAバックドア、TSProxyを設置しました。マルウェアは中国系クラスタUNC5221に関連するPhiliKitの亜種と推定されますが、確信をもった帰属はできていません。被害組織数は公表されていません。Check Pointは11月のJumbo Hotfix適用を推奨しています。AI関与の証拠はありません。",
+    "affected": [],
+    "sources": [
+      "checkpoint-php2shell-2026-1",
+      "checkpoint-php2shell-2026-2"
+    ],
+    "verification_note": "Check Point Researchの一次報告とBleepingComputerの本文で、時系列・悪用された脆弱性・マルウェア・帰属の不確実性を照合。",
+    "first_seen_at": "2026-11-16",
+    "last_verified_at": "2026-11-16",
+    "publication_status": "published"
+  },
+  {
+    "id": "coles-cyber-incident-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": null,
+    "company": "Coles Group",
+    "service": "ITシステム(Liquorlandクリック&コレクト等)",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サイバー事案・調査中",
+    "category": "小売",
+    "title": "豪小売大手Coles、サイバーセキュリティインシデントを調査、Liquorlandのクリック&コレクトに一部影響",
+    "summary": "豪小売大手Coles Groupは11月16日、サイバーセキュリティインシデントを調査中と公表しました。店舗とオンライン販売、Flybuysは影響を受けておらず、Liquorlandのクリック&コレクトで一部の顧客に問題が出ています。豪サイバーセキュリティセンターと連携して封じ込めを進めています。",
+    "note": "Colesは顧客・従業員・取引先データが侵害または持ち出された証拠は確認していないとしています。発見時期、攻撃の種類、身代金要求の有無は未公表で、攻撃グループの犯行声明も報じられていません。",
+    "affected": [],
+    "sources": [
+      "coles-cyber-incident-2026-1",
+      "coles-cyber-incident-2026-2"
+    ],
+    "verification_note": "Coles公式更新(11/16 8:30時点)とBleepingComputerの本文で、影響範囲・データ侵害の証拠なし・対応状況を照合。",
+    "first_seen_at": "2026-11-16",
+    "last_verified_at": "2026-11-16",
+    "publication_status": "published"
   }
 ]

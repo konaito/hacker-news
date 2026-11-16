@@ -8244,5 +8244,61 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56790.html",
     "title": "「靖國神社オンライン授与品・頒布品サイト」に不正アクセス、約1万4,500件の利用者の個人情報が漏えい"
+  },
+  {
+    "id": "msad-contractor-page-2026-1",
+    "publisher": "SBbit",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/fj/188156",
+    "title": "三井住友海上・あいおいニッセイ同和損保「ご契約者さま専用ページ」不正アクセス(約48万件の漏えい)"
+  },
+  {
+    "id": "msad-contractor-page-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56791.html",
+    "title": "三井住友海上火災保険「ご契約者さま専用ページ」に不正アクセス、約3万7,000件の顧客情報が漏えい"
+  },
+  {
+    "id": "shippio-platform-2026-1",
+    "publisher": "Shippio",
+    "type": "primary",
+    "url": "https://www.shippio.io/news/20261105/",
+    "title": "Shippio Platformへの不正アクセスに関するご報告(第2報・サービス再開)"
+  },
+  {
+    "id": "shippio-platform-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56787.html",
+    "title": "「Shippio Platform」に不正アクセス、データの一部損傷を確認"
+  },
+  {
+    "id": "checkpoint-php2shell-2026-1",
+    "publisher": "Check Point Research",
+    "type": "primary",
+    "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
+    "title": "PHP2Shell exploitation on Check Point gateways"
+  },
+  {
+    "id": "checkpoint-php2shell-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper"
+  },
+  {
+    "id": "coles-cyber-incident-2026-1",
+    "publisher": "Coles Group",
+    "type": "primary",
+    "url": "https://www.colesgroup.com.au/updates/",
+    "title": "Coles Group cyber security incident update(2026年11月16日 8:30時点)"
+  },
+  {
+    "id": "coles-cyber-incident-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+    "title": "Australian retail giant Coles investigates cybersecurity incident"
   }
 ]
