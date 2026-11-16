@@ -8188,5 +8188,19 @@
     "type": "reporting",
     "url": "https://www.prawo.pl/samorzad/cyberatak-na-epuap,1557250.html",
     "title": "Cyberatak na ePUAP"
+  },
+  {
+    "id": "prestige-pcs-roadside-2026-1",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2153279.html",
+    "title": "プレステージ・インターナショナル、ロードサービス業務システムへの不正アクセスで個人情報流出"
+  },
+  {
+    "id": "prestige-pcs-roadside-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56786.html",
+    "title": "プレステージ・インターナショナルグループの業務システムに不正アクセス、最大約550万件の顧客の個人情報が持ち出されたことを確認"
   }
 ]
