@@ -16777,5 +16777,35 @@
     "first_seen_at": "2026-11-16",
     "last_verified_at": "2026-11-16",
     "publication_status": "published"
+  },
+  {
+    "id": "hanikuji-land-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "株式会社コアデ",
+    "service": "オンラインくじ「はにくじランド」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・サービス",
+    "title": "オンラインくじ「はにくじランド」に不正アクセス、最大7,622人の顧客情報が漏えいした可能性",
+    "summary": "コアデは10月30日、運営するはにくじランドへの不正アクセスで顧客の個人情報が外部に漏えいした可能性があると公表しました。9月に問い合わせフォームの不具合を契機に調査し、不正なコマンド実行や認証情報の悪用の痕跡を確認しています。",
+    "note": "対象は会員登録または利用した最大7,622人で、調査中の上限値です。氏名・住所・電話番号・メールアドレス・購入履歴が対象となり得ますが、実際に閲覧・取得された項目は確認中です。カード情報は外部決済事業者が扱い当社サーバーに保存していないとしています。侵入日は不明で、二次被害は確認されていません。",
+    "affected": [
+      {
+        "count": 7622,
+        "unit": "people",
+        "description": "会員登録または利用した顧客の最大人数(調査中の上限値、漏えいが確認された人数ではない)",
+        "source_id": "hanikuji-land-2026-1"
+      }
+    ],
+    "sources": [
+      "hanikuji-land-2026-1",
+      "hanikuji-land-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-16",
+    "last_verified_at": "2026-11-16",
+    "verification_note": "コアデの10月30日付公式お知らせ(一次情報)とScanNetSecurity(11/11)の本文を確認。漏えいの可能性、最大7,622人、対象項目、対応状況を照合。"
   }
 ]

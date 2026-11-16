@@ -8300,5 +8300,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
     "title": "Australian retail giant Coles investigates cybersecurity incident"
+  },
+  {
+    "id": "hanikuji-land-2026-1",
+    "publisher": "株式会社コアデ",
+    "type": "primary",
+    "url": "https://www.coade-net.co.jp/blog/topics/38538/",
+    "title": "不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ"
+  },
+  {
+    "id": "hanikuji-land-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56737.html",
+    "title": "オンラインくじ「はにくじランド」に不正アクセス"
   }
 ]
