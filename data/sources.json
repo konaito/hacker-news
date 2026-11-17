@@ -8398,5 +8398,26 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
     "title": "Japan takes Fugaku supercomputer offlline after cyberattack"
+  },
+  {
+    "id": "quantum-systems-qbase-2026-1",
+    "publisher": "ZDFheute",
+    "type": "reporting",
+    "url": "https://www.zdfheute.de/wirtschaft/unternehmen/cyberangriff-quantum-systems-ruestungs-start-up-100.html",
+    "title": "Cyberangriff auf deutschen Drohnenhersteller Quantum Systems"
+  },
+  {
+    "id": "quantum-systems-qbase-2026-2",
+    "publisher": "Euronews",
+    "type": "reporting",
+    "url": "https://de.euronews.com/2026/11/13/bundeswehr-besorgt-nach-cyberangriff-auf-deutschen-drohnen-hersteller-quantum",
+    "title": "Bundeswehr besorgt nach Cyberangriff auf deutschen Drohnen-Hersteller Quantum"
+  },
+  {
+    "id": "quantum-systems-qbase-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+    "title": "German military drone operations disrupted by cyberattack"
   }
 ]
