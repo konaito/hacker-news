@@ -8384,5 +8384,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
     "title": "Uber notifies drivers of data breach affecting nearly 150,000 people"
+  },
+  {
+    "id": "riken-fugaku-2026-1",
+    "publisher": "理化学研究所(RIKEN)",
+    "type": "primary",
+    "url": "https://www.riken.jp/pr/news/2026/20261116_2/index.html",
+    "title": "スーパーコンピュータ「富岳」運用システムへの不正アクセスについて"
+  },
+  {
+    "id": "riken-fugaku-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+    "title": "Japan takes Fugaku supercomputer offlline after cyberattack"
   }
 ]
