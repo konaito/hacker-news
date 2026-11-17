@@ -8314,5 +8314,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56737.html",
     "title": "オンラインくじ「はにくじランド」に不正アクセス"
+  },
+  {
+    "id": "yojiya-member-api-2026-1",
+    "publisher": "よーじや",
+    "type": "primary",
+    "url": "https://www.yojiyacosme.com/2026/11/09/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-2/",
+    "title": "【重要】当社システムへの不正アクセスによる個人情報流出に関するお詫びとお知らせ"
+  },
+  {
+    "id": "yojiya-member-api-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56805.html",
+    "title": "よーじやの会員情報管理システムに不正アクセス、店舗・オンラインショップ・アプリに登録のあった顧客の個人情報が漏えい"
+  },
+  {
+    "id": "optimizely-web-supply-chain-2026-1",
+    "publisher": "Report URI",
+    "type": "reporting",
+    "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+    "title": "World's largest brands infected with malware via Optimizely"
+  },
+  {
+    "id": "optimizely-web-supply-chain-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+    "title": "Optimizely supply chain attack infects major brands' sites with malware"
   }
 ]

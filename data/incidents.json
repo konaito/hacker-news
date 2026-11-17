@@ -16807,5 +16807,58 @@
     "first_seen_at": "2026-11-16",
     "last_verified_at": "2026-11-16",
     "verification_note": "コアデの10月30日付公式お知らせ(一次情報)とScanNetSecurity(11/11)の本文を確認。漏えいの可能性、最大7,622人、対象項目、対応状況を照合。"
+  },
+  {
+    "id": "yojiya-member-api-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": "2026-11-07",
+    "company": "株式会社よーじや",
+    "service": "会員情報管理システム(店舗・オンラインショップ・アプリ)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "EC・サービス",
+    "title": "よーじやの会員情報管理システムに不正アクセス、API悪用で会員情報131,557人分が流出",
+    "summary": "よーじやは11月9日、会員情報管理システムのAPIが外部から不正利用され、会員情報が取得されたと公表しました。11月7日早朝に不正なAPIアクセスを確認し、調査を開始しています。",
+    "note": "流出が確認されたのは131,557人で、最大134,344人の可能性があります(2026年11月7日時点の会員が対象)。氏名・フリガナ・住所・電話番号・生年月日・性別・メールアドレス・会員番号・購入統計などが対象です。クレジットカード情報と会員ログインパスワードは保有していないとしています。APIキーの漏えい経路は調査中で、11月9日時点で情報の悪用は確認されていません。店舗・オンラインショップ・アプリは利用可能とされています。",
+    "affected": [
+      {
+        "count": 131557,
+        "unit": "people",
+        "description": "流出が確認された会員の人数(最大134,344人の可能性)",
+        "source_id": "yojiya-member-api-2026-1"
+      }
+    ],
+    "sources": [
+      "yojiya-member-api-2026-1",
+      "yojiya-member-api-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-17",
+    "last_verified_at": "2026-11-17",
+    "verification_note": "よーじやの11月9日付公式お知らせ(一次情報)とScanNetSecurity(11/17)の本文を確認。発覚日、人数、対象項目、対応を照合。"
+  },
+  {
+    "id": "optimizely-web-supply-chain-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": "2026-11-16",
+    "company": "Optimizely",
+    "service": "Optimizely Web(実験・パーソナライズ基盤)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "Optimizely Webの顧客プロジェクトに悪意あるJavaScriptが混入、178組織のサイトでカード窃取や暗号資産すり替えを実行",
+    "summary": "セキュリティ研究者Scott Helme氏とBleepingComputerによると、11月16日、Optimizely Webの顧客プロジェクトのJavaScriptに悪意あるコードが追加され、OptimizelyのCDN経由で多数のサイトの訪問者に配信されました。コードは暗号資産アドレスのすり替え、カード情報の窃取、Cookie・スクリーンショットの送信、iOS向けエクスプロイトの配布を行ったとされます。",
+    "note": "Report URIは調査した1,611件のうち178組織の188ファイルで感染を確認しましたが、実数はより多い可能性があります。攻撃者の暗号資産ウォレットには約7,040ドルが送られました。BleepingComputerは掲載時点でOptimizelyの回答を得ておらず、複数顧客プロジェクトへの書き込み権限を得た経緯(Optimizely側の侵害・認証情報窃取など)は未解明です。クリーンアップが進み、16日21時52分(UTC)時点で感染が残るのは1ファイルとされます。カード情報を盗まれた訪問者数は不明です。",
+    "affected": [],
+    "sources": [
+      "optimizely-web-supply-chain-2026-1",
+      "optimizely-web-supply-chain-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-17",
+    "last_verified_at": "2026-11-17",
+    "verification_note": "Report URI(Scott Helme氏)の調査記事とBleepingComputerの本文を確認。感染ファイル数・組織数、挙動、タイムライン、Optimizely未回答・侵入経路未解明の点を照合。Optimizelyの公式見解は未確認。"
   }
 ]
