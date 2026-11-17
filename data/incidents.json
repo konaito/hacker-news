@@ -16860,5 +16860,60 @@
     "first_seen_at": "2026-11-17",
     "last_verified_at": "2026-11-17",
     "verification_note": "Report URI(Scott Helme氏)の調査記事とBleepingComputerの本文を確認。感染ファイル数・組織数、挙動、タイムライン、Optimizely未回答・侵入経路未解明の点を照合。Optimizelyの公式見解は未確認。"
+  },
+  {
+    "id": "barracuda-artex-cloud-2026",
+    "published_at": "2026-11-10",
+    "occurred_at": "2026-11-01",
+    "company": "Barracuda Networks",
+    "service": "社内クラウド環境(クラウドアカウント、分析基盤、ソースコード、Kubernetes)・Barracuda XDR連携認証情報",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "Barracuda、委託先AIベンダー経由で漏えいした未失効のクラウドアクセスキーで約10のクラウドアカウントに侵入され、XDR連携認証情報の再作成を顧客に要請",
+    "summary": "Barracudaは、過去の案件でAIベンダーに渡したクラウドアクセスキーを失効させておらず、11月1〜2日に約44時間にわたり約10のクラウドアカウント、データ分析基盤、ソースコード、Kubernetesクラスターへ侵入されたと公表しました。11月4日に発覚し、攻撃者のコンテナを削除して認証情報を更新しました。",
+    "note": "Barracudaは攻撃の手口がオープンソースのAI侵入テストフレームワーク「ARTEX」の特徴と一致したと説明しています(攻撃者の特定ではありません)。Barracuda XDRが顧客データ収集に使う連携認証情報を保存するシステムにも到達しましたが、閲覧・取得の直接的証拠は未確認で、ログ不足のため否定もできないとしています。Managed XDR CloudまたはMonitored Endpointで連携を使う該当顧客に認証情報の再作成を要請。暗号資産関連情報の探索は確認されたものの、該当情報は見つかっていません。調査は継続中で、顧客データの流出件数は公表されていません。",
+    "affected": [],
+    "sources": [
+      "barracuda-artex-cloud-2026-1",
+      "barracuda-artex-cloud-2026-2",
+      "barracuda-artex-cloud-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-17",
+    "last_verified_at": "2026-11-17",
+    "verification_note": "Barracuda公式ブログとTrust Center(11/13更新)の本文、およびBleepingComputer(11/16)本文を照合。期間、侵入経路、ARTEXとの一致、顧客への影響範囲を確認。"
+  },
+  {
+    "id": "uber-fireworks-drivers-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": null,
+    "company": "Uber",
+    "service": "委託先向けクラウドストレージ上の運転免許証データ",
+    "region": "US",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "交通・物流",
+    "title": "Uber、委託先の認証情報窃取を通じ運転免許証由来の情報が流出、149,346人に通知",
+    "summary": "Uberは、委託先が保有していた内部認証情報が盗まれ、同社がその委託先向けに用意したクラウド環境へ不正アクセスされたとして、149,346人に通知しました。氏名、住所、生年月日、運転免許証番号が対象です。委託先は10月9日にUberへ連絡しました。",
+    "note": "Uberは委託先名を公表していません。TechCrunchはAIインフラ企業Fireworks AIの10月の侵害に関連すると報じ、Fireworksは金銭目的の犯罪グループによるものと説明しています。通知数149,346は「人」で、Uberはうち何人がドライバーかを示していません。有効な認証情報が使われたためUberのアラートは作動しませんでした。他システムへの影響はないとしています。BleepingComputerは時系列に一部不整合があると記しており、調査は継続中です。",
+    "affected": [
+      {
+        "count": 149346,
+        "unit": "people",
+        "description": "州当局への届出で通知された人数(ドライバー数の内訳は非公表)",
+        "source_id": "uber-fireworks-drivers-2026-1"
+      }
+    ],
+    "sources": [
+      "uber-fireworks-drivers-2026-1",
+      "uber-fireworks-drivers-2026-2",
+      "uber-fireworks-drivers-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-17",
+    "last_verified_at": "2026-11-17",
+    "verification_note": "TechCrunch(11/16)、The Record、BleepingComputer(11/17)の本文で、149,346人、対象項目、10/9の委託先通知、認証情報悪用を照合。Uber一次通知文は未取得のため独立3媒体で確認。"
   }
 ]

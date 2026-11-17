@@ -8342,5 +8342,47 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
     "title": "Optimizely supply chain attack infects major brands' sites with malware"
+  },
+  {
+    "id": "barracuda-artex-cloud-2026-1",
+    "publisher": "Barracuda",
+    "type": "primary",
+    "url": "https://blog.barracuda.com/2026/11/11/anatomy-of-a-machine-speed-intrusion",
+    "title": "Anatomy of a machine-speed intrusion"
+  },
+  {
+    "id": "barracuda-artex-cloud-2026-2",
+    "publisher": "Barracuda Trust Center",
+    "type": "primary",
+    "url": "https://trust.barracuda.com/security/barracuda-xdr-integration-credentials",
+    "title": "Barracuda XDR integration credentials"
+  },
+  {
+    "id": "barracuda-artex-cloud-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+    "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack"
+  },
+  {
+    "id": "uber-fireworks-drivers-2026-1",
+    "publisher": "TechCrunch",
+    "type": "reporting",
+    "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+    "title": "Uber confirms hackers stole thousands of drivers' license information in data breach"
+  },
+  {
+    "id": "uber-fireworks-drivers-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/uber-says-150000-impacted-third-party-breach",
+    "title": "Uber says nearly 150,000 impacted by third-party breach"
+  },
+  {
+    "id": "uber-fireworks-drivers-2026-3",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+    "title": "Uber notifies drivers of data breach affecting nearly 150,000 people"
   }
 ]
