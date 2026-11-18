@@ -8742,12 +8742,13 @@
     "note": "自治体の回答を掲載した1媒体の本文のみ確認。直接読める自治体発表または独立した別媒体の本文による確認まで非公開とします。他の記事による同媒体の引用を独立確認として数えません。攻撃者の窃取・販売主張や人数は採用せず、affectedは空欄に維持。発生日は同媒体が報じる8月13日で、一次資料未確認です。",
     "affected": [],
     "sources": [
-      "andover-town-schools-2026-1"
+      "andover-town-schools-2026-1",
+      "andover-town-schools-2026-2"
     ],
     "publication_status": "pending",
     "first_seen_at": "2026-10-09",
-    "last_verified_at": "2026-10-09",
-    "verification_note": "Andover News10月8日本文の町広報担当者の書面回答、ネットワーク停止と復旧の説明を確認。自治体公式サイトと別報道を検索したが一次本文または独立した2媒体による突合条件を満たさずpendingで記録。"
+    "last_verified_at": "2026-11-18",
+    "verification_note": "2026-11-18再調査。The Cyber Express(10月9日)本文を確認し、町広報担当者の書面回答として「一部システムへの不正アクセスを確認」、データ持出しは調査中という内容がAndover Newsと一致。ただし同じ書面回答に依拠し、町の公式発表本文は確認できず、攻撃者(WallStreet)の掲載も未検証で、影響対象が町・学校のどちらかも不明。独立した2媒体の条件を満たさずpendingを維持。"
   },
   {
     "published_at": "2026-10-09",
