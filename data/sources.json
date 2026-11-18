@@ -8503,5 +8503,47 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html",
     "title": "オンライン麻雀「Maru-Jan」に不正アクセス、会員185万5,578件の情報が漏えい"
+  },
+  {
+    "id": "sevenbank-residence-card-2026-1",
+    "publisher": "セブン銀行",
+    "type": "primary",
+    "url": "https://www.sevenbank.co.jp/support/info_notice127.html",
+    "title": "当社システムへの不正アクセスによるお客さま情報の漏洩について"
+  },
+  {
+    "id": "sevenbank-residence-card-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56825.html",
+    "title": "セブン銀行に不正アクセス、最大150件程度の在留カードの券面情報が漏えいした可能性"
+  },
+  {
+    "id": "openlogi-unauthorized-access-2026-1",
+    "publisher": "オープンロジ",
+    "type": "primary",
+    "url": "https://corp.openlogi.com/news/notice/notice-20261111/",
+    "title": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "openlogi-unauthorized-access-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56822.html",
+    "title": "オープンロジのシステムに不正アクセス、出荷データの持ち出しを確認"
+  },
+  {
+    "id": "cao-arara-mailmagazine-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56815.html",
+    "title": "内閣府メルマガ利用者メールアドレス6万1,751件漏えい"
+  },
+  {
+    "id": "cao-arara-mailmagazine-2026-2",
+    "publisher": "Security BANK(sbbit)",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188287",
+    "title": "内閣府、メール配信サービス事業者への不正アクセスでメルマガ利用者のメールアドレス漏えい"
   }
 ]

@@ -17142,5 +17142,88 @@
     "first_seen_at": "2026-11-18",
     "last_verified_at": "2026-11-18",
     "verification_note": "シグナルトークの11月7日付公式発表(一次情報)とScanNetSecurity(11/13)の本文を確認し、持出し時刻、件数、項目、再開日を照合。"
+  },
+  {
+    "id": "sevenbank-residence-card-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": "2026-11-09",
+    "company": "株式会社セブン銀行",
+    "service": "在留カード提出サイト・口座解約受付サイト",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "金融",
+    "title": "セブン銀行の在留カード提出サイト等に不正アクセス、最大150件程度の在留カード券面情報が漏えいした可能性",
+    "summary": "セブン銀行は11月11日、外国籍の口座利用者向け在留カード提出サイトと口座解約受付サイトへの第三者による不正アクセスの形跡を11月9日に確認したと公表しました。提出サイトに保管された在留カード券面情報が最大150件程度、外部に漏えいした可能性があります。",
+    "note": "件数は在留カードの枚数(最大約150件)で、人数ではありません。対象は書類不備の通知を受けた人と10月16日〜11月9日に提出サイトを利用した人です。原因・影響範囲は調査中。システム停止と攻撃元遮断を実施し、両サイトは停止中で、不正送金・解約・改ざんは確認されていないとしています。ATM・インターネットバンキング等への影響はありません。",
+    "affected": [
+      {
+        "count": 150,
+        "unit": "documents",
+        "description": "漏えいの可能性がある在留カード券面情報(最大約150件、枚数。人数ではない)",
+        "source_id": "sevenbank-residence-card-2026-1"
+      }
+    ],
+    "sources": [
+      "sevenbank-residence-card-2026-1",
+      "sevenbank-residence-card-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "セブン銀行の11月11日付公式発表と、ScanNetSecurity(11/18)の本文を確認し、検知日、最大約150件、対象期間、対応を照合。"
+  },
+  {
+    "id": "openlogi-unauthorized-access-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": "2026-11-08",
+    "company": "株式会社オープンロジ",
+    "service": "物流・倉庫システム(出荷データ)",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "交通・物流",
+    "title": "オープンロジのシステムに不正アクセス、出荷データの一部が外部に持ち出される",
+    "summary": "オープンロジは11月11日、11月8日〜9日に外部の第三者による不正アクセスがあり、保有する出荷データの一部が外部に持ち出されたと公表しました。対象は2026年4月8日〜11月8日の出荷依頼で、届け先の氏名・住所・電話番号・メールアドレス(登録時)と商品情報です。",
+    "note": "件数は公表されていません(調査中)。クレジットカード番号は保有していません。11月9日に判明した経路を遮断し、以降の新たな不正アクセスは確認されていません。二次被害は11/11時点で確認されておらず、個人情報保護委員会への報告と警察への相談を予定しています。侵入経路・原因は外部専門機関と調査中です。",
+    "affected": [],
+    "sources": [
+      "openlogi-unauthorized-access-2026-1",
+      "openlogi-unauthorized-access-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "オープンロジの11月11日付公式発表と、ScanNetSecurity(11/18)の本文を確認し、期間、対象データ項目、対応、件数未公表を照合。"
+  },
+  {
+    "id": "cao-arara-mailmagazine-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": null,
+    "company": "内閣府(委託先:アララ株式会社)",
+    "service": "内閣府が利用するメール配信サービス・メールマガジン",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "官公庁・自治体",
+    "title": "内閣府のメルマガ利用者のメールアドレス6万1,751件が、アララへの不正アクセスで漏えい",
+    "summary": "内閣府は11月11日、利用するメール配信サービス事業者アララ株式会社への第三者の不正アクセスにより、メールマガジン利用者のメールアドレスが漏えいしたと公表しました。合計62,863件(重複除き61,751件)で、一部のメルマガでは氏名・性別・年代・職業・所属等も漏えいした可能性があります。",
+    "note": "件数はメールアドレスの件数で、人数ではありません(62,863件、重複除き61,751件。運用管理用テストデータ104件を含むと報じられています)。対象メルマガ数はScanNetSecurityが15種類、sbbitが14種類と報じており一致しません。原因はアララのWebサーバーの脆弱性等と報じられ、調査中。二次被害は未確認。内閣府の公式PDFは暗号化されており本文を直接読めなかったため、独立した報道2媒体の本文で確認しています。アララ事案(arara-message-2026)の契約者の一つとして別記録にし、件数は合算していません。",
+    "affected": [
+      {
+        "count": 61751,
+        "unit": "records",
+        "description": "漏えいしたメールアドレス(重複除き。人数ではない)",
+        "source_id": "cao-arara-mailmagazine-2026-1"
+      }
+    ],
+    "sources": [
+      "cao-arara-mailmagazine-2026-1",
+      "cao-arara-mailmagazine-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "内閣府公式PDFは暗号化で読めず。ScanNetSecurity(11/18)とSecurity BANK(sbbit)の本文を確認し、件数62,863/61,751、原因、対応を照合。"
   }
 ]
