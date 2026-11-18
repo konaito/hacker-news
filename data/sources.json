@@ -8419,5 +8419,33 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
     "title": "German military drone operations disrupted by cyberattack"
+  },
+  {
+    "id": "yeny-api-config-2026-1",
+    "publisher": "Yeny",
+    "type": "primary",
+    "url": "https://yeny.jp/pressrelease/1547/",
+    "title": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "yeny-api-config-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56823.html",
+    "title": "API接続設定不備が原因 不正アクセスでYenyの会員情報133万2,505件が漏えい"
+  },
+  {
+    "id": "beautygarage-ec-2026-1",
+    "publisher": "ビューティガレージ",
+    "type": "primary",
+    "url": "https://www.beautygarage.jp/topics/news_unauthorizedaccess2026",
+    "title": "当社ECサイトへの第三者からの不正アクセスによる情報漏洩に関するお知らせ"
+  },
+  {
+    "id": "beautygarage-ec-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56819.html",
+    "title": "ビューティガレージECサイトに不正アクセス、77万5,725件の顧客情報が漏えい"
   }
 ]

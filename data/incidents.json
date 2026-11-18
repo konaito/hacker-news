@@ -16969,5 +16969,65 @@
     "first_seen_at": "2026-11-17",
     "last_verified_at": "2026-11-17",
     "verification_note": "ZDFheute(11/13)、Euronews(11/13、SPIEGEL引用)、BleepingComputer(11/13)の本文で、10月末の攻撃検知、11/12の公表、当局連携による封じ込めを照合。侵入経路と連邦軍の措置は報道ベースで未確認として記載。"
+  },
+  {
+    "id": "yeny-api-config-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": null,
+    "company": "株式会社Yeny",
+    "service": "ultra pay card・各PayBlend連携サービス",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "EC・サービス",
+    "title": "Yeny、API接続設定の不備による不正アクセスで会員の電話番号・会員ID 1,332,505件が漏えい",
+    "summary": "Yenyは11月12日、API接続設定の不備を突いた不正アクセスで、元会員を含む会員の電話番号と会員IDが漏えいしたと公表しました。10月31日に連携事業者から不審なAPI呼び出しの連絡を受け、11月5日に漏えいを確認しています。",
+    "note": "1,332,505件は元会員を含む件数で、人数ではありません。クレジットカード等の決済情報の漏えいは確認されておらず、漏えい情報のみではアプリへのログインや決済はできないとしています。個人情報保護委員会等へ11月6日に報告済み。対象はultra pay card、アスルクラロ沼津Pay、巫神こんPay、東芝ブレイブルーパス東京Pay。実際の不正アクセス発生日は公表されていません。",
+    "affected": [
+      {
+        "count": 1332505,
+        "unit": "records",
+        "description": "漏えいした電話番号・会員IDの件数(元会員を含む。人数ではない)",
+        "source_id": "yeny-api-config-2026-1"
+      }
+    ],
+    "sources": [
+      "yeny-api-config-2026-1",
+      "yeny-api-config-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "Yenyの11月12日付公式発表(一次情報)とScanNetSecurity(11/18)の本文を確認し、検知日、件数、対象項目、原因、対応を照合。"
+  },
+  {
+    "id": "beautygarage-ec-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-10-10",
+    "company": "株式会社ビューティガレージ",
+    "service": "ビューティガレージ・アイラッシュガレージECシステム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "EC・サービス",
+    "title": "ビューティガレージのECサイトに不正アクセス、顧客情報775,725件が流出",
+    "summary": "ビューティガレージは10月15日、ECサーバーへの不正アクセス(10月10〜12日)で、ビューティガレージおよびアイラッシュガレージの顧客情報が外部に流出したと公表しました。10月13日に検知し、侵入経路を遮断しています。",
+    "note": "775,725件は10月10日23時55分時点のECシステム上の顧客情報の件数で、人数ではありません。会社名・サロン名・顧客名・電話番号・メールアドレス、パスワードおよび再設定用質問回答のハッシュ値が対象。住所・配送先・購入履歴・決済情報の流出は確認されていません。公開や不正利用の事実も確認されていません。2026年2月のカード情報漏えい懸念とは別の事案です。侵入方法は未公表。",
+    "affected": [
+      {
+        "count": 775725,
+        "unit": "records",
+        "description": "流出した顧客情報の件数(10月10日23:55時点。人数ではない)",
+        "source_id": "beautygarage-ec-2026-1"
+      }
+    ],
+    "sources": [
+      "beautygarage-ec-2026-1",
+      "beautygarage-ec-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "ビューティガレージの10月15日付公式お知らせ(一次情報)とScanNetSecurity(11/18)の本文を確認。侵入期間、検知日、件数、項目を照合。"
   }
 ]
