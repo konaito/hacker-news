@@ -8447,5 +8447,61 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56819.html",
     "title": "ビューティガレージECサイトに不正アクセス、77万5,725件の顧客情報が漏えい"
+  },
+  {
+    "id": "active-mailorder-sqli-2026-1",
+    "publisher": "アクティブ",
+    "type": "primary",
+    "url": "https://www.active-pro.jp/news/4303/",
+    "title": "不正アクセスに関するお知らせ(公式)"
+  },
+  {
+    "id": "active-mailorder-sqli-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56807.html",
+    "title": "アクティブ運営の通販サイトに不正アクセス、最大54,916件の個人情報が漏えいした可能性"
+  },
+  {
+    "id": "monitas-qzoo-sqli-2026-1",
+    "publisher": "モニタス",
+    "type": "primary",
+    "url": "https://monitas.co.jp/news/security-notice-20261021.html",
+    "title": "不正アクセスに関するお知らせ(公式)"
+  },
+  {
+    "id": "monitas-qzoo-sqli-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56808.html",
+    "title": "アンケートサイト「Qzoo」にSQLインジェクション攻撃、個人情報約40万件が漏えいした可能性"
+  },
+  {
+    "id": "gowebcloud-goweb-sqli-2026-1",
+    "publisher": "GoWebクラウド",
+    "type": "primary",
+    "url": "https://gowebcloud.co.jp/news-ir/803",
+    "title": "不正アクセスに関するお知らせ(公式)"
+  },
+  {
+    "id": "gowebcloud-goweb-sqli-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56809.html",
+    "title": "入居申込サービス「GoWeb」にSQLインジェクション、申込者情報が漏えいした可能性"
+  },
+  {
+    "id": "signaltalk-maru-jan-2026-1",
+    "publisher": "シグナルトーク",
+    "type": "primary",
+    "url": "https://www.signaltalk.com/press/20261107.php",
+    "title": "不正アクセスに関するお知らせ(公式)"
+  },
+  {
+    "id": "signaltalk-maru-jan-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/13/56779.html",
+    "title": "オンライン麻雀「Maru-Jan」に不正アクセス、会員185万5,578件の情報が漏えい"
   }
 ]

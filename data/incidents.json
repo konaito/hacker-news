@@ -17029,5 +17029,118 @@
     "first_seen_at": "2026-11-18",
     "last_verified_at": "2026-11-18",
     "verification_note": "ビューティガレージの10月15日付公式お知らせ(一次情報)とScanNetSecurity(11/18)の本文を確認。侵入期間、検知日、件数、項目を照合。"
+  },
+  {
+    "id": "active-mailorder-sqli-2026",
+    "published_at": "2026-10-06",
+    "occurred_at": "2026-10-02",
+    "company": "株式会社アクティブ",
+    "service": "アクティブ運営の通販サイト",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "アクティブの通販サイトにSQLインジェクションによる不正アクセス、顧客情報最大54,916件が漏えいした可能性",
+    "summary": "アクティブは10月6日、通販サイトの特定ページへのSQLインジェクション(10月2日)による不正アクセスを公表しました。10月3日の定期点検とログ解析で痕跡を確認し、不正な管理者アカウントで顧客・注文情報が出力された可能性があります。",
+    "note": "最大54,916件は件数で、人数ではありません。店舗名・住所・電話番号・メールアドレス・注文情報(注文金額・商品コード・配送先)が対象で、漏えいは確認ではなく可能性です。クレジットカード・口座情報、ログインパスワード、基幹システムは対象外としています。外部専門機関によるフォレンジック調査を手配中です。",
+    "affected": [
+      {
+        "count": 54916,
+        "unit": "records",
+        "description": "漏えいの可能性がある顧客情報の最大件数(人数ではない)",
+        "source_id": "active-mailorder-sqli-2026-1"
+      }
+    ],
+    "sources": [
+      "active-mailorder-sqli-2026-1",
+      "active-mailorder-sqli-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "アクティブの10月6日付公式発表(一次情報)とScanNetSecurity(11/17)の本文を確認し、攻撃日、検知日、件数、項目、対象外情報を照合。"
+  },
+  {
+    "id": "monitas-qzoo-sqli-2026",
+    "published_at": "2026-10-21",
+    "occurred_at": "2026-10-17",
+    "company": "株式会社モニタス",
+    "service": "アンケートサイト「Qzoo」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・サービス",
+    "title": "アンケートサイト「Qzoo」にSQLインジェクションで不正アクセス、約40万件の個人情報が漏えいした可能性",
+    "summary": "モニタスは10月21日、「Qzoo」への第三者による不正アクセスを公表しました。10月17日8時30分ごろから不正アクセスがあり、12時22分にSQLインジェクションでデータベースが閲覧・更新され、18時44分に検知・遮断しています。",
+    "note": "約40万件は10月17日時点でQzooシステムに保存されていた全件数で、人数ではありません。氏名・生年月日・住所・電話・メール、会員ID・パスワード、口座情報、年収・職業などの回答が対象で、漏えいは調査中の可能性です。クレジットカード番号とマイナンバーは保有していません。サービスは停止中で、原因と範囲は外部専門家と調査中です。",
+    "affected": [
+      {
+        "count": 400000,
+        "unit": "records",
+        "description": "漏えいの可能性がある個人情報の件数(約。Qzooシステム保存の全件。人数ではない)",
+        "source_id": "monitas-qzoo-sqli-2026-1"
+      }
+    ],
+    "sources": [
+      "monitas-qzoo-sqli-2026-1",
+      "monitas-qzoo-sqli-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "モニタスの10月21日付公式発表(一次情報)とScanNetSecurity(11/17)の本文を確認し、時刻、件数、項目、対象外情報、サービス停止を照合。"
+  },
+  {
+    "id": "gowebcloud-goweb-sqli-2026",
+    "published_at": "2026-10-26",
+    "occurred_at": null,
+    "company": "株式会社GoWebクラウド",
+    "service": "入居申込サービス「GoWeb」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "不動産",
+    "title": "入居申込サービス「GoWeb」にSQLインジェクションで不正アクセス、申込者情報が漏えいした可能性",
+    "summary": "GoWebクラウドは10月26日、入居申込サービス「GoWeb」へのSQLインジェクションによる不正アクセスを公表しました。10月15日に開発・保守会社からの連絡で判明し、複数の利用企業の環境が影響を受けた可能性があります。",
+    "note": "影響人数は未公表で、データが実際に外部へ持ち出されたかは調査中です。申込者・同居人・緊急連絡先の氏名・生年月日・性別・住所・電話・メール・続柄、仲介会社のアカウント情報が対象になり得ます。運転免許証・保険証などの画像への不正アクセスはなく、カード情報は保有していないとしています。脆弱性は修正済み。不正アクセスの発生日は公表されていません。",
+    "affected": [],
+    "sources": [
+      "gowebcloud-goweb-sqli-2026-1",
+      "gowebcloud-goweb-sqli-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "GoWebクラウドの10月26日付公式発表(一次情報)とScanNetSecurity(11/17)の本文を確認し、判明日、対象項目、対象外情報、件数未公表を照合。"
+  },
+  {
+    "id": "signaltalk-maru-jan-2026",
+    "published_at": "2026-11-07",
+    "occurred_at": "2026-11-04",
+    "company": "株式会社シグナルトーク",
+    "service": "オンライン麻雀「Maru-Jan」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "エンタメ",
+    "title": "オンライン麻雀「Maru-Jan」に不正アクセス、会員185万5,578件のメールアドレス・パスワードが漏えい",
+    "summary": "シグナルトークは11月7日、「Maru-Jan」の管理システムの機能を悪用した不正アクセスで、会員情報が外部へダウンロードされたと公表しました。11月4日15時ごろまでに持ち出されており、侵入経路は特定し修正済みです。",
+    "note": "185万5,578件は全会員の件数で、人数ではありません。メールアドレス(登録者のみ)とパスワードが対象で、パスワードの保存方式は公式発表に記載がありません。カード番号は保有していません。サービスは11月7日16時に再開。調査と対策は継続中で、お詫びポイント3,000ptを付与します。",
+    "affected": [
+      {
+        "count": 1855578,
+        "unit": "records",
+        "description": "漏えいした会員情報の件数(全会員。人数ではない)",
+        "source_id": "signaltalk-maru-jan-2026-1"
+      }
+    ],
+    "sources": [
+      "signaltalk-maru-jan-2026-1",
+      "signaltalk-maru-jan-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-18",
+    "last_verified_at": "2026-11-18",
+    "verification_note": "シグナルトークの11月7日付公式発表(一次情報)とScanNetSecurity(11/13)の本文を確認し、持出し時刻、件数、項目、再開日を照合。"
   }
 ]
