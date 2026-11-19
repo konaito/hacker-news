@@ -8629,5 +8629,33 @@
     "type": "primary",
     "url": "https://www.nissay-hp.or.jp/news/common/20261015_kojinjoho.html",
     "title": "日本生命病院 訪問看護ステーションの個人情報に関するお知らせ(2026/10/15)"
+  },
+  {
+    "id": "rakuten-sec-test-env-2026-1",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2157207.html",
+    "title": "楽天証券、不正アクセスで顧客情報が漏えいした可能性(Impress Watch 11/17)"
+  },
+  {
+    "id": "rakuten-sec-test-env-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/193015",
+    "title": "年収や資産情報など個人情報流出の可能性 - 楽天証券(11/18)"
+  },
+  {
+    "id": "equinor-cyberattack-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/norway-equinor-cyberattack-energy",
+    "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services"
+  },
+  {
+    "id": "equinor-cyberattack-2026-2",
+    "publisher": "Gulf News (Reuters)",
+    "type": "reporting",
+    "url": "https://gulfnews.com/world/europe/norways-equinor-detects-cyberattack-on-it-systems-operations-unaffected-1.500751236",
+    "title": "Norway's Equinor detects cyberattack on IT systems; operations unaffected"
   }
 ]

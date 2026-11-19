@@ -1,5 +1,64 @@
 [
   {
+    "id": "equinor-cyberattack-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-11-17",
+    "company": "Equinor",
+    "service": "社内ITシステム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "サイバー攻撃で障害",
+    "category": "エネルギー",
+    "title": "ノルウェーのエネルギー大手Equinor、社内ITシステムへのサイバー攻撃を検知、業務アプリ等に障害の可能性",
+    "summary": "Equinorは11月17日、一部のITシステムに対する進行中のサイバー攻撃を検知したと発表しました。石油・ガスの生産への影響やデータ窃取の兆候はないとしていますが、従業員は社内アプリやITサービスに支障が出る可能性があります。",
+    "note": "当局に通知し、封じ込めと復旧を進めていますが、復旧時間は未定です。攻撃者、侵入経路、対象システム、ランサムウェアか否かは公表されていません。ロイター報道(Gulf News)は、同時期の米国での障害や攻撃ツールARTEXとの関連を示す証拠はないとしています。同社の一次発表本文は取得できておらず、報道2媒体の本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "equinor-cyberattack-2026-1",
+      "equinor-cyberattack-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19",
+    "verification_note": "The Record(11/18)とGulf News掲載のロイター記事(11/17)の本文を確認。11/17検知、生産影響なし・窃取の兆候なし、当局連携、攻撃者不明を照合。"
+  },
+  {
+    "id": "rakuten-sec-test-env-2026",
+    "published_at": "2026-11-17",
+    "occurred_at": "2026-11-11",
+    "company": "楽天証券",
+    "service": "テスト環境のシステム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "金融・保険",
+    "title": "楽天証券、テスト環境への不正アクセスで最大約447万口座分の個人情報や年収・資産情報が漏えいした可能性",
+    "summary": "楽天証券は11月17日、11月16日に第三者による一部システムへの不正アクセスの可能性を検知し、11月11日にテスト環境内の情報が外部に漏えいしたおそれがあると発表しました。氏名・住所・年収・金融資産などが最大約447万口座分、お客様コードとログインIDが最大約1,125万口座分の対象です。",
+    "note": "退会者の情報を含みます。パスワードや暗証番号など取引に必要な情報の漏えいと、今回の漏えいに起因する不正取引は確認されていません。原因・経緯は調査中です。口座数(約447万、約1,125万)は項目群ごとの口座単位で、人数や両者の合算としては扱っていません。楽天証券の公式お知らせ本文は取得できておらず、報道2媒体の本文で確認しました。",
+    "affected": [
+      {
+        "count": 4470000,
+        "unit": "accounts",
+        "description": "氏名・住所・年収・金融資産等が漏えいした可能性のある口座(最大約447万、退会者含む)",
+        "source_id": "rakuten-sec-test-env-2026-1"
+      },
+      {
+        "count": 11250000,
+        "unit": "accounts",
+        "description": "お客様コード・ログインIDが漏えいした可能性のある口座(最大約1,125万)",
+        "source_id": "rakuten-sec-test-env-2026-1"
+      }
+    ],
+    "sources": [
+      "rakuten-sec-test-env-2026-1",
+      "rakuten-sec-test-env-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19",
+    "verification_note": "Impress Watch(11/17)とSecurity NEXT(11/18)の本文を確認。11/16検知、11/11漏えいのおそれ、2区分の口座数、対象項目、パスワード等未確認を照合。公式本文は未取得。"
+  },
+  {
     "id": "shiseido-fca-2026",
     "published_at": "2026-11-06",
     "occurred_at": null,
