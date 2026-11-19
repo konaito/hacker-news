@@ -8552,5 +8552,26 @@
     "type": "reporting",
     "url": "https://thecyberexpress.com/andover-cyberattack/",
     "title": "Andover Confirms Cyberattack Reached Its Systems, Investigation Continues"
+  },
+  {
+    "id": "rakumachi-credential-stuffing-2026-1",
+    "publisher": "楽待株式会社",
+    "type": "primary",
+    "url": "https://rakumachi.co.jp/20261019/",
+    "title": "不正ログインの発生と個人情報の漏えいに関するご報告"
+  },
+  {
+    "id": "rakumachi-credential-stuffing-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/19/56833.html",
+    "title": "不動産投資サイト「楽待」にリスト型攻撃、加盟店への問い合わせ一覧のダウンロードを確認"
+  },
+  {
+    "id": "fireworks-evaluation-secrets-2026-4",
+    "publisher": "LRM株式会社",
+    "type": "primary",
+    "url": "https://www.lrm.jp/info/news/info_20261111/",
+    "title": "Notion AI入力ログの漏えいに関するお知らせ(LRM)"
   }
 ]

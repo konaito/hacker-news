@@ -10026,17 +10026,18 @@
     "category": "IT・クラウド",
     "title": "Fireworks AI、10月の環境変数流出に続き開発環境も侵害、請求情報やデータセットが一部顧客で流出しNotionのAI会話記録にも影響",
     "summary": "Fireworks AIは10月6日検知の侵害で評価ジョブの環境変数(APIキー等)が取得されたと公表していましたが、続報では10月23日にサードパーティ・クラウド経由で開発環境へ侵入され、一部顧客のリソースメタデータ、請求情報、モデル重み、データセットが露出したと説明しました。11月8日に顧客データへのアクセスを確認し、NotionはAI会話記録が少数のワークスペースで露出したと公表しています。",
-    "note": "Fireworksは影響を受けた顧客数を「限定的」とのみ説明し、件数は非公表です。Notionは影響を利用者の1%未満とし、露出した会話記録の多くは作成者や特定ワークスペースに紐付かないと説明しています(NotionのInsights機能は停止)。Unit 42が金銭目的の犯罪グループによるものと判断したとThe Recordは伝えていますが、集団名は未特定です。AIサービスへの侵害であり、AIを攻撃に使用した証拠ではありません。",
+    "note": "Fireworksは影響を受けた顧客数を「限定的」とのみ説明し、件数は非公表です。Notionは影響を利用者の1%未満とし、露出した会話記録の多くは作成者や特定ワークスペースに紐付かないと説明しています(NotionのInsights機能は停止)。Unit 42が金銭目的の犯罪グループによるものと判断したとThe Recordは伝えていますが、集団名は未特定です。AIサービスへの侵害であり、AIを攻撃に使用した証拠ではありません。 日本企業ではLRMが11月11日(11/18更新)に、Notionの委託先Fireworks AI経由で10月5日〜24日分のNotion AI入力・応答記録の一部が漏えいした可能性があるとして対応しています(件数は調査中、LRM自身のシステムへの侵害ではない)。",
     "affected": [],
     "sources": [
       "fireworks-evaluation-secrets-2026-1",
       "fireworks-evaluation-secrets-2026-2",
-      "fireworks-evaluation-secrets-2026-3"
+      "fireworks-evaluation-secrets-2026-3",
+      "fireworks-evaluation-secrets-2026-4"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-15",
-    "last_verified_at": "2026-11-12",
-    "verification_note": "Fireworks公式本文に加え、The RecordとBleepingComputerの続報本文で、10月23日の開発環境侵害、請求情報・データセット露出、Notion影響を突合。顧客数は未公表のまま。"
+    "last_verified_at": "2026-11-19",
+    "verification_note": "Fireworks公式本文に加え、The RecordとBleepingComputerの続報本文で、10月23日の開発環境侵害、請求情報・データセット露出、Notion影響を突合。顧客数は未公表のまま。 11/19にLRM公式発表本文で日本側の影響(期間・範囲・件数調査中)を確認。"
   },
   {
     "id": "zenith-technology-2026",
@@ -17226,5 +17227,47 @@
     "first_seen_at": "2026-11-18",
     "last_verified_at": "2026-11-18",
     "verification_note": "内閣府公式PDFは暗号化で読めず。ScanNetSecurity(11/18)とSecurity BANK(sbbit)の本文を確認し、件数62,863/61,751、原因、対応を照合。"
+  },
+  {
+    "id": "rakumachi-credential-stuffing-2026",
+    "published_at": "2026-10-19",
+    "occurred_at": "2026-10-09",
+    "company": "楽待株式会社",
+    "service": "不動産投資サイト「楽待」(会員・加盟店管理画面)",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "EC・小売・サービス",
+    "title": "不動産投資サイト「楽待」にリスト型攻撃、会員最大160名・加盟店7社に不正ログイン、加盟店経由で最大3,450名分の顧客情報が閲覧・取得",
+    "summary": "楽待は10月19日、10月9日〜11日に会員向けログイン画面と加盟店向け管理画面へ不正ログインがあったと公表しました。リスト型攻撃とみられ、会員アカウント最大160名、加盟店アカウント7社が対象で、4社では顧客情報が閲覧・取得され、うち1社では問い合わせ一覧のダウンロードを確認しています。",
+    "note": "サーバーやデータベースへの侵入は確認されていません。会員・加盟店・加盟店経由の顧客の各人数は重複があり合算していません。クレジットカード情報と証明書類は取得されていないとしています。二次被害は未確認。",
+    "affected": [
+      {
+        "count": 160,
+        "unit": "accounts",
+        "description": "不正ログインされた会員アカウント(最大)",
+        "source_id": "rakumachi-credential-stuffing-2026-1"
+      },
+      {
+        "count": 7,
+        "unit": "accounts",
+        "description": "不正ログインされた加盟店アカウント",
+        "source_id": "rakumachi-credential-stuffing-2026-1"
+      },
+      {
+        "count": 3450,
+        "unit": "people",
+        "description": "加盟店経由で閲覧・取得された問い合わせ・査定依頼者(最大)",
+        "source_id": "rakumachi-credential-stuffing-2026-1"
+      }
+    ],
+    "sources": [
+      "rakumachi-credential-stuffing-2026-1",
+      "rakumachi-credential-stuffing-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19",
+    "verification_note": "楽待の公式発表本文で日付・件数・情報項目・対応を確認し、ScanNetSecurity(11/19)本文と突合。"
   }
 ]
