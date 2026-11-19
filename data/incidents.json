@@ -17455,5 +17455,48 @@
     "publication_status": "published",
     "first_seen_at": "2026-11-19",
     "last_verified_at": "2026-11-19"
+  },
+  {
+    "id": "edion-ec-skimmer-2026",
+    "published_at": "2026-11-06",
+    "occurred_at": "2026-11-04",
+    "company": "株式会社エディオン",
+    "service": "ECサイト・公式アプリ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "エディオンのECサイトに不正アクセス、決済入力処理が改ざんされカード情報が漏えいした可能性、最大556回分・サイトは停止中",
+    "summary": "エディオンは11月6日にECサイトへの不正アクセスを公表し、11月9日の第2報でPC向け決済入力処理への不正プログラム組み込みを明らかにしました。11月4日19時過ぎ以降にPCで入力されたカード情報が最大556回分漏えいした可能性があります。",
+    "note": "ログ情報は最大4,131名(氏名・連絡先等)、注文と照合可能な情報は最大9,554名。注文エラーログ上のカード情報は最大5件、ギフトカード5,360枚、ログインID・パスワードは最大1,141名分。スマホ決済は対象外。11月7日22時にECサイトと公式アプリを緊急停止し、ECサイトは再開未定。件数の単位が異なるため合算していません。",
+    "affected": [
+      {
+        "count": 556,
+        "unit": "records",
+        "description": "PC決済画面で入力されカード情報が漏えいした可能性のある入力回数の上限",
+        "source_id": "edion-ec-skimmer-2026-1"
+      },
+      {
+        "count": 1141,
+        "unit": "accounts",
+        "description": "ログインID・パスワードが漏えいした可能性のあるアカウント数の上限",
+        "source_id": "edion-ec-skimmer-2026-2"
+      },
+      {
+        "count": 5360,
+        "unit": "documents",
+        "description": "番号・PIN等が漏えいしたギフトカード枚数",
+        "source_id": "edion-ec-skimmer-2026-2"
+      }
+    ],
+    "sources": [
+      "edion-ec-skimmer-2026-1",
+      "edion-ec-skimmer-2026-2",
+      "edion-ec-skimmer-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19",
+    "verification_note": "独立した3媒体(Impress、Business+IT、ScanNetSecurity)の本文で日付・件数・原因を突合。エディオン公式PDFは本文抽出できず未確認。"
   }
 ]

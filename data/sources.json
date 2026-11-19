@@ -8657,5 +8657,26 @@
     "type": "reporting",
     "url": "https://gulfnews.com/world/europe/norways-equinor-detects-cyberattack-on-it-systems-operations-unaffected-1.500751236",
     "title": "Norway's Equinor detects cyberattack on IT systems; operations unaffected"
+  },
+  {
+    "id": "edion-ec-skimmer-2026-1",
+    "publisher": "ネットショップ担当者フォーラム(Impress)",
+    "type": "reporting",
+    "url": "https://netshop.impress.co.jp/n/2026/11/12/17024",
+    "title": "エディオンのECサイトで不正アクセス、決済処理に不正プログラムが組み込まれカード情報が漏えいした可能性"
+  },
+  {
+    "id": "edion-ec-skimmer-2026-2",
+    "publisher": "Business+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188251",
+    "title": "エディオンECサイトへの不正アクセス(第2報)"
+  },
+  {
+    "id": "edion-ec-skimmer-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56806.html",
+    "title": "エディオンECサイトに不正アクセス、不正なプログラムが組み込まれる改ざんが新たに判明"
   }
 ]
