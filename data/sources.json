@@ -8573,5 +8573,61 @@
     "type": "primary",
     "url": "https://www.lrm.jp/info/news/info_20261111/",
     "title": "Notion AI入力ログの漏えいに関するお知らせ(LRM)"
+  },
+  {
+    "id": "shogun-burger-app-2026-1",
+    "publisher": "株式会社ガネーシャ",
+    "type": "primary",
+    "url": "https://shogun-burger.com/news/217",
+    "title": "SHOGUN BURGER公式アプリにおける個人情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "shogun-burger-app-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56723.html",
+    "title": "ScanNetSecurity: SHOGUN BURGER公式アプリの不正アクセス(2026/11/10掲載)"
+  },
+  {
+    "id": "vook-analysis-tool-2026-1",
+    "publisher": "株式会社Vook",
+    "type": "primary",
+    "url": "https://vook.co.jp/574",
+    "title": "不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ【第一報】"
+  },
+  {
+    "id": "vook-analysis-tool-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56722.html",
+    "title": "ScanNetSecurity: Vookの不正アクセス(2026/11/10掲載)"
+  },
+  {
+    "id": "ships-cycle-swym-2026-1",
+    "publisher": "SHIPS CYCLE MARKET",
+    "type": "primary",
+    "url": "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261022",
+    "title": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び"
+  },
+  {
+    "id": "ships-cycle-swym-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56643.html",
+    "title": "ScanNetSecurity: SHIPS CYCLE MARKET・Swym Wishlist Plus(2026/11/02掲載)"
+  },
+  {
+    "id": "soft99-online-shop-2026-1",
+    "publisher": "株式会社ソフト99コーポレーション",
+    "type": "primary",
+    "url": "https://www.soft99.co.jp/important/detail/261110/",
+    "title": "ソフト99 公式オンラインショップ不正アクセスに関するお知らせ(2026/11/10)"
+  },
+  {
+    "id": "nissay-hospital-support-scam-2026-1",
+    "publisher": "日本生命病院",
+    "type": "primary",
+    "url": "https://www.nissay-hp.or.jp/news/common/20261015_kojinjoho.html",
+    "title": "日本生命病院 訪問看護ステーションの個人情報に関するお知らせ(2026/10/15)"
   }
 ]

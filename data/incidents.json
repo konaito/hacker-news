@@ -17269,5 +17269,132 @@
     "first_seen_at": "2026-11-19",
     "last_verified_at": "2026-11-19",
     "verification_note": "楽待の公式発表本文で日付・件数・情報項目・対応を確認し、ScanNetSecurity(11/19)本文と突合。"
+  },
+  {
+    "id": "shogun-burger-app-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "株式会社ガネーシャ",
+    "service": "SHOGUN BURGER公式アプリ",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報漏えい確認",
+    "category": "飲食",
+    "title": "SHOGUN BURGER公式アプリのシステムに不正アクセス、一部顧客の氏名・連絡先・注文内容などが漏えい、モバイルオーダーを停止",
+    "summary": "ガネーシャは10月30日、公式アプリのシステムに第三者が不正アクセスし、一部顧客の個人情報が外部に漏えいしたと公表しました。氏名、メールアドレス、電話番号、生年月日、性別、注文内容が対象となり得ます。",
+    "note": "対象者は特定済みとされますが人数は公表されていません。クレジットカード情報は含まれず、ログインパスワードの漏えいは確認されていません。金銭被害も未確認です。発生日は公表されていません。",
+    "affected": [],
+    "sources": [
+      "shogun-burger-app-2026-1",
+      "shogun-burger-app-2026-2"
+    ],
+    "verification_note": "ガネーシャの公式お知らせ(10/30)本文で漏えい項目・非該当情報・対応を確認し、ScanNetSecurity(11/10)本文と突合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19"
+  },
+  {
+    "id": "vook-analysis-tool-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": "2026-10-14",
+    "company": "株式会社Vook",
+    "service": "Vook(会員・イベント申込・問い合わせ情報)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "メディア",
+    "title": "Vook、社内データ分析ツールの脆弱性を突かれデータベースに不正アクセス、会員らの個人情報が漏えいした可能性",
+    "summary": "Vookは10月30日の第一報で、10月14日に未作成のアカウントを分析ツールで発見し、10月22日に第三者がツールの脆弱性を悪用してデータベースにアクセスし、情報を取得した可能性があると公表しました。会員の全ログイン情報は10月22日に無効化されています。",
+    "note": "対象は会員、イベント申込者、問い合わせ者(非会員含む)、取引先担当者。氏名、連絡先、生年月日、勤務先、IPアドレス等が含まれ得ます。件数は未公表。ツールは読み取り専用設定で改ざん・削除は確認されていません。カード情報・口座情報・会員ログインパスワードは含まれないとしています。二次被害は未確認。",
+    "affected": [],
+    "sources": [
+      "vook-analysis-tool-2026-1",
+      "vook-analysis-tool-2026-2"
+    ],
+    "verification_note": "Vook公式第一報(10/30)本文で日付・項目・対応を確認し、ScanNetSecurity(11/10)本文と突合。件数は未公表。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19"
+  },
+  {
+    "id": "ships-cycle-swym-2026",
+    "published_at": "2026-10-22",
+    "occurred_at": "2026-10-14",
+    "company": "株式会社フリースタンダード / Swym Corporation",
+    "service": "SHIPS CYCLE MARKET(外部アプリ「Swym Wishlist Plus」)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "SHIPS CYCLE MARKET、外部アプリSwym Wishlist Plus経由で偽の決済画面に誘導された可能性、クレジットカード情報入力の恐れ",
+    "summary": "フリースタンダードは10月22日、外部アプリ開発元Swymのシステムへの第三者の不正アクセスにより、10月14日19時頃〜15日1時半頃にチェックアウトボタンを押した顧客が偽の決済ページへ誘導された可能性があると公表しました。",
+    "note": "ショップのデータベースからの保存情報の漏えいはないとされますが、偽サイトにカード情報を入力した可能性があります。影響人数は未公表。10月19日以降の別の事象は同店への影響なしと開発元が確認。お気に入り機能は全店で停止中。",
+    "affected": [],
+    "sources": [
+      "ships-cycle-swym-2026-1",
+      "ships-cycle-swym-2026-2"
+    ],
+    "verification_note": "SHIPS CYCLE MARKETの公式お知らせ(10/22)本文で時間帯・内容・対応を確認し、ScanNetSecurity(11/2)本文と突合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19"
+  },
+  {
+    "id": "soft99-online-shop-2026",
+    "published_at": "2026-11-10",
+    "occurred_at": null,
+    "company": "株式会社ソフト99コーポレーション",
+    "service": "ソフト99公式オンラインショップ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "ソフト99の公式オンラインショップに不正アクセス、最大13万6,968名分の個人情報が漏えいした可能性、ショップを停止",
+    "summary": "ソフト99は11月10日、公式オンラインショップに第三者が不正アクセスし、個人情報が漏えいした可能性があると公表しました。問い合わせフォームの画像添付機能からプログラムファイルをアップロードされ、サーバーの調査や設定ファイルの閲覧を許したとしています。",
+    "note": "対象は最大136,968名で、会員数・注文数は確認中です。氏名、住所、連絡先、生年月日、性別、購入履歴、カード情報(下4桁・有効期限・名義)が含まれ得ます。11月5日に委託先が不審な動きを検知、11月9日に個人情報保護委員会へ報告。実際の取得の有無は未確認、二次被害も未確認です。",
+    "affected": [
+      {
+        "count": 136968,
+        "unit": "people",
+        "description": "漏えいの可能性がある会員・購入者(最大)",
+        "source_id": "soft99-online-shop-2026-1"
+      }
+    ],
+    "sources": [
+      "soft99-online-shop-2026-1"
+    ],
+    "verification_note": "ソフト99公式お知らせ(11/10)本文で経緯・項目・件数・対応を確認。SmartScopeの要約記事は補助参照のみ。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19"
+  },
+  {
+    "id": "nissay-hospital-support-scam-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-09-19",
+    "company": "公益財団法人日本生命済生会 日本生命病院",
+    "service": "ニッセイ訪問看護ステーション",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "医療",
+    "title": "日本生命病院の訪問看護ステーション、サポート詐欺で業務用PCと私物スマホの情報が閲覧された可能性、最大253名",
+    "summary": "日本生命病院は10月15日、9月19日に訪問看護ステーションの職員がインターネット閲覧用PCの偽警告に従い、サポート詐欺被害に遭ったと公表しました。PCと職員私物のスマートフォンの情報を第三者が閲覧できた可能性があります。",
+    "note": "対象は患者194名、提携先職員14名、2018年時点の役員12名、ステーション職員33名の計253名。患者は氏名・居住区・災害時の状態評価など。マイナンバー・口座・カード情報は含まれません。電子カルテとは接続されていません。不正利用は未確認で、規程に反する個人情報の保存も判明しています。",
+    "affected": [
+      {
+        "count": 253,
+        "unit": "people",
+        "description": "情報が閲覧された可能性のある患者・関係者(計)",
+        "source_id": "nissay-hospital-support-scam-2026-1"
+      }
+    ],
+    "sources": [
+      "nissay-hospital-support-scam-2026-1"
+    ],
+    "verification_note": "日本生命病院の公式お知らせ(10/15)本文で日付・件数・項目・対応を確認。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-19",
+    "last_verified_at": "2026-11-19"
   }
 ]
