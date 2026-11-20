@@ -70,7 +70,7 @@
     "category": "金融・保険",
     "title": "楽天証券、テスト環境への不正アクセスで最大約447万口座分の個人情報や年収・資産情報が漏えいした可能性",
     "summary": "楽天証券は11月17日、11月16日に第三者による一部システムへの不正アクセスの可能性を検知し、11月11日にテスト環境内の情報が外部に漏えいしたおそれがあると発表しました。氏名・住所・年収・金融資産などが最大約447万口座分、お客様コードとログインIDが最大約1,125万口座分の対象です。",
-    "note": "退会者の情報を含みます。パスワードや暗証番号など取引に必要な情報の漏えいと、今回の漏えいに起因する不正取引は確認されていません。原因・経緯は調査中です。口座数(約447万、約1,125万)は項目群ごとの口座単位で、人数や両者の合算としては扱っていません。楽天証券の公式お知らせ本文は取得できておらず、報道2媒体の本文で確認しました。",
+    "note": "退会者の情報を含みます。パスワードや暗証番号など取引に必要な情報の漏えいと、今回の漏えいに起因する不正取引は確認されていません。原因・経緯は調査中です。口座数(約447万、約1,125万)は項目群ごとの口座単位で、人数や両者の合算としては扱っていません。楽天証券の公式お知らせ(11/17)本文と報道の本文で確認しました。公式は出金先口座情報が対象項目に含まれること、顧客への個別通知を進めていることも記載しています。",
     "affected": [
       {
         "count": 4470000,
@@ -87,12 +87,13 @@
     ],
     "sources": [
       "rakuten-sec-test-env-2026-1",
-      "rakuten-sec-test-env-2026-2"
+      "rakuten-sec-test-env-2026-2",
+      "rakuten-sec-test-env-2026-3"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-11-19",
-    "last_verified_at": "2026-11-19",
-    "verification_note": "Impress Watch(11/17)とSecurity NEXT(11/18)の本文を確認。11/16検知、11/11漏えいのおそれ、2区分の口座数、対象項目、パスワード等未確認を照合。公式本文は未取得。"
+    "last_verified_at": "2026-11-20",
+    "verification_note": "楽天証券公式お知らせ(11/17)、Impress Watch、Security NEXTの本文を確認。11/16検知、11/11漏えいのおそれ、2区分の口座数、対象項目、パスワード等未確認、不正取引未確認を照合。"
   },
   {
     "id": "shiseido-fca-2026",
@@ -17624,5 +17625,105 @@
     "first_seen_at": "2026-11-20",
     "last_verified_at": "2026-11-20",
     "verification_note": "Security NEXT、NHK、ビジネス+ITの本文で日付・影響範囲を突合。大崎電気の公式発表本文は直接取得できず未確認。"
+  },
+  {
+    "id": "teamspirit-dev-server-2026",
+    "published_at": "2026-11-06",
+    "occurred_at": "2026-10-27",
+    "company": "株式会社チームスピリット",
+    "service": "ソフトウェア開発用サーバ・クラウド環境",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "IT・サービス",
+    "title": "チームスピリット、開発用サーバに保存された認証情報を悪用され、クラウド環境から個人情報28,824件が漏えい",
+    "summary": "チームスピリットは11月6日、10月27日に第三者が開発用サーバへログインし、サーバ内の認証情報を使ってクラウド環境のデータを取得したと公表しました。同日サーバを停止し外部接続を遮断しています。",
+    "note": "件数は重複除外後の個人情報28,824件(うち要配慮個人情報35件)で、現時点の調査に基づく暫定値です。顧客・元顧客、資料請求等の問い合わせ者、従業員・元従業員の情報が対象で、クレジットカードや銀行口座情報は含まれないとしています。勤怠の本番環境へのアクセスは確認されていません。二次被害は未確認で、原因分析は継続中です。",
+    "affected": [
+      {
+        "count": 28824,
+        "unit": "records",
+        "description": "漏えいした個人情報(重複除外、暫定値。うち要配慮個人情報35件)",
+        "source_id": "teamspirit-dev-server-2026-1"
+      }
+    ],
+    "sources": [
+      "teamspirit-dev-server-2026-1",
+      "teamspirit-dev-server-2026-2"
+    ],
+    "verification_note": "チームスピリット公式お知らせ(11/6、FAQ更新11/16まで)とScanNetSecurity(11/20)の本文で日付・件数・対象情報を照合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "wellington-it-credit-unions-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": "2026-10-06",
+    "company": "Wellington IT(信用組合向けサプライヤー)",
+    "service": "信用組合向けオンライン/モバイルバンキング基盤",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "金融",
+    "title": "アイルランドの信用組合向けIT供給元Wellington ITで不正アクセス、40超の信用組合で会員の保存済み送金先情報が取得される",
+    "summary": "ベルファストのWellington ITは11月16日、信用組合向けバンキング基盤の認可不備が悪用され、会員が保存した送金先記録が取得されたと各信用組合に通知しました。脆弱性は10月に塞がれたとされ、通知まで約6週間かかっています。",
+    "note": "報道により攻撃日(10月2〜6日)や要求数の記述に差があり、確定していません。送金先名、銀行名、IBAN/BIC、支払参照などが対象で、パスワード、PIN、残高は侵害されていないと説明されています。影響人数はログ不足のため確認できておらず、「数十万人規模の可能性」との報道は未確定です。アイルランド当局には40件超の届出があり、会員資金への不正は確認されていません。調査は継続中です。",
+    "affected": [],
+    "sources": [
+      "wellington-it-credit-unions-2026-1",
+      "wellington-it-credit-unions-2026-2",
+      "wellington-it-credit-unions-2026-3"
+    ],
+    "verification_note": "The Record(11/20)、BleepingComputer(11/18-19)、Irish Times(11/18)の本文で供給元、約40信用組合、対象データ、パスワード等が未侵害との説明を照合。一次発表は未取得。",
+    "region": "GLOBAL",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "ec-ai-cyber-campaign-2026",
+    "published_at": "2026-11-19",
+    "occurred_at": "2026-10-22",
+    "company": "欧州委員会",
+    "service": "人事・医療費精算・翻訳等の内部アプリケーション",
+    "status": "disruption",
+    "display_label": "サービス停止",
+    "category": "政府・公共",
+    "title": "欧州委員会、10月下旬のサイバー攻撃を確認、AIツールが使われたと説明し複数の内部アプリを一時停止",
+    "summary": "欧州委員会の報道官は11月19日、検知したサイバーキャンペーンへの対応として複数のアプリケーションを予防的に停止したと説明しました。10月22日に兆候を検知し、人事や医療費精算、翻訳等のシステムに10日超の支障が出たと報じられています。",
+    "note": "委員会は攻撃者がAIツールを使ったと認めましたがツール名は非公表です。報道ではCERT-EUがAI侵入テスト基盤ARTEXの使用を特定したとされますが、委員会の公式声明ではなく報道ベースで、攻撃者も未特定です。スタッフ全般へのデータ侵害の証拠は見つかっていない一方、大量データが侵害された可能性との報道もあり、影響は確定していません。身代金要求は把握していないとしています。件数は公表されていません。",
+    "affected": [],
+    "sources": [
+      "ec-ai-cyber-campaign-2026-1",
+      "ec-ai-cyber-campaign-2026-2"
+    ],
+    "verification_note": "SecurityWeek(11/20)とThe Record(11/19)の本文で、委員会報道官の説明、10/22検知、停止したサービス、AIツール使用の確認とARTEXの扱い(報道ベース)を照合。一次発表は未取得。",
+    "region": "GLOBAL",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "ipsos-internal-system-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": null,
+    "company": "Ipsos",
+    "service": "社内情報システム(1件)",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "サービス",
+    "title": "市場調査大手Ipsos、社内情報システム1件への侵害を公表、当局に届出し外部専門家と調査",
+    "summary": "Ipsosは11月16日、社内情報システム1件に対するサイバーインシデントを公表しました。11月11日に当局へ届け出ており、封じ込めと外部専門家による調査を進めています。",
+    "note": "侵害されたシステム名、検知日、侵入経路は未公表です。データが閲覧・窃取されたかも不明で、顧客・案件・取引先の情報に影響があれば当該先へ個別に連絡するとしています。Ipsosは業務や顧客への納品に影響はないと説明しています。攻撃者の犯行声明は確認されていません。件数は公表されていません。",
+    "affected": [],
+    "sources": [
+      "ipsos-internal-system-2026-1",
+      "ipsos-internal-system-2026-2"
+    ],
+    "verification_note": "SecurityWeek(11/17)とResearch Live(11/17)の本文で、Ipsos声明(11/11届出、11/16公表)の内容を照合。Ipsos一次声明はPDFで本文を読めず未確認。",
+    "region": "GLOBAL",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
   }
 ]

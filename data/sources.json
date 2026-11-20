@@ -8748,5 +8748,75 @@
     "type": "reporting",
     "url": "https://www.sbbit.jp/article/st/188556",
     "title": "大崎電気工業 ランサムウェア攻撃による生産停止"
+  },
+  {
+    "id": "rakuten-sec-test-env-2026-3",
+    "publisher": "楽天証券",
+    "type": "primary",
+    "url": "https://www.rakuten-sec.co.jp/web/info/info20261117-02.html",
+    "title": "当社お客様の情報漏えいの可能性に関するお詫びとお知らせ(11/17)"
+  },
+  {
+    "id": "teamspirit-dev-server-2026-1",
+    "publisher": "チームスピリット",
+    "type": "primary",
+    "url": "https://corp.teamspirit.com/news/information/2026/11/2026_1106_01/",
+    "title": "不正アクセスによる個人情報漏えいに関するお知らせとお詫び(11/6)"
+  },
+  {
+    "id": "teamspirit-dev-server-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56857.html",
+    "title": "チームスピリットのソフトウェア開発用サーバに不正アクセス、28,824件の個人情報が漏えい"
+  },
+  {
+    "id": "wellington-it-credit-unions-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
+    "title": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks"
+  },
+  {
+    "id": "wellington-it-credit-unions-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+    "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack"
+  },
+  {
+    "id": "wellington-it-credit-unions-2026-3",
+    "publisher": "The Irish Times",
+    "type": "reporting",
+    "url": "https://www.irishtimes.com/crime-law/2026/11/18/credit-union-data-breach-minister-concerned-over-delay-in-disclosing-cyberattack/",
+    "title": "Credit union data breach: Minister concerned over delay in disclosing cyberattack"
+  },
+  {
+    "id": "ec-ai-cyber-campaign-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+    "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services"
+  },
+  {
+    "id": "ec-ai-cyber-campaign-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+    "title": "European Commission confirms cyberattack, says hackers used AI tool"
+  },
+  {
+    "id": "ipsos-internal-system-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+    "title": "Market Research Giant Ipsos Investigating Breach of Internal System"
+  },
+  {
+    "id": "ipsos-internal-system-2026-2",
+    "publisher": "Research Live",
+    "type": "reporting",
+    "url": "https://www.research-live.com/article/news/ipsos-hit-by-cyber-attack/id/5154906",
+    "title": "Ipsos hit by cyber attack"
   }
 ]
