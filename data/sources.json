@@ -8678,5 +8678,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56806.html",
     "title": "エディオンECサイトに不正アクセス、不正なプログラムが組み込まれる改ざんが新たに判明"
+  },
+  {
+    "id": "andst-hd-business-server-2026-1",
+    "publisher": "株式会社アンドエスティHD",
+    "type": "primary",
+    "url": "https://www.andst-hd.co.jp/news/notice/entry-17245/",
+    "title": "当社業務サーバーへの不正アクセスに関する調査結果と、お客様情報に関する専用窓口のお知らせ"
+  },
+  {
+    "id": "andst-hd-business-server-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56853.html",
+    "title": "アンドエスティHDの業務サーバに不正アクセス、約274万件の顧客情報が流出した可能性"
   }
 ]

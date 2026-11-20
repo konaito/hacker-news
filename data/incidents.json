@@ -1,5 +1,41 @@
 [
   {
+    "id": "andst-hd-business-server-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": "2026-10-22",
+    "company": "株式会社アンドエスティHD",
+    "service": "社内業務サーバー",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "アンドエスティHDの業務サーバーに不正アクセス、顧客情報約274万件・従業員情報約2.4万件が漏えいした可能性",
+    "summary": "アンドエスティHDは、10月22日に外部から複数の業務サーバーへ不正アクセスを受け、顧客情報が漏えいした可能性があると公表しました。11月4日の調査結果で、対象は当初の約250万件から約274万件に拡大しています。",
+    "note": "顧客情報は氏名・生年月日・性別・住所・電話番号・メールアドレス・会員IDで、決済情報やパスワードは含まれないとしています。従業員側は2013年6月〜2022年11月に社会保険に加入していた約2.4万件で、マイナンバーや金融口座情報は含まれないとしています。実際の取得は未確認で、侵入経路は公表されていません。サーバー隔離・経路遮断済みで、店舗とWebストアは通常営業です。",
+    "affected": [
+      {
+        "count": 2740000,
+        "unit": "records",
+        "description": "漏えいの可能性がある顧客情報(約)",
+        "source_id": "andst-hd-business-server-2026-1"
+      },
+      {
+        "count": 24000,
+        "unit": "records",
+        "description": "漏えいの可能性がある従業員情報(約)",
+        "source_id": "andst-hd-business-server-2026-1"
+      }
+    ],
+    "sources": [
+      "andst-hd-business-server-2026-1",
+      "andst-hd-business-server-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20",
+    "verification_note": "同社11/4公式お知らせ本文とScanNetSecurity(11/20)本文で、10/22の不正アクセス、約274万件・約2.4万件、流出の可能性、対応を照合。"
+  },
+  {
     "id": "equinor-cyberattack-2026",
     "published_at": "2026-11-18",
     "occurred_at": "2026-11-17",
