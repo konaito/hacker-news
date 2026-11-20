@@ -8818,5 +8818,89 @@
     "type": "reporting",
     "url": "https://www.research-live.com/article/news/ipsos-hit-by-cyber-attack/id/5154906",
     "title": "Ipsos hit by cyber attack"
+  },
+  {
+    "id": "macromill-monitor-site-2026-1",
+    "publisher": "マクロミル",
+    "type": "primary",
+    "url": "https://monitor.macromill.com/news/20261112-oshirase.html",
+    "title": "「マクロミル モニタサイト」への不正アクセスに関するお知らせ(11/12)"
+  },
+  {
+    "id": "macromill-monitor-site-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56824.html",
+    "title": "「マクロミル モニタサイト」に不正アクセス"
+  },
+  {
+    "id": "treasure-factory-case-management-2026-1",
+    "publisher": "トレジャー・ファクトリー",
+    "type": "primary",
+    "url": "https://www.treasure-f.com/info/detail/st825/",
+    "title": "不正アクセスによる個人情報漏えいに関するお知らせ"
+  },
+  {
+    "id": "treasure-factory-case-management-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/19/56834.html",
+    "title": "トレジャー・ファクトリーの案件管理システムに不正アクセス"
+  },
+  {
+    "id": "lili-carry-unauthorized-access-2026-1",
+    "publisher": "キャリー(Lili)",
+    "type": "primary",
+    "url": "https://lili-jo.com/notice/20261022.html",
+    "title": "不正アクセスに関するお知らせ(第2報・10/22)"
+  },
+  {
+    "id": "lili-carry-unauthorized-access-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56821.html",
+    "title": "マッチングアプリ「Lili」に不正アクセス、本人確認書類の画像含む会員情報が流出した可能性"
+  },
+  {
+    "id": "hachijuni-nagano-bank-mail-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56816.html",
+    "title": "八十二長野銀行のメールアカウントに不正アクセス"
+  },
+  {
+    "id": "hachijuni-nagano-bank-mail-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192395",
+    "title": "フィッシングで個人情報流出のおそれ(八十二長野銀行)"
+  },
+  {
+    "id": "uta-machforms-2026-1",
+    "publisher": "テキサス大学アーリントン校(UTA)",
+    "type": "primary",
+    "url": "https://www.uta.edu/cybersecurity/faq",
+    "title": "UTA Cybersecurity Incident FAQ(11/13更新)"
+  },
+  {
+    "id": "uta-machforms-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+    "title": "University of Texas at Arlington warns of data breach"
+  },
+  {
+    "id": "teket-member-system-2026-1",
+    "publisher": "Impress Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2154886.html",
+    "title": "ドコモ系電子チケット「teket」で情報流出 サービス全面停止"
+  },
+  {
+    "id": "teket-member-system-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56804.html",
+    "title": "「teket」に不正アクセス"
   }
 ]

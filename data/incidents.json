@@ -17725,5 +17725,201 @@
     "publication_status": "published",
     "first_seen_at": "2026-11-20",
     "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "macromill-monitor-site-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": null,
+    "company": "株式会社マクロミル",
+    "service": "マクロミル モニタサイト",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正閲覧確認",
+    "category": "EC・サービス",
+    "title": "マクロミル「モニタサイト」に不正アクセス、317名の基本情報が閲覧され82名は振込先口座情報も閲覧",
+    "summary": "マクロミルは11月12日、10月29日に検知したモニタサイトの一部システムへの不正アクセスを公表しました。モニタ317名の基本情報・登録属性情報が外部から閲覧され、うち82名は口座情報も閲覧されたとしています。",
+    "note": "メールアドレス変更やポイント交換の試行が一部アカウントで確認されましたが、不正交換の完了や不正ログインは確認されていません。全モニタのポイント交換は停止中で再開時期は未定です。侵入経路は未公表です。10月31日のメール配信委託先の障害は別件で、委託先は漏えいなしと説明しています。クレジットカード番号等は保有していないとしています。",
+    "affected": [
+      {
+        "count": 317,
+        "unit": "people",
+        "description": "基本情報・登録属性情報が閲覧されたモニタ",
+        "source_id": "macromill-monitor-site-2026-1"
+      },
+      {
+        "count": 82,
+        "unit": "people",
+        "description": "うち振込先口座情報も閲覧されたモニタ",
+        "source_id": "macromill-monitor-site-2026-1"
+      }
+    ],
+    "sources": [
+      "macromill-monitor-site-2026-1",
+      "macromill-monitor-site-2026-2"
+    ],
+    "verification_note": "マクロミル11/12公式お知らせ本文とScanNetSecurity(11/18)本文で、10/29検知、317名・82名、ポイント交換停止を照合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "treasure-factory-case-management-2026",
+    "published_at": "2026-10-23",
+    "occurred_at": "2026-10-20",
+    "company": "株式会社トレジャー・ファクトリー",
+    "service": "出張買取・トレファク引越の案件管理システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "EC・小売",
+    "title": "トレジャー・ファクトリーの案件管理システムに不正アクセス、顧客メールアドレス約74.6万件などが外部に取得",
+    "summary": "トレジャー・ファクトリーは10月23日、10月20日に出張買取・トレファク引越の案件管理システムへ第三者の不正アクセスがあり、顧客情報等が取得されたと公表しました。",
+    "note": "ScanNetSecurityは顧客メールアドレス746,277件(うち11件は氏名・住所も)と報じています(公式ページ本文の該当画像は読み取れず、件数は報道ベース)。公式ページ本文では取引先・従業員の氏名・メールアドレス750件、氏名と端末識別情報1,000件を確認しました。暫定原因はデータベースアクセスに関する脆弱性で、8月の子会社被害とは別件です。店舗・アプリ管理の顧客情報は別システムで対象外としています。",
+    "affected": [
+      {
+        "count": 746277,
+        "unit": "records",
+        "description": "取得された顧客メールアドレス(ScanNetSecurity報道)",
+        "source_id": "treasure-factory-case-management-2026-2"
+      },
+      {
+        "count": 750,
+        "unit": "records",
+        "description": "取引先・従業員の氏名・メールアドレス",
+        "source_id": "treasure-factory-case-management-2026-1"
+      },
+      {
+        "count": 1000,
+        "unit": "records",
+        "description": "取引先・従業員の氏名・端末識別情報",
+        "source_id": "treasure-factory-case-management-2026-1"
+      }
+    ],
+    "sources": [
+      "treasure-factory-case-management-2026-1",
+      "treasure-factory-case-management-2026-2"
+    ],
+    "verification_note": "同社公式お知らせ本文(10/20検知・10/23公表、750件・1,000件、脆弱性悪用の暫定原因)とScanNetSecurity(11/19)本文(顧客74.6万件)を照合。顧客件数は公式本文の画像が読めず報道のみ。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "lili-carry-unauthorized-access-2026",
+    "published_at": "2026-10-14",
+    "occurred_at": "2026-07-11",
+    "company": "株式会社キャリー",
+    "service": "マッチングアプリ「Lili」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "エンタメ",
+    "title": "マッチングアプリ「Lili」に不正アクセス、会員最大約9.8万人の情報と本人確認書類画像が漏えいした可能性",
+    "summary": "キャリーは10月14日に、Liliのサーバーへ7月11日〜10月6日にかけて第三者が侵入したと公表し、10月22日の第2報で本人確認書類の縮小画像など対象を拡大しました。",
+    "note": "ScanNetSecurityによると会員最大約98,256人(退会者含む)のメールアドレス・パスワード等が対象で、パスワードは平文で漏えいした可能性が高いとされます。第2報の公式本文では、削除済みの本人確認書類の縮小画像が最大32,916人分サーバーに残っていました。第三者による取得は未確認です。10月11日には別経路の再侵入も報じられています。偽のCloudflare確認画面を使う手口も報告されています。",
+    "affected": [
+      {
+        "count": 98256,
+        "unit": "people",
+        "description": "最大の対象会員(退会者含む・ScanNetSecurity報道)",
+        "source_id": "lili-carry-unauthorized-access-2026-2"
+      },
+      {
+        "count": 32916,
+        "unit": "people",
+        "description": "縮小画像が残っていた本人確認書類の対象者(最大・確認中)",
+        "source_id": "lili-carry-unauthorized-access-2026-1"
+      }
+    ],
+    "sources": [
+      "lili-carry-unauthorized-access-2026-1",
+      "lili-carry-unauthorized-access-2026-2"
+    ],
+    "verification_note": "Lili公式第2報本文(10/22、縮小画像32,916人・取得未確認)とScanNetSecurity(11/18)本文(98,256人、7/11〜10/6の侵入)を照合。初報(10/14)本文は未読。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "hachijuni-nagano-bank-mail-2026",
+    "published_at": "2026-10-08",
+    "occurred_at": "2026-10-07",
+    "company": "株式会社八十二長野銀行",
+    "service": "行員のメールアカウント",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "八十二長野銀行、行員のメールアカウントがフィッシングで不正アクセス、取引先個人34名・法人627社の情報が閲覧",
+    "summary": "八十二長野銀行は10月8日(第2報10月19日)、10月7日に行員がフィッシングメールに応じて認証操作を行い、メールアカウントが第三者に不正アクセスされたと公表しました。",
+    "note": "アクセスログから閲覧されたメールを特定したとされ、個人34名の氏名・勤務先・電話番号・メールアドレス、法人627社(531社の社名・海外拠点名、96社の取引関連情報)などが対象です。ScanNetSecurityは別に関連機関11先・メールアドレス35件を報じています。銀行の公式PDFは本文未読で、報道2媒体の本文で確認しました。対象者には連絡済みとされています。",
+    "affected": [
+      {
+        "count": 34,
+        "unit": "people",
+        "description": "メールが閲覧された個人",
+        "source_id": "hachijuni-nagano-bank-mail-2026-1"
+      },
+      {
+        "count": 627,
+        "unit": "records",
+        "description": "対象の法人(社数、531社の社名等と96社の取引関連情報)",
+        "source_id": "hachijuni-nagano-bank-mail-2026-1"
+      }
+    ],
+    "sources": [
+      "hachijuni-nagano-bank-mail-2026-1",
+      "hachijuni-nagano-bank-mail-2026-2"
+    ],
+    "verification_note": "ScanNetSecurity(11/18)とSecurity NEXT(11/16)の本文で、10/7のフィッシング起点、34名・96社・531社を照合。銀行の公式PDFは未読。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "uta-machforms-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": null,
+    "company": "テキサス大学アーリントン校(UTA)",
+    "service": "MachForms(オンラインフォーム)ほか一部IT",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "教育・研究",
+    "title": "テキサス大学アーリントン校、MachFormsなどへの侵害で個人情報にアクセスがあったと公表",
+    "summary": "UTAは10月26日に検知したサイバーインシデントで個人情報にアクセスがあったと公表しています。イベント登録や問い合わせに使うフォームシステムMachFormsは停止が続いています。",
+    "note": "対象者の人数・情報の種類は未公表で、調査中です。The RecordはランサムウェアQilinが犯行を主張したと報じていますが、主張は未検証で、本件の事実としては扱っていません。大学は対象者へ個別連絡する方針です。",
+    "affected": [],
+    "sources": [
+      "uta-machforms-2026-1",
+      "uta-machforms-2026-2"
+    ],
+    "verification_note": "UTA公式FAQ本文(10/26検知、個人情報へのアクセス、11/13更新)とThe Record(11/13)本文を照合。Qilinの主張は未検証。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20"
+  },
+  {
+    "id": "teket-member-system-2026",
+    "published_at": "2026-11-08",
+    "occurred_at": "2026-11-05",
+    "company": "株式会社teket",
+    "service": "電子チケットサービス「teket」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "エンタメ",
+    "title": "電子チケット「teket」に不正アクセス、会員情報管理システムから氏名・メールアドレス等が漏えい、全サービス停止",
+    "summary": "teketは11月5日に不正アクセスの可能性を判断してサービスを停止し、6日に会員情報管理システムへの侵入と保存データの漏えいを確認しました。個人情報保護委員会へも報告済みです。",
+    "note": "全会員の氏名・メールアドレスのほか、登録・購入した会員は生年月日・性別・住所・電話番号・チケット発券コード等が対象です。対象件数は精査中で未公表です。サービスは再開時期未定で、QRチケットが表示できず主催者側の入場確認にも影響しています。原因・範囲は調査中です。",
+    "affected": [],
+    "sources": [
+      "teket-member-system-2026-1",
+      "teket-member-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20",
+    "verification_note": "Impress Watch本文とScanNetSecurity(11/17)本文で、11/5停止・11/6漏えい確認、対象項目、件数未公表を照合。teket公式ページは未確認。"
   }
 ]
