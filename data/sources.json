@@ -8692,5 +8692,61 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56853.html",
     "title": "アンドエスティHDの業務サーバに不正アクセス、約274万件の顧客情報が流出した可能性"
+  },
+  {
+    "id": "ms-agent-framework-pypi-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+    "title": "Microsoft's Agent Framework PyPI package compromised to steal credentials"
+  },
+  {
+    "id": "ms-agent-framework-pypi-2026-2",
+    "publisher": "Socket",
+    "type": "reporting",
+    "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+    "title": "Agent Framework PyPI package compromised with credential stealer"
+  },
+  {
+    "id": "ms-agent-framework-pypi-2026-3",
+    "publisher": "StepSecurity",
+    "type": "reporting",
+    "url": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
+    "title": "Microsoft agent-framework PyPI package compromised"
+  },
+  {
+    "id": "sbc-medical-database-2026-1",
+    "publisher": "SBC Medical Group Holdings (SEC 8-K Exhibit 99.1)",
+    "type": "primary",
+    "url": "https://www.sec.gov/Archives/edgar/data/1930313/000149315226053135/ex99-1.htm",
+    "title": "SBC Medical Group Holdings cybersecurity incident disclosure"
+  },
+  {
+    "id": "sbc-medical-database-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+    "title": "Hackers steal data of 1.6 million SBC Medical Group customers"
+  },
+  {
+    "id": "osaki-electric-ransomware-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/193088",
+    "title": "ランサム攻撃で生産関連システムが停止、出荷に影響 - 大崎電気工業"
+  },
+  {
+    "id": "osaki-electric-ransomware-2026-2",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261118de78017",
+    "title": "大崎電気工業 ランサムウェア被害 スマートメーターの生産・出荷停止"
+  },
+  {
+    "id": "osaki-electric-ransomware-2026-3",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/st/188556",
+    "title": "大崎電気工業 ランサムウェア攻撃による生産停止"
   }
 ]

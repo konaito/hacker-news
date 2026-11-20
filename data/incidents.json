@@ -17534,5 +17534,95 @@
     "first_seen_at": "2026-11-19",
     "last_verified_at": "2026-11-19",
     "verification_note": "独立した3媒体(Impress、Business+IT、ScanNetSecurity)の本文で日付・件数・原因を突合。エディオン公式PDFは本文抽出できず未確認。"
+  },
+  {
+    "id": "ms-agent-framework-pypi-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-11-17",
+    "company": "Microsoft",
+    "service": "Agent Framework(PyPIパッケージ)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "配布版改ざん",
+    "category": "IT・クラウド",
+    "title": "MicrosoftのAgent Framework PyPIパッケージに認証情報窃取マルウェア、版1.26.1・1.26.2が混入",
+    "summary": "11月17日、PyPI上のMicrosoft Agent Frameworkのパッケージに悪意ある版1.26.1と1.26.2が公開されました。Python起動時に.pthフックで実行され、環境変数や認証情報ファイル、Azure・GitHub Actionsのトークンを収集して外部のwebhookへ送信する仕組みでした。PyPIは両版を隔離済みです。",
+    "note": "最後の正常版は1.26.0。侵入経路や攻撃者は不明で、Microsoftの公式見解は報道時点で確認できていません。実際に認証情報が送信された件数は不明のため、影響件数は記録していません。",
+    "affected": [],
+    "sources": [
+      "ms-agent-framework-pypi-2026-1",
+      "ms-agent-framework-pypi-2026-2",
+      "ms-agent-framework-pypi-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20",
+    "verification_note": "BleepingComputer、Socket、StepSecurityの本文で版番号・日付・仕組み・PyPIの隔離を突合。Microsoft公式発表は未確認。"
+  },
+  {
+    "id": "sbc-medical-database-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-11-16",
+    "company": "SBC Medical Group Holdings(湘南美容クリニック等運営会社)",
+    "service": "Webサイトシステムのデータベース、予約基盤Tribeau",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "情報漏えい確認",
+    "category": "医療・ヘルスケア",
+    "title": "SBCメディカルグループ、Webシステムのデータベースから最大162.4万人分の個人情報が流出、予約基盤Tribeauでも不正アクセス",
+    "summary": "SBC Medical Group Holdingsは11月18日付のSEC提出書類で、11月16日に日本子会社のWebサイトシステムのデータベースへ第三者が不正アクセスし顧客情報を抽出したことを公表しました。同日、第三者予約基盤Tribeauのクリニック管理者アカウントへの不正アクセスも通知されました。",
+    "note": "データベースの基本個人情報は162.4万人分、従業員アカウント情報は約2万件(うち459人は銀行・税関連情報も)。Tribeauは予約情報12,641人、施術情報6,804人。電子カルテやmySBC予約サイトへの不正アクセスは未確認、二次利用の形跡も未確認。侵入手口と範囲は調査中で、件数は変わる可能性があります。件数の単位が異なるため合算していません。",
+    "affected": [
+      {
+        "count": 1624000,
+        "unit": "people",
+        "description": "データベースで基本個人情報が漏えいした対象者数",
+        "source_id": "sbc-medical-database-2026-1"
+      },
+      {
+        "count": 20000,
+        "unit": "accounts",
+        "description": "従業員アカウント情報(約)",
+        "source_id": "sbc-medical-database-2026-1"
+      },
+      {
+        "count": 12641,
+        "unit": "people",
+        "description": "Tribeauで予約情報が閲覧された対象者数",
+        "source_id": "sbc-medical-database-2026-1"
+      }
+    ],
+    "sources": [
+      "sbc-medical-database-2026-1",
+      "sbc-medical-database-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20",
+    "verification_note": "SEC提出書類(8-K Exhibit 99.1)の本文で日付・件数・声明を確認し、BleepingComputerの本文と突合。"
+  },
+  {
+    "id": "osaki-electric-ransomware-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-11-17",
+    "company": "大崎電気工業株式会社",
+    "service": "生産関連システム(埼玉事業所・関連生産拠点)",
+    "region": "JP",
+    "status": "disruption",
+    "display_label": "サービス停止",
+    "category": "製造",
+    "title": "大崎電気工業、ランサムウェア被害でスマートメーター等の生産・出荷が停止、再開時期は未定",
+    "summary": "大崎電気工業は11月18日、11月17日にサーバー内データの暗号化をランサムウェアによるものとして確認したと公表しました。外部ネットワークを遮断し、埼玉事業所と岩手大崎電気、大崎プラテックの生産関連システムを停止しています。",
+    "note": "スマートメーター等の生産・出荷を停止中で再開時期は未定。データが外部に流出した可能性も含め外部専門機関と調査中で、流出は確認されていません。攻撃者名や侵入経路は未公表。件数の公表はありません。",
+    "affected": [],
+    "sources": [
+      "osaki-electric-ransomware-2026-1",
+      "osaki-electric-ransomware-2026-2",
+      "osaki-electric-ransomware-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-20",
+    "last_verified_at": "2026-11-20",
+    "verification_note": "Security NEXT、NHK、ビジネス+ITの本文で日付・影響範囲を突合。大崎電気の公式発表本文は直接取得できず未確認。"
   }
 ]
