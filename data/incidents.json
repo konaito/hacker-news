@@ -18262,5 +18262,58 @@
     "first_seen_at": "2026-11-21",
     "last_verified_at": "2026-11-21",
     "verification_note": "SecurityWeek(11/17)とBleepingComputer(11/16)の本文を確認。10/8〜11、対象情報、対象外情報、人数非公表、不正利用未把握、対応を照合。原因はBleepingComputerのみがスキマーと報じ、会社公表では未確認のため断定しない。"
+  },
+  {
+    "id": "usmh-scan-go-ignica-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": null,
+    "company": "ユナイテッド・スーパーマーケット・ホールディングス",
+    "service": "スマホ決済アプリ「Scan&Go ignica」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "小売",
+    "title": "ユナイテッド・スーパーマーケットHD、「Scan&Go ignica」に不正アクセス、64,003アカウントの氏名・メールアドレスが漏えいした可能性",
+    "summary": "首都圏で食品スーパーを展開するユナイテッド・スーパーマーケット・ホールディングスは11月12日、スマホ決済アプリ「Scan&Go ignica」のシステムへの第三者による不正アクセスを公表しました。新規登録時の氏名とメールアドレスを含むファイルが存在し、64,003アカウント分が漏えいした可能性があります。",
+    "note": "登録アカウントは約240万で、対象は一部です。不正利用や二次被害は確認されていないとSecurity NEXTが報じています。侵入時期や手口は本文から確認できていません。会社の公式発表は直接確認していません(NHKとSecurity NEXTの報道による)。",
+    "affected": [
+      {
+        "count": 64003,
+        "unit": "accounts",
+        "description": "氏名・メールアドレスが漏えいした可能性のあるアカウント",
+        "source_id": "usmh-scan-go-ignica-2026-2"
+      }
+    ],
+    "sources": [
+      "usmh-scan-go-ignica-2026-1",
+      "usmh-scan-go-ignica-2026-2"
+    ],
+    "verification_note": "NHK(11/12、約6万4000件、氏名・メール)とSecurity NEXT(11/20、64,003アカウント、約240万中)の本文を確認。NHK本文は冒頭のみ取得できた。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21"
+  },
+  {
+    "id": "nable-mail-assure-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-11-16",
+    "company": "N-able",
+    "service": "Mail Assure / SpamExperts Hosted Cloud",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "N-ableがMail Assure/SpamExperts Hosted Cloudへのサイバー攻撃を確認、サーバー1台に不正アクセス、管理ポータル等が停止",
+    "summary": "N-ableは11月16日に始まったMail AssureおよびSpamExperts Hosted Cloudの障害について、当初は設定やサービス依存関係が原因としていましたが、11月18日にサーバー1台への第三者による不正アクセスを認めました。管理ポータル、API、検疫、ログが停止し、メールの流通とフィルタリングは継続しています。",
+    "note": "保存されていた認証情報にアクセスされた可能性があるとされ、内部認証情報のローテーション、顧客APIトークンの失効等を実施したと報じられています。顧客データが侵害された証拠は確認されていないと会社は説明し、調査は継続中です。N-central脆弱性とは無関係とされています。N-ableのステータスページは直接確認していません(SecurityWeekとThe Hacker Newsの報道による)。",
+    "affected": [],
+    "sources": [
+      "nable-mail-assure-2026-1",
+      "nable-mail-assure-2026-2"
+    ],
+    "verification_note": "SecurityWeek(11/20)とThe Hacker News(11/20更新)の本文を確認。11/16の障害開始、11/18の認定、サーバー1台、顧客データ侵害の証拠なし、停止中の機能を照合。",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21"
   }
 ]
