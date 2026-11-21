@@ -8916,5 +8916,68 @@
     "type": "reporting",
     "url": "https://www.security-next.com/192578",
     "title": "個人情報管理システムが侵害、脆弱性対応中に判明 - 早稲田大(11/21)"
+  },
+  {
+    "id": "takarakuji-official-credential-stuffing-2026-1",
+    "publisher": "ITmedia NEWS",
+    "type": "reporting",
+    "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003158/",
+    "title": "ITmedia NEWS｜宝くじ公式サイト 会員の当落情報を第三者が閲覧の可能性"
+  },
+  {
+    "id": "takarakuji-official-credential-stuffing-2026-2",
+    "publisher": "INTERNET Watch",
+    "type": "reporting",
+    "url": "https://www.watch.impress.co.jp/docs/news/2156159.html",
+    "title": "INTERNET Watch｜宝くじ公式サイト・公式アプリへの不正ログイン"
+  },
+  {
+    "id": "collabora-code-nextcloud-exploitation-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "title": "BleepingComputer｜Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers"
+  },
+  {
+    "id": "collabora-code-nextcloud-exploitation-2026-2",
+    "publisher": "The Hacker News",
+    "type": "reporting",
+    "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+    "title": "The Hacker News｜Hackers backdoor Nextcloud servers (CVE-2026-110447)"
+  },
+  {
+    "id": "msecure-mseven-incident-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+    "title": "BleepingComputer｜mSecure password manager hack prompts password reset warnings"
+  },
+  {
+    "id": "msecure-mseven-incident-2026-2",
+    "publisher": "Malwarebytes",
+    "type": "reporting",
+    "url": "https://www.malwarebytes.com/blog/news/2026/11/msecure-tells-users-to-change-passwords-but-wont-say-why",
+    "title": "Malwarebytes｜mSecure tells users to change passwords but won’t say why"
+  },
+  {
+    "id": "msecure-mseven-incident-2026-3",
+    "publisher": "The Register",
+    "type": "reporting",
+    "url": "https://www.theregister.com/a/5307296",
+    "title": "The Register｜mSecure password manager suspicious activity notice"
+  },
+  {
+    "id": "btcpay-server-hot-wallet-thefts-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "title": "BleepingComputer｜BTCPay Server warns of hot wallet thefts targeting outdated instances"
+  },
+  {
+    "id": "btcpay-server-hot-wallet-thefts-2026-2",
+    "publisher": "The Hacker News",
+    "type": "reporting",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+    "title": "The Hacker News｜Hackers exploit BTCPay Server flaw to steal cryptocurrency"
   }
 ]

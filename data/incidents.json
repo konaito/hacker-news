@@ -17951,5 +17951,105 @@
     "first_seen_at": "2026-11-21",
     "last_verified_at": "2026-11-21",
     "verification_note": "早稲田大学公式英語版お知らせ(11/9)とSecurity NEXT(11/21)の本文を確認。8/31の痕跡、対象システム、3,342件の内訳、侵入経路調査中を照合。Security NEXTの記事は3,261件と81件の内訳のみ記載。"
+  },
+  {
+    "id": "takarakuji-official-credential-stuffing-2026",
+    "published_at": "2026-11-12",
+    "occurred_at": "2026-11-04",
+    "company": "宝くじ公式サイト(都道府県・指定都市)",
+    "service": "宝くじ公式サイト・公式アプリ",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "閲覧の可能性",
+    "category": "ポイント・決済",
+    "title": "宝くじ公式サイト・アプリに外部入手の認証情報による不正ログイン、4,436アカウントで会員情報を閲覧された可能性",
+    "summary": "都道府県と指定都市は11月11日、宝くじ公式サイトの会員アカウントに第三者が不正ログインし、会員情報が閲覧された可能性があると発表しました。外部で入手された認証情報が使われ、リスト型攻撃の可能性があるとしています。サイトは11月5日、アプリは6日までに停止し、11月13日8時に再開しました。",
+    "note": "閲覧された可能性がある情報は氏名・生年月日・性別・住所・電話番号・メールアドレス・当せん金受取口座の一部(金融機関名、口座名義、口座番号上4桁)・カード番号下4桁・購入履歴・プロフィール画像です。不正な購入や当せん金の受け取り、サーバー侵入や会員データの流出は確認されていないとしています。対象アカウント数4,436件は11/12付INTERNET Watchの記載で、ITmedia(11/12)の記事は件数を未公表としており、後日の更新と考えられます。公式発表本文は未取得です。再開にはパスワード再設定が必要です。",
+    "affected": [
+      {
+        "count": 4436,
+        "unit": "accounts",
+        "description": "不正ログインの被害を受けたとされる会員アカウント(INTERNET Watch)",
+        "source_id": "takarakuji-official-credential-stuffing-2026-2"
+      }
+    ],
+    "sources": [
+      "takarakuji-official-credential-stuffing-2026-1",
+      "takarakuji-official-credential-stuffing-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "ITmedia NEWSとINTERNET Watchの本文を確認。11/4の不正ログイン、リスト型攻撃の可能性、閲覧の可能性がある情報、流出未確認、11/13再開を照合。件数4,436はINTERNET Watchのみ。公式発表本文は未取得。"
+  },
+  {
+    "id": "collabora-code-nextcloud-exploitation-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": "2026-09-10",
+    "company": "Collabora / Nextcloud利用組織",
+    "service": "Nextcloud用Collabora Online Built-in CODE Server(richdocumentscode)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "侵入確認",
+    "category": "IT・クラウド",
+    "title": "Nextcloud用Collabora CODEアプリのRCE(CVE-2026-110447)が悪用され、サーバーにWebシェルが設置される被害",
+    "summary": "Nextcloud向けCollabora Online Built-in CODE Server(richdocumentscode)の認証不要のコマンド実行脆弱性CVE-2026-110447が9月10日ごろから悪用され、管理者が報告したサーバーにPHPのWebシェルが設置されたと報じられました。修正版26.4.303は9月11日公開、助言とCVEは10月14日に公開されました。",
+    "note": "管理者3人がGitHubで攻撃を報告し、最初の記録は9月10日です。被害サーバー数は不明で、ランサムウェア運用者による悪用という報告はBleepingComputerが確認できていません。悪用にはローカルの文書サーバーが停止している条件が必要とされます。Collabora単体サーバー、Docker・RPM/DEB、Nextcloud All-in-Oneは対象外とされています。ベンダー助言の原文は未取得で、CISA KEVの登録は本文で確認できていないため記載しません。",
+    "affected": [],
+    "sources": [
+      "collabora-code-nextcloud-exploitation-2026-1",
+      "collabora-code-nextcloud-exploitation-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "BleepingComputer(10/15)とThe Hacker Newsの本文を確認。CVE番号、修正版26.4.303、悪用開始9/10ごろ、Webシェル設置の管理者報告、被害数不明を照合。ベンダー助言原文は未取得。"
+  },
+  {
+    "id": "msecure-mseven-incident-2026",
+    "published_at": "2026-11-04",
+    "occurred_at": null,
+    "company": "mSeven Software",
+    "service": "mSecure(パスワードマネージャー)",
+    "region": "US",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・クラウド",
+    "title": "パスワードマネージャーmSecureの提供元が不審な活動を検知、利用者にパスワード変更・2FA再設定・パスキー削除を要請",
+    "summary": "mSeven Softwareは11月3日、mSecureに関連する不審な活動を検知したとして、現在・過去の利用者にパスワード変更、二要素認証の再設定、パスキーの削除などを求めるメールを送りました。調査を開始し、外部専門家の支援を受けているとしています。",
+    "note": "会社は、何が侵害されたか、情報が取得されたか、影響人数、発生時期を公表していません。BleepingComputerは、利用者が共有したサポート回答として、mSecure Cloudの暗号化データベースが盗まれ、Cloud同期の利用者のみが対象と報じていますが、Malwarebytesは公式声明で確認できないとしています。暗号化データベースの窃取は未確認の伝聞で、攻撃者が保管情報にアクセスした証拠はないとサポート回答は述べたとされます。affectedは未公表のため空です。",
+    "affected": [],
+    "sources": [
+      "msecure-mseven-incident-2026-1",
+      "msecure-mseven-incident-2026-2",
+      "msecure-mseven-incident-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "BleepingComputer、Malwarebytes、The Registerの本文を確認。11/3の利用者向け通知と推奨対応を3媒体で照合。データ窃取と対象範囲は未確認として扱い、一次の公式声明本文は未取得。"
+  },
+  {
+    "id": "btcpay-server-hot-wallet-thefts-2026",
+    "published_at": "2026-11-02",
+    "occurred_at": "2026-10-30",
+    "company": "BTCPay Server",
+    "service": "BTCPay Server(自己ホスト型暗号資産決済)の旧バージョン",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正出金確認",
+    "category": "暗号資産",
+    "title": "BTCPay Server旧バージョン(2.4.1以前)のホットウォレットから暗号資産が不正出金、約162万ドル相当との分析も",
+    "summary": "BTCPay Serverのプロジェクトは11月1〜2日、2.4.1(7月23日公開)以前のインスタンスを狙う攻撃手法を特定し、ホットウォレットからBitcoinとLitecoinが不正に引き出されたと報告しました。2.4.7では信頼できる被害報告はないとしています。",
+    "note": "プロジェクトは損失総額と被害者数を公表していません。Bitquery分析として、約18.38 BTCと3,405 LTC(約162万ドル)、682回の引き出しが報じられていますが第三者推計です。8月の2.4.2で修正されたLND認証情報の脆弱性との関連は不明とされています。BleepingComputerは2.4.2未満と記載し、The Hacker Newsは2.4.1以前と記載して表記が異なります。プロジェクトのブログ原文(11月分)は未取得で、確認できたのは8月の関連記事のみです。affectedは件数の単位が確定しないため空です。",
+    "affected": [],
+    "sources": [
+      "btcpay-server-hot-wallet-thefts-2026-1",
+      "btcpay-server-hot-wallet-thefts-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "BleepingComputer(11/2)とThe Hacker News(11/3)の本文を確認。2.4.1以前が対象、2.4.7に信頼できる被害報告なし、Bitcoin・Litecoinの不正出金を照合。金額はBitquery推計。プロジェクト11月分の一次発表は未取得。"
   }
 ]
