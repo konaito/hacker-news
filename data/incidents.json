@@ -11874,21 +11874,42 @@
     "company": "Joshin",
     "service": "同社ネットワーク（一部サービス）",
     "region": "JP",
-    "status": "disruption",
-    "display_label": "業務障害・調査中",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
     "category": "EC・小売",
-    "title": "家電量販のJoshinが不正アクセスで一部サービス停止、個人情報漏えいの可能性は否定できず",
-    "summary": "同社は10月17日、ネットワークが第三者による不正アクセスを受け、一部サービスを提供できない状態になっていると発表しました。10月16日に不正アクセスを認識し、外部からのアクセスを制限しています。",
-    "note": "外部専門機関と調査中で、情報流出の有無は確認中です。現時点で個人情報漏えいの可能性は否定できないとして個人情報保護委員会へ第一報を入れていますが、漏えいは確認されていません。影響サービス名、再開時期、対象件数は公表されていません。",
-    "affected": [],
+    "title": "家電量販のJoshinが不正アクセスで会員情報最大約600万件の漏えいの可能性、免許証画像なども対象",
+    "summary": "同社は10月26日の第2報で、会員情報データベースサーバーの氏名・住所・電話番号・会員番号が最大約600万件、「ジョーシンのサブスク」の情報が最大約23万件、リフォーム写真アップロードシステムの情報が最大約800件、漏えいした可能性があると発表しました。",
+    "note": "件数はいずれも「最大」で、漏えいが確定したものではありません。リフォーム写真システムの約800件には免許証画像2件、マイナンバーカード画像1件、口座番号5件が含まれるとされます。クレジットカード情報は保持していないと同社は説明しています。件数は3システムごとの値で合算していません。第2報の公式PDFは本文を抽出できず、Impress Watch・ScanNetSecurity・NHKの本文で確認しました(NHKは約600万件のみ)。",
+    "affected": [
+      {
+        "count": 6000000,
+        "unit": "records",
+        "description": "会員情報データベースサーバーの漏えい可能性のある情報(最大約600万件)",
+        "source_id": "joshin-2026-3"
+      },
+      {
+        "count": 230000,
+        "unit": "records",
+        "description": "「ジョーシンのサブスク」の漏えい可能性のある情報(最大約23万件)",
+        "source_id": "joshin-2026-3"
+      },
+      {
+        "count": 800,
+        "unit": "records",
+        "description": "リフォーム写真アップロードシステムの漏えい可能性のある情報(最大約800件)",
+        "source_id": "joshin-2026-3"
+      }
+    ],
     "sources": [
-      "joshin-2026-1",
-      "joshin-2026-2"
+      "joshin-2026-2",
+      "joshin-2026-3",
+      "joshin-2026-4",
+      "joshin-2026-5"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-10-20",
-    "last_verified_at": "2026-10-20",
-    "verification_note": "同社公式告知PDFの本文（日付・認識日・調査中・漏えい可能性否定できず）を確認し、ITmedia NEWSの本文と突合。"
+    "last_verified_at": "2026-11-21",
+    "verification_note": "ITmedia(第1報)、Impress Watch、ScanNetSecurity、NHKの本文を確認。第1報・第2報の公式PDFは本文抽出不可のため今回は出典から外し、報道で照合。"
   },
   {
     "id": "jcom-dns-outage-2026",
@@ -18051,5 +18072,89 @@
     "first_seen_at": "2026-11-21",
     "last_verified_at": "2026-11-21",
     "verification_note": "BleepingComputer(11/2)とThe Hacker News(11/3)の本文を確認。2.4.1以前が対象、2.4.7に信頼できる被害報告なし、Bitcoin・Litecoinの不正出金を照合。金額はBitquery推計。プロジェクト11月分の一次発表は未取得。"
+  },
+  {
+    "id": "smbc-nikko-shareholding-system-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": null,
+    "company": "SMBC日興証券",
+    "service": "持株会事務受託業務で使用しているシステム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "金融・保険",
+    "title": "SMBC日興証券の持株会事務システムに不正アクセス、最大56,487人の個人情報が漏えいした可能性",
+    "summary": "同社は11月11日、11月9日に持株会事務受託業務のシステムへの不正アクセスを確認し、同日アクセス遮断とサービス一時停止を行ったと発表しました。最大56,487人の持株会会員の氏名・住所・持分残高・振替先口座情報などが漏えいした可能性があります。",
+    "note": "項目は持株会ごとに異なる可能性があります。原因と影響範囲は調査中で、対象の持株会へ個別に連絡するとされます。公式リリースPDFは本文を抽出できず、ScanNetSecurityとNHKの本文で確認しました(NHKは約5万6000人と報道)。",
+    "affected": [
+      {
+        "count": 56487,
+        "unit": "people",
+        "description": "漏えいの可能性がある持株会会員(最大)",
+        "source_id": "smbc-nikko-shareholding-system-2026-1"
+      }
+    ],
+    "sources": [
+      "smbc-nikko-shareholding-system-2026-1",
+      "smbc-nikko-shareholding-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "ScanNetSecurityとNHKの本文を確認(11/9確認・11/11公表・最大約5.6万人)。公式PDFは本文抽出不可。"
+  },
+  {
+    "id": "yamada-denki-reform-system-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": null,
+    "company": "ヤマダデンキ",
+    "service": "リフォーム管理システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "ヤマダデンキのリフォーム管理システムに不正アクセス、最大約350万件の顧客情報が漏えいした可能性",
+    "summary": "同社は11月13日、リフォーム管理システムが第三者から不正アクセスを受け、11月12日に確認して外部からのアクセスを遮断したと公表しました。氏名・住所・電話番号・リフォーム実施履歴などの最大約350万件が漏えいした可能性があります。",
+    "note": "件数は「最大」の記録数で、人数ではありません。原因と影響範囲は調査中です。同社公式発表の本文は未取得で、Security NEXTとNHKの本文で確認しました。",
+    "affected": [
+      {
+        "count": 3500000,
+        "unit": "records",
+        "description": "漏えいの可能性がある顧客情報(最大約350万件)",
+        "source_id": "yamada-denki-reform-system-2026-1"
+      }
+    ],
+    "sources": [
+      "yamada-denki-reform-system-2026-1",
+      "yamada-denki-reform-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "Security NEXTとNHKの本文を確認(11/12確認・最大350万件・氏名住所電話リフォーム履歴)。公式発表は未取得。"
+  },
+  {
+    "id": "european-commission-hr-systems-2026",
+    "published_at": "2026-11-19",
+    "occurred_at": "2026-10-22",
+    "company": "欧州委員会",
+    "service": "人事・医療費精算などの内部システム",
+    "region": "GLOBAL",
+    "status": "disruption",
+    "display_label": "業務障害・調査中",
+    "category": "行政・公共",
+    "title": "欧州委員会がサイバー攻撃を確認、人事系システムが10日以上停止、データ侵害の証拠は未確認",
+    "summary": "欧州委員会は11月19日、10月22日に最初の兆候を検知したサイバー攻撃を確認しました。人事システムSysperや医療費精算などが10日以上影響を受け、一部サービスは予防的に停止されました。",
+    "note": "委員会は職員全体に影響するデータ侵害の証拠は検出していないと説明し、身代金要求も把握していません。調査は継続中で、CERT-EUと欧州データ保護監督官に通知済みです。報道ではAIハッキング基盤ARTEXの使用が伝えられていますが、委員会はツールを公に確認しておらず、報道内容は未検証です。委員会の一次発表は取得できず、The Record、Euronews、The Registerの本文で確認しました。報道間で検知日・確認日の記載が異なります。",
+    "affected": [],
+    "sources": [
+      "european-commission-hr-systems-2026-1",
+      "european-commission-hr-systems-2026-2",
+      "european-commission-hr-systems-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "The Record、Euronews、The Registerの本文を確認。10/22検知、人事系システム停止、広範なデータ侵害の証拠なしの委員会説明を照合。委員会一次発表は未取得。"
   }
 ]
