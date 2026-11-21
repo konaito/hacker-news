@@ -9049,5 +9049,47 @@
     "type": "reporting",
     "url": "https://theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
     "title": "The Register｜European Commission scrambles to contain AI-assisted cyberattack"
+  },
+  {
+    "id": "tfl-oyster-photocard-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+    "title": "BleepingComputer｜Transport for London breach exposes 265,000 Oyster card users' data"
+  },
+  {
+    "id": "tfl-oyster-photocard-2026-2",
+    "publisher": "ianVisits",
+    "type": "reporting",
+    "url": "https://ianvisits.co.uk/articles/tfl-cyber-attack-may-have-exposed-data-of-265000-oyster-photocard-users-94247",
+    "title": "ianVisits｜TfL cyber attack may have exposed data of 265,000 Oyster photocard users"
+  },
+  {
+    "id": "chase-vendor-marketing-data-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+    "title": "BleepingComputer｜Vendor data breach exposes Chase, Visa, Mastercard customer info"
+  },
+  {
+    "id": "chase-vendor-marketing-data-2026-2",
+    "publisher": "KOMO News (AP)",
+    "type": "reporting",
+    "url": "https://komonews.com/news/nation-world/jpmorgan-chase-says-third-party-vendor-cyberattack-may-have-exposed-customer-names-and-email-addresses-banking-online-accounts-technology-outages",
+    "title": "JPMorgan Chase says vendor cyberattack may have exposed customer names and email addresses"
+  },
+  {
+    "id": "onecosme-iid-2026-1",
+    "publisher": "株式会社イード",
+    "type": "primary",
+    "url": "https://onecosme.jp/info/incident_20261118.html",
+    "title": "株式会社イード｜ONE cosme への不正アクセスについて（11/18）"
+  },
+  {
+    "id": "onecosme-iid-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56864.html",
+    "title": "ScanNetSecurity｜「ONE cosme」に不正アクセス、最大1,154名の会員情報が取得された可能性"
   }
 ]

@@ -18156,5 +18156,88 @@
     "first_seen_at": "2026-11-21",
     "last_verified_at": "2026-11-21",
     "verification_note": "The Record、Euronews、The Registerの本文を確認。10/22検知、人事系システム停止、広範なデータ侵害の証拠なしの委員会説明を照合。委員会一次発表は未取得。"
+  },
+  {
+    "id": "tfl-oyster-photocard-2026",
+    "published_at": "2026-11-19",
+    "occurred_at": null,
+    "company": "ロンドン交通局（TfL）",
+    "service": "Oyster フォトカードのオンラインアカウント",
+    "region": "GLOBAL",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "交通・物流",
+    "title": "TfL、Oyster フォトカード利用者約26.5万人のアカウント情報が漏えいした可能性、サイトを停止",
+    "summary": "ロンドン交通局（TfL）は、11月16日にOysterフォトカードのアカウント登録を促す不審なメールが顧客に届いたことで侵害を把握し、約26.5万人の顧客のアカウント情報が漏えいした可能性があると発表しました。フォトカード用サイトは停止されています。",
+    "note": "漏えいの可能性がある情報は氏名・住所・メールアドレス・電話番号・生年月日・セキュリティの質問と回答で、パスワード、銀行・カード情報、移動履歴は現時点で対象外とされています。当初約25万人から増え、調査は継続中で人数はさらに増える可能性があります。TfLは英情報コミッショナー事務局に通知済みです。TfLの公式ページは403で本文を取得できず、BleepingComputerとianVisitsの本文で確認しました(ITVは取得タイムアウト)。ianVisitsはTfLの発表内容を伝える報道で、独立した一次情報ではありません。2024年の事案とは別件です。",
+    "affected": [
+      {
+        "count": 265000,
+        "unit": "people",
+        "description": "アカウント情報が漏えいした可能性のあるOysterフォトカード顧客(約26.5万人、TfL推計・調査中)",
+        "source_id": "tfl-oyster-photocard-2026-1"
+      }
+    ],
+    "sources": [
+      "tfl-oyster-photocard-2026-1",
+      "tfl-oyster-photocard-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "BleepingComputer、ianVisitsの本文を確認。11/16発覚、約26.5万人、対象情報、対象外情報、サイト停止を照合。TfL公式は403で未確認。"
+  },
+  {
+    "id": "chase-vendor-marketing-data-2026",
+    "published_at": "2026-11-19",
+    "occurred_at": null,
+    "company": "JPMorgan Chase（委託先ベンダー）",
+    "service": "委託先が保有するマーケティングデータ",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "金融",
+    "title": "JPMorgan Chase、委託先ベンダーへの攻撃でマーケティングデータにアクセスされたと公表、VisaとMastercardも関連と報道",
+    "summary": "JPMorgan Chaseは11月19日、サービスを提供する第三者ベンダーが攻撃を受け、攻撃者がベンダー保有のマーケティングデータにアクセスしたとみられると公表しました。顧客の氏名やメールアドレスが含まれる可能性があります。",
+    "note": "Chaseのサービス障害はなく、同週のオンラインバンキング障害とは無関係と説明されています。影響人数は公表されていません。BleepingComputerによれば、VisaはAPAC地域の第三者ベンダー由来で自社システムと決済情報は影響なし、Mastercardは一部カード会員のメールアドレスを含む非決済情報で影響は封じ込め済みと説明しています。ベンダーをQuboleとする見方、n0nによる犯行主張、54GB・約3万ファイルなどの数量はBleepingComputerが伝える未確認情報で、確認済みの事実として扱っていません。Chase公式のX投稿は取得できず、BleepingComputerとAP配信記事の本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "chase-vendor-marketing-data-2026-1",
+      "chase-vendor-marketing-data-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "BleepingComputerとAP配信(KOMO)の本文を確認。Chaseの声明(ベンダー標的、マーケティングデータ、サービス影響なし)を照合。ベンダー名・犯行主張・数量は未確認として限定。"
+  },
+  {
+    "id": "onecosme-iid-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-11-10",
+    "company": "イード（ONE cosme）",
+    "service": "化粧品クチコミサイト「ONE cosme」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・サービス",
+    "title": "「ONE cosme」に不正アクセス、最大1,154名の会員のメールアドレス等が取得された可能性",
+    "summary": "イードは11月18日、11月10日に海外サーバー経由の第三者が「ONE cosme」の会員情報を機械的に取得したと公表しました。最大1,154名のメールアドレスと暗号化パスワード、一部の生年月日・性別が対象の可能性があります。",
+    "note": "生年月日は634名、性別は578名が登録対象です。氏名、クレジットカード情報、マイナンバー等は取得されていないと説明されています。約1,150件のパスワード再設定メールを送付済みで、二次被害は確認されていません。具体的な脆弱性や原因は未公表です。イード公式発表とScanNetSecurityの本文で確認しました。",
+    "affected": [
+      {
+        "count": 1154,
+        "unit": "people",
+        "description": "情報が取得された可能性のある会員(最大1,154名)",
+        "source_id": "onecosme-iid-2026-1"
+      }
+    ],
+    "sources": [
+      "onecosme-iid-2026-1",
+      "onecosme-iid-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-21",
+    "last_verified_at": "2026-11-21",
+    "verification_note": "イード公式発表とScanNetSecurityの本文を確認。11/10の不正取得、最大1,154名、対象項目、対象外項目を照合。"
   }
 ]
