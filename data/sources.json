@@ -9091,5 +9091,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56864.html",
     "title": "ScanNetSecurity｜「ONE cosme」に不正アクセス、最大1,154名の会員情報が取得された可能性"
+  },
+  {
+    "id": "fandango-checkout-card-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+    "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure"
+  },
+  {
+    "id": "fandango-checkout-card-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages",
+    "title": "Fandango says hackers stole payment card details from checkout pages"
   }
 ]
