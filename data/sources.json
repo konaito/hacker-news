@@ -8902,5 +8902,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/17/56804.html",
     "title": "「teket」に不正アクセス"
+  },
+  {
+    "id": "waseda-mywaseda-user-system-2026-1",
+    "publisher": "早稲田大学",
+    "type": "primary",
+    "url": "https://www.waseda.jp/top/en/news/90064",
+    "title": "Notice Regarding a Personal Information Breach Caused by Unauthorized Access (11/9)"
+  },
+  {
+    "id": "waseda-mywaseda-user-system-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192578",
+    "title": "個人情報管理システムが侵害、脆弱性対応中に判明 - 早稲田大(11/21)"
   }
 ]
