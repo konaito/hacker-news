@@ -1,135 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-11-22T18:32:54.009955+00:00",
+  "completed_at": "2026-11-22T20:01:56.019962+00:00",
   "candidates": [
-    {
-      "title": "Poryadok(ロシアのホームグッズ小売)へのサイバー攻撃",
-      "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "WebSearchの要約のみ(48店舗、5日間の停止、攻撃を会社が認める)。本文未取得で独立報道も見つからず。持越し。"
-    },
-    {
-      "title": "Michigan State University cyber incident claimed by BYOD gang",
-      "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文を確認。MSUは認証情報侵害の可能性を認めるが中央ADへの侵害や窃取の証拠なしとし、BYODの130万人窃取主張は未確認。攻撃者主張のため掲載せず持越し。"
-    },
-    {
-      "title": "Baker Tilly 第三者提供者の侵害",
-      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文は確認(9/6判明、テキサス州司法長官ポータルで10,456人)。サンプル通知(DocumentCloud)とSC Worldは403で本文未確認、独立2媒体に届かないため未レコード化。"
-    },
-    {
-      "title": "Binance ShinyHunters主張否認",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文確認。攻撃者の3.35億人分販売主張をBinanceは侵害の証拠なしと否定。主張は未検証で件数は記録しない。別媒体の本文未確認のため持越し。"
-    },
-    {
-      "title": "UK school estate ランサムウェア",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文確認(9/10〜19、約37台暗号化、AI関与はBitdefenderの推測)。被害組織名なし・Bitdefender原文未読・1媒体のため未レコード化。AI攻撃とは分類しない。"
-    },
-    {
-      "title": "Warpの侵害",
-      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BleepingComputer本文確認(約1%の利用者の可能性、ベンダー侵害)。CSAメモはBC依存、Warp公式声明は未取得で独立2媒体に届かず持越し。"
-    },
-    {
-      "title": "Allstate / ExfilSquad主張",
-      "url": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "指定ページ本文にAllstate・ExfilSquadの記載なし。検索では7月26日の主張とマサチューセッツ州提出が見つかったが、州文書は403で本文未確認、時期も9/1以前。攻撃者の件数は記録しない。"
-    },
-    {
-      "title": "渋谷区のシステム障害と窓口業務縮小",
-      "url": "https://www.itmedia.co.jp/news/article/2610/05/2000001998/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ITmedia本文確認。原因はサイバー攻撃か不明、復旧見通しなし。続報は検索で見つからず、区公式本文も未取得のため持越し。"
-    },
-    {
-      "title": "研修会申込者の個人情報が閲覧可能に - 静岡県",
-      "url": "https://www.security-next.com/190136",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文確認(Googleフォーム設定ミス、109人、8/10判明)。県の発表等の第2の出典を未確認で持越し。"
-    },
-    {
-      "title": "事業所担当者向けメール誤送信 - 愛媛労働基準協会",
-      "url": "https://www.security-next.com/190739",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文確認(37事業所のアドレスがTo欄で相互閲覧)。小規模で単独出典、未レコード化。"
-    },
-    {
-      "title": "さいたま市民医療センター、手術画像記録媒体の紛失",
-      "url": "https://www.security-next.com/192393",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文確認(手術画像約200枚の媒体紛失)。物理媒体の紛失で単独出典、未レコード化。"
-    },
-    {
-      "title": "Cairn AIプラットフォーム悪用による100組織超の侵害",
-      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再調査せず(未選択)。未検証のまま持越し。"
-    },
-    {
-      "title": "コーセー 店頭体験レッスン予約システムで個人情報流出",
-      "url": "https://www.security-next.com/category/news/#kose",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT 193020本文を確認(11/10に大量アクセス、2万8098件、個人情報保護委員会に報告)。ただし報道1媒体のみ、公式発表は検索で取得できず公開基準未達。持越し。"
-    },
-    {
-      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
-      "url": "https://www.derp.ca/ransomware/thegentlemen/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再検索していない。攻撃者の主張のみ、持越し。"
-    },
-    {
-      "title": "N-able says recent security breach led to major service outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧のみ確認。既存ncentral-september-compromise-2026との関係を含め本文未読、時間不足で次回。"
-    },
-    {
-      "title": "太陽光発電遠隔監視サービスで侵害",
-      "url": "https://www.security-next.com/192657",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "見出しのみ確認。既存pendingの別件との関係は未確認、本文未読のため次回。"
-    },
     {
       "title": "Access Dental Management data breach 340,000+",
       "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
@@ -451,14 +323,6 @@
       "reason": "Security NEXT本文のみ確認。公式お知らせURLが記事になく、検索でも公式・第2媒体を取得できず未掲載。"
     },
     {
-      "title": "FBI 全米犯罪司法データベースの侵害疑い(AP情報筋)",
-      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "SecurityWeek一覧の見出しのみ。本文未読、匿名情報筋で一次情報なしのため次回へ。"
-    },
-    {
       "title": "Nvidia Gentlemenランサム主張への回答",
       "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
       "priority": "high",
@@ -579,22 +443,6 @@
       "reason": "BleepingComputer本文のみ確認(11/17に漏えいした認証情報で不正アクセス、Kubernetes Secrets閲覧可能、11/21復旧)。Rackspaceの公開された公式発表・独立した第2媒体は取得できず(検索でも該当なし)。次回再調査。"
     },
     {
-      "title": "Container Store restores systems after cyberattack",
-      "url": "https://therecord.media/container-store-restores-systems-cyberattack",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文のみ確認(オンライン注文停止、店舗は代替手順、n0nが掲載)。企業の公式発表・第2媒体は未取得(8-K検索でも該当なし)。持越し。"
-    },
-    {
-      "title": "West Virginia Legislature hit with cyber incident",
-      "url": "https://therecord.media/west-virginia-legislature-cyberattack",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文のみ確認(11/19-20、Webサイトと一部IT停止、データ窃取は不明)。第2媒体・公式発表は未取得。持越し。"
-    },
-    {
       "title": "FBI reportedly hacked again, targeting nationwide police database",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
       "priority": "high",
@@ -617,6 +465,150 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧で発見のみ。本文未確認で、脆弱性悪用の事案かの判断もできていないため持越し。"
+    },
+    {
+      "title": "Michigan State University cyber incident claimed by BYOD gang",
+      "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "検索で再確認(WJLA等のシンジケート記事とThe Record)。MSUは個人情報の侵害を未確認とし、BYODの130万人主張は未検証のまま。本文の再読はしていない。主張のみで公開基準未達のため持越し。"
+    },
+    {
+      "title": "Poryadok(ロシアのホームグッズ小売)へのサイバー攻撃",
+      "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: WebSearchの要約のみ(48店舗、5日間の停止、攻撃を会社が認める)。本文未取得で独立報道も見つからず。持越し。)"
+    },
+    {
+      "title": "Baker Tilly 第三者提供者の侵害",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: BleepingComputer本文は確認(9/6判明、テキサス州司法長官ポータルで10,456人)。サンプル通知(DocumentCloud)とSC Worldは403で本文未確認、独立2媒体に届かないため未レコード化。)"
+    },
+    {
+      "title": "Binance ShinyHunters主張否認",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: BleepingComputer本文確認。攻撃者の3.35億人分販売主張をBinanceは侵害の証拠なしと否定。主張は未検証で件数は記録しない。別媒体の本文未確認のため持越し。)"
+    },
+    {
+      "title": "UK school estate ランサムウェア",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: BleepingComputer本文確認(9/10〜19、約37台暗号化、AI関与はBitdefenderの推測)。被害組織名なし・Bitdefender原文未読・1媒体のため未レコード化。AI攻撃とは分類しない。)"
+    },
+    {
+      "title": "Warpの侵害",
+      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: BleepingComputer本文確認(約1%の利用者の可能性、ベンダー侵害)。CSAメモはBC依存、Warp公式声明は未取得で独立2媒体に届かず持越し。)"
+    },
+    {
+      "title": "Allstate / ExfilSquad主張",
+      "url": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: 指定ページ本文にAllstate・ExfilSquadの記載なし。検索では7月26日の主張とマサチューセッツ州提出が見つかったが、州文書は403で本文未確認、時期も9/1以前。攻撃者の件数は記録しない。)"
+    },
+    {
+      "title": "渋谷区のシステム障害と窓口業務縮小",
+      "url": "https://www.itmedia.co.jp/news/article/2610/05/2000001998/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: ITmedia本文確認。原因はサイバー攻撃か不明、復旧見通しなし。続報は検索で見つからず、区公式本文も未取得のため持越し。)"
+    },
+    {
+      "title": "研修会申込者の個人情報が閲覧可能に - 静岡県",
+      "url": "https://www.security-next.com/190136",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: Security NEXT本文確認(Googleフォーム設定ミス、109人、8/10判明)。県の発表等の第2の出典を未確認で持越し。)"
+    },
+    {
+      "title": "事業所担当者向けメール誤送信 - 愛媛労働基準協会",
+      "url": "https://www.security-next.com/190739",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: Security NEXT本文確認(37事業所のアドレスがTo欄で相互閲覧)。小規模で単独出典、未レコード化。)"
+    },
+    {
+      "title": "さいたま市民医療センター、手術画像記録媒体の紛失",
+      "url": "https://www.security-next.com/192393",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: Security NEXT本文確認(手術画像約200枚の媒体紛失)。物理媒体の紛失で単独出典、未レコード化。)"
+    },
+    {
+      "title": "Cairn AIプラットフォーム悪用による100組織超の侵害",
+      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を確認(10/20、Norforge調査、被害組織名はNorforgeは非公開、Reutersが100社超・John Deere等と報道)。AIツール悪用の研究報告であり、個別の被害組織の侵害確認に至らず、被害組織側の一次情報も未確認のためレコード化せず持越し。AI攻撃の事件として分類しない。"
+    },
+    {
+      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
+      "url": "https://www.derp.ca/ransomware/thegentlemen/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回の実行では再調査していない(時間配分)。前回の判断を維持して持越し。(前回: 今回は再検索していない。攻撃者の主張のみ、持越し。)"
+    },
+    {
+      "title": "太陽光発電遠隔監視サービスで侵害",
+      "url": "https://www.security-next.com/192657",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文を確認。NTTスマイルエナジーの「エコめがね」で10/28に外部からの不審アクセス、脆弱性悪用の不正アクセスとポイント不正交換。件数なし、会社発表の原文は未確認、独立した第2の出典がなく未レコード化。既存pendingの別件とは別の事案。"
+    },
+    {
+      "title": "コーセー 店頭体験レッスン予約システムで個人情報流出",
+      "url": "https://www.security-next.com/category/news/#kose",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT 193020本文を再確認(11/10に確認、28,098件、個人情報保護委員会へ報告)。コーセー公式の発表を検索とkose.co.jpで探したが見つからず(404/検索不達)。独立2媒体または一次情報が未取得のため持越し。"
+    },
+    {
+      "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+      "url": "https://therecord.media/west-virginia-legislature-cyberattack",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record一覧の見出しのみ確認。本文未読、独立した第2の出典も未確認。次回以降の候補。"
+    },
+    {
+      "title": "Container Store restores systems after cyberattack",
+      "url": "https://therecord.media/container-store-restores-systems-cyberattack",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record一覧の見出しのみ確認。本文未読、公式発表も未確認。次回以降の候補。"
+    },
+    {
+      "title": "FBI investigating apparent hack of national criminal justice database",
+      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek一覧の見出しのみ確認(APの情報源に基づく報道)。本文未読で公式確認なし。次回以降の候補。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -701,18 +693,18 @@
   ],
   "checked_at": {
     "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-11-22T18:32:32+00:00",
-    "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-11-21T07:44:55Z",
+    "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-11-22T20:01:10+00:00",
     "rakuten-data-sale-claim-2026": "2026-11-22T07:27:57+00:00",
     "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-11-22T03:10:08Z",
-    "ftapi-2026": "2026-11-21T19:49:38Z",
+    "ftapi-2026": "2026-11-22T20:01:10+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-11-21T19:49:38Z",
     "tottori-care-provider-email-2026": "2026-11-22T07:27:57+00:00",
     "solar-russian-medical-network-2026": "2026-11-22T07:27:57+00:00",
     "https://wasteland.me/intel/aon-termite-ransomware": "2026-11-22T18:32:32+00:00",
-    "hcuch-imaging-2026": "2026-11-21T19:49:38Z",
+    "hcuch-imaging-2026": "2026-11-22T20:01:10+00:00",
     "kenya-brs-2026": "2026-11-22T07:27:57+00:00",
-    "https://www.security-next.com/190739": "2026-11-21T07:44:55Z",
-    "andover-town-schools-2026": "2026-11-21T19:49:38Z",
+    "https://www.security-next.com/190739": "2026-11-22T20:01:10+00:00",
+    "andover-town-schools-2026": "2026-11-22T20:01:10+00:00",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-21T23:14:35.388999+00:00",
     "https://s-que.net/news/20261008/": "2026-11-22T03:10:08Z",
     "rhyne-industrial-company-2023": "2026-11-22T07:27:57+00:00",
@@ -720,44 +712,44 @@
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-22T03:10:08Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-21T23:14:35.388999+00:00",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-11-21T23:14:35.388999+00:00",
-    "https://www.security-next.com/190136": "2026-11-21T07:44:55Z",
+    "https://www.security-next.com/190136": "2026-11-22T20:01:10+00:00",
     "https://www.ransomlook.io/recent": "2026-11-21T23:14:35.388999+00:00",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-22T03:10:08Z",
-    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-21T17:33:42.561160+00:00",
+    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-22T20:01:10+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-21T23:14:35.388999+00:00",
     "https://haveibeenpwned.com/breach/neogen": "2026-11-22T03:10:08Z",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-11-22T03:10:08Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-11-22T11:17:39Z",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-11-22T18:32:32+00:00",
-    "coldcard-x-phishing-2026": "2026-11-21T19:49:38Z",
+    "coldcard-x-phishing-2026": "2026-11-22T20:01:10+00:00",
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-22T03:10:08Z",
     "senture-fmcsa-2026": "2026-11-22T07:27:57+00:00",
-    "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-11-21T07:44:55Z",
+    "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-11-22T20:01:10+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-21T19:49:38Z",
-    "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-11-21T09:48:42.120204+00:00",
+    "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-11-22T20:01:10+00:00",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-11-22T11:17:39Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-21T19:49:38Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html": "2026-11-21T19:49:38Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-21T19:49:38Z",
-    "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": "2026-11-21T07:44:55Z",
+    "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": "2026-11-22T20:01:10+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html": "2026-11-22T07:27:57+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html": "2026-11-22T07:27:57+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-22T07:27:57+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-22T07:27:57+00:00",
-    "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-20T20:47:14Z",
+    "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-22T20:01:10+00:00",
     "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/": "2026-11-22T03:10:08Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-22T07:27:57+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-22T07:27:57+00:00",
     "https://therecord.media/hackers-ukraine-belarus-russia": "2026-11-22T18:32:32+00:00",
-    "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": "2026-11-20T20:47:14Z",
-    "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/": "2026-11-21T07:44:55Z",
-    "https://www.security-next.com/192393": "2026-11-21T07:44:55Z",
+    "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": "2026-11-22T20:01:10+00:00",
+    "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/": "2026-11-22T20:01:10+00:00",
+    "https://www.security-next.com/192393": "2026-11-22T20:01:10+00:00",
     "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/": "2026-11-21T19:49:38Z",
-    "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/": "2026-11-21T07:44:55Z",
+    "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/": "2026-11-22T20:01:10+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/10/56721.html": "2026-11-22T07:27:57+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/10/56720.html": "2026-11-22T07:27:57+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/11/56739.html": "2026-11-22T07:27:57+00:00",
-    "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/": "2026-11-21T07:44:55Z",
+    "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/": "2026-11-22T20:01:10+00:00",
     "https://socradar.io/data-breach/medela-shinyhunters-extortion-2026/": "2026-11-22T07:27:57+00:00",
     "https://rocket-boys.co.jp/security-measures-lab/2026-09-ransomware-cases-summary/": "2026-11-21T19:49:38Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/16/56792.html": "2026-11-22T07:27:57+00:00",
@@ -767,25 +759,24 @@
     "https://www.security-next.com/192962": "2026-11-22T03:10:08Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/18/56818.html": "2026-11-22T11:17:39Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/18/56814.html": "2026-11-22T11:17:39Z",
-    "https://www.security-next.com/192657": "2026-11-21T17:33:42.561160+00:00",
+    "https://www.security-next.com/192657": "2026-11-22T20:01:10+00:00",
     "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/": "2026-11-21T19:49:38Z",
     "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/": "2026-11-21T19:49:38Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html": "2026-11-22T11:17:39Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html": "2026-11-22T07:27:57+00:00",
     "https://www.security-next.com/193020": "2026-11-22T11:17:39Z",
-    "https://www.security-next.com/category/news/#kose": "2026-11-21T17:33:42.561160+00:00",
+    "https://www.security-next.com/category/news/#kose": "2026-11-22T20:01:10+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56839.html": "2026-11-21T19:49:38Z",
     "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/": "2026-11-22T18:32:32+00:00",
     "https://www.security-next.com/192585": "2026-11-22T07:27:57+00:00",
-    "https://therecord.media/container-store-restores-systems-cyberattack": "2026-11-22T18:32:32+00:00",
-    "https://therecord.media/west-virginia-legislature-cyberattack": "2026-11-22T18:32:32+00:00",
+    "https://therecord.media/container-store-restores-systems-cyberattack": "2026-11-22T20:01:10+00:00",
+    "https://therecord.media/west-virginia-legislature-cyberattack": "2026-11-22T20:01:10+00:00",
     "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions": "2026-11-22T18:32:32+00:00",
     "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/": "2026-11-22T18:32:32+00:00",
     "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/": "2026-11-22T11:17:39Z",
-    "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/": "2026-11-21T17:33:42.561160+00:00",
     "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/": "2026-11-22T18:32:32+00:00",
     "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/": "2026-11-22T18:32:32+00:00",
-    "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/": "2026-11-22T11:17:39Z",
+    "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/": "2026-11-22T20:01:10+00:00",
     "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/": "2026-11-22T18:32:32+00:00"
   },
   "last_success": {
@@ -796,18 +787,18 @@
       "main_sha": "c8573ad26a7cf204846c380496a4c89111fdd464"
     },
     "historical": {
-      "completed_at": "2026-11-22T07:27:57+00:00",
-      "summary": "historicalモード。データ変更なし。必須再調査のうちpending4件を再検索し、日本郵便・Fireworks AI関連・MSコンパスの3件は本文を確認したが一次発表未確認のため公開せず持越し。他の再調査対象は本文を再調査せずdeferredのまま(未確認)。国内2媒体・海外2媒体の新着一覧を確認し、高優先の新規見出しを未検証候補として記録。次回は楽天証券、アンドエスティ、ユミルリンク、富岳、SBC Medical、TfL、各公式発表の確認を優先。全件を確認したとは主張しない。",
-      "run_id": "44998220997",
-      "main_sha": "e5ec7e19e01fd73bd3ff88b97d86524bc9e02680"
+      "completed_at": "2026-11-22T20:01:10+00:00",
+      "summary": "historicalモード。チリ大学附属病院の11/14のサイバーインシデント(hcuch-cyber-incident-nov-2026)をEl DínamoとEmolの本文で確認して1件追加(9月の画像診断pendingとは別件)。必須20件のうち13件を再調査し、N-ableは既存ID(nable-mail-assure-2026)と一致、コーセー・Warp・MSU・Cairn・太陽光の5件は公開基準未達で持越し、pending4件(Andover、COLDCARD、FTAPI、HCUCH画像診断)も新たな独立出典なしでpending維持。Poryadok、Baker Tilly、Binance、UK school、Allstate、渋谷区、静岡県、愛媛、さいたま、Gentlemenの10件は再調査していない。国内2媒体・海外3媒体の新着一覧は1ページ目のみ確認。全件を確認したとは主張しない。次回はコーセー公式、未再調査の10件、ITmedia/NHK等の国内媒体、JPCERT/CC・CISAの確認を優先。",
+      "run_id": "45063660108",
+      "main_sha": "6d373b03e20fe2d11d5eefaca8de08be55e06d40"
     }
   },
   "last_attempt": {
-    "mode": "fresh",
-    "run_id": "45055473876",
-    "completed_at": "2026-11-22T18:32:54.009955+00:00",
+    "mode": "historical",
+    "run_id": "45063660108",
+    "completed_at": "2026-11-22T20:01:56.019962+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "c8573ad26a7cf204846c380496a4c89111fdd464"
+    "main_sha": "6d373b03e20fe2d11d5eefaca8de08be55e06d40"
   }
 }
