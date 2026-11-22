@@ -9147,5 +9147,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56856.html",
     "title": "ソニー少額短期保険が社内利用する契約管理システムの開発・テスト環境に不正アクセス"
+  },
+  {
+    "id": "cleverbridge-card-data-2026-1",
+    "publisher": "Cleverbridge",
+    "type": "primary",
+    "url": "https://grow.cleverbridge.com/incident-update",
+    "title": "Incident Update"
+  },
+  {
+    "id": "cleverbridge-card-data-2026-2",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach"
   }
 ]

@@ -18345,5 +18345,28 @@
     "first_seen_at": "2026-11-22",
     "last_verified_at": "2026-11-22",
     "verification_note": "ソニー少額短期保険の公式発表とScanNetSecurityの本文を確認(10/20-21侵入・108件・本番環境非該当)。"
+  },
+  {
+    "id": "cleverbridge-card-data-2026",
+    "published_at": "2026-11-22",
+    "occurred_at": "2026-11-04",
+    "company": "Cleverbridge",
+    "service": "決済・サブスクリプション管理プラットフォーム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "IT・クラウド",
+    "title": "EC決済基盤のCleverbridge、不正アクセスで保存されていた決済カード情報が第三者に複製されたと公表",
+    "summary": "同社は、11月4日にプラットフォームへの不正な活動を検知し、第三者が保存されていた決済カード情報を複製したと公表しました。11月20日から対象者への通知を開始しています。",
+    "note": "BleepingComputerが入手した通知では、カード番号・有効期限・セキュリティコード(CVV/CVC)が含まれ、氏名・連絡先・請求先情報は含まれないとされています。公式ページ自体は、カード情報が含まれ得ると記載するにとどまります。影響人数、侵入経路、対象の委託元企業は公表されておらず、ランサムウェアではなく暗号化被害もありません。調査は継続中です。",
+    "affected": [],
+    "sources": [
+      "cleverbridge-card-data-2026-1",
+      "cleverbridge-card-data-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-22",
+    "last_verified_at": "2026-11-22",
+    "verification_note": "Cleverbridge公式のインシデント更新ページとBleepingComputer本文を確認(11/4検知・カード情報の複製・11/20通知開始)。影響人数は未公表。"
   }
 ]
