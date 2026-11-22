@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-11-21T23:15:00.567899+00:00",
+  "completed_at": "2026-11-22T03:10:28.544700+00:00",
   "candidates": [
     {
       "title": "PIECE",
@@ -25,38 +25,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧で発見、本文未確認。既存の日本郵便関連IDとの照合も未了。"
-    },
-    {
-      "title": "公開SNSでのKimberly-Clark被害主張",
-      "url": "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再調査: WebSearchで脅威インテル系サイトのみ。企業声明・主要報道なし。deferred維持。"
-    },
-    {
-      "title": "Deloitteに対するTheGentlemenの未確認主張",
-      "url": "https://www.vallanx.com/cyber-threat-monitor?pageb=53",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再調査: Dutch IT Channel(10/12)の1件のみ。Deloitteの確認なし。deferred維持。"
-    },
-    {
-      "title": "Anthropic社内システムへのCathedral侵入を巡る争い",
-      "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再調査: WebSearchで複数の二次報道を確認。範囲を巡る争いがあり、WaPo本文は未読のためdeferred維持。"
-    },
-    {
-      "title": "CNESTENへのQilinの主張",
-      "url": "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再調査: WebSearchで脅威インテル系サイトのみ。CNESTENの確認なし。攻撃者主張のためdeferred維持。"
     },
     {
       "title": "JFEケミカルへの不正アクセス",
@@ -177,38 +145,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "JPX PDFはHTTP 403で本文不可。WebSearch要約でNEXT STAGE(359A)の10/13公表・最大約4万件を確認したが、rocket-boysも403で本文不可。一次・独立2媒体の本文未確認のため持越し。"
-    },
-    {
-      "title": "CyrusOne HIBP",
-      "url": "https://haveibeenpwned.com/breach/cyrusone",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "HIBP本文を再確認。2026年8月の事案、10/7登録、約37.35万メールアドレス。ShinyHunters主張で企業確認の記載なし。未検証のまま持越し。"
-    },
-    {
-      "title": "Neogen HIBP",
-      "url": "https://haveibeenpwned.com/breach/neogen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず(時間配分)。前回の通り企業確認・独立報道なしで持越し。"
-    },
-    {
-      "title": "Policlinico Triestino",
-      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "本文を再取得。11月更新で同社が患者へ通知し一部書類がネット上に出たと認めたとあり(約3%の利用者)、状況が進展。ただし本文は二次報道1件のみで同社公式・独立2媒体の本文は未確認のためdeferred維持。次回に公式発表を探す。"
-    },
-    {
-      "title": "S-QUE eラーニング",
-      "url": "https://s-que.net/news/20261008/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "再取得したが再びHTTP 404で本文不可。公式本文未確認のため持越し。"
     },
     {
       "title": "GMOインターネット不正アクセス 合同捜査本部",
@@ -435,14 +371,6 @@
       "reason": "一覧のみ確認。本文未読、報道ベースで未検証。"
     },
     {
-      "title": "古河電工グループ会社 防災製品部の出荷管理システム侵害か",
-      "url": "https://www.security-next.com/192962",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "見出しのみ確認。本文未読、次回。"
-    },
-    {
       "title": "太陽光発電遠隔監視サービスで侵害",
       "url": "https://www.security-next.com/192657",
       "priority": "normal",
@@ -547,38 +475,6 @@
       "reason": "一覧の見出しのみ確認し既存レコードが見つからず、本文未読。次回再調査。"
     },
     {
-      "title": "店頭体験レッスン予約システムで個人情報が流出 - コーセー",
-      "url": "https://www.security-next.com/193020",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT本文を確認(11/10検知、28,098件、氏名・住所等)。会社の一次発表と第2媒体は見つからず(検索でも未ヒット)、報道1媒体のため未掲載。次回再確認。"
-    },
-    {
-      "title": "Container Store restores systems after cyberattack",
-      "url": "https://therecord.media/container-store-restores-systems-cyberattack",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文を確認(会社声明あり、停止と復旧、決済情報窃取の兆候なし)。会社声明の原文と第2の報道媒体を未確認のため未掲載。n0nの掲載主張はSOCRadar等の攻撃者主張のみ。"
-    },
-    {
-      "title": "West Virginia Legislature hit with cyber incident",
-      "url": "https://therecord.media/west-virginia-legislature-cyberattack",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record一覧で発見。時間配分上本文未読。次回再調査。"
-    },
-    {
-      "title": "NSA resumes normal operations following internal network disruptions",
-      "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧の見出しのみ。原因が攻撃かは未確認、本文未読のため次回再調査。"
-    },
-    {
       "title": "Nvidia Responds to Gentlemen Ransomware Claim",
       "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
       "priority": "high",
@@ -625,6 +521,110 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は再調査していない(未実施)。流出チャット内容で個別事件ではない。"
+    },
+    {
+      "title": "公開SNSでのKimberly-Clark被害主張",
+      "url": "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再調査: WebSearchでSOCRadar/BreachSense等の脅威インテル系のみ(9/13掲載、期限9/16)。企業声明・主要報道なし。攻撃者の主張のみのためdeferred維持。"
+    },
+    {
+      "title": "Deloitteに対するTheGentlemenの未確認主張",
+      "url": "https://www.vallanx.com/cyber-threat-monitor?pageb=53",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再調査: WebSearchでDutch IT Channel(10/12)の1件のみ。Deloitteの確認・否認とも見つからず。他の結果は2024年のBrain Cipher事案で別件。deferred維持。"
+    },
+    {
+      "title": "Anthropic社内システムへのCathedral侵入を巡る争い",
+      "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再調査: WebFetchでHTTP 403、WaPo本文は読めず。本文未確認のためdeferred維持。"
+    },
+    {
+      "title": "CNESTENへのQilinの主張",
+      "url": "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再調査: WebSearchでSOCRadar/dexpose等の脅威インテル系のみ。CNESTENの公式確認なし。攻撃者主張のためdeferred維持。"
+    },
+    {
+      "title": "CyrusOne HIBP",
+      "url": "https://haveibeenpwned.com/breach/cyrusone",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず(時間配分)。前回のHIBP本文確認の通り企業確認なし。未検証のまま持越し。"
+    },
+    {
+      "title": "Neogen HIBP",
+      "url": "https://haveibeenpwned.com/breach/neogen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再調査: WebSearchでShinyHunters主張(8/30掲載)をSOCRadar、Cybernews等が伝えるのみ。Neogen自身の声明なし。deferred維持。"
+    },
+    {
+      "title": "Policlinico Triestino",
+      "url": "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再調査: WebSearchで公式発表・独立2媒体の本文は見つからず(二次情報と脅威インテル系のみ)。INC Ransomの主張、データ窃取の確認なし。deferred維持。"
+    },
+    {
+      "title": "S-QUE eラーニング",
+      "url": "https://s-que.net/news/20261008/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得したが再びHTTP 404で本文不可。公式本文未確認のため持越し。"
+    },
+    {
+      "title": "コーセー 店頭体験レッスン予約システムで個人情報流出",
+      "url": "https://www.security-next.com/193020",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文を確認(2.8万件超の顧客情報、11/10確認、11/19公表)。一次情報(コーセー公式)をWebSearchで見つけられず、独立した2媒体も未確認のため未掲載。次回に公式を探す。"
+    },
+    {
+      "title": "The Container Store サイバー攻撃(n0n主張)",
+      "url": "https://therecord.media/container-store-restores-systems-cyberattack",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文を確認(オンライン注文停止、復旧、顧客の決済情報窃取の兆候なし)。ただし企業発表本文と独立した2媒体目は未確認、n0nの主張は未検証。次回に追加確認。"
+    },
+    {
+      "title": "ウェストバージニア州議会のサイバー事件",
+      "url": "https://therecord.media/west-virginia-legislature-cyberattack",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文を確認(11/19-20に議会ITシステムが影響)。報道1媒体のみで、データ窃取やランサム該当の確認なし。次回に続報を確認。"
+    },
+    {
+      "title": "古河電工パワーシステムズ 出荷管理システム侵害の可能性",
+      "url": "https://www.security-next.com/192962",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文を確認(10/14異常検知、件数未公表)。公式発表本文未確認でdeferred。"
+    },
+    {
+      "title": "NSA内部ネットワークの障害からの復旧",
+      "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "一覧で発見、本文未確認のため未検証のまま持越し。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -711,7 +711,7 @@
     "https://socradar.io/data-breach/kimberly-clark-shinyhunters-extortion-2026/": "2026-11-21T09:48:42.120204+00:00",
     "https://www.itmedia.co.jp/news/article/2610/05/2000001998/": "2026-11-21T07:44:55Z",
     "rakuten-data-sale-claim-2026": "2026-11-20T07:47:46Z",
-    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-11-20T20:14:31+00:00",
+    "https://www.reddit.com/r/pwnhub/comments/1wfia4i/shinyhunters_claims_new_victim_kimberlyclark/": "2026-11-22T03:10:08Z",
     "ftapi-2026": "2026-11-21T19:49:38Z",
     "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html": "2026-11-21T19:49:38Z",
     "tottori-care-provider-email-2026": "2026-11-20T07:47:46Z",
@@ -722,23 +722,23 @@
     "https://www.security-next.com/190739": "2026-11-21T07:44:55Z",
     "andover-town-schools-2026": "2026-11-21T19:49:38Z",
     "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-21T23:14:35.388999+00:00",
-    "https://s-que.net/news/20261008/": "2026-11-21T01:31:30Z",
+    "https://s-que.net/news/20261008/": "2026-11-22T03:10:08Z",
     "rhyne-industrial-company-2023": "2026-11-20T07:47:46Z",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-11-21T09:48:42.120204+00:00",
-    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-20T20:14:31+00:00",
+    "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-22T03:10:08Z",
     "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-21T23:14:35.388999+00:00",
     "https://www.ransomlook.io/group/inc%20ransom": "2026-11-21T23:14:35.388999+00:00",
     "https://www.security-next.com/190136": "2026-11-21T07:44:55Z",
     "https://www.ransomlook.io/recent": "2026-11-21T23:14:35.388999+00:00",
-    "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-20T20:14:31+00:00",
+    "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-22T03:10:08Z",
     "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-21T17:33:42.561160+00:00",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-21T23:14:35.388999+00:00",
-    "https://haveibeenpwned.com/breach/neogen": "2026-11-21T01:31:30Z",
-    "https://haveibeenpwned.com/breach/cyrusone": "2026-11-21T01:31:30Z",
+    "https://haveibeenpwned.com/breach/neogen": "2026-11-22T03:10:08Z",
+    "https://haveibeenpwned.com/breach/cyrusone": "2026-11-22T03:10:08Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-helwan-university-ransomware-claim-by-umbra-oct-2026/": "2026-11-21T01:31:30Z",
     "https://undercodenews.com/dark-project-ransomware-group-lists-claires-inc-as-a-victim-in-new-threat-intelligence-alert-video/": "2026-11-21T09:48:42.120204+00:00",
     "coldcard-x-phishing-2026": "2026-11-21T19:49:38Z",
-    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-21T01:31:30Z",
+    "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-22T03:10:08Z",
     "senture-fmcsa-2026": "2026-11-20T07:47:46Z",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-11-21T07:44:55Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-21T19:49:38Z",
@@ -753,7 +753,7 @@
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-20T07:47:46Z",
     "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-20T07:47:46Z",
     "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-20T20:47:14Z",
-    "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/": "2026-11-20T20:14:31+00:00",
+    "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/": "2026-11-22T03:10:08Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-20T20:47:14Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-20T20:47:14Z",
     "https://therecord.media/hackers-ukraine-belarus-russia": "2026-11-21T09:48:42.120204+00:00",
@@ -773,7 +773,7 @@
     "https://therecord.media/lithuania-customs-agency-cyberattack": "2026-11-21T09:48:42.120204+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/17/56803.html": "2026-11-20T20:47:14Z",
     "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/": "2026-11-21T19:49:38Z",
-    "https://www.security-next.com/192962": "2026-11-21T17:33:42.561160+00:00",
+    "https://www.security-next.com/192962": "2026-11-22T03:10:08Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/18/56818.html": "2026-11-21T01:31:30Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/18/56814.html": "2026-11-21T01:31:30Z",
     "https://www.security-next.com/192657": "2026-11-21T17:33:42.561160+00:00",
@@ -782,15 +782,15 @@
     "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/": "2026-11-21T07:44:55Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html": "2026-11-21T09:48:42.120204+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html": "2026-11-20T20:47:14Z",
-    "https://www.security-next.com/193020": "2026-11-21T23:14:35.388999+00:00",
+    "https://www.security-next.com/193020": "2026-11-22T03:10:08Z",
     "https://www.security-next.com/category/news/#kose": "2026-11-21T17:33:42.561160+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56839.html": "2026-11-21T19:49:38Z",
     "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/": "2026-11-21T17:33:42.561160+00:00",
     "https://www.security-next.com/192585": "2026-11-20T11:33:22Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/20/56856.html": "2026-11-21T19:49:38Z",
-    "https://therecord.media/container-store-restores-systems-cyberattack": "2026-11-21T23:14:35.388999+00:00",
-    "https://therecord.media/west-virginia-legislature-cyberattack": "2026-11-21T23:14:35.388999+00:00",
-    "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions": "2026-11-21T23:14:35.388999+00:00",
+    "https://therecord.media/container-store-restores-systems-cyberattack": "2026-11-22T03:10:08Z",
+    "https://therecord.media/west-virginia-legislature-cyberattack": "2026-11-22T03:10:08Z",
+    "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions": "2026-11-22T03:10:08Z",
     "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/": "2026-11-21T17:33:42.561160+00:00",
     "https://www.bleepingcomputer.com/news/security/n-able-says-recent-security-breach-led-to-major-service-outage/": "2026-11-21T07:44:55Z",
     "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/": "2026-11-21T23:14:35.388999+00:00",
@@ -799,9 +799,9 @@
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-11-21T23:14:35.388999+00:00",
-      "summary": "国内2媒体と海外3媒体の一覧を確認(BleepingComputerは403)。新規2件(USMH、N-able)を2媒体の本文で確認し掲載。コーセー、Container Store等は1媒体のみで持越し。必須再調査8件のうち4件を再調査し、4件は未実施でdeferred維持。",
-      "run_id": "44960523934",
+      "completed_at": "2026-11-22T03:10:08Z",
+      "summary": "新規掲載・更新は0件。国内外の新着一覧を巡回し、既存ID済みの案件を照合、未記録の新着(コーセー、Container Store、ウェストバージニア州議会、古河電工PS、NSA)は一次情報または独立2媒体の本文が揃わずdeferredとした。持越し8件を再調査し、いずれも未解決のまま。Wellington ITは既存レコードで反映済み。BleepingComputer・SecurityWeekの一覧とWaPo本文は取得できなかった。",
+      "run_id": "44979161552",
       "main_sha": "e5ec7e19e01fd73bd3ff88b97d86524bc9e02680"
     },
     "historical": {
@@ -813,8 +813,8 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "44960523934",
-    "completed_at": "2026-11-21T23:15:00.567899+00:00",
+    "run_id": "44979161552",
+    "completed_at": "2026-11-22T03:10:28.544700+00:00",
     "result": "success",
     "error": null,
     "main_sha": "e5ec7e19e01fd73bd3ff88b97d86524bc9e02680"
