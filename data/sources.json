@@ -9161,5 +9161,19 @@
     "type": "reporting",
     "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
     "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach"
+  },
+  {
+    "id": "hcuch-cyber-incident-nov-2026-1",
+    "publisher": "El Dínamo",
+    "type": "reporting",
+    "url": "https://www.eldinamo.cl/pais/2026/11/16/ciberataque-golpea-sistemas-del-hospital-clinico-de-la-u-de-chile-que-pasa-con-la-atencion-de-pacientes/",
+    "title": "Ciberataque golpea sistemas del Hospital Clínico de la U. de Chile: ¿qué pasa con la atención de pacientes?"
+  },
+  {
+    "id": "hcuch-cyber-incident-nov-2026-2",
+    "publisher": "Emol",
+    "type": "reporting",
+    "url": "https://www.emol.com/noticias/Nacional/2026/11/18/1217412/ciberataque-hospital-clinico-universidad-chile.html",
+    "title": "Ciberataque en el Hospital Clínico de la Universidad de Chile"
   }
 ]
