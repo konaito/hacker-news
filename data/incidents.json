@@ -18315,5 +18315,35 @@
     "publication_status": "published",
     "first_seen_at": "2026-11-21",
     "last_verified_at": "2026-11-21"
+  },
+  {
+    "id": "sony-sasti-contract-test-env-2026",
+    "published_at": "2026-11-05",
+    "occurred_at": "2026-10-20",
+    "company": "ソニー少額短期保険",
+    "service": "契約管理システムの開発・テスト環境",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "金融・保険",
+    "title": "ソニー少額短期保険、契約管理システムの開発・テスト環境に不正アクセス、従業員等108件の個人情報が漏えい",
+    "summary": "同社は11月5日(11月6日更新)、10月20〜21日にWebシステムの脆弱性を悪用され、開発・テスト環境のデータベースから従業員や委託先従業員、元従業員の氏名・生年月日・連絡先など108件が取得されたと公表しました。",
+    "note": "本番環境には及ばず、顧客の個人情報は取得されていないと説明されています。クレジットカード・口座・マイナンバーは含まれません。二次被害は未確認で、フィッシング等への注意が呼びかけられています。",
+    "affected": [
+      {
+        "count": 108,
+        "unit": "records",
+        "description": "従業員・委託先従業員・元従業員の個人情報(件数)",
+        "source_id": "sony-sasti-contract-test-env-2026-1"
+      }
+    ],
+    "sources": [
+      "sony-sasti-contract-test-env-2026-1",
+      "sony-sasti-contract-test-env-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-22",
+    "last_verified_at": "2026-11-22",
+    "verification_note": "ソニー少額短期保険の公式発表とScanNetSecurityの本文を確認(10/20-21侵入・108件・本番環境非該当)。"
   }
 ]
