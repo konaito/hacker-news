@@ -9175,5 +9175,19 @@
     "type": "reporting",
     "url": "https://www.emol.com/noticias/Nacional/2026/11/18/1217412/ciberataque-hospital-clinico-universidad-chile.html",
     "title": "Ciberataque en el Hospital Clínico de la Universidad de Chile"
+  },
+  {
+    "id": "access-ap-taiwan-cros-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/18/56818.html",
+    "title": "ACCESS AP TAIWANのEC事業者向け業務支援サービス「CROS」に不正アクセス(ScanNetSecurity 11/18)"
+  },
+  {
+    "id": "access-ap-taiwan-cros-2026-2",
+    "publisher": "週刊アスキー",
+    "type": "reporting",
+    "url": "https://weekly.ascii.jp/elem/000/004/443/4443126/",
+    "title": "ACCESS子会社のEC支援サービス「CROS」への不正アクセス(週刊アスキー)"
   }
 ]

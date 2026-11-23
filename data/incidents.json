@@ -18391,5 +18391,47 @@
     "first_seen_at": "2026-11-22",
     "last_verified_at": "2026-11-22",
     "verification_note": "El Dínamo(11/16)とEmol(11/18)の本文を確認。11/14朝の検知、病院声明の引用、Webサイト・予約窓口の障害、ANCI連携、患者データの扱いが未公表である点を照合。"
+  },
+  {
+    "id": "access-ap-taiwan-cros-2026",
+    "published_at": "2026-10-15",
+    "occurred_at": null,
+    "company": "ACCESS(子会社ACCESS AP TAIWAN)",
+    "service": "EC事業者向け業務支援サービス「CROS」",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "個人情報漏えいを確認",
+    "category": "IT・通信",
+    "title": "ACCESS子会社のEC支援サービス「CROS」に不正アクセス、顧客ID約15.5万件・注文ID約23.2万件の情報が流出、カード情報も",
+    "summary": "ACCESSは10月15日、子会社ACCESS AP TAIWANが提供するEC事業者向け業務支援サービス「CROS」のサーバーに9月11日に不正アクセスの兆候を検知し、サーバーを緊急停止・隔離したと発表しました。第三者の攻撃により、同サーバーから到達できる個人情報と設定情報の一部が窃取されました。",
+    "note": "侵入経路はCROS利用企業のうち特定の1社にのみ提供していたBIツールとされます。ASCII(週刊アスキー)の本文によれば、顧客ID155,280件、注文ID231,998件(氏名・電話番号・住所・メールアドレス・注文情報)、カード情報1,305口座分(うち4口座はセキュリティコード含む、いずれも決済未完了の注文)が対象で、窃取されたメール配信サービスの鍵情報により不正メール11,441通が送信されました。対象地域は台湾・香港・マカオ・シンガポールで、日本は含まれません。件数はASCII本文のみで確認し、ScanNetSecurity本文には件数の記載がなく、ACCESSの公式PDFは本文を読み取れなかったため未確認です。発生日は不明で、公表日と検知日(9月11日)を区別しています。顧客IDと注文IDとカード口座は異なる単位で、人数や合算としては扱っていません。",
+    "affected": [
+      {
+        "count": 155280,
+        "unit": "accounts",
+        "description": "漏えいした顧客ID(顧客単位の識別子、人数ではない)",
+        "source_id": "access-ap-taiwan-cros-2026-2"
+      },
+      {
+        "count": 231998,
+        "unit": "records",
+        "description": "漏えいした注文ID(注文情報の件数)",
+        "source_id": "access-ap-taiwan-cros-2026-2"
+      },
+      {
+        "count": 1305,
+        "unit": "accounts",
+        "description": "漏えいしたカード情報の口座数(重複排除後、決済未完了の注文)",
+        "source_id": "access-ap-taiwan-cros-2026-2"
+      }
+    ],
+    "sources": [
+      "access-ap-taiwan-cros-2026-1",
+      "access-ap-taiwan-cros-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-23",
+    "last_verified_at": "2026-11-23",
+    "verification_note": "ScanNetSecurity(11/18)とASCII(週刊アスキー)の本文を確認。9/11検知、特定1社向けBIツール起点、10/15公表、対象地域を両媒体で照合。件数はASCIIのみ。公式PDFは機械可読でなく未確認。"
   }
 ]
