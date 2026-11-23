@@ -9217,5 +9217,33 @@
     "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html",
     "type": "reporting",
     "publisher": "ScanNetSecurity"
+  },
+  {
+    "id": "rosstat-cyberattack-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/hackers-ukraine-belarus-russia",
+    "title": "Cyber Partisans claim destructive attack on Russia's statistics agency Rosstat"
+  },
+  {
+    "id": "rosstat-cyberattack-2026-2",
+    "publisher": "ThePrint",
+    "type": "reporting",
+    "url": "https://theprint.in/world/cyberattack-at-russian-stats-agency-rosstat-delays-major-economic-reports/3093281/",
+    "title": "Cyberattack at Russian stats agency Rosstat delays major economic reports"
+  },
+  {
+    "id": "lithuania-customs-bap-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/lithuania-customs-agency-cyberattack",
+    "title": "Lithuanian customs agency restores services after cyberattack"
+  },
+  {
+    "id": "lithuania-customs-bap-2026-2",
+    "publisher": "LRT",
+    "type": "reporting",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3110453/muitinei-patyrus-kibernetini-incidenta-sustabdyta-vartotoju-valdymo-portalo-prieiga",
+    "title": "Muitinei patyrus kibernetinį incidentą, sustabdyta vartotojų valdymo portalo prieiga"
   }
 ]
