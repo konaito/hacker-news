@@ -9189,5 +9189,33 @@
     "type": "reporting",
     "url": "https://weekly.ascii.jp/elem/000/004/443/4443126/",
     "title": "ACCESS子会社のEC支援サービス「CROS」への不正アクセス(週刊アスキー)"
+  },
+  {
+    "id": "sakura-sakumirai-outsourced-cloud-2026-1",
+    "title": "さくらさくみらい｜委託先への不正アクセスに関するお知らせ",
+    "url": "https://www.sakura-39.jp/news/27120",
+    "type": "primary",
+    "publisher": "株式会社さくらさくみらい"
+  },
+  {
+    "id": "sakura-sakumirai-outsourced-cloud-2026-2",
+    "title": "さくらさくみらい委託先への不正アクセス(ScanNetSecurity)",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html",
+    "type": "reporting",
+    "publisher": "ScanNetSecurity"
+  },
+  {
+    "id": "zonexpert-amazon-seller-account-2026-1",
+    "title": "ZonExpert｜不正アクセスによる個人情報漏えいのおそれに関するお知らせ",
+    "url": "https://www.zonexpert.co.jp/news/298/",
+    "type": "primary",
+    "publisher": "ZonExpert株式会社"
+  },
+  {
+    "id": "zonexpert-amazon-seller-account-2026-2",
+    "title": "ZonExpertの不正アクセス(ScanNetSecurity)",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56534.html",
+    "type": "reporting",
+    "publisher": "ScanNetSecurity"
   }
 ]

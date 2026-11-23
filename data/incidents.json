@@ -1,5 +1,51 @@
 [
   {
+    "id": "zonexpert-amazon-seller-account-2026",
+    "published_at": "2026-10-01",
+    "occurred_at": "2025-08-08",
+    "company": "ZonExpert株式会社",
+    "service": "Amazonセラーセントラル(委託元各社の管理画面)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "EC・小売",
+    "title": "ZonExpert、Amazonセラーセントラルのユーザーアカウントが不正に変更され購入者情報が漏えいした可能性",
+    "summary": "ZonExpertは10月1日、委託元から付与されたAmazonセラーセントラルのユーザーアカウントが第三者に不正に変更され、委託元各社の管理画面で購入者情報を閲覧できる状態になっていたと公表しました。公式発表では対象期間は2025年8月8日〜18日、8月18日に発見して対象アカウントを削除したとしています。",
+    "note": "Amazon側のアクセス記録を確認できていないため、実際に閲覧・取得されたかは未確認で、漏えいのおそれの段階です。対象情報は購入者の氏名・住所・電話番号・注文履歴で、クレジットカード情報は含まれないとしています。人数・件数は公表されていません。公表時点で二次被害の報告はないとしています。",
+    "affected": [],
+    "sources": [
+      "zonexpert-amazon-seller-account-2026-1",
+      "zonexpert-amazon-seller-account-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-23",
+    "last_verified_at": "2026-11-23",
+    "verification_note": "同社公式お知らせ(news/298)本文とScanNetSecurity(10/22掲載)本文で、アカウント不正変更、閲覧され得る状態、実閲覧は未確認、件数非公表を照合。発生年は公式本文の2025年を採用。"
+  },
+  {
+    "id": "sakura-sakumirai-outsourced-cloud-2026",
+    "published_at": "2026-09-07",
+    "occurred_at": null,
+    "company": "株式会社さくらさくみらい",
+    "service": "契約サーバー(委託先クラウド事業者の環境)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "教育",
+    "title": "さくらさくみらい、委託先クラウド事業者への不正アクセスで一部サーバーのパスワードが流出した可能性",
+    "summary": "保育施設を運営するさくらさくみらいは、委託先クラウド事業者のシステムへの不正アクセスにより、同社が契約するサーバーのパスワード情報が流出した可能性があると9月7日に公表しました。8月31日に委託先から通知を受けたとしています。",
+    "note": "流出が確認されたのではなく可能性の段階です。流出の可能性があるパスワードの件数は公表されていません。関連するメールアカウント164件のパスワードを変更・再設定したとされますが、これは対応の対象件数で漏えい件数ではありません。委託先の名称や侵入日は本文で確認できていません。さくらインターネットの事案(sakura-2026)との関係は確認できていません。",
+    "affected": [],
+    "sources": [
+      "sakura-sakumirai-outsourced-cloud-2026-1",
+      "sakura-sakumirai-outsourced-cloud-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-23",
+    "last_verified_at": "2026-11-23",
+    "verification_note": "同社9/7のお知らせ本文とScanNetSecurity(9/16掲載・9/21更新)本文で、8/31の委託先通知、サーバーパスワード流出の可能性、件数非公表を照合。"
+  },
+  {
     "id": "andst-hd-business-server-2026",
     "published_at": "2026-11-04",
     "occurred_at": "2026-10-22",
