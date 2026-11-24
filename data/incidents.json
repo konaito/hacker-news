@@ -18586,5 +18586,58 @@
     "first_seen_at": "2026-11-24",
     "last_verified_at": "2026-11-24",
     "verification_note": "シェアフル公式お知らせ(11/9付)本文とScanNetSecurity本文を突合。11/4 23:30不正アクセス、11/5検知・遮断、最大約750万件・約7,500社、対象項目と対象外項目が一致。"
+  },
+  {
+    "id": "dentsu-digital-tonariwa-2026",
+    "published_at": "2026-11-11",
+    "occurred_at": "2026-11-10",
+    "company": "株式会社電通デジタル",
+    "service": "マーケティング基盤「TONARIWA」",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "データ持ち出し確認",
+    "category": "IT・クラウド",
+    "title": "電通デジタル「TONARIWA」に不正アクセス、導入企業2社で個人情報が漏えい",
+    "summary": "電通デジタルは11月11日に初報、11月12日に第二報を公表し、11月10日にシステム基盤の管理アカウントへの不正アクセスと権限昇格を確認したと説明しました。ログから一部データの外部持ち出しが確認され、導入企業2社で個人情報の漏えいが判明しています。サービスは停止中です。",
+    "note": "漏えい項目は一部導入企業のエンドユーザーの氏名・生年月日・連絡先などと、LINE公式アカウント連携用アクセストークン等の管理用アカウント情報です。決済情報(クレジットカード・口座)は含まれないとしています。対象件数は特定中で未公表です。悪用は確認されていないとしています。",
+    "affected": [],
+    "sources": [
+      "dentsu-digital-tonariwa-2026-1",
+      "dentsu-digital-tonariwa-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-24",
+    "last_verified_at": "2026-11-24",
+    "verification_note": "電通デジタル公式第二報(11/12付)本文とScanNetSecurity本文を突合。11/10の管理アカウント侵害、外部持ち出しログ、導入企業2社、件数未公表、決済情報対象外が一致。"
+  },
+  {
+    "id": "athome-rental-management-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": "2026-11-09",
+    "company": "アットホーム株式会社",
+    "service": "不動産会社向け「賃貸管理システム」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "不動産",
+    "title": "アットホームの賃貸管理システムに不正アクセス、最大6,901件の個人情報が漏えいした可能性",
+    "summary": "アットホームは11月13日、11月9日に第三者が「賃貸管理システム」の管理サイトへ不正ログインし、一部の加盟不動産会社が登録した個人情報が漏えいした可能性があると公表しました。アクセス元を遮断し、個人情報保護委員会等へ報告したとしています。",
+    "note": "件数は6,901件(記録件数、暫定)で人数ではありません。対象は賃借人等の消費者、物件オーナー、取引先で、氏名・生年月日・電話番号・住所・契約情報(物件名・部屋番号・契約状況)です。口座情報の漏えいは確認されておらず、公開・悪用も確認されていないとしています。",
+    "affected": [
+      {
+        "count": 6901,
+        "unit": "records",
+        "description": "漏えいの可能性がある個人情報(暫定、人数との対応は不明)",
+        "source_id": "athome-rental-management-2026-1"
+      }
+    ],
+    "sources": [
+      "athome-rental-management-2026-1",
+      "athome-rental-management-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-24",
+    "last_verified_at": "2026-11-24",
+    "verification_note": "アットホーム公式お知らせ(11/13付)本文とScanNetSecurity本文を突合。11/9不正ログイン、6,901件、対象項目、口座情報未確認が一致。"
   }
 ]

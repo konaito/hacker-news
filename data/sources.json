@@ -9280,5 +9280,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56873.html",
     "title": "スキマバイトアプリ「シェアフル」の社内管理システムに不正アクセス、最大約750万件の個人情報が流出した可能性"
+  },
+  {
+    "id": "dentsu-digital-tonariwa-2026-1",
+    "publisher": "株式会社電通デジタル",
+    "type": "primary",
+    "url": "https://www.dentsudigital.co.jp/news/updates/services/2026-1112-001112",
+    "title": "「TONARIWA」への不正アクセスに関するご報告(第二報)"
+  },
+  {
+    "id": "dentsu-digital-tonariwa-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56878.html",
+    "title": "電通デジタル「TONARIWA」に不正アクセス、導入企業 2 社で個人情報漏えい"
+  },
+  {
+    "id": "athome-rental-management-2026-1",
+    "publisher": "アットホーム株式会社",
+    "type": "primary",
+    "url": "https://www.athome.co.jp/corporate/news/topics/oshirase-202611/",
+    "title": "「賃貸管理システム」の管理サイトへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとご報告"
+  },
+  {
+    "id": "athome-rental-management-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56879.html",
+    "title": "アットホーム提供の不動産会社向け業務管理サービス「賃貸管理システム」に不正アクセス"
   }
 ]
