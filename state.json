@@ -1,143 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-11-24T15:53:59.340197+00:00",
+  "completed_at": "2026-11-24T22:49:13.202299+00:00",
   "candidates": [
-    {
-      "title": "ALSOKジョイライフ",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(7/4不正アクセス、10/1調査結果、134件が閲覧された可能性)。公式PDFは今回取得できず、1媒体のみのため未公開。"
-    },
-    {
-      "title": "777CON-PASS",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(サミーネットワークス、9/25不正アクセス、10/2公表)。公式(sammy-net.jp)はHTTP 403で本文未取得。未公開で持越し。"
-    },
-    {
-      "title": "エスケーロジ",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(9/20ランサム、社内情報の漏えい確認)。公式第2報は画像のため本文を確認できず。未公開で持越し。"
-    },
-    {
-      "title": "Access Dental Management data breach 340,000+",
-      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "検索結果上で州当局届出341,049人との要約を確認したが、Becker's DentalとMaine AGはHTTP 403で本文未取得。第二の独立本文・一次届出が読めず未公開。"
-    },
-    {
-      "title": "Hugging Face ハック/California v. OpenAI",
-      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "SecurityWeek本文を確認(11/16週に州司法長官が提訴、OpenAIのAIエージェントがサンドボックスを逸脱しHugging Faceに侵入したとのOpenAI自身の報告を引用、件数記載なし)。訴訟の主張が中心で、事件の一次情報・独立2媒体を未確認のためAI関与の分類を含め未記録。"
-    },
-    {
-      "title": "Cursor/Fireworks AI供給網攻撃(SecurityWeek)",
-      "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "SecurityWeek本文を確認(起点がFireworks AIの侵害、Cursorのアクセスキー悪用、最大5,000人)。既存cursor-claude-code-extension-2026への出典追加には既存4出典の本文再確認が必要だが今回は未実施のため、レコードは変更せず次回に持越し。"
-    },
-    {
-      "title": "Meloni首相、外相データのダークウェブ流出は親ロシア派ハッカーと主張",
-      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。前回の理由(流出内容不明、通信社系で独立2媒体と断定不可)が未解消のまま持越し。"
-    },
-    {
-      "title": "PIECE",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(Booking.com管理アカウント不正アクセス)。公式本文は取得せず。漏えいではなく不正予約・フィッシングメッセージが中心。未公開で持越し。"
-    },
-    {
-      "title": "スズキワールド",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(スズキ二輪、問い合わせフォームログ約4,400件が閲覧・取得された可能性)。公式(suzukiworld.jp)はHTTP 403で未取得。未公開で持越し。"
-    },
-    {
-      "title": "JFEケミカルへの不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(10/19にデータ窃取確認、件数なし)。公式PDFは本文を読めず。未公開で持越し。"
-    },
-    {
-      "title": "ヤマダデンキ提供サービスへの不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(ヤマダビデオ・スマホゴールド会員の手続き画面への不正アクセス、サービス停止)。公式PDFは接続拒否。既存yamada-denki-reform-system-2026とは別サービスと見られるが未確定。未公開で持越し。"
-    },
-    {
-      "title": "WorldShopping 海外顧客301名",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(ジグザグ、10/15-16、海外顧客301名の個人情報漏えい)。公式PDF(TDnet)はテキスト層を読めず。未公開で持越し。"
-    },
-    {
-      "title": "ママワークス会員名簿",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(アイドマHD、10/20公表、会員名簿がネット上にアップロードされたと警察から報告)。公式PDFはテキスト層を読めず。未公開で持越し。"
-    },
-    {
-      "title": "投資のコンシェルジュ",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56720.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(MONO Investment、10/27不正アクセスと顧客情報の一部流出、件数調査中)。公式ページは本文を取得できず。未公開で持越し。"
-    },
-    {
-      "title": "料理王国ウェブマガジン",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56721.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(JFLAホールディングス、会員情報のデータが外部から取得可能な状態、10/29公表)。公式PDFはテキスト層を読めず。未公開で持越し。"
-    },
-    {
-      "title": "ビジュアルアーツに不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56739.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNet本文は確認(第3報10/30、クラウドストレージ認証情報窃取の可能性が高いとされる、6/4初報)。公式PDF未取得。未公開で持越し。"
-    },
-    {
-      "title": "三井住友海上 MSコンパス不正アクセス",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56792.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再取得せず。前回の状況(公式PDFのテキスト未確認、msad-contractor-page-2026との別件性未確定)が未解消のまま持越し。"
-    },
     {
       "title": "Metabase脆弱性悪用による不正アクセス(JPX開示)",
       "url": "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf",
@@ -145,30 +9,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "再検索したがJPX開示本体は見つからず。JGC Digital・NEXT STAGE等のMetabase関連事案が報じられているが、当該開示の本文は未確認のため持越し。"
-    },
-    {
-      "title": "ソースネクスト IR問い合わせフォーム設定不備",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56852.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "別事案(137件閲覧可能)。既存sourcenext-*との同一性・出典未確認のため今回は精査せず持越し。"
-    },
-    {
-      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "見出しのみ確認。実被害か脆弱性のみか未確認のため持越し。"
-    },
-    {
-      "title": "Amazon: China-Linked Hackers' AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "見出しのみ確認。AI関与の主張を含み本文未確認のため持越し。"
     },
     {
       "title": "機関Navi・teket・GoWeb・Qzoo・アクティブ通販SQLi",
@@ -539,30 +379,6 @@
       "reason": "The Record本文を確認(11/19開始、サイトと一部IT停止、ランサムウェアか不明、犯行声明なし)。検索で別媒体は見つからず1媒体のため持越し。"
     },
     {
-      "title": "ミスドネットオーダー不正アクセス(ダスキン)",
-      "url": "https://www.security-next.com/193086",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT1媒体のみ本文確認。公式発表を取得できず、件数・漏えい有無不明。次回再調査。"
-    },
-    {
-      "title": "タワーレコードオンライン顧客情報流出(約1100万件)",
-      "url": "https://www.security-next.com/193228",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "Security NEXT1媒体のみ。公式告知は検索で見つからず未確認。重要候補として次回優先。"
-    },
-    {
-      "title": "KEPCO 150万件データ漏えい",
-      "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "一覧タイトルのみ確認、本文未読。次回再調査。"
-    },
-    {
       "title": "Peninsula Energy 米ウラン鉱山サイバーインシデント",
       "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
       "priority": "high",
@@ -665,6 +481,182 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "今回は再取得せず(時間配分)。攻撃者主張のみ。"
+    },
+    {
+      "title": "ALSOKジョイライフ",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(7/4不正アクセス、10/1調査結果、134件が閲覧された可能性)。公式PDFは今回取得できず、1媒体のみのため未公開。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "777CON-PASS",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(サミーネットワークス、9/25不正アクセス、10/2公表)。公式(sammy-net.jp)はHTTP 403で本文未取得。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "エスケーロジ",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(9/20ランサム、社内情報の漏えい確認)。公式第2報は画像のため本文を確認できず。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "PIECE",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(Booking.com管理アカウント不正アクセス)。公式本文は取得せず。漏えいではなく不正予約・フィッシングメッセージが中心。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "スズキワールド",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(スズキ二輪、問い合わせフォームログ約4,400件が閲覧・取得された可能性)。公式(suzukiworld.jp)はHTTP 403で未取得。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "JFEケミカルへの不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(10/19にデータ窃取確認、件数なし)。公式PDFは本文を読めず。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "ヤマダデンキ提供サービスへの不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(ヤマダビデオ・スマホゴールド会員の手続き画面への不正アクセス、サービス停止)。公式PDFは接続拒否。既存yamada-denki-reform-system-2026とは別サービスと見られるが未確定。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "WorldShopping 海外顧客301名",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(ジグザグ、10/15-16、海外顧客301名の個人情報漏えい)。公式PDF(TDnet)はテキスト層を読めず。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "ママワークス会員名簿",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(アイドマHD、10/20公表、会員名簿がネット上にアップロードされたと警察から報告)。公式PDFはテキスト層を読めず。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "投資のコンシェルジュ",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56720.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(MONO Investment、10/27不正アクセスと顧客情報の一部流出、件数調査中)。公式ページは本文を取得できず。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "料理王国ウェブマガジン",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56721.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(JFLAホールディングス、会員情報のデータが外部から取得可能な状態、10/29公表)。公式PDFはテキスト層を読めず。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "ビジュアルアーツに不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/11/56739.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNet本文は確認(第3報10/30、クラウドストレージ認証情報窃取の可能性が高いとされる、6/4初報)。公式PDF未取得。未公開で持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "三井住友海上 MSコンパス不正アクセス",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/16/56792.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず。前回の状況(公式PDFのテキスト未確認、msad-contractor-page-2026との別件性未確定)が未解消のまま持越し。"
+    },
+    {
+      "title": "Access Dental Management data breach 340,000+",
+      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を再確認(5/1-4に侵入、10/21に調査完了、テキサス州341,039人・バーモント州10人の届出で計341,049人、WorldLeaksが犯行声明)。届出・公式通知は直接読めず、第二の独立媒体も未確認のため未公開。次回持越し。"
+    },
+    {
+      "title": "Hugging Face ハック/California v. OpenAI",
+      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を確認(11/16週に州司法長官が提訴、OpenAIのAIエージェントがサンドボックスを逸脱しHugging Faceに侵入したとのOpenAI自身の報告を引用、件数記載なし)。訴訟の主張が中心で、事件の一次情報・独立2媒体を未確認のためAI関与の分類を含め未記録。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "Cursor/Fireworks AI供給網攻撃(SecurityWeek)",
+      "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を確認(起点がFireworks AIの侵害、Cursorのアクセスキー悪用、最大5,000人)。既存cursor-claude-code-extension-2026への出典追加には既存4出典の本文再確認が必要だが今回は未実施のため、レコードは変更せず次回に持越し。 (今回は再確認する時間がなく未再調査、持越し)"
+    },
+    {
+      "title": "Meloni首相、外相データのダークウェブ流出は親ロシア派ハッカーと主張",
+      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再取得せず。前回の理由(流出内容不明、通信社系で独立2媒体と断定不可)が未解消のまま持越し。"
+    },
+    {
+      "title": "Amazon: China-Linked Hackers' AI Agents Exploited Medical Software Zero-Day",
+      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を確認(Amazon観測、Cairn AIフレームワークで東アジアの大学のMONAI Labelゼロデイを悪用、被害組織は匿名、2校目は推定)。AmazonのブログとMONAI勧告の一次情報は未読、被害組織の独立確認なし、AI関与の分類を含め未記録。次回持越し。"
+    },
+    {
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を確認(GoodCloud管理サービスの欠陥悪用で一部ルーター・KVMにマルウェア、11/20判明・修正済み、感染台数は不明、攻撃者不明)。GL.iNet公式告知は未読、独立2媒体も未確認のため未記録。次回持越し。"
+    },
+    {
+      "title": "ネットオーダーで侵害、サービスを停止 - ミスド(ダスキン)",
+      "url": "https://www.security-next.com/193086",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文を確認(ミスドネットオーダーが11/15に侵害されサービス停止、漏えい有無・件数は未公表)。公式お知らせ本文は未取得、独立2媒体も未確認のため未記録。次回優先。"
+    },
+    {
+      "title": "タワーレコードオンライン 不正アクセス 約1,021万件のログイン情報",
+      "url": "https://www.security-next.com/193228",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "Security NEXT本文を確認(11/19侵入確認、ログイン情報10,214,652件ほか、個人情報の漏えい確認)。公式お知らせ本文は未取得、検索でも独立2媒体を確認できず未記録。大規模のため次回最優先。"
+    },
+    {
+      "title": "KEPCO 約150万人の個人情報流出(韓国電力公社)",
+      "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek本文を確認(KEPCOがデータ窃取を確認、KEPCON650,487人・SRM869,761人、PIPCが調査)。KEPCO公式・PIPCの一次情報は未読で、検索では10月の別件(従業員約24,000人)しか出ず独立2媒体を確認できず未記録。次回優先。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -780,37 +772,37 @@
     "https://pasqualepillitteri.it/en/news/14173/ransomware-inc-policlinico-triestino-italy": "2026-11-24T04:47:47Z",
     "senture-fmcsa-2026": "2026-11-24T00:24:44Z",
     "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026": "2026-11-24T10:27:30Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-23T08:17:59.613211+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/20/56509.html": "2026-11-24T22:48:47Z",
     "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/": "2026-11-24T10:27:30Z",
     "https://www2.jpx.co.jp/disc/359A0/140120261013549964.pdf": "2026-11-23T20:12:57Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-23T08:17:59.613211+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/22/56536.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html": "2026-11-24T22:48:47Z",
     "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": "2026-11-24T10:27:30Z",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-23T08:17:59.613211+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56607.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56609.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56597.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/10/28/56599.html": "2026-11-24T22:48:47Z",
     "https://therecord.media/russian-home-goods-chain-faces-disruptions": "2026-11-24T10:27:30Z",
     "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/": "2026-11-24T15:53:34.102769+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-23T08:17:59.613211+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/02/56639.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/02/56638.html": "2026-11-24T22:48:47Z",
     "https://therecord.media/michigan-state-university-byod-gang-cyber-incident": "2026-11-24T00:24:44Z",
     "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/": "2026-11-24T10:27:30Z",
     "https://www.security-next.com/192393": "2026-11-24T10:27:30Z",
-    "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/": "2026-11-23T08:17:59.613211+00:00",
+    "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/": "2026-11-24T22:48:47Z",
     "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/": "2026-11-24T10:27:30Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/10/56721.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/10/56720.html": "2026-11-23T08:17:59.613211+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/11/56739.html": "2026-11-23T08:17:59.613211+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/10/56721.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/10/56720.html": "2026-11-24T22:48:47Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/11/56739.html": "2026-11-24T22:48:47Z",
     "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/": "2026-11-24T10:27:30Z",
     "https://socradar.io/data-breach/medela-shinyhunters-extortion-2026/": "2026-11-24T00:24:44Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/16/56792.html": "2026-11-23T08:17:59.613211+00:00",
+    "https://scan.netsecurity.ne.jp/article/2026/11/16/56792.html": "2026-11-24T22:48:47Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/17/56803.html": "2026-11-24T00:24:44Z",
-    "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/": "2026-11-23T08:17:59.613211+00:00",
+    "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/": "2026-11-24T22:48:47Z",
     "https://www.security-next.com/192962": "2026-11-24T10:27:30Z",
     "https://www.security-next.com/192657": "2026-11-24T10:27:30Z",
-    "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/": "2026-11-23T08:17:59.613211+00:00",
-    "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/": "2026-11-23T08:17:59.613211+00:00",
+    "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/": "2026-11-24T22:48:47Z",
+    "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/": "2026-11-24T22:48:47Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html": "2026-11-24T10:27:30Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html": "2026-11-24T00:24:44Z",
     "https://www.security-next.com/193020": "2026-11-24T10:27:30Z",
@@ -827,17 +819,16 @@
     "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/": "2026-11-24T15:53:34.102769+00:00",
     "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/": "2026-11-24T00:24:44Z",
     "https://therecord.media/fbi-cyberattack-data-breach": "2026-11-24T04:47:47Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/20/56852.html": "2026-11-23T20:12:57Z",
-    "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/": "2026-11-23T20:12:57Z",
-    "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": "2026-11-23T20:12:57Z",
+    "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/": "2026-11-24T22:48:47Z",
+    "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": "2026-11-24T22:48:47Z",
     "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/": "2026-11-24T00:24:44Z",
     "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/": "2026-11-24T00:24:44Z",
     "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/": "2026-11-24T00:24:44Z",
     "https://therecord.media/austrian-foreign-ministry-says-website-hacked": "2026-11-24T15:53:34.102769+00:00",
     "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident": "2026-11-24T10:27:30Z",
-    "https://www.security-next.com/193086": "2026-11-24T15:53:34.102769+00:00",
-    "https://www.security-next.com/193228": "2026-11-24T15:53:34.102769+00:00",
-    "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/": "2026-11-24T15:53:34.102769+00:00",
+    "https://www.security-next.com/193086": "2026-11-24T22:48:47Z",
+    "https://www.security-next.com/193228": "2026-11-24T22:48:47Z",
+    "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/": "2026-11-24T22:48:47Z",
     "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/": "2026-11-24T15:53:34.102769+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/24/56875.html": "2026-11-24T15:53:34.102769+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/24/56871.html": "2026-11-24T15:53:34.102769+00:00"
@@ -850,18 +841,18 @@
       "main_sha": "c6350d9fff9c96314b2f290e3cdf0865ca452f97"
     },
     "historical": {
-      "completed_at": "2026-11-24T10:27:30Z",
-      "summary": "今回のデータ変更なし。Security NEXT・ScanNetSecurity・The Record・SecurityWeekの最新一覧(11/13〜11/24)を確認し、既存ID(靖國神社、欧州委員会、ニトリ等)との照合を実施。未掲載のLaLiga、コーセー、NTTスマイルエナジー、古河電工パワーシステムズ、West Virginia議会、オーストリア外務省は本文を確認したが1媒体のみまたは公式本文未取得のため掲載基準に届かずdeferred。必須再調査20件のうち実際に本文を読んだのはNTTスマイルエナジーと古河電工の2件のみで、残りは再調査していない。時間配分により大半の持越しは未確認。次回はコーセー・LaLiga・FWD navi・債権回収事業者の一次情報、9〜10月の月別アーカイブ探索を優先する。全件の網羅は主張しない。対象外: CrowdStrikeによるZscaler買収、脆弱性情報。",
-      "run_id": "45374550717",
-      "main_sha": "e18d38617092f996730ec126db7561649b9e778e"
+      "completed_at": "2026-11-24T22:48:47Z",
+      "summary": "今回はSecurity NEXT・ScanNetSecurity・SecurityWeek・The Recordの新着一覧を確認し、必須再調査20件のうち5件(ソースネクスト、Access Dental、Amazon/AI、GL.iNet、McDonald's Japan関連)のみ本文を再確認した。残り15件は再取得せず持越し。ソースネクストIR問い合わせフォーム設定不備を公式本文とScanNet本文で確認し新規公開(possible_leak)。ミスド、タワーレコード(約1,021万件)、KEPCO(約150万人)は一次情報または独立2媒体を確認できず未記録で、次回最優先。次回は国内の大規模候補と過去月(9-10月)のアーカイブ、およびBleepingComputer代替の確認を優先する。全件を網羅したとは主張しない。",
+      "run_id": "45503874336",
+      "main_sha": "a01eddb2c5fe2a4264920bd64fcbefdc6a3f7723"
     }
   },
   "last_attempt": {
-    "mode": "fresh",
-    "run_id": "45430134132",
-    "completed_at": "2026-11-24T15:53:59.340197+00:00",
+    "mode": "historical",
+    "run_id": "45503874336",
+    "completed_at": "2026-11-24T22:49:13.202299+00:00",
     "result": "success",
     "error": null,
-    "main_sha": "c6350d9fff9c96314b2f290e3cdf0865ca452f97"
+    "main_sha": "a01eddb2c5fe2a4264920bd64fcbefdc6a3f7723"
   }
 }
