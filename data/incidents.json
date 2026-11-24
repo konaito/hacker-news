@@ -18639,5 +18639,58 @@
     "first_seen_at": "2026-11-24",
     "last_verified_at": "2026-11-24",
     "verification_note": "アットホーム公式お知らせ(11/13付)本文とScanNetSecurity本文を突合。11/9不正ログイン、6,901件、対象項目、口座情報未確認が一致。"
+  },
+  {
+    "id": "mcdonalds-japan-app-2026",
+    "published_at": "2026-11-20",
+    "occurred_at": null,
+    "company": "日本マクドナルド",
+    "service": "公式アプリ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "飲食",
+    "title": "日本マクドナルド、公式アプリのデータベースに不正アクセス、購入履歴や位置情報などが対象",
+    "summary": "日本マクドナルドは11月20日、公式アプリのデータベースに第三者が不正アクセスし、購入履歴、社内管理用の顧客ID、IPアドレス、端末の位置情報の一部に不正アクセスがあったと公表しました。不正利用は確認されていないとしています。",
+    "note": "影響件数は公表されておらず、外部へ持ち出されたかどうかも不明です。氏名・メールアドレス・電話番号・住所・クレジットカード情報は対象外としています。発生日も未公表です。",
+    "affected": [],
+    "sources": [
+      "mcdonalds-japan-app-2026-1",
+      "mcdonalds-japan-app-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-24",
+    "last_verified_at": "2026-11-24",
+    "verification_note": "日本マクドナルド公式お知らせ(11/20付)本文とThe Record本文を突合。対象項目、対象外項目、件数未公表が一致。"
+  },
+  {
+    "id": "giants-club-giants-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": "2026-11-12",
+    "company": "読売巨人軍",
+    "service": "公式ファンクラブ「CLUB GIANTS」会員管理システム",
+    "region": "JP",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "スポーツ",
+    "title": "読売巨人軍の公式ファンクラブ会員管理システムにサイバー攻撃、会員メールアドレス807,030件が漏えい",
+    "summary": "読売巨人軍は11月13日、公式ファンクラブの会員管理システムが外部から攻撃され、会員のメールアドレスが漏えいしたと公表しました。その後の調査で、一部の氏名・住所・電話番号・生年月日・パスワードハッシュの漏えいも判明したと報じられています。",
+    "note": "件数は項目ごとの記録件数で人数ではありません。メールアドレス807,030件、氏名16,998件、住所12,831件、電話番号15,434件、性別1,664件、生年月日1,665件、パスワードのハッシュ274件。球団の一次発表は本文を取得できず、NHKとSecurity NEXTの報道で確認しています。不正利用は確認されていないとしています。",
+    "affected": [
+      {
+        "count": 807030,
+        "unit": "records",
+        "description": "漏えいしたメールアドレス(記録件数、人数との対応は不明)",
+        "source_id": "giants-club-giants-2026-2"
+      }
+    ],
+    "sources": [
+      "giants-club-giants-2026-1",
+      "giants-club-giants-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-24",
+    "last_verified_at": "2026-11-24",
+    "verification_note": "球団公式は取得不可。NHK(11/13)とSecurity NEXT(11/24)の2媒体本文を突合し、約80万件・807,030件のメールアドレス漏えいが一致。"
   }
 ]

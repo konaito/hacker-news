@@ -9308,5 +9308,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56879.html",
     "title": "アットホーム提供の不動産会社向け業務管理サービス「賃貸管理システム」に不正アクセス"
+  },
+  {
+    "id": "mcdonalds-japan-app-2026-1",
+    "publisher": "日本マクドナルド",
+    "type": "primary",
+    "url": "https://www.mcdonalds.co.jp/company/info/261120a/",
+    "title": "公式アプリのデータベースへの不正アクセスに関するお知らせ"
+  },
+  {
+    "id": "mcdonalds-japan-app-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
+    "title": "McDonald's Japan discloses breach exposing customer purchase and location data"
+  },
+  {
+    "id": "giants-club-giants-2026-1",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261113de75711",
+    "title": "巨人 ファンクラブ会員のメールアドレス漏えい"
+  },
+  {
+    "id": "giants-club-giants-2026-2",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/192864",
+    "title": "ファンクラブ会員の個人情報が流出 - 読売巨人"
   }
 ]
