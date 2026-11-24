@@ -9336,5 +9336,19 @@
     "type": "reporting",
     "url": "https://www.security-next.com/192864",
     "title": "ファンクラブ会員の個人情報が流出 - 読売巨人"
+  },
+  {
+    "id": "sourcenext-ir-form-2026-1",
+    "publisher": "ソースネクスト",
+    "type": "primary",
+    "url": "https://www.sourcenext.com/support/i/2026/1110_info/",
+    "title": "「株主・投資家の皆様からのお問い合わせフォーム」における、お客様情報の閲覧可能状態に関するお詫びとお知らせ"
+  },
+  {
+    "id": "sourcenext-ir-form-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56852.html",
+    "title": "ソースネクスト、IR問い合わせフォーム設定不備で137件の個人情報が閲覧可能に ～ 10 / 15 の不正アクセスとは別事案"
   }
 ]
