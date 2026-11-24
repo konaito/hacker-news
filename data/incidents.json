@@ -18525,5 +18525,66 @@
     "first_seen_at": "2026-11-23",
     "last_verified_at": "2026-11-23",
     "verification_note": "The Record(11/16時点)とLRT(11/10)の本文を確認。11/10の検知、BAP停止、不正アクセス確認、11/9-10のログイン利用者に漏えいの可能性、一部復旧を照合。"
+  },
+  {
+    "id": "keisei-skyliner-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": "2026-11-11",
+    "company": "京成電鉄",
+    "service": "スカイライナー座席予約システム(チケットレスサービス等)",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "運輸・交通",
+    "title": "京成電鉄、スカイライナー座席予約システムへの不正アクセスで最大約337万件の顧客情報が取得された可能性",
+    "summary": "京成電鉄は11月13日、11月11日深夜にスカイライナー座席予約システムへ第三者の不正アクセスがあったと公表しました。最大約337万件の顧客情報が取得された可能性があり、予約システム全般の利用を停止しています。",
+    "note": "件数は「最大・可能性」で単位は件(records)、人数ではありません。対象項目は当初のユーザーID・パスワード(暗号化・ハッシュ化)・カナ氏名・電話番号・メールアドレスで、11/16の追記で生年月日・性別・国籍が加わったとScanNetSecurityが報じています。実際に取得されたかは未確認で、侵入経路と再開時期は公表されていません。京成の公式PDFは本文を読み取れず、NHK・ビジネス+IT・ScanNetSecurityの本文で確認しました。",
+    "affected": [
+      {
+        "count": 3370000,
+        "unit": "records",
+        "description": "取得された可能性のある顧客情報の最大件数(単位は件、人数ではない)",
+        "source_id": "keisei-skyliner-2026-3"
+      }
+    ],
+    "sources": [
+      "keisei-skyliner-2026-1",
+      "keisei-skyliner-2026-2",
+      "keisei-skyliner-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-24",
+    "last_verified_at": "2026-11-24",
+    "verification_note": "NHK、ビジネス+IT、ScanNetSecurityの本文を突合。11/11深夜の不正アクセス、11/13公表、最大約337万件が一致。予約システム全般停止はビジネス+IT・ScanNetSecurity、追加項目(生年月日等)はScanNetSecurity本文で確認。公式PDFは本文を読み取れず一次情報としては未使用。"
+  },
+  {
+    "id": "sharefull-internal-system-2026",
+    "published_at": "2026-11-09",
+    "occurred_at": "2026-11-04",
+    "company": "シェアフル株式会社",
+    "service": "スキマバイトアプリ「シェアフル」社内管理システム",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・クラウド",
+    "title": "シェアフル、社内管理システムへの不正アクセスで最大約750万件の個人情報が流出した可能性",
+    "summary": "シェアフルは11月9日、11月4日23時30分ごろに社内管理システムへ第三者の不正アクセスがあり、個人情報および法人情報が流出した可能性があると公表しました。11月5日に検知し、同日中に経路を遮断したとしています。",
+    "note": "公式発表では個人は最大約750万件、法人は最大約7,500社が対象で、実際の流出は未確認(可能性)です。対象は氏名・電話番号・メール・住所・生年月日・給与振込口座情報・顔写真URL・緊急連絡先・在留資格情報等で、暗証番号・パスワード、ID書類画像、マイナンバー、クレジットカード情報は含まれないとしています。個人の件数と人数の対応は不明です。",
+    "affected": [
+      {
+        "count": 7500000,
+        "unit": "records",
+        "description": "流出した可能性のある個人情報の最大件数(公式発表は約750万件、人数との対応は不明)",
+        "source_id": "sharefull-internal-system-2026-1"
+      }
+    ],
+    "sources": [
+      "sharefull-internal-system-2026-1",
+      "sharefull-internal-system-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-24",
+    "last_verified_at": "2026-11-24",
+    "verification_note": "シェアフル公式お知らせ(11/9付)本文とScanNetSecurity本文を突合。11/4 23:30不正アクセス、11/5検知・遮断、最大約750万件・約7,500社、対象項目と対象外項目が一致。"
   }
 ]

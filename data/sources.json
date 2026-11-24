@@ -9245,5 +9245,40 @@
     "type": "reporting",
     "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3110453/muitinei-patyrus-kibernetini-incidenta-sustabdyta-vartotoju-valdymo-portalo-prieiga",
     "title": "Muitinei patyrus kibernetinį incidentą, sustabdyta vartotojų valdymo portalo prieiga"
+  },
+  {
+    "id": "keisei-skyliner-2026-1",
+    "publisher": "NHK",
+    "type": "reporting",
+    "url": "https://news.web.nhk/newsweb/na/nd-20261114de75830",
+    "title": "京成電鉄 特急「スカイライナー」予約システムに不正アクセス 最大337万件漏えいか"
+  },
+  {
+    "id": "keisei-skyliner-2026-2",
+    "publisher": "ビジネス+IT",
+    "type": "reporting",
+    "url": "https://www.sbbit.jp/article/cont1/188408",
+    "title": "スカイライナー予約が全面停止 京成電鉄で不正アクセス、最大337万件の情報漏えいか"
+  },
+  {
+    "id": "keisei-skyliner-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56880.html",
+    "title": "スカイライナー座席予約システムに不正アクセス、最大約337万件の顧客情報が取得された可能性"
+  },
+  {
+    "id": "sharefull-internal-system-2026-1",
+    "publisher": "シェアフル株式会社",
+    "type": "primary",
+    "url": "https://sharefull.com/information/9480/",
+    "title": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ"
+  },
+  {
+    "id": "sharefull-internal-system-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/24/56873.html",
+    "title": "スキマバイトアプリ「シェアフル」の社内管理システムに不正アクセス、最大約750万件の個人情報が流出した可能性"
   }
 ]
