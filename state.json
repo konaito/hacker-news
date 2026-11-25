@@ -1,55 +1,7 @@
 {
   "version": 1,
-  "completed_at": "2026-11-25T09:12:05.796227+00:00",
+  "completed_at": "2026-11-25T09:52:12.245629+00:00",
   "candidates": [
-    {
-      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
-      "url": "https://www.derp.ca/ransomware/thegentlemen/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "WebSearchで再調査。RTAFは10/10にリークサイト掲載とSOCRadar/Dexposeが報じるのみで、空軍側の確認なし。KFCの主張は検索で確認できず。攻撃者の主張のみ・本文未取得のため持越し。"
-    },
-    {
-      "title": "コーセー 店頭体験レッスン予約システムで個人情報流出",
-      "url": "https://www.security-next.com/category/news/#kose",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "WebSearchで再調査したがコーセー公式・独立2媒体は見つからず。持越し。"
-    },
-    {
-      "title": "Domino's利用者アカウントへの不正ログイン",
-      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "WebSearchで再調査。新しい独立媒体は見つからず(Malwarebytesのみ)。公式発表未確認で持越し。"
-    },
-    {
-      "title": "hsc.mb.caに対するINC Ransomの公開主張",
-      "url": "https://www.ransomlook.io/group/inc%20ransom",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "WebSearchで再調査(hsc.mb.ca)。INC Ransomとの関連は確認できず、攻撃者の主張のみ。持越し。"
-    },
-    {
-      "title": "BigIDに対するThe Gentlemenの公開主張",
-      "url": "https://www.ransomlook.io/group/the%20gentlemen",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "BigIDの主張は今回の検索で確認できず、再調査は限定的。攻撃者の主張のみで持越し。"
-    },
-    {
-      "title": "FBI NCICへの侵害の報道",
-      "url": "https://therecord.media/fbi-cyberattack-data-breach",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record・SecurityWeek(AP)とも匿名情報源による報道でFBIはコメントせず。SecurityWeek本文は未取得、一次情報なし。次回再調査。"
-    },
     {
       "title": "Poryadok(ロシアのホームグッズ小売)へのサイバー攻撃",
       "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
@@ -177,22 +129,6 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "Security NEXT本文を確認(古河電工パワーシステムズ防災製品部の出荷管理Webシステム、10/14に異常検知、侵害の兆候、個人情報漏えいの可能性、件数なし)。公式本文と第2媒体は未取得のためレコード化せず持越し。"
-    },
-    {
-      "title": "S-QUE eラーニング",
-      "url": "https://s-que.net/news/20261008/",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再調査していない(時間配分)。前回の判断を維持して持越し。(前回: 再取得したが再びHTTP 404で本文不可。公式本文未確認のため持越し。)"
-    },
-    {
-      "title": "イオングループ一部Webサイト不正アクセス(414件)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "今回は再調査していない(時間配分)。前回の判断を維持して持越し。(前回: 再取得したがScanNetSecurity本文に414件の記載がなく、公式PDFも読めず、独立2媒体目の本文も未確認のため持越し。)"
     },
     {
       "title": "公開SNSでのKimberly-Clark被害主張",
@@ -483,22 +419,6 @@
       "reason": "SecurityWeek本文を確認(KEPCOがデータ窃取を確認、KEPCON650,487人・SRM869,761人、PIPCが調査)。KEPCO公式・PIPCの一次情報は未読で、検索では10月の別件(従業員約24,000人)しか出ず独立2媒体を確認できず未記録。次回優先。"
     },
     {
-      "title": "山善コーポレートサイトに不正アクセス(延べ10,508件)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56894.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNetSecurity本文のみ確認。山善の公式お知らせは403で読めなかったため持越し。"
-    },
-    {
-      "title": "旅行比較サイト「トラベルコ」に不正アクセス(38万1,926件)",
-      "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56888.html",
-      "priority": "normal",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "ScanNetSecurity本文のみ確認。公式PDFは本文を読めず、検索結果の要約は本文未確認のため持越し。"
-    },
-    {
       "title": "出光興産「idemitsu カーメンテ予約」に不正アクセス",
       "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56890.html",
       "priority": "normal",
@@ -675,14 +595,6 @@
       "reason": "BleepingComputer本文のみ確認(11/23発表、人数内訳あり)。公式発表本文・独立第2媒体は未確認。WebSearchでは10月の別件(職員約2.4万人)のみヒットし本件は未裏付け。次回優先。"
     },
     {
-      "title": "Colorado myColorado アプリ停止・約15万人のデータ窃取の可能性",
-      "url": "https://therecord.media/mycolorado-app-down-data-breach",
-      "priority": "high",
-      "decision": "deferred",
-      "incident_id": null,
-      "reason": "The Record本文のみ確認(11/18発見、約15万人、データ種別非公表)。公式発表リンクなし、WebSearchで第2媒体を特定できず。次回優先。"
-    },
-    {
       "title": "European Commission EU Academy侵害",
       "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
       "priority": "high",
@@ -729,6 +641,94 @@
       "decision": "deferred",
       "incident_id": null,
       "reason": "一覧の見出しのみ確認し本文は未読。次回調査。"
+    },
+    {
+      "title": "FBI NCICへの侵害の報道",
+      "url": "https://therecord.media/fbi-cyberattack-data-breach",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "SecurityWeek一覧に11/21付AP報道を確認したが本文未取得。検索でも一次情報なし。匿名情報源のみのため持越し。"
+    },
+    {
+      "title": "Royal Thai Air Force・KFCへのGentlemenの主張",
+      "url": "https://www.derp.ca/ransomware/thegentlemen/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。攻撃者の主張のみ。持越し。"
+    },
+    {
+      "title": "Domino's利用者アカウントへの不正ログイン",
+      "url": "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。持越し。"
+    },
+    {
+      "title": "hsc.mb.caに対するINC Ransomの公開主張",
+      "url": "https://www.ransomlook.io/group/inc%20ransom",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。攻撃者の主張のみ。持越し。"
+    },
+    {
+      "title": "BigIDに対するThe Gentlemenの公開主張",
+      "url": "https://www.ransomlook.io/group/the%20gentlemen",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "今回は再調査せず。攻撃者の主張のみ。持越し。"
+    },
+    {
+      "title": "コーセー 店頭体験レッスン予約システムで個人情報流出",
+      "url": "https://www.security-next.com/category/news/#kose",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索でもコーセーの公式・報道は見つからず。持越し。"
+    },
+    {
+      "title": "S-QUE eラーニング",
+      "url": "https://s-que.net/news/20261008/",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再取得したが再びHTTP 404で本文不可。持越し。"
+    },
+    {
+      "title": "イオングループ一部Webサイト不正アクセス(414件)",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "再検索でScanNetSecurityのみ。公式ページは見つからず独立2媒体目も未確認。持越し。"
+    },
+    {
+      "title": "トラベルコ(オープンドア)メルマガ登録メールアドレス381,926件流出",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56888.html",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文は確認(11/6検知、11/9公表)。公式PDFは本文を読めず、他は個人ブログ等のみ。基準未達のため未掲載。"
+    },
+    {
+      "title": "山善コーポレートサイト 問い合わせフォーム延べ10,508件",
+      "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56894.html",
+      "priority": "normal",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "ScanNetSecurity本文のみ確認。公式はHTTP 403で本文未確認。未掲載。"
+    },
+    {
+      "title": "myColorado アプリ侵害(約15万人関連)",
+      "url": "https://therecord.media/mycolorado-app-down-data-breach",
+      "priority": "high",
+      "decision": "deferred",
+      "incident_id": null,
+      "reason": "The Record本文のみ確認。州OITの一次情報・他媒体は検索で見つからず。未掲載。"
     },
     {
       "title": "内部サーバー侵害と過去の取引文書流出に関する続報を検証中",
@@ -824,17 +824,17 @@
     "kenya-brs-2026": "2026-11-25T09:11:41+00:00",
     "https://www.security-next.com/190739": "2026-11-24T10:27:30Z",
     "andover-town-schools-2026": "2026-11-25T09:11:41+00:00",
-    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-24T04:47:47Z",
-    "https://s-que.net/news/20261008/": "2026-11-24T10:27:30Z",
+    "https://www.malwarebytes.com/blog/news/2026/10/dominos-customers-targeted-in-credential-stuffing-attacks": "2026-11-25T09:51:00Z",
+    "https://s-que.net/news/20261008/": "2026-11-25T09:51:00Z",
     "rhyne-industrial-company-2023": "2026-11-25T09:11:41+00:00",
     "https://securityarsenal.com/blog/black-x-ransomware-gang-3-new-leak-site-claims-spanning-finance-tech-and-healthcare-targeting-analysis-and-detection-rules": "2026-11-24T15:53:34.102769+00:00",
     "https://www.vallanx.com/cyber-threat-monitor?pageb=53": "2026-11-24T10:27:30Z",
-    "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-24T04:47:47Z",
-    "https://www.ransomlook.io/group/inc%20ransom": "2026-11-24T04:47:47Z",
+    "https://www.ransomlook.io/group/the%20gentlemen": "2026-11-25T09:51:00Z",
+    "https://www.ransomlook.io/group/inc%20ransom": "2026-11-25T09:51:00Z",
     "https://www.security-next.com/190136": "2026-11-24T10:27:30Z",
     "https://www.ransomlook.io/recent": "2026-11-24T10:27:30Z",
     "https://www.yazoul.net/intel/claim/2026-10-11-cnesten-ransomware-claim-by-qilin-october-2026/": "2026-11-24T15:53:34.102769+00:00",
-    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-24T04:47:47Z",
+    "https://www.derp.ca/ransomware/thegentlemen/": "2026-11-25T09:51:00Z",
     "https://www.reddit.com/r/RecommandedVPN/comments/1x1fbsh/leaked_chat_logs_show_a_ransomware_gang_made_200/": "2026-11-24T10:27:30Z",
     "https://haveibeenpwned.com/breach/neogen": "2026-11-25T09:11:41+00:00",
     "https://haveibeenpwned.com/breach/cyrusone": "2026-11-25T00:44:12Z",
@@ -875,10 +875,10 @@
     "https://www.security-next.com/192657": "2026-11-24T10:27:30Z",
     "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/": "2026-11-24T22:48:47Z",
     "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/": "2026-11-24T22:48:47Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html": "2026-11-24T10:27:30Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/19/56836.html": "2026-11-25T09:51:00Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56841.html": "2026-11-25T09:11:41+00:00",
     "https://www.security-next.com/193020": "2026-11-24T10:27:30Z",
-    "https://www.security-next.com/category/news/#kose": "2026-11-24T04:47:47Z",
+    "https://www.security-next.com/category/news/#kose": "2026-11-25T09:51:00Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/19/56839.html": "2026-11-24T10:27:30Z",
     "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/": "2026-11-25T00:44:12Z",
     "https://www.security-next.com/192585": "2026-11-25T09:11:41+00:00",
@@ -890,7 +890,7 @@
     "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/": "2026-11-25T00:44:12Z",
     "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/": "2026-11-24T15:53:34.102769+00:00",
     "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/": "2026-11-25T09:11:41+00:00",
-    "https://therecord.media/fbi-cyberattack-data-breach": "2026-11-24T04:47:47Z",
+    "https://therecord.media/fbi-cyberattack-data-breach": "2026-11-25T09:51:00Z",
     "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/": "2026-11-24T22:48:47Z",
     "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": "2026-11-24T22:48:47Z",
     "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/": "2026-11-25T09:11:41+00:00",
@@ -902,12 +902,12 @@
     "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/": "2026-11-24T15:53:34.102769+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/24/56875.html": "2026-11-24T15:53:34.102769+00:00",
     "https://scan.netsecurity.ne.jp/article/2026/11/24/56871.html": "2026-11-24T15:53:34.102769+00:00",
-    "https://therecord.media/mycolorado-app-down-data-breach": "2026-11-25T09:11:41+00:00",
+    "https://therecord.media/mycolorado-app-down-data-breach": "2026-11-25T09:51:00Z",
     "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/": "2026-11-25T09:11:41+00:00",
     "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/": "2026-11-25T09:11:41+00:00",
     "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/": "2026-11-25T09:11:41+00:00",
-    "https://scan.netsecurity.ne.jp/article/2026/11/25/56894.html": "2026-11-25T00:44:12Z",
-    "https://scan.netsecurity.ne.jp/article/2026/11/25/56888.html": "2026-11-25T00:44:12Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/25/56894.html": "2026-11-25T09:51:00Z",
+    "https://scan.netsecurity.ne.jp/article/2026/11/25/56888.html": "2026-11-25T09:51:00Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/25/56890.html": "2026-11-25T00:44:12Z",
     "https://scan.netsecurity.ne.jp/article/2026/11/25/56892.html": "2026-11-25T00:44:12Z",
     "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/": "2026-11-25T00:44:12Z",
@@ -916,9 +916,9 @@
   },
   "last_success": {
     "fresh": {
-      "completed_at": "2026-11-25T00:44:12Z",
-      "summary": "国内2媒体(Security NEXT、ScanNetSecurity)・海外2媒体(BleepingComputer、The Record)の新着一覧を確認。LaLigaのファン向けプラットフォーム侵害を、BleepingComputerとThe Recordの本文2媒体で確認して新規掲載した。ほかの新着候補(タワーレコード約1100万件、山善、トラベルコ、出光、ミスド、myColorado、Turnitin、Radware、EU Academy等)は、公式本文を読めない(403/PDF読取不可)または1媒体のみのため掲載せずdeferredとした。必須再調査8件はいずれも掲載基準未達で持越し。",
-      "run_id": "45519843843",
+      "completed_at": "2026-11-25T09:51:00Z",
+      "summary": "新規掲載・更新なし。トラベルコ(公式PDF本文を読めず報道1媒体)、山善(公式403)、myColorado(The Recordのみ)は検証基準を満たさずdeferred。持越し候補は再調査したが解決できたものはなし。",
+      "run_id": "45589057239",
       "main_sha": "7ee2d6c737e4d58dc315b3993aaaf2796f4e6eac"
     },
     "historical": {
@@ -929,9 +929,9 @@
     }
   },
   "last_attempt": {
-    "mode": "historical",
-    "run_id": "45582502617",
-    "completed_at": "2026-11-25T09:12:05.796227+00:00",
+    "mode": "fresh",
+    "run_id": "45589057239",
+    "completed_at": "2026-11-25T09:52:12.245629+00:00",
     "result": "success",
     "error": null,
     "main_sha": "7ee2d6c737e4d58dc315b3993aaaf2796f4e6eac"
