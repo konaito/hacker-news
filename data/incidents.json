@@ -18722,5 +18722,28 @@
     "first_seen_at": "2026-11-24",
     "last_verified_at": "2026-11-24",
     "verification_note": "公式お知らせ本文(期間、件数137件の内訳、項目、原因、対応)とScanNetSecurity本文を確認。実際の閲覧有無は公式も確認不能としており、漏えい確認とはしていない。"
+  },
+  {
+    "id": "laliga-fan-platform-2026",
+    "published_at": "2026-11-23",
+    "occurred_at": "2026-11-14",
+    "company": "LaLiga",
+    "service": "ファン向けデジタルサービスの技術プラットフォーム",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "スポーツ",
+    "title": "スペインのLaLiga、ファン向けサービスの技術プラットフォームへの侵入で利用者の個人情報が盗まれたと公表、複数クラブにも影響",
+    "summary": "LaLigaは、ファン向けデジタルサービスを提供する技術プラットフォームに第三者が不正に侵入し、登録者の個人情報が抽出されたと公表しました。侵入は11月14日から16日の間で、16日にアクセス元を特定して遮断したとしています。",
+    "note": "BleepingComputerによると、LaLigaは大会運営システムには影響がないと説明しています。The Recordによると、CD Eldenseは氏名・連絡先など登録時の情報が対象で、パスワード・銀行・決済情報は現時点で侵害されていないとしており、Real Oviedo、Real Zaragoza、Córdoba CF、CD Leganésを含む5クラブが一部ファン情報の侵害を確認しました。影響人数・侵入経路・攻撃者は未公表で、ランサムウェアかどうかも不明です。スペインデータ保護機関(AEPD)と国家警察に届け出済み。LaLiga公式発表の原文は直接確認しておらず、報道2媒体の本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "laliga-fan-platform-2026-1",
+      "laliga-fan-platform-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-25",
+    "last_verified_at": "2026-11-25",
+    "verification_note": "BleepingComputer(11/23)とThe Record(11/24)の本文を確認。11/14〜16の侵入、プラットフォームへの不正アクセスとデータ抽出、16日の遮断、AEPD・警察への届出、一部クラブの影響を照合。件数は未公表。"
   }
 ]

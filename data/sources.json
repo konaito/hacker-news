@@ -9350,5 +9350,19 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/20/56852.html",
     "title": "ソースネクスト、IR問い合わせフォーム設定不備で137件の個人情報が閲覧可能に ～ 10 / 15 の不正アクセスとは別事案"
+  },
+  {
+    "id": "laliga-fan-platform-2026-1",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+    "title": "Spanish LaLiga confirms hackers stole soccer fans' personal data"
+  },
+  {
+    "id": "laliga-fan-platform-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
+    "title": "LaLiga hacked: Spain's top professional league confirms cyber incident"
   }
 ]
