@@ -9364,5 +9364,19 @@
     "type": "reporting",
     "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
     "title": "LaLiga hacked: Spain's top professional league confirms cyber incident"
+  },
+  {
+    "id": "fincen-treasury-cyber-incident-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+    "title": "Treasury's FinCEN takes systems offline after cybersecurity incident"
+  },
+  {
+    "id": "fincen-treasury-cyber-incident-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+    "title": "US Treasury's FinCEN Disconnects Systems Following Cyber Incident"
   }
 ]

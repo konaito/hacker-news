@@ -18745,5 +18745,28 @@
     "first_seen_at": "2026-11-25",
     "last_verified_at": "2026-11-25",
     "verification_note": "BleepingComputer(11/23)とThe Record(11/24)の本文を確認。11/14〜16の侵入、プラットフォームへの不正アクセスとデータ抽出、16日の遮断、AEPD・警察への届出、一部クラブの影響を照合。件数は未公表。"
+  },
+  {
+    "id": "fincen-treasury-cyber-incident-2026",
+    "published_at": "2026-11-25",
+    "occurred_at": null,
+    "company": "米財務省 金融犯罪取締ネットワーク(FinCEN)",
+    "service": "FinCENの一部システム(BSA電子申告関連サービスなど)",
+    "region": "GLOBAL",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "官公庁・公共",
+    "title": "米財務省FinCEN、一部システムへの不正アクセスを確認し一部システムをオフライン化、申告期限を延長",
+    "summary": "米財務省の金融犯罪取締ネットワーク(FinCEN)は、サイバーインシデントを調査中で、一部システムへの不正アクセスがあったとして、一部システムを予防的にオフラインにしました。BSA電子申告サイトは稼働していますが一部サービスは利用できず、影響を受ける申告者の期限を延長しました。",
+    "note": "FinCENの告知は11月24日夕方に掲載されました。The Recordによると、FBIとCISAが調査に関与し、現時点でBSAや実質的支配者データベースの侵害の証拠はないとされています。SecurityWeekによると、データの閲覧・窃取の有無や攻撃者は不明です。声明の原文は直接確認しておらず、報道2媒体の本文で確認しました。犯行声明はなく、発生日・影響件数は未公表です。",
+    "affected": [],
+    "sources": [
+      "fincen-treasury-cyber-incident-2026-1",
+      "fincen-treasury-cyber-incident-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-25",
+    "last_verified_at": "2026-11-25",
+    "verification_note": "The Record(11/25)とSecurityWeek(11/25)の本文を確認。限定的なシステムへの不正アクセス、一部オフライン化、期限延長、BSAデータ侵害の証拠が現時点でない点、調査継続を照合。"
   }
 ]
