@@ -18776,5 +18776,95 @@
     "first_seen_at": "2026-11-25",
     "last_verified_at": "2026-11-25",
     "verification_note": "The Record(11/25)とSecurityWeek(11/25)の本文を確認。限定的なシステムへの不正アクセス、一部オフライン化、期限延長、BSAデータ侵害の証拠が現時点でない点、調査継続を照合。"
+  },
+  {
+    "id": "kepco-kepcoon-srm-2026",
+    "published_at": "2026-11-24",
+    "occurred_at": null,
+    "company": "韓国電力公社(KEPCO)",
+    "service": "顧客サービス「KEPCO ON(한전ON)」および電子調達システム(SRM)",
+    "region": "GLOBAL",
+    "status": "confirmed_leak",
+    "display_label": "漏えい確認",
+    "category": "重要インフラ",
+    "title": "韓国電力公社KEPCO、顧客ポータルと調達システムから約150万人分の個人情報が流出、当局が調査開始",
+    "summary": "韓国電力公社(KEPCO)は外部攻撃者によるデータ流出を確認し、KEPCO ON利用者約65万人と調達システムSRM利用者約87万人の情報が流出したと説明しました。個人情報保護委員会が調査を開始しています。",
+    "note": "人数の単位は人です(合計約150万人は2システムの合算で、重複の有無は不明)。11/19に攻撃者から恐喝的なメールが届き、11/20にダークウェブ掲載とサンプルを確認、11/22に当局へ報告しました。PIPCによるとKEPCO ON側には氏名・登録番号・電話番号・口座/カード情報が含まれます。正確な人数と項目はSecurityWeekが引用するKEPCO発表に基づきます。KEPCOの発表本文は添付ファイルのため直接読めておらず、PIPCとSecurityWeekの本文で確認しました。攻撃者の主張件数は採用していません。AI攻撃の確認はありません。",
+    "affected": [
+      {
+        "count": 650487,
+        "unit": "people",
+        "description": "KEPCO ON利用者(氏名・住所・カード/口座情報等)",
+        "source_id": "kepco-kepcoon-srm-2026-2"
+      },
+      {
+        "count": 869761,
+        "unit": "people",
+        "description": "SRM利用者(KEPCO職員・取引先従業員を含む、氏名・メール等)",
+        "source_id": "kepco-kepcoon-srm-2026-2"
+      }
+    ],
+    "sources": [
+      "kepco-kepcoon-srm-2026-1",
+      "kepco-kepcoon-srm-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-26",
+    "last_verified_at": "2026-11-26",
+    "verification_note": "PIPC公表(11/23)とSecurityWeek(11/24)の本文を照合。11/19恐喝メール・11/20確認・11/22届出、約65万人/約87万人の対象が一致。KEPCO公式発表の本文は読めず未使用。"
+  },
+  {
+    "id": "mycolorado-app-2026",
+    "published_at": "2026-11-24",
+    "occurred_at": "2026-11-18",
+    "company": "米コロラド州 情報技術局(OIT)",
+    "service": "州公式アプリ「myColorado」(デジタルID等)",
+    "region": "US",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "官公庁・公共",
+    "title": "米コロラド州、公式アプリmyColoradoで不正アクセスを確認しアプリを停止、最大15万人のデータに影響の可能性",
+    "summary": "コロラド州情報技術局は11月18日にmyColoradoアプリで不正利用者によるプラットフォームデータへのアクセスを確認し、アプリを停止しました。影響を受けた可能性があるのは5万〜15万人と推計しています。",
+    "note": "5万〜15万人は州の推計(単位は人)で、アプリ利用者は約210万人です。盗まれたデータの種類は未公表です。The Recordによるとランサムウェア集団The Gentlemenが11/22に犯行を主張していますが、州による確認はなく、主張は事実として扱っていません。州当局の声明は報道に引用された内容のみで、州の公式ページは取得できませんでした。",
+    "affected": [
+      {
+        "count": 150000,
+        "unit": "people",
+        "description": "州が推計するデータ影響を受けた可能性のある人数の上限(下限は5万人)",
+        "source_id": "mycolorado-app-2026-3"
+      }
+    ],
+    "sources": [
+      "mycolorado-app-2026-1",
+      "mycolorado-app-2026-2",
+      "mycolorado-app-2026-3"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-26",
+    "last_verified_at": "2026-11-26",
+    "verification_note": "The Record、CBS Colorado、KKTVの本文を照合。11/18発見、アプリ停止、5万〜15万人の推計、OIT長官の声明が一致。州公式ページは403で未確認。Gentlemen主張は未検証。"
+  },
+  {
+    "id": "peninsula-energy-lance-2026",
+    "published_at": "2026-11-24",
+    "occurred_at": "2026-11-20",
+    "company": "Peninsula Energy(豪)",
+    "service": "米ワイオミング州Lanceウラン鉱山のプラント・坑井の運転/制御システム",
+    "region": "US",
+    "status": "disruption",
+    "display_label": "業務停止",
+    "category": "エネルギー・インフラ",
+    "title": "豪Peninsula Energy、米ワイオミング州Lanceウラン鉱山でサイバーインシデント、操業停止・株式取引停止",
+    "summary": "豪Peninsula Energyは、米ワイオミング州のLanceウラン鉱山で11月20日にサイバーインシデントが発生し、プラントと坑井の運転・制御システムに影響したと発表しました。操業は停止中で、ASXで売買停止となっています。",
+    "note": "事業・管理系システムは影響なしとされています。攻撃者・手口・データ流出の有無は不明で、再開時期も未公表です。ASX開示の原文は直接読めておらず、SecurityWeekとCowboy State Dailyの本文で確認しました。",
+    "affected": [],
+    "sources": [
+      "peninsula-energy-lance-2026-1",
+      "peninsula-energy-lance-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-26",
+    "last_verified_at": "2026-11-26",
+    "verification_note": "SecurityWeek(11/24-25)とCowboy State Daily(11/23)の本文を照合。11/20発生、操業停止、管理系は影響なし、ASX売買停止が一致。ASX開示は未読。"
   }
 ]

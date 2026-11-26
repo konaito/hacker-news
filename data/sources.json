@@ -9385,5 +9385,54 @@
     "type": "primary",
     "url": "https://3-shake.com/notion-ai/",
     "title": "Notion AIのチャット履歴漏えいの可能性に関するお詫びとお知らせ(第一報)"
+  },
+  {
+    "id": "kepco-kepcoon-srm-2026-1",
+    "publisher": "個人情報保護委員会(PIPC)",
+    "type": "primary",
+    "url": "https://pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=&nttId=12664",
+    "title": "PIPC:한국전력 개인정보 유출 관련 조사 착수"
+  },
+  {
+    "id": "kepco-kepcoon-srm-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
+    "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO"
+  },
+  {
+    "id": "mycolorado-app-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/mycolorado-app-down-data-breach",
+    "title": "Colorado says cyberattack took down myColorado app, warns 150,000 had data stolen"
+  },
+  {
+    "id": "mycolorado-app-2026-2",
+    "publisher": "CBS Colorado",
+    "type": "reporting",
+    "url": "https://www.cbsnews.com/colorado/news/mycolorado-app-shut-down-protect-data-cybersecurity-incident/",
+    "title": "myColorado app shut down to protect data after cybersecurity incident"
+  },
+  {
+    "id": "mycolorado-app-2026-3",
+    "publisher": "KKTV",
+    "type": "reporting",
+    "url": "https://www.kktv.com/2026/11/24/mycolorado-mobile-app-temporarily-unavailable-office-information-technology-thoroughly-investigating/",
+    "title": "myColorado Mobile App Temporarily Unavailable, Office of Information Technology Thoroughly Investigating"
+  },
+  {
+    "id": "peninsula-energy-lance-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+    "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine"
+  },
+  {
+    "id": "peninsula-energy-lance-2026-2",
+    "publisher": "Cowboy State Daily",
+    "type": "reporting",
+    "url": "https://cowboystatedaily.com/2026/11/23/very-odd-cyber-breach-halts-operations-stock-trading-at-lance-uranium-mine/",
+    "title": "Very Odd: Cyber Breach Halts Operations, Stock Trading at Lance Uranium Mine"
   }
 ]
