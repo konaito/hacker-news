@@ -18904,5 +18904,58 @@
     "first_seen_at": "2026-11-26",
     "last_verified_at": "2026-11-26",
     "verification_note": "プレイド公式(11/16、11/20)本文で、11/13未明の侵入、全サービス停止、各漏えい区分と件数、2027年1月中旬の再開目標を確認。ScanNetSecurity本文(11/26)で公式内容とJINSの最大約1,829万件を照合。"
+  },
+  {
+    "id": "liplus-telforce-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": null,
+    "company": "LiPLUSホールディングス(システム提供元: Widsley)",
+    "service": "架電システム「Telforce」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "IT・クラウド",
+    "title": "LiPLUSホールディングスが利用する架電システム「Telforce」に海外から不正アクセス、約28万件の電話番号等が漏えいした可能性",
+    "summary": "LiPLUSホールディングスは11月16日、グループ会社アシストと運営するマッチング事業で使う架電システム「Telforce」(Widsley提供)に海外から不正アクセスがあり、個人情報が漏えいした可能性があると公表しました。",
+    "note": "10月21日にWidsleyから報告を受け、同日に海外接続を遮断。アクセスログが残らない経路で情報が取得された可能性があり、対象は電話番号・氏名(登録時)・住所・会社名・問い合わせ内容の記録・通話日時の約28万件(件数であり人数ではない)。原因として設定ファイルの一部が閲覧可能だった点とスマホアプリ用APIが認証なしで利用できた点が挙げられていますが、暫定的な説明です。二次被害は確認されていません。",
+    "affected": [
+      {
+        "count": 280000,
+        "unit": "records",
+        "description": "漏えいした可能性のある電話番号等の件数(約。人数ではない)",
+        "source_id": "liplus-telforce-2026-1"
+      }
+    ],
+    "sources": [
+      "liplus-telforce-2026-1",
+      "liplus-telforce-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-26",
+    "last_verified_at": "2026-11-26",
+    "verification_note": "LiPLUSホールディングス公式お知らせ本文(経緯、項目、約28万件、原因、対応)とScanNetSecurity本文を確認。漏えいは可能性であり、確認済みとはしていない。"
+  },
+  {
+    "id": "fifa-cyberattack-2026",
+    "published_at": "2026-11-25",
+    "occurred_at": null,
+    "company": "FIFA(国際サッカー連盟)",
+    "service": "FIFAの社内システム・情報",
+    "region": "海外",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "スポーツ",
+    "title": "FIFA、ハッカーに「限定的な個人情報および業務情報」へアクセスされたと公表、攻撃者は12GB超を主張",
+    "summary": "FIFAは、サイバー攻撃により「限定的な個人情報および業務情報」に不正アクセスされたと認め、法執行機関を含む当局と連携しているとしました。個人データの不法な取得と公開を非難しています。",
+    "note": "発生時期や取得された情報の具体的内容、件数はFIFAから示されていません。Handsome Boy Hacking Clubを名乗るグループが12GB超のデータを盗み公開したと主張していますが、内容は未検証の攻撃者側の主張で、被害規模には含めていません。",
+    "affected": [],
+    "sources": [
+      "fifa-cyberattack-2026-1",
+      "fifa-cyberattack-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-26",
+    "last_verified_at": "2026-11-26",
+    "verification_note": "FIFAの声明を引用するThe Record本文とSecurityWeek(AP配信)本文の独立2媒体を確認。FIFA公式発表本体は未確認。攻撃者の主張は未検証として扱い、件数は記録していない。"
   }
 ]

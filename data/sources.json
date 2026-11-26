@@ -9462,5 +9462,33 @@
     "type": "reporting",
     "url": "https://scan.netsecurity.ne.jp/article/2026/11/26/56905.html",
     "title": "「KARTE」への不正アクセス、「JINSオンラインショップ」等で会員登録を行った最大 約1,829万件の個人情報が漏えいした可能性"
+  },
+  {
+    "id": "liplus-telforce-2026-1",
+    "publisher": "LiPLUSホールディングス",
+    "type": "primary",
+    "url": "https://liplus-h.com/news/telforce-notice/",
+    "title": "Telforceへの不正アクセスによる個人情報漏えいの可能性に関するお知らせ"
+  },
+  {
+    "id": "liplus-telforce-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/26/56903.html",
+    "title": "LiPLUSホールディングスが利用する架電システム「Telforce」に不正アクセス、約28万件の電話番号等が漏えいした可能性"
+  },
+  {
+    "id": "fifa-cyberattack-2026-1",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/fifa-data-breach-limited",
+    "title": "FIFA says hackers accessed 'limited set of personal and business information'"
+  },
+  {
+    "id": "fifa-cyberattack-2026-2",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+    "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing 'Personal and Business Information'"
   }
 ]
