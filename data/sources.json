@@ -9434,5 +9434,33 @@
     "type": "reporting",
     "url": "https://cowboystatedaily.com/2026/11/23/very-odd-cyber-breach-halts-operations-stock-trading-at-lance-uranium-mine/",
     "title": "Very Odd: Cyber Breach Halts Operations, Stock Trading at Lance Uranium Mine"
+  },
+  {
+    "id": "karte-plaid-2026-1",
+    "publisher": "Plaid(プレイド)",
+    "type": "primary",
+    "url": "https://plaid.co.jp/news/20261120/",
+    "title": "「KARTE」不正アクセス事案の調査結果と今後の見通し(11月20日)"
+  },
+  {
+    "id": "karte-plaid-2026-2",
+    "publisher": "Plaid(プレイド)",
+    "type": "primary",
+    "url": "https://plaid.co.jp/news/20261116/",
+    "title": "「KARTE」への不正アクセスに関するお知らせ(11月16日・11月20日更新)"
+  },
+  {
+    "id": "karte-plaid-2026-3",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/26/56908.html",
+    "title": "窃取した認証情報を用いたアカウント乗っ取りも ～「KARTE」不正アクセス調査結果"
+  },
+  {
+    "id": "karte-plaid-2026-4",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/26/56905.html",
+    "title": "「KARTE」への不正アクセス、「JINSオンラインショップ」等で会員登録を行った最大 約1,829万件の個人情報が漏えいした可能性"
   }
 ]
