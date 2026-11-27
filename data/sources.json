@@ -9546,5 +9546,33 @@
     "type": "reporting",
     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach"
+  },
+  {
+    "id": "rikisha-easy-rez-2026-1",
+    "publisher": "アップルワールド",
+    "type": "primary",
+    "url": "https://appleworld.co.jp/news/cp6xtywu279",
+    "title": "不正アクセスに関するお詫びとお知らせ(Rikisha Easy REZ!)"
+  },
+  {
+    "id": "rikisha-easy-rez-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56892.html",
+    "title": "旅行会社向け予約システム「Rikisha Easy REZ!」不正アクセス"
+  },
+  {
+    "id": "yamazen-corporate-site-2026-1",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/25/56894.html",
+    "title": "山善コーポレートサイトに不正アクセス"
+  },
+  {
+    "id": "yamazen-corporate-site-2026-2",
+    "publisher": "電波デジタル",
+    "type": "reporting",
+    "url": "https://dempa-digital.com/?p=730927",
+    "title": "山善、コーポレートサイトに不正アクセス 個人情報延べ1万508件が漏えい"
   }
 ]

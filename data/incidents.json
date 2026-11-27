@@ -19069,5 +19069,83 @@
     "first_seen_at": "2026-11-27",
     "last_verified_at": "2026-11-27",
     "verification_note": "SecurityWeekとThe Hacker Newsの本文を確認(両者が1Password発表を引用)。公式本体は未確認。件数は非公表のため記録していない。"
+  },
+  {
+    "id": "rikisha-easy-rez-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": "2026-11-06",
+    "company": "株式会社アップルワールド",
+    "service": "旅行会社向け予約手配システム「Rikisha Easy REZ!」",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "旅行・交通",
+    "title": "アップルワールドの旅行会社向け予約システム「Rikisha Easy REZ!」に不正アクセス、予約情報最大58万件超などが漏えいした可能性",
+    "summary": "アップルワールドは、11月6日に「Rikisha Easy REZ!」への不正アクセスを検知し、予約者情報や旅行会社情報が漏えいした可能性があると11月13日に公表しました。サービスと API 予約受付は停止中です。",
+    "note": "サーバーへの不正プログラム設置、ファイル・メールテンプレートの改ざん、DB の不正操作、外部から閲覧・取得され得る状態を確認。原因は開発委託先管理のソースコード保管場所が外部から閲覧可能で、本番環境を編集できる認証鍵が記載されていたことと説明。件数はいずれも最大値で調査中。実際の持ち出しは未確認で、カード決済ログ等は流出有無を調査中。",
+    "affected": [
+      {
+        "count": 582024,
+        "unit": "records",
+        "description": "予約者の予約情報(最大)",
+        "source_id": "rikisha-easy-rez-2026-1"
+      },
+      {
+        "count": 3542,
+        "unit": "accounts",
+        "description": "旅行会社の情報(最大・社数)",
+        "source_id": "rikisha-easy-rez-2026-1"
+      },
+      {
+        "count": 13834,
+        "unit": "people",
+        "description": "旅行会社の担当者等(最大)",
+        "source_id": "rikisha-easy-rez-2026-1"
+      },
+      {
+        "count": 39,
+        "unit": "records",
+        "description": "決済画面で入力されたカード情報(最大・件)",
+        "source_id": "rikisha-easy-rez-2026-1"
+      }
+    ],
+    "sources": [
+      "rikisha-easy-rez-2026-1",
+      "rikisha-easy-rez-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "verification_note": "アップルワールド公式お知らせ(11/13)本文とScanNetSecurity(11/25)本文で、11/6検知、最大件数、原因、サービス停止を照合。持ち出しは未確認。"
+  },
+  {
+    "id": "yamazen-corporate-site-2026",
+    "published_at": "2026-11-13",
+    "occurred_at": null,
+    "company": "株式会社山善",
+    "service": "コーポレートサイト・関連サイト",
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "製造・小売",
+    "title": "山善のコーポレートサイトに不正アクセス、お問い合わせフォームの個人情報延べ10,508件が漏えいした可能性",
+    "summary": "山善は、11月11日に外部サーバーで不審ファイルを発見し、サイトのソフトウェアの脆弱性を悪用した不正アクセスにより、問い合わせフォームの個人情報が漏えいした可能性があると公表しました。",
+    "note": "対象は氏名・住所・電話番号・メールアドレス・所属・FAX番号・問い合わせ内容で、クレジットカード情報は含まれないとしています。件数は延べ件数で人数ではありません。関連サイト(山善 BASE CAMP、BCP.ERS、グリーンボールプロジェクト)も停止。実際の取得は未確認。山善公式本文は403のため未確認で、独立2媒体の本文で確認。",
+    "affected": [
+      {
+        "count": 10508,
+        "unit": "records",
+        "description": "お問い合わせフォーム登録データ(延べ・漏えいの可能性)",
+        "source_id": "yamazen-corporate-site-2026-1"
+      }
+    ],
+    "sources": [
+      "yamazen-corporate-site-2026-1",
+      "yamazen-corporate-site-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "verification_note": "ScanNetSecurity(11/25)と電波デジタル(11/16)の本文を確認(いずれも山善発表を引用)。公式本体は未確認。"
   }
 ]
