@@ -18198,18 +18198,19 @@
     "display_label": "業務障害・調査中",
     "category": "行政・公共",
     "title": "欧州委員会がサイバー攻撃を確認、人事系システムが10日以上停止、データ侵害の証拠は未確認",
-    "summary": "欧州委員会は11月19日、10月22日に最初の兆候を検知したサイバー攻撃を確認しました。人事システムSysperや医療費精算などが10日以上影響を受け、一部サービスは予防的に停止されました。",
-    "note": "委員会は職員全体に影響するデータ侵害の証拠は検出していないと説明し、身代金要求も把握していません。調査は継続中で、CERT-EUと欧州データ保護監督官に通知済みです。報道ではAIハッキング基盤ARTEXの使用が伝えられていますが、委員会はツールを公に確認しておらず、報道内容は未検証です。委員会の一次発表は取得できず、The Record、Euronews、The Registerの本文で確認しました。報道間で検知日・確認日の記載が異なります。",
+    "summary": "欧州委員会は11月19日、10月22日に最初の兆候を検知したサイバー攻撃を確認しました。人事システムSysperや医療費精算などが10日以上影響を受け、一部サービスは予防的に停止されました。続報で、EU Academyからの個人データ窃取を委員会が確認したと報じられました(件数非公表)。",
+    "note": "委員会は職員全体に影響するデータ侵害の証拠は検出していないと説明し、身代金要求も把握していません。調査は継続中で、CERT-EUと欧州データ保護監督官に通知済みです。報道ではAIハッキング基盤ARTEXの使用が伝えられていますが、委員会はツールを公に確認しておらず、報道内容は未検証です。委員会の一次発表は取得できず、The Record、Euronews、The Registerの本文で確認しました。報道間で検知日・確認日の記載が異なります。続報として、BleepingComputerは11月24日、委員会がオンライン学習基盤EU Academyも侵害され、氏名とメールアドレスを含む個人データが盗まれたと確認したと報じました(EU Academyは公開停止、利用者へ通知済み、影響人数は非公表)。この点は委員会の発表を引用したBleepingComputer1媒体の本文のみで確認し、EU Academy告知は403で取得できていません。",
     "affected": [],
     "sources": [
       "european-commission-hr-systems-2026-1",
       "european-commission-hr-systems-2026-2",
-      "european-commission-hr-systems-2026-3"
+      "european-commission-hr-systems-2026-3",
+      "european-commission-hr-systems-2026-4"
     ],
     "publication_status": "published",
     "first_seen_at": "2026-11-21",
-    "last_verified_at": "2026-11-21",
-    "verification_note": "The Record、Euronews、The Registerの本文を確認。10/22検知、人事系システム停止、広範なデータ侵害の証拠なしの委員会説明を照合。委員会一次発表は未取得。"
+    "last_verified_at": "2026-11-27",
+    "verification_note": "The Record、Euronews、The Registerの本文を確認。10/22検知、人事系システム停止、広範なデータ侵害の証拠なしの委員会説明を照合。委員会一次発表は未取得。 2026-11-27にBleepingComputer(11/24)とEuronewsの本文を再確認。EU Academyのデータ窃取は同記事のみ、CERT-EUのARTEX記事は本件に言及せず。"
   },
   {
     "id": "tfl-oyster-photocard-2026",

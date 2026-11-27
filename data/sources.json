@@ -9616,5 +9616,12 @@
     "type": "reporting",
     "url": "https://www.wwdjapan.com/articles/2540414?mobile=off",
     "title": "WWD JAPAN｜DHCオンラインショップへの不正アクセス"
+  },
+  {
+    "id": "european-commission-hr-systems-2026-4",
+    "publisher": "BleepingComputer",
+    "type": "reporting",
+    "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+    "title": "European Commission confirms data theft in EU Academy breach"
   }
 ]
