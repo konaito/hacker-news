@@ -19147,5 +19147,64 @@
     "first_seen_at": "2026-11-27",
     "last_verified_at": "2026-11-27",
     "verification_note": "ScanNetSecurity(11/25)と電波デジタル(11/16)の本文を確認(いずれも山善発表を引用)。公式本体は未確認。"
+  },
+  {
+    "id": "mext-procurement-2026",
+    "published_at": "2026-11-27",
+    "occurred_at": "2026-10-01",
+    "region": "JP",
+    "company": "文部科学省",
+    "service": "政府調達情報システム(文科省管理サーバー)",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "category": "官公庁・公共",
+    "title": "文科省の政府調達情報システムのサーバーに第三者が不正アクセス、メールアドレス最大1,778件・事業者情報最大163,953件が漏えいした可能性",
+    "summary": "文部科学省は、政府調達情報システムを構成するサーバーに第三者が不正アクセスし、データベース内の情報が漏えいした可能性があると公表しました。10月1日に不正アクセスを検知し、システムの通信を遮断したとしています。",
+    "note": "対象は事業者の会社名・代表者名等とメールアドレスで、最大件数はメールアドレス1,778件、事業者情報163,953件です(The Recordは「約1,700件」「約16.4万件」と報道、Security NEXTの数値を採用)。公開や悪用は確認されておらず、侵入手口や攻撃者は不明です。個人情報保護委員会へ報告済み。件数は人数ではなくレコード単位です。",
+    "affected": [
+      {
+        "count": 1778,
+        "unit": "records",
+        "description": "メールアドレス(最大・漏えいの可能性)",
+        "source_id": "mext-procurement-2026-1"
+      },
+      {
+        "count": 163953,
+        "unit": "records",
+        "description": "事業者情報レコード(最大・漏えいの可能性)",
+        "source_id": "mext-procurement-2026-1"
+      }
+    ],
+    "sources": [
+      "mext-procurement-2026-1",
+      "mext-procurement-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "verification_note": "Security NEXT(11/27)とThe Record(11/27)の本文を確認。いずれも文科省発表を引用。文科省公式本文は未確認。"
+  },
+  {
+    "id": "sap-github-2026",
+    "published_at": "2026-11-27",
+    "occurred_at": null,
+    "region": "海外",
+    "company": "SAP",
+    "service": "社内開発環境(GitHub)",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "SAP、不審なアクティビティを検知しサイバーインシデントを認める、GitHub上のソースコード侵害が報じられる",
+    "summary": "SAPは不審なアクティビティを検知し、顧客とサービスを保護する対策を講じたと認めました。「現時点の調査では顧客の業務データへの不正アクセスの証拠はない」としています。",
+    "note": "従業員の認証トークンを窃取されGitHub上のソースコードを複製・改ざんされたとの内容はDer Spiegel等の報道(SAP未確認)で、ソースコードが実際に取得されたか、改ざんコードが顧客に届いたかは不明です。署名鍵の交換等の対応もHandelsblatt報道で、SAPは詳細を明かしていません。AI関与の指摘は未確認。10月にGentlemen集団が主張したSAP関連の掲載や4月のOSSパッケージ攻撃とは別件とみられ、関連は不明です。",
+    "affected": [],
+    "sources": [
+      "sap-github-2026-1",
+      "sap-github-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "verification_note": "SecurityWeek(11/27)とThe Record(11/27)の本文を確認。SAP声明の引用部分のみ確認事実とし、Der Spiegel等の報道内容は未確認として記載。SAP公式発表は未確認。"
   }
 ]

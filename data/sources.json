@@ -9574,5 +9574,33 @@
     "type": "reporting",
     "url": "https://dempa-digital.com/?p=730927",
     "title": "山善、コーポレートサイトに不正アクセス 個人情報延べ1万508件が漏えい"
+  },
+  {
+    "id": "mext-procurement-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/193439",
+    "title": "政府調達情報システムのサーバから個人情報流出か - 文科省"
+  },
+  {
+    "id": "mext-procurement-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/japan-education-ministry-cyberattack",
+    "title": "Japan's education ministry discloses breach of government procurement system"
+  },
+  {
+    "id": "sap-github-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+    "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised"
+  },
+  {
+    "id": "sap-github-2026-2",
+    "publisher": "The Record",
+    "type": "reporting",
+    "url": "https://therecord.media/sap-germany-cyberattack-github",
+    "title": "SAP confirms cyber incident amid reports of source code breach"
   }
 ]
