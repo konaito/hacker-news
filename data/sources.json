@@ -9602,5 +9602,19 @@
     "type": "reporting",
     "url": "https://therecord.media/sap-germany-cyberattack-github",
     "title": "SAP confirms cyber incident amid reports of source code breach"
+  },
+  {
+    "id": "dhc-online-shop-2026-1",
+    "publisher": "Security NEXT",
+    "type": "reporting",
+    "url": "https://www.security-next.com/193316",
+    "title": "Security NEXT｜通販サイトに不正アクセス、会員情報改ざんや不正注文も - DHC"
+  },
+  {
+    "id": "dhc-online-shop-2026-2",
+    "publisher": "WWD JAPAN",
+    "type": "reporting",
+    "url": "https://www.wwdjapan.com/articles/2540414?mobile=off",
+    "title": "WWD JAPAN｜DHCオンラインショップへの不正アクセス"
   }
 ]

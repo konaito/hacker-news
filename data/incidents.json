@@ -19206,5 +19206,47 @@
     "first_seen_at": "2026-11-27",
     "last_verified_at": "2026-11-27",
     "verification_note": "SecurityWeek(11/27)とThe Record(11/27)の本文を確認。SAP声明の引用部分のみ確認事実とし、Der Spiegel等の報道内容は未確認として記載。SAP公式発表は未確認。"
+  },
+  {
+    "id": "dhc-online-shop-2026",
+    "published_at": "2026-10-30",
+    "occurred_at": null,
+    "company": "ディーエイチシー(DHC)",
+    "service": "DHCオンラインショップ",
+    "region": "JP",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "EC・小売",
+    "title": "DHCオンラインショップに不正アクセス、5,096アカウントの会員情報が改ざんされ不正注文も",
+    "summary": "DHCは10月30日、公式オンラインショップへの不正アクセスにより、5,096アカウントの会員情報が書き換えられ、不審な注文27件と不正な新規会員登録71件が確認されたと公表しました。10月28日に不正アクセスを確認し、攻撃元の遮断、脆弱性の修正、会員情報の復元を行ったとしています。",
+    "note": "確認されたのは情報の改ざん・不正注文・不正登録で、会員番号・届け先の氏名住所電話番号・購入履歴・カード番号下4桁は「閲覧された可能性」にとどまり、外部への持ち出しは確認されていないとされています。件数の単位はアカウント、注文、登録でそれぞれ別です。顧客分析サービスKARTE経由の別件(約1,911万件)とは別事案として扱います。",
+    "affected": [
+      {
+        "count": 5096,
+        "unit": "accounts",
+        "description": "会員情報が書き換えられたアカウント(10月30日時点)",
+        "source_id": "dhc-online-shop-2026-1"
+      },
+      {
+        "count": 27,
+        "unit": "records",
+        "description": "確認された不審な注文(件)",
+        "source_id": "dhc-online-shop-2026-1"
+      },
+      {
+        "count": 71,
+        "unit": "records",
+        "description": "不正な新規会員登録(件)",
+        "source_id": "dhc-online-shop-2026-1"
+      }
+    ],
+    "sources": [
+      "dhc-online-shop-2026-1",
+      "dhc-online-shop-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "verification_note": "Security NEXT(11/25掲載)とWWD JAPAN本文で、10/28確認・5,096アカウント・不審注文27件・不正登録71件・閲覧の可能性を照合。公式発表の本文は未取得。"
   }
 ]
