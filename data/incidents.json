@@ -18957,5 +18957,117 @@
     "first_seen_at": "2026-11-26",
     "last_verified_at": "2026-11-26",
     "verification_note": "FIFAの声明を引用するThe Record本文とSecurityWeek(AP配信)本文の独立2媒体を確認。FIFA公式発表本体は未確認。攻撃者の主張は未検証として扱い、件数は記録していない。"
+  },
+  {
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "id": "meetsmore-2026",
+    "published_at": "2026-11-16",
+    "occurred_at": "2026-11-11",
+    "company": "ミツモア",
+    "service": "ミツモア(事業者の空き状況表示機能)",
+    "category": "IT・クラウド",
+    "title": "ミツモア、脆弱性を悪用した不正アクセスで最大36万6,850件の顧客情報が取得された可能性、別途201アカウントが不正ログイン",
+    "summary": "ミツモアは11月16日、事業者の空き状況を表示する機能の脆弱性が悪用され、依頼者の住所・電話番号などを含む最大36万6,850件が外部に取得された可能性があると公表しました。",
+    "note": "件数は件(records)であり人数ではありません。別件として、他所で漏れたとみられるID・パスワードで201アカウントに不正ログインされ、依頼者・事業者の情報が閲覧されました。氏名・メールアドレス・パスワード・クレジットカード情報は漏えい対象外と説明。11月12日に検知・同日修正、二次被害は未確認。11月18日公表の別件(KARTE関連)とは別の事案です。",
+    "affected": [
+      {
+        "count": 366850,
+        "unit": "records",
+        "description": "脆弱性悪用で取得された可能性のある情報の最大件数(人数ではない)",
+        "source_id": "meetsmore-2026-1"
+      },
+      {
+        "count": 201,
+        "unit": "accounts",
+        "description": "不正ログインが成立したアカウント数",
+        "source_id": "meetsmore-2026-1"
+      }
+    ],
+    "sources": [
+      "meetsmore-2026-1",
+      "meetsmore-2026-2"
+    ],
+    "verification_note": "ミツモア公式お知らせ本文とScanNetSecurity本文を確認。攻撃時間帯、件数、対象項目、対象外項目を突合。"
+  },
+  {
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "id": "rokkatei-shop-2026",
+    "published_at": "2026-11-18",
+    "occurred_at": "2026-10-21",
+    "company": "六花亭",
+    "service": "六花亭オンラインショップ",
+    "category": "EC・小売",
+    "title": "六花亭オンラインショップ、決済画面の改ざんでカード情報約8,000件が漏えいの可能性、不正利用1件を確認",
+    "summary": "六花亭は11月18日、第三者の不正アクセスで決済画面のプログラムが改ざんされ、入力されたクレジットカード情報が外部送信された可能性があるとして、サイトを停止しました。",
+    "note": "改ざん期間は10月21日21時〜11月18日11時。第一報でカード番号・名義・有効期限・セキュリティコード約8,000件(件数、人数ではない・変動の可能性)、11月21日の第二報で氏名・住所・電話番号・メールアドレスも対象と判明。11月20日に顧客からの申告で不正利用1件を確認。",
+    "affected": [
+      {
+        "count": 8000,
+        "unit": "records",
+        "description": "カード情報漏えいの可能性があるとされた約件数(第一報時点・人数ではない)",
+        "source_id": "rokkatei-shop-2026-1"
+      }
+    ],
+    "sources": [
+      "rokkatei-shop-2026-1",
+      "rokkatei-shop-2026-2"
+    ],
+    "verification_note": "六花亭公式第二報本文とScanNetSecurity本文を確認。ScanNetSecurity記事内に公表日の10月18日/11月18日の表記ゆれがあるが、公式本文の11月18日を採用。"
+  },
+  {
+    "region": "JP",
+    "status": "possible_leak",
+    "display_label": "漏えいの可能性",
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "id": "digital-agency-fileshare-2026",
+    "published_at": "2026-11-20",
+    "occurred_at": "2026-07-30",
+    "company": "デジタル庁",
+    "service": "ガバメントソリューションサービス(GSS)の政府機関等向けファイル共有サービス",
+    "category": "行政・公共",
+    "title": "デジタル庁、GSSのファイル共有サービスで正規の共有相手以外からのアクセスを確認、一部ファイルが漏えいした可能性でサービス停止",
+    "summary": "デジタル庁は11月20日、政府機関等向けファイル共有サービスで、正規の共有相手以外からファイルにアクセスされた可能性を11月12日に検知し、サービスを停止したと公表しました。",
+    "note": "7月30日〜11月12日に該当アクセスが確認されていますが、正確な期間は調査中。漏えいファイル数・影響人数は非公表で、個人情報の有無は未確認。二次被害は未確認。2026年9月公表の既存GSS事案(gss-2026)とは別の事案として扱います。",
+    "affected": [],
+    "sources": [
+      "digital-agency-fileshare-2026-1",
+      "digital-agency-fileshare-2026-2"
+    ],
+    "verification_note": "デジタル庁公式発表本文とScanNetSecurity本文を確認。件数は公表されておらず記録していない。"
+  },
+  {
+    "id": "1password-github-2026",
+    "published_at": "2026-11-25",
+    "occurred_at": null,
+    "company": "1Password",
+    "service": "社内GitHubアカウント・バックエンド・CI/CD",
+    "region": "海外",
+    "status": "confirmed_access",
+    "display_label": "不正アクセス確認",
+    "category": "IT・クラウド",
+    "title": "1Password、従業員のGitHubアカウント侵害でソースコードと一部顧客の管理情報にアクセスされたと公表、保管庫は影響なし",
+    "summary": "1Passwordは、従業員の社内GitHubアカウントが侵害され、攻撃者が非公開リポジトリのソースコードやCI/CD、一部顧客のアカウント情報にアクセスしたと公表しました。",
+    "note": "11月19日に調査を開始。顧客保管庫と暗号鍵への不正アクセスの証拠はないと説明。影響を受けた顧客数は非公表で、招待・プロビジョニング・復旧中だった「少数」に個別通知。最初の侵入経路は不明。1Password公式ブログ本体は未確認で、独立2媒体の本文で確認。",
+    "affected": [],
+    "sources": [
+      "1password-github-2026-1",
+      "1password-github-2026-2"
+    ],
+    "publication_status": "published",
+    "first_seen_at": "2026-11-27",
+    "last_verified_at": "2026-11-27",
+    "verification_note": "SecurityWeekとThe Hacker Newsの本文を確認(両者が1Password発表を引用)。公式本体は未確認。件数は非公表のため記録していない。"
   }
 ]

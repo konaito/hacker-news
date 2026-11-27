@@ -9490,5 +9490,61 @@
     "type": "reporting",
     "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
     "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing 'Personal and Business Information'"
+  },
+  {
+    "id": "meetsmore-2026-1",
+    "publisher": "株式会社ミツモア",
+    "type": "primary",
+    "url": "https://company.meetsmore.com/page/notice-20261116",
+    "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ"
+  },
+  {
+    "id": "meetsmore-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/27/56913.html",
+    "title": "「ミツモア」にシステムの脆弱性を悪用した不正アクセス、最大36万6,850件の情報が取得される"
+  },
+  {
+    "id": "rokkatei-shop-2026-1",
+    "publisher": "六花亭",
+    "type": "primary",
+    "url": "https://www.rokkatei.co.jp/news/info/20261121-25796/",
+    "title": "六花亭オンラインショップ 不正アクセスによるクレジットカード情報漏えいの可能性（第二報）"
+  },
+  {
+    "id": "rokkatei-shop-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/27/56918.html",
+    "title": "「六花亭オンラインショップ」カード情報漏えい 不正利用1件確認"
+  },
+  {
+    "id": "digital-agency-fileshare-2026-1",
+    "publisher": "デジタル庁",
+    "type": "primary",
+    "url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986",
+    "title": "ガバメントソリューションサービスのファイル共有サービスへの不正アクセスについて"
+  },
+  {
+    "id": "digital-agency-fileshare-2026-2",
+    "publisher": "ScanNetSecurity",
+    "type": "reporting",
+    "url": "https://scan.netsecurity.ne.jp/article/2026/11/27/56915.html",
+    "title": "デジタル庁のファイル共有サービスに正規外アクセス、一部ファイルが漏えいした可能性"
+  },
+  {
+    "id": "1password-github-2026-1",
+    "publisher": "SecurityWeek",
+    "type": "reporting",
+    "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+    "title": "1Password Breach Exposes Customer Data, Internal Source Code"
+  },
+  {
+    "id": "1password-github-2026-2",
+    "publisher": "The Hacker News",
+    "type": "reporting",
+    "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach"
   }
 ]
