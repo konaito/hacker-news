@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "completed_at": "2026-11-27T23:28:36.708381+00:00",
+  "completed_at": "2026-11-28T07:42:10.971735+00:00",
   "candidates": [
     {
       "title": "Cursor/Fireworks AI供給網攻撃(SecurityWeek)",
@@ -1011,10 +1011,10 @@
   },
   "last_attempt": {
     "mode": "fresh",
-    "run_id": "46082415870",
-    "completed_at": "2026-11-27T23:28:36.708381+00:00",
-    "result": "success",
-    "error": null,
+    "run_id": "46122367460",
+    "completed_at": "2026-11-28T07:42:10.971735+00:00",
+    "result": "failure",
+    "error": "Missing or unsafe JSON input: .audit/research-result/.audit/fresh/current-report.json",
     "main_sha": "c98e01b72bed0615dd6ce8522e6863a4608e43da"
   }
 }
